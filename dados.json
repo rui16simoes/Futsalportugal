@@ -459,7 +459,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "",
+    "golos": "1",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -475,7 +475,7 @@
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
       "e": "P",
-      "min": "",
+      "min": "1",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491927&w=142&h=144",
       "fit": ""
      },
@@ -627,7 +627,7 @@
    },
    "fora": {
     "eq": "jimbee",
-    "golos": "",
+    "golos": "0",
     "capitao": "FRANCISCO TOMAZ",
     "treinador": "DUDA",
     "jogadores": [
@@ -1590,5 +1590,5 @@
    "obs": ""
   }
  ],
- "ts": 1788012002380
+ "ts": 1788012164873
 }

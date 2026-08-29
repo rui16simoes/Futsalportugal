@@ -700,7 +700,7 @@
       "nome": "WALTINHO",
       "e": "S",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/29/74/362974_waltinho_20260508121745.jpg",
       "fit": ""
      },
      {
@@ -708,7 +708,7 @@
       "nome": "GABRIEL MOTTA",
       "e": "S",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/44/91/664491_gabriel_motta_20260508121955.jpg",
       "fit": ""
      },
      {
@@ -1494,7 +1494,7 @@
       "nome": "WALTINHO",
       "e": "",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/29/74/362974_waltinho_20260508121745.jpg",
       "fit": ""
      },
      {
@@ -1502,7 +1502,7 @@
       "nome": "GABRIEL MOTTA",
       "e": "",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/44/91/664491_gabriel_motta_20260508121955.jpg",
       "fit": ""
      },
      {
@@ -1590,5 +1590,5 @@
    "obs": ""
   }
  ],
- "ts": 1788012164873
+ "ts": 1788012323055
 }

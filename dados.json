@@ -688,14 +688,6 @@
       "fit": ""
      },
      {
-      "num": "5",
-      "nome": "LUCAS FARIAS",
-      "e": "N",
-      "min": "",
-      "foto": "",
-      "fit": ""
-     },
-     {
       "num": "6",
       "nome": "CARLOS ALONSO",
       "e": "S",
@@ -822,6 +814,14 @@
       "min": "",
       "foto": "https://jimbeecartagena.es/wp-content/uploads/2026/03/GINES-removebg-preview-267x4001-1.png",
       "fit": "topo"
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": "",
+      "min": "",
+      "foto": "",
+      "fit": ""
      }
     ]
    },
@@ -1514,14 +1514,6 @@
       "fit": ""
      },
      {
-      "num": "5",
-      "nome": "LUCAS FARIAS",
-      "e": "",
-      "min": "",
-      "foto": "",
-      "fit": ""
-     },
-     {
       "num": "6",
       "nome": "CARLOS ALONSO",
       "e": "",
@@ -1648,11 +1640,19 @@
       "min": "",
       "foto": "https://jimbeecartagena.es/wp-content/uploads/2026/03/GINES-removebg-preview-267x4001-1.png",
       "fit": "topo"
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": "",
+      "min": "",
+      "foto": "",
+      "fit": ""
      }
     ]
    },
    "obs": ""
   }
  ],
- "ts": 1788012827108
+ "ts": 1788013218661
 }

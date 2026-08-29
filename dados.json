@@ -517,7 +517,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "3",
+    "golos": "4",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -570,7 +570,7 @@
       "num": "7",
       "nome": "LÚCIO ROCHA",
       "e": "S",
-      "min": "",
+      "min": "32",
       "cart": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491661&w=142&h=144",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788016242142
+ "ts": 1788016607610
 }

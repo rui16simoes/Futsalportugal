@@ -16,7 +16,7 @@
    "tvEmbed": "",
    "casa": {
     "eq": "sporting",
-    "golos": "4",
+    "golos": "5",
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "jogadores": [
@@ -108,7 +108,7 @@
       "num": "25",
       "nome": "BRUNO PINTO",
       "e": "P",
-      "min": "",
+      "min": "36",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4492258&w=142&h=144"
      },
      {

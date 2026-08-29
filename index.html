@@ -104,12 +104,12 @@
   td.nome input{text-align:left;padding-left:11px;font-size:.85rem;letter-spacing:.01em}
   td.n input{font-family:"Barlow Condensed",sans-serif;font-weight:700;color:var(--gold);
     font-size:.98rem;font-variant-numeric:tabular-nums}
-  th.est{width:132px}
-  td.est{width:132px;padding:4px 6px}
-  .seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+  th.est{width:96px}
+  td.est{width:96px;padding:4px 5px;overflow:hidden}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;max-width:100%}
   .sg{appearance:none;border:0;border-right:1px solid var(--line);background:transparent;
     color:var(--ink-3);font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.85rem;
-    width:32px;padding:5px 0;cursor:pointer;transition:.12s;line-height:1}
+    width:28px;padding:5px 0;cursor:pointer;transition:.12s;line-height:1;flex:0 0 auto}
   .sg:last-child{border-right:0}
   .sg:hover{background:rgba(255,255,255,.07);color:var(--ink)}
   .sg.on.p{background:var(--gold);color:#241B06}
@@ -124,12 +124,15 @@
   tr.on-p{background:rgba(239,192,80,.09)}
   tr.on-n{opacity:.5}
 
-  th.g{width:74px;color:var(--gold)}
-  td.gol{width:74px}
-  td.gol input.gi{width:100%;text-align:center;border:0;background:transparent;color:var(--gold);
-    font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:1rem;padding:6px 2px;
+  th.g{width:76px;color:var(--gold)}
+  td.gol{width:76px;padding:4px 5px}
+  td.gol input.gi{width:100%;text-align:center;border:1px dashed rgba(239,192,80,.35);border-radius:4px;
+    background:rgba(239,192,80,.07);color:var(--gold);
+    font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.95rem;padding:5px 3px;
     font-variant-numeric:tabular-nums}
-  td.gol input.gi::placeholder{color:rgba(243,246,255,.18);font-weight:500}
+  td.gol input.gi:focus{border-style:solid;border-color:var(--gold);background:rgba(239,192,80,.14)}
+  td.gol input.gi::placeholder{color:rgba(239,192,80,.45);font-weight:600;font-size:.7rem;
+    letter-spacing:.06em;text-transform:uppercase}
   .bola{display:inline-block;padding:2px 7px;border-radius:9px;
     background:var(--gold);color:#241B06;font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.78rem;
     font-variant-numeric:tabular-nums}

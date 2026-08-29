@@ -104,8 +104,8 @@
   td.nome input{text-align:left;padding-left:11px;font-size:.85rem;letter-spacing:.01em}
   td.n input{font-family:"Barlow Condensed",sans-serif;font-weight:700;color:var(--gold);
     font-size:.98rem;font-variant-numeric:tabular-nums}
-  th.est{width:96px}
-  td.est{width:96px;padding:4px 5px;overflow:hidden}
+  th.est{width:102px}
+  td.est{padding:4px 5px}
   .seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden;max-width:100%}
   .sg{appearance:none;border:0;border-right:1px solid var(--line);background:transparent;
     color:var(--ink-3);font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.85rem;
@@ -314,7 +314,7 @@
         '<td class="nome"><span class="cel">' + av(p, t) +
         '<input type="text" data-pf="nome" data-lado="' + lado + '" data-i="' + i +
         '" value="' + esc(p.nome) + '" aria-label="Nome do atleta"></span></td>' +
-        '<td class="est"><span class="seg" data-lado="' + lado + '" data-i="' + i + '">' +
+        '<td class="est" colspan="3"><span class="seg" data-lado="' + lado + '" data-i="' + i + '">' +
           seg("P", on) + seg("S", on) + seg("N", on) + "</span></td>" +
         '<td class="gol"><input type="text" inputmode="numeric" class="gi" data-pf="min" data-lado="' + lado +
         '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" placeholder="min"></td>' +

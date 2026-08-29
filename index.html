@@ -170,6 +170,13 @@
     background:rgba(239,192,80,.06);font-size:.8rem;color:var(--ink-2)}
   .marcadores .m b{color:var(--ink);font-weight:600}
   .marcadores .m::before{content:"⚽";margin-right:5px;font-size:.75rem}
+  .bola.ag{background:rgba(255,122,122,.85);color:#2A0E0E}
+  .marcadores .m.ag::before{content:"⚽"}
+  .marcadores .m.ag i{font-style:normal;color:var(--bad);font-weight:700;font-size:.72rem;
+    letter-spacing:.06em;text-transform:uppercase}
+  .dica{margin:0;padding:7px 12px;border-top:1px solid rgba(255,255,255,.07);
+    font-size:.7rem;line-height:1.4;color:var(--ink-3);background:rgba(0,0,0,.14)}
+  .dica b{color:var(--gold);font-weight:700}
   .marcadores .vazio{color:var(--ink-3)}
   .marcadores .tot{margin-left:auto;color:var(--gold);font-weight:600;letter-spacing:.04em;
     font-family:"Barlow Condensed",sans-serif;font-size:.9rem}
@@ -326,21 +333,39 @@
       "onerror=\"this.replaceWith(Object.assign(document.createElement('span'),{className:'av'}))\">";
   }
 
+  // "6, 23" golos normais · "32a" autogolo (conta para a equipa adversária)
   function mins(p) {
     var txt = (p.min || "").toString();
-    var l = txt.split(/[^0-9]+/).filter(function (x) { return x !== ""; });
-    return l;
+    var out = [], m, re = /(\d+)\s*(a|ag)?/gi;
+    while ((m = re.exec(txt)) !== null) {
+      if (!m[1]) break;
+      out.push({ m: m[1], ag: !!m[2] });
+    }
+    return out;
+  }
+
+  function minTxt(x) { return x.m + "'" + (x.ag ? " a.g." : ""); }
+
+  function golosDe(j, lado) {
+    var outro = lado === "casa" ? "fora" : "casa", ev = [];
+    j[lado].jogadores.forEach(function (p) {
+      if (!p.nome) return;
+      mins(p).forEach(function (x) { if (!x.ag) ev.push({ nome: p.nome, m: x.m }); });
+    });
+    j[outro].jogadores.forEach(function (p) {
+      if (!p.nome) return;
+      mins(p).forEach(function (x) { if (x.ag) ev.push({ nome: p.nome, m: x.m, ag: true }); });
+    });
+    return ev.sort(function (a, b) { return +a.m - +b.m; });
   }
 
   function marcadores(j, lado) {
-    var l = j[lado].jogadores.filter(function (p) { return p.nome && mins(p).length; });
-    var total = l.reduce(function (a, p) { return a + mins(p).length; }, 0);
-    if (!l.length) return '<span class="vazio">Sem golos registados</span>';
-    var ordenados = l.slice().sort(function (a, b) { return +mins(a)[0] - +mins(b)[0]; });
-    return ordenados.map(function (p) {
-      return '<span class="m"><b>' + esc(p.nome) + "</b> " +
-        mins(p).map(function (x) { return x + "'"; }).join(" ") + "</span>";
-    }).join("") + '<span class="tot">' + total + (total === 1 ? " golo" : " golos") + "</span>";
+    var ev = golosDe(j, lado);
+    if (!ev.length) return '<span class="vazio">Sem golos registados</span>';
+    return ev.map(function (x) {
+      return '<span class="m' + (x.ag ? " ag" : "") + '"><b>' + esc(x.nome) + "</b> " + x.m + "'" +
+        (x.ag ? ' <i>a.g.</i>' : "") + "</span>";
+    }).join("") + '<span class="tot">' + ev.length + (ev.length === 1 ? " golo" : " golos") + "</span>";
   }
 
   var GRUPOS = [
@@ -356,7 +381,9 @@
       '<td class="nome"><span class="cel">' + av(p, t) +
       '<span class="ro">' + esc(p.nome) + '</span></span></td>' +
       '<td class="gol">' + (mins(p).length
-        ? '<span class="bola">' + esc(mins(p).map(function (x) { return x + "'"; }).join(" ")) + "</span>"
+        ? mins(p).map(function (x) {
+            return '<span class="bola' + (x.ag ? " ag" : "") + '">' + esc(minTxt(x)) + "</span>";
+          }).join(" ")
         : "") + "</td></tr>";
   }
 
@@ -386,7 +413,7 @@
         '<td class="est" colspan="3"><span class="seg" data-lado="' + lado + '" data-i="' + i + '">' +
           seg("P", on) + seg("S", on) + seg("N", on) + "</span></td>" +
         '<td class="gol"><input type="text" inputmode="numeric" class="gi" data-pf="min" data-lado="' + lado +
-        '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" placeholder="min"></td>' +
+        '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" title="Minutos dos golos. Autogolo: 32a" placeholder="min"></td>' +
         "</tr>";
     }).join("");
 
@@ -399,6 +426,8 @@
       "<table><thead>" + cab + "</thead>" +
       "<tbody>" + rows + "</tbody></table>" +
       '<div class="marcadores" data-lado="' + lado + '">' + marcadores(j, lado) + "</div>" +
+      (RO ? "" : '<p class="dica">Golos: escreve os minutos (ex.: 7, 23). <b>Autogolo:</b> junta um <b>a</b> ' +
+        'ao minuto (ex.: <b>32a</b>) — o golo passa para o lado da outra equipa.</p>') +
       '<div class="cap"><span class="k">Capitão</span>' +
       (RO ? '<span class="ro">' + esc(eq.capitao || "—") + "</span>"
           : '<input type="text" data-eqf="capitao" data-lado="' + lado + '" value="' + esc(eq.capitao) + '">') + "</div>" +
@@ -492,7 +521,7 @@
         '<div class="grid">' + tabela("casa", j) + tabela("fora", j) + "</div>" +
         '<p class="oficiais">Oficiais no banco de suplentes</p>' +
         '<div class="strip two">' + banco("casa", j) + banco("fora", j) + "</div>" +
-        '<p class="legend">P — cinco inicial &nbsp;·&nbsp; S — suplente &nbsp;·&nbsp; N — não convocado &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23)</p>' +
+        '<p class="legend">P — cinco inicial &nbsp;·&nbsp; S — suplente &nbsp;·&nbsp; N — não convocado &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23) &nbsp;·&nbsp; autogolo: junta um <b>a</b> ao minuto (ex.: 32a)</p>' +
         directo(j) +
         (RO && !j.obs ? "" :
           '<div class="obs"><label for="obs">Observações</label>' +
@@ -522,8 +551,10 @@
       var alvo = j[t.dataset.lado].jogadores[+t.dataset.i];
       if (t.dataset.pf === "min") {
         alvo.min = t.value;
-        var el = document.querySelector('.marcadores[data-lado="' + t.dataset.lado + '"]');
-        if (el) el.innerHTML = marcadores(j, t.dataset.lado);
+        ["casa", "fora"].forEach(function (l) {   // autogolo entra do outro lado
+          var el = document.querySelector('.marcadores[data-lado="' + l + '"]');
+          if (el) el.innerHTML = marcadores(j, l);
+        });
       } else {
         alvo[t.dataset.pf] = t.value;
       }

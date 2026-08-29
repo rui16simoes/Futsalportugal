@@ -59,7 +59,7 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "S",
-      "min": "",
+      "min": "32a",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4493929&w=142&h=144"
      },
      {
@@ -164,7 +164,7 @@
    },
    "fora": {
     "eq": "palma",
-    "golos": "1",
+    "golos": "2",
     "capitao": "CARLOS BARRÓN",
     "treinador": "ANTONIO VADILLO",
     "jogadores": [

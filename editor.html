@@ -404,9 +404,9 @@
 
       (RO ? "" :
         '<div class="bar"><div class="in"><span class="status" id="st"></span>' +
-        (MODE === "editor" ? '<button class="btn ghost" id="dl">Descarregar dados.json</button>' : "") +
+        (MODE === "editor" ? '<button class="btn ghost" id="dl">Só dados.json</button>' : "") +
         (SRV ? '<button class="btn ghost" id="dl">Cópia de segurança</button>' : "") +
-        '<button class="btn" id="save">Guardar</button></div></div>');
+        '<button class="btn" id="save">' + (MODE === "editor" ? "Guardar + JSON" : "Guardar") + '</button></div></div>');
 
     status();
   }
@@ -459,13 +459,15 @@
     if (e.target.id === "dl") { descarregar(); return; }
   });
 
-  function descarregar() {
+  function descarregar(msg) {
     var a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 1)], { type: "application/json" }));
     a.download = "dados.json";
+    document.body.appendChild(a);
     a.click();
-    URL.revokeObjectURL(a.href);
-    status("dados.json descarregado — substitui-o no GitHub");
+    a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+    status(msg || "dados.json descarregado — substitui-o no GitHub");
   }
 
   function docHtml() {
@@ -485,10 +487,12 @@
   async function guardar() {
     if (saving) return;
     if (MODE === "editor") {
-      try {
-        localStorage.setItem(LS, JSON.stringify(state));
-        dirty = false; status("Guardado neste dispositivo");
-      } catch (e) { status("Este navegador não deixa guardar — usa Descarregar dados.json"); }
+      var ok = true;
+      try { localStorage.setItem(LS, JSON.stringify(state)); dirty = false; }
+      catch (e) { ok = false; }
+      descarregar(ok
+        ? "Guardado aqui + dados.json descarregado — envia/coloca o ficheiro para ficar em direto"
+        : "dados.json descarregado — envia/coloca o ficheiro para ficar em direto");
       return;
     }
     if (SRV) {

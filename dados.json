@@ -714,7 +714,7 @@
    },
    "fora": {
     "eq": "jimbee",
-    "golos": "0",
+    "golos": "1",
     "capitao": "FRANCISCO TOMAZ",
     "treinador": "DUDA",
     "jogadores": [
@@ -884,7 +884,7 @@
       "num": "23",
       "nome": "DARÍO GIL",
       "e": "S",
-      "min": "",
+      "min": "37",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788016607610
+ "ts": 1788017277848
 }

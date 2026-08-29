@@ -624,7 +624,7 @@
         "</div>" +
 
         '<div class="grid">' + tabela("casa", j) + tabela("fora", j) + "</div>" +
-        '<p class="oficiais">Oficiais no banco de suplentes</p>' +
+        (RO ? "" : '<p class="oficiais">Oficiais no banco de suplentes</p>') +
         '<div class="strip two">' + banco("casa", j) + banco("fora", j) + "</div>" +
         (RO ? "" : '<p class="legend">P — cinco inicial &nbsp;·&nbsp; S — suplente &nbsp;·&nbsp; N — não convocado' +
           ' &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23) &nbsp;·&nbsp; autogolo: botão <b>AG</b> ao lado do minuto</p>') +

@@ -154,8 +154,14 @@
   tr.grp.n .gt::after{background:linear-gradient(90deg,rgba(255,122,122,.3),transparent)}
   tr.grp.s td,tr.grp.n td{padding-top:16px}
 
-  th.g{width:76px;color:var(--gold)}
-  td.gol{width:76px;padding:4px 5px}
+  th.g{width:104px;color:var(--gold)}
+  td.gol{padding:4px 5px}
+  .gcel{display:flex;align-items:center;gap:4px}
+  .ag{appearance:none;flex:0 0 auto;border:1px solid rgba(255,122,122,.5);background:rgba(255,122,122,.1);
+    color:var(--bad);font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.72rem;
+    letter-spacing:.06em;border-radius:4px;padding:6px 5px;cursor:pointer;line-height:1;transition:.12s}
+  .ag:hover{background:rgba(255,122,122,.25)}
+  .ag.on{background:rgba(255,122,122,.85);color:#2A0E0E;border-color:transparent}
   td.gol input.gi{width:100%;text-align:center;border:1px dashed rgba(239,192,80,.35);border-radius:4px;
     background:rgba(239,192,80,.07);color:var(--gold);
     font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.95rem;padding:5px 3px;
@@ -413,8 +419,13 @@
         '" value="' + esc(p.nome) + '" aria-label="Nome do atleta"></span></td>' +
         '<td class="est" colspan="3"><span class="seg" data-lado="' + lado + '" data-i="' + i + '">' +
           seg("P", on) + seg("S", on) + seg("N", on) + "</span></td>" +
-        '<td class="gol"><input type="text" inputmode="numeric" class="gi" data-pf="min" data-lado="' + lado +
-        '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" title="Minutos dos golos. Autogolo: 32a" placeholder="min"></td>' +
+        '<td class="gol"><span class="gcel">' +
+        '<input type="text" inputmode="numeric" class="gi" data-pf="min" data-lado="' + lado +
+        '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" ' +
+        'title="Minutos dos golos" placeholder="min">' +
+        '<button type="button" class="ag' + (mins(p).some(function (x) { return x.ag; }) ? " on" : "") +
+        '" data-ag="1" data-lado="' + lado + '" data-i="' + i +
+        '" title="Autogolo — o golo conta para a equipa adversária">AG</button></span></td>' +
         "</tr>";
     }).join("");
 
@@ -579,7 +590,21 @@
     render(); dirty = true; status();
   }
 
+  function alternarAG(btn) {
+    var j = jogo(), p = j[btn.dataset.lado].jogadores[+btn.dataset.i];
+    var txt = (p.min || "").trim();
+    if (!txt) { p.min = ""; render(); dirty = true; status();
+      var alvo = document.querySelector('input.gi[data-lado="' + btn.dataset.lado + '"][data-i="' + btn.dataset.i + '"]');
+      if (alvo) alvo.focus();
+      return; }
+    var l = mins(p), tudo = l.every(function (x) { return x.ag; });
+    p.min = l.map(function (x) { return x.m + (tudo ? "" : "a"); }).join(" ");
+    render(); dirty = true; status();
+  }
+
   document.addEventListener("click", function (e) {
+    var ag = e.target.closest && e.target.closest("button.ag");
+    if (ag) { alternarAG(ag); return; }
     var sg = e.target.closest && e.target.closest("button.sg");
     if (sg) { marcar(sg); return; }
     var tab = e.target.closest && e.target.closest(".tab");

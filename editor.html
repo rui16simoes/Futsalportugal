@@ -211,11 +211,33 @@
   };
   var $ = function (s) { return document.querySelector(s); };
 
-  var state = JSON.parse(document.getElementById("state").textContent);
+  var BASE = JSON.parse(document.getElementById("state").textContent);
+  var state = BASE;
+
+  // as fotos são sempre as da versão publicada: nunca se perdem por causa de uma cópia antiga
+  function repor(alvo) {
+    var bj = {};
+    BASE.jogos.forEach(function (g) { bj[g.id] = g; });
+    alvo.jogos.forEach(function (g) {
+      var b = bj[g.id]; if (!b) return;
+      ["casa", "fora"].forEach(function (lado) {
+        var mapa = {};
+        b[lado].jogadores.forEach(function (p) {
+          if (p.nome) mapa[p.nome.trim().toUpperCase()] = p.foto || "";
+        });
+        g[lado].jogadores.forEach(function (p) {
+          var k = (p.nome || "").trim().toUpperCase();
+          if (mapa[k]) p.foto = mapa[k];
+        });
+      });
+    });
+    return alvo;
+  }
+
   if (MODE === "editor" || SRV) {
     try {
       var guardado = localStorage.getItem(LS);
-      if (guardado) state = JSON.parse(guardado);
+      if (guardado) state = repor(JSON.parse(guardado));
     } catch (e) { /* sem localStorage: segue com o que está na página */ }
   }
   var dirty = false, saving = false, api = null;
@@ -563,7 +585,7 @@
           if (s2 === assinatura) return;
           assinatura = s2;
           var atual = state.atual;
-          state = novo; state.atual = atual;
+          state = repor(novo); state.atual = atual;
           render();
         })
         .catch(function () {});

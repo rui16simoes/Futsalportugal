@@ -79,7 +79,8 @@
   .crest.tem{background:transparent!important}
   .av{width:26px;height:26px;border-radius:50%;flex:0 0 auto;object-fit:cover;background:rgba(255,255,255,.09);
     border:1px solid var(--line)}
-  .av.topo{object-position:50% 4%;background:rgba(255,255,255,.16)}
+  .av.topo{background-color:rgba(255,255,255,.16);background-repeat:no-repeat;
+    background-size:230% auto;background-position:50% 4%}
   .av.vazia{display:grid;place-items:center;overflow:hidden;background:rgba(255,255,255,.05)}
   .av.vazia img{width:70%;height:70%;object-fit:contain;opacity:.42}
   td.nome .cel{display:flex;align-items:center;gap:8px;padding-left:9px}
@@ -442,7 +443,10 @@
       }
       return '<span class="av" aria-hidden="true"></span>';
     }
-    return '<img class="av' + (p.fit === "topo" ? " topo" : "") + '" src="' + esc(p.foto) + '" alt="" loading="lazy" ' +
+    if (p.fit === "topo") {   // recorte de corpo inteiro: mostrar só a cabeça
+      return '<span class="av topo" style="background-image:url(\'' + esc(p.foto) + '\')"></span>';
+    }
+    return '<img class="av" src="' + esc(p.foto) + '" alt="" loading="lazy" ' +
       "onerror=\"this.replaceWith(Object.assign(document.createElement('span'),{className:'av'}))\">";
   }
 

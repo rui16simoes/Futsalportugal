@@ -661,7 +661,7 @@
       "e": "N",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/13/35/551335_chemi_20260508121722.jpg",
-      "fit": "topo"
+      "fit": ""
      },
      {
       "num": "2",
@@ -1487,7 +1487,7 @@
       "e": "",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/13/35/551335_chemi_20260508121722.jpg",
-      "fit": "topo"
+      "fit": ""
      },
      {
       "num": "2",
@@ -1654,5 +1654,5 @@
    "obs": ""
   }
  ],
- "ts": 1788013291242
+ "ts": 1788013752580
 }

@@ -11,6 +11,8 @@
    "arb2": "David Almeida",
    "arb3": "Duarte Casanova",
    "cron": "André Viseu",
+   "tv": "Record",
+   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-sporting-palma",
    "casa": {
     "eq": "sporting",
     "golos": "4",
@@ -319,6 +321,8 @@
    "arb2": "",
    "arb3": "",
    "cron": "",
+   "tv": "",
+   "tvUrl": "",
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -627,6 +631,8 @@
    "arb2": "",
    "arb3": "",
    "cron": "",
+   "tv": "",
+   "tvUrl": "",
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -935,6 +941,8 @@
    "arb2": "",
    "arb3": "",
    "cron": "",
+   "tv": "",
+   "tvUrl": "",
    "casa": {
     "eq": "sporting",
     "golos": "",

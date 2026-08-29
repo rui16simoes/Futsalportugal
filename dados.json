@@ -364,10 +364,10 @@
    "data": "29 de Agosto de 2026",
    "hora": "15h00",
    "local": "Portimão Arena",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "Diogo Cunha",
+   "arb2": "Rúben Rocha",
+   "arb3": "Filipa Prata",
+   "cron": "André Viseu",
    "tv": "",
    "tvUrl": "",
    "tvEmbed": "",
@@ -420,125 +420,125 @@
    "casa": {
     "eq": "benfica",
     "golos": "",
-    "capitao": "",
-    "treinador": "",
+    "capitao": "AFONSO JESUS",
+    "treinador": "CASSIANO KLEIN",
     "jogadores": [
      {
       "num": "1",
       "nome": "ANDRÉ CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491994&w=142&h=144"
      },
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491927&w=142&h=144"
      },
      {
       "num": "4",
       "nome": "AFONSO JESUS",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491653&w=142&h=144"
      },
      {
       "num": "5",
       "nome": "DIOGO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4492039&w=142&h=144"
      },
      {
       "num": "6",
       "nome": "RAÚL MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4493913&w=142&h=144"
      },
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491661&w=142&h=144"
      },
      {
       "num": "8",
       "nome": "ANDRÉ COELHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491896&w=142&h=144"
      },
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491636&w=142&h=144"
      },
      {
       "num": "11",
       "nome": "EDUARDO TCHUDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491913&w=142&h=144"
      },
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491619&w=142&h=144"
      },
      {
       "num": "16",
       "nome": "VASCO PINTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/59/55/1155955_vasco_pinto_20250302141827.jpg"
      },
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491647&w=142&h=144"
      },
      {
       "num": "18",
       "nome": "PANY VARELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491877&w=142&h=144"
      },
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491991&w=142&h=144"
      },
      {
       "num": "20",
       "nome": "ANDERSON FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4508305&w=142&h=144"
      },
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491860&w=142&h=144"
      },
      {
       "num": "77",
       "nome": "CLÉBER SOUZA",
-      "e": "",
+      "e": "N",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/54/84/635484_cleber_souza_20260813023911.png"
      },
@@ -568,106 +568,106 @@
    "fora": {
     "eq": "jimbee",
     "golos": "",
-    "capitao": "",
+    "capitao": "FRANCISCO TOMAZ",
     "treinador": "",
     "jogadores": [
      {
-      "num": "",
-      "nome": "DAVID (GR)",
-      "e": "",
+      "num": "2",
+      "nome": "ADRI RUBIO",
+      "e": "S",
       "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/66/32/986632_david_20260624160841.png"
+      "foto": ""
      },
      {
-      "num": "",
-      "nome": "CHEMI (GR)",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/13/35/551335_chemi_20260508121722.jpg"
-     },
-     {
-      "num": "",
-      "nome": "CHISPI (GR)",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/39/60/733960_chispi_20260508121919.jpg"
-     },
-     {
-      "num": "",
-      "nome": "TOMAZ BRAGA",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/59/14/545914_tomaz_braga_20260508121807.jpg"
-     },
-     {
-      "num": "",
-      "nome": "DARÍO GIL",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg"
-     },
-     {
-      "num": "",
-      "nome": "JUNINHO",
-      "e": "",
+      "num": "3",
+      "nome": "CICERO \"JUNINHO\"",
+      "e": "S",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/64/20/646420_juninho_20260508121919.jpg"
      },
      {
-      "num": "",
+      "num": "5",
       "nome": "AGUSTÍN PLAZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/82/54/808254_agustin_plaza_20240930160421.jpg"
      },
      {
-      "num": "",
-      "nome": "RENATO LOPES",
-      "e": "",
+      "num": "6",
+      "nome": "CARLOS ALONSO",
+      "e": "S",
       "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/46/57/554657_renato_lopes_20251009144644.png"
+      "foto": ""
      },
      {
-      "num": "",
-      "nome": "MIGUEL MELLADO",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/16/04/661604_miguel_mellado_20260508121746.jpg"
-     },
-     {
-      "num": "",
-      "nome": "FRANCISCO CORTÉS",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/58/06/915806_francisco_cortes_20260508121722.jpg"
-     },
-     {
-      "num": "",
+      "num": "7",
       "nome": "GONZALO CASTEJÓN",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/10/06/601006_gonzalo_castejon_20260508121836.jpg"
      },
      {
-      "num": "",
+      "num": "8",
+      "nome": "FRANCISCO TOMAZ",
+      "e": "S",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/59/14/545914_tomaz_braga_20260508121807.jpg"
+     },
+     {
+      "num": "9",
       "nome": "PABLO RAMÍREZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/29/52/952952_pablo_ramirez_20260508121807.jpg"
      },
      {
-      "num": "",
-      "nome": "",
-      "e": "",
+      "num": "10",
+      "nome": "FRANCISCO CORTÉS",
+      "e": "S",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/58/06/915806_francisco_cortes_20260508121722.jpg"
+     },
+     {
+      "num": "11",
+      "nome": "WALTINHO",
+      "e": "S",
       "min": "",
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "",
-      "e": "",
+      "num": "14",
+      "nome": "GABRIEL MOTTA",
+      "e": "S",
       "min": "",
       "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "CARLOS PEREZ (GR)",
+      "e": "S",
+      "min": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "MUHAMMAD OSAMANMUSA",
+      "e": "S",
+      "min": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "DAVID ARAÚJO (GR)",
+      "e": "S",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/66/32/986632_david_20260624160841.png"
+     },
+     {
+      "num": "23",
+      "nome": "DARÍO GIL",
+      "e": "S",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg"
      },
      {
       "num": "",
@@ -1286,102 +1286,102 @@
     "treinador": "",
     "jogadores": [
      {
-      "num": "",
-      "nome": "DAVID (GR)",
+      "num": "2",
+      "nome": "ADRI RUBIO",
       "e": "",
       "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/66/32/986632_david_20260624160841.png"
+      "foto": ""
      },
      {
-      "num": "",
-      "nome": "CHEMI (GR)",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/13/35/551335_chemi_20260508121722.jpg"
-     },
-     {
-      "num": "",
-      "nome": "CHISPI (GR)",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/39/60/733960_chispi_20260508121919.jpg"
-     },
-     {
-      "num": "",
-      "nome": "TOMAZ BRAGA",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/59/14/545914_tomaz_braga_20260508121807.jpg"
-     },
-     {
-      "num": "",
-      "nome": "DARÍO GIL",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg"
-     },
-     {
-      "num": "",
-      "nome": "JUNINHO",
+      "num": "3",
+      "nome": "CICERO \"JUNINHO\"",
       "e": "",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/64/20/646420_juninho_20260508121919.jpg"
      },
      {
-      "num": "",
+      "num": "5",
       "nome": "AGUSTÍN PLAZA",
       "e": "",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/82/54/808254_agustin_plaza_20240930160421.jpg"
      },
      {
-      "num": "",
-      "nome": "RENATO LOPES",
+      "num": "6",
+      "nome": "CARLOS ALONSO",
       "e": "",
       "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/46/57/554657_renato_lopes_20251009144644.png"
+      "foto": ""
      },
      {
-      "num": "",
-      "nome": "MIGUEL MELLADO",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/16/04/661604_miguel_mellado_20260508121746.jpg"
-     },
-     {
-      "num": "",
-      "nome": "FRANCISCO CORTÉS",
-      "e": "",
-      "min": "",
-      "foto": "https://www.zerozero.pt/img/jogadores/new/58/06/915806_francisco_cortes_20260508121722.jpg"
-     },
-     {
-      "num": "",
+      "num": "7",
       "nome": "GONZALO CASTEJÓN",
       "e": "",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/10/06/601006_gonzalo_castejon_20260508121836.jpg"
      },
      {
-      "num": "",
+      "num": "8",
+      "nome": "FRANCISCO TOMAZ",
+      "e": "",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/59/14/545914_tomaz_braga_20260508121807.jpg"
+     },
+     {
+      "num": "9",
       "nome": "PABLO RAMÍREZ",
       "e": "",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/29/52/952952_pablo_ramirez_20260508121807.jpg"
      },
      {
-      "num": "",
-      "nome": "",
+      "num": "10",
+      "nome": "FRANCISCO CORTÉS",
+      "e": "",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/58/06/915806_francisco_cortes_20260508121722.jpg"
+     },
+     {
+      "num": "11",
+      "nome": "WALTINHO",
       "e": "",
       "min": "",
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "",
+      "num": "14",
+      "nome": "GABRIEL MOTTA",
       "e": "",
       "min": "",
       "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "CARLOS PEREZ (GR)",
+      "e": "",
+      "min": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "MUHAMMAD OSAMANMUSA",
+      "e": "",
+      "min": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "DAVID ARAÚJO (GR)",
+      "e": "",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/66/32/986632_david_20260624160841.png"
+     },
+     {
+      "num": "23",
+      "nome": "DARÍO GIL",
+      "e": "",
+      "min": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg"
      },
      {
       "num": "",
@@ -1430,5 +1430,5 @@
    "obs": ""
   }
  ],
- "ts": 1788004274245
+ "ts": 1788010734087
 }

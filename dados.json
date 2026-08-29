@@ -424,8 +424,8 @@
    "arb2": "Rúben Rocha",
    "arb3": "Filipa Prata",
    "cron": "André Viseu",
-   "tv": "",
-   "tvUrl": "",
+   "tv": "Jornal Record",
+   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-benfica-cartagena",
    "tvEmbed": "",
    "gp": {
     "casa": [
@@ -1654,5 +1654,5 @@
    "obs": ""
   }
  ],
- "ts": 1788013752580
+ "ts": 1788014188526
 }

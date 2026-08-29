@@ -1,0 +1,917 @@
+{
+ "atual": "j1",
+ "jogos": [
+  {
+   "id": "j1",
+   "jornada": "Jornada 1",
+   "data": "29 de Agosto de 2026",
+   "hora": "11h00",
+   "local": "Portimão Arena",
+   "arb1": "Miguel Guerra",
+   "arb2": "David Almeida",
+   "arb3": "Duarte Casanova",
+   "cron": "André Viseu",
+   "casa": {
+    "eq": "sporting",
+    "golos": "",
+    "capitao": "ALEX MERLIM",
+    "treinador": "NUNO DIAS",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GONÇALO PORTUGAL (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "RAFAEL RUELA",
+      "e": ""
+     },
+     {
+      "num": "4",
+      "nome": "TOMÁS PAÇÔ",
+      "e": ""
+     },
+     {
+      "num": "6",
+      "nome": "ZICKY TÉ",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "DIOGO SANTOS",
+      "e": ""
+     },
+     {
+      "num": "8",
+      "nome": "WESLEY",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "RUBEN TEIXEIRA",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "CHISHKALA",
+      "e": ""
+     },
+     {
+      "num": "13",
+      "nome": "TIAGUINHO",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "FELIPE VALÉRIO",
+      "e": ""
+     },
+     {
+      "num": "16",
+      "nome": "BERNARDO PAÇÔ (GR)",
+      "e": ""
+     },
+     {
+      "num": "17",
+      "nome": "ERICK MENDONÇA",
+      "e": ""
+     },
+     {
+      "num": "25",
+      "nome": "BRUNO PINTO",
+      "e": ""
+     },
+     {
+      "num": "29",
+      "nome": "ALEX MERLIM",
+      "e": ""
+     },
+     {
+      "num": "30",
+      "nome": "FELIPE RUFINO",
+      "e": ""
+     },
+     {
+      "num": "44",
+      "nome": "BRUNO MAIOR",
+      "e": ""
+     },
+     {
+      "num": "70",
+      "nome": "ROCHA",
+      "e": ""
+     },
+     {
+      "num": "77",
+      "nome": "OLEKSANDR SUKHOV",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "palma",
+    "golos": "",
+    "capitao": "CARLOS BARRÓN",
+    "treinador": "ANTONIO VADILLO",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "CARLOS BARRÓN (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "DENNIS CAVALCANTI (GR)",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "DAVID PEÑA",
+      "e": ""
+     },
+     {
+      "num": "9",
+      "nome": "CHARLES FERREIRA \"CHARUTO\"",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "FABIO SANTOS \"FABINHO\"",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "JÚLIO ZANOTTO",
+      "e": ""
+     },
+     {
+      "num": "12",
+      "nome": "LUCAS VINICIUS \"LUCÃO\"",
+      "e": ""
+     },
+     {
+      "num": "13",
+      "nome": "RODRIGO",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "CARLOS GOMEZ",
+      "e": ""
+     },
+     {
+      "num": "20",
+      "nome": "DAVID PASINATO \"DEIVÃO\"",
+      "e": ""
+     },
+     {
+      "num": "23",
+      "nome": "PIQUERAS",
+      "e": ""
+     },
+     {
+      "num": "27",
+      "nome": "ERNESTO GRIS",
+      "e": ""
+     },
+     {
+      "num": "44",
+      "nome": "MACHADO",
+      "e": ""
+     },
+     {
+      "num": "99",
+      "nome": "ALISSON NEVES",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "obs": ""
+  },
+  {
+   "id": "j2",
+   "jornada": "Jornada 1",
+   "data": "29 de Agosto de 2026",
+   "hora": "15h00",
+   "local": "Portimão Arena",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "casa": {
+    "eq": "benfica",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "ANDRÉ CORREIA (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "SILVESTRE FERREIRA",
+      "e": ""
+     },
+     {
+      "num": "4",
+      "nome": "AFONSO JESUS",
+      "e": ""
+     },
+     {
+      "num": "5",
+      "nome": "DIOGO ALMEIDA",
+      "e": ""
+     },
+     {
+      "num": "6",
+      "nome": "RAÚL MOREIRA",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "LÚCIO ROCHA",
+      "e": ""
+     },
+     {
+      "num": "8",
+      "nome": "ANDRÉ COELHO",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "ARTHUR",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "EDUARDO TCHUDA",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "EDMILSON KUTCHY",
+      "e": ""
+     },
+     {
+      "num": "16",
+      "nome": "VASCO PINTO (GR)",
+      "e": ""
+     },
+     {
+      "num": "17",
+      "nome": "CARLOS MONTEIRO",
+      "e": ""
+     },
+     {
+      "num": "18",
+      "nome": "PANY VARELA",
+      "e": ""
+     },
+     {
+      "num": "19",
+      "nome": "RÚBEN GÓIS",
+      "e": ""
+     },
+     {
+      "num": "20",
+      "nome": "ANDERSON FORTES",
+      "e": ""
+     },
+     {
+      "num": "22",
+      "nome": "LÉO GUGIEL (GR)",
+      "e": ""
+     },
+     {
+      "num": "77",
+      "nome": "CLÉBER SOUZA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "jimbee",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "",
+      "nome": "DAVID (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "CHEMI (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "CHISPI (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "TOMAZ BRAGA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "DARÍO GIL",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "JUNINHO",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "AGUSTÍN PLAZA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "RENATO LOPES",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "MIGUEL MELLADO",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "FRANCISCO CORTÉS",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "GONZALO CASTEJÓN",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "PABLO RAMÍREZ",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "obs": ""
+  },
+  {
+   "id": "j3",
+   "jornada": "Jornada 2",
+   "data": "30 de Agosto de 2026",
+   "hora": "11h00",
+   "local": "Portimão Arena",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "casa": {
+    "eq": "benfica",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "ANDRÉ CORREIA (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "SILVESTRE FERREIRA",
+      "e": ""
+     },
+     {
+      "num": "4",
+      "nome": "AFONSO JESUS",
+      "e": ""
+     },
+     {
+      "num": "5",
+      "nome": "DIOGO ALMEIDA",
+      "e": ""
+     },
+     {
+      "num": "6",
+      "nome": "RAÚL MOREIRA",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "LÚCIO ROCHA",
+      "e": ""
+     },
+     {
+      "num": "8",
+      "nome": "ANDRÉ COELHO",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "ARTHUR",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "EDUARDO TCHUDA",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "EDMILSON KUTCHY",
+      "e": ""
+     },
+     {
+      "num": "16",
+      "nome": "VASCO PINTO (GR)",
+      "e": ""
+     },
+     {
+      "num": "17",
+      "nome": "CARLOS MONTEIRO",
+      "e": ""
+     },
+     {
+      "num": "18",
+      "nome": "PANY VARELA",
+      "e": ""
+     },
+     {
+      "num": "19",
+      "nome": "RÚBEN GÓIS",
+      "e": ""
+     },
+     {
+      "num": "20",
+      "nome": "ANDERSON FORTES",
+      "e": ""
+     },
+     {
+      "num": "22",
+      "nome": "LÉO GUGIEL (GR)",
+      "e": ""
+     },
+     {
+      "num": "77",
+      "nome": "CLÉBER SOUZA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "palma",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "CARLOS BARRÓN (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "DENNIS CAVALCANTI (GR)",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "DAVID PEÑA",
+      "e": ""
+     },
+     {
+      "num": "9",
+      "nome": "CHARLES FERREIRA \"CHARUTO\"",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "FABIO SANTOS \"FABINHO\"",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "JÚLIO ZANOTTO",
+      "e": ""
+     },
+     {
+      "num": "12",
+      "nome": "LUCAS VINICIUS \"LUCÃO\"",
+      "e": ""
+     },
+     {
+      "num": "13",
+      "nome": "RODRIGO",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "CARLOS GOMEZ",
+      "e": ""
+     },
+     {
+      "num": "20",
+      "nome": "DAVID PASINATO \"DEIVÃO\"",
+      "e": ""
+     },
+     {
+      "num": "23",
+      "nome": "PIQUERAS",
+      "e": ""
+     },
+     {
+      "num": "27",
+      "nome": "ERNESTO GRIS",
+      "e": ""
+     },
+     {
+      "num": "44",
+      "nome": "MACHADO",
+      "e": ""
+     },
+     {
+      "num": "99",
+      "nome": "ALISSON NEVES",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "obs": ""
+  },
+  {
+   "id": "j4",
+   "jornada": "Jornada 2",
+   "data": "30 de Agosto de 2026",
+   "hora": "15h00",
+   "local": "Portimão Arena",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "casa": {
+    "eq": "sporting",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GONÇALO PORTUGAL (GR)",
+      "e": ""
+     },
+     {
+      "num": "2",
+      "nome": "RAFAEL RUELA",
+      "e": ""
+     },
+     {
+      "num": "4",
+      "nome": "TOMÁS PAÇÔ",
+      "e": ""
+     },
+     {
+      "num": "6",
+      "nome": "ZICKY TÉ",
+      "e": ""
+     },
+     {
+      "num": "7",
+      "nome": "DIOGO SANTOS",
+      "e": ""
+     },
+     {
+      "num": "8",
+      "nome": "WESLEY",
+      "e": ""
+     },
+     {
+      "num": "10",
+      "nome": "RUBEN TEIXEIRA",
+      "e": ""
+     },
+     {
+      "num": "11",
+      "nome": "CHISHKALA",
+      "e": ""
+     },
+     {
+      "num": "13",
+      "nome": "TIAGUINHO",
+      "e": ""
+     },
+     {
+      "num": "14",
+      "nome": "FELIPE VALÉRIO",
+      "e": ""
+     },
+     {
+      "num": "16",
+      "nome": "BERNARDO PAÇÔ (GR)",
+      "e": ""
+     },
+     {
+      "num": "17",
+      "nome": "ERICK MENDONÇA",
+      "e": ""
+     },
+     {
+      "num": "25",
+      "nome": "BRUNO PINTO",
+      "e": ""
+     },
+     {
+      "num": "29",
+      "nome": "ALEX MERLIM",
+      "e": ""
+     },
+     {
+      "num": "30",
+      "nome": "FELIPE RUFINO",
+      "e": ""
+     },
+     {
+      "num": "44",
+      "nome": "BRUNO MAIOR",
+      "e": ""
+     },
+     {
+      "num": "70",
+      "nome": "ROCHA",
+      "e": ""
+     },
+     {
+      "num": "77",
+      "nome": "OLEKSANDR SUKHOV",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "jimbee",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "jogadores": [
+     {
+      "num": "",
+      "nome": "DAVID (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "CHEMI (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "CHISPI (GR)",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "TOMAZ BRAGA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "DARÍO GIL",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "JUNINHO",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "AGUSTÍN PLAZA",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "RENATO LOPES",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "MIGUEL MELLADO",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "FRANCISCO CORTÉS",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "GONZALO CASTEJÓN",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "PABLO RAMÍREZ",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     },
+     {
+      "num": "",
+      "nome": "",
+      "e": ""
+     }
+    ]
+   },
+   "obs": ""
+  }
+ ]
+}

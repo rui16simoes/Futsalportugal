@@ -195,6 +195,8 @@
     font-variant-numeric:tabular-nums;color:#241B06;background:#FFD24A;
     box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
   .cart.v{background:#E03B3B;color:#fff}
+  .cart.d{background:linear-gradient(105deg,#FFD24A 0 46%,#E03B3B 46% 100%);color:#fff;
+    text-shadow:0 1px 2px rgba(0,0,0,.55)}
   td.disc input.ci{width:100%;text-align:center;border:1px dashed rgba(255,210,74,.4);border-radius:4px;
     background:rgba(255,210,74,.08);color:#FFD24A;
     font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.95rem;padding:5px 3px;
@@ -488,19 +490,22 @@
 
   function minTxt(x) { return x.m + "'" + (x.ag ? " a.g." : ""); }
 
-  // "25" amarelo · "30v" vermelho
+  // "25" amarelo · "30v" vermelho direto · "38d" duplo amarelo (expulso)
   function carts(p) {
-    var txt = (p.cart || "").toString(), out = [], m, re = /(\d+)\s*(v|r)?/gi;
+    var txt = (p.cart || "").toString(), out = [], m, re = /(\d+)\s*(vv|d|v|r)?/gi;
     while ((m = re.exec(txt)) !== null) {
       if (!m[1]) break;
-      out.push({ m: m[1], v: !!m[2] });
+      var t = (m[2] || "").toLowerCase();
+      out.push({ m: m[1], v: t === "v" || t === "r", d: t === "d" || t === "vv" });
     }
     return out;
   }
 
   function cartsHtml(p) {
     return carts(p).map(function (x) {
-      return '<span class="cart ' + (x.v ? "v" : "a") + '">' + esc(x.m) + "'</span>";
+      var cls = x.d ? "d" : x.v ? "v" : "a";
+      var tit = x.d ? "Duplo amarelo" : x.v ? "Vermelho" : "Amarelo";
+      return '<span class="cart ' + cls + '" title="' + tit + '">' + esc(x.m) + "'</span>";
     }).join(" ");
   }
 
@@ -577,7 +582,7 @@
         'title="Minuto do cartão. Vermelho: junta um v (ex.: 30v)" placeholder="cart">' +
         '<button type="button" class="cv' + (carts(p).some(function (x) { return x.v; }) ? " on" : "") +
         '" data-cv="1" data-lado="' + lado + '" data-i="' + i +
-        '" title="Cartão vermelho">V</button></span></td>' +
+        '" title="Alterna o último cartão: amarelo → vermelho → duplo amarelo">V</button></span></td>' +
         '<td class="gol"><span class="gcel">' +
         '<input type="text" inputmode="numeric" class="gi" data-pf="min" data-lado="' + lado +
         '" data-i="' + i + '" value="' + esc(p.min || "") + '" aria-label="Minutos dos golos" ' +
@@ -756,7 +761,7 @@
         (RO ? "" : '<p class="oficiais">Oficiais no banco de suplentes</p>') +
         '<div class="strip two">' + banco("casa", j) + banco("fora", j) + "</div>" +
         (RO ? "" : '<p class="legend">P — cinco inicial &nbsp;·&nbsp; S — suplente &nbsp;·&nbsp; N — não convocado' +
-          ' &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23) &nbsp;·&nbsp; autogolo: botão <b>AG</b> &nbsp;·&nbsp; cartões na coluna <b>C</b> (vermelho: botão <b>V</b>)</p>') +
+          ' &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23) &nbsp;·&nbsp; autogolo: botão <b>AG</b> &nbsp;·&nbsp; cartões na coluna <b>C</b>: <b>25</b> amarelo, <b>30v</b> vermelho, <b>38d</b> duplo amarelo</p>') +
         penal(j) +
         directo(j) +
         (RO && !j.obs ? "" :
@@ -850,8 +855,11 @@
         if (alvoc) alvoc.focus();
         return;
       }
-      var todosV = lc.every(function (x) { return x.v; });
-      pc.cart = lc.map(function (x) { return x.m + (todosV ? "" : "v"); }).join(" ");
+      var ult = lc[lc.length - 1];
+      var prox = ult.d ? "" : ult.v ? "d" : "v";   // amarelo -> vermelho -> duplo amarelo -> amarelo
+      pc.cart = lc.map(function (x, i) {
+        return x.m + (i === lc.length - 1 ? prox : (x.d ? "d" : x.v ? "v" : ""));
+      }).join(" ");
       render(); dirty = true; status(); return;
     }
     var ag = e.target.closest && e.target.closest("button.ag");

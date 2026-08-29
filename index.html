@@ -79,6 +79,8 @@
   .crest.tem{background:transparent!important}
   .av{width:26px;height:26px;border-radius:50%;flex:0 0 auto;object-fit:cover;background:rgba(255,255,255,.09);
     border:1px solid var(--line)}
+  .av.vazia{display:grid;place-items:center;overflow:hidden;background:rgba(255,255,255,.05)}
+  .av.vazia img{width:70%;height:70%;object-fit:contain;opacity:.42}
   td.nome .cel{display:flex;align-items:center;gap:8px;padding-left:9px}
   td.nome .cel input{padding-left:2px}
   .tt{font-weight:700;font-size:clamp(1.15rem,3vw,1.75rem);line-height:1.05;letter-spacing:.01em;overflow-wrap:anywhere}
@@ -230,8 +232,14 @@
       code + "</button>";
   }
 
-  function av(p) {
-    if (!p.foto) return '<span class="av" aria-hidden="true"></span>';
+  function av(p, t) {
+    if (!p.foto) {
+      if (t && t.logo && p.nome) {
+        return '<span class="av vazia"><img src="' + esc(t.logo) + '" alt="" ' +
+          "onerror=\"this.remove()\"></span>";
+      }
+      return '<span class="av" aria-hidden="true"></span>';
+    }
     return '<img class="av" src="' + esc(p.foto) + '" alt="" loading="lazy" ' +
       "onerror=\"this.replaceWith(Object.assign(document.createElement('span'),{className:'av'}))\">";
   }
@@ -254,14 +262,14 @@
   }
 
   function tabela(lado, j) {
-    var eq = j[lado];
+    var eq = j[lado], t = TEAMS[eq.eq];
     var rows = eq.jogadores.map(function (p, i) {
       var on = p.e;
       if (RO) {
         if (!p.nome) return "";
         return '<tr class="' + (on === "P" ? "on-p" : on === "N" ? "on-n" : "") + '">' +
           '<td class="n"><span class="ro num">' + esc(p.num) + '</span></td>' +
-          '<td class="nome"><span class="cel">' + av(p) +
+          '<td class="nome"><span class="cel">' + av(p, t) +
           '<span class="ro">' + esc(p.nome) + '</span></span></td>' +
           '<td class="est">' + pill(on) + "</td>" +
           '<td class="gol">' + (mins(p).length
@@ -271,7 +279,7 @@
       return '<tr class="' + (on === "P" ? "on-p" : "") + '">' +
         '<td class="n"><input type="text" data-pf="num" data-lado="' + lado + '" data-i="' + i +
         '" value="' + esc(p.num) + '" aria-label="Número"></td>' +
-        '<td class="nome"><span class="cel">' + av(p) +
+        '<td class="nome"><span class="cel">' + av(p, t) +
         '<input type="text" data-pf="nome" data-lado="' + lado + '" data-i="' + i +
         '" value="' + esc(p.nome) + '" aria-label="Nome do atleta"></span></td>' +
         '<td class="est"><span class="seg" data-lado="' + lado + '" data-i="' + i + '">' +

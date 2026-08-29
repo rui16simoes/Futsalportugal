@@ -234,10 +234,37 @@
     return alvo;
   }
 
+  // junta o que o utilizador escreveu com os plantéis/fotos da versão publicada
+  var CAMPOS_J = ["data", "local", "hora", "jornada", "arb1", "arb2", "arb3", "cron", "obs"];
+  function fundir(guardado) {
+    var novo = JSON.parse(document.getElementById("state").textContent);
+    var gj = {};
+    (guardado.jogos || []).forEach(function (g) { gj[g.id] = g; });
+    if (guardado.atual) novo.atual = guardado.atual;
+    novo.jogos.forEach(function (g) {
+      var u = gj[g.id]; if (!u) return;
+      CAMPOS_J.forEach(function (k) { if (u[k]) g[k] = u[k]; });
+      ["casa", "fora"].forEach(function (lado) {
+        if (!u[lado]) return;
+        ["golos", "capitao", "treinador"].forEach(function (k) { if (u[lado][k]) g[lado][k] = u[lado][k]; });
+        var um = {}, ul = u[lado].jogadores || [];
+        ul.forEach(function (p) { if (p.nome) um[p.nome.trim().toUpperCase()] = p; });
+        g[lado].jogadores.forEach(function (p, i) {
+          var q = p.nome ? um[p.nome.trim().toUpperCase()] : ul[i];
+          if (!q) return;
+          if (!p.nome && q.nome) { p.nome = q.nome; p.num = q.num || p.num; }
+          if (q.min) p.min = q.min;
+          if (q.e) p.e = q.e;
+        });
+      });
+    });
+    return novo;
+  }
+
   if (MODE === "editor" || SRV) {
     try {
       var guardado = localStorage.getItem(LS);
-      if (guardado) state = repor(JSON.parse(guardado));
+      if (guardado) state = fundir(JSON.parse(guardado));
     } catch (e) { /* sem localStorage: segue com o que está na página */ }
   }
   var dirty = false, saving = false, api = null;

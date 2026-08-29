@@ -11,8 +11,9 @@
    "arb2": "David Almeida",
    "arb3": "Duarte Casanova",
    "cron": "André Viseu",
-   "tv": "Record",
+   "tv": "Jornal Record",
    "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-sporting-palma",
+   "tvEmbed": "",
    "casa": {
     "eq": "sporting",
     "golos": "4",
@@ -226,7 +227,7 @@
      {
       "num": "13",
       "nome": "RODRIGO",
-      "e": "S",
+      "e": "N",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/06/62/910662_rodrigo_monteiro_20250911080540.png"
      },
@@ -323,6 +324,7 @@
    "cron": "",
    "tv": "",
    "tvUrl": "",
+   "tvEmbed": "",
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -633,6 +635,7 @@
    "cron": "",
    "tv": "",
    "tvUrl": "",
+   "tvEmbed": "",
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -943,6 +946,7 @@
    "cron": "",
    "tv": "",
    "tvUrl": "",
+   "tvEmbed": "",
    "casa": {
     "eq": "sporting",
     "golos": "",

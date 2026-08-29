@@ -302,8 +302,8 @@
 
   // junta o que o utilizador escreveu com os plantéis/fotos da versão publicada
   var CAMPOS_J = ["data", "local", "hora", "jornada", "arb1", "arb2", "arb3", "cron", "obs", "tv", "tvUrl", "tvEmbed", "gp"];
-  function fundir(guardado) {
-    var novo = JSON.parse(document.getElementById("state").textContent);
+  function fundir(guardado, baseObj) {
+    var novo = baseObj || JSON.parse(document.getElementById("state").textContent);
     var gj = {};
     (guardado.jogos || []).forEach(function (g) { gj[g.id] = g; });
     if (guardado.atual) novo.atual = guardado.atual;
@@ -751,6 +751,7 @@
   async function guardar() {
     if (saving) return;
     if (MODE === "editor") {
+      state.ts = Date.now();
       var ok = true;
       try { localStorage.setItem(LS, JSON.stringify(state)); dirty = false; }
       catch (e) { ok = false; }
@@ -815,6 +816,23 @@
   st.textContent = CSS;
   document.head.appendChild(st);
   render();
+
+  if (MODE === "editor") {
+    fetch("dados.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (pub) {
+        if (!pub) return;
+        var meu = +(state.ts || 0), dele = +(pub.ts || 0);
+        if (dele <= meu && meu !== 0) return;            // a minha cópia é a mais recente
+        if (JSON.stringify(pub) === JSON.stringify(state)) return;
+        var atual = state.atual;
+        state = fundir(pub); state.atual = atual;
+        try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {}
+        dirty = false; render();
+        status("Carregada a versão publicada mais recente");
+      })
+      .catch(function () {});
+  }
 
   if (RO) {
     var assinatura = JSON.stringify(state);

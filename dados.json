@@ -17,46 +17,46 @@
    "gp": {
     "casa": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "BRUNO PINTO",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ROCHA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "TOMÁS PAÇÓ",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "DIOGO SANTOS",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "FELIPE VALÉRIO",
+      "ok": "1"
      }
     ],
     "fora": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "FABIO SANTOS \"FABINHO\"",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "CARLOS GOMEZ",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "JÚLIO ZANOTTO",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ALISSON NEVES",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ERNESTO GRIS",
+      "ok": "1"
      }
     ]
    },
@@ -1429,5 +1429,6 @@
    },
    "obs": ""
   }
- ]
+ ],
+ "ts": 1788004211232
 }

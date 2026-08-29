@@ -476,6 +476,7 @@
     if (!p.foto) {
       if (t && t.logo && p.nome) {
         return '<span class="av vazia"><img src="' + esc(t.logo) + '" alt="" ' +
+          'referrerpolicy="no-referrer" decoding="async" ' +
           "onerror=\"this.remove()\"></span>";
       }
       return '<span class="av" aria-hidden="true"></span>';
@@ -483,8 +484,12 @@
     if (p.fit === "topo") {   // recorte de corpo inteiro: mostrar só a cabeça
       return '<span class="av topo" style="background-image:url(\'' + esc(p.foto) + '\')"></span>';
     }
-    return '<img class="av" src="' + esc(p.foto) + '" alt="" loading="lazy" ' +
-      "onerror=\"this.replaceWith(Object.assign(document.createElement('span'),{className:'av'}))\">";
+    // sem lazy-loading (dentro de iframes no telemóvel nem sempre dispara) e com
+    // uma segunda tentativa antes de desistir da foto
+    return '<img class="av" src="' + esc(p.foto) + '" alt="" decoding="async" ' +
+      'referrerpolicy="no-referrer" ' +
+      "onerror=\"if(!this.dataset.r){this.dataset.r=1;var u=this.src;this.src='';setTimeout(function(i,u){i.src=u+(u.indexOf('?')<0?'?':'&')+'r=1'}.bind(null,this,u),600)}" +
+      "else{this.replaceWith(Object.assign(document.createElement('span'),{className:'av'}))}\">";
   }
 
   // "6, 23" golos normais · "32a" autogolo (conta para a equipa adversária)

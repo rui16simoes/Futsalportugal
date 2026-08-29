@@ -14,6 +14,52 @@
    "tv": "Jornal Record",
    "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-sporting-palma",
    "tvEmbed": "",
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
    "casa": {
     "eq": "sporting",
     "golos": "5",
@@ -325,6 +371,52 @@
    "tv": "",
    "tvUrl": "",
    "tvEmbed": "",
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -636,6 +728,52 @@
    "tv": "",
    "tvUrl": "",
    "tvEmbed": "",
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
    "casa": {
     "eq": "benfica",
     "golos": "",
@@ -947,6 +1085,52 @@
    "tv": "",
    "tvUrl": "",
    "tvEmbed": "",
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
    "casa": {
     "eq": "sporting",
     "golos": "",

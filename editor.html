@@ -209,7 +209,9 @@
     border-radius:4px;padding:6px 5px;cursor:pointer;line-height:1;transition:.12s}
   .cv:hover{background:rgba(224,59,59,.3)}
   .cv.on{background:#E03B3B;color:#fff;border-color:transparent}
-  th.g{width:104px;color:var(--gold)}
+  th.g{width:118px;color:var(--gold)}
+  td.gol{white-space:nowrap}
+  td.gol .bola+.bola{margin-left:4px}
   td.gol{padding:4px 5px}
   .gcel{display:flex;align-items:center;gap:4px}
   .ag{appearance:none;flex:0 0 auto;border:1px solid rgba(255,122,122,.5);background:rgba(255,122,122,.1);
@@ -505,6 +507,22 @@
     return out;
   }
 
+  // todos os golos do jogador num só chip (37' 40'), autogolos noutro
+  function golosHtml(p) {
+    var l = mins(p), out = "";
+    var norm = l.filter(function (x) { return !x.ag; });
+    var ag = l.filter(function (x) { return x.ag; });
+    if (norm.length) {
+      out += '<span class="bola"><i></i>' +
+        esc(norm.map(function (x) { return x.m + "'"; }).join(" ")) + "</span>";
+    }
+    if (ag.length) {
+      out += '<span class="bola ag"><i></i>' +
+        esc(ag.map(function (x) { return x.m + "'"; }).join(" ")) + " a.g.</span>";
+    }
+    return out;
+  }
+
   function cartsHtml(p) {
     return carts(p).map(function (x) {
       var cls = x.d ? "d" : x.v ? "v" : "a";
@@ -548,11 +566,7 @@
       '<td class="nome"><span class="cel">' + av(p, t) +
       '<span class="ro">' + esc(p.nome) + '</span></span></td>' +
       '<td class="disc">' + cartsHtml(p) + "</td>" +
-      '<td class="gol">' + (mins(p).length
-        ? mins(p).map(function (x) {
-            return '<span class="bola' + (x.ag ? " ag" : "") + '"><i></i>' + esc(minTxt(x)) + "</span>";
-          }).join(" ")
-        : "") + "</td></tr>";
+      '<td class="gol">' + golosHtml(p) + "</td></tr>";
   }
 
   function corpoRO(eq, t) {

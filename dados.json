@@ -408,8 +408,8 @@
    "arb2": "Rúben Rocha",
    "arb3": "Filipa Prata",
    "cron": "André Viseu",
-   "tv": "",
-   "tvUrl": "",
+   "tv": "Jornal Record",
+   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-benfica-cartagena",
    "tvEmbed": "",
    "gp": {
     "casa": [
@@ -474,7 +474,7 @@
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491927&w=142&h=144",
       "fit": ""
@@ -482,7 +482,7 @@
      {
       "num": "4",
       "nome": "AFONSO JESUS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491653&w=142&h=144",
       "fit": ""
@@ -538,7 +538,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491619&w=142&h=144",
       "fit": ""
@@ -578,7 +578,7 @@
      {
       "num": "20",
       "nome": "ANDERSON FORTES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4508305&w=142&h=144",
       "fit": ""
@@ -586,7 +586,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491860&w=142&h=144",
       "fit": ""
@@ -634,7 +634,7 @@
      {
       "num": "2",
       "nome": "ADRI RUBIO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://jimbeecartagena.es/wp-content/uploads/2026/03/ADRI-removebg-preview1.png",
       "fit": "topo"
@@ -674,7 +674,7 @@
      {
       "num": "8",
       "nome": "FRANCISCO TOMAZ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/59/14/545914_tomaz_braga_20260508121807.jpg",
       "fit": ""
@@ -682,7 +682,7 @@
      {
       "num": "9",
       "nome": "PABLO RAMÍREZ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/29/52/952952_pablo_ramirez_20260508121807.jpg",
       "fit": ""
@@ -690,7 +690,7 @@
      {
       "num": "10",
       "nome": "FRANCISCO CORTÉS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/58/06/915806_francisco_cortes_20260508121722.jpg",
       "fit": ""
@@ -730,7 +730,7 @@
      {
       "num": "21",
       "nome": "DAVID ARAÚJO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/66/32/986632_david_20260624160841.png",
       "fit": ""
@@ -1590,5 +1590,5 @@
    "obs": ""
   }
  ],
- "ts": 1788011736945
+ "ts": 1788012002380
 }

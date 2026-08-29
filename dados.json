@@ -562,7 +562,7 @@
      {
       "num": "16",
       "nome": "VASCO PINTO (GR)",
-      "e": "S",
+      "e": "N",
       "min": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/59/55/1155955_vasco_pinto_20250302141827.jpg",
       "fit": ""
@@ -1654,5 +1654,5 @@
    "obs": ""
   }
  ],
- "ts": 1788012541296
+ "ts": 1788012827108
 }

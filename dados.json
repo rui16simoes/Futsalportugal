@@ -475,7 +475,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "1",
+    "golos": "2",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -587,7 +587,7 @@
       "num": "19",
       "nome": "RÚBEN GÓIS",
       "e": "S",
-      "min": "",
+      "min": "23",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491991&w=142&h=144",
       "fit": ""
      },
@@ -1654,5 +1654,5 @@
    "obs": ""
   }
  ],
- "ts": 1788014188526
+ "ts": 1788015620595
 }

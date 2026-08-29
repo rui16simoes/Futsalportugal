@@ -472,20 +472,20 @@
    "gp": {
     "casa": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ANDRÉ COELHO",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "EDMILSON KUTCHY",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ARTHUR",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "CARLOS MONTEIRO",
+      "ok": "1"
      },
      {
       "nome": "",
@@ -494,24 +494,24 @@
     ],
     "fora": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "WALTINHO",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "DARÍO GIL",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "GABRIEL MOTTA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "PABLO RAMÍREZ",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "CICERO \"JUNINHO\"",
+      "ok": "1"
      }
     ]
    },
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788017657890
+ "ts": 1788018125038
 }

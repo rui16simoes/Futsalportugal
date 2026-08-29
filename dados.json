@@ -517,7 +517,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "4",
+    "golos": "5",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -606,7 +606,7 @@
       "num": "14",
       "nome": "EDMILSON KUTCHY",
       "e": "P",
-      "min": "",
+      "min": "38",
       "cart": "",
       "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4491619&w=142&h=144",
       "fit": ""
@@ -714,7 +714,7 @@
    },
    "fora": {
     "eq": "jimbee",
-    "golos": "1",
+    "golos": "2",
     "capitao": "FRANCISCO TOMAZ",
     "treinador": "DUDA",
     "jogadores": [
@@ -884,7 +884,7 @@
       "num": "23",
       "nome": "DARÍO GIL",
       "e": "S",
-      "min": "37",
+      "min": "37,40",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/54/76/555476_dario_gil_20260508121919.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788017277848
+ "ts": 1788017657890
 }

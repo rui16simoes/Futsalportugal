@@ -424,8 +424,8 @@
    "arb2": "Rúben Rocha",
    "arb3": "Filipa Prata",
    "cron": "André Viseu",
-   "tv": "Jornal Record",
-   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-benfica-cartagena",
+   "tv": "",
+   "tvUrl": "",
    "tvEmbed": "",
    "gp": {
     "casa": [
@@ -769,10 +769,10 @@
      },
      {
       "num": "19",
-      "nome": "JESÚS",
+      "nome": "JESÚS IZQUIERDO",
       "e": "N",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/62/82/546282_jesus_izquierdo_20260508121956.jpg",
       "fit": ""
      },
      {
@@ -1595,10 +1595,10 @@
      },
      {
       "num": "19",
-      "nome": "JESÚS",
+      "nome": "JESÚS IZQUIERDO",
       "e": "",
       "min": "",
-      "foto": "",
+      "foto": "https://www.zerozero.pt/img/jogadores/new/62/82/546282_jesus_izquierdo_20260508121956.jpg",
       "fit": ""
      },
      {
@@ -1654,5 +1654,5 @@
    "obs": ""
   }
  ],
- "ts": 1788013218661
+ "ts": 1788013291242
 }

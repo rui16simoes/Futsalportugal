@@ -209,9 +209,10 @@
     border-radius:4px;padding:6px 5px;cursor:pointer;line-height:1;transition:.12s}
   .cv:hover{background:rgba(224,59,59,.3)}
   .cv.on{background:#E03B3B;color:#fff;border-color:transparent}
-  th.g{width:118px;color:var(--gold)}
-  td.gol{white-space:nowrap}
+  th.g{width:150px;color:var(--gold)}
+  td.gol{white-space:nowrap;text-align:right;padding-right:8px}
   td.gol .bola+.bola{margin-left:4px}
+  .bola b{font-weight:700;font-size:.62rem;letter-spacing:.04em;margin-left:2px}
   td.gol{padding:4px 5px}
   .gcel{display:flex;align-items:center;gap:4px}
   .ag{appearance:none;flex:0 0 auto;border:1px solid rgba(255,122,122,.5);background:rgba(255,122,122,.1);
@@ -318,7 +319,10 @@
     td.disc input.ci{font-size:.82rem;padding:5px 2px}
     .cv{padding:5px 3px;font-size:.64rem}
     .cart{font-size:.7rem;padding:2px 4px;min-width:18px}
-    th.g{width:74px}
+    th.g{width:104px}
+    td.gol{padding-right:5px}
+    .bola{padding:2px 5px 2px 4px;gap:3px;font-size:.72rem}
+    .bola i{width:11px;height:11px}
     td.gol{padding:3px 3px}
     .gcel{gap:3px}
     td.gol input.gi{font-size:.82rem;padding:5px 2px}
@@ -507,20 +511,12 @@
     return out;
   }
 
-  // todos os golos do jogador num só chip (37' 40'), autogolos noutro
+  // uma bola por golo, sempre lado a lado
   function golosHtml(p) {
-    var l = mins(p), out = "";
-    var norm = l.filter(function (x) { return !x.ag; });
-    var ag = l.filter(function (x) { return x.ag; });
-    if (norm.length) {
-      out += '<span class="bola"><i></i>' +
-        esc(norm.map(function (x) { return x.m + "'"; }).join(" ")) + "</span>";
-    }
-    if (ag.length) {
-      out += '<span class="bola ag"><i></i>' +
-        esc(ag.map(function (x) { return x.m + "'"; }).join(" ")) + " a.g.</span>";
-    }
-    return out;
+    return mins(p).map(function (x) {
+      return '<span class="bola' + (x.ag ? " ag" : "") + '"><i></i>' + esc(x.m) + "'" +
+        (x.ag ? "<b>a.g.</b>" : "") + "</span>";
+    }).join("");
   }
 
   function cartsHtml(p) {

@@ -921,26 +921,26 @@
    "arb2": "Fábio Carapuça",
    "arb3": "Luís Fernandes",
    "cron": "André Viseu",
-   "tv": "Jornal Record",
-   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-benfica-palma",
+   "tv": "",
+   "tvUrl": "",
    "tvEmbed": "",
    "gp": {
     "casa": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "PANY VARELA",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "RAÚL MOREIRA",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "LÚCIO ROCHA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "EDUARDO TCHUDA",
+      "ok": "1"
      },
      {
       "nome": "",
@@ -949,20 +949,20 @@
     ],
     "fora": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "FABIO SANTOS \"FABINHO\"",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "CARLOS GOMEZ",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "JÚLIO ZANOTTO",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ERNESTO GRIS",
+      "ok": "1"
      },
      {
       "nome": "",
@@ -1823,5 +1823,5 @@
   }
  ],
  "build": "20260830113405",
- "ts": 1788089656425
+ "ts": 1788090834952
 }

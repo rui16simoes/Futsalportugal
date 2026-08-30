@@ -972,7 +972,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "1",
+    "golos": "2",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -1061,7 +1061,7 @@
       "num": "14",
       "nome": "EDMILSON KUTCHY",
       "e": "S",
-      "min": "",
+      "min": "24",
       "cart": "",
       "foto": "fotos/edmilson-kutchy.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788087987034
+ "ts": 1788088135897
 }

@@ -972,7 +972,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "0",
+    "golos": "1",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -1043,7 +1043,7 @@
       "num": "10",
       "nome": "ARTHUR",
       "e": "P",
-      "min": "",
+      "min": "22",
       "cart": "",
       "foto": "fotos/arthur.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788086587201
+ "ts": 1788087818471
 }

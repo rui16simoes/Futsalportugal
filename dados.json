@@ -1169,7 +1169,7 @@
    },
    "fora": {
     "eq": "palma",
-    "golos": "2",
+    "golos": "3",
     "capitao": "CARLOS BARRÓN",
     "treinador": "ANTONIO VADILLO",
     "jogadores": [
@@ -1213,7 +1213,7 @@
       "num": "9",
       "nome": "CHARLES FERREIRA \"CHARUTO\"",
       "e": "S",
-      "min": "",
+      "min": "23",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/71/98/517198_charuto_20260508123423.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788087818471
+ "ts": 1788087987034
 }

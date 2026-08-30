@@ -279,8 +279,18 @@
   .btn:disabled{opacity:.5;cursor:default}
   .btn.ghost{background:transparent;color:var(--ink-2);border:1px solid var(--line)}
 
+  .resumo{display:none}
   /* ---------- telemóvel ---------- */
   @media (max-width:640px){
+    .wrap.vista .strip.two{display:none}
+    .wrap.vista .resumo{display:block;border:1px solid var(--line);border-radius:4px;
+      background:var(--panel);padding:8px 11px;font-size:.8rem;color:var(--ink-2);line-height:1.35}
+    .wrap.vista .resumo b{color:var(--ink);font-weight:600}
+    .wrap.vista .resumo.arb{margin-top:-6px;font-size:.72rem;color:var(--ink-3);
+      background:transparent;border:0;padding:2px 2px 0}
+    .wrap.vista .versus{padding:10px 11px}
+    .wrap.vista .tt{font-size:.9rem}
+    .wrap.vista .marcadores{font-size:.76rem}
     body{font-size:14px}
     .wrap{padding:16px 10px 86px;gap:11px}
     header.top{gap:10px}
@@ -742,12 +752,16 @@
 
     $("#app").innerHTML =
       '<div class="bg"><i></i><i></i></div><div class="mark"></div>' +
-      '<div class="wrap">' +
+      '<div class="wrap' + (RO ? " vista" : "") + '">' +
         '<header class="top"><div class="brand">' +
           '<img src="' + LOGO + '" alt="Record International Masters Futsal">' +
           '<span class="sub">Ficha de jogo · ' + esc(j.jornada) + "</span></div>" +
           '<div class="tabs">' + tabs + "</div></header>" +
 
+        (RO ? '<div class="resumo"><b>' + esc(j.data) + '</b> &middot; ' + esc(j.hora) +
+              ' &middot; ' + esc(j.local) + ' &middot; ' + esc(j.jornada) + '</div>' +
+              '<div class="resumo arb">Árbitros: ' + esc([j.arb1, j.arb2, j.arb3].filter(Boolean).join(", ")) +
+              (j.cron ? ' &middot; Cronometrista: ' + esc(j.cron) : "") + "</div>" : "") +
         '<div class="strip two">' +
           fld("Data", 'data-jf="data"', j.data) +
           fld("Local", 'data-jf="local"', j.local) +

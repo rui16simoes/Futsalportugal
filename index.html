@@ -279,6 +279,20 @@
   .btn:disabled{opacity:.5;cursor:default}
   .btn.ghost{background:transparent;color:var(--ink-2);border:1px solid var(--line)}
 
+  section.top{border:1px solid var(--line);border-radius:4px;background:var(--panel);overflow:hidden}
+  section.top h3{margin:0;padding:10px 13px;background:var(--panel-2);border-bottom:1px solid var(--line);
+    font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:.76rem;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--gold)}
+  section.top ol{list-style:none;margin:0;padding:6px 0}
+  section.top li{display:flex;align-items:center;gap:9px;padding:5px 13px}
+  section.top li+li{border-top:1px solid rgba(255,255,255,.06)}
+  section.top .pos{width:18px;flex:0 0 auto;font-family:"Barlow Condensed",sans-serif;font-weight:700;
+    color:var(--ink-3);font-size:.9rem;text-align:right}
+  section.top .nm{flex:1;font-size:.85rem;min-width:0}
+  section.top .eq{font-size:.62rem;letter-spacing:.12em;color:var(--ink-3);
+    border:1px solid var(--line);border-radius:3px;padding:2px 6px}
+  section.top .qt{width:26px;text-align:right;font-family:"Barlow Condensed",sans-serif;
+    font-weight:700;font-size:1.05rem;color:var(--gold);font-variant-numeric:tabular-nums}
   .resumo{display:none}
   /* ---------- telemóvel ---------- */
   @media (max-width:640px){
@@ -715,6 +729,37 @@
       "</section>";
   }
 
+  // melhores marcadores do torneio (todos os jogos, sem autogolos)
+  function melhores() {
+    var mapa = {};
+    state.jogos.forEach(function (g) {
+      ["casa", "fora"].forEach(function (lado) {
+        var eq = g[lado].eq;
+        g[lado].jogadores.forEach(function (p) {
+          if (!p.nome) return;
+          var n = mins(p).filter(function (x) { return !x.ag; }).length;
+          if (!n) return;
+          var k = eq + "|" + p.nome;
+          if (!mapa[k]) mapa[k] = { nome: p.nome, eq: eq, foto: p.foto, fit: p.fit, n: 0 };
+          mapa[k].n += n;
+        });
+      });
+    });
+    var l = Object.keys(mapa).map(function (k) { return mapa[k]; })
+      .sort(function (a, b) { return b.n - a.n || a.nome.localeCompare(b.nome); });
+    if (!l.length) return "";
+    var pos = 0, ant = -1, i = 0;
+    var linhas = l.slice(0, 10).map(function (p) {
+      i++; if (p.n !== ant) { pos = i; ant = p.n; }
+      var t = TEAMS[p.eq];
+      return '<li><span class="pos">' + pos + "</span>" + av(p, t) +
+        '<span class="nm">' + esc(p.nome) + "</span>" +
+        '<span class="eq">' + esc(t.curto) + "</span>" +
+        '<span class="qt">' + p.n + "</span></li>";
+    }).join("");
+    return '<section class="top"><h3>Melhores marcadores do torneio</h3><ol>' + linhas + "</ol></section>";
+  }
+
   function directo(j) {
     var url = (j.tvUrl || "").trim(), canal = (j.tv || "").trim(), emb = (j.tvEmbed || "").trim();
     var botao = url
@@ -803,6 +848,7 @@
         (RO ? "" : '<p class="legend">P — cinco inicial &nbsp;·&nbsp; S — suplente &nbsp;·&nbsp; N — não convocado' +
           ' &nbsp;·&nbsp; nos golos, escreve os minutos (ex.: 7, 23) &nbsp;·&nbsp; autogolo: botão <b>AG</b> &nbsp;·&nbsp; cartões na coluna <b>C</b>: <b>25</b> amarelo, <b>30v</b> vermelho, <b>38d</b> duplo amarelo</p>') +
         penal(j) +
+        melhores() +
         directo(j) +
         (RO && !j.obs ? "" :
           '<div class="obs"><label for="obs">Observações</label>' +

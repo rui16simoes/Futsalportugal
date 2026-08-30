@@ -922,7 +922,7 @@
    "arb3": "Luís Fernandes",
    "cron": "André Viseu",
    "tv": "Jornal Record",
-   "tvUrl": "",
+   "tvUrl": "https://www.record.pt/futebol/futsal/detalhe/record-international-masters-futsal-transmissao-em-direto-do-benfica-palma",
    "tvEmbed": "",
    "gp": {
     "casa": [
@@ -1024,7 +1024,7 @@
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "fotos/lucio-rocha.jpg",
@@ -1033,7 +1033,7 @@
      {
       "num": "8",
       "nome": "ANDRÉ COELHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "fotos/andre-coelho.jpg",
@@ -1042,7 +1042,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "fotos/arthur.jpg",
@@ -1096,7 +1096,7 @@
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "fotos/ruben-gois.jpg",
@@ -1114,7 +1114,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "fotos/leo-gugiel-gr.jpg",
@@ -1185,7 +1185,7 @@
      {
       "num": "2",
       "nome": "DENNIS CAVALCANTI (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/48/55/584855_dennis_cavalcanti_20260508123308.jpg",
@@ -1203,7 +1203,7 @@
      {
       "num": "7",
       "nome": "DAVID PEÑA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/80/47/738047_david_pena_20260508123444.jpg",
@@ -1221,7 +1221,7 @@
      {
       "num": "10",
       "nome": "FABIO SANTOS \"FABINHO\"",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/33/67/883367_fabinho_20260508123358.jpg",
@@ -1275,7 +1275,7 @@
      {
       "num": "20",
       "nome": "DAVID PASINATO \"DEIVÃO\"",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/33/70/883370_deivao_20260508123331.jpg",
@@ -1293,7 +1293,7 @@
      {
       "num": "27",
       "nome": "ERNESTO GRIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/79/43/887943_ernesto_20260508123331.jpg",
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788082641901
+ "ts": 1788084023217
 }

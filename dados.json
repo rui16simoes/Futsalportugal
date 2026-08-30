@@ -1286,7 +1286,7 @@
       "nome": "PIQUERAS",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "32",
       "foto": "https://www.zerozero.pt/img/jogadores/new/11/08/551108_manuel_piqueras_20260508123331.jpg",
       "fit": ""
      },
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788088867469
+ "ts": 1788089066133
 }

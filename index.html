@@ -18,6 +18,7 @@
   var LS = "masters-fichas-2026";
   var RO = (MODE === "viewer");            // só leitura
   var SRV = (MODE === "server");           // grava no servidor
+  var BUILD = "20260830113405";
   var POLL = 20000;                        // viewer: recarrega dados de X em X ms
 
   var CSS = `
@@ -1077,6 +1078,12 @@
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (novo) {
           if (!novo) return;
+          // versão nova da página publicada: recarrega sozinho (fura a cache do telemóvel)
+          if (novo.build && BUILD && novo.build !== BUILD) {
+            var u = location.href.split("#")[0].replace(/([?&])b=[^&]*/, "$1");
+            location.replace(u + (u.indexOf("?") < 0 ? "?" : "&") + "b=" + encodeURIComponent(novo.build));
+            return;
+          }
           var s2 = JSON.stringify(novo);
           if (s2 === assinatura) return;
           assinatura = s2;

@@ -1169,7 +1169,7 @@
    },
    "fora": {
     "eq": "palma",
-    "golos": "1",
+    "golos": "2",
     "capitao": "CARLOS BARRÓN",
     "treinador": "ANTONIO VADILLO",
     "jogadores": [
@@ -1258,7 +1258,7 @@
       "num": "14",
       "nome": "CARLOS GOMEZ",
       "e": "S",
-      "min": "",
+      "min": "11",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/17/96/931796_carlos_gomez_20241029164527.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788084721922
+ "ts": 1788085380251
 }

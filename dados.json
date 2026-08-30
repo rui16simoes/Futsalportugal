@@ -972,7 +972,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": "",
+    "golos": "0",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "jogadores": [
@@ -1169,7 +1169,7 @@
    },
    "fora": {
     "eq": "palma",
-    "golos": "",
+    "golos": "1",
     "capitao": "CARLOS BARRÓN",
     "treinador": "ANTONIO VADILLO",
     "jogadores": [
@@ -1312,7 +1312,7 @@
       "num": "99",
       "nome": "ALISSON NEVES",
       "e": "S",
-      "min": "",
+      "min": "7",
       "cart": "",
       "foto": "https://www.zerozero.pt/img/jogadores/new/62/40/656240_alisson_lima_20260508123424.jpg",
       "fit": ""
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788084023217
+ "ts": 1788084721922
 }

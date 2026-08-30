@@ -1017,7 +1017,7 @@
       "nome": "RAÚL MOREIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "18",
       "foto": "fotos/raul-moreira.jpg",
       "fit": ""
      },
@@ -1822,5 +1822,5 @@
    "obs": ""
   }
  ],
- "ts": 1788085380251
+ "ts": 1788086587201
 }

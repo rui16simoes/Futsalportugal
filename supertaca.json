@@ -17,80 +17,13 @@
    "tv": "",
    "tvUrl": "",
    "relogio": {
-    "estado": "final",
-    "parte": 2,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
     "desde": 0
    },
-   "lances": [
-    {
-     "id": "tl1",
-     "m": 1,
-     "lado": "",
-     "txt": "Arrancou a Supertaça em Vila do Conde"
-    },
-    {
-     "id": "tl2",
-     "m": 18,
-     "lado": "fora",
-     "txt": "Tempo morto pedido por Paulo Tavares"
-    },
-    {
-     "id": "tl3",
-     "m": 20,
-     "lado": "",
-     "txt": "Intervalo: Benfica a vencer"
-    },
-    {
-     "id": "tl4",
-     "m": 29,
-     "lado": "casa",
-     "txt": "Defesa enorme de Ana Catarina no livre de 10 metros"
-    },
-    {
-     "id": "tl5",
-     "m": 40,
-     "lado": "",
-     "txt": "Fim do jogo"
-    }
-   ],
-   "faltas": [
-    {
-     "id": "tf1",
-     "lado": "casa",
-     "parte": 1,
-     "m": 7,
-     "n": 1
-    },
-    {
-     "id": "tf2",
-     "lado": "casa",
-     "parte": 1,
-     "m": 14,
-     "n": 2
-    },
-    {
-     "id": "tf3",
-     "lado": "fora",
-     "parte": 1,
-     "m": 6,
-     "n": 1
-    },
-    {
-     "id": "tf4",
-     "lado": "fora",
-     "parte": 1,
-     "m": 12,
-     "n": 2
-    },
-    {
-     "id": "tf5",
-     "lado": "fora",
-     "parte": 1,
-     "m": 17,
-     "n": 3
-    }
-   ],
+   "lances": [],
+   "faltas": [],
    "gp": {
     "casa": [
      {
@@ -147,7 +80,7 @@
      {
       "num": "1",
       "nome": "ANA CATARINA (GR)",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -183,17 +116,17 @@
      {
       "num": "2",
       "nome": "ANDREZA QUEIROZ",
-      "e": "P",
+      "e": "",
       "min": "",
-      "cart": "16",
+      "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/66/49/2756649_andreza_queiroz_20250824221615.jpg"
      },
      {
       "num": "9",
       "nome": "FIFÓ",
-      "e": "P",
-      "min": "4, 22",
+      "e": "",
+      "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/85/72/468572_fifo_20241018145712.jpg"
@@ -201,10 +134,10 @@
      {
       "num": "10",
       "nome": "SARA FERREIRA",
-      "e": "P",
-      "min": "11",
+      "e": "",
+      "min": "",
       "cart": "",
-      "ass": "4",
+      "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/10/216510_sara_ferreira_20241018145736.jpg"
      },
      {
@@ -228,10 +161,10 @@
      {
       "num": "7",
       "nome": "MARIA PEREIRA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
-      "ass": "11, 22",
+      "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/73/60/427360_maria_pereira_20241018145623.jpg"
      },
      {
@@ -246,8 +179,8 @@
      {
       "num": "8",
       "nome": "JANICE SILVA",
-      "e": "S",
-      "min": "31",
+      "e": "",
+      "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/61/55/416155_janice_silva_20241018145654.jpg"
@@ -264,9 +197,9 @@
      {
       "num": "17",
       "nome": "ANGÉLICA ALVES",
-      "e": "S",
+      "e": "",
       "min": "",
-      "cart": "35v",
+      "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/14/01/531401_angelica_alves_20241018145845.jpg"
      }
@@ -282,7 +215,7 @@
      {
       "num": "1",
       "nome": "MARIA ODETE ROCHA (GR)",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -300,10 +233,10 @@
      {
       "num": "92",
       "nome": "CAMILA SILVA",
-      "e": "P",
-      "min": "19",
+      "e": "",
+      "min": "",
       "cart": "",
-      "ass": "9",
+      "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
@@ -327,17 +260,17 @@
      {
       "num": "7",
       "nome": "ANA AZEVEDO",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
-      "ass": "19, 27",
+      "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
      },
      {
       "num": "70",
       "nome": "KAKÁ",
-      "e": "P",
-      "min": "9, 27",
+      "e": "",
+      "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/77/320577_20220923223101_kaka_1663968661.jpg"
@@ -390,18 +323,18 @@
      {
       "num": "",
       "nome": "BEATRIZ FONSECA",
-      "e": "S",
+      "e": "",
       "min": "",
-      "cart": "38d",
+      "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
       "num": "5",
       "nome": "LÍDIA MOREIRA",
-      "e": "P",
+      "e": "",
       "min": "",
-      "cart": "13",
+      "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/68/361368_lidia_moreira_20260716151756.png"
      },
@@ -821,6 +754,6 @@
    }
   }
  ],
- "build": "20260903161117",
- "ts": 1788451896841
+ "build": "20260903162056",
+ "ts": 1788452456899
 }

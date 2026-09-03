@@ -1,5 +1,5 @@
 {
- "atual": "f",
+ "atual": "m",
  "jogos": [
   {
    "id": "f",
@@ -75,6 +75,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "MARIA MARTINS",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/238/38238_pri__20260615013549_maria_martins.png",
     "jogadores": [
      {
       "num": "1",
@@ -209,6 +210,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "PAULO TAVARES",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/907/3907_paulo_tavares_1739285486.png",
     "jogadores": [
      {
       "num": "1",
@@ -422,6 +424,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "CASSIANO KLEIN",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -520,7 +523,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/55/1155955_vasco_pinto_20250302141827.jpg"
      },
      {
       "num": "17",
@@ -574,7 +577,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/84/635484_cleber_souza_20260813023911.png"
      }
     ]
    },
@@ -583,6 +586,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "NUNO DIAS",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1732721793.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -600,7 +604,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/19/21/921921_rafael_ruela_20250128165119.jpg"
      },
      {
       "num": "4",
@@ -750,6 +754,6 @@
    }
   }
  ],
- "ts": 1788436709640,
- "build": "20260903114254"
+ "ts": 1788438838880,
+ "build": "20260903120854"
 }

@@ -14,6 +14,8 @@
    "arb3": "",
    "cron": "",
    "obs": "",
+   "tv": "",
+   "tvUrl": "",
    "relogio": {
     "estado": "parado",
     "parte": 1,
@@ -79,98 +81,126 @@
       "nome": "ANA CATARINA (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/85/26/108526_ana_catarina_20241018145520.jpg"
      },
      {
       "num": "15",
       "nome": "ALEXANDRA MELO (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/92/744692_alexandra_melo_20241018145755.jpg"
      },
      {
       "num": "25",
       "nome": "SIMONE PEDROSO (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/68/54/1426854_simone_pedroso_20260112103810.jpg"
      },
      {
       "num": "13",
       "nome": "INÊS MATOS",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/58/38/165838_ines_matos_20241018145811.jpg"
      },
      {
       "num": "2",
       "nome": "ANDREZA QUEIROZ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/66/49/2756649_andreza_queiroz_20250824221615.jpg"
      },
      {
       "num": "9",
       "nome": "FIFÓ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/85/72/468572_fifo_20241018145712.jpg"
      },
      {
       "num": "10",
       "nome": "SARA FERREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/10/216510_sara_ferreira_20241018145736.jpg"
      },
      {
       "num": "18",
       "nome": "ANA OLIVEIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/82/27/708227_ana_oliveira_20241018145903.jpg"
      },
      {
       "num": "19",
       "nome": "SOFIA CALHEIROS",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/21/27/922127_sofia_calheiros_20250424123545.jpg"
      },
      {
       "num": "7",
       "nome": "MARIA PEREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/73/60/427360_maria_pereira_20241018145623.jpg"
      },
      {
       "num": "12",
       "nome": "GABY VANELLI",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/32/656932_gaby_vanelli_20251126154503.png"
      },
      {
       "num": "8",
       "nome": "JANICE SILVA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/61/55/416155_janice_silva_20241018145654.jpg"
      },
      {
       "num": "11",
       "nome": "MADALENA FREDERIQUE",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/87/21/788721_madalena_frederique_20260417152352.jpg"
      },
      {
       "num": "17",
       "nome": "ANGÉLICA ALVES",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/14/01/531401_angelica_alves_20241018145845.jpg"
      }
     ]
    },
@@ -185,105 +215,135 @@
       "nome": "MARIA ODETE ROCHA (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/28/303828_maria_odete_rocha_20251126144751.png"
      },
      {
       "num": "20",
       "nome": "JÚLIA MELZ (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/05/30/790530_julia_melz_20251121010821.jpg"
      },
      {
       "num": "92",
       "nome": "CAMILA SILVA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
       "num": "",
       "nome": "JOANA MOREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/82/74/508274_joana_moreira_20250825233643.jpg"
      },
      {
       "num": "",
       "nome": "SARA CRUZ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/43/02/414302_sara_cruz_20260731181428.png"
      },
      {
       "num": "7",
       "nome": "ANA AZEVEDO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
      },
      {
       "num": "70",
       "nome": "KAKÁ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/77/320577_20220923223101_kaka_1663968661.jpg"
      },
      {
       "num": "",
       "nome": "DINHA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
       "num": "",
       "nome": "JANA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/87/1176687_20230323190310_jana_1679598190.jpg"
      },
      {
       "num": "",
       "nome": "INÊS GOMES",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/05/1044805_ines_gomes_20250424124308.jpg"
      },
      {
       "num": "",
       "nome": "ANA PIRES",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/14/510214_20220923223137_ana_pires_1663968697.jpg"
      },
      {
       "num": "",
       "nome": "BELINHA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/71/1371871_belinha_20251030161511.jpg"
      },
      {
       "num": "",
       "nome": "BEATRIZ FONSECA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
       "num": "5",
       "nome": "LÍDIA MOREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/68/361368_lidia_moreira_20260716151756.png"
      },
      {
       "num": "77",
       "nome": "LARA PEREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/61/31/1086131_lara_pereira_20260112103106.jpg"
      }
     ]
    }
@@ -292,7 +352,7 @@
    "id": "m",
    "tipo": "Supertaça Masculina",
    "jornada": "Supertaça Futsal Placard",
-   "fundo": "",
+   "fundo": "fundo-masculino.jpg",
    "data": "5 de Setembro de 2026",
    "hora": "21h00",
    "local": "Pavilhão de Desportos de Vila do Conde",
@@ -301,6 +361,8 @@
    "arb3": "",
    "cron": "",
    "obs": "",
+   "tv": "",
+   "tvUrl": "",
    "relogio": {
     "estado": "parado",
     "parte": 1,
@@ -366,119 +428,153 @@
       "nome": "ANDRÉ CORREIA (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/andre-correia-gr.jpg"
      },
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/silvestre-ferreira.jpg"
      },
      {
       "num": "4",
       "nome": "AFONSO JESUS",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/afonso-jesus.jpg"
      },
      {
       "num": "5",
       "nome": "DIOGO ALMEIDA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/diogo-almeida.jpg"
      },
      {
       "num": "6",
       "nome": "RAÚL MOREIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/raul-moreira.jpg"
      },
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/lucio-rocha.jpg"
      },
      {
       "num": "8",
       "nome": "ANDRÉ COELHO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/andre-coelho.jpg"
      },
      {
       "num": "10",
       "nome": "ARTHUR",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/arthur.jpg"
      },
      {
       "num": "11",
       "nome": "EDUARDO TCHUDA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/eduardo-tchuda.jpg"
      },
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/edmilson-kutchy.jpg"
      },
      {
       "num": "16",
       "nome": "VASCO PINTO (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": ""
      },
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/carlos-monteiro.jpg"
      },
      {
       "num": "18",
       "nome": "PANY VARELA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/pany-varela.jpg"
      },
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/ruben-gois.jpg"
      },
      {
       "num": "20",
       "nome": "ANDERSON FORTES",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/anderson-fortes.jpg"
      },
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/leo-gugiel-gr.jpg"
      },
      {
       "num": "77",
       "nome": "CLÉBER SOUZA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": ""
      }
     ]
    },
@@ -493,131 +589,167 @@
       "nome": "GONÇALO PORTUGAL (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/goncalo-portugal-gr.jpg"
      },
      {
       "num": "2",
       "nome": "RAFAEL RUELA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": ""
      },
      {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/tomas-paco.jpg"
      },
      {
       "num": "6",
       "nome": "ZICKY TÉ",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/zicky-te.jpg"
      },
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/diogo-santos.jpg"
      },
      {
       "num": "8",
       "nome": "WESLEY",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/wesley.jpg"
      },
      {
       "num": "10",
       "nome": "RUBEN TEIXEIRA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/ruben-teixeira.jpg"
      },
      {
       "num": "11",
       "nome": "CHISHKALA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/chishkala.jpg"
      },
      {
       "num": "13",
       "nome": "TIAGUINHO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/tiaguinho.jpg"
      },
      {
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/felipe-valerio.jpg"
      },
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/bernardo-paco-gr.jpg"
      },
      {
       "num": "17",
       "nome": "ERICK MENDONÇA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/erick-mendonca.jpg"
      },
      {
       "num": "25",
       "nome": "BRUNO PINTO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/bruno-pinto.jpg"
      },
      {
       "num": "29",
       "nome": "ALEX MERLIM",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/alex-merlim.jpg"
      },
      {
       "num": "30",
       "nome": "FELIPE RUFINO",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/felipe-rufino.jpg"
      },
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/bruno-maior.jpg"
      },
      {
       "num": "70",
       "nome": "ROCHA",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/rocha.jpg"
      },
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV",
       "e": "",
       "min": "",
-      "cart": ""
+      "cart": "",
+      "ass": "",
+      "foto": "fotos/oleksandr-sukhov.jpg"
      }
     ]
    }
   }
  ],
- "build": "20260903111952",
+ "build": "20260903114254",
  "ts": 0
 }

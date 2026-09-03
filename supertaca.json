@@ -5,6 +5,7 @@
    "id": "f",
    "tipo": "Supertaça Feminina",
    "jornada": "Supertaça Futsal Feminina Placard",
+   "fundo": "fundo-feminino.jpg",
    "data": "5 de Setembro de 2026",
    "hora": "16h30",
    "local": "Pavilhão de Desportos de Vila do Conde",
@@ -291,6 +292,7 @@
    "id": "m",
    "tipo": "Supertaça Masculina",
    "jornada": "Supertaça Futsal Placard",
+   "fundo": "",
    "data": "5 de Setembro de 2026",
    "hora": "21h00",
    "local": "Pavilhão de Desportos de Vila do Conde",
@@ -616,6 +618,6 @@
    }
   }
  ],
- "build": "20260903111227",
+ "build": "20260903111952",
  "ts": 0
 }

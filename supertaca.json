@@ -237,7 +237,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/74/1093474_ines_ferreira_1677245648.jpg"
      },
      {
       "num": "5",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "build": "20260903193559",
- "ts": 1788464167016
+ "build": "20260903193901",
+ "ts": 1788464341430
 }

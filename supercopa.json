@@ -19,10 +19,10 @@
    "tv": "",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 1788607956405
+    "acc": 273.178,
+    "desde": 0
    },
    "lances": [],
    "faltas": [],
@@ -815,6 +815,6 @@
    }
   }
  ],
- "ts": 1788608131116,
+ "ts": 1788608232084,
  "build": "20260905101124"
 }

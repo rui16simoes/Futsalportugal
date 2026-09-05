@@ -454,55 +454,182 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "sf2l0",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Raggiati inaugura o marcador e coloca o Jaén na frente logo a abrir"
+    },
+    {
+     "id": "sf2l1",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Pito responde com um bis em dois minutos e vira o jogo para o Barça"
+    },
+    {
+     "id": "sf2l2",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Espíndola trava o remate de João Victor e ainda segura a recarga de Martel"
+    },
+    {
+     "id": "sf2l3",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Sérgio atrasa demasiado a decisão e Raggiati chega a tempo do corte"
+    },
+    {
+     "id": "sf2l4",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Touré instala-se dentro da área e bate Espíndola com toda a calma"
+    },
+    {
+     "id": "sf2l5",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Esteban reduz com um remate rasteiro por entre as pernas de Feixas"
+    },
+    {
+     "id": "sf2l6",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Dídac Plana rende Feixas na baliza do Barça para a segunda parte"
+    },
+    {
+     "id": "sf2l7",
+     "m": 23,
+     "lado": "fora",
+     "txt": "Touré falha um lançamento no seu meio-campo e Esteban aproveita para empatar"
+    },
+    {
+     "id": "sf2l8",
+     "m": 31,
+     "lado": "casa",
+     "txt": "Dídac segura o Barça com duas defesas de qualidade em bolas paradas"
+    },
+    {
+     "id": "sf2l9",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Esteban desvia de peito um remate de longe e atira o Jaén para a frente"
+    },
+    {
+     "id": "sf2l10",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Espíndola segura em duas vezes, quase em cima da linha, o remate de Sérgio"
+    },
+    {
+     "id": "sf2l11",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Zurdaço de Matheus, a bola bate no poste e entra: está feito o empate"
+    },
+    {
+     "id": "sf2l12",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Javi Rodríguez arrisca tudo e lança Antonio como guarda-redes avançado"
+    },
+    {
+     "id": "sf2l13",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Espíndola nega o golo a Matheus e o Barça pede tempo morto"
+    },
+    {
+     "id": "sf2l14",
+     "m": 40,
+     "lado": "casa",
+     "txt": "Sérgio González é expulso a 42 segundos do fim por mão à bola"
+    },
+    {
+     "id": "sf2l15",
+     "m": 40,
+     "lado": "",
+     "txt": "Termina o tempo regulamentar: 4-4 e decisão nas grandes penalidades"
+    },
+    {
+     "id": "sf2l16",
+     "m": 40,
+     "lado": "casa",
+     "txt": "O Barça ganha o desempate por 6-5, com três defesas de Dídac, e está na final"
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ANTONIO PÉREZ",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ERIC MARTEL",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "JOÃO VICTOR",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "MATHEUS SILVA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "CATELA",
+      "ok": "1"
+     },
+     {
+      "nome": "ADOLFO FERNÁNDEZ",
+      "ok": "1"
+     },
+     {
+      "nome": "PITO",
+      "ok": "0"
+     },
+     {
+      "nome": "SOUHEIL MOUHOUDINE",
+      "ok": "1"
      }
     ],
     "fora": [
      {
-      "nome": "",
-      "ok": ""
+      "nome": "MÍCHEL",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "MATÍAS ROSA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "JOÃO SALLA",
+      "ok": "1"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ELOY ROJAS",
+      "ok": "0"
      },
      {
-      "nome": "",
-      "ok": ""
+      "nome": "ÁLEX LEMINE",
+      "ok": "1"
+     },
+     {
+      "nome": "POWER RAGGIATI",
+      "ok": "1"
+     },
+     {
+      "nome": "FERNANDO TRINDADE",
+      "ok": "0"
+     },
+     {
+      "nome": "BOYIS",
+      "ok": "0"
      }
     ]
    },
@@ -535,7 +662,7 @@
       "num": "3",
       "nome": "MATHEUS SILVA",
       "e": "",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622216.jpg"
@@ -545,7 +672,7 @@
       "nome": "ANTONIO PÉREZ",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "40",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622212.jpg"
      },
@@ -571,7 +698,7 @@
       "num": "10",
       "nome": "PITO",
       "e": "",
-      "min": "",
+      "min": "2, 3",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622231.jpg"
@@ -580,7 +707,7 @@
       "num": "11",
       "nome": "MAMADOU TOURÉ",
       "e": "",
-      "min": "",
+      "min": "14",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622228.jpg"
@@ -608,7 +735,7 @@
       "nome": "SÉRGIO GONZÁLEZ",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "40v",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622227.jpg"
      },
@@ -617,7 +744,7 @@
       "nome": "JOÃO VICTOR",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "26",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622190.jpg"
      },
@@ -670,8 +797,8 @@
       "num": "3",
       "nome": "POWER RAGGIATI",
       "e": "",
-      "min": "",
-      "cart": "",
+      "min": "1",
+      "cart": "8",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622141.jpg"
      },
@@ -679,7 +806,7 @@
       "num": "4",
       "nome": "ESTEBAN GUERRERO",
       "e": "",
-      "min": "",
+      "min": "18, 23, 32",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622304.jpg"
@@ -689,7 +816,7 @@
       "nome": "JOÃO SALLA",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "40",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622401.jpg"
      },
@@ -698,7 +825,7 @@
       "nome": "DANI ZURDO",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "24",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622403.jpg"
      },
@@ -707,7 +834,7 @@
       "nome": "FERNANDO TRINDADE",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "9",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3717444.jpg"
      },
@@ -743,7 +870,7 @@
       "nome": "ÁLEX LEMINE",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622409.jpg"
      },
@@ -784,7 +911,8 @@
       "foto": "https://t.resfu.com/img_data/players/medium/3622419.jpg"
      }
     ]
-   }
+   },
+   "gpOn": true
   },
   {
    "id": "final",
@@ -859,7 +987,7 @@
     "eq": "venc1",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "Josan González",
     "trFoto": "",
     "jogadores": []
    },
@@ -873,6 +1001,6 @@
    }
   }
  ],
- "ts": 1788622150731,
- "build": "20260905101124"
+ "ts": 1788625822146,
+ "build": "20260905155322"
 }

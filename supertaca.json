@@ -19,7 +19,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -70,6 +70,24 @@
      "m": 9,
      "lado": "casa",
      "txt": "Maria Pereira volta a tentar de fora da área e obriga Maria Odete a mandar para canto"
+    },
+    {
+     "id": "l9",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Andreza Queiroz remata à entrada da área e Maria Odete manda outra vez para fora"
+    },
+    {
+     "id": "l10",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Ana Catarina aparece a tempo e tira o golo a Ana Azevedo"
+    },
+    {
+     "id": "l11",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Maria Pereira fica com queixas físicas e recebe assistência médica na quadra"
     }
    ],
    "faltas": [
@@ -93,6 +111,13 @@
      "parte": 1,
      "m": 7,
      "n": 2
+    },
+    {
+     "id": "fa4",
+     "lado": "fora",
+     "parte": 1,
+     "m": 10,
+     "n": 3
     }
    ],
    "gp": {
@@ -324,7 +349,7 @@
       "nome": "ANA AZEVEDO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "10",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
      },
@@ -834,6 +859,6 @@
    }
   }
  ],
- "ts": 1788623764264,
+ "ts": 1788623974105,
  "build": "20260905155322"
 }

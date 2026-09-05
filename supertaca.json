@@ -1,5 +1,5 @@
 {
- "atual": "f",
+ "atual": "m",
  "jogos": [
   {
    "id": "f",
@@ -9,11 +9,11 @@
    "data": "5 de Setembro de 2026",
    "hora": "16h30",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "DANIELA ROQUE",
-   "arb2": "SARA BRANCO",
-   "arb3": "JÉSSICA PEDREIRAS",
-   "cron": "VERÓNICA SILVA",
-   "obs": "4.ª árbitra: Vânia Roque · Árbitras jovens: Constança Silva e G. Correia",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
    "tv": "",
    "tvUrl": "",
    "relogio": {
@@ -73,14 +73,14 @@
    "casa": {
     "eq": "benficaf",
     "golos": "",
-    "capitao": "ANA CATARINA",
+    "capitao": "",
     "treinador": "MARIA MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/238/38238_pri__20260615013549_maria_martins.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "ANA CATARINA (GR)",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -89,7 +89,7 @@
      {
       "num": "15",
       "nome": "ALEXANDRA MELO (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -98,7 +98,7 @@
      {
       "num": "25",
       "nome": "SIMONE PEDROSO (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -107,7 +107,7 @@
      {
       "num": "13",
       "nome": "INÊS MATOS",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -116,7 +116,7 @@
      {
       "num": "2",
       "nome": "ANDREZA QUEIROZ",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -125,7 +125,7 @@
      {
       "num": "9",
       "nome": "FIFÓ",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -134,7 +134,7 @@
      {
       "num": "10",
       "nome": "SARA FERREIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -143,7 +143,7 @@
      {
       "num": "18",
       "nome": "ANA OLIVEIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -152,7 +152,7 @@
      {
       "num": "19",
       "nome": "SOFIA CALHEIROS",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -161,7 +161,7 @@
      {
       "num": "7",
       "nome": "MARIA PEREIRA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -170,7 +170,7 @@
      {
       "num": "12",
       "nome": "GABY VANELLI",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -179,7 +179,7 @@
      {
       "num": "8",
       "nome": "JANICE SILVA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -188,7 +188,7 @@
      {
       "num": "11",
       "nome": "MADALENA FREDERIQUE",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -197,7 +197,7 @@
      {
       "num": "17",
       "nome": "ANGÉLICA ALVES",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -208,14 +208,14 @@
    "fora": {
     "eq": "nunalvares",
     "golos": "",
-    "capitao": "ANA AZEVEDO",
+    "capitao": "",
     "treinador": "PAULO TAVARES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/907/3907_paulo_tavares_1739285486.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "MARIA ODETE ROCHA (GR)",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -224,7 +224,7 @@
      {
       "num": "20",
       "nome": "JÚLIA MELZ (GR)",
-      "e": "N",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -233,7 +233,7 @@
      {
       "num": "22",
       "nome": "INÊS FERREIRA (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -242,7 +242,7 @@
      {
       "num": "5",
       "nome": "LÍDIA MOREIRA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -251,7 +251,7 @@
      {
       "num": "7",
       "nome": "ANA AZEVEDO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -260,70 +260,70 @@
      {
       "num": "",
       "nome": "ANA PIRES",
-      "e": "N",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/14/510214_20220923223137_ana_pires_1663968697.jpg"
      },
      {
-      "num": "9",
+      "num": "",
       "nome": "BEATRIZ FONSECA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
-      "num": "11",
+      "num": "",
       "nome": "JANA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/87/1176687_20230323190310_jana_1679598190.jpg"
      },
      {
-      "num": "12",
+      "num": "92",
       "nome": "CAMILA SILVA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
-      "num": "13",
+      "num": "",
       "nome": "DINHA",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
-      "num": "15",
+      "num": "",
       "nome": "BELINHA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/71/1371871_belinha_20251030161511.jpg"
      },
      {
-      "num": "17",
+      "num": "",
       "nome": "SARA CRUZ",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/43/02/414302_sara_cruz_20260731181428.png"
      },
      {
-      "num": "19",
+      "num": "",
       "nome": "JOANA MOREIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -332,16 +332,16 @@
      {
       "num": "70",
       "nome": "KAKÁ",
-      "e": "P",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/77/320577_20220923223101_kaka_1663968661.jpg"
      },
      {
-      "num": "73",
+      "num": "",
       "nome": "INÊS GOMES",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -350,7 +350,7 @@
      {
       "num": "77",
       "nome": "LARA PEREIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788622021823,
- "build": "20260905101124"
+ "ts": 1788622165024,
+ "build": "20260903193901"
 }

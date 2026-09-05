@@ -1,5 +1,5 @@
 {
- "atual": "m",
+ "atual": "f",
  "jogos": [
   {
    "id": "f",
@@ -9,11 +9,11 @@
    "data": "5 de Setembro de 2026",
    "hora": "16h30",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
-   "obs": "",
+   "arb1": "DANIELA ROQUE",
+   "arb2": "SARA BRANCO",
+   "arb3": "JÉSSICA PEDREIRAS",
+   "cron": "VERÓNICA SILVA",
+   "obs": "4.ª árbitra: Vânia Roque · Árbitras jovens: Constança Silva e G. Correia",
    "tv": "",
    "tvUrl": "",
    "relogio": {
@@ -73,7 +73,7 @@
    "casa": {
     "eq": "benficaf",
     "golos": "",
-    "capitao": "",
+    "capitao": "ANA CATARINA",
     "treinador": "MARIA MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/238/38238_pri__20260615013549_maria_martins.png",
     "jogadores": [
@@ -208,7 +208,7 @@
    "fora": {
     "eq": "nunalvares",
     "golos": "",
-    "capitao": "",
+    "capitao": "ANA AZEVEDO",
     "treinador": "PAULO TAVARES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/907/3907_paulo_tavares_1739285486.png",
     "jogadores": [
@@ -224,7 +224,7 @@
      {
       "num": "20",
       "nome": "JÚLIA MELZ (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -233,7 +233,7 @@
      {
       "num": "22",
       "nome": "INÊS FERREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -260,7 +260,7 @@
      {
       "num": "",
       "nome": "ANA PIRES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621817547,
+ "ts": 1788622021823,
  "build": "20260905101124"
 }

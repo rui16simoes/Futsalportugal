@@ -229,7 +229,7 @@
     "eq": "palma",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "Antonio Vadillo",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2025/img_employee/VADILLO_ENT.jpg",
     "jogadores": [
      {
@@ -815,6 +815,6 @@
    }
   }
  ],
- "ts": 1788608086144,
+ "ts": 1788608103621,
  "build": "20260905101124"
 }

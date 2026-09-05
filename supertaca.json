@@ -34,6 +34,18 @@
      "m": 2,
      "lado": "casa",
      "txt": "Livre batido por Gaby Vanelli, Odete só dá a recarga e Fifó aparece isolada a empurrar para o fundo das redes"
+    },
+    {
+     "id": "l3",
+     "m": 4,
+     "lado": "fora",
+     "txt": "Lídia Moreira arrisca de pé esquerdo em ângulo muito curto e a bola sai a rasar o poste"
+    },
+    {
+     "id": "l4",
+     "m": 5,
+     "lado": "fora",
+     "txt": "Jana carrega o pé pelo corredor central e obriga Ana Catarina a uma defesa segura"
     }
    ],
    "faltas": [
@@ -42,6 +54,13 @@
      "lado": "fora",
      "parte": 1,
      "m": 2,
+     "n": 1
+    },
+    {
+     "id": "fa2",
+     "lado": "casa",
+     "parte": 1,
+     "m": 4,
      "n": 1
     }
    ],
@@ -784,6 +803,6 @@
    }
   }
  ],
- "ts": 1788622931173,
+ "ts": 1788623007274,
  "build": "20260905101124"
 }

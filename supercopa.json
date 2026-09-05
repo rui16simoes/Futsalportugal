@@ -228,7 +228,7 @@
    "fora": {
     "eq": "palma",
     "golos": "",
-    "capitao": "",
+    "capitao": "CARLOS BARRÓN",
     "treinador": "Antonio Vadillo",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2025/img_employee/VADILLO_ENT.jpg",
     "jogadores": [
@@ -815,6 +815,6 @@
    }
   }
  ],
- "ts": 1788608105620,
+ "ts": 1788608121893,
  "build": "20260905101124"
 }

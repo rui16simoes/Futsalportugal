@@ -267,7 +267,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/14/510214_20220923223137_ana_pires_1663968697.jpg"
      },
      {
-      "num": "",
+      "num": "9",
       "nome": "BEATRIZ FONSECA",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621705062,
+ "ts": 1788621726430,
  "build": "20260905101124"
 }

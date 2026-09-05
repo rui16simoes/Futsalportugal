@@ -888,6 +888,12 @@
      "m": 26,
      "lado": "fora",
      "txt": "Bom trabalho de Felipe Rufino a servir Rúben Teixeira, que sozinho à entrada da área remata de primeira e falha o alvo"
+    },
+    {
+     "id": "m2_2",
+     "m": 28,
+     "lado": "",
+     "txt": "A segunda parte segue o guião da primeira: muita agressividade e cartões a sucederem-se"
     }
    ],
    "faltas": [
@@ -1052,7 +1058,7 @@
       "nome": "AFONSO JESUS",
       "e": "P",
       "min": "19",
-      "cart": "",
+      "cart": "28",
       "ass": "",
       "foto": "fotos/afonso-jesus.jpg"
      },
@@ -1357,6 +1363,6 @@
    }
   }
  ],
- "ts": 1788642827063,
+ "ts": 1788642991517,
  "build": "20260905205640"
 }

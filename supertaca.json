@@ -728,8 +728,8 @@
    "tvUrl": "https://www.youtube.com/watch?v=ES9e14dGC6c",
    "relogio": {
     "estado": "parado",
-    "parte": 3,
-    "acc": 120,
+    "parte": 4,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -984,6 +984,66 @@
      "m": 42,
      "lado": "fora",
      "txt": "André Coelho falha o passe, Rúben Teixeira fica isolado e remata rasteiro para grande defesa de André Correia"
+    },
+    {
+     "id": "m3_4",
+     "m": 44,
+     "lado": "fora",
+     "txt": "Wesley corta a acção encarnada e atira de imediato para colocar o Sporting na frente"
+    },
+    {
+     "id": "m3_5",
+     "m": 45,
+     "lado": "fora",
+     "txt": "Felipe Valério amplia a vantagem leonina antes do intervalo do prolongamento"
+    },
+    {
+     "id": "m4_0",
+     "m": 46,
+     "lado": "casa",
+     "txt": "O Benfica arrisca tudo e passa a jogar com guarda-redes avançado, em 5x4"
+    },
+    {
+     "id": "m4_1",
+     "m": 46,
+     "lado": "",
+     "txt": "Começa o segundo tempo do prolongamento"
+    },
+    {
+     "id": "m4_2",
+     "m": 47,
+     "lado": "casa",
+     "txt": "Grande trabalho de Pany Varela a trocar as voltas a Wesley e a atirar colocado ao ângulo superior direito, sem hipótese para Bernardo Paçó"
+    },
+    {
+     "id": "m4_3",
+     "m": 47,
+     "lado": "fora",
+     "txt": "Diogo Santos tenta finalizar de acrobacia o canto batido em balão e Léo Gugiel está atento"
+    },
+    {
+     "id": "m4_4",
+     "m": 48,
+     "lado": "fora",
+     "txt": "Wesley quase repete a dose para a baliza deserta na sequência do 5x4 e Pany evita com um corte exemplar"
+    },
+    {
+     "id": "m4_5",
+     "m": 48,
+     "lado": "casa",
+     "txt": "Afonso Jesus recebe na ala esquerda com espaço para finalizar, mas coloca efeito a mais e falha o alvo"
+    },
+    {
+     "id": "m4_6",
+     "m": 50,
+     "lado": "fora",
+     "txt": "Wesley volta a cortar o 5x4 e a rematar de primeira, desta vez sem acertar na baliza"
+    },
+    {
+     "id": "m4_7",
+     "m": 50,
+     "lado": "casa",
+     "txt": "Pany Varela esteve perto do bis com um remate forte ao ângulo, travado por uma defesa atenta de Bernardo Paçó"
     }
    ],
    "faltas": [
@@ -1279,7 +1339,7 @@
       "num": "18",
       "nome": "PANY VARELA",
       "e": "S",
-      "min": "",
+      "min": "47",
       "cart": "",
       "ass": "",
       "foto": "fotos/pany-varela.jpg"
@@ -1378,7 +1438,7 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "P",
-      "min": "",
+      "min": "44",
       "cart": "17",
       "ass": "",
       "foto": "fotos/wesley.jpg"
@@ -1414,7 +1474,7 @@
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "S",
-      "min": "",
+      "min": "45",
       "cart": "",
       "ass": "",
       "foto": "fotos/felipe-valerio.jpg"
@@ -1495,6 +1555,6 @@
    }
   }
  ],
- "ts": 1788645450654,
+ "ts": 1788646548257,
  "build": "20260905214553"
 }

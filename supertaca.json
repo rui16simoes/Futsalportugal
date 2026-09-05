@@ -729,7 +729,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 3,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -960,6 +960,12 @@
      "m": 40,
      "lado": "",
      "txt": "Termina o tempo regulamentar com o empate 1-1: a Supertaça vai a prolongamento"
+    },
+    {
+     "id": "m3_0",
+     "m": 41,
+     "lado": "",
+     "txt": "Arranca o prolongamento: cinco minutos para desempatar"
     }
    ],
    "faltas": [
@@ -1081,6 +1087,13 @@
      "parte": 2,
      "m": 39,
      "n": 4
+    },
+    {
+     "id": "p1",
+     "lado": "casa",
+     "parte": 3,
+     "m": 41,
+     "n": 5
     }
    ],
    "gp": {
@@ -1464,6 +1477,6 @@
    }
   }
  ],
- "ts": 1788644887032,
+ "ts": 1788645139985,
  "build": "20260905214553"
 }

@@ -298,7 +298,7 @@
       "nome": "JÚLIO ZANOTTO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "4",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3862020.jpg"
      },
@@ -822,6 +822,6 @@
    }
   }
  ],
- "ts": 1788608286337,
+ "ts": 1788608323755,
  "build": "20260905101124"
 }

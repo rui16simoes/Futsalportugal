@@ -76,7 +76,7 @@
     "eq": "elpozo",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "JOSAN GONZÁLEZ",
     "trFoto": "",
     "jogadores": [
      {
@@ -229,7 +229,7 @@
     "eq": "palma",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "ANTONIO VADILLO",
     "trFoto": "",
     "jogadores": [
      {
@@ -452,7 +452,7 @@
     "eq": "barca",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "JAVI RODRÍGUEZ",
     "trFoto": "",
     "jogadores": [
      {
@@ -587,7 +587,7 @@
     "eq": "jaen",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "DANI RODRÍGUEZ",
     "trFoto": "",
     "jogadores": [
      {
@@ -815,6 +815,6 @@
    }
   }
  ],
- "build": "20260905095819",
- "ts": 1788602299626
+ "build": "20260905100345",
+ "ts": 1788602625975
 }

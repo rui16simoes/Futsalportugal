@@ -15,11 +15,11 @@
    "cron": "VERÓNICA SILVA",
    "obs": "4.ª árbitra: Vânia Roque · Árbitras jovens: Constança Silva e G. Correia",
    "tv": "Canal 11",
-   "tvUrl": "",
+   "tvUrl": "https://www.youtube.com/watch?v=LDwyxAPSo2M",
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -58,6 +58,18 @@
      "m": 7,
      "lado": "casa",
      "txt": "Maria Martins chama as jogadoras do Benfica para uma pausa técnica"
+    },
+    {
+     "id": "l7",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Maria Pereira ganha a Belinha na direita e atira para nova defesa incompleta de Maria Odete"
+    },
+    {
+     "id": "l8",
+     "m": 9,
+     "lado": "casa",
+     "txt": "Maria Pereira volta a tentar de fora da área e obriga Maria Odete a mandar para canto"
     }
    ],
    "faltas": [
@@ -822,6 +834,6 @@
    }
   }
  ],
- "ts": 1788623541705,
- "build": "20260905154941"
+ "ts": 1788623764264,
+ "build": "20260905155322"
 }

@@ -265,7 +265,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
      },
      {
-      "num": "",
+      "num": "8",
       "nome": "ANA PIRES",
       "e": "N",
       "min": "",
@@ -274,7 +274,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/14/510214_20220923223137_ana_pires_1663968697.jpg"
      },
      {
-      "num": "",
+      "num": "9",
       "nome": "BEATRIZ FONSECA",
       "e": "S",
       "min": "",
@@ -283,7 +283,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
-      "num": "",
+      "num": "11",
       "nome": "JANA",
       "e": "P",
       "min": "",
@@ -292,7 +292,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/87/1176687_20230323190310_jana_1679598190.jpg"
      },
      {
-      "num": "92",
+      "num": "12",
       "nome": "CAMILA SILVA",
       "e": "S",
       "min": "",
@@ -301,7 +301,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
-      "num": "",
+      "num": "13",
       "nome": "DINHA",
       "e": "P",
       "min": "",
@@ -310,7 +310,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
-      "num": "",
+      "num": "15",
       "nome": "BELINHA",
       "e": "S",
       "min": "",
@@ -319,7 +319,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/71/1371871_belinha_20251030161511.jpg"
      },
      {
-      "num": "",
+      "num": "17",
       "nome": "SARA CRUZ",
       "e": "S",
       "min": "",
@@ -328,7 +328,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/43/02/414302_sara_cruz_20260731181428.png"
      },
      {
-      "num": "",
+      "num": "19",
       "nome": "JOANA MOREIRA",
       "e": "S",
       "min": "",
@@ -346,7 +346,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/77/320577_20220923223101_kaka_1663968661.jpg"
      },
      {
-      "num": "",
+      "num": "73",
       "nome": "INÊS GOMES",
       "e": "S",
       "min": "",
@@ -770,6 +770,6 @@
    }
   }
  ],
- "ts": 1788622484397,
+ "ts": 1788622567186,
  "build": "20260905101124"
 }

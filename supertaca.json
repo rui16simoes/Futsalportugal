@@ -729,7 +729,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -882,6 +882,12 @@
      "m": 20,
      "lado": "",
      "txt": "Recomeça a final: 20 minutos para decidir a Supertaça"
+    },
+    {
+     "id": "m2_1",
+     "m": 26,
+     "lado": "fora",
+     "txt": "Bom trabalho de Felipe Rufino a servir Rúben Teixeira, que sozinho à entrada da área remata de primeira e falha o alvo"
     }
    ],
    "faltas": [
@@ -954,6 +960,20 @@
      "parte": 2,
      "m": 23,
      "n": 1
+    },
+    {
+     "id": "c2",
+     "lado": "fora",
+     "parte": 2,
+     "m": 26,
+     "n": 1
+    },
+    {
+     "id": "c3",
+     "lado": "casa",
+     "parte": 2,
+     "m": 28,
+     "n": 2
     }
    ],
    "gp": {
@@ -1337,6 +1357,6 @@
    }
   }
  ],
- "ts": 1788642663209,
+ "ts": 1788642827063,
  "build": "20260905205640"
 }

@@ -729,7 +729,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 3,
-    "acc": 60,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -966,6 +966,18 @@
      "m": 41,
      "lado": "",
      "txt": "Arranca o prolongamento: cinco minutos para desempatar"
+    },
+    {
+     "id": "m3_1",
+     "m": 41,
+     "lado": "casa",
+     "txt": "O Benfica chega às cinco faltas — e no prolongamento a contagem vem do tempo regulamentar"
+    },
+    {
+     "id": "m3_2",
+     "m": 42,
+     "lado": "fora",
+     "txt": "Diogo Santos dribla pela zona central e o remate acaba travado pela defesa encarnada"
     }
    ],
    "faltas": [
@@ -1477,6 +1489,6 @@
    }
   }
  ],
- "ts": 1788645139985,
+ "ts": 1788645292539,
  "build": "20260905214553"
 }

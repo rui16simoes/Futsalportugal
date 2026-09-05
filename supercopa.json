@@ -1,0 +1,1092 @@
+{
+ "atual": "sf1",
+ "titulo": "SUPERCOPA DE ESPAÑA",
+ "numero": "26",
+ "jogos": [
+  {
+   "id": "sf1",
+   "tipo": "Meia-final",
+   "jornada": "Meia-final · Supercopa de España",
+   "fundo": "fundo-supercopa.jpg",
+   "data": "5 de Setembro de 2026",
+   "hora": "13h30",
+   "local": "Palau Blaugrana, Barcelona",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "elpozo",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "",
+      "nome": "EDU SOUSA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "ANTONIO NAVARRO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "JUANJO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "BEBE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RICARDO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "LIGEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "PACHU",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RIVERA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "31",
+      "nome": "GADEIA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "A. MESEGUER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DAVID ÁLVAREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "MARCEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RICARDINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DRAHOVSKY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DENER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "SANTA CRUZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "palma",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "CARLOS BARRÓN (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "DENNIS CAVALCANTI (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "LUAN MULLER (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "DAVID PEÑA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "CHARUTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "FABINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "JÚLIO ZANOTTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "12",
+      "nome": "LUCÃO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "RODRIGO MONTEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "CARLOS GÓMEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "DIEGO NUNES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "DEIVÃO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "23",
+      "nome": "MANUEL PIQUERAS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "27",
+      "nome": "ERNESTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "44",
+      "nome": "LUCAS MACHADO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "99",
+      "nome": "ALISSON LIMA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "sf2",
+   "tipo": "Meia-final",
+   "jornada": "Meia-final · Supercopa de España",
+   "fundo": "fundo-supercopa.jpg",
+   "data": "5 de Setembro de 2026",
+   "hora": "16h15",
+   "local": "Palau Blaugrana, Barcelona",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "barca",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "21",
+      "nome": "DÍDAC PLANA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "26",
+      "nome": "MIQUEL FEIXAS (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "MATHEUS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "ANTONIO PÉREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "HIGOR DE SOUZA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "ADOLFO FERNÁNDEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "PITO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "MAMADOU TOURÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "CATELA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "ERIC MARTEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "SÉRGIO GONZÁLEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "JOÃO VICTOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "SOUHEIL MOUHOUDINE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "23",
+      "nome": "LUCIANO GAUNA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "jaen",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "CARLOS ESPÍNDOLA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "12",
+      "nome": "JOÃO FREZZATO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "POWER RAGGIATI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "ESTEBAN GUERRERO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "5",
+      "nome": "JOÃO SALLA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "DANI ZURDO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "FERNANDO TRINDADE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "BOYIS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "ELOY ROJAS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "ALAN BRANDI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "ÁLEX LEMINE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "BYNHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "MÍCHEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "29",
+      "nome": "CÉSAR VELASCO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "41",
+      "nome": "MATÍAS ROSA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "final",
+   "tipo": "Final",
+   "jornada": "Final · Supercopa de España",
+   "fundo": "fundo-supercopa.jpg",
+   "data": "6 de Setembro de 2026",
+   "hora": "18h45",
+   "local": "Palau Blaugrana, Barcelona",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "elpozo",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "",
+      "nome": "EDU SOUSA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "ANTONIO NAVARRO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "JUANJO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "BEBE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RICARDO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "LIGEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "PACHU",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RIVERA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "31",
+      "nome": "GADEIA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "A. MESEGUER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DAVID ÁLVAREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "MARCEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "RICARDINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DRAHOVSKY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "DENER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "",
+      "nome": "SANTA CRUZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "barca",
+    "golos": "",
+    "capitao": "",
+    "treinador": "",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "21",
+      "nome": "DÍDAC PLANA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "26",
+      "nome": "MIQUEL FEIXAS (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "MATHEUS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "ANTONIO PÉREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "HIGOR DE SOUZA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "ADOLFO FERNÁNDEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "PITO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "MAMADOU TOURÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "CATELA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "ERIC MARTEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "SÉRGIO GONZÁLEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "JOÃO VICTOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "SOUHEIL MOUHOUDINE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "23",
+      "nome": "LUCIANO GAUNA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  }
+ ],
+ "build": "20260905094135",
+ "ts": 1788601295763
+}

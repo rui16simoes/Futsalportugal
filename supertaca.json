@@ -1,5 +1,5 @@
 {
- "atual": "m",
+ "atual": "f",
  "jogos": [
   {
    "id": "f",
@@ -9,11 +9,11 @@
    "data": "5 de Setembro de 2026",
    "hora": "16h30",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
-   "obs": "",
+   "arb1": "DANIELA ROQUE",
+   "arb2": "SARA BRANCO",
+   "arb3": "JÉSSICA PEDREIRAS",
+   "cron": "VERÓNICA SILVA",
+   "obs": "4.ª árbitra: Vânia Roque · Árbitras jovens: Constança Silva e G. Correia",
    "tv": "",
    "tvUrl": "",
    "relogio": {
@@ -73,14 +73,14 @@
    "casa": {
     "eq": "benficaf",
     "golos": "",
-    "capitao": "",
+    "capitao": "ANA CATARINA",
     "treinador": "MARIA MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/238/38238_pri__20260615013549_maria_martins.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "ANA CATARINA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -89,7 +89,7 @@
      {
       "num": "15",
       "nome": "ALEXANDRA MELO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -98,7 +98,7 @@
      {
       "num": "25",
       "nome": "SIMONE PEDROSO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -107,7 +107,7 @@
      {
       "num": "13",
       "nome": "INÊS MATOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -116,7 +116,7 @@
      {
       "num": "2",
       "nome": "ANDREZA QUEIROZ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -125,7 +125,7 @@
      {
       "num": "9",
       "nome": "FIFÓ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -134,7 +134,7 @@
      {
       "num": "10",
       "nome": "SARA FERREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -143,7 +143,7 @@
      {
       "num": "18",
       "nome": "ANA OLIVEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -152,7 +152,7 @@
      {
       "num": "19",
       "nome": "SOFIA CALHEIROS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -161,7 +161,7 @@
      {
       "num": "7",
       "nome": "MARIA PEREIRA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -170,7 +170,7 @@
      {
       "num": "12",
       "nome": "GABY VANELLI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -179,7 +179,7 @@
      {
       "num": "8",
       "nome": "JANICE SILVA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -188,7 +188,7 @@
      {
       "num": "11",
       "nome": "MADALENA FREDERIQUE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -197,7 +197,7 @@
      {
       "num": "17",
       "nome": "ANGÉLICA ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -208,14 +208,14 @@
    "fora": {
     "eq": "nunalvares",
     "golos": "",
-    "capitao": "",
+    "capitao": "ANA AZEVEDO",
     "treinador": "PAULO TAVARES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/907/3907_paulo_tavares_1739285486.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "MARIA ODETE ROCHA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -224,7 +224,7 @@
      {
       "num": "20",
       "nome": "JÚLIA MELZ (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -233,7 +233,7 @@
      {
       "num": "22",
       "nome": "INÊS FERREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -242,7 +242,7 @@
      {
       "num": "5",
       "nome": "LÍDIA MOREIRA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -251,7 +251,7 @@
      {
       "num": "7",
       "nome": "ANA AZEVEDO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -260,7 +260,7 @@
      {
       "num": "",
       "nome": "ANA PIRES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -269,7 +269,7 @@
      {
       "num": "",
       "nome": "BEATRIZ FONSECA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -278,7 +278,7 @@
      {
       "num": "",
       "nome": "JANA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -287,7 +287,7 @@
      {
       "num": "92",
       "nome": "CAMILA SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -296,7 +296,7 @@
      {
       "num": "",
       "nome": "DINHA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -305,7 +305,7 @@
      {
       "num": "",
       "nome": "BELINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -314,7 +314,7 @@
      {
       "num": "",
       "nome": "SARA CRUZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -323,7 +323,7 @@
      {
       "num": "",
       "nome": "JOANA MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -332,7 +332,7 @@
      {
       "num": "70",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -341,7 +341,7 @@
      {
       "num": "",
       "nome": "INÊS GOMES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -350,7 +350,7 @@
      {
       "num": "77",
       "nome": "LARA PEREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788622290725,
+ "ts": 1788622379565,
  "build": "20260905101124"
 }

@@ -80,16 +80,7 @@
     "trFoto": "",
     "jogadores": [
      {
-      "num": "",
-      "nome": "EDU SOUSA (GR)",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
+      "num": "1",
       "nome": "ANTONIO NAVARRO (GR)",
       "e": "",
       "min": "",
@@ -98,8 +89,8 @@
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "JUANJO",
+      "num": "19",
+      "nome": "EDU SOUSA (GR)",
       "e": "",
       "min": "",
       "cart": "",
@@ -107,8 +98,8 @@
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "BEBE",
+      "num": "38",
+      "nome": "JUANJO (GR)",
       "e": "",
       "min": "",
       "cart": "",
@@ -116,7 +107,16 @@
       "foto": ""
      },
      {
-      "num": "",
+      "num": "7",
+      "nome": "DENER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
       "nome": "RICARDO",
       "e": "",
       "min": "",
@@ -125,8 +125,8 @@
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "LIGEIRO",
+      "num": "9",
+      "nome": "RIVERA",
       "e": "",
       "min": "",
       "cart": "",
@@ -134,7 +134,25 @@
       "foto": ""
      },
      {
-      "num": "",
+      "num": "10",
+      "nome": "RICARDINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "MARCEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
       "nome": "PACHU",
       "e": "",
       "min": "",
@@ -143,8 +161,26 @@
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "RIVERA",
+      "num": "16",
+      "nome": "DAVID ÁLVAREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "SANTA CRUZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "DRAHOVSKY",
       "e": "",
       "min": "",
       "cart": "",
@@ -161,7 +197,16 @@
       "foto": ""
      },
      {
-      "num": "",
+      "num": "33",
+      "nome": "LIGEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "49",
       "nome": "A. MESEGUER",
       "e": "",
       "min": "",
@@ -170,53 +215,8 @@
       "foto": ""
      },
      {
-      "num": "",
-      "nome": "DAVID ÁLVAREZ",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
-      "nome": "MARCEL",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
-      "nome": "RICARDINHO",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
-      "nome": "DRAHOVSKY",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
-      "nome": "DENER",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "",
-      "nome": "SANTA CRUZ",
+      "num": "51",
+      "nome": "BEBE",
       "e": "",
       "min": "",
       "cart": "",
@@ -243,7 +243,7 @@
      },
      {
       "num": "2",
-      "nome": "DENNIS CAVALCANTI (GR)",
+      "nome": "DENNIS (GR)",
       "e": "",
       "min": "",
       "cart": "",
@@ -261,7 +261,7 @@
      },
      {
       "num": "7",
-      "nome": "DAVID PEÑA",
+      "nome": "D. PEÑA",
       "e": "",
       "min": "",
       "cart": "",
@@ -306,7 +306,7 @@
      },
      {
       "num": "13",
-      "nome": "RODRIGO MONTEIRO",
+      "nome": "RODRIGO",
       "e": "",
       "min": "",
       "cart": "",
@@ -342,7 +342,7 @@
      },
      {
       "num": "23",
-      "nome": "MANUEL PIQUERAS",
+      "nome": "PIQUERAS",
       "e": "",
       "min": "",
       "cart": "",
@@ -360,7 +360,7 @@
      },
      {
       "num": "44",
-      "nome": "LUCAS MACHADO",
+      "nome": "MACHADO",
       "e": "",
       "min": "",
       "cart": "",
@@ -369,7 +369,7 @@
      },
      {
       "num": "99",
-      "nome": "ALISSON LIMA",
+      "nome": "ALISSON NEVES",
       "e": "",
       "min": "",
       "cart": "",
@@ -815,6 +815,6 @@
    }
   }
  ],
- "build": "20260905094712",
- "ts": 1788601632494
+ "build": "20260905095356",
+ "ts": 1788602036639
 }

@@ -321,7 +321,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/43/02/414302_sara_cruz_20260731181428.png"
      },
      {
-      "num": "",
+      "num": "19",
       "nome": "JOANA MOREIRA",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621742938,
+ "ts": 1788621746113,
  "build": "20260905101124"
 }

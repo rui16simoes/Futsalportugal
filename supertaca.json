@@ -19,7 +19,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -88,6 +88,54 @@
      "m": 11,
      "lado": "casa",
      "txt": "Maria Pereira fica com queixas físicas e recebe assistência médica na quadra"
+    },
+    {
+     "id": "l12",
+     "m": 11,
+     "lado": "fora",
+     "txt": "Paulo Tavares responde com pausa técnica do lado do Nun'Álvares"
+    },
+    {
+     "id": "l13",
+     "m": 13,
+     "lado": "fora",
+     "txt": "Dinha bate o livre directo e a bola morre na barreira encarnada"
+    },
+    {
+     "id": "l14",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Janice Silva dispara com potência pela direita e Maria Odete leva outra vez a melhor"
+    },
+    {
+     "id": "l15",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Pressão alta do Benfica a dar frutos: Fifó rouba a bola em zona adiantada, serve Janice e esta não perdoa"
+    },
+    {
+     "id": "l16",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Dinha atira com força e Ana Catarina vence mais um duelo"
+    },
+    {
+     "id": "l17",
+     "m": 18,
+     "lado": "casa",
+     "txt": "Andreza Queiroz cai mal num duelo e sai da quadra para receber assistência"
+    },
+    {
+     "id": "l18",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Belinha perde a bola na linha lateral, Gaby Vanelli puxa para dentro e atira um mísssil para o ângulo. Golaço!"
+    },
+    {
+     "id": "l19",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Vila do Conde: Benfica 3-0 Nun'Álvares"
     }
    ],
    "faltas": [
@@ -118,6 +166,27 @@
      "parte": 1,
      "m": 10,
      "n": 3
+    },
+    {
+     "id": "fa5",
+     "lado": "casa",
+     "parte": 1,
+     "m": 12,
+     "n": 2
+    },
+    {
+     "id": "fa6",
+     "lado": "casa",
+     "parte": 1,
+     "m": 15,
+     "n": 3
+    },
+    {
+     "id": "fa7",
+     "lado": "casa",
+     "parte": 1,
+     "m": 19,
+     "n": 4
     }
    ],
    "gp": {
@@ -224,7 +293,7 @@
       "e": "P",
       "min": "2",
       "cart": "",
-      "ass": "",
+      "ass": "14",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/85/72/468572_fifo_20241018145712.jpg"
      },
      {
@@ -267,7 +336,7 @@
       "num": "12",
       "nome": "GABY VANELLI",
       "e": "S",
-      "min": "",
+      "min": "20",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/32/656932_gaby_vanelli_20251126154503.png"
@@ -276,7 +345,7 @@
       "num": "8",
       "nome": "JANICE SILVA",
       "e": "P",
-      "min": "",
+      "min": "14",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/61/55/416155_janice_silva_20241018145654.jpg"
@@ -859,6 +928,6 @@
    }
   }
  ],
- "ts": 1788623974105,
+ "ts": 1788625376692,
  "build": "20260905155322"
 }

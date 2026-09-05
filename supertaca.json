@@ -725,7 +725,7 @@
    "cron": "RICARDO FILIPE",
    "obs": "4.º árbitro: Pedro Costa · Árbitros jovens: João Gaspar e Tiago Pinto",
    "tv": "Canal 11",
-   "tvUrl": "",
+   "tvUrl": "https://www.youtube.com/watch?v=ES9e14dGC6c",
    "relogio": {
     "estado": "parado",
     "parte": 1,
@@ -1324,6 +1324,6 @@
    }
   }
  ],
- "ts": 1788641517991,
+ "ts": 1788641545392,
  "build": "20260905182126"
 }

@@ -24,21 +24,21 @@
    },
    "lances": [
     {
-     "id": "l1788622481895",
+     "id": "l1",
      "m": 1,
      "lado": "",
-     "txt": "Inicio da partida em Vila do Conde"
+     "txt": "Rola a bola em Vila do Conde para a Supertaça Feminina"
     },
     {
-     "id": "l1788622744813",
+     "id": "l2",
      "m": 2,
-     "lado": "",
-     "txt": "GABY VANELLI entrou para marcar o livre, MARIA ODETE defende e na recarga FIFÓ faz o 1-0"
+     "lado": "casa",
+     "txt": "Livre batido por Gaby Vanelli, Odete só dá a recarga e Fifó aparece isolada a empurrar para o fundo das redes"
     }
    ],
    "faltas": [
     {
-     "id": "f1788622633300",
+     "id": "fa1",
      "lado": "fora",
      "parte": 1,
      "m": 2,
@@ -784,6 +784,6 @@
    }
   }
  ],
- "ts": 1788622747315,
+ "ts": 1788622931173,
  "build": "20260905101124"
 }

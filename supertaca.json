@@ -30,7 +30,15 @@
      "txt": "Inicio da partida em Vila do Conde"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "f1788622605718",
+     "lado": "fora",
+     "parte": 1,
+     "m": 3,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -770,6 +778,6 @@
    }
   }
  ],
- "ts": 1788622567186,
+ "ts": 1788622608219,
  "build": "20260905101124"
 }

@@ -18,8 +18,8 @@
    "tvUrl": "https://www.youtube.com/watch?v=LDwyxAPSo2M",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
+    "parte": 2,
+    "acc": 0,
     "desde": 0
    },
    "lances": [
@@ -136,6 +136,12 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo em Vila do Conde: Benfica 3-0 Nun'Álvares"
+    },
+    {
+     "id": "l20",
+     "m": 20,
+     "lado": "",
+     "txt": "Recomeça o jogo em Vila do Conde para os segundos 20 minutos"
     }
    ],
    "faltas": [
@@ -928,6 +934,6 @@
    }
   }
  ],
- "ts": 1788625376692,
+ "ts": 1788626092349,
  "build": "20260905155322"
 }

@@ -276,7 +276,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
-      "num": "",
+      "num": "11",
       "nome": "JANA",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621726430,
+ "ts": 1788621731118,
  "build": "20260905101124"
 }

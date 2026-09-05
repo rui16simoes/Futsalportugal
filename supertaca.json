@@ -312,7 +312,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/71/1371871_belinha_20251030161511.jpg"
      },
      {
-      "num": "",
+      "num": "17",
       "nome": "SARA CRUZ",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621738989,
+ "ts": 1788621742938,
  "build": "20260905101124"
 }

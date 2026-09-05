@@ -729,11 +729,220 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "m1_0",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Arranque muito partido, com o Benfica a somar duas faltas logo nos primeiros minutos"
+    },
+    {
+     "id": "m1_1",
+     "m": 5,
+     "lado": "casa",
+     "txt": "Kutchy trabalha bem na ala esquerda, passa por Bruno Pinto e cruza tenso ao segundo poste sem encontrar ninguém"
+    },
+    {
+     "id": "m1_2",
+     "m": 5,
+     "lado": "casa",
+     "txt": "Kutchy remata de bico e a bola vai à figura de Bernardo Paçó"
+    },
+    {
+     "id": "m1_3",
+     "m": 7,
+     "lado": "fora",
+     "txt": "Rúben Teixeira arranca pelo corredor central e Diogo Almeida trava-o em cima da finalização"
+    },
+    {
+     "id": "m1_4",
+     "m": 7,
+     "lado": "fora",
+     "txt": "Rocha roda pela esquerda por fora e dá de caras com uma pressão exemplar de Léo Gugiel"
+    },
+    {
+     "id": "m1_5",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Bernardo Paçó sobe no terreno e atira fortíssimo, mas para fora"
+    },
+    {
+     "id": "m1_6",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Rúben Góis aparece dentro da área e Bernardo Paçó fecha-lhe o ângulo com uma parede exemplar"
+    },
+    {
+     "id": "m1_7",
+     "m": 11,
+     "lado": "",
+     "txt": "Grande ambiente nas bancadas, com as duas claques em peso"
+    },
+    {
+     "id": "m1_8",
+     "m": 12,
+     "lado": "casa",
+     "txt": "O Benfica chega às cinco faltas: a partir daqui é livre directo para o Sporting"
+    },
+    {
+     "id": "m1_9",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Tomás Paçó tenta finalizar de primeira depois de um fora pela esquerda e a defesa encarnada corta a tempo"
+    },
+    {
+     "id": "m1_10",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Afonso Jesus responde ao lançamento de Léo Gugiel mas, já dentro da área, atira por cima"
+    },
+    {
+     "id": "m1_11",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Kutchy fica isolado à entrada da área num ressalto e não aproveita o espaço que tinha"
+    },
+    {
+     "id": "m1_12",
+     "m": 16,
+     "lado": "fora",
+     "txt": "Rocha serve Tomás Paçó e o fixo leonino inaugura o marcador"
+    },
+    {
+     "id": "m1_13",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Tomás Paçó atira dos 15 metros e a bola bate com estrondo no poste direito"
+    },
+    {
+     "id": "m1_14",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Cartão amarelo mostrado a Raúl Moreira, director do Benfica, no banco"
+    },
+    {
+     "id": "m1_15",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Bernardo Paçó volta a subir pela direita e falha o alvo por cima"
+    },
+    {
+     "id": "m1_16",
+     "m": 19,
+     "lado": "casa",
+     "txt": "André Correia agarra o remate de Bernardo Paçó e devolve de imediato para uma baliza deserta, com a bola a sair ligeiramente por cima"
+    },
+    {
+     "id": "m1_17",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Rúben Góis assiste e Afonso Jesus restabelece a igualdade"
+    },
+    {
+     "id": "m1_18",
+     "m": 19,
+     "lado": "casa",
+     "txt": "O VAR analisa uma possível falta de Rúben Góis sobre Wesley no gesto de pivot"
+    },
+    {
+     "id": "m1_19",
+     "m": 19,
+     "lado": "casa",
+     "txt": "O VAR decide: o golo é validado e o empate mantém-se"
+    },
+    {
+     "id": "m1_20",
+     "m": 19,
+     "lado": "fora",
+     "txt": "Nuno Dias gasta a pausa técnica do Sporting"
+    },
+    {
+     "id": "m1_21",
+     "m": 20,
+     "lado": "fora",
+     "txt": "Felipe Rufino conduz da ala esquerda para dentro mas, com espaço para rematar, atira fraco e para fora"
+    },
+    {
+     "id": "m1_22",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Cassiano Klein pede a pausa técnica do Benfica"
+    },
+    {
+     "id": "m1_23",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Gondomar: Benfica 1-1 Sporting"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "a1",
+     "lado": "casa",
+     "parte": 1,
+     "m": 1,
+     "n": 1
+    },
+    {
+     "id": "a2",
+     "lado": "casa",
+     "parte": 1,
+     "m": 1,
+     "n": 2
+    },
+    {
+     "id": "a3",
+     "lado": "casa",
+     "parte": 1,
+     "m": 4,
+     "n": 3
+    },
+    {
+     "id": "a4",
+     "lado": "casa",
+     "parte": 1,
+     "m": 5,
+     "n": 4
+    },
+    {
+     "id": "a5",
+     "lado": "casa",
+     "parte": 1,
+     "m": 12,
+     "n": 5
+    },
+    {
+     "id": "b1",
+     "lado": "fora",
+     "parte": 1,
+     "m": 10,
+     "n": 1
+    },
+    {
+     "id": "b2",
+     "lado": "fora",
+     "parte": 1,
+     "m": 15,
+     "n": 2
+    },
+    {
+     "id": "b3",
+     "lado": "fora",
+     "parte": 1,
+     "m": 16,
+     "n": 3
+    },
+    {
+     "id": "b4",
+     "lado": "fora",
+     "parte": 1,
+     "m": 17,
+     "n": 4
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -809,7 +1018,7 @@
       "num": "4",
       "nome": "AFONSO JESUS",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "fotos/afonso-jesus.jpg"
@@ -828,7 +1037,7 @@
       "nome": "RAÚL MOREIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "11",
       "ass": "",
       "foto": "fotos/raul-moreira.jpg"
      },
@@ -873,7 +1082,7 @@
       "nome": "EDMILSON KUTCHY",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "5",
       "ass": "",
       "foto": "fotos/edmilson-kutchy.jpg"
      },
@@ -910,7 +1119,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "19",
       "foto": "fotos/ruben-gois.jpg"
      },
      {
@@ -971,7 +1180,7 @@
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "S",
-      "min": "",
+      "min": "16",
       "cart": "",
       "ass": "",
       "foto": "fotos/tomas-paco.jpg"
@@ -999,7 +1208,7 @@
       "nome": "WESLEY",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "17",
       "ass": "",
       "foto": "fotos/wesley.jpg"
      },
@@ -1071,7 +1280,7 @@
       "nome": "ALEX MERLIM",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "10",
       "ass": "",
       "foto": "fotos/alex-merlim.jpg"
      },
@@ -1080,7 +1289,7 @@
       "nome": "FELIPE RUFINO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "17",
       "ass": "",
       "foto": "fotos/felipe-rufino.jpg"
      },
@@ -1098,8 +1307,8 @@
       "nome": "ROCHA",
       "e": "S",
       "min": "",
-      "cart": "",
-      "ass": "",
+      "cart": "15",
+      "ass": "16",
       "foto": "fotos/rocha.jpg"
      },
      {
@@ -1115,6 +1324,6 @@
    }
   }
  ],
- "ts": 1788635477220,
+ "ts": 1788641517991,
  "build": "20260905182126"
 }

@@ -141,7 +141,7 @@
       "num": "9",
       "nome": "FIFÓ",
       "e": "P",
-      "min": "",
+      "min": "2",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/85/72/468572_fifo_20241018145712.jpg"
@@ -778,6 +778,6 @@
    }
   }
  ],
- "ts": 1788622635802,
+ "ts": 1788622647835,
  "build": "20260905101124"
 }

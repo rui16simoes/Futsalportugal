@@ -987,7 +987,7 @@
     "eq": "elpozo",
     "golos": "",
     "capitao": "",
-    "treinador": "Josan González",
+    "treinador": "JOSAN GONZÁLEZ",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2023/img_employee/JOSAN_GONZ%C3%81LEZ_ENT.jpg",
     "jogadores": [
      {
@@ -1140,7 +1140,7 @@
     "eq": "barca",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "JAVI RODRÍGUEZ",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2026/img_employee/75614.jpg",
     "jogadores": [
      {
@@ -1273,6 +1273,6 @@
    }
   }
  ],
- "ts": 1788632634787,
+ "ts": 1788632797629,
  "build": "20260905182126"
 }

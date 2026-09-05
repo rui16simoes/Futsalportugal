@@ -20,8 +20,8 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 504.015,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -30,6 +30,42 @@
      "m": 1,
      "lado": "",
      "txt": "Inicio da partida"
+    },
+    {
+     "id": "l1788620740853",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo — ElPozo Murcia 3 × 3 Illes Balears Palma"
+    },
+    {
+     "id": "l1788620740854",
+     "m": 22,
+     "lado": "casa",
+     "txt": "Grande penalidade para o ElPozo, convertida por Marcel"
+    },
+    {
+     "id": "l1788620740855",
+     "m": 31,
+     "lado": "casa",
+     "txt": "Nova grande penalidade convertida por Marcel"
+    },
+    {
+     "id": "l1788620740856",
+     "m": 38,
+     "lado": "fora",
+     "txt": "Alisson Neves entra como guarda-redes avançado no Palma"
+    },
+    {
+     "id": "l1788620740857",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Rivera fecha o lance com a baliza deserta"
+    },
+    {
+     "id": "l1788620740858",
+     "m": 40,
+     "lado": "",
+     "txt": "Final — ElPozo Murcia 8 × 4 Illes Balears Palma"
     }
    ],
    "faltas": [
@@ -132,7 +168,7 @@
       "num": "7",
       "nome": "DENER",
       "e": "P",
-      "min": "",
+      "min": "37",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3716626.jpg"
@@ -150,7 +186,7 @@
       "num": "9",
       "nome": "RIVERA",
       "e": "S",
-      "min": "",
+      "min": "38",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622328.jpg"
@@ -168,7 +204,7 @@
       "num": "11",
       "nome": "MARCEL",
       "e": "P",
-      "min": "",
+      "min": "11 22 31",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622299.jpg"
@@ -204,7 +240,7 @@
       "num": "18",
       "nome": "DRAHOVSKY",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622393.jpg"
@@ -231,7 +267,7 @@
       "num": "49",
       "nome": "A. MESEGUER",
       "e": "S",
-      "min": "",
+      "min": "15",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3790260.jpg"
@@ -357,7 +393,7 @@
       "num": "20",
       "nome": "DEIVÃO",
       "e": "P",
-      "min": "",
+      "min": "17",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3716579.jpg"
@@ -375,7 +411,7 @@
       "num": "27",
       "nome": "ERNESTO",
       "e": "P",
-      "min": "",
+      "min": "39a",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622196.jpg"
@@ -393,7 +429,7 @@
       "num": "99",
       "nome": "ALISSON NEVES",
       "e": "S",
-      "min": "",
+      "min": "33",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3716581.jpg"
@@ -837,6 +873,6 @@
    }
   }
  ],
- "ts": 1788608713345,
+ "ts": 1788620782497,
  "build": "20260905101124"
 }

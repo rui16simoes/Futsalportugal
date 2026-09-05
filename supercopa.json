@@ -77,7 +77,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "JOSAN GONZÁLEZ",
-    "trFoto": "",
+    "trFoto": "https://thumb2.besoccerapps.com/lnfs/2023/img_employee/JOSAN_GONZ%C3%81LEZ_ENT.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -230,7 +230,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "ANTONIO VADILLO",
-    "trFoto": "",
+    "trFoto": "https://thumb2.besoccerapps.com/lnfs/2025/img_employee/VADILLO_ENT.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -453,7 +453,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "JAVI RODRÍGUEZ",
-    "trFoto": "",
+    "trFoto": "https://thumb2.besoccerapps.com/lnfs/2026/img_employee/75614.jpg",
     "jogadores": [
      {
       "num": "21",
@@ -815,6 +815,6 @@
    }
   }
  ],
- "build": "20260905100345",
- "ts": 1788602625975
+ "build": "20260905100747",
+ "ts": 1788602867931
 }

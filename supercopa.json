@@ -76,7 +76,7 @@
     "eq": "elpozo",
     "golos": "",
     "capitao": "",
-    "treinador": "",
+    "treinador": "Josan González",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2023/img_employee/JOSAN_GONZ%C3%81LEZ_ENT.jpg",
     "jogadores": [
      {
@@ -815,6 +815,6 @@
    }
   }
  ],
- "ts": 1788608057307,
+ "ts": 1788608086144,
  "build": "20260905101124"
 }

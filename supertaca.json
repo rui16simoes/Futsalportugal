@@ -978,6 +978,12 @@
      "m": 42,
      "lado": "fora",
      "txt": "Diogo Santos dribla pela zona central e o remate acaba travado pela defesa encarnada"
+    },
+    {
+     "id": "m3_3",
+     "m": 42,
+     "lado": "fora",
+     "txt": "André Coelho falha o passe, Rúben Teixeira fica isolado e remata rasteiro para grande defesa de André Correia"
     }
    ],
    "faltas": [
@@ -1489,6 +1495,6 @@
    }
   }
  ],
- "ts": 1788645292539,
+ "ts": 1788645450654,
  "build": "20260905214553"
 }

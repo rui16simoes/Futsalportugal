@@ -19,7 +19,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -148,6 +148,132 @@
      "m": 22,
      "lado": "casa",
      "txt": "Andreza Queiroz cruza com criério para o segundo poste e Maria Odete sai da baliza para uma defesa decisiva"
+    },
+    {
+     "id": "p2_0",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Ana Catarina volta a brilhar com uma enorme defesa a remate de Lídia Moreira"
+    },
+    {
+     "id": "p2_1",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Maria Pereira remata em zona frontal e Camila Silva atira-se para o bloco"
+    },
+    {
+     "id": "p2_2",
+     "m": 26,
+     "lado": "casa",
+     "txt": "Erro de construção de Ana Oliveira e é outra vez Ana Catarina a resolver"
+    },
+    {
+     "id": "p2_3",
+     "m": 28,
+     "lado": "fora",
+     "txt": "O Nun'Álvares pede Vídeo Suporte: Kaká remata à entrada da área e a bola parece bater no braço de Andreza"
+    },
+    {
+     "id": "p2_4",
+     "m": 28,
+     "lado": "fora",
+     "txt": "O Vídeo Suporte confirma a grande penalidade para o Nun'Álvares"
+    },
+    {
+     "id": "p2_5",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Dinha atira a grande penalidade com violência ao poste esquerdo e desperdiça a redução"
+    },
+    {
+     "id": "p2_6",
+     "m": 30,
+     "lado": "fora",
+     "txt": "Lídia Moreira conduz de área a área mas Kaká falha o domínio no momento decisivo"
+    },
+    {
+     "id": "p2_7",
+     "m": 30,
+     "lado": "fora",
+     "txt": "Kaká procura redimir-se ao segundo poste e Ana Catarina aparece outra vez"
+    },
+    {
+     "id": "p2_8",
+     "m": 30,
+     "lado": "casa",
+     "txt": "O Benfica chega às cinco faltas: a partir daqui é livre directo para o Nun'Álvares"
+    },
+    {
+     "id": "p2_9",
+     "m": 30,
+     "lado": "fora",
+     "txt": "Jana é servida à direita e atira rasteiro para cima do corpo da guarda-redes"
+    },
+    {
+     "id": "p2_10",
+     "m": 31,
+     "lado": "fora",
+     "txt": "Passe açucarado de Dinha e Ana Azevedo, isolada, vence finalmente Ana Catarina"
+    },
+    {
+     "id": "p2_11",
+     "m": 31,
+     "lado": "casa",
+     "txt": "O Benfica pede Vídeo Suporte por falta de Dinha sobre Angélica antes da assistência"
+    },
+    {
+     "id": "p2_12",
+     "m": 31,
+     "lado": "casa",
+     "txt": "O Vídeo Suporte valida o golo e o Benfica fica sem direito a novo recurso"
+    },
+    {
+     "id": "p2_13",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Lídia Moreira remata de primeira e Ana Catarina agiganta-se mais uma vez"
+    },
+    {
+     "id": "p2_14",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Lídia Moreira antecipa-se à defesa mas pega mal na bola e atira por cima"
+    },
+    {
+     "id": "p2_15",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Sara Ferreira abandona a quadra com queixas no pulso"
+    },
+    {
+     "id": "p2_16",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Dinha desperdiça uma bela jogada colectiva e atira por cima da barra"
+    },
+    {
+     "id": "p2_17",
+     "m": 37,
+     "lado": "fora",
+     "txt": "Jana conduz pela esquerda, remata de bico e Ana Catarina defende com o pé"
+    },
+    {
+     "id": "p2_18",
+     "m": 38,
+     "lado": "fora",
+     "txt": "O Nun'Álvares arrisca o 5x4 com Ana Azevedo como guarda-redes avançada"
+    },
+    {
+     "id": "p2_19",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Paulo Tavares gasta a última pausa técnica do Nun'Álvares"
+    },
+    {
+     "id": "p2_20",
+     "m": 40,
+     "lado": "",
+     "txt": "Apito final: o Benfica conquista a Supertaça Feminina ao vencer por 3-1"
     }
    ],
    "faltas": [
@@ -212,6 +338,41 @@
      "lado": "casa",
      "parte": 2,
      "m": 23,
+     "n": 2
+    },
+    {
+     "id": "fb3",
+     "lado": "casa",
+     "parte": 2,
+     "m": 25,
+     "n": 3
+    },
+    {
+     "id": "fb4",
+     "lado": "casa",
+     "parte": 2,
+     "m": 27,
+     "n": 4
+    },
+    {
+     "id": "fb5",
+     "lado": "fora",
+     "parte": 2,
+     "m": 28,
+     "n": 1
+    },
+    {
+     "id": "fb6",
+     "lado": "casa",
+     "parte": 2,
+     "m": 30,
+     "n": 5
+    },
+    {
+     "id": "fb7",
+     "lado": "fora",
+     "parte": 2,
+     "m": 33,
      "n": 2
     }
    ],
@@ -363,7 +524,7 @@
       "nome": "GABY VANELLI",
       "e": "S",
       "min": "20",
-      "cart": "",
+      "cart": "30",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/32/656932_gaby_vanelli_20251126154503.png"
      },
@@ -443,7 +604,7 @@
       "num": "7",
       "nome": "ANA AZEVEDO",
       "e": "S",
-      "min": "",
+      "min": "31",
       "cart": "10",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
@@ -489,8 +650,8 @@
       "nome": "DINHA",
       "e": "P",
       "min": "",
-      "cart": "",
-      "ass": "",
+      "cart": "28",
+      "ass": "31",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
@@ -954,6 +1115,6 @@
    }
   }
  ],
- "ts": 1788626286268,
+ "ts": 1788628961134,
  "build": "20260905155322"
 }

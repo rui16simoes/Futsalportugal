@@ -984,23 +984,295 @@
     ]
    },
    "casa": {
-    "eq": "venc1",
+    "eq": "elpozo",
     "golos": "",
     "capitao": "",
     "treinador": "Josan González",
-    "trFoto": "",
-    "jogadores": []
+    "trFoto": "https://thumb2.besoccerapps.com/lnfs/2023/img_employee/JOSAN_GONZ%C3%81LEZ_ENT.jpg",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "ANTONIO NAVARRO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622101.jpg"
+     },
+     {
+      "num": "19",
+      "nome": "EDU SOUSA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622291.jpg"
+     },
+     {
+      "num": "38",
+      "nome": "JUANJO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3665167.jpg"
+     },
+     {
+      "num": "7",
+      "nome": "DENER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3716626.jpg"
+     },
+     {
+      "num": "8",
+      "nome": "RICARDO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622296.jpg"
+     },
+     {
+      "num": "9",
+      "nome": "RIVERA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622328.jpg"
+     },
+     {
+      "num": "10",
+      "nome": "RICARDINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622298.jpg"
+     },
+     {
+      "num": "11",
+      "nome": "MARCEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622299.jpg"
+     },
+     {
+      "num": "14",
+      "nome": "PACHU",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622253.jpg"
+     },
+     {
+      "num": "16",
+      "nome": "DAVID ÁLVAREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622300.jpg"
+     },
+     {
+      "num": "17",
+      "nome": "SANTA CRUZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622907.jpg"
+     },
+     {
+      "num": "18",
+      "nome": "DRAHOVSKY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622393.jpg"
+     },
+     {
+      "num": "31",
+      "nome": "GADEIA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622303.jpg"
+     },
+     {
+      "num": "33",
+      "nome": "LIGEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622254.jpg"
+     },
+     {
+      "num": "49",
+      "nome": "A. MESEGUER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3790260.jpg"
+     },
+     {
+      "num": "51",
+      "nome": "BEBE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622352.jpg"
+     }
+    ]
    },
    "fora": {
-    "eq": "venc2",
+    "eq": "barca",
     "golos": "",
     "capitao": "",
     "treinador": "",
-    "trFoto": "",
-    "jogadores": []
+    "trFoto": "https://thumb2.besoccerapps.com/lnfs/2026/img_employee/75614.jpg",
+    "jogadores": [
+     {
+      "num": "21",
+      "nome": "DÍDAC PLANA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622208.jpg"
+     },
+     {
+      "num": "26",
+      "nome": "MIQUEL FEIXAS (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622210.jpg"
+     },
+     {
+      "num": "3",
+      "nome": "MATHEUS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622216.jpg"
+     },
+     {
+      "num": "6",
+      "nome": "ANTONIO PÉREZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622212.jpg"
+     },
+     {
+      "num": "7",
+      "nome": "HIGOR DE SOUZA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/490811.jpg"
+     },
+     {
+      "num": "8",
+      "nome": "ADOLFO FERNÁNDEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622219.jpg"
+     },
+     {
+      "num": "10",
+      "nome": "PITO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622231.jpg"
+     },
+     {
+      "num": "11",
+      "nome": "MAMADOU TOURÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622228.jpg"
+     },
+     {
+      "num": "13",
+      "nome": "CATELA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622223.jpg"
+     },
+     {
+      "num": "14",
+      "nome": "ERIC MARTEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622226.jpg"
+     },
+     {
+      "num": "16",
+      "nome": "SÉRGIO GONZÁLEZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622227.jpg"
+     },
+     {
+      "num": "17",
+      "nome": "JOÃO VICTOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622190.jpg"
+     },
+     {
+      "num": "22",
+      "nome": "SOUHEIL MOUHOUDINE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622272.jpg"
+     },
+     {
+      "num": "23",
+      "nome": "LUCIANO GAUNA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://t.resfu.com/img_data/players/medium/3622351.jpg"
+     }
+    ]
    }
   }
  ],
- "ts": 1788628910022,
- "build": "20260905155322"
+ "ts": 1788632634787,
+ "build": "20260905182126"
 }

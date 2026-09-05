@@ -7,7 +7,7 @@
    "id": "sf1",
    "tipo": "Meia-final",
    "jornada": "Meia-final · Supercopa de España",
-   "fundo": "fundo-supercopa.jpg",
+   "fundo": "fundo-sc-sf1.jpg",
    "data": "5 de Setembro de 2026",
    "hora": "13h30",
    "local": "Palau Blaugrana, Barcelona",
@@ -383,7 +383,7 @@
    "id": "sf2",
    "tipo": "Meia-final",
    "jornada": "Meia-final · Supercopa de España",
-   "fundo": "fundo-supercopa.jpg",
+   "fundo": "fundo-sc-sf2.jpg",
    "data": "5 de Setembro de 2026",
    "hora": "16h15",
    "local": "Palau Blaugrana, Barcelona",
@@ -732,7 +732,7 @@
    "id": "final",
    "tipo": "Final",
    "jornada": "Final · Supercopa de España",
-   "fundo": "fundo-supercopa.jpg",
+   "fundo": "fundo-sc-final.jpg",
    "data": "6 de Setembro de 2026",
    "hora": "18h45",
    "local": "Palau Blaugrana, Barcelona",
@@ -815,6 +815,6 @@
    }
   }
  ],
- "build": "20260905094349",
- "ts": 1788601429637
+ "build": "20260905094712",
+ "ts": 1788601632494
 }

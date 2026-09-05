@@ -333,7 +333,7 @@
       "num": "17",
       "nome": "DIEGO NUNES",
       "e": "",
-      "min": "",
+      "min": "2",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3862019.jpg"
@@ -822,6 +822,6 @@
    }
   }
  ],
- "ts": 1788608330181,
+ "ts": 1788608351281,
  "build": "20260905101124"
 }

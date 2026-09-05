@@ -270,7 +270,7 @@
       "num": "7",
       "nome": "D. PEÑA",
       "e": "S",
-      "min": "",
+      "min": "6",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622174.jpg"
@@ -822,6 +822,6 @@
    }
   }
  ],
- "ts": 1788608359967,
+ "ts": 1788608605433,
  "build": "20260905101124"
 }

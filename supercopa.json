@@ -1,5 +1,5 @@
 {
- "atual": "sf1",
+ "atual": "sf2",
  "titulo": "SUPERCOPA DE ESPAÑA",
  "numero": "26",
  "jogos": [
@@ -76,7 +76,7 @@
     "eq": "elpozo",
     "golos": "",
     "capitao": "",
-    "treinador": "JOSAN GONZÁLEZ",
+    "treinador": "",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2023/img_employee/JOSAN_GONZ%C3%81LEZ_ENT.jpg",
     "jogadores": [
      {
@@ -229,7 +229,7 @@
     "eq": "palma",
     "golos": "",
     "capitao": "",
-    "treinador": "ANTONIO VADILLO",
+    "treinador": "",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2025/img_employee/VADILLO_ENT.jpg",
     "jogadores": [
      {
@@ -452,7 +452,7 @@
     "eq": "barca",
     "golos": "",
     "capitao": "",
-    "treinador": "JAVI RODRÍGUEZ",
+    "treinador": "",
     "trFoto": "https://thumb2.besoccerapps.com/lnfs/2026/img_employee/75614.jpg",
     "jogadores": [
      {
@@ -587,7 +587,7 @@
     "eq": "jaen",
     "golos": "",
     "capitao": "",
-    "treinador": "DANI RODRÍGUEZ",
+    "treinador": "",
     "trFoto": "",
     "jogadores": [
      {
@@ -815,6 +815,6 @@
    }
   }
  ],
- "build": "20260905100747",
- "ts": 1788602867931
+ "ts": 1788603194434,
+ "build": "20260905100747"
 }

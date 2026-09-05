@@ -46,6 +46,18 @@
      "m": 5,
      "lado": "fora",
      "txt": "Jana carrega a bola pelo corredor central e obriga Ana Catarina a uma grande defesa"
+    },
+    {
+     "id": "l5",
+     "m": 6,
+     "lado": "fora",
+     "txt": "Ana Azevedo dispara de primeira e Ana Catarina volta a aparecer com uma grande intervenção"
+    },
+    {
+     "id": "l6",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Maria Martins chama as jogadoras do Benfica para uma pausa técnica"
     }
    ],
    "faltas": [
@@ -803,6 +815,6 @@
    }
   }
  ],
- "ts": 1788623037327,
+ "ts": 1788623195848,
  "build": "20260905101124"
 }

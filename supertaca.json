@@ -728,8 +728,8 @@
    "tvUrl": "https://www.youtube.com/watch?v=ES9e14dGC6c",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
+    "parte": 2,
+    "acc": 0,
     "desde": 0
    },
    "lances": [
@@ -876,6 +876,12 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo em Vila do Conde: Benfica 1-1 Sporting"
+    },
+    {
+     "id": "m2_0",
+     "m": 20,
+     "lado": "",
+     "txt": "Recomeça a final: 20 minutos para decidir a Supertaça"
     }
    ],
    "faltas": [
@@ -1324,6 +1330,6 @@
    }
   }
  ],
- "ts": 1788641783247,
- "build": "20260905182126"
+ "ts": 1788642229208,
+ "build": "20260905205640"
 }

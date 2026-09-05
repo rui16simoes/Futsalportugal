@@ -294,7 +294,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
-      "num": "",
+      "num": "13",
       "nome": "DINHA",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621731118,
+ "ts": 1788621735729,
  "build": "20260905101124"
 }

@@ -1,5 +1,5 @@
 {
- "atual": "f",
+ "atual": "m",
  "jogos": [
   {
    "id": "f",
@@ -80,7 +80,7 @@
      {
       "num": "1",
       "nome": "ANA CATARINA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -116,7 +116,7 @@
      {
       "num": "2",
       "nome": "ANDREZA QUEIROZ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -208,7 +208,7 @@
    "fora": {
     "eq": "nunalvares",
     "golos": "",
-    "capitao": "ANA AZEVEDO",
+    "capitao": "",
     "treinador": "PAULO TAVARES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/907/3907_paulo_tavares_1739285486.png",
     "jogadores": [
@@ -258,7 +258,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/24/239224_ana_azevedo_20260716142958.png"
      },
      {
-      "num": "8",
+      "num": "",
       "nome": "ANA PIRES",
       "e": "",
       "min": "",
@@ -267,7 +267,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/14/510214_20220923223137_ana_pires_1663968697.jpg"
      },
      {
-      "num": "9",
+      "num": "",
       "nome": "BEATRIZ FONSECA",
       "e": "",
       "min": "",
@@ -276,7 +276,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/67/58/766758_beatriz_fonseca_20250105134045.jpg"
      },
      {
-      "num": "11",
+      "num": "",
       "nome": "JANA",
       "e": "",
       "min": "",
@@ -285,7 +285,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/87/1176687_20230323190310_jana_1679598190.jpg"
      },
      {
-      "num": "12",
+      "num": "92",
       "nome": "CAMILA SILVA",
       "e": "",
       "min": "",
@@ -294,7 +294,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/68/887668_camila_silva_20260716151819.png"
      },
      {
-      "num": "13",
+      "num": "",
       "nome": "DINHA",
       "e": "",
       "min": "",
@@ -303,7 +303,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
-      "num": "15",
+      "num": "",
       "nome": "BELINHA",
       "e": "",
       "min": "",
@@ -312,7 +312,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/71/1371871_belinha_20251030161511.jpg"
      },
      {
-      "num": "17",
+      "num": "",
       "nome": "SARA CRUZ",
       "e": "",
       "min": "",
@@ -321,7 +321,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/43/02/414302_sara_cruz_20260731181428.png"
      },
      {
-      "num": "19",
+      "num": "",
       "nome": "JOANA MOREIRA",
       "e": "",
       "min": "",
@@ -339,7 +339,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/77/320577_20220923223101_kaka_1663968661.jpg"
      },
      {
-      "num": "73",
+      "num": "",
       "nome": "INÊS GOMES",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "build": "20260903193901",
- "ts": 1788464341430
+ "ts": 1788621643502,
+ "build": "20260905101124"
 }

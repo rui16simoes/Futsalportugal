@@ -303,7 +303,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/35/879435__20220308101702_dinha.png"
      },
      {
-      "num": "",
+      "num": "15",
       "nome": "BELINHA",
       "e": "",
       "min": "",
@@ -763,6 +763,6 @@
    }
   }
  ],
- "ts": 1788621735729,
+ "ts": 1788621738989,
  "build": "20260905101124"
 }

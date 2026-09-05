@@ -28,6 +28,12 @@
      "m": 1,
      "lado": "",
      "txt": "Inicio da partida em Vila do Conde"
+    },
+    {
+     "id": "l1788622744813",
+     "m": 2,
+     "lado": "",
+     "txt": "GABY VANELLI entrou para marcar o livre, MARIA ODETE defende e na recarga FIFÓ faz o 1-0"
     }
    ],
    "faltas": [
@@ -778,6 +784,6 @@
    }
   }
  ],
- "ts": 1788622700473,
+ "ts": 1788622747315,
  "build": "20260905101124"
 }

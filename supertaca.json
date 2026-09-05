@@ -728,8 +728,8 @@
    "tvUrl": "https://www.youtube.com/watch?v=ES9e14dGC6c",
    "relogio": {
     "estado": "parado",
-    "parte": 2,
-    "acc": 480,
+    "parte": 3,
+    "acc": 0,
     "desde": 0
    },
    "lances": [
@@ -894,6 +894,72 @@
      "m": 28,
      "lado": "",
      "txt": "A segunda parte segue o guião da primeira: muita agressividade e cartões a sucederem-se"
+    },
+    {
+     "id": "m2_3",
+     "m": 29,
+     "lado": "fora",
+     "txt": "O VAR analisa uma possível grande penalidade para o Sporting por agarrão dentro da área"
+    },
+    {
+     "id": "m2_4",
+     "m": 29,
+     "lado": "",
+     "txt": "Depois da revisão, os árbitros entendem que ambos puxavam e mostram amarelo a Carlos Monteiro e a Bruno Maior"
+    },
+    {
+     "id": "m2_5",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Carlos Monteiro faz o 2-1, mas o VAR é chamado a analisar um braço na bola"
+    },
+    {
+     "id": "m2_6",
+     "m": 30,
+     "lado": "casa",
+     "txt": "O VAR anula o golo: houve toque com o braço e o empate mantém-se"
+    },
+    {
+     "id": "m2_7",
+     "m": 33,
+     "lado": "casa",
+     "txt": "Pany Varela conduz pela ala esquerda e cruza tenso e rasteiro, sem encontrar desvio ao segundo poste"
+    },
+    {
+     "id": "m2_8",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Felipe Rufino remata de primeira à procura do ângulo superior direito e coloca curva a mais"
+    },
+    {
+     "id": "m2_9",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Rúben Teixeira roda com um só toque na ala direita mas mede mal o remate e atira por cima"
+    },
+    {
+     "id": "m2_10",
+     "m": 37,
+     "lado": "",
+     "txt": "Entramos nos minutos finais sem dono do jogo: acções partidas e intensidade a não dar descanso"
+    },
+    {
+     "id": "m2_11",
+     "m": 38,
+     "lado": "fora",
+     "txt": "Diogo Santos combina ao primeiro toque com Tomás Paçó, ganha espaço nos 10 metros e remata à figura de André Correia"
+    },
+    {
+     "id": "m2_12",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Felipe Rufino roda sobre si próprio e desequilibra-se no momento de finalizar"
+    },
+    {
+     "id": "m2_13",
+     "m": 40,
+     "lado": "",
+     "txt": "Termina o tempo regulamentar com o empate 1-1: a Supertaça vai a prolongamento"
     }
    ],
    "faltas": [
@@ -980,6 +1046,41 @@
      "parte": 2,
      "m": 28,
      "n": 2
+    },
+    {
+     "id": "c4",
+     "lado": "fora",
+     "parte": 2,
+     "m": 34,
+     "n": 2
+    },
+    {
+     "id": "c5",
+     "lado": "fora",
+     "parte": 2,
+     "m": 34,
+     "n": 3
+    },
+    {
+     "id": "c6",
+     "lado": "casa",
+     "parte": 2,
+     "m": 34,
+     "n": 3
+    },
+    {
+     "id": "c7",
+     "lado": "casa",
+     "parte": 2,
+     "m": 36,
+     "n": 4
+    },
+    {
+     "id": "c8",
+     "lado": "fora",
+     "parte": 2,
+     "m": 39,
+     "n": 4
     }
    ],
    "gp": {
@@ -1139,7 +1240,7 @@
       "nome": "CARLOS MONTEIRO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "29",
       "ass": "",
       "foto": "fotos/carlos-monteiro.jpg"
      },
@@ -1337,7 +1438,7 @@
       "nome": "BRUNO MAIOR",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "29",
       "ass": "",
       "foto": "fotos/bruno-maior.jpg"
      },
@@ -1363,6 +1464,6 @@
    }
   }
  ],
- "ts": 1788642991517,
+ "ts": 1788644688976,
  "build": "20260905205640"
 }

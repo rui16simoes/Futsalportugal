@@ -1044,6 +1044,12 @@
      "m": 50,
      "lado": "casa",
      "txt": "Pany Varela esteve perto do bis com um remate forte ao ângulo, travado por uma defesa atenta de Bernardo Paçó"
+    },
+    {
+     "id": "m4_8",
+     "m": 50,
+     "lado": "",
+     "txt": "Apito final: o Sporting vence a Supertaça e conquista o primeiro troféu da época"
     }
    ],
    "faltas": [
@@ -1555,6 +1561,6 @@
    }
   }
  ],
- "ts": 1788646548257,
- "build": "20260905214553"
+ "ts": 1788735400558,
+ "build": "20260905221932"
 }

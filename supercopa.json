@@ -1269,7 +1269,7 @@
      {
       "num": "1",
       "nome": "ANTONIO NAVARRO (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1278,7 +1278,7 @@
      {
       "num": "19",
       "nome": "EDU SOUSA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1287,7 +1287,7 @@
      {
       "num": "38",
       "nome": "JUANJO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1296,7 +1296,7 @@
      {
       "num": "7",
       "nome": "DENER",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1305,7 +1305,7 @@
      {
       "num": "8",
       "nome": "RICARDO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1314,7 +1314,7 @@
      {
       "num": "9",
       "nome": "RIVERA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1323,7 +1323,7 @@
      {
       "num": "10",
       "nome": "RICARDINHO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "23",
@@ -1332,7 +1332,7 @@
      {
       "num": "11",
       "nome": "MARCEL",
-      "e": "",
+      "e": "P",
       "min": "23, 38",
       "cart": "17",
       "ass": "",
@@ -1341,7 +1341,7 @@
      {
       "num": "14",
       "nome": "PACHU",
-      "e": "",
+      "e": "S",
       "min": "11",
       "cart": "",
       "ass": "",
@@ -1350,7 +1350,7 @@
      {
       "num": "16",
       "nome": "DAVID ÁLVAREZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1359,7 +1359,7 @@
      {
       "num": "17",
       "nome": "SANTA CRUZ",
-      "e": "",
+      "e": "S",
       "min": "8",
       "cart": "",
       "ass": "",
@@ -1368,7 +1368,7 @@
      {
       "num": "18",
       "nome": "DRAHOVSKY",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1377,7 +1377,7 @@
      {
       "num": "31",
       "nome": "GADEIA",
-      "e": "",
+      "e": "S",
       "min": "40",
       "cart": "",
       "ass": "",
@@ -1386,7 +1386,7 @@
      {
       "num": "33",
       "nome": "LIGEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1395,7 +1395,7 @@
      {
       "num": "49",
       "nome": "A. MESEGUER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1404,7 +1404,7 @@
      {
       "num": "51",
       "nome": "BEBE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1422,7 +1422,7 @@
      {
       "num": "21",
       "nome": "DÍDAC PLANA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "14",
@@ -1431,7 +1431,7 @@
      {
       "num": "26",
       "nome": "MIQUEL FEIXAS (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1440,7 +1440,7 @@
      {
       "num": "3",
       "nome": "MATHEUS SILVA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "40",
       "ass": "",
@@ -1449,7 +1449,7 @@
      {
       "num": "6",
       "nome": "ANTONIO PÉREZ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "25",
       "ass": "",
@@ -1458,7 +1458,7 @@
      {
       "num": "7",
       "nome": "HIGOR DE SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1467,7 +1467,7 @@
      {
       "num": "8",
       "nome": "ADOLFO FERNÁNDEZ",
-      "e": "",
+      "e": "S",
       "min": "36",
       "cart": "",
       "ass": "",
@@ -1476,7 +1476,7 @@
      {
       "num": "10",
       "nome": "PITO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "36",
@@ -1485,7 +1485,7 @@
      {
       "num": "11",
       "nome": "MAMADOU TOURÉ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1494,7 +1494,7 @@
      {
       "num": "13",
       "nome": "CATELA",
-      "e": "",
+      "e": "S",
       "min": "40",
       "cart": "",
       "ass": "",
@@ -1503,7 +1503,7 @@
      {
       "num": "14",
       "nome": "ERIC MARTEL",
-      "e": "",
+      "e": "S",
       "min": "14",
       "cart": "26",
       "ass": "",
@@ -1512,7 +1512,7 @@
      {
       "num": "16",
       "nome": "SÉRGIO GONZÁLEZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1521,7 +1521,7 @@
      {
       "num": "17",
       "nome": "JOÃO VICTOR",
-      "e": "",
+      "e": "S",
       "min": "31",
       "cart": "",
       "ass": "",
@@ -1530,7 +1530,7 @@
      {
       "num": "22",
       "nome": "SOUHEIL MOUHOUDINE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1539,7 +1539,7 @@
      {
       "num": "23",
       "nome": "LUCIANO GAUNA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1549,6 +1549,6 @@
    }
   }
  ],
- "ts": 1788735193754,
+ "ts": 1788735229213,
  "build": "20260905221932"
 }

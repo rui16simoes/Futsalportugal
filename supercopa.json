@@ -62,10 +62,10 @@
      "txt": "Rivera fecha o lance com a baliza deserta"
     },
     {
-     "id": "l1788620740858",
+     "id": "sf1_fim",
      "m": 40,
      "lado": "",
-     "txt": "Final — ElPozo Murcia 8 × 4 Illes Balears Palma"
+     "txt": "Fim: o ElPozo Murcia vence o Illes Balears Palma por 8-4 e está na final"
     }
    ],
    "faltas": [
@@ -556,10 +556,10 @@
      "txt": "Termina o tempo regulamentar: 4-4 e decisão nas grandes penalidades"
     },
     {
-     "id": "sf2l16",
+     "id": "sf2_fim",
      "m": 40,
-     "lado": "casa",
-     "txt": "O Barça ganha o desempate por 6-5, com três defesas de Dídac, e está na final"
+     "lado": "",
+     "txt": "Fim: o Barça vence o Jaén Paraíso Interior por 6-5 nas grandes penalidades, depois do 4-4, e está na final"
     }
    ],
    "faltas": [],
@@ -1135,10 +1135,10 @@
      "txt": "Tempo morto do ElPozo para gerir os últimos onze segundos"
     },
     {
-     "id": "fi33",
+     "id": "final_fim",
      "m": 40,
      "lado": "",
-     "txt": "Fim: o ElPozo Murcia é campeão da Supercopa de España"
+     "txt": "Fim: o ElPozo Murcia vence o Barça por 5-4 e é o campeão da Supercopa de España"
     }
    ],
    "faltas": [
@@ -1549,6 +1549,6 @@
    }
   }
  ],
- "ts": 1788735229213,
- "build": "20260905221932"
+ "ts": 1788735827938,
+ "build": "20260906230116"
 }

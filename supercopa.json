@@ -931,12 +931,288 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "fi0",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Matheus obriga Antonio Navarro a uma grande defesa logo no primeiro minuto"
+    },
+    {
+     "id": "fi1",
+     "m": 6,
+     "lado": "fora",
+     "txt": "O Barça manda no jogo nestes primeiros minutos, com o ElPozo a defender bem juntinho"
+    },
+    {
+     "id": "fi2",
+     "m": 6,
+     "lado": "fora",
+     "txt": "Adolfo remata por cima da barra"
+    },
+    {
+     "id": "fi3",
+     "m": 8,
+     "lado": "casa",
+     "txt": "ElPozo já tinha avisado com um remate de Gadeia e, à segunda, Santa Cruz atira um míssil que surpreende Dídac Plana"
+    },
+    {
+     "id": "fi4",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Nova saída de Dídac a evitar o segundo golo dos murcianos"
+    },
+    {
+     "id": "fi5",
+     "m": 9,
+     "lado": "casa",
+     "txt": "Três faltas do ElPozo em nove minutos, sinal da intensidade defensiva dos murcianos"
+    },
+    {
+     "id": "fi6",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Ricardo perdoa o segundo: enrola-se na área e deixa chegar Dídac e a defesa do Barça"
+    },
+    {
+     "id": "fi7",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Recuperação e transição fulminante do ElPozo: passe em profundidade para Pachu, que encara e supera Dídac"
+    },
+    {
+     "id": "fi8",
+     "m": 12,
+     "lado": "casa",
+     "txt": "Nova contra-ataque murciano e Dener remata na boca da baliza, com a bola a passar muito perto"
+    },
+    {
+     "id": "fi9",
+     "m": 14,
+     "lado": "fora",
+     "txt": "Dídac Plana sai a conduzir a bola e serve Martel, que atira de voleio para reduzir"
+    },
+    {
+     "id": "fi10",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Quinta falta do ElPozo e amarelo para Marcel"
+    },
+    {
+     "id": "fi11",
+     "m": 18,
+     "lado": "casa",
+     "txt": "Drahovsky falha praticamente isolado depois de uma perda de bola do Barça na zona de construção"
+    },
+    {
+     "id": "fi12",
+     "m": 19,
+     "lado": "casa",
+     "txt": "O ElPozo pede grande penalidade por mão de Catela: o VAR revê e não confirma"
+    },
+    {
+     "id": "fi13",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Bola bombeada de longe, corte de cabeça de Touré e a bola vai ao poste"
+    },
+    {
+     "id": "fi14",
+     "m": 20,
+     "lado": "fora",
+     "txt": "Touré atira à barra no último segundo da primeira parte, com desvio de Dener"
+    },
+    {
+     "id": "fi15",
+     "m": 23,
+     "lado": "fora",
+     "txt": "Terceira falta do Barça em apenas três minutos de segunda parte"
+    },
+    {
+     "id": "fi16",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Contra-ataque do ElPozo: Ricardinho serve Marcel, que faz o terceiro"
+    },
+    {
+     "id": "fi17",
+     "m": 24,
+     "lado": "fora",
+     "txt": "Matheus tenta de calcanhar, a passe de Pito, perante uma defesa murciana fechada"
+    },
+    {
+     "id": "fi18",
+     "m": 25,
+     "lado": "fora",
+     "txt": "Quarta e quinta faltas do Barça, e amarelo a Antonio por protestos"
+    },
+    {
+     "id": "fi19",
+     "m": 26,
+     "lado": "fora",
+     "txt": "O Barça reclama grande penalidade por agarrão sobre Igor dentro da área, sem sucesso"
+    },
+    {
+     "id": "fi20",
+     "m": 26,
+     "lado": "",
+     "txt": "Cartões amarelos de um lado e do outro no seguimento do lance"
+    },
+    {
+     "id": "fi21",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Entrada muito dura de Marcel sobre Dídac Plana, castigada pelos árbitros"
+    },
+    {
+     "id": "fi22",
+     "m": 31,
+     "lado": "fora",
+     "txt": "Pito senta dois defesas e remata por cima"
+    },
+    {
+     "id": "fi23",
+     "m": 31,
+     "lado": "fora",
+     "txt": "João Victor marca de meia-volta e o Barça passa a acreditar na recuperação"
+    },
+    {
+     "id": "fi24",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Touré testa outra vez Antonio Navarro com um remate colocado"
+    },
+    {
+     "id": "fi25",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Golaço de Adolfo, que pisa a bola, engana o guarda-redes e completa a recuperação a quatro minutos do fim"
+    },
+    {
+     "id": "fi26",
+     "m": 37,
+     "lado": "fora",
+     "txt": "Grande defesa de Navarro à meia-volta de Adolfo, servido por Pito"
+    },
+    {
+     "id": "fi27",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Distração defensiva do Barça deixa Marcel sozinho na área e o ElPozo volta a ficar na frente"
+    },
+    {
+     "id": "fi28",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Matheus falha diante da baliza a um palmo da área"
+    },
+    {
+     "id": "fi29",
+     "m": 40,
+     "lado": "casa",
+     "txt": "Gadeia sentencia na contra-ataque logo a seguir ao golo falhado por Matheus"
+    },
+    {
+     "id": "fi30",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Amarelos a Matheus e ao treinador Javi Rodríguez"
+    },
+    {
+     "id": "fi31",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Catela ainda reduz a onze segundos do fim, num ror de remates e recargas"
+    },
+    {
+     "id": "fi32",
+     "m": 40,
+     "lado": "casa",
+     "txt": "Tempo morto do ElPozo para gerir os últimos onze segundos"
+    },
+    {
+     "id": "fi33",
+     "m": 40,
+     "lado": "",
+     "txt": "Fim: o ElPozo Murcia é campeão da Supercopa de España"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "e1",
+     "lado": "casa",
+     "parte": 1,
+     "m": 9,
+     "n": 1
+    },
+    {
+     "id": "e2",
+     "lado": "casa",
+     "parte": 1,
+     "m": 9,
+     "n": 2
+    },
+    {
+     "id": "e3",
+     "lado": "casa",
+     "parte": 1,
+     "m": 9,
+     "n": 3
+    },
+    {
+     "id": "e4",
+     "lado": "casa",
+     "parte": 1,
+     "m": 17,
+     "n": 4
+    },
+    {
+     "id": "e5",
+     "lado": "casa",
+     "parte": 1,
+     "m": 17,
+     "n": 5
+    },
+    {
+     "id": "b1",
+     "lado": "fora",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "b2",
+     "lado": "fora",
+     "parte": 2,
+     "m": 23,
+     "n": 2
+    },
+    {
+     "id": "b3",
+     "lado": "fora",
+     "parte": 2,
+     "m": 23,
+     "n": 3
+    },
+    {
+     "id": "b4",
+     "lado": "fora",
+     "parte": 2,
+     "m": 25,
+     "n": 4
+    },
+    {
+     "id": "b5",
+     "lado": "fora",
+     "parte": 2,
+     "m": 25,
+     "n": 5
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -1050,15 +1326,15 @@
       "e": "",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "23",
       "foto": "https://t.resfu.com/img_data/players/medium/3622298.jpg"
      },
      {
       "num": "11",
       "nome": "MARCEL",
       "e": "",
-      "min": "",
-      "cart": "",
+      "min": "23, 38",
+      "cart": "17",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622299.jpg"
      },
@@ -1066,7 +1342,7 @@
       "num": "14",
       "nome": "PACHU",
       "e": "",
-      "min": "",
+      "min": "11",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622253.jpg"
@@ -1084,7 +1360,7 @@
       "num": "17",
       "nome": "SANTA CRUZ",
       "e": "",
-      "min": "",
+      "min": "8",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622907.jpg"
@@ -1102,7 +1378,7 @@
       "num": "31",
       "nome": "GADEIA",
       "e": "",
-      "min": "",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622303.jpg"
@@ -1149,7 +1425,7 @@
       "e": "",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "14",
       "foto": "https://t.resfu.com/img_data/players/medium/3622208.jpg"
      },
      {
@@ -1166,7 +1442,7 @@
       "nome": "MATHEUS SILVA",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "40",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622216.jpg"
      },
@@ -1175,7 +1451,7 @@
       "nome": "ANTONIO PÉREZ",
       "e": "",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622212.jpg"
      },
@@ -1192,7 +1468,7 @@
       "num": "8",
       "nome": "ADOLFO FERNÁNDEZ",
       "e": "",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622219.jpg"
@@ -1203,7 +1479,7 @@
       "e": "",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "36",
       "foto": "https://t.resfu.com/img_data/players/medium/3622231.jpg"
      },
      {
@@ -1219,7 +1495,7 @@
       "num": "13",
       "nome": "CATELA",
       "e": "",
-      "min": "",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622223.jpg"
@@ -1228,8 +1504,8 @@
       "num": "14",
       "nome": "ERIC MARTEL",
       "e": "",
-      "min": "",
-      "cart": "",
+      "min": "14",
+      "cart": "26",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622226.jpg"
      },
@@ -1246,7 +1522,7 @@
       "num": "17",
       "nome": "JOÃO VICTOR",
       "e": "",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://t.resfu.com/img_data/players/medium/3622190.jpg"
@@ -1273,6 +1549,6 @@
    }
   }
  ],
- "ts": 1788632797629,
- "build": "20260905182126"
+ "ts": 1788735193754,
+ "build": "20260905221932"
 }

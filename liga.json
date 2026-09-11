@@ -21,7 +21,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -30,6 +30,12 @@
      "m": 1,
      "lado": "",
      "txt": "Arranca a Liga Placard 2026/27 no Pavilhão Municipal do Fundão"
+    },
+    {
+     "id": "a1",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Mamadú Turé combina em zona frontal e atira muito ao lado"
     }
    ],
    "faltas": [],
@@ -2330,6 +2336,6 @@
    }
   }
  ],
- "ts": 1789150962389,
+ "ts": 1789151618747,
  "build": "20260911170827"
 }

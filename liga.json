@@ -24,7 +24,14 @@
     "acc": 0,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "a0",
+     "m": 1,
+     "lado": "",
+     "txt": "Arranca a Liga Placard 2026/27 no Pavilhão Municipal do Fundão"
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -75,14 +82,14 @@
    "casa": {
     "eq": "fundao",
     "golos": "",
-    "capitao": "",
+    "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "",
     "jogadores": [
      {
       "num": "14",
       "nome": "GAZA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -91,7 +98,7 @@
      {
       "num": "24",
       "nome": "MARTIM BORREGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -100,7 +107,7 @@
      {
       "num": "30",
       "nome": "JAIME ARTHUR (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -109,7 +116,7 @@
      {
       "num": "6",
       "nome": "UESLER",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -118,7 +125,7 @@
      {
       "num": "60",
       "nome": "GUINA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -127,7 +134,7 @@
      {
       "num": "12",
       "nome": "PELÉH",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -136,7 +143,7 @@
      {
       "num": "20",
       "nome": "ARTUR VICENTE",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -145,7 +152,7 @@
      {
       "num": "10",
       "nome": "NUNO MIRANDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -154,7 +161,7 @@
      {
       "num": "11",
       "nome": "RENATO ALMEIDA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -163,7 +170,7 @@
      {
       "num": "13",
       "nome": "LOURENÇO AGUIAR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -172,7 +179,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -181,7 +188,7 @@
      {
       "num": "27",
       "nome": "NEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -190,7 +197,7 @@
      {
       "num": "9",
       "nome": "EDUARDO JOB",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -199,7 +206,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -208,7 +215,7 @@
      {
       "num": "77",
       "nome": "TIAGO TAVARES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -219,14 +226,14 @@
    "fora": {
     "eq": "braga",
     "golos": "",
-    "capitao": "",
+    "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "",
     "jogadores": [
      {
       "num": "1",
       "nome": "GIOVANNI DANTI (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -235,7 +242,7 @@
      {
       "num": "2",
       "nome": "LÉO SOUZA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -244,7 +251,7 @@
      {
       "num": "22",
       "nome": "GONÇALO PEREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -253,7 +260,7 @@
      {
       "num": "3",
       "nome": "TIAGO SOUSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -262,7 +269,7 @@
      {
       "num": "9",
       "nome": "RICARDO LOPES",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -271,7 +278,7 @@
      {
       "num": "20",
       "nome": "PEIXINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -280,7 +287,7 @@
      {
       "num": "8",
       "nome": "RICARDO MARQUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -289,7 +296,7 @@
      {
       "num": "21",
       "nome": "RIKA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -298,7 +305,7 @@
      {
       "num": "6",
       "nome": "TIAGO BRITO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -307,7 +314,7 @@
      {
       "num": "7",
       "nome": "TOMÁS COLAÇO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -316,7 +323,7 @@
      {
       "num": "10",
       "nome": "MAMADÚ TURÉ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -325,7 +332,7 @@
      {
       "num": "12",
       "nome": "SIMÃO NOGUEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -334,7 +341,7 @@
      {
       "num": "17",
       "nome": "ÁNGEL CLAUDINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -343,7 +350,7 @@
      {
       "num": "90",
       "nome": "DANIEL AIROSO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -352,7 +359,7 @@
      {
       "num": "88",
       "nome": "ANDRÉ GOMES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -361,7 +368,7 @@
      {
       "num": "14",
       "nome": "WILLIAN CARIOCA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -370,7 +377,7 @@
      {
       "num": "19",
       "nome": "LUÍS FERNANDES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -379,7 +386,7 @@
      {
       "num": "87",
       "nome": "BARRETO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -388,7 +395,7 @@
      {
       "num": "11",
       "nome": "BRUNO BARROS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -397,7 +404,7 @@
      {
       "num": "27",
       "nome": "RODRIGO MIRANCOS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2323,6 +2330,6 @@
    }
   }
  ],
- "ts": 1789145707210,
- "build": "20260911165305"
+ "ts": 1789150962389,
+ "build": "20260911170827"
 }

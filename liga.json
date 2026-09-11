@@ -10,13 +10,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "11 de Setembro de 2026",
    "hora": "19h30",
-   "local": "",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
+   "local": "Pavilhão Municipal do Fundão",
+   "arb1": "FRANCISCO COSTA",
+   "arb2": "RAFAEL SILVA",
+   "arb3": "TIAGO FRANCISCO",
    "cron": "",
-   "obs": "",
-   "tv": "",
+   "obs": "4.º árbitro: Hugo Geraldes (AF Guarda)",
+   "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -86,7 +86,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/75/16732875_gaza_20260807161739.png"
      },
      {
       "num": "24",
@@ -95,7 +95,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/29/1372429_martim_borrego_20251031115819.jpg"
      },
      {
       "num": "30",
@@ -104,7 +104,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/90/16686490_jaime_arthur_20260807163836.png"
      },
      {
       "num": "6",
@@ -113,7 +113,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/80/424580_uesler_20260720131537.png"
      },
      {
       "num": "60",
@@ -122,7 +122,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/05/672805_guina_20250128165836.jpg"
      },
      {
       "num": "12",
@@ -131,7 +131,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
      },
      {
       "num": "20",
@@ -140,7 +140,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/63/45/1146345_artur_vicente_20250219160012.jpg"
      },
      {
       "num": "10",
@@ -149,7 +149,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/60/46/16766046_nuno_miranda_20260814134818.png"
      },
      {
       "num": "11",
@@ -158,7 +158,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/80/16732880_renato_almeida_20260807160756.png"
      },
      {
       "num": "13",
@@ -167,7 +167,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/79/16732879_lourenco_aguiar_20260807162426.png"
      },
      {
       "num": "17",
@@ -176,7 +176,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/41/143941_mario_freitas_20241019155103.jpg"
      },
      {
       "num": "27",
@@ -185,7 +185,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/43/16731643_nem_20260807163507.png"
      },
      {
       "num": "9",
@@ -194,7 +194,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/86/16732886_eduardo_job_20260807162227.png"
      },
      {
       "num": "47",
@@ -203,7 +203,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/82/16732882_landelino_neto_20260807164244.png"
      },
      {
       "num": "77",
@@ -212,7 +212,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/50/844850_tiago_tavares_20250129124552.png"
      }
     ]
    },
@@ -230,7 +230,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/58/16735458_giovanni_danti_20260806101349.png"
      },
      {
       "num": "2",
@@ -239,7 +239,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/84/16723284_leo_souza_20260803101259.png"
      },
      {
       "num": "22",
@@ -248,7 +248,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/70/45/1077045_goncalo_pereira_20251028162516.jpg"
      },
      {
       "num": "3",
@@ -257,7 +257,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
      },
      {
       "num": "9",
@@ -266,7 +266,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/26/19/662619_ricardo_lopes_20241106162449.jpg"
      },
      {
       "num": "20",
@@ -275,7 +275,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/91/675791_peixinho_20250924101437.jpg"
      },
      {
       "num": "8",
@@ -284,7 +284,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/66/1334766_ricardo_marques_20250905141818.png"
      },
      {
       "num": "21",
@@ -293,7 +293,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/06/982906_afonso_ferreira_1676929688.jpg"
      },
      {
       "num": "6",
@@ -302,7 +302,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
      },
      {
       "num": "7",
@@ -311,7 +311,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/75/70/457570_tomas_colaco_20260206144540.png"
      },
      {
       "num": "10",
@@ -320,7 +320,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/66/392466_mamadu_ture_20250731150424.png"
      },
      {
       "num": "12",
@@ -329,7 +329,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/66/1079366_simao_nogueira_1676883788.jpg"
      },
      {
       "num": "17",
@@ -338,7 +338,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/42/42/16724242_angel_claudino_20260803101539.png"
      },
      {
       "num": "90",
@@ -347,7 +347,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/46/02/16724602_daniel_airoso_20260803101417.png"
      },
      {
       "num": "88",
@@ -356,7 +356,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/83/89/868389_andre_gomes_20250919110100.jpg"
      },
      {
       "num": "14",
@@ -365,7 +365,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/81/424581_willian_carioca_20250731153926.png"
      },
      {
       "num": "19",
@@ -374,7 +374,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/79/45/467945_luis_fernandes_20250806103608.png"
      },
      {
       "num": "87",
@@ -383,7 +383,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/45/1808945_barreto_20260126082415.jpg"
      },
      {
       "num": "11",
@@ -392,7 +392,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/05/53/1080553_bruno_barros_20240820104755.jpg"
      },
      {
       "num": "27",
@@ -401,7 +401,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/42/91/554291_rodrigo_mirancos_20250128171013.jpg"
      }
     ]
    }
@@ -413,13 +413,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "11 de Setembro de 2026",
    "hora": "20h30",
-   "local": "",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
+   "local": "Pavilhão Fisica de Torres Vedras",
+   "arb1": "PEDRO COSTA",
+   "arb2": "DAVID PEREIRA",
+   "arb3": "JAIME MARTINS",
    "cron": "",
-   "obs": "",
-   "tv": "",
+   "obs": "4.º árbitro: Miguel Guerra (AF Lisboa)",
+   "tv": "Canal 11 Streaming",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -489,7 +489,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/15/49/1351549_tiago_correia_20251002084917.png"
      },
      {
       "num": "13",
@@ -498,7 +498,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/98/78/1549878_eurico_cunha_20260908163618.png"
      },
      {
       "num": "22",
@@ -507,7 +507,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/03/16752803_andre_santos_20260810215145.png"
      },
      {
       "num": "2",
@@ -516,7 +516,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/31/760331_tiago_reis_20251202210925.png"
      },
      {
       "num": "4",
@@ -525,7 +525,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/14/28/561428_leo_evangelista_20250905192218.png"
      },
      {
       "num": "28",
@@ -534,7 +534,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/04/33/16750433_leonardo_hashimoto_20260810125217.png"
      },
      {
       "num": "88",
@@ -543,7 +543,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/01/09/600109_nicolas_tome_20251128002610.png"
      },
      {
       "num": "6",
@@ -552,7 +552,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/92/39/769239_tomas_silva_20250819213459.png"
      },
      {
       "num": "11",
@@ -561,7 +561,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/53/1033853_vicente_guia_20250807115734.png"
      },
      {
       "num": "7",
@@ -570,7 +570,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/48/1305748_jair_pereira_20250702155048.png"
      },
      {
       "num": "10",
@@ -579,7 +579,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/37/91837_paulo_major_20250815171244.png"
      },
      {
       "num": "14",
@@ -588,7 +588,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/45/16738045_vitinho_20260805173653.png"
      },
      {
       "num": "18",
@@ -597,7 +597,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/91/39/16719139_felipe_pinheiro_20260730204308.png"
      },
      {
       "num": "20",
@@ -606,7 +606,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/34/48/16723448_david_gita_20260801194135.png"
      },
      {
       "num": "9",
@@ -615,7 +615,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/42/76/16754276_goncalo_lima_20260811151416.png"
      },
      {
       "num": "5",
@@ -624,7 +624,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/27/07/422707_edson_patrick__20250812145941.png"
      },
      {
       "num": "17",
@@ -633,7 +633,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/82/1157682_manuel_monteiro_20250130150805.jpg"
      },
      {
       "num": "90",
@@ -642,7 +642,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
      }
     ]
    },
@@ -660,7 +660,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/38/16598238_leonardo_atanasio_20260908144932.png"
      },
      {
       "num": "88",
@@ -669,7 +669,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/31/06/16733106_kiko_20260908144724.png"
      },
      {
       "num": "99",
@@ -678,7 +678,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/31/16598231_diogo_basilio_20260713222800.png"
      },
      {
       "num": "5",
@@ -687,7 +687,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/50/16723250_ferrugem_20260802044620.png"
      },
      {
       "num": "33",
@@ -696,7 +696,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/32/16598232_telmo_sousa_20260715165647.png"
      },
      {
       "num": "76",
@@ -705,7 +705,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/04/751204_goncalo_paixao_20260128142651.png"
      },
      {
       "num": "7",
@@ -714,7 +714,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/36/16738036_miguel_malhao_20260908144557.png"
      },
      {
       "num": "10",
@@ -723,7 +723,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
      },
      {
       "num": "15",
@@ -732,7 +732,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/35/16598235_lucas_mestre_20260717140010.png"
      },
      {
       "num": "20",
@@ -741,7 +741,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
      },
      {
       "num": "21",
@@ -750,7 +750,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/43/13/16724313_martin_arriagada_20260802184938.png"
      },
      {
       "num": "74",
@@ -759,7 +759,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/88/16828088_gabriel_hoffelder_20260908144021.png"
      },
      {
       "num": "14",
@@ -768,7 +768,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/95/95/16729595_arthur_saraiva_20260908144335.png"
      },
      {
       "num": "18",
@@ -777,7 +777,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/17/63/16721763_matheus_marqueti_20260908144218.png"
      }
     ]
    }
@@ -789,13 +789,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "11 de Setembro de 2026",
    "hora": "21h15",
-   "local": "",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
+   "local": "Pavilhão João Rocha, Lisboa",
+   "arb1": "MAURICIO COUTO",
+   "arb2": "WILSON SOARES",
+   "arb3": "JOÃO ANDRADE",
    "cron": "",
-   "obs": "",
-   "tv": "",
+   "obs": "4.º árbitro: Luís Fernandes (AF Lisboa)",
+   "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -865,7 +865,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/58/16619958_goncalo_portugal_20260830154514.jpg"
      },
      {
       "num": "16",
@@ -874,7 +874,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/47/16484847_bernardo_paco_20260830154710.jpg"
      },
      {
       "num": "77",
@@ -883,7 +883,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/60/16619960_oleksandr_sukhov_20260830154538.jpg"
      },
      {
       "num": "4",
@@ -892,7 +892,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
      },
      {
       "num": "44",
@@ -901,7 +901,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
      },
      {
       "num": "8",
@@ -910,7 +910,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
      },
      {
       "num": "17",
@@ -919,7 +919,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/44/16618544_erick_mendonca_20260830154809.jpg"
      },
      {
       "num": "7",
@@ -928,7 +928,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/46/16484846_diogo_santos_20260830154904.jpg"
      },
      {
       "num": "10",
@@ -937,7 +937,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
      },
      {
       "num": "11",
@@ -946,7 +946,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/43/16484843_ivan_chishkala_20260830154959.jpg"
      },
      {
       "num": "13",
@@ -955,7 +955,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/59/16619959_tiaguinho_20260830155021.jpg"
      },
      {
       "num": "14",
@@ -964,7 +964,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
      },
      {
       "num": "25",
@@ -973,7 +973,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/52/16484852_bruno_pinto_20260830155108.jpg"
      },
      {
       "num": "29",
@@ -982,7 +982,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/09/52/16530952_alex_merlim_20260830155138.jpg"
      },
      {
       "num": "6",
@@ -991,7 +991,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/41/16484841_zicky_te_20260830155218.jpg"
      },
      {
       "num": "30",
@@ -1000,7 +1000,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/99/16662999_felipe_rufino_20260830155159.jpg"
      },
      {
       "num": "70",
@@ -1009,7 +1009,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      }
     ]
    },
@@ -1027,7 +1027,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/11/1169111_juan_pinheiro_20240912113706.png"
      },
      {
       "num": "13",
@@ -1036,7 +1036,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/69/17/16656917_pedro_afonso_20260716142509.png"
      },
      {
       "num": "24",
@@ -1045,7 +1045,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/24/83/16672483_nuno_costa_20260716142538.png"
      },
      {
       "num": "18",
@@ -1054,7 +1054,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/12/66/16661266_rui_moreira_20260713220448.png"
      },
      {
       "num": "94",
@@ -1063,7 +1063,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/75/49/16637549_vitinho_20260702153117.jpg"
      },
      {
       "num": "7",
@@ -1072,7 +1072,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/90/85/1169085_pedro_senra_20240912113402.png"
      },
      {
       "num": "51",
@@ -1081,7 +1081,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/36/57/16653657_gui_20260709195957.png"
      },
      {
       "num": "8",
@@ -1090,7 +1090,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/13/16641613_filipinho_20260705020840.jpg"
      },
      {
       "num": "10",
@@ -1099,7 +1099,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/54/135954_tomas_reis_20240229053329.jpg"
      },
      {
       "num": "33",
@@ -1108,7 +1108,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
      },
      {
       "num": "70",
@@ -1117,7 +1117,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/33/1169133_montanha_20240912113852.png"
      },
      {
       "num": "88",
@@ -1126,7 +1126,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/75/61/16667561_joao_alves_20260715122055.png"
      },
      {
       "num": "9",
@@ -1135,7 +1135,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/75/16642975_andre_rochato_20260705235623.jpg"
      },
      {
       "num": "11",
@@ -1144,7 +1144,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/68/25/946825_afonso_serra_20250103113525.jpg"
      },
      {
       "num": "17",
@@ -1153,7 +1153,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/34/97/16663497_andriy_dzyalo_20260714123728.png"
      },
      {
       "num": "29",
@@ -1162,7 +1162,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
      }
     ]
    }
@@ -1174,13 +1174,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "12 de Setembro de 2026",
    "hora": "17h00",
-   "local": "",
+   "local": "Pavilhão dos Leões de Porto Salvo",
    "arb1": "",
    "arb2": "",
    "arb3": "",
    "cron": "",
    "obs": "",
-   "tv": "",
+   "tv": "Canal 11 Streaming",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -1250,7 +1250,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/60/16605460_guilherme_cintra_20260908151413.jpg"
      },
      {
       "num": "16",
@@ -1259,7 +1259,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/87/16615087_rodrigo_prazeres_20260908151636.jpg"
      },
      {
       "num": "21",
@@ -1268,7 +1268,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/58/16605458_daniel_osuji_20260908151717.jpg"
      },
      {
       "num": "6",
@@ -1277,7 +1277,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/84/16615084_ruben_carrilho_20260908151944.jpg"
      },
      {
       "num": "29",
@@ -1286,7 +1286,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/81/16615081_henrique_rodrigues_20260908151832.jpg"
      },
      {
       "num": "70",
@@ -1295,7 +1295,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/55/16605455_machado_20260908152025.jpg"
      },
      {
       "num": "4",
@@ -1304,7 +1304,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/86/16615086_leonildo_injai_20260908151929.jpg"
      },
      {
       "num": "53",
@@ -1313,7 +1313,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/00/35/16870035_diego_gabriel_20260908152233.jpg"
      },
      {
       "num": "7",
@@ -1322,7 +1322,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/93/16615093_bruno_sa_20260908152009.jpg"
      },
      {
       "num": "8",
@@ -1331,7 +1331,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/89/16615089_bruno_marques_20260908152114.jpg"
      },
      {
       "num": "10",
@@ -1340,7 +1340,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/07/68/16620768_pedro_marques_20260908151449.jpg"
      },
      {
       "num": "11",
@@ -1349,7 +1349,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/91/07/16619107_natan_minatti_20260908151531.jpg"
      },
      {
       "num": "14",
@@ -1358,7 +1358,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
      },
      {
       "num": "18",
@@ -1367,7 +1367,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
      },
      {
       "num": "30",
@@ -1376,7 +1376,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/11/52/16621152_ricardinho_20260908151913.jpg"
      },
      {
       "num": "9",
@@ -1385,7 +1385,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
      },
      {
       "num": "25",
@@ -1394,7 +1394,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/05/16618205_davy_mendes_20260908151815.jpg"
      },
      {
       "num": "99",
@@ -1403,7 +1403,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
      }
     ]
    },
@@ -1421,7 +1421,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/11/290011_pedro_martinho_20250924074443.png"
      },
      {
       "num": "13",
@@ -1430,7 +1430,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/95/23/239523_nilton_20250924074444.png"
      },
      {
       "num": "14",
@@ -1439,7 +1439,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/56/51/16635651_fabio_madeira_20260702054014.png"
      },
      {
       "num": "92",
@@ -1448,7 +1448,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/15/560615_djaelson_20250911080643.png"
      },
      {
       "num": "20",
@@ -1457,7 +1457,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/38/889338_daniel_sodre_20250911080450.png"
      },
      {
       "num": "36",
@@ -1466,7 +1466,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/16/42/1371642_chapinha_20250911080522.png"
      },
      {
       "num": "2",
@@ -1475,7 +1475,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/09/764909_afonso_mourinha_20250130150230.jpg"
      },
      {
       "num": "8",
@@ -1484,7 +1484,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/27/95/552795_rafael_silva_kaka__20250911080609.png"
      },
      {
       "num": "10",
@@ -1493,7 +1493,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/73/586973_wendell_20260625221235.png"
      },
      {
       "num": "19",
@@ -1502,7 +1502,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/56/63/16635663_leonardo_travessa_20260702044450.png"
      },
      {
       "num": "23",
@@ -1511,7 +1511,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/50/64/545064_david_costa_20250919112829.jpg"
      },
      {
       "num": "31",
@@ -1520,7 +1520,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
      },
      {
       "num": "88",
@@ -1529,7 +1529,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/44/70/16634470_sandro_silva_20260702044030.png"
      },
      {
       "num": "7",
@@ -1538,7 +1538,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
      }
     ]
    }
@@ -1550,13 +1550,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "12 de Setembro de 2026",
    "hora": "19h00",
-   "local": "",
+   "local": "Pavilhão Fidelidade, Lisboa",
    "arb1": "",
    "arb2": "",
    "arb3": "",
    "cron": "",
    "obs": "",
-   "tv": "",
+   "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -1626,7 +1626,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/11/71/421171_andre_correia_20250919142557.jpg"
      },
      {
       "num": "16",
@@ -1635,7 +1635,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/55/1155955_vasco_pinto_20250302141827.jpg"
      },
      {
       "num": "22",
@@ -1644,7 +1644,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/99/62/559962_leo_gugiel_20250919142941.jpg"
      },
      {
       "num": "4",
@@ -1653,7 +1653,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/37/50/173750_afonso_jesus_20250919142959.jpg"
      },
      {
       "num": "6",
@@ -1662,7 +1662,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/08/680708_raul_moreira_20250919143023.jpg"
      },
      {
       "num": "8",
@@ -1671,7 +1671,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/44/304044_andre_coelho_20250919143120.jpg"
      },
      {
       "num": "2",
@@ -1680,7 +1680,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/84/170984_silvestre_ferreira_20250919142920.jpg"
      },
      {
       "num": "5",
@@ -1689,7 +1689,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/66/487666_diogo_almeida_20250919143140.jpg"
      },
      {
       "num": "7",
@@ -1698,7 +1698,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/17/680717_lucio_rocha_20250919143057.jpg"
      },
      {
       "num": "10",
@@ -1707,7 +1707,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
      {
       "num": "14",
@@ -1716,7 +1716,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/96/38/269638_edmilson_kutchy_20250919142810.jpg"
      },
      {
       "num": "17",
@@ -1725,7 +1725,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/13/680713_carlos_monteiro_20250919142836.jpg"
      },
      {
       "num": "18",
@@ -1734,7 +1734,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/06/74706_pany_varela_20250919142750.jpg"
      },
      {
       "num": "20",
@@ -1743,7 +1743,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/76/17/16657617_anderson_fortes_20260716140343.png"
      },
      {
       "num": "77",
@@ -1752,7 +1752,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/10/16635710_cleber_souza_20260813023911.png"
      },
      {
       "num": "11",
@@ -1761,7 +1761,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/68/80/416880_eduardo_tchuda_20250919142654.jpg"
      },
      {
       "num": "19",
@@ -1770,7 +1770,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/11/16635711_ruben_gois_20260716140659.png"
      }
     ]
    },
@@ -1788,7 +1788,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/85/16672085_luis_correia_20260716142611.png"
      },
      {
       "num": "30",
@@ -1806,7 +1806,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/41/98/16694198_rodrigo_costa_20260722231312.png"
      },
      {
       "num": "2",
@@ -1815,7 +1815,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/01/71/1310171_abel_vaz_20250714142533.png"
      },
      {
       "num": "21",
@@ -1824,7 +1824,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/55/03/665503_tomas_silva_20250919112617.jpg"
      },
      {
       "num": "6",
@@ -1833,7 +1833,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/73/38/137338_vicente_mourato_20240610225517.jpg"
      },
      {
       "num": "18",
@@ -1842,7 +1842,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/30/1305730_rafael_freire_20250702153014.jpg"
      },
      {
       "num": "7",
@@ -1851,7 +1851,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/25/69/16842569_lucas_bonifacio_20260903115117.png"
      },
      {
       "num": "8",
@@ -1860,7 +1860,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/95/170995_sissi_20241019155500.jpg"
      },
      {
       "num": "10",
@@ -1869,7 +1869,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/25/1139325_luis_nunes_20240614105709.png"
      },
      {
       "num": "11",
@@ -1878,7 +1878,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/47/1305747_dura_20250702155047.png"
      },
      {
       "num": "17",
@@ -1887,7 +1887,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/04/665604_diogo_silva_20251219114141.png"
      },
      {
       "num": "20",
@@ -1896,7 +1896,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/76/1550676_lucas_veras_20260909160534.png"
      },
      {
       "num": "80",
@@ -1905,7 +1905,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/29/983629_luis_montes_20260410173428.jpg"
      },
      {
       "num": "3",
@@ -1914,7 +1914,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/32/1305732_rodrigo_lemos_20250702153015.jpg"
      },
      {
       "num": "27",
@@ -1923,7 +1923,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/86/16672086_gerson_sanches_20260716142635.png"
      },
      {
       "num": "26",
@@ -1932,7 +1932,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/10/30/931030_vanilson_nazare_20250711160116.jpg"
      },
      {
       "num": "28",
@@ -1941,7 +1941,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
      }
     ]
    }
@@ -1953,13 +1953,13 @@
    "fundo": "fundo-liga-j1.jpg",
    "data": "13 de Setembro de 2026",
    "hora": "15h00",
-   "local": "",
+   "local": "Pavilhão de Desportos de Vila do Conde",
    "arb1": "",
    "arb2": "",
    "arb3": "",
    "cron": "",
    "obs": "",
-   "tv": "",
+   "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
@@ -2029,7 +2029,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/11/42/1451142_tomas_ramos_20260305093957.jpg"
      },
      {
       "num": "12",
@@ -2038,7 +2038,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
      },
      {
       "num": "33",
@@ -2047,7 +2047,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/62/1334762_tiago_sacramento_20250905141719.png"
      },
      {
       "num": "3",
@@ -2056,7 +2056,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/48/533948_dinis_ramos_20250924101414.jpg"
      },
      {
       "num": "27",
@@ -2065,7 +2065,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/03/1040303_martim_castela_20250130150954.jpg"
      },
      {
       "num": "10",
@@ -2074,7 +2074,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/98/18/519818_pedro_rodrigues_20250924101253.jpg"
      },
      {
       "num": "7",
@@ -2083,7 +2083,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
      },
      {
       "num": "8",
@@ -2092,7 +2092,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/90/665490_gustavo_rodrigues_20250924101349.jpg"
      },
      {
       "num": "11",
@@ -2101,7 +2101,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/08/512908_zezinho_20250924101308.jpg"
      },
      {
       "num": "13",
@@ -2110,7 +2110,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/86/512886_bebe_20241106162930.jpg"
      },
      {
       "num": "14",
@@ -2119,7 +2119,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
      },
      {
       "num": "15",
@@ -2128,7 +2128,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/43/424043_cigano_20250924101557.jpg"
      },
      {
       "num": "18",
@@ -2137,7 +2137,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
      },
      {
       "num": "4",
@@ -2146,7 +2146,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/92/695492_francisco_silva_20250924101415.jpg"
      },
      {
       "num": "19",
@@ -2155,7 +2155,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
      }
     ]
    },
@@ -2173,7 +2173,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/84/864984_pedro_nunes_20250919112528.jpg"
      },
      {
       "num": "14",
@@ -2182,7 +2182,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/52/84/315284_claudio_carvalho_20251107082942.png"
      },
      {
       "num": "16",
@@ -2191,7 +2191,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/74/86/1347486_miguel_ferreira_20250925164316.jpg"
      },
      {
       "num": "31",
@@ -2200,7 +2200,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/90/51/959051_guilherme_oliveira_20251107083142.png"
      },
      {
       "num": "5",
@@ -2209,7 +2209,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/67/1334767_filipe_costa_20250905141827.png"
      },
      {
       "num": "22",
@@ -2218,7 +2218,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/38/421338_buzuzu_20251107083104.png"
      },
      {
       "num": "6",
@@ -2227,7 +2227,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/61/1075461_afonso_vieira_20241115134336.png"
      },
      {
       "num": "7",
@@ -2236,7 +2236,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/67/09/16756709_daniel_silva_20260812171047.png"
      },
      {
       "num": "8",
@@ -2245,7 +2245,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/30/768930_simao_cordeiro_20251009112745.png"
      },
      {
       "num": "19",
@@ -2254,7 +2254,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/73/630073_ruben_santos_20250822201550.jpg"
      },
      {
       "num": "21",
@@ -2263,7 +2263,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/60/1470660_mathis_pereira_20260409162601.jpg"
      },
      {
       "num": "28",
@@ -2272,7 +2272,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/74/88/16707488_gui_torres_20260728000201.png"
      },
      {
       "num": "77",
@@ -2281,7 +2281,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/74/05/1637405_jefferson_20241119165756.jpg"
      },
      {
       "num": "10",
@@ -2290,7 +2290,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/28/530328_ruizinho_20251107082756.png"
      },
      {
       "num": "11",
@@ -2299,7 +2299,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/71/05/207105_joao_miguel_20251227213605.png"
      },
      {
       "num": "39",
@@ -2308,7 +2308,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/51/84/16715184_guga_20260730225300.png"
      },
      {
       "num": "97",
@@ -2317,12 +2317,12 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/23/930923_leandro_ribeiro_20260122183348.png"
      }
     ]
    }
   }
  ],
- "build": "20260911080950",
- "ts": 1789114191190
+ "build": "20260911083640",
+ "ts": 1789115800413
 }

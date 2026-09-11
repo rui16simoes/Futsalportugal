@@ -1,0 +1,2328 @@
+{
+ "atual": "j1",
+ "titulo": "LIGA PLACARD",
+ "numero": "J1",
+ "jogos": [
+  {
+   "id": "j1",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "11 de Setembro de 2026",
+   "hora": "19h30",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "fundao",
+    "golos": "",
+    "capitao": "",
+    "treinador": "NUNO COUTO",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "14",
+      "nome": "GAZA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "24",
+      "nome": "MARTIM BORREGO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "30",
+      "nome": "JAIME ARTHUR (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "UESLER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "60",
+      "nome": "GUINA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "12",
+      "nome": "PELÉH",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "ARTUR VICENTE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "NUNO MIRANDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "RENATO ALMEIDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "LOURENÇO AGUIAR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "MÁRIO FREITAS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "27",
+      "nome": "NEM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "EDUARDO JOB",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "47",
+      "nome": "LANDELINO NETO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "77",
+      "nome": "TIAGO TAVARES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "braga",
+    "golos": "",
+    "capitao": "",
+    "treinador": "JOEL ROCHA",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GIOVANNI DANTI (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "LÉO SOUZA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "GONÇALO PEREIRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "TIAGO SOUSA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "RICARDO LOPES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "PEIXINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "RICARDO MARQUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "RIKA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "TIAGO BRITO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "TOMÁS COLAÇO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "MAMADÚ TURÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "12",
+      "nome": "SIMÃO NOGUEIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "ÁNGEL CLAUDINO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "90",
+      "nome": "DANIEL AIROSO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "88",
+      "nome": "ANDRÉ GOMES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "WILLIAN CARIOCA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "19",
+      "nome": "LUÍS FERNANDES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "87",
+      "nome": "BARRETO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "BRUNO BARROS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "27",
+      "nome": "RODRIGO MIRANCOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "j2",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "11 de Setembro de 2026",
+   "hora": "20h30",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "torreense",
+    "golos": "",
+    "capitao": "",
+    "treinador": "NANÁ",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "TIAGO CORREIA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "EURICO CUNHA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "ANDRÉ SANTOS (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "TIAGO REIS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "LÉO EVANGELISTA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "28",
+      "nome": "LEONARDO HASHIMOTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "88",
+      "nome": "NICOLAS TOMÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "TOMÁS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "VICENTE GUIA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "JAIR PEREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "PAULO MAJOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "VITINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "FELIPINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "DAVID GITA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "GONÇALO LIMA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "5",
+      "nome": "EDSON PATRICK",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "MANUEL MONTEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "90",
+      "nome": "TINTIM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "electrico",
+    "golos": "",
+    "capitao": "",
+    "treinador": "JORGE MONTEIRO",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "16",
+      "nome": "LEONARDO ATANÁSIO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "88",
+      "nome": "KIKO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "99",
+      "nome": "DIOGO BASÍLIO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "5",
+      "nome": "FERRUGEM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "33",
+      "nome": "TELMO SOUSA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "76",
+      "nome": "GONÇALO PAIXÃO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "MIGUEL MALHÃO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "THALES ALVES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "LUCAS MESTRE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "HENRIQUE VICENTE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "MARTÍN ARRIAGADA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "74",
+      "nome": "GABRIEL HOFFELDER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "ARTHUR SARAIVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "MATHEUS MARQUETI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "j3",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "11 de Setembro de 2026",
+   "hora": "21h15",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "sporting",
+    "golos": "",
+    "capitao": "",
+    "treinador": "NUNO DIAS",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GONÇALO PORTUGAL (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "BERNARDO PAÇÓ (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "77",
+      "nome": "OLEKSANDR SUKHOV (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "TOMÁS PAÇÓ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "44",
+      "nome": "BRUNO MAIOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "WESLEY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "ERICK MENDONÇA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "DIOGO SANTOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "RÚBEN TEIXEIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "IVAN CHISHKALA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "TIAGUINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "FELIPE VALÉRIO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "25",
+      "nome": "BRUNO PINTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "29",
+      "nome": "ALEX MERLIM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "ZICKY TÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "30",
+      "nome": "FELIPE RUFINO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "70",
+      "nome": "ROCHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "portimonense",
+    "golos": "",
+    "capitao": "",
+    "treinador": "JOSÉ SANTOS",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "2",
+      "nome": "JUAN PINHEIRO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "PEDRO AFONSO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "24",
+      "nome": "NUNO COSTA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "RUI MOREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "94",
+      "nome": "VITINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "PEDRO SENRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "51",
+      "nome": "GUI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "FILIPINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "TOMÁS REIS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "33",
+      "nome": "ADAÍLTON SOUZA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "70",
+      "nome": "MONTANHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "88",
+      "nome": "JOÃO ALVES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "ANDRÉ ROCHATO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "AFONSO SERRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "ANDRIY DZYALO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "29",
+      "nome": "LUIGGI BAPTISTA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "j4",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "12 de Setembro de 2026",
+   "hora": "17h00",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "leoes",
+    "golos": "",
+    "capitao": "",
+    "treinador": "MIGUEL VELEZ",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GUILHERME CINTRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "RODRIGO PRAZERES (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "DANIEL OSUJI (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "RÚBEN CARRILHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "29",
+      "nome": "HENRIQUE RODRIGUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "70",
+      "nome": "MACHADO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "LEONILDO INJAI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "53",
+      "nome": "DIEGO GABRIEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "BRUNO SÁ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "BRUNO MARQUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "PEDRO MARQUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "NATAN MINATTI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "RÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "FRANCISCO OLIVEIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "30",
+      "nome": "RICARDINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "9",
+      "nome": "PEDRO SANTOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "25",
+      "nome": "DAVY MENDES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "99",
+      "nome": "ISAÍAS FURTADO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "zezere",
+    "golos": "",
+    "capitao": "",
+    "treinador": "CRISTIANO COELHO",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "PEDRO MARTINHO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "NILTON (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "FÁBIO MADEIRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "92",
+      "nome": "DJAELSON",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "DANIEL SODRÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "36",
+      "nome": "CHAPINHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "AFONSO MOURINHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "KAKÁ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "WENDELL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "19",
+      "nome": "LEONARDO TRAVESSA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "23",
+      "nome": "DAVID COSTA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "31",
+      "nome": "OCTÁVIO ALVES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "88",
+      "nome": "SANDRO SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "RUI FORTES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "j5",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "12 de Setembro de 2026",
+   "hora": "19h00",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "benfica",
+    "golos": "",
+    "capitao": "",
+    "treinador": "CASSIANO KLEIN",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "ANDRÉ CORREIA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "VASCO PINTO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "LÉO GUGIEL (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "AFONSO JESUS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "RAÚL MOREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "ANDRÉ COELHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "SILVESTRE FERREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "5",
+      "nome": "DIOGO ALMEIDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "LÚCIO ROCHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "ARTHUR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "EDMILSON KUTCHY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "CARLOS MONTEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "PANY VARELA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "ANDERSON FORTES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "77",
+      "nome": "CLÉBER SOUZA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "EDUARDO TCHUDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "19",
+      "nome": "RÚBEN GÓIS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "upvn",
+    "golos": "",
+    "capitao": "",
+    "treinador": "ALCIDES LOPES",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "16",
+      "nome": "LUÍS CORREIA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "30",
+      "nome": "JACKSON RYAN (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "99",
+      "nome": "RODRIGO COSTA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "2",
+      "nome": "ABEL VAZ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "TOMÁS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "VICENTE MOURATO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "RAFAEL FREIRE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "LUCAS SANTOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "SISSI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "LUÍS NUNES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "DURA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "DIOGO SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "20",
+      "nome": "LUCAS VERAS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "80",
+      "nome": "LUÍS MONTES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "RODRIGO LEMOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "27",
+      "nome": "GERSON SANCHES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "26",
+      "nome": "VANILSON NAZARÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "28",
+      "nome": "ANDRÉ GALVÃO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "j6",
+   "tipo": "Jornada 1",
+   "jornada": "Jornada 1 · Liga Placard 2026/27",
+   "fundo": "fundo-liga-j1.jpg",
+   "data": "13 de Setembro de 2026",
+   "hora": "15h00",
+   "local": "",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "rioave",
+    "golos": "",
+    "capitao": "",
+    "treinador": "BRUNO GUIMARÃES",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "TOMÁS RAMOS (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "12",
+      "nome": "MOREIRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "33",
+      "nome": "TIAGO SACRAMENTO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "3",
+      "nome": "DINIS RAMOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "27",
+      "nome": "MARTIM CASTELA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "PEDRO RODRIGUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "RÚBEN FREIRE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "GUSTAVO RODRIGUES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "ZÉZINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "13",
+      "nome": "BEBÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "MIGUEL ÂNGELO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "CIGANO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "18",
+      "nome": "SERGINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "4",
+      "nome": "FRANCISCO SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "19",
+      "nome": "MARTÍN DORDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   },
+   "fora": {
+    "eq": "famalicao",
+    "golos": "",
+    "capitao": "",
+    "treinador": "CLÁUDIO MARTINS",
+    "trFoto": "",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "PEDRO NUNES (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "14",
+      "nome": "CLÁUDIO CARVALHO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "16",
+      "nome": "MIGUEL FERREIRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "31",
+      "nome": "GUILHERME REGO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "5",
+      "nome": "FILIPE COSTA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "22",
+      "nome": "BUZUZU",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "6",
+      "nome": "AFONSO VIEIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "7",
+      "nome": "DANIEL SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "8",
+      "nome": "SIMÃO CORDEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "19",
+      "nome": "RÚBEN SANTOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "21",
+      "nome": "MATHIS PEREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "28",
+      "nome": "GUI TORRES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "77",
+      "nome": "JEFFERSON",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "10",
+      "nome": "RUIZINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "11",
+      "nome": "JOÃO MIGUEL",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "39",
+      "nome": "GUGA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "97",
+      "nome": "LEANDRO RIBEIRO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     }
+    ]
+   }
+  }
+ ],
+ "build": "20260911080950",
+ "ts": 1789114191190
+}

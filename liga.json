@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -2699,6 +2699,30 @@
      "m": 0,
      "lado": "",
      "txt": "Convocados definidos. O Benfica recebe o recém-promovido UPVN no Pavilhão Fidelidade, à procura da primeira vitória na Liga Placard depois de ter perdido a Supertaça"
+    },
+    {
+     "id": "v1",
+     "m": 1,
+     "lado": "",
+     "txt": "Rola a bola no Pavilhão Fidelidade: começou o Benfica × UPVN"
+    },
+    {
+     "id": "v2",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Entrada forte das águias, com duas aproximações logo nos primeiros instantes"
+    },
+    {
+     "id": "v3",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Arthur dispara com potência, mas a bola sai sem a direção da baliza"
+    },
+    {
+     "id": "v4",
+     "m": 2,
+     "lado": "fora",
+     "txt": "André Galvão aparece na cara do golo e Léo Gugiel salva o Benfica com uma boa mancha"
     }
    ],
    "faltas": [],
@@ -2776,7 +2800,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2785,7 +2809,7 @@
      {
       "num": "4",
       "nome": "AFONSO JESUS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2830,7 +2854,7 @@
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2839,7 +2863,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2902,14 +2926,14 @@
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/11/16635711_ruben_gois_20260716140659.png"
      },
      {
-      "num": "",
+      "num": "21",
       "nome": "DIEGO FERREIRA",
       "e": "S",
       "min": "",
@@ -2923,7 +2947,7 @@
    "fora": {
     "eq": "upvn",
     "golos": "",
-    "capitao": "",
+    "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
     "jogadores": [
@@ -2939,7 +2963,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2957,7 +2981,7 @@
      {
       "num": "2",
       "nome": "ABEL VAZ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2984,7 +3008,7 @@
      {
       "num": "18",
       "nome": "RAFAEL FREIRE",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3020,7 +3044,7 @@
      {
       "num": "11",
       "nome": "DURA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3081,16 +3105,16 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/10/30/931030_vanilson_nazare_20250711160116.jpg"
      },
      {
-      "num": "28",
+      "num": "27",
       "nome": "ANDRÉ GALVÃO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
      },
      {
-      "num": "",
+      "num": "16",
       "nome": "AFONSO SILVA",
       "e": "S",
       "min": "",
@@ -3479,6 +3503,6 @@
    }
   }
  ],
- "ts": 1789235238615,
+ "ts": 1789236348810,
  "build": "20260912100521"
 }

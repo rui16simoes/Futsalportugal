@@ -20,8 +20,8 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 60,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -32,13 +32,364 @@
      "txt": "Arranca a Liga Placard 2026/27 no Pavilhão Municipal do Fundão"
     },
     {
-     "id": "a1",
+     "id": "b0",
      "m": 1,
      "lado": "fora",
      "txt": "Mamadú Turé combina em zona frontal e atira muito ao lado"
+    },
+    {
+     "id": "b1",
+     "m": 2,
+     "lado": "fora",
+     "txt": "Ángel Claudino troca com Willian Carioca na esquerda e o remate sai à figura"
+    },
+    {
+     "id": "b2",
+     "m": 2,
+     "lado": "fora",
+     "txt": "Carioca recebe dentro da área, gira sobre si próprio e obriga Jaime Arthur a intervir"
+    },
+    {
+     "id": "b3",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Canto na esquerda para o Braga: Tiago Brito aparece a rematar de primeira e a bola bate num defesa"
+    },
+    {
+     "id": "b4",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Primeira resposta do Fundão, com Renato Almeida a ver o remate frontal travado por um corte"
+    },
+    {
+     "id": "b5",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Peléh acelera pelo corredor central e obriga Léo Souza a uma defesa de qualidade"
+    },
+    {
+     "id": "b6",
+     "m": 4,
+     "lado": "casa",
+     "txt": "Jaime Arthur sobe à linha pela direita e remata cruzado, com a bola a sair perto do poste"
+    },
+    {
+     "id": "b7",
+     "m": 5,
+     "lado": "",
+     "txt": "O Braga vai mandando no encontro, com mais posse e muita rotação de bola"
+    },
+    {
+     "id": "b8",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Tiago Tavares gira bem sobre a direita mas o remate acaba por sair ao lado"
+    },
+    {
+     "id": "b9",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Nuno Miranda deixa um adversário para trás na esquerda e Léo Souza responde bem"
+    },
+    {
+     "id": "b10",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Carioca serve Ricardo Lopes no coração da área e Peléh aparece a cortar quando o golo se desenhava"
+    },
+    {
+     "id": "b11",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Carioca surge isolado e tenta o chapéu, mas Jaime Arthur sai do reduto e faz a mancha"
+    },
+    {
+     "id": "b12",
+     "m": 9,
+     "lado": "casa",
+     "txt": "Peléh fica em cuidados médicos, levanta-se pelo próprio pé e o jogo recomeça"
+    },
+    {
+     "id": "b13",
+     "m": 10,
+     "lado": "fora",
+     "txt": "GOLO! Léo Souza lança Airoso na direita, o jogador do Braga dribla o marcador e, com ângulo curtíssimo, atira ao ângulo. Golaço a abrir a época"
+    },
+    {
+     "id": "b14",
+     "m": 10,
+     "lado": "casa",
+     "txt": "O Fundão pede desconto de tempo para travar o ímpeto minhoto"
+    },
+    {
+     "id": "b15",
+     "m": 12,
+     "lado": "",
+     "txt": "Os da casa estão a sentir dificuldades para construir a partir de trás"
+    },
+    {
+     "id": "b16",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Mário Freitas carrega a reposição lateral em direção à baliza, mas ninguém consegue o desvio"
+    },
+    {
+     "id": "b17",
+     "m": 15,
+     "lado": "casa",
+     "txt": "GOLO! Peléh rouba a bola quase no meio-campo, dispara pela esquerda e, já frente a Léo Souza, desvia para o empate"
+    },
+    {
+     "id": "b18",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Landelino Neto surge em excelente posição na esquerda e Léo Souza nega-lhe o golo"
+    },
+    {
+     "id": "b19",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Lourenço Aguiar arranca pela direita, dribla um adversário e vê o guardião fechar-lhe o ângulo"
+    },
+    {
+     "id": "b20",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Ángel Claudino abre caminho para a direita e força Jaime Arthur a uma grande intervenção"
+    },
+    {
+     "id": "b21",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo no Fundão, com o marcador empatado a uma bola"
+    },
+    {
+     "id": "b22",
+     "m": 21,
+     "lado": "",
+     "txt": "Recomeça a partida na Cova da Beira"
+    },
+    {
+     "id": "c0",
+     "m": 22,
+     "lado": "casa",
+     "txt": "GOLO! Renato Almeida e Peléh combinam na perfeição, o brasileiro passa por Léo Souza e o camisola 11 empurra para baliza deserta. Reviravolta no Fundão"
+    },
+    {
+     "id": "c1",
+     "m": 23,
+     "lado": "fora",
+     "txt": "Mamadú Turé trabalha bem pela esquerda e Jaime Arthur volta a responder"
+    },
+    {
+     "id": "c2",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Jaime Arthur tenta surpreender de baliza a baliza e encontra Léo Souza atento"
+    },
+    {
+     "id": "c3",
+     "m": 25,
+     "lado": "",
+     "txt": "O Braga vai cercando o Fundão à procura do empate"
+    },
+    {
+     "id": "c4",
+     "m": 26,
+     "lado": "fora",
+     "txt": "Duas tentativas seguidas de Mamadú Turé e Daniel Airoso, ambas sem sucesso"
+    },
+    {
+     "id": "c5",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Nem experimenta o livre direto e obriga Léo Souza a nova defesa"
+    },
+    {
+     "id": "c6",
+     "m": 28,
+     "lado": "casa",
+     "txt": "Mário Freitas assume o livre direto frontal mas encontra a barreira pelo caminho"
+    },
+    {
+     "id": "c7",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Livre estudado do Braga: Ángel Claudino aparece na direita e Jaime Arthur volta a salvar os da casa"
+    },
+    {
+     "id": "c8",
+     "m": 29,
+     "lado": "casa",
+     "txt": "Peléh atira ao poste! O brasileiro aguenta a pressão na esquerda e, já em cima da baliza, acerta em cheio no ferro"
+    },
+    {
+     "id": "c9",
+     "m": 30,
+     "lado": "fora",
+     "txt": "Novo livre estudado dos minhotos, com Mamadú Turé a ver o remate bater num defesa"
+    },
+    {
+     "id": "c10",
+     "m": 31,
+     "lado": "fora",
+     "txt": "GOLO! Mamadú Turé serve Tiago Brito na direita e o capitão bracarense surpreende com um remate forte de pé direito"
+    },
+    {
+     "id": "c11",
+     "m": 32,
+     "lado": "casa",
+     "txt": "Renato Almeida faz uma arrancada enorme pela direita, mas chega sem forças ao momento de rematar"
+    },
+    {
+     "id": "c12",
+     "m": 33,
+     "lado": "casa",
+     "txt": "Nova transição de Renato Almeida pela direita: tinha tudo para finalizar, tentou servir Peléh e apareceu um corte na hora H"
+    },
+    {
+     "id": "c13",
+     "m": 34,
+     "lado": "",
+     "txt": "Com o empate restabelecido, o jogo voltou a abrir-se de vez"
+    },
+    {
+     "id": "c14",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Renato Almeida aparece solto na direita, com tempo para tudo, e a bola passa a rasar o poste"
+    },
+    {
+     "id": "c15",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Barreto recupera em zona alta, enche o pé à entrada da área e falha a baliza"
+    },
+    {
+     "id": "c16",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Nem sobe bem pela direita e Léo Souza atira-se ao chão para defender"
+    },
+    {
+     "id": "c17",
+     "m": 37,
+     "lado": "fora",
+     "txt": "Luís Fernandes ganha espaço na direita, roda depressa e vê o remate cruzado sair ao lado"
+    },
+    {
+     "id": "c18",
+     "m": 38,
+     "lado": "fora",
+     "txt": "O Braga chega às cinco faltas e a partir daqui qualquer infração dá livre direto ao Fundão"
+    },
+    {
+     "id": "c19",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Nem fica em cuidados médicos, mas nada de grave e o jogo segue"
+    },
+    {
+     "id": "c20",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Ángel Claudino combina na esquerda e a bola volta a bater num defesa"
+    },
+    {
+     "id": "c21",
+     "m": 40,
+     "lado": "",
+     "txt": "Entramos no último minuto com tudo em aberto na Cova da Beira"
+    },
+    {
+     "id": "c22",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Ángel Claudino rouba a bola em zona alta, tenta fintar Jaime Arthur e perde o duelo com o guardião"
+    },
+    {
+     "id": "c23",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Barreto cabeceia por cima na resposta ao cruzamento"
+    },
+    {
+     "id": "c24",
+     "m": 40,
+     "lado": "casa",
+     "txt": "O Fundão pede pausa técnica com quatro segundos no relógio"
+    },
+    {
+     "id": "c25",
+     "m": 40,
+     "lado": "casa",
+     "txt": "GOLO NO ÚLTIMO SEGUNDO! Reposição lateral de Mário Freitas e Nuno Miranda aparece sozinho ao segundo poste a encostar para o 3-2"
+    },
+    {
+     "id": "c26",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: o AD Fundão vence o SC Braga por 3-2 e estreia-se na Liga Placard com um triunfo em casa"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "fb0",
+     "lado": "fora",
+     "parte": 2,
+     "m": 27,
+     "n": 1
+    },
+    {
+     "id": "fb1",
+     "lado": "fora",
+     "parte": 2,
+     "m": 28,
+     "n": 2
+    },
+    {
+     "id": "fb2",
+     "lado": "fora",
+     "parte": 2,
+     "m": 29,
+     "n": 3
+    },
+    {
+     "id": "fb3",
+     "lado": "fora",
+     "parte": 2,
+     "m": 30,
+     "n": 4
+    },
+    {
+     "id": "fb4",
+     "lado": "fora",
+     "parte": 2,
+     "m": 38,
+     "n": 5
+    },
+    {
+     "id": "fc0",
+     "lado": "casa",
+     "parte": 2,
+     "m": 28,
+     "n": 1
+    },
+    {
+     "id": "fc1",
+     "lado": "casa",
+     "parte": 2,
+     "m": 30,
+     "n": 2
+    },
+    {
+     "id": "fc2",
+     "lado": "casa",
+     "parte": 2,
+     "m": 33,
+     "n": 3
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -141,9 +492,9 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "P",
-      "min": "",
-      "cart": "",
-      "ass": "",
+      "min": "15",
+      "cart": "40",
+      "ass": "22",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
      },
      {
@@ -159,8 +510,8 @@
       "num": "10",
       "nome": "NUNO MIRANDA",
       "e": "S",
-      "min": "",
-      "cart": "",
+      "min": "40",
+      "cart": "30",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/60/46/16766046_nuno_miranda_20260814134818.png"
      },
@@ -168,7 +519,7 @@
       "num": "11",
       "nome": "RENATO ALMEIDA",
       "e": "P",
-      "min": "",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/80/16732880_renato_almeida_20260807160756.png"
@@ -187,8 +538,8 @@
       "nome": "MÁRIO FREITAS",
       "e": "P",
       "min": "",
-      "cart": "",
-      "ass": "",
+      "cart": "28",
+      "ass": "40",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/41/143941_mario_freitas_20241019155103.jpg"
      },
      {
@@ -223,7 +574,7 @@
       "nome": "TIAGO TAVARES",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "33",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/50/844850_tiago_tavares_20250129124552.png"
      }
@@ -251,7 +602,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "10",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/84/16723284_leo_souza_20260803101259.png"
      },
      {
@@ -312,7 +663,7 @@
       "num": "6",
       "nome": "TIAGO BRITO",
       "e": "P",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
@@ -331,8 +682,8 @@
       "nome": "MAMADÚ TURÉ",
       "e": "P",
       "min": "",
-      "cart": "",
-      "ass": "",
+      "cart": "38",
+      "ass": "31",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/66/392466_mamadu_ture_20250731150424.png"
      },
      {
@@ -357,8 +708,8 @@
       "num": "90",
       "nome": "DANIEL AIROSO",
       "e": "S",
-      "min": "",
-      "cart": "",
+      "min": "10",
+      "cart": "28",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/46/02/16724602_daniel_airoso_20260803101417.png"
      },
@@ -394,7 +745,7 @@
       "nome": "BARRETO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "27",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/45/1808945_barreto_20260126082415.jpg"
      },
@@ -436,12 +787,217 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "d0",
+     "m": 1,
+     "lado": "",
+     "txt": "Rola a bola no Pavilhão Fisica, em Torres Vedras, para o arranque da Liga Placard 2026/27"
+    },
+    {
+     "id": "d1",
+     "m": 1,
+     "lado": "",
+     "txt": "O zerozero não divulgou os quintetos iniciais deste jogo; ficam assinalados todos os convocados"
+    },
+    {
+     "id": "d2",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Tintim ensaia o primeiro remate da noite, mas a bola acaba por sair pela linha de fundo"
+    },
+    {
+     "id": "d3",
+     "m": 3,
+     "lado": "",
+     "txt": "Entrada morna das duas equipas, com muito passe falhado e poucas ocasiões"
+    },
+    {
+     "id": "d4",
+     "m": 5,
+     "lado": "fora",
+     "txt": "Gonçalo Paixão teve nos pés a hipótese de inaugurar o marcador, mas atirou por cima"
+    },
+    {
+     "id": "d5",
+     "m": 7,
+     "lado": "",
+     "txt": "Faltas acumuladas ao fim de sete minutos: Torreense 2, Eléctrico 0"
+    },
+    {
+     "id": "d6",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Terceira falta dos locais e livre perigoso junto ao limite da área para os visitantes"
+    },
+    {
+     "id": "d7",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Grande mancha de Tiago Correia, que trava o remate saído do livre à entrada da área"
+    },
+    {
+     "id": "d8",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Tiago Correia volta a agigantar-se e nega mais um golo ao Eléctrico"
+    },
+    {
+     "id": "d9",
+     "m": 17,
+     "lado": "",
+     "txt": "O contador de faltas vai em Torreense 3, Eléctrico 1"
+    },
+    {
+     "id": "d10",
+     "m": 19,
+     "lado": "",
+     "txt": "Jogo muito parado nesta fase, mas é a equipa de Ponte de Sor que vai desenhando os lances mais promissores"
+    },
+    {
+     "id": "d11",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Vermelho para Felipinho por acumulação de amarelos: o Torreense fica reduzido a quatro"
+    },
+    {
+     "id": "d12",
+     "m": 19,
+     "lado": "fora",
+     "txt": "O Eléctrico ganha dois minutos de superioridade numérica"
+    },
+    {
+     "id": "d13",
+     "m": 20,
+     "lado": "fora",
+     "txt": "GOLO! Thales Alves aproveita o espaço fora da área e atira rasteiro, com a bola a passar por entre as pernas de Tiago Correia. Assistência de Ferrugem"
+    },
+    {
+     "id": "d14",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Torres Vedras: Torreense 0, Eléctrico 1"
+    },
+    {
+     "id": "d15",
+     "m": 21,
+     "lado": "",
+     "txt": "Recomeça a partida"
+    },
+    {
+     "id": "d16",
+     "m": 23,
+     "lado": "casa",
+     "txt": "GOLO! Jair Pereira descobre Tintim e o camisola 90 restabelece a igualdade"
+    },
+    {
+     "id": "d17",
+     "m": 23,
+     "lado": "",
+     "txt": "Faltas na segunda parte: Torreense 1, Eléctrico 0"
+    },
+    {
+     "id": "d18",
+     "m": 26,
+     "lado": "",
+     "txt": "Contagem de faltas: Torreense 2, Eléctrico 0"
+    },
+    {
+     "id": "d19",
+     "m": 31,
+     "lado": "",
+     "txt": "A resposta do Torreense abanou o encontro: o jogo está agora muito mais aberto, com as duas equipas a responderem golpe a golpe"
+    },
+    {
+     "id": "d20",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Vermelho direto para Miguel Malhão e é a vez do Eléctrico jogar em inferioridade"
+    },
+    {
+     "id": "d21",
+     "m": 32,
+     "lado": "casa",
+     "txt": "O Torreense passa a ter dois minutos de superioridade numérica"
+    },
+    {
+     "id": "d22",
+     "m": 34,
+     "lado": "",
+     "txt": "Faltas: Torreense 3, Eléctrico 1"
+    },
+    {
+     "id": "d23",
+     "m": 34,
+     "lado": "fora",
+     "txt": "GOLO! Livre à entrada da área e Lucas Mestre não perdoa: remate forte para o canto superior esquerdo e o Eléctrico volta a comandar"
+    },
+    {
+     "id": "d24",
+     "m": 36,
+     "lado": "",
+     "txt": "Contagem de faltas: Torreense 3, Eléctrico 2"
+    },
+    {
+     "id": "d25",
+     "m": 37,
+     "lado": "casa",
+     "txt": "O Torreense arrisca no 5x4 à procura de novo empate"
+    },
+    {
+     "id": "d26",
+     "m": 40,
+     "lado": "fora",
+     "txt": "GOLO! Telmo Sousa sentencia o encontro e fecha as contas em 1-3"
+    },
+    {
+     "id": "d27",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: o Eléctrico vence o Torreense por 3-1 e leva os primeiros três pontos de Torres Vedras"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "g0",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "g1",
+     "lado": "casa",
+     "parte": 2,
+     "m": 26,
+     "n": 2
+    },
+    {
+     "id": "g2",
+     "lado": "casa",
+     "parte": 2,
+     "m": 34,
+     "n": 3
+    },
+    {
+     "id": "h0",
+     "lado": "fora",
+     "parte": 2,
+     "m": 34,
+     "n": 1
+    },
+    {
+     "id": "h1",
+     "lado": "fora",
+     "parte": 2,
+     "m": 36,
+     "n": 2
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -498,7 +1054,7 @@
      {
       "num": "1",
       "nome": "TIAGO CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -507,7 +1063,7 @@
      {
       "num": "13",
       "nome": "EURICO CUNHA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -516,7 +1072,7 @@
      {
       "num": "22",
       "nome": "ANDRÉ SANTOS (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -525,7 +1081,7 @@
      {
       "num": "2",
       "nome": "TIAGO REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -534,7 +1090,7 @@
      {
       "num": "4",
       "nome": "LÉO EVANGELISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -543,7 +1099,7 @@
      {
       "num": "28",
       "nome": "LEONARDO HASHIMOTO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -552,16 +1108,16 @@
      {
       "num": "88",
       "nome": "NICOLAS TOMÉ",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "34",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/01/09/600109_nicolas_tome_20251128002610.png"
      },
      {
       "num": "6",
       "nome": "TOMÁS SILVA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -570,7 +1126,7 @@
      {
       "num": "11",
       "nome": "VICENTE GUIA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -579,16 +1135,16 @@
      {
       "num": "7",
       "nome": "JAIR PEREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/48/1305748_jair_pereira_20250702155048.png"
      },
      {
       "num": "10",
       "nome": "PAULO MAJOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -597,7 +1153,7 @@
      {
       "num": "14",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -606,16 +1162,16 @@
      {
       "num": "18",
       "nome": "FELIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "8 19d",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/91/39/16719139_felipe_pinheiro_20260730204308.png"
      },
      {
       "num": "20",
       "nome": "DAVID GITA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -624,7 +1180,7 @@
      {
       "num": "9",
       "nome": "GONÇALO LIMA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -633,7 +1189,7 @@
      {
       "num": "5",
       "nome": "EDSON PATRICK",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -642,7 +1198,7 @@
      {
       "num": "17",
       "nome": "MANUEL MONTEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -651,9 +1207,9 @@
      {
       "num": "90",
       "nome": "TINTIM",
-      "e": "",
-      "min": "",
-      "cart": "",
+      "e": "S",
+      "min": "23",
+      "cart": "37",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
      }
@@ -669,7 +1225,7 @@
      {
       "num": "16",
       "nome": "LEONARDO ATANÁSIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -678,7 +1234,7 @@
      {
       "num": "88",
       "nome": "KIKO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -687,7 +1243,7 @@
      {
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -696,17 +1252,17 @@
      {
       "num": "5",
       "nome": "FERRUGEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "20",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/50/16723250_ferrugem_20260802044620.png"
      },
      {
       "num": "33",
       "nome": "TELMO SOUSA",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/32/16598232_telmo_sousa_20260715165647.png"
@@ -714,7 +1270,7 @@
      {
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -723,17 +1279,17 @@
      {
       "num": "7",
       "nome": "MIGUEL MALHÃO",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "32v",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/36/16738036_miguel_malhao_20260908144557.png"
      },
      {
       "num": "10",
       "nome": "THALES ALVES",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "20",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
@@ -741,8 +1297,8 @@
      {
       "num": "15",
       "nome": "LUCAS MESTRE",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "34",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/35/16598235_lucas_mestre_20260717140010.png"
@@ -750,7 +1306,7 @@
      {
       "num": "20",
       "nome": "HENRIQUE VICENTE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -759,7 +1315,7 @@
      {
       "num": "21",
       "nome": "MARTÍN ARRIAGADA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -768,7 +1324,7 @@
      {
       "num": "74",
       "nome": "GABRIEL HOFFELDER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -777,7 +1333,7 @@
      {
       "num": "14",
       "nome": "ARTHUR SARAIVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -786,7 +1342,7 @@
      {
       "num": "18",
       "nome": "MATHEUS MARQUETI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -812,12 +1368,331 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "e0",
+     "m": 1,
+     "lado": "",
+     "txt": "Arranca a partida no Pavilhão João Rocha, com o Sporting a estrear-se na Liga Placard depois de ter conquistado a Supertaça"
+    },
+    {
+     "id": "e1",
+     "m": 1,
+     "lado": "",
+     "txt": "O zerozero não divulgou os quintetos iniciais deste jogo; ficam assinalados todos os convocados"
+    },
+    {
+     "id": "e2",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Diogo Santos tenta de longe, mas o remate sai prensado"
+    },
+    {
+     "id": "e3",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Rocha fica frente a frente com Juan Pinheiro e o guardião algarvio faz a mancha"
+    },
+    {
+     "id": "e4",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Novo remate potente de Rocha e nova grande defesa de Juan Pinheiro"
+    },
+    {
+     "id": "e5",
+     "m": 4,
+     "lado": "casa",
+     "txt": "Rocha volta a ameaçar com um tiro forte e o guarda-redes do Portimonense responde outra vez"
+    },
+    {
+     "id": "e6",
+     "m": 5,
+     "lado": "",
+     "txt": "Entrada avassaladora dos leões, que estão a sufocar o recém-promovido"
+    },
+    {
+     "id": "e7",
+     "m": 5,
+     "lado": "casa",
+     "txt": "GOLO! Juan Pinheiro engana-se na saída a jogar e deixa a bola à mercê de Bruno Pinto, que atira sem oposição para o fundo das redes"
+    },
+    {
+     "id": "e8",
+     "m": 6,
+     "lado": "fora",
+     "txt": "Muitas perdas de bola do Portimonense na construção: os algarvios estão com dificuldade em entrar no jogo"
+    },
+    {
+     "id": "e9",
+     "m": 7,
+     "lado": "fora",
+     "txt": "Adaílton Souza tinha tudo para empatar, mas o chapéu sai curto e Bernardo Paçó segura"
+    },
+    {
+     "id": "e10",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Adaílton Souza aparece de novo na cara de Bernardo Paçó e o guardião leonino volta a levar a melhor"
+    },
+    {
+     "id": "e11",
+     "m": 10,
+     "lado": "fora",
+     "txt": "André Rochato dispara rasteiro e obriga Bernardo Paçó a uma bela intervenção"
+    },
+    {
+     "id": "e12",
+     "m": 11,
+     "lado": "",
+     "txt": "O Portimonense está a crescer: já ameaçou por três vezes e vai chegando com perigo à baliza leonina"
+    },
+    {
+     "id": "e13",
+     "m": 12,
+     "lado": "",
+     "txt": "Faltas cometidas: Sporting 1, Portimonense 1"
+    },
+    {
+     "id": "e14",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Montanha surge pela asa direita mas atira à malha lateral"
+    },
+    {
+     "id": "e15",
+     "m": 13,
+     "lado": "casa",
+     "txt": "O Sporting pede desconto de tempo"
+    },
+    {
+     "id": "e16",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Diogo Santos aparece sozinho na direita, puxa para dentro e remata à figura"
+    },
+    {
+     "id": "e17",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Rafael Ruela também atira para as mãos de Juan Pinheiro"
+    },
+    {
+     "id": "e18",
+     "m": 16,
+     "lado": "",
+     "txt": "Contagem de faltas: Sporting 2, Portimonense 1"
+    },
+    {
+     "id": "e19",
+     "m": 17,
+     "lado": "",
+     "txt": "Jogo muito animado, com as duas equipas a disputarem cada lance como se fosse o último"
+    },
+    {
+     "id": "e20",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Diogo Santos ganha um belo duelo com o marcador direto, mas o remate sai ligeiramente por cima"
+    },
+    {
+     "id": "e21",
+     "m": 18,
+     "lado": "",
+     "txt": "Faltas: Sporting 2, Portimonense 2"
+    },
+    {
+     "id": "e22",
+     "m": 20,
+     "lado": "fora",
+     "txt": "Andriy Dzyalo tinha o empate nos pés e Bernardo Paçó trava-o com uma defesa impressionante"
+    },
+    {
+     "id": "e23",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Alvalade: Sporting 1, Portimonense 0"
+    },
+    {
+     "id": "e24",
+     "m": 21,
+     "lado": "",
+     "txt": "Começa a segunda parte"
+    },
+    {
+     "id": "e25",
+     "m": 22,
+     "lado": "fora",
+     "txt": "O Portimonense mostra-se atrevido no recomeço, sobe linhas e pressiona alto"
+    },
+    {
+     "id": "e26",
+     "m": 22,
+     "lado": "fora",
+     "txt": "Montanha aparece na cara de Bernardo Paçó e o guardião volta a brilhar"
+    },
+    {
+     "id": "e27",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Wesley atira potente de longe e encontra Juan Pinheiro atento"
+    },
+    {
+     "id": "e28",
+     "m": 23,
+     "lado": "fora",
+     "txt": "Montanha esteve muito perto do golo, mas Bernardo Paçó salva mais uma vez"
+    },
+    {
+     "id": "e29",
+     "m": 24,
+     "lado": "",
+     "txt": "Faltas na segunda parte: Sporting 2, Portimonense 2"
+    },
+    {
+     "id": "e30",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Bruno Pinto dispara de fora da área e Juan Pinheiro afasta o perigo"
+    },
+    {
+     "id": "e31",
+     "m": 26,
+     "lado": "casa",
+     "txt": "Diogo Santos solta um grande tiro, mas sem a direção pretendida"
+    },
+    {
+     "id": "e32",
+     "m": 28,
+     "lado": "casa",
+     "txt": "Rúben Teixeira arrisca de primeira e a bola sai sem perigo"
+    },
+    {
+     "id": "e33",
+     "m": 29,
+     "lado": "",
+     "txt": "Contagem de faltas: Sporting 2, Portimonense 3"
+    },
+    {
+     "id": "e34",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Felipe Valério ganha espaço no corredor central e atira junto ao poste"
+    },
+    {
+     "id": "e35",
+     "m": 31,
+     "lado": "fora",
+     "txt": "Andriy Dzyalo ameaça o empate com um tiro a centímetros do poste"
+    },
+    {
+     "id": "e36",
+     "m": 32,
+     "lado": "casa",
+     "txt": "Rúben Teixeira embala pelo meio, mas o remate sai ao lado"
+    },
+    {
+     "id": "e37",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Filipinho surge sozinho ao segundo poste e cabeceia para as mãos do guarda-redes"
+    },
+    {
+     "id": "e38",
+     "m": 35,
+     "lado": "",
+     "txt": "Faltam cinco minutos e continua tudo em aberto no João Rocha"
+    },
+    {
+     "id": "e39",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Luiggi Baptista aparece em zona de finalização e Bruno Maior corta o remate em cima da linha de tiro"
+    },
+    {
+     "id": "e40",
+     "m": 37,
+     "lado": "casa",
+     "txt": "Bernardo Paçó tenta de muito longe, mas surge um corte a compensar a baliza deserta"
+    },
+    {
+     "id": "e41",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Felipe Valério remata colocado e Juan Pinheiro responde com uma grande defesa"
+    },
+    {
+     "id": "e42",
+     "m": 38,
+     "lado": "fora",
+     "txt": "O Portimonense pede pausa técnica e assume o 5x4 na procura do empate"
+    },
+    {
+     "id": "e43",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Os algarvios carregam nos minutos finais à procura da igualdade"
+    },
+    {
+     "id": "e44",
+     "m": 39,
+     "lado": "fora",
+     "txt": "André Rochato remata em queda e Bernardo Paçó volta a evitar o golo"
+    },
+    {
+     "id": "e45",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Tomás Reis tenta de longe e aparece outra vez Bernardo Paçó. Que exibição do guardião leonino"
+    },
+    {
+     "id": "e46",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: o Sporting vence o Portimonense por 1-0 e arranca a Liga Placard com três pontos"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "k0",
+     "lado": "casa",
+     "parte": 2,
+     "m": 24,
+     "n": 1
+    },
+    {
+     "id": "k1",
+     "lado": "casa",
+     "parte": 2,
+     "m": 29,
+     "n": 2
+    },
+    {
+     "id": "n0",
+     "lado": "fora",
+     "parte": 2,
+     "m": 24,
+     "n": 1
+    },
+    {
+     "id": "n1",
+     "lado": "fora",
+     "parte": 2,
+     "m": 24,
+     "n": 2
+    },
+    {
+     "id": "n2",
+     "lado": "fora",
+     "parte": 2,
+     "m": 29,
+     "n": 3
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -874,7 +1749,7 @@
      {
       "num": "1",
       "nome": "GONÇALO PORTUGAL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -883,7 +1758,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -892,7 +1767,7 @@
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -901,7 +1776,7 @@
      {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -910,7 +1785,7 @@
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -919,7 +1794,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -928,7 +1803,7 @@
      {
       "num": "17",
       "nome": "ERICK MENDONÇA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -937,7 +1812,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -946,7 +1821,7 @@
      {
       "num": "10",
       "nome": "RÚBEN TEIXEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -955,7 +1830,7 @@
      {
       "num": "11",
       "nome": "IVAN CHISHKALA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -964,7 +1839,7 @@
      {
       "num": "13",
       "nome": "TIAGUINHO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -973,7 +1848,7 @@
      {
       "num": "14",
       "nome": "FELIPE VALÉRIO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -982,8 +1857,8 @@
      {
       "num": "25",
       "nome": "BRUNO PINTO",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "5",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/52/16484852_bruno_pinto_20260830155108.jpg"
@@ -991,7 +1866,7 @@
      {
       "num": "29",
       "nome": "ALEX MERLIM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1000,7 +1875,7 @@
      {
       "num": "6",
       "nome": "ZICKY TÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1009,7 +1884,7 @@
      {
       "num": "30",
       "nome": "FELIPE RUFINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1018,11 +1893,21 @@
      {
       "num": "70",
       "nome": "ROCHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
+     },
+     {
+      "num": "",
+      "nome": "RAFAEL RUELA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
@@ -1036,7 +1921,7 @@
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1045,7 +1930,7 @@
      {
       "num": "13",
       "nome": "PEDRO AFONSO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1054,7 +1939,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1063,7 +1948,7 @@
      {
       "num": "18",
       "nome": "RUI MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1072,7 +1957,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1081,7 +1966,7 @@
      {
       "num": "7",
       "nome": "PEDRO SENRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1090,7 +1975,7 @@
      {
       "num": "51",
       "nome": "GUI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1099,7 +1984,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1108,7 +1993,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1117,7 +2002,7 @@
      {
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1126,7 +2011,7 @@
      {
       "num": "70",
       "nome": "MONTANHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1135,7 +2020,7 @@
      {
       "num": "88",
       "nome": "JOÃO ALVES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1144,16 +2029,16 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "26",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/75/16642975_andre_rochato_20260705235623.jpg"
      },
      {
       "num": "11",
       "nome": "AFONSO SERRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1162,7 +2047,7 @@
      {
       "num": "17",
       "nome": "ANDRIY DZYALO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1171,11 +2056,21 @@
      {
       "num": "29",
       "nome": "LUIGGI BAPTISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
+     },
+     {
+      "num": "",
+      "nome": "SANTI",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -2336,6 +3231,6 @@
    }
   }
  ],
- "ts": 1789151618747,
+ "ts": 1789177637230,
  "build": "20260911170827"
 }

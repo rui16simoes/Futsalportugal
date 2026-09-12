@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -2771,9 +2771,47 @@
      "m": 8,
      "lado": "casa",
      "txt": "Léo Gugiel volta a experimentar de meia-distância e Jackson Ryan faz mais uma grande defesa"
+    },
+    {
+     "id": "v13",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Jackson Ryan solta um remate traiçoeiro de baliza a baliza e Léo Gugiel tem de se aplicar para evitar o golo"
+    },
+    {
+     "id": "v14",
+     "m": 10,
+     "lado": "",
+     "txt": "Ritmo muito alto no Fidelidade, mas ainda sem golos. Jogo equilibrado, com os encarnados por cima como seria de esperar"
+    },
+    {
+     "id": "v15",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Lúcio Rocha dispara de pé esquerdo e o guardião do UPVN segura sem dificuldade"
+    },
+    {
+     "id": "v16",
+     "m": 12,
+     "lado": "casa",
+     "txt": "Lúcio Rocha volta a tentar e desta vez manda por cima. Está com a pontaria desafinada"
+    },
+    {
+     "id": "v17",
+     "m": 12,
+     "lado": "casa",
+     "txt": "Diogo Almeida tira o adversário da frente com um grande trabalho, mas o remate rasteiro morre nas mãos do guardião visitante"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "sf1",
+     "lado": "casa",
+     "parte": 1,
+     "m": 10,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2987,7 +3025,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/74/1153974_diego_ferreira_20250120020554.jpg",
       "extra": 1
      }
     ]
@@ -3015,7 +3053,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "jackson-ryan.png"
      },
      {
       "num": "99",
@@ -3126,24 +3164,6 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/29/983629_luis_montes_20260410173428.jpg"
      },
      {
-      "num": "3",
-      "nome": "RODRIGO LEMOS",
-      "e": "N",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/32/1305732_rodrigo_lemos_20250702153015.jpg"
-     },
-     {
-      "num": "27",
-      "nome": "GERSON SANCHES",
-      "e": "N",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/86/16672086_gerson_sanches_20260716142635.png"
-     },
-     {
       "num": "26",
       "nome": "VANILSON NAZARÉ",
       "e": "S",
@@ -3162,13 +3182,33 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
      },
      {
+      "num": "3",
+      "nome": "RODRIGO LEMOS",
+      "e": "N",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/32/1305732_rodrigo_lemos_20250702153015.jpg",
+      "extra": 1
+     },
+     {
+      "num": "27",
+      "nome": "GERSON SANCHES",
+      "e": "N",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/86/16672086_gerson_sanches_20260716142635.png",
+      "extra": 1
+     },
+     {
       "num": "16",
       "nome": "AFONSO SILVA",
       "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/70/1044670_afonso_silva_20251226181543.png",
       "extra": 1
      }
     ]
@@ -3551,6 +3591,6 @@
    }
   }
  ],
- "ts": 1789236894601,
- "build": "20260912100521"
+ "ts": 1789237448367,
+ "build": "20260912182155"
 }

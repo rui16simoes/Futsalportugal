@@ -2074,7 +2074,7 @@
    "arb1": "NUNO MATIAS",
    "arb2": "ANDRÉ FRANCO",
    "arb3": "FILIPE DUARTE",
-   "cron": "Cronometrista: Rita Ferraz",
+   "cron": "Rita Ferraz",
    "obs": "",
    "tv": "Canal 11 Streaming",
    "tvUrl": "",
@@ -3452,6 +3452,6 @@
    }
   }
  ],
- "ts": 1789234855813,
+ "ts": 1789235010727,
  "build": "20260912100521"
 }

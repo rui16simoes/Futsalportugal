@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120,
+    "acc": 240,
     "desde": 0
    },
    "lances": [
@@ -2723,6 +2723,30 @@
      "m": 2,
      "lado": "fora",
      "txt": "André Galvão aparece na cara do golo e Léo Gugiel salva o Benfica com uma boa mancha"
+    },
+    {
+     "id": "v5",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Rúben Góis baila à frente do adversário, mas o remate sai completamente torto"
+    },
+    {
+     "id": "v6",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Léo Gugiel arrisca de muito longe e obriga Jackson Ryan a uma bela defesa"
+    },
+    {
+     "id": "v7",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Dura sai rápido em transição e dispara a centímetros do poste. Esteve lá perto!"
+    },
+    {
+     "id": "v8",
+     "m": 4,
+     "lado": "casa",
+     "txt": "André Coelho remata em zona frontal e Jackson Ryan volta a agigantar-se"
     }
    ],
    "faltas": [],
@@ -3503,6 +3527,6 @@
    }
   }
  ],
- "ts": 1789236348810,
+ "ts": 1789236527662,
  "build": "20260912100521"
 }

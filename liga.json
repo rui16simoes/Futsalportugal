@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -2747,6 +2747,30 @@
      "m": 4,
      "lado": "casa",
      "txt": "André Coelho remata em zona frontal e Jackson Ryan volta a agigantar-se"
+    },
+    {
+     "id": "v9",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Eduardo Tchuda atira rasteiro e Jackson Ryan responde com mais uma boa defesa"
+    },
+    {
+     "id": "v10",
+     "m": 7,
+     "lado": "",
+     "txt": "O UPVN está muito bem a fechar os caminhos para a baliza: as águias vão construindo, mas custa-lhes chegar ao remate"
+    },
+    {
+     "id": "v11",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Anderson Fortes passa pelo adversário mas atira à figura do guarda-redes"
+    },
+    {
+     "id": "v12",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Léo Gugiel volta a experimentar de meia-distância e Jackson Ryan faz mais uma grande defesa"
     }
    ],
    "faltas": [],
@@ -3527,6 +3551,6 @@
    }
   }
  ],
- "ts": 1789236527662,
+ "ts": 1789236894601,
  "build": "20260912100521"
 }

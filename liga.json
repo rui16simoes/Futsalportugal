@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -2927,6 +2927,72 @@
      "m": 25,
      "lado": "fora",
      "txt": "Diogo Silva atira ao poste! Esteve lá o golo do UPVN"
+    },
+    {
+     "id": "v39",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Rúben Góis esteve muito perto do golo, com a bola a passar a centímetros do poste"
+    },
+    {
+     "id": "v40",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Rúben Góis atira ao poste!"
+    },
+    {
+     "id": "v41",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Dura tenta por duas vezes seguidas e esbarra sempre em Léo Gugiel"
+    },
+    {
+     "id": "v42",
+     "m": 29,
+     "lado": "casa",
+     "txt": "Rúben Góis procura a finalização de primeira e Jackson Ryan segura o remate"
+    },
+    {
+     "id": "v43",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Carlos Monteiro dispara com potência e o guardião visitante volta a responder"
+    },
+    {
+     "id": "v44",
+     "m": 31,
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Bola parada muito bem trabalhada: André Coelho engana toda a gente ao lançar para a direita e Arthur remata rasteiro para o 3-0"
+    },
+    {
+     "id": "v45",
+     "m": 32,
+     "lado": "fora",
+     "txt": "O UPVN pede desconto de tempo"
+    },
+    {
+     "id": "v46",
+     "m": 33,
+     "lado": "casa",
+     "txt": "Lúcio Rocha atira de primeira e Jackson Ryan faz mais uma grande defesa"
+    },
+    {
+     "id": "v47",
+     "m": 33,
+     "lado": "casa",
+     "txt": "AUTOGOLO. Infelicidade de Luís Montes: o recém-entrado vê a bola bater-lhe nos pés e desviar para a própria baliza"
+    },
+    {
+     "id": "v48",
+     "m": 33,
+     "lado": "fora",
+     "txt": "GOLO DO UPVN! Luís Montes redime-se no lance a seguir: servido por Luís Nunes, atira de meia-distância e reduz para 4-1"
+    },
+    {
+     "id": "v49",
+     "m": 35,
+     "lado": "casa",
+     "txt": "André Coelho remata com muito perigo junto ao poste"
     }
    ],
    "faltas": [
@@ -2957,6 +3023,34 @@
      "parte": 1,
      "m": 15,
      "n": 1
+    },
+    {
+     "id": "u21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 26,
+     "n": 1
+    },
+    {
+     "id": "u22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 26,
+     "n": 2
+    },
+    {
+     "id": "u23",
+     "lado": "fora",
+     "parte": 2,
+     "m": 31,
+     "n": 3
+    },
+    {
+     "id": "u24",
+     "lado": "fora",
+     "parte": 2,
+     "m": 34,
+     "n": 4
     }
    ],
    "gp": {
@@ -3063,7 +3157,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "31",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/44/304044_andre_coelho_20250919143120.jpg"
      },
      {
@@ -3097,7 +3191,7 @@
       "num": "10",
       "nome": "ARTHUR",
       "e": "P",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
@@ -3271,7 +3365,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/25/1139325_luis_nunes_20240614105709.png"
      },
      {
@@ -3305,7 +3399,7 @@
       "num": "80",
       "nome": "LUÍS MONTES",
       "e": "S",
-      "min": "",
+      "min": "33a 33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/29/983629_luis_montes_20260410173428.jpg"
@@ -3315,7 +3409,7 @@
       "nome": "VANILSON NAZARÉ",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "31",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/10/30/931030_vanilson_nazare_20250711160116.jpg"
      },
@@ -3718,6 +3812,6 @@
    }
   }
  ],
- "ts": 1789239737562,
+ "ts": 1789240919227,
  "build": "20260912182155"
 }

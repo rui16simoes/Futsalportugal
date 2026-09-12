@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1140,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -2860,7 +2860,31 @@
      "id": "v27",
      "m": 19,
      "lado": "casa",
-     "txt": "GOLO DO BENFICA! Lúcio Rocha desbloqueia finalmente o encontro e coloca as águias na frente"
+     "txt": "GOLO DO BENFICA! Sozinho ao segundo poste, Lúcio Rocha desvia um remate de Pany Varela e a bola só para no fundo das redes"
+    },
+    {
+     "id": "v28",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Arthur tinha tudo para aumentar a vantagem, mas Jackson Ryan limpa a jogada com mais uma grande defesa"
+    },
+    {
+     "id": "v29",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Lúcio Rocha atira à barra!"
+    },
+    {
+     "id": "v30",
+     "m": 20,
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Erro defensivo do UPVN, Pany Varela fica na cara do guarda-redes e serve Afonso Jesus, que só teve de encostar"
+    },
+    {
+     "id": "v31",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo no Pavilhão Fidelidade: Benfica 2, UPVN 0. As águias sofreram durante quase toda a primeira parte e resolveram ao cair do pano"
     }
    ],
    "faltas": [
@@ -2977,7 +3001,7 @@
       "num": "4",
       "nome": "AFONSO JESUS",
       "e": "P",
-      "min": "",
+      "min": "20",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/37/50/173750_afonso_jesus_20250919142959.jpg"
@@ -3060,7 +3084,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "19 20",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/06/74706_pany_varela_20250919142750.jpg"
      },
      {
@@ -3652,6 +3676,6 @@
    }
   }
  ],
- "ts": 1789238283601,
+ "ts": 1789239137319,
  "build": "20260912182155"
 }

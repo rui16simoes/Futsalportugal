@@ -2689,8 +2689,8 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
+    "parte": 2,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -2885,6 +2885,24 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo no Pavilhão Fidelidade: Benfica 2, UPVN 0. As águias sofreram durante quase toda a primeira parte e resolveram ao cair do pano"
+    },
+    {
+     "id": "v32",
+     "m": 21,
+     "lado": "",
+     "txt": "Recomeça a partida no Fidelidade. O UPVN vai ter de arriscar mais se quiser tirar algo do jogo"
+    },
+    {
+     "id": "v33",
+     "m": 22,
+     "lado": "casa",
+     "txt": "Entrada forte das águias neste segundo tempo"
+    },
+    {
+     "id": "v34",
+     "m": 22,
+     "lado": "fora",
+     "txt": "Rafael Freire dispara em zona frontal, mas a bola vai à figura de Léo Gugiel"
     }
    ],
    "faltas": [
@@ -3676,6 +3694,6 @@
    }
   }
  ],
- "ts": 1789239137319,
+ "ts": 1789239439408,
  "build": "20260912182155"
 }

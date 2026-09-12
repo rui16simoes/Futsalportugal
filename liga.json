@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -2903,6 +2903,30 @@
      "m": 22,
      "lado": "fora",
      "txt": "Rafael Freire dispara em zona frontal, mas a bola vai à figura de Léo Gugiel"
+    },
+    {
+     "id": "v35",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Carlos Monteiro tenta o desvio na cara do guarda-redes e aparece um corte a tirar a bola da direção da baliza"
+    },
+    {
+     "id": "v36",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Anderson Fortes corta para o meio e remata, mas sem perigo"
+    },
+    {
+     "id": "v37",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Arthur tenta um remate pouco ortodoxo e Jackson Ryan está atento a evitar o golo"
+    },
+    {
+     "id": "v38",
+     "m": 25,
+     "lado": "fora",
+     "txt": "Diogo Silva atira ao poste! Esteve lá o golo do UPVN"
     }
    ],
    "faltas": [
@@ -3694,6 +3718,6 @@
    }
   }
  ],
- "ts": 1789239439408,
+ "ts": 1789239737562,
  "build": "20260912182155"
 }

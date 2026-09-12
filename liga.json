@@ -799,12 +799,6 @@
      "txt": "Rola a bola no Pavilhão Fisica, em Torres Vedras, para o arranque da Liga Placard 2026/27"
     },
     {
-     "id": "d1",
-     "m": 1,
-     "lado": "",
-     "txt": "O zerozero não divulgou os quintetos iniciais deste jogo; ficam assinalados todos os convocados"
-    },
-    {
      "id": "d2",
      "m": 2,
      "lado": "casa",
@@ -838,13 +832,13 @@
      "id": "d7",
      "m": 8,
      "lado": "fora",
-     "txt": "Grande mancha de Tiago Correia, que trava o remate saído do livre à entrada da área"
+     "txt": "Grande mancha do guarda-redes do Torreense, que trava o remate saído do livre à entrada da área"
     },
     {
      "id": "d8",
      "m": 14,
      "lado": "casa",
-     "txt": "Tiago Correia volta a agigantar-se e nega mais um golo ao Eléctrico"
+     "txt": "O guarda-redes do Torreense volta a agigantar-se e nega mais um golo ao Eléctrico"
     },
     {
      "id": "d9",
@@ -872,9 +866,9 @@
     },
     {
      "id": "d13",
-     "m": 20,
+     "m": 19,
      "lado": "fora",
-     "txt": "GOLO! Thales Alves aproveita o espaço fora da área e atira rasteiro, com a bola a passar por entre as pernas de Tiago Correia. Assistência de Ferrugem"
+     "txt": "GOLO! Thales Alves aproveita o espaço fora da área e atira rasteiro, com a bola a passar por entre as pernas do guarda-redes. Assistência de Ferrugem"
     },
     {
      "id": "d14",
@@ -1063,7 +1057,7 @@
      {
       "num": "13",
       "nome": "EURICO CUNHA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1108,7 +1102,7 @@
      {
       "num": "88",
       "nome": "NICOLAS TOMÉ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "34",
       "ass": "",
@@ -1153,7 +1147,7 @@
      {
       "num": "14",
       "nome": "VITINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1162,7 +1156,7 @@
      {
       "num": "18",
       "nome": "FELIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "8 19d",
       "ass": "",
@@ -1207,7 +1201,7 @@
      {
       "num": "90",
       "nome": "TINTIM",
-      "e": "S",
+      "e": "P",
       "min": "23",
       "cart": "37",
       "ass": "",
@@ -1243,7 +1237,7 @@
      {
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1252,7 +1246,7 @@
      {
       "num": "5",
       "nome": "FERRUGEM",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "20",
@@ -1261,7 +1255,7 @@
      {
       "num": "33",
       "nome": "TELMO SOUSA",
-      "e": "S",
+      "e": "P",
       "min": "40",
       "cart": "",
       "ass": "",
@@ -1270,7 +1264,7 @@
      {
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1289,7 +1283,7 @@
       "num": "10",
       "nome": "THALES ALVES",
       "e": "S",
-      "min": "20",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
@@ -1333,7 +1327,7 @@
      {
       "num": "14",
       "nome": "ARTHUR SARAIVA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1378,12 +1372,6 @@
      "m": 1,
      "lado": "",
      "txt": "Arranca a partida no Pavilhão João Rocha, com o Sporting a estrear-se na Liga Placard depois de ter conquistado a Supertaça"
-    },
-    {
-     "id": "e1",
-     "m": 1,
-     "lado": "",
-     "txt": "O zerozero não divulgou os quintetos iniciais deste jogo; ficam assinalados todos os convocados"
     },
     {
      "id": "e2",
@@ -1758,7 +1746,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1794,7 +1782,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1812,7 +1800,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1866,7 +1854,7 @@
      {
       "num": "29",
       "nome": "ALEX MERLIM",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1893,14 +1881,14 @@
      {
       "num": "70",
       "nome": "ROCHA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      },
      {
-      "num": "",
+      "num": "2",
       "nome": "RAFAEL RUELA",
       "e": "S",
       "min": "",
@@ -1921,7 +1909,7 @@
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1957,7 +1945,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1984,7 +1972,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1993,7 +1981,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2029,7 +2017,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "26",
       "ass": "",
@@ -2054,7 +2042,7 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/34/97/16663497_andriy_dzyalo_20260714123728.png"
      },
      {
-      "num": "29",
+      "num": "28",
       "nome": "LUIGGI BAPTISTA",
       "e": "S",
       "min": "",
@@ -2063,7 +2051,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
      },
      {
-      "num": "",
+      "num": "6",
       "nome": "SANTI",
       "e": "S",
       "min": "",
@@ -3231,6 +3219,6 @@
    }
   }
  ],
- "ts": 1789177637230,
+ "ts": 1789181104191,
  "build": "20260911170827"
 }

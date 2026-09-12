@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -2801,6 +2801,24 @@
      "m": 12,
      "lado": "casa",
      "txt": "Diogo Almeida tira o adversário da frente com um grande trabalho, mas o remate rasteiro morre nas mãos do guardião visitante"
+    },
+    {
+     "id": "v18",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Rúben Góis solta um grande disparo e Jackson Ryan aparece outra vez a negar o golo"
+    },
+    {
+     "id": "v19",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Léo Gugiel arrisca de novo à distância, mas a bola vai à figura do guarda-redes"
+    },
+    {
+     "id": "v20",
+     "m": 14,
+     "lado": "casa",
+     "txt": "André Coelho tenta por duas vezes seguidas e a defensiva do UPVN trava as duas"
     }
    ],
    "faltas": [
@@ -2809,6 +2827,27 @@
      "lado": "casa",
      "parte": 1,
      "m": 10,
+     "n": 1
+    },
+    {
+     "id": "sf2",
+     "lado": "casa",
+     "parte": 1,
+     "m": 13,
+     "n": 2
+    },
+    {
+     "id": "sf3",
+     "lado": "casa",
+     "parte": 1,
+     "m": 15,
+     "n": 3
+    },
+    {
+     "id": "uf1",
+     "lado": "fora",
+     "parte": 1,
+     "m": 15,
      "n": 1
     }
    ],
@@ -3591,6 +3630,6 @@
    }
   }
  ],
- "ts": 1789237448367,
+ "ts": 1789237749733,
  "build": "20260912182155"
 }

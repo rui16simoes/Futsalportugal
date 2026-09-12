@@ -2680,7 +2680,7 @@
    "data": "12 de Setembro de 2026",
    "hora": "19h00",
    "local": "Pavilhão Fidelidade, Lisboa",
-   "arb1": "",
+   "arb1": "RENATO PEREIRA",
    "arb2": "",
    "arb3": "",
    "cron": "",
@@ -2693,7 +2693,14 @@
     "acc": 0,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "w0",
+     "m": 0,
+     "lado": "",
+     "txt": "Convocados definidos. O Benfica recebe o recém-promovido UPVN no Pavilhão Fidelidade, à procura da primeira vitória na Liga Placard depois de ter perdido a Supertaça"
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2744,14 +2751,14 @@
    "casa": {
     "eq": "benfica",
     "golos": "",
-    "capitao": "",
+    "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "ANDRÉ CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2760,7 +2767,7 @@
      {
       "num": "16",
       "nome": "VASCO PINTO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2769,7 +2776,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2778,7 +2785,7 @@
      {
       "num": "4",
       "nome": "AFONSO JESUS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2787,7 +2794,7 @@
      {
       "num": "6",
       "nome": "RAÚL MOREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2796,7 +2803,7 @@
      {
       "num": "8",
       "nome": "ANDRÉ COELHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2805,7 +2812,7 @@
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2814,7 +2821,7 @@
      {
       "num": "5",
       "nome": "DIOGO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2823,7 +2830,7 @@
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2832,7 +2839,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2841,7 +2848,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2850,7 +2857,7 @@
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2859,7 +2866,7 @@
      {
       "num": "18",
       "nome": "PANY VARELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2868,7 +2875,7 @@
      {
       "num": "20",
       "nome": "ANDERSON FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2877,7 +2884,7 @@
      {
       "num": "77",
       "nome": "CLÉBER SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2886,7 +2893,7 @@
      {
       "num": "11",
       "nome": "EDUARDO TCHUDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2895,11 +2902,21 @@
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/11/16635711_ruben_gois_20260716140659.png"
+     },
+     {
+      "num": "",
+      "nome": "DIEGO FERREIRA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
@@ -2913,7 +2930,7 @@
      {
       "num": "16",
       "nome": "LUÍS CORREIA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2922,7 +2939,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2931,7 +2948,7 @@
      {
       "num": "99",
       "nome": "RODRIGO COSTA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2940,7 +2957,7 @@
      {
       "num": "2",
       "nome": "ABEL VAZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2949,7 +2966,7 @@
      {
       "num": "21",
       "nome": "TOMÁS SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2958,7 +2975,7 @@
      {
       "num": "6",
       "nome": "VICENTE MOURATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2967,7 +2984,7 @@
      {
       "num": "18",
       "nome": "RAFAEL FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2976,7 +2993,7 @@
      {
       "num": "7",
       "nome": "LUCAS SANTOS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2985,7 +3002,7 @@
      {
       "num": "8",
       "nome": "SISSI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2994,7 +3011,7 @@
      {
       "num": "10",
       "nome": "LUÍS NUNES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3003,7 +3020,7 @@
      {
       "num": "11",
       "nome": "DURA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3012,7 +3029,7 @@
      {
       "num": "17",
       "nome": "DIOGO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3021,7 +3038,7 @@
      {
       "num": "20",
       "nome": "LUCAS VERAS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3030,7 +3047,7 @@
      {
       "num": "80",
       "nome": "LUÍS MONTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3039,7 +3056,7 @@
      {
       "num": "3",
       "nome": "RODRIGO LEMOS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3048,7 +3065,7 @@
      {
       "num": "27",
       "nome": "GERSON SANCHES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3057,7 +3074,7 @@
      {
       "num": "26",
       "nome": "VANILSON NAZARÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3066,11 +3083,21 @@
      {
       "num": "28",
       "nome": "ANDRÉ GALVÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
+     },
+     {
+      "num": "",
+      "nome": "AFONSO SILVA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -3452,6 +3479,6 @@
    }
   }
  ],
- "ts": 1789235010727,
+ "ts": 1789235238615,
  "build": "20260912100521"
 }

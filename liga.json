@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -2825,6 +2825,30 @@
      "m": 16,
      "lado": "casa",
      "txt": "Cléber Souza ganha espaço na ala esquerda, mas o remate sai ao lado"
+    },
+    {
+     "id": "v22",
+     "m": 17,
+     "lado": "",
+     "txt": "O Benfica continua com muita dificuldade em criar lances de perigo: o UPVN está muito bem organizado atrás"
+    },
+    {
+     "id": "v23",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Sissi fica em cuidados médicos junto ao banco do UPVN"
+    },
+    {
+     "id": "v24",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Léo Gugiel volta a ameaçar e Jackson Ryan responde com outra grande defesa"
+    },
+    {
+     "id": "v25",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Nova tentativa de Léo Gugiel, desta vez à figura do guardião"
     }
    ],
    "faltas": [
@@ -3059,7 +3083,7 @@
       "nome": "RÚBEN GÓIS",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "17",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/11/16635711_ruben_gois_20260716140659.png"
      },
@@ -3616,6 +3640,6 @@
    }
   }
  ],
- "ts": 1789237961348,
+ "ts": 1789238122413,
  "build": "20260912182155"
 }

@@ -441,7 +441,7 @@
     "golos": "",
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
     "jogadores": [
      {
       "num": "14",
@@ -585,7 +585,7 @@
     "golos": "",
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
     "jogadores": [
      {
       "num": "1",
@@ -1043,7 +1043,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "NANÁ",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
     "jogadores": [
      {
       "num": "1",
@@ -1214,7 +1214,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "JORGE MONTEIRO",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
     "jogadores": [
      {
       "num": "16",
@@ -1732,7 +1732,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "NUNO DIAS",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -1904,7 +1904,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "JOSÉ SANTOS",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
     "jogadores": [
      {
       "num": "2",
@@ -2137,7 +2137,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "MIGUEL VELEZ",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -2308,7 +2308,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "CRISTIANO COELHO",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
     "jogadores": [
      {
       "num": "1",
@@ -2513,7 +2513,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "CASSIANO KLEIN",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
     "jogadores": [
      {
       "num": "1",
@@ -2675,7 +2675,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "ALCIDES LOPES",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
     "jogadores": [
      {
       "num": "16",
@@ -2916,7 +2916,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "BRUNO GUIMARÃES",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
      {
       "num": "1",
@@ -3060,7 +3060,7 @@
     "golos": "",
     "capitao": "",
     "treinador": "CLÁUDIO MARTINS",
-    "trFoto": "",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
     "jogadores": [
      {
       "num": "1",
@@ -3219,6 +3219,6 @@
    }
   }
  ],
- "ts": 1789204310562,
- "build": "20260912024543"
+ "ts": 1789207655582,
+ "build": "20260912100521"
 }

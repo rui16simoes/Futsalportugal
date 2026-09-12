@@ -2071,21 +2071,244 @@
    "data": "12 de Setembro de 2026",
    "hora": "17h00",
    "local": "Pavilhão dos Leões de Porto Salvo",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "NUNO MATIAS",
+   "arb2": "ANDRÉ FRANCO",
+   "arb3": "FILIPE DUARTE",
+   "cron": "Cronometrista: Rita Ferraz",
    "obs": "",
    "tv": "Canal 11 Streaming",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "z0",
+     "m": 1,
+     "lado": "",
+     "txt": "Rola a bola no Pavilhão dos Leões de Porto Salvo para o Leões × Ferreira do Zêzere"
+    },
+    {
+     "id": "z1",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Entrada agressiva dos anfitriões, que somam três faltas logo nos primeiros três minutos"
+    },
+    {
+     "id": "z2",
+     "m": 4,
+     "lado": "fora",
+     "txt": "Afonso Mourinha tenta o desvio na cara do golo e Guilherme Cintra responde com uma grande mancha"
+    },
+    {
+     "id": "z3",
+     "m": 5,
+     "lado": "casa",
+     "txt": "Bonito desenho dos Leões entre os quatro jogadores de campo e Pedro Santos remata à entrada da área, por cima"
+    },
+    {
+     "id": "z4",
+     "m": 8,
+     "lado": "",
+     "txt": "Partida completamente aberta, com aproximações dos dois lados mas ainda sem perigo real"
+    },
+    {
+     "id": "z5",
+     "m": 8,
+     "lado": "casa",
+     "txt": "GOLO! Recuperação no meio-campo e transição rápida: Bruno Sá serve Pedro Marques, que tira Pedro Martinho do caminho com um toque subtil e finaliza de cabeça"
+    },
+    {
+     "id": "z6",
+     "m": 10,
+     "lado": "fora",
+     "txt": "GOLO! Resposta imediata dos visitantes: Djaelson recebe sem marcação e abre na direita para Rui Fortes, que à meia-volta atira um míssil para o teto da baliza"
+    },
+    {
+     "id": "z7",
+     "m": 13,
+     "lado": "",
+     "txt": "O jogo acalmou depois dos dois golos, com os Leões a serem quem mais procura desfazer a igualdade"
+    },
+    {
+     "id": "z8",
+     "m": 15,
+     "lado": "casa",
+     "txt": "Injai serve Bruno Sá na direita e o remate de pé esquerdo sai ligeiramente ao lado"
+    },
+    {
+     "id": "z9",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Pedro Santos aproveita uma desatenção e remata cruzado, mas Pedro Martinho defende com a ponta do pé"
+    },
+    {
+     "id": "z10",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Kaká experimenta pela esquerda, sem força para incomodar Guilherme Cintra"
+    },
+    {
+     "id": "z11",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Bruno Sá dispara do meio da quadra e a bola acaba bloqueada"
+    },
+    {
+     "id": "z12",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Oeiras: 1-1. Os Leões estiveram por cima, mas esbarraram na muralha defensiva do Ferreira do Zêzere"
+    },
+    {
+     "id": "z13",
+     "m": 21,
+     "lado": "",
+     "txt": "Recomeça a partida"
+    },
+    {
+     "id": "z14",
+     "m": 22,
+     "lado": "casa",
+     "txt": "Bruno Sá atira de primeira na sequência de uma reposição e manda completamente por cima"
+    },
+    {
+     "id": "z15",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Machado enche o pé depois de um canto e a bola sai muito alta"
+    },
+    {
+     "id": "z16",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Francisco Oliveira tenta de primeira noutro canto e também atira por cima"
+    },
+    {
+     "id": "z17",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Isaías Furtado, descaído para a esquerda, dispara forte de pé direito e a bola volta a sair ao lado"
+    },
+    {
+     "id": "z18",
+     "m": 28,
+     "lado": "casa",
+     "txt": "Belo trabalho individual de Leonildo Injai, mas faltou força ao remate"
+    },
+    {
+     "id": "z19",
+     "m": 29,
+     "lado": "casa",
+     "txt": "Bruno Sá trabalha bem na direita e coloca a bola ao segundo poste, onde não aparece ninguém"
+    },
+    {
+     "id": "z20",
+     "m": 30,
+     "lado": "",
+     "txt": "Mantém-se o guião: bloco baixo do Ferreira do Zêzere à espreita da transição, Leões a somar remates sem verdadeiro perigo"
+    },
+    {
+     "id": "z21",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Rúben Carrilho atira ao poste! Bola aérea para o capitão e o remate acerta em cheio no ferro"
+    },
+    {
+     "id": "z22",
+     "m": 33,
+     "lado": "casa",
+     "txt": "GOLO! Tanto bateram que furaram: canto batido por Injai e Pedro Santos, ao segundo poste e de primeira, fuzila para o 2-1"
+    },
+    {
+     "id": "z23",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Saída rápida pela direita e Injai esteve muito perto de fazer a emenda ao segundo poste"
+    },
+    {
+     "id": "z24",
+     "m": 35,
+     "lado": "fora",
+     "txt": "GOLO! Trabalho fantástico de Sandro Silva no corredor e, após uma primeira defesa de Guilherme Cintra, Octávio Alves aparece à entrada da área a atirar para o fundo das redes"
+    },
+    {
+     "id": "z25",
+     "m": 35,
+     "lado": "",
+     "txt": "Tal como na primeira parte, os Leões criam muito mas voltam a vacilar assim que chegam à frente do marcador"
+    },
+    {
+     "id": "z26",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Guilherme Cintra sobe à quadra e remata cruzado, obrigando Pedro Martinho a uma defesa incompleta"
+    },
+    {
+     "id": "z27",
+     "m": 37,
+     "lado": "casa",
+     "txt": "Francisco Oliveira tenta o desvio em cima da baliza, mas a bola chega sem força e o guardião encaixa"
+    },
+    {
+     "id": "z28",
+     "m": 40,
+     "lado": "fora",
+     "txt": "David Costa dispara com força ao primeiro poste e Guilherme Cintra fecha bem o ângulo"
+    },
+    {
+     "id": "z29",
+     "m": 40,
+     "lado": "casa",
+     "txt": "Os Leões pedem pausa técnica nos instantes finais"
+    },
+    {
+     "id": "z30",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: Leões de Porto Salvo e Ferreira do Zêzere empatam 2-2 e dividem os pontos na estreia da Liga Placard"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "p0",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "p1",
+     "lado": "casa",
+     "parte": 2,
+     "m": 29,
+     "n": 2
+    },
+    {
+     "id": "p2",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 3
+    },
+    {
+     "id": "q0",
+     "lado": "fora",
+     "parte": 2,
+     "m": 34,
+     "n": 1
+    },
+    {
+     "id": "q1",
+     "lado": "fora",
+     "parte": 2,
+     "m": 38,
+     "n": 2
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2142,7 +2365,7 @@
      {
       "num": "1",
       "nome": "GUILHERME CINTRA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2151,7 +2374,7 @@
      {
       "num": "16",
       "nome": "RODRIGO PRAZERES (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2160,7 +2383,7 @@
      {
       "num": "21",
       "nome": "DANIEL OSUJI (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2169,7 +2392,7 @@
      {
       "num": "6",
       "nome": "RÚBEN CARRILHO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2178,7 +2401,7 @@
      {
       "num": "29",
       "nome": "HENRIQUE RODRIGUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2187,7 +2410,7 @@
      {
       "num": "70",
       "nome": "MACHADO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2196,16 +2419,16 @@
      {
       "num": "4",
       "nome": "LEONILDO INJAI",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/86/16615086_leonildo_injai_20260908151929.jpg"
      },
      {
       "num": "53",
       "nome": "DIEGO GABRIEL",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2214,16 +2437,16 @@
      {
       "num": "7",
       "nome": "BRUNO SÁ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "8",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/93/16615093_bruno_sa_20260908152009.jpg"
      },
      {
       "num": "8",
       "nome": "BRUNO MARQUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2232,8 +2455,8 @@
      {
       "num": "10",
       "nome": "PEDRO MARQUES",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "8",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/07/68/16620768_pedro_marques_20260908151449.jpg"
@@ -2241,7 +2464,7 @@
      {
       "num": "11",
       "nome": "NATAN MINATTI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2250,7 +2473,7 @@
      {
       "num": "14",
       "nome": "RÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2259,7 +2482,7 @@
      {
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2268,7 +2491,7 @@
      {
       "num": "30",
       "nome": "RICARDINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2277,16 +2500,16 @@
      {
       "num": "9",
       "nome": "PEDRO SANTOS",
-      "e": "",
-      "min": "",
-      "cart": "",
+      "e": "P",
+      "min": "33",
+      "cart": "37",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
      },
      {
       "num": "25",
       "nome": "DAVY MENDES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2295,7 +2518,7 @@
      {
       "num": "99",
       "nome": "ISAÍAS FURTADO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2313,7 +2536,7 @@
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2322,7 +2545,7 @@
      {
       "num": "13",
       "nome": "NILTON (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2331,7 +2554,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2340,16 +2563,16 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "10",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/15/560615_djaelson_20250911080643.png"
      },
      {
       "num": "20",
       "nome": "DANIEL SODRÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2358,7 +2581,7 @@
      {
       "num": "36",
       "nome": "CHAPINHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2367,16 +2590,16 @@
      {
       "num": "2",
       "nome": "AFONSO MOURINHA",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "38",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/09/764909_afonso_mourinha_20250130150230.jpg"
      },
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2385,16 +2608,16 @@
      {
       "num": "10",
       "nome": "WENDELL",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "5",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/73/586973_wendell_20260625221235.png"
      },
      {
       "num": "19",
       "nome": "LEONARDO TRAVESSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2403,7 +2626,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2412,8 +2635,8 @@
      {
       "num": "31",
       "nome": "OCTÁVIO ALVES",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "35",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
@@ -2421,7 +2644,7 @@
      {
       "num": "88",
       "nome": "SANDRO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2430,11 +2653,21 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "",
-      "min": "",
+      "e": "P",
+      "min": "10",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
+     },
+     {
+      "num": "90",
+      "nome": "GUILHERME CANUTO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -3219,6 +3452,6 @@
    }
   }
  ],
- "ts": 1789207655582,
+ "ts": 1789234855813,
  "build": "20260912100521"
 }

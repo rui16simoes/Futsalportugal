@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020,
+    "acc": 1140,
     "desde": 0
    },
    "lances": [
@@ -2849,6 +2849,18 @@
      "m": 17,
      "lado": "casa",
      "txt": "Nova tentativa de Léo Gugiel, desta vez à figura do guardião"
+    },
+    {
+     "id": "v26",
+     "m": 18,
+     "lado": "casa",
+     "txt": "O Benfica pede desconto de tempo"
+    },
+    {
+     "id": "v27",
+     "m": 19,
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Lúcio Rocha desbloqueia finalmente o encontro e coloca as águias na frente"
     }
    ],
    "faltas": [
@@ -3010,7 +3022,7 @@
       "num": "7",
       "nome": "LÚCIO ROCHA",
       "e": "P",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/17/680717_lucio_rocha_20250919143057.jpg"
@@ -3640,6 +3652,6 @@
    }
   }
  ],
- "ts": 1789238122413,
+ "ts": 1789238283601,
  "build": "20260912182155"
 }

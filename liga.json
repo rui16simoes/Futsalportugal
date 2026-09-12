@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -2819,6 +2819,12 @@
      "m": 14,
      "lado": "casa",
      "txt": "André Coelho tenta por duas vezes seguidas e a defensiva do UPVN trava as duas"
+    },
+    {
+     "id": "v21",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Cléber Souza ganha espaço na ala esquerda, mas o remate sai ao lado"
     }
    ],
    "faltas": [
@@ -3221,26 +3227,6 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
      },
      {
-      "num": "3",
-      "nome": "RODRIGO LEMOS",
-      "e": "N",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/32/1305732_rodrigo_lemos_20250702153015.jpg",
-      "extra": 1
-     },
-     {
-      "num": "27",
-      "nome": "GERSON SANCHES",
-      "e": "N",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/86/16672086_gerson_sanches_20260716142635.png",
-      "extra": 1
-     },
-     {
       "num": "16",
       "nome": "AFONSO SILVA",
       "e": "S",
@@ -3630,6 +3616,6 @@
    }
   }
  ],
- "ts": 1789237923386,
+ "ts": 1789237961348,
  "build": "20260912182155"
 }

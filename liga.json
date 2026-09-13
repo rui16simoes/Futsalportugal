@@ -3755,7 +3755,7 @@
      "id": "r45",
      "m": 34,
      "lado": "casa",
-     "txt": "Tiago Sacramento fica com queixas numa mão e o Rio Ave é obrigado a lançar o terceiro guarda-redes"
+     "txt": "Tiago Sacramento fica com queixas numa mão e o Rio Ave é obrigado a lançar o terceiro guarda-redes, Tomás Ramos"
     },
     {
      "id": "r46",
@@ -4068,7 +4068,7 @@
      },
      {
       "num": "20",
-      "nome": "GONÇALO",
+      "nome": "GONÇALO SOUTO",
       "e": "S",
       "min": "",
       "cart": "",
@@ -4252,6 +4252,6 @@
    }
   }
  ],
- "ts": 1789313525302,
+ "ts": 1789313612566,
  "build": "20260912182155"
 }

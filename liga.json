@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -3503,7 +3503,7 @@
      "id": "r3",
      "m": 1,
      "lado": "casa",
-     "txt": "Primeira ameaça do Rio Ave: Gustavo Rodrigues remata de frente e Xot desvia para fora"
+     "txt": "Primeira ameaça do Rio Ave: Gustavo Rodrigues remata de frente e o guarda-redes do Famalicão desvia para fora"
     },
     {
      "id": "r4",
@@ -3522,9 +3522,30 @@
      "m": 3,
      "lado": "fora",
      "txt": "Rúben Santos vê o remate bloqueado à entrada da área e Buzuzu, na recarga, atira por cima"
+    },
+    {
+     "id": "r7",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Francisco Silva fica na cara do golo, mas desequilibra-se e perde o timing do remate"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ff1",
+     "lado": "fora",
+     "parte": 1,
+     "m": 4,
+     "n": 1
+    },
+    {
+     "id": "ff2",
+     "lado": "fora",
+     "parte": 1,
+     "m": 7,
+     "n": 2
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3590,7 +3611,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3617,7 +3638,7 @@
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3644,7 +3665,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3671,7 +3692,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3707,7 +3728,7 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3762,7 +3783,7 @@
      {
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3771,7 +3792,7 @@
      {
       "num": "5",
       "nome": "FILIPE COSTA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3780,7 +3801,7 @@
      {
       "num": "22",
       "nome": "BUZUZU",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3798,7 +3819,7 @@
      {
       "num": "7",
       "nome": "DANIEL SILVA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3809,7 +3830,7 @@
       "nome": "SIMÃO CORDEIRO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "7",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/30/768930_simao_cordeiro_20251009112745.png"
      },
@@ -3879,7 +3900,7 @@
      {
       "num": "97",
       "nome": "LEANDRO RIBEIRO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3899,6 +3920,6 @@
    }
   }
  ],
- "ts": 1789308436978,
+ "ts": 1789308882438,
  "build": "20260912182155"
 }

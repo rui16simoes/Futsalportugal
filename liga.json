@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -3528,6 +3528,18 @@
      "m": 6,
      "lado": "casa",
      "txt": "Francisco Silva fica na cara do golo, mas desequilibra-se e perde o timing do remate"
+    },
+    {
+     "id": "r8",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Moreira sobe à quadra e remata por duas vezes: a primeira contra um adversário, a segunda, na recarga, por cima"
+    },
+    {
+     "id": "r9",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Dinis Ramos atira ao poste! Bola trabalhada no corredor esquerdo e o fixo aparece ao lado contrário, mas o desvio acerta no ferro"
     }
    ],
    "faltas": [
@@ -3544,6 +3556,13 @@
      "parte": 1,
      "m": 7,
      "n": 2
+    },
+    {
+     "id": "ff3",
+     "lado": "fora",
+     "parte": 1,
+     "m": 8,
+     "n": 3
     }
    ],
    "gp": {
@@ -3920,6 +3939,6 @@
    }
   }
  ],
- "ts": 1789308882438,
+ "ts": 1789309118238,
  "build": "20260912182155"
 }

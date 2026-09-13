@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -3492,6 +3492,12 @@
      "m": 0,
      "lado": "fora",
      "txt": "João Miguel fica de fora da ficha de jogo do Famalicão"
+    },
+    {
+     "id": "r2",
+     "m": 1,
+     "lado": "",
+     "txt": "Rola a bola no Pavilhão de Desportos de Vila do Conde para o último jogo da 1.ª jornada"
     }
    ],
    "faltas": [],
@@ -3862,13 +3868,13 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "mesquita.png",
       "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1789307882321,
+ "ts": 1789308126174,
  "build": "20260912182155"
 }

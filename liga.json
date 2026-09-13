@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -3678,6 +3678,18 @@
      "m": 25,
      "lado": "casa",
      "txt": "Miguel Ângelo atira ao poste! Remate cruzado pela direita e a bola volta a beijar o ferro"
+    },
+    {
+     "id": "r33",
+     "m": 26,
+     "lado": "",
+     "txt": "Voltam a exaltar-se os ânimos na área do Famalicão"
+    },
+    {
+     "id": "r34",
+     "m": 26,
+     "lado": "fora",
+     "txt": "VERMELHO DIRETO para Gui Torres, por conduta violenta sobre Miguel Ângelo. O Famalicão fica reduzido a quatro"
     }
    ],
    "faltas": [
@@ -4077,7 +4089,7 @@
       "nome": "GUI TORRES",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "26v",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/74/88/16707488_gui_torres_20260728000201.png"
      },
@@ -4140,6 +4152,6 @@
    }
   }
  ],
- "ts": 1789312274877,
+ "ts": 1789312403228,
  "build": "20260912182155"
 }

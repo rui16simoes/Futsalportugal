@@ -2690,7 +2690,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -2993,6 +2993,30 @@
      "m": 35,
      "lado": "casa",
      "txt": "André Coelho remata com muito perigo junto ao poste"
+    },
+    {
+     "id": "v50",
+     "m": 37,
+     "lado": "",
+     "txt": "O Benfica controla o jogo a seu belo prazer, à espera do apito final"
+    },
+    {
+     "id": "v51",
+     "m": 38,
+     "lado": "casa",
+     "txt": "Eduardo Tchuda atira ao poste!"
+    },
+    {
+     "id": "v52",
+     "m": 39,
+     "lado": "casa",
+     "txt": "As águias ainda carregam nos minutos finais à procura do quinto"
+    },
+    {
+     "id": "v53",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: o Benfica vence o UPVN por 4-1 e estreia-se a ganhar na Liga Placard 2026/27"
     }
    ],
    "faltas": [
@@ -3812,6 +3836,6 @@
    }
   }
  ],
- "ts": 1789240919227,
+ "ts": 1789305608492,
  "build": "20260912182155"
 }

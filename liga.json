@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -3672,6 +3672,12 @@
      "m": 23,
      "lado": "casa",
      "txt": "GOLO DO RIO AVE! Resposta relâmpago: saída em velocidade de Rúben Freire pela direita e Serginho aparece de rompante no corredor central a desviar para o fundo das redes"
+    },
+    {
+     "id": "r32",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Miguel Ângelo atira ao poste! Remate cruzado pela direita e a bola volta a beijar o ferro"
     }
    ],
    "faltas": [
@@ -3750,6 +3756,13 @@
      "lado": "fora",
      "parte": 2,
      "m": 23,
+     "n": 2
+    },
+    {
+     "id": "rf22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 25,
      "n": 2
     }
    ],
@@ -3928,7 +3941,7 @@
       "nome": "FRANCISCO SILVA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/92/695492_francisco_silva_20250924101415.jpg"
      },
@@ -4127,6 +4140,6 @@
    }
   }
  ],
- "ts": 1789312147227,
+ "ts": 1789312274877,
  "build": "20260912182155"
 }

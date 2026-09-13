@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -3498,6 +3498,30 @@
      "m": 1,
      "lado": "",
      "txt": "Rola a bola no Pavilhão de Desportos de Vila do Conde para o último jogo da 1.ª jornada"
+    },
+    {
+     "id": "r3",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Primeira ameaça do Rio Ave: Gustavo Rodrigues remata de frente e Xot desvia para fora"
+    },
+    {
+     "id": "r4",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Gustavo Rodrigues tenta uma espécie de chapéu, mas a bola sai sem força"
+    },
+    {
+     "id": "r5",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Miguel Ângelo cruza para Dorda e o esférico acaba nas mãos do guarda-redes"
+    },
+    {
+     "id": "r6",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Rúben Santos vê o remate bloqueado à entrada da área e Buzuzu, na recarga, atira por cima"
     }
    ],
    "faltas": [],
@@ -3875,6 +3899,6 @@
    }
   }
  ],
- "ts": 1789308126174,
+ "ts": 1789308436978,
  "build": "20260912182155"
 }

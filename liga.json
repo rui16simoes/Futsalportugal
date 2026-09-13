@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -3761,7 +3761,61 @@
      "id": "r46",
      "m": 34,
      "lado": "fora",
-     "txt": "GOLO DO FAMALICÃO! Rúben Santos volta a colocar os visitantes na frente — 3-4 e é já o jogo com mais golos da jornada"
+     "txt": "GOLO DO FAMALICÃO! Na sequência de um canto e após um primeiro disparo de Ruizinho, a bola sobra a Rúben Santos, que aproveita a defesa incompleta de Tiago Sacramento e encosta para o fundo da baliza"
+    },
+    {
+     "id": "r47",
+     "m": 34,
+     "lado": "casa",
+     "txt": "O Rio Ave pede desconto de tempo"
+    },
+    {
+     "id": "r48",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Buzuzu fica deitado na quadra com queixas físicas e recebe assistência médica"
+    },
+    {
+     "id": "r49",
+     "m": 37,
+     "lado": "casa",
+     "txt": "O Rio Ave arrisca o 5x4, com Serginho a fazer de guarda-redes avançado"
+    },
+    {
+     "id": "r50",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Leandro Ribeiro atira ao poste! Lance caricato na área do Rio Ave: Serginho defende e o Famalicão desperdiça duas vezes de forma clamorosa"
+    },
+    {
+     "id": "r51",
+     "m": 39,
+     "lado": "casa",
+     "txt": "Pedro Rodrigues remata com muita força e Guilherme Rego defende para fora"
+    },
+    {
+     "id": "r52",
+     "m": 39,
+     "lado": "casa",
+     "txt": "GOLO DO RIO AVE! Pedro Rodrigues abre o jogo no corredor direito e Francisco Silva, num excelente trabalho individual, tira o adversário da frente e fuzila as redes do Famalicão. Está tudo empatado outra vez"
+    },
+    {
+     "id": "r53",
+     "m": 39,
+     "lado": "fora",
+     "txt": "O Famalicão pede desconto de tempo"
+    },
+    {
+     "id": "r54",
+     "m": 39,
+     "lado": "casa",
+     "txt": "Francisco Silva não consegue desviar um cruzamento de Miguel Ângelo e escapa-se uma boa jogada do camisola 14"
+    },
+    {
+     "id": "r55",
+     "m": 40,
+     "lado": "",
+     "txt": "APITO FINAL: Rio Ave e Famalicão empatam 4-4 no jogo com mais golos da jornada e fecham assim a 1.ª jornada da Liga Placard"
     }
    ],
    "faltas": [
@@ -3876,6 +3930,13 @@
      "parte": 2,
      "m": 31,
      "n": 3
+    },
+    {
+     "id": "ff24",
+     "lado": "fora",
+     "parte": 2,
+     "m": 39,
+     "n": 4
     }
    ],
    "gp": {
@@ -3982,7 +4043,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "39",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/98/18/519818_pedro_rodrigues_20250924101253.jpg"
      },
      {
@@ -4052,7 +4113,7 @@
       "num": "4",
       "nome": "FRANCISCO SILVA",
       "e": "S",
-      "min": "",
+      "min": "39",
       "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/92/695492_francisco_silva_20250924101415.jpg"
@@ -4252,6 +4313,6 @@
    }
   }
  ],
- "ts": 1789313612566,
+ "ts": 1789314398722,
  "build": "20260912182155"
 }

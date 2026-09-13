@@ -3476,8 +3476,8 @@
    "tvUrl": "https://www.canal11.pt/events/6aa4136286326202d0f236a7/",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
+    "parte": 2,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -3636,6 +3636,42 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo em Vila do Conde: Rio Ave 0, Famalicão 1. Eficácia máxima dos visitantes, que capitalizaram uma reposição lateral. De resto mandou o Rio Ave, travado pela solidez defensiva do Famalicão e por uma grande exibição de Guilherme Rego"
+    },
+    {
+     "id": "r26",
+     "m": 21,
+     "lado": "",
+     "txt": "Recomeça a partida em Vila do Conde"
+    },
+    {
+     "id": "r27",
+     "m": 21,
+     "lado": "casa",
+     "txt": "Serginho dispara forte de pé esquerdo e Guilherme Rego volta a defender"
+    },
+    {
+     "id": "r28",
+     "m": 21,
+     "lado": "casa",
+     "txt": "AUTOGOLO E EMPATE! Rúben Freire combina com Martín Dorda e, na tentativa de cruzar para o segundo poste, vê o passe ser desviado por Guilherme Rego para a própria baliza"
+    },
+    {
+     "id": "r29",
+     "m": 22,
+     "lado": "",
+     "txt": "Alguns desentendimentos na área do Famalicão e o jogo fica momentaneamente interrompido"
+    },
+    {
+     "id": "r30",
+     "m": 23,
+     "lado": "fora",
+     "txt": "GOLO DO FAMALICÃO! Filipe Costa recoloca os visitantes na frente, servido por Guilherme Rego"
+    },
+    {
+     "id": "r31",
+     "m": 23,
+     "lado": "casa",
+     "txt": "GOLO DO RIO AVE! Resposta imediata de Serginho e está tudo outra vez empatado"
     }
    ],
    "faltas": [
@@ -3694,6 +3730,13 @@
      "parte": 1,
      "m": 20,
      "n": 4
+    },
+    {
+     "id": "ff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 22,
+     "n": 1
     }
    ],
    "gp": {
@@ -3861,7 +3904,7 @@
       "num": "18",
       "nome": "SERGINHO",
       "e": "S",
-      "min": "",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
@@ -3934,16 +3977,16 @@
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
       "e": "P",
-      "min": "",
+      "min": "21a",
       "cart": "",
-      "ass": "",
+      "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/90/51/959051_guilherme_oliveira_20251107083142.png"
      },
      {
       "num": "5",
       "nome": "FILIPE COSTA",
       "e": "P",
-      "min": "",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/67/1334767_filipe_costa_20250905141827.png"
@@ -4070,6 +4113,6 @@
    }
   }
  ],
- "ts": 1789311135043,
+ "ts": 1789311910027,
  "build": "20260912182155"
 }

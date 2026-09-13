@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -3558,6 +3558,42 @@
      "m": 9,
      "lado": "fora",
      "txt": "Filipe Costa recebe no corredor esquerdo e fica na cara de Moreira, mas o guardião da casa leva a melhor"
+    },
+    {
+     "id": "r13",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Ruizinho tenta o desvio de cabeça, mas Moreira está bem posicionado"
+    },
+    {
+     "id": "r14",
+     "m": 10,
+     "lado": "fora",
+     "txt": "Gui Torres esteve perto do primeiro numa transição rápida, mas Miguel Ângelo desce à quadra e corta de carrinho"
+    },
+    {
+     "id": "r15",
+     "m": 10,
+     "lado": "",
+     "txt": "Dez minutos e só dá Rio Ave: a equipa da casa carrega e produz muito, mas peca na definição e esbarra num inspirado Guilherme Rego. O Famalicão, mais contido, aposta nas transições"
+    },
+    {
+     "id": "r16",
+     "m": 11,
+     "lado": "fora",
+     "txt": "Simão Cordeiro remata rasteiro na sequência de um canto à direita e Moreira defende com o pé"
+    },
+    {
+     "id": "r17",
+     "m": 11,
+     "lado": "fora",
+     "txt": "AUTOGOLO. Numa reposição lateral, Buzuzu coloca a bola na área e Moreira acaba por introduzi-la na própria baliza. Está inaugurado o marcador em Vila do Conde"
+    },
+    {
+     "id": "r18",
+     "m": 11,
+     "lado": "casa",
+     "txt": "O Rio Ave pede desconto de tempo"
     }
    ],
    "faltas": [
@@ -3588,6 +3624,20 @@
      "parte": 1,
      "m": 9,
      "n": 1
+    },
+    {
+     "id": "rf2",
+     "lado": "casa",
+     "parte": 1,
+     "m": 10,
+     "n": 2
+    },
+    {
+     "id": "rf3",
+     "lado": "casa",
+     "parte": 1,
+     "m": 12,
+     "n": 3
     }
    ],
    "gp": {
@@ -3656,7 +3706,7 @@
       "num": "12",
       "nome": "MOREIRA (GR)",
       "e": "P",
-      "min": "",
+      "min": "11a",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
@@ -3964,6 +4014,6 @@
    }
   }
  ],
- "ts": 1789309228489,
+ "ts": 1789310063473,
  "build": "20260912182155"
 }

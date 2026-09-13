@@ -3759,7 +3759,7 @@
      {
       "num": "6",
       "nome": "AFONSO VIEIRA",
-      "e": "S",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3854,11 +3854,21 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/23/930923_leandro_ribeiro_20260122183348.png"
+     },
+     {
+      "num": "6",
+      "nome": "MESQUITA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1789307698375,
+ "ts": 1789307882321,
  "build": "20260912182155"
 }

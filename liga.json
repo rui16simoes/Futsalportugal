@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -3594,6 +3594,48 @@
      "m": 11,
      "lado": "casa",
      "txt": "O Rio Ave pede desconto de tempo"
+    },
+    {
+     "id": "r19",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Pedro Rodrigues arrisca na zona frontal e Guilherme Rego volta a ganhar o duelo"
+    },
+    {
+     "id": "r20",
+     "m": 15,
+     "lado": "casa",
+     "txt": "Martín Dorda aparece com grande perigo ao segundo poste, mas não consegue o desvio certo e a bola sai ao lado"
+    },
+    {
+     "id": "r21",
+     "m": 15,
+     "lado": "fora",
+     "txt": "O Famalicão pede desconto de tempo"
+    },
+    {
+     "id": "r22",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Martim Castela remata com força no corredor esquerdo e Guilherme Rego trava o primeiro remate e ainda a recarga"
+    },
+    {
+     "id": "r23",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Miguel Ângelo roda no corredor central e dispara de pé direito, para nova defesa de Guilherme Rego"
+    },
+    {
+     "id": "r24",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Miguel Ângelo volta a trabalhar pela esquerda, mas atira ao lado"
+    },
+    {
+     "id": "r25",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo em Vila do Conde: Rio Ave 0, Famalicão 1. Eficácia máxima dos visitantes, que capitalizaram uma reposição lateral. De resto mandou o Rio Ave, travado pela solidez defensiva do Famalicão e por uma grande exibição de Guilherme Rego"
     }
    ],
    "faltas": [
@@ -3638,6 +3680,20 @@
      "parte": 1,
      "m": 12,
      "n": 3
+    },
+    {
+     "id": "rf4",
+     "lado": "casa",
+     "parte": 1,
+     "m": 17,
+     "n": 4
+    },
+    {
+     "id": "ff4",
+     "lado": "fora",
+     "parte": 1,
+     "m": 20,
+     "n": 4
     }
    ],
    "gp": {
@@ -3933,7 +3989,7 @@
       "nome": "RÚBEN SANTOS",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "20",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/73/630073_ruben_santos_20250822201550.jpg"
      },
@@ -4014,6 +4070,6 @@
    }
   }
  ],
- "ts": 1789310063473,
+ "ts": 1789311135043,
  "build": "20260912182155"
 }

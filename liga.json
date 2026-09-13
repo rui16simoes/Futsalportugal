@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -3750,6 +3750,18 @@
      "m": 33,
      "lado": "fora",
      "txt": "Ruizinho tenta tirar Tiago Sacramento da frente, exagera e falha uma grande oportunidade para o 3-4"
+    },
+    {
+     "id": "r45",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Tiago Sacramento fica com queixas numa mão e o Rio Ave é obrigado a lançar o terceiro guarda-redes"
+    },
+    {
+     "id": "r46",
+     "m": 34,
+     "lado": "fora",
+     "txt": "GOLO DO FAMALICÃO! Rúben Santos volta a colocar os visitantes na frente — 3-4 e é já o jogo com mais golos da jornada"
     }
    ],
    "faltas": [
@@ -4158,7 +4170,7 @@
       "num": "19",
       "nome": "RÚBEN SANTOS",
       "e": "S",
-      "min": "",
+      "min": "34",
       "cart": "20",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/73/630073_ruben_santos_20250822201550.jpg"
@@ -4240,6 +4252,6 @@
    }
   }
  ],
- "ts": 1789313452132,
+ "ts": 1789313525302,
  "build": "20260912182155"
 }

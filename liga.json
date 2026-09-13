@@ -3477,7 +3477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -3690,6 +3690,66 @@
      "m": 26,
      "lado": "fora",
      "txt": "VERMELHO DIRETO para Gui Torres, por conduta violenta sobre Miguel Ângelo. O Famalicão fica reduzido a quatro"
+    },
+    {
+     "id": "r35",
+     "m": 26,
+     "lado": "casa",
+     "txt": "GOLO DO RIO AVE E REVIRAVOLTA! A tirar partido da superioridade numérica, Serginho serve Miguel Ângelo que, de pé esquerdo, dispara um autêntico míssil sem hipóteses para o guarda-redes"
+    },
+    {
+     "id": "r36",
+     "m": 27,
+     "lado": "",
+     "txt": "Primeira vez que o Famalicão está em desvantagem na partida"
+    },
+    {
+     "id": "r37",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Buzuzu remata na passada, mas a bola sai ao lado"
+    },
+    {
+     "id": "r38",
+     "m": 31,
+     "lado": "casa",
+     "txt": "VERMELHO DIRETO para Moreira, por defender com as mãos fora da área. Tarde para esquecer do guardião: autogolo e agora expulsão"
+    },
+    {
+     "id": "r39",
+     "m": 31,
+     "lado": "casa",
+     "txt": "Com essa infração o Rio Ave chega às cinco faltas: a próxima dá livre direto ao Famalicão"
+    },
+    {
+     "id": "r40",
+     "m": 31,
+     "lado": "fora",
+     "txt": "Rúben Santos enche o pé, mas atira por cima"
+    },
+    {
+     "id": "r41",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Leandro Ribeiro esteve muito perto do empate ao segundo poste, mas falha o desvio"
+    },
+    {
+     "id": "r42",
+     "m": 33,
+     "lado": "fora",
+     "txt": "GOLO DO FAMALICÃO! Aproveitando a superioridade numérica, os visitantes desenham uma jogada rápida ao primeiro toque e Buzuzu, à entrada da área, atira colocado, sem hipóteses para o recém-entrado Tiago Sacramento. Assistência de Simão Cordeiro"
+    },
+    {
+     "id": "r43",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Guilherme Rego fica deitado na quadra com queixas e recebe assistência médica"
+    },
+    {
+     "id": "r44",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Ruizinho tenta tirar Tiago Sacramento da frente, exagera e falha uma grande oportunidade para o 3-4"
     }
    ],
    "faltas": [
@@ -3776,6 +3836,34 @@
      "parte": 2,
      "m": 25,
      "n": 2
+    },
+    {
+     "id": "rf23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 30,
+     "n": 3
+    },
+    {
+     "id": "rf24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 4
+    },
+    {
+     "id": "rf25",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 5
+    },
+    {
+     "id": "ff23",
+     "lado": "fora",
+     "parte": 2,
+     "m": 31,
+     "n": 3
     }
    ],
    "gp": {
@@ -3845,7 +3933,7 @@
       "nome": "MOREIRA (GR)",
       "e": "P",
       "min": "11a",
-      "cart": "",
+      "cart": "31v",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
      },
@@ -3890,7 +3978,7 @@
       "nome": "RÚBEN FREIRE",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "30",
       "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
      },
@@ -3925,7 +4013,7 @@
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
       "e": "P",
-      "min": "",
+      "min": "26",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
@@ -3945,7 +4033,7 @@
       "e": "S",
       "min": "23",
       "cart": "",
-      "ass": "",
+      "ass": "23 26",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
      },
      {
@@ -4034,7 +4122,7 @@
       "num": "22",
       "nome": "BUZUZU",
       "e": "P",
-      "min": "",
+      "min": "33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/38/421338_buzuzu_20251107083104.png"
@@ -4063,7 +4151,7 @@
       "e": "S",
       "min": "",
       "cart": "7",
-      "ass": "",
+      "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/30/768930_simao_cordeiro_20251009112745.png"
      },
      {
@@ -4152,6 +4240,6 @@
    }
   }
  ],
- "ts": 1789312403228,
+ "ts": 1789313452132,
  "build": "20260912182155"
 }

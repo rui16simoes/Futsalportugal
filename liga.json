@@ -3467,10 +3467,10 @@
    "data": "13 de Setembro de 2026",
    "hora": "15h00",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "CRISTIANO SANTOS",
+   "arb2": "FRANCISCO SIMÃO",
+   "arb3": "RÚBEN SANTOS",
+   "cron": "Dany Garcez",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -3480,7 +3480,20 @@
     "acc": 0,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "r0",
+     "m": 0,
+     "lado": "",
+     "txt": "Último jogo da 1.ª jornada. O Rio Ave, quinto classificado na época passada, recebe um Famalicão que garantiu a permanência na última jornada"
+    },
+    {
+     "id": "r1",
+     "m": 0,
+     "lado": "fora",
+     "txt": "João Miguel fica de fora da ficha de jogo do Famalicão"
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -3531,14 +3544,14 @@
    "casa": {
     "eq": "rioave",
     "golos": "",
-    "capitao": "",
+    "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "TOMÁS RAMOS (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3547,7 +3560,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3556,7 +3569,7 @@
      {
       "num": "33",
       "nome": "TIAGO SACRAMENTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3565,7 +3578,7 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3574,7 +3587,7 @@
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3583,7 +3596,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3592,7 +3605,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3601,7 +3614,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3610,7 +3623,7 @@
      {
       "num": "11",
       "nome": "ZÉZINHO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3619,7 +3632,7 @@
      {
       "num": "13",
       "nome": "BEBÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3628,7 +3641,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3637,7 +3650,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3646,7 +3659,7 @@
      {
       "num": "18",
       "nome": "SERGINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3655,7 +3668,7 @@
      {
       "num": "4",
       "nome": "FRANCISCO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3664,25 +3677,35 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
+     },
+     {
+      "num": "20",
+      "nome": "GONÇALO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
    "fora": {
     "eq": "famalicao",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUIZINHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO NUNES (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3691,7 +3714,7 @@
      {
       "num": "14",
       "nome": "CLÁUDIO CARVALHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3700,7 +3723,7 @@
      {
       "num": "16",
       "nome": "MIGUEL FERREIRA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3709,7 +3732,7 @@
      {
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3718,7 +3741,7 @@
      {
       "num": "5",
       "nome": "FILIPE COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3727,7 +3750,7 @@
      {
       "num": "22",
       "nome": "BUZUZU",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3736,7 +3759,7 @@
      {
       "num": "6",
       "nome": "AFONSO VIEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3745,7 +3768,7 @@
      {
       "num": "7",
       "nome": "DANIEL SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3754,7 +3777,7 @@
      {
       "num": "8",
       "nome": "SIMÃO CORDEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3763,7 +3786,7 @@
      {
       "num": "19",
       "nome": "RÚBEN SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3772,7 +3795,7 @@
      {
       "num": "21",
       "nome": "MATHIS PEREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3781,7 +3804,7 @@
      {
       "num": "28",
       "nome": "GUI TORRES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3790,7 +3813,7 @@
      {
       "num": "77",
       "nome": "JEFFERSON",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3799,7 +3822,7 @@
      {
       "num": "10",
       "nome": "RUIZINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3808,7 +3831,7 @@
      {
       "num": "11",
       "nome": "JOÃO MIGUEL",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3817,7 +3840,7 @@
      {
       "num": "39",
       "nome": "GUGA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3826,7 +3849,7 @@
      {
       "num": "97",
       "nome": "LEANDRO RIBEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3836,6 +3859,6 @@
    }
   }
  ],
- "ts": 1789305608492,
+ "ts": 1789307698375,
  "build": "20260912182155"
 }

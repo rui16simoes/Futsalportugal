@@ -1,0 +1,402 @@
+{
+ "atual": "j1",
+ "titulo": "LIGA PLACARD",
+ "numero": "J7",
+ "jornadas": [
+  {
+   "lab": "J1",
+   "url": "liga.html",
+   "on": false
+  },
+  {
+   "lab": "J2",
+   "url": "liga-j2.html",
+   "on": false
+  },
+  {
+   "lab": "J7",
+   "url": "liga-j7.html",
+   "on": true
+  }
+ ],
+ "jogos": [
+  {
+   "id": "j1",
+   "tipo": "Jornada 7",
+   "jornada": "Jornada 7 · Liga Placard 2026/27",
+   "fundo": "",
+   "data": "16 de setembro de 2026",
+   "hora": "20h30",
+   "local": "Pavilhão João Rocha, Lisboa",
+   "arb1": "",
+   "arb2": "",
+   "arb3": "",
+   "cron": "",
+   "obs": "",
+   "tv": "Canal 11",
+   "tvUrl": "",
+   "relogio": {
+    "estado": "parado",
+    "parte": 1,
+    "acc": 0,
+    "desde": 0
+   },
+   "lances": [],
+   "faltas": [],
+   "gp": {
+    "casa": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ],
+    "fora": [
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     },
+     {
+      "nome": "",
+      "ok": ""
+     }
+    ]
+   },
+   "casa": {
+    "eq": "sporting",
+    "golos": "",
+    "capitao": "",
+    "treinador": "NUNO DIAS",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
+    "jogadores": [
+     {
+      "num": "1",
+      "nome": "GONÇALO PORTUGAL (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/58/16619958_goncalo_portugal_20260830154514.jpg"
+     },
+     {
+      "num": "16",
+      "nome": "BERNARDO PAÇÓ (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/47/16484847_bernardo_paco_20260830154710.jpg"
+     },
+     {
+      "num": "77",
+      "nome": "OLEKSANDR SUKHOV (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/60/16619960_oleksandr_sukhov_20260830154538.jpg"
+     },
+     {
+      "num": "4",
+      "nome": "TOMÁS PAÇÓ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
+     },
+     {
+      "num": "44",
+      "nome": "BRUNO MAIOR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
+     },
+     {
+      "num": "8",
+      "nome": "WESLEY",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
+     },
+     {
+      "num": "17",
+      "nome": "ERICK MENDONÇA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/44/16618544_erick_mendonca_20260830154809.jpg"
+     },
+     {
+      "num": "7",
+      "nome": "DIOGO SANTOS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/46/16484846_diogo_santos_20260830154904.jpg"
+     },
+     {
+      "num": "10",
+      "nome": "RÚBEN TEIXEIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
+     },
+     {
+      "num": "11",
+      "nome": "IVAN CHISHKALA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/43/16484843_ivan_chishkala_20260830154959.jpg"
+     },
+     {
+      "num": "13",
+      "nome": "TIAGUINHO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/59/16619959_tiaguinho_20260830155021.jpg"
+     },
+     {
+      "num": "14",
+      "nome": "FELIPE VALÉRIO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
+     },
+     {
+      "num": "25",
+      "nome": "BRUNO PINTO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/52/16484852_bruno_pinto_20260830155108.jpg"
+     },
+     {
+      "num": "29",
+      "nome": "ALEX MERLIM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/09/52/16530952_alex_merlim_20260830155138.jpg"
+     },
+     {
+      "num": "6",
+      "nome": "ZICKY TÉ",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/41/16484841_zicky_te_20260830155218.jpg"
+     },
+     {
+      "num": "30",
+      "nome": "FELIPE RUFINO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/99/16662999_felipe_rufino_20260830155159.jpg"
+     },
+     {
+      "num": "70",
+      "nome": "ROCHA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
+     }
+    ]
+   },
+   "fora": {
+    "eq": "fundao",
+    "golos": "",
+    "capitao": "",
+    "treinador": "NUNO COUTO",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
+    "jogadores": [
+     {
+      "num": "14",
+      "nome": "GAZA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/75/16732875_gaza_20260807161739.png"
+     },
+     {
+      "num": "24",
+      "nome": "MARTIM BORREGO (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/29/1372429_martim_borrego_20251031115819.jpg"
+     },
+     {
+      "num": "30",
+      "nome": "JAIME ARTHUR (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/90/16686490_jaime_arthur_20260807163836.png"
+     },
+     {
+      "num": "6",
+      "nome": "UESLER",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/80/424580_uesler_20260720131537.png"
+     },
+     {
+      "num": "60",
+      "nome": "GUINA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/05/672805_guina_20250128165836.jpg"
+     },
+     {
+      "num": "12",
+      "nome": "PELÉH",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
+     },
+     {
+      "num": "20",
+      "nome": "ARTUR VICENTE",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/63/45/1146345_artur_vicente_20250219160012.jpg"
+     },
+     {
+      "num": "10",
+      "nome": "NUNO MIRANDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/60/46/16766046_nuno_miranda_20260814134818.png"
+     },
+     {
+      "num": "11",
+      "nome": "RENATO ALMEIDA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/80/16732880_renato_almeida_20260807160756.png"
+     },
+     {
+      "num": "13",
+      "nome": "LOURENÇO AGUIAR",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/79/16732879_lourenco_aguiar_20260807162426.png"
+     },
+     {
+      "num": "17",
+      "nome": "MÁRIO FREITAS",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/41/143941_mario_freitas_20241019155103.jpg"
+     },
+     {
+      "num": "27",
+      "nome": "NEM",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/43/16731643_nem_20260807163507.png"
+     },
+     {
+      "num": "9",
+      "nome": "EDUARDO JOB",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/86/16732886_eduardo_job_20260807162227.png"
+     },
+     {
+      "num": "47",
+      "nome": "LANDELINO NETO",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/82/16732882_landelino_neto_20260807164244.png"
+     },
+     {
+      "num": "77",
+      "nome": "TIAGO TAVARES",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/50/844850_tiago_tavares_20250129124552.png"
+     }
+    ]
+   }
+  }
+ ],
+ "build": "20260915130544",
+ "ts": 1789477545014
+}

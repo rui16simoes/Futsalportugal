@@ -4134,7 +4134,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/64/90/1426490_goncalo_souto_20260126082042.jpg",
       "extra": 1
      }
     ]
@@ -4313,6 +4313,6 @@
    }
   }
  ],
- "ts": 1789314398722,
+ "ts": 1789477210760,
  "build": "20260912182155"
 }

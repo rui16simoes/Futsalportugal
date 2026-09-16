@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -163,7 +163,7 @@
      "id": "s0",
      "m": 0,
      "lado": "",
-     "txt": "Convocados definidos. O Sporting, recebe o AD Fundão no Pavilhão João Rocha, em jogo antecipado da 7.ª jornada"
+     "txt": "O Sporting, líder à condição, recebe o AD Fundão no Pavilhão João Rocha, em jogo antecipado da 7.ª jornada da Liga Placard."
     },
     {
      "id": "s1",
@@ -326,6 +326,36 @@
      "m": 27,
      "lado": "casa",
      "txt": "Bruno Pinto voltou a aparecer no sítio certo, desta vez para rematar de primeira — mas a bola saiu ao lado do poste de Jaime Arthur. O Sporting continua a pedir o quarto."
+    },
+    {
+     "id": "d1",
+     "m": 31,
+     "lado": "casa",
+     "txt": "Amarelo para Nuno Dias. O treinador do Sporting reclamou uma decisão da equipa de arbitragem e foi advertido no banco."
+    },
+    {
+     "id": "d2",
+     "m": 33,
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Felipe Valério levantou a bola com classe e Tomás Paçó, ainda fora da área, desviou-a por cima do guarda-redes. Bis do jovem leonino. 4-0."
+    },
+    {
+     "id": "d3",
+     "m": 33,
+     "lado": "casa",
+     "txt": "E OUTRO, DE RAJADA! Segundos depois, Bruno Maior olhou para cima ainda no meio-campo do Sporting e picou a bola por cima de Jaime Arthur, que estava adiantado. Golo de cartão-postal para o 5-0."
+    },
+    {
+     "id": "d4",
+     "m": 34,
+     "lado": "fora",
+     "txt": "AUTOGOLO E MOMENTO INFELIZ PARA OS BEIRÕES. Renato Almeida atrasou para o seu guarda-redes e Jaime Arthur não conseguiu segurar a bola em cima da linha de golo. Entrou. 6-0."
+    },
+    {
+     "id": "d5",
+     "m": 34,
+     "lado": "",
+     "txt": "Nuno Couto pede nova pausa técnica para travar a sangria. Do lado do Sporting, Oleksandr Sukhov entrou para a sua estreia com a camisola leonina."
     }
    ],
    "faltas": [
@@ -413,7 +443,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": "3",
+    "golos": "6",
     "capitao": "Alex Merlim",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -449,7 +479,7 @@
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "P",
-      "min": "9",
+      "min": "9, 33",
       "cart": "",
       "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
@@ -458,7 +488,7 @@
       "num": "44",
       "nome": "BRUNO MAIOR",
       "e": "S",
-      "min": "",
+      "min": "33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
@@ -523,7 +553,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
      },
      {
@@ -612,7 +642,7 @@
       "num": "30",
       "nome": "JAIME ARTHUR (GR)",
       "e": "P",
-      "min": "",
+      "min": "34ag",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/90/16686490_jaime_arthur_20260807163836.png"
@@ -2654,6 +2684,6 @@
    }
   }
  ],
- "ts": 1789590642902,
+ "ts": 1789591578131,
  "build": "20260915132319"
 }

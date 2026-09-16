@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -302,6 +302,12 @@
      "m": 21,
      "lado": "",
      "txt": "RECOMEÇOU O JOGO. Segunda parte a rolar no João Rocha, com o Fundão obrigado a arriscar."
+    },
+    {
+     "id": "c1",
+     "m": 22,
+     "lado": "fora",
+     "txt": "O Fundão entrou para a segunda parte com a mesma ideia com que fechou a primeira: Landelino Neto foi logo à procura do golo, mas atirou para as mãos de Bernardo Paçó."
     }
    ],
    "faltas": [
@@ -2630,6 +2636,6 @@
    }
   }
  ],
- "ts": 1789590075217,
+ "ts": 1789590107692,
  "build": "20260915132319"
 }

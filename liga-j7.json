@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -176,6 +176,18 @@
      "m": 0,
      "lado": "",
      "txt": "ROLA A BOLA no Pavilhão João Rocha. Luís Loureiro dá ordem de partida ao Sporting x AD Fundão, antecipação da 7.ª jornada da Liga Placard."
+    },
+    {
+     "id": "a1",
+     "m": 1,
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Wesley inaugura o marcador logo no primeiro minuto, servido por Tomás Paçó. Os leões mal precisaram de entrar no jogo para ficarem à frente: 1-0."
+    },
+    {
+     "id": "a2",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Amarelo para Bruno Pinto, que cortou um contra-ataque do Fundão de forma irregular."
     }
    ],
    "faltas": [],
@@ -227,7 +239,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": "",
+    "golos": "1",
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -265,7 +277,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
      },
      {
@@ -281,7 +293,7 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "S",
-      "min": "",
+      "min": "1",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
@@ -345,7 +357,7 @@
       "nome": "BRUNO PINTO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "1",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/52/16484852_bruno_pinto_20260830155108.jpg"
      },
@@ -399,7 +411,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": "",
+    "golos": "0",
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -2468,6 +2480,6 @@
    }
   }
  ],
- "ts": 1789587315441,
+ "ts": 1789587352298,
  "build": "20260915132319"
 }

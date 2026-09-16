@@ -181,19 +181,19 @@
      "id": "a1",
      "m": 1,
      "lado": "casa",
-     "txt": "GOLO DO SPORTING! Remate de Tomás Paçó à entrada da área, Wesley apareceu a desviar à boca da baliza e o Pavilhão João Rocha festejou ao primeiro minuto. 1-0."
+     "txt": "GOLO DO SPORTING! Mal a bola rolou, Tomás Paçó fez chegar o remate à área e Wesley, atento ao ressalto, empurrou para o fundo das redes. 1-0 com apenas um minuto no relógio."
     },
     {
      "id": "a2",
      "m": 1,
      "lado": "casa",
-     "txt": "Amarelo para Bruno Pinto, que cortou um contra-ataque do Fundão de forma irregular."
+     "txt": "Primeiro amarelo da noite e é para Bruno Pinto: parou com falta uma transição rápida dos beirões."
     },
     {
      "id": "a3",
      "m": 2,
      "lado": "casa",
-     "txt": "Rocha cortou à força um contra-ataque do Fundão. O Sporting entrou muito intenso e não deixa os beirões sair a jogar."
+     "txt": "Rocha repetiu a dose pouco depois, também com falta a impedir que o Fundão saísse em velocidade. O Sporting entrou a morder alto e não deixa os visitantes respirar."
     }
    ],
    "faltas": [],
@@ -2486,6 +2486,6 @@
    }
   }
  ],
- "ts": 1789587524104,
+ "ts": 1789587727513,
  "build": "20260915132319"
 }

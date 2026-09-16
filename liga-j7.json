@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -230,6 +230,12 @@
      "m": 8,
      "lado": "fora",
      "txt": "Nuno Couto chama os seus para a pausa técnica. O Fundão precisa de reorganizar ideias: está a perder e ainda não conseguiu instalar-se no meio-campo do Sporting."
+    },
+    {
+     "id": "a9",
+     "m": 9,
+     "lado": "fora",
+     "txt": "A PRIMEIRA DO FUNDÃO! Tomás Paçó adormeceu na saída de bola, Landelino Neto aproveitou a oferta e carregou no gatilho — mas Bernardo Paçó apareceu com uma mão cheia de reflexos a segurar o 1-0. Grande defesa do guardião leonino."
     }
    ],
    "faltas": [],
@@ -2522,6 +2528,6 @@
    }
   }
  ],
- "ts": 1789588016104,
+ "ts": 1789588099738,
  "build": "20260915132319"
 }

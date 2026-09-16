@@ -154,8 +154,8 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 720,
+    "parte": 2,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -253,10 +253,94 @@
      "id": "b3",
      "m": 12,
      "lado": "casa",
-     "txt": "GOLO DO SPORTING! Rúben Teixeira saltou do banco e faz o terceiro. O Fundão está a levar uma lição de eficácia: três remates enquadrados, três golos. 3-0."
+     "txt": "GOLAÇO DE RÚBEN TEIXEIRA! Roubou a bola, arrancou em direção à baliza e, em vez do remate óbvio, levantou-a por cima do guarda-redes com a parte de fora do pé. Um pormenor de artista para o 3-0."
+    },
+    {
+     "id": "b5",
+     "m": 15,
+     "lado": "fora",
+     "txt": "O Fundão acordou e obrigou Bernardo Paçó a trabalhar: primeiro Nuno Miranda, de calcanhar, depois Nem, com um remate já dentro da área. O guarda-redes do Sporting respondeu às duas."
+    },
+    {
+     "id": "b6",
+     "m": 16,
+     "lado": "fora",
+     "txt": "Susto no João Rocha: Jaime Arthur saiu da baliza para cortar e levou Wesley à frente. O extremo leonino ficou em baixo e precisou de assistência médica fora das quatro linhas."
+    },
+    {
+     "id": "b7",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Peléh progrediu até à entrada da área e disparou. Bernardo Paçó voltou a segurar, já em cima do lance — antes disso, Bruno Maior tinha cortado um cruzamento perigoso mesmo à boca da baliza."
+    },
+    {
+     "id": "b8",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Renato Almeida tentou de longe, mas mandou em cima do guarda-redes. Nuno Dias, na linha lateral, não para de corrigir posições — não gosta do que vê nestes minutos."
+    },
+    {
+     "id": "b9",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Amarelo para Rocha, por não devolver a bola de imediato ao adversário e atrasar a reposição."
+    },
+    {
+     "id": "b10",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Tomás Paçó ainda atirou de muito longe, mas o remate foi direitinho às mãos de Jaime Arthur. O guardião do Fundão travou depois nova tentativa leonina já perto do intervalo."
+    },
+    {
+     "id": "b11",
+     "m": 20,
+     "lado": "",
+     "txt": "INTERVALO NO PAVILHÃO JOÃO ROCHA. Sporting 3-0 AD Fundão. Os leões resolveram em doze minutos de eficácia quase perfeita, mas os beirões fecharam a primeira parte a jogar melhor e a criar perigo a sério. Bernardo Paçó foi decisivo para o resultado não ser outro."
+    },
+    {
+     "id": "b12",
+     "m": 21,
+     "lado": "",
+     "txt": "RECOMEÇOU O JOGO. Segunda parte a rolar no João Rocha, com o Fundão obrigado a arriscar."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "fc1",
+     "lado": "casa",
+     "parte": 1,
+     "m": 14,
+     "n": 1
+    },
+    {
+     "id": "ff1",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 1
+    },
+    {
+     "id": "ff2",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 2
+    },
+    {
+     "id": "ff3",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 3
+    },
+    {
+     "id": "ff4",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 4
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -459,7 +543,7 @@
       "nome": "ROCHA",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "19",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      },
@@ -2546,6 +2630,6 @@
    }
   }
  ],
- "ts": 1789588332939,
+ "ts": 1789590075217,
  "build": "20260915132319"
 }

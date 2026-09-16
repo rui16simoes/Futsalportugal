@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -356,6 +356,12 @@
      "m": 34,
      "lado": "",
      "txt": "Nuno Couto pede nova pausa técnica para travar a sangria. Do lado do Sporting, Oleksandr Sukhov entrou para a sua estreia com a camisola leonina."
+    },
+    {
+     "id": "d6",
+     "m": 37,
+     "lado": "casa",
+     "txt": "O Sporting chegou à quinta falta acumulada da segunda parte — a partir daqui, qualquer infração dá livre direto ao Fundão. Nuno Dias chamou logo os seus para pausa técnica."
     }
    ],
    "faltas": [
@@ -393,6 +399,41 @@
      "parte": 1,
      "m": 14,
      "n": 4
+    },
+    {
+     "id": "fc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 1
+    },
+    {
+     "id": "fc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 2
+    },
+    {
+     "id": "fc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 3
+    },
+    {
+     "id": "fc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 4
+    },
+    {
+     "id": "fc25",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 5
     }
    ],
    "gp": {
@@ -2684,6 +2725,6 @@
    }
   }
  ],
- "ts": 1789591578131,
+ "ts": 1789591777734,
  "build": "20260915132319"
 }

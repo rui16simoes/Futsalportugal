@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -320,6 +320,12 @@
      "m": 26,
      "lado": "casa",
      "txt": "Quase o quarto: Bruno Pinto ainda conseguiu desviar dentro da área, mas Uesler atirou-se e cortou praticamente em cima da linha. O jogo está franco, com as duas equipas a disputar o domínio a sério."
+    },
+    {
+     "id": "c4",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Bruno Pinto voltou a aparecer no sítio certo, desta vez para rematar de primeira — mas a bola saiu ao lado do poste de Jaime Arthur. O Sporting continua a pedir o quarto."
     }
    ],
    "faltas": [
@@ -2648,6 +2654,6 @@
    }
   }
  ],
- "ts": 1789590551062,
+ "ts": 1789590642902,
  "build": "20260915132319"
 }

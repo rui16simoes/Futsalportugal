@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -200,6 +200,18 @@
      "m": 0,
      "lado": "",
      "txt": "CINCOS INICIAIS. Nuno Dias começa com Bernardo Paçó na baliza e Tomás Paçó, Bruno Pinto, Alex Merlim e Rocha à frente — Wesley e Rúben Teixeira ficam para o banco. Do lado de Nuno Couto entram de início Jaime Arthur, Peléh, Renato Almeida, Mário Freitas e Landelino Neto."
+    },
+    {
+     "id": "a4",
+     "m": 4,
+     "lado": "fora",
+     "txt": "Primeiros sinais de reação do Fundão, que já vai conseguindo ter bola e sair da sua área. O Sporting, esse, mantém a postura de sempre: pé no acelerador."
+    },
+    {
+     "id": "a5",
+     "m": 5,
+     "lado": "casa",
+     "txt": "Rocha protegeu a bola de costas, rodou sobre o marcador e atirou — mas em cima do guarda-redes, sem perigo. De resto, o jogo arrefeceu: os leões seguram a posse na própria metade e baixaram o ritmo."
     }
    ],
    "faltas": [],
@@ -2492,6 +2504,6 @@
    }
   }
  ],
- "ts": 1789587830508,
+ "ts": 1789587909940,
  "build": "20260915132319"
 }

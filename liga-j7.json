@@ -153,9 +153,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1020,
+    "acc": 1140,
     "desde": 0
    },
    "lances": [
@@ -362,6 +362,18 @@
      "m": 37,
      "lado": "casa",
      "txt": "O Sporting chegou à quinta falta acumulada da segunda parte — a partir daqui, qualquer infração dá livre direto ao Fundão. Nuno Dias chamou logo os seus para pausa técnica."
+    },
+    {
+     "id": "e1",
+     "m": 39,
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Bruno Maior cruzou para o segundo poste e Felipe Valério subiu para cabecear para o fundo das redes. Sétimo da noite, e desta vez com a cabeça. 7-0."
+    },
+    {
+     "id": "e2",
+     "m": 39,
+     "lado": "",
+     "txt": "FINAL NO PAVILHÃO JOÃO ROCHA: O SPORTING VENCE O AD FUNDÃO POR 7-0. Os leões resolveram cedo, aguentaram a melhor fase dos beirões antes do intervalo e depois desfizeram o jogo com uma rajada de quatro golos no último quarto de hora. Tomás Paçó bisou, Bernardo Paçó segurou o zero quando foi preciso e o Sporting soma a segunda vitória em dois jogos na Liga Placard."
     }
    ],
    "faltas": [
@@ -484,7 +496,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": "6",
+    "golos": "7",
     "capitao": "Alex Merlim",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -531,7 +543,7 @@
       "e": "S",
       "min": "33",
       "cart": "",
-      "ass": "",
+      "ass": "39",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
      },
      {
@@ -592,7 +604,7 @@
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "S",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
@@ -2725,6 +2737,6 @@
    }
   }
  ],
- "ts": 1789591777734,
+ "ts": 1789592031866,
  "build": "20260915132319"
 }

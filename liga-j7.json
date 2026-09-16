@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -248,6 +248,12 @@
      "m": 10,
      "lado": "fora",
      "txt": "Resposta imediata dos beirões: Renato Almeida fez um bom trabalho individual antes do remate, mas atirou ao lado da baliza de Bernardo Paçó."
+    },
+    {
+     "id": "b3",
+     "m": 12,
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Rúben Teixeira saltou do banco e faz o terceiro. O Fundão está a levar uma lição de eficácia: três remates enquadrados, três golos. 3-0."
     }
    ],
    "faltas": [],
@@ -299,7 +305,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": "2",
+    "golos": "3",
     "capitao": "Alex Merlim",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -380,7 +386,7 @@
       "num": "10",
       "nome": "RÚBEN TEIXEIRA",
       "e": "S",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
@@ -2540,6 +2546,6 @@
    }
   }
  ],
- "ts": 1789588185085,
+ "ts": 1789588332939,
  "build": "20260915132319"
 }

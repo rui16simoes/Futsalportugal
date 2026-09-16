@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -224,6 +224,12 @@
      "m": 7,
      "lado": "casa",
      "txt": "Alex Merlim armou o pé para o remate à entrada da área, sem conseguir dar-lhe veneno suficiente para incomodar a baliza do Fundão."
+    },
+    {
+     "id": "a8",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Nuno Couto chama os seus para a pausa técnica. O Fundão precisa de reorganizar ideias: está a perder e ainda não conseguiu instalar-se no meio-campo do Sporting."
     }
    ],
    "faltas": [],
@@ -2516,6 +2522,6 @@
    }
   }
  ],
- "ts": 1789587968063,
+ "ts": 1789588016104,
  "build": "20260915132319"
 }

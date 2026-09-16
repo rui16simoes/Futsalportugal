@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 600,
     "desde": 0
    },
    "lances": [
@@ -236,6 +236,18 @@
      "m": 9,
      "lado": "fora",
      "txt": "A PRIMEIRA DO FUNDÃO! Tomás Paçó adormeceu na saída de bola, Landelino Neto aproveitou a oferta e carregou no gatilho — mas Bernardo Paçó apareceu com uma mão cheia de reflexos a segurar o 1-0. Grande defesa do guardião leonino."
+    },
+    {
+     "id": "b1",
+     "m": 9,
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Merlim pegou no canto, cruzou a bola para trás e Tomás Paçó apareceu a rematar de primeira, com uma força que não deu hipótese nenhuma ao guarda-redes do Fundão. 2-0 e os leões a fugirem no marcador."
+    },
+    {
+     "id": "b2",
+     "m": 10,
+     "lado": "fora",
+     "txt": "Resposta imediata dos beirões: Renato Almeida fez um bom trabalho individual antes do remate, mas atirou ao lado da baliza de Bernardo Paçó."
     }
    ],
    "faltas": [],
@@ -287,7 +299,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": "1",
+    "golos": "2",
     "capitao": "Alex Merlim",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -323,7 +335,7 @@
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "P",
-      "min": "",
+      "min": "9",
       "cart": "",
       "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
@@ -415,7 +427,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "9",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/09/52/16530952_alex_merlim_20260830155138.jpg"
      },
      {
@@ -2528,6 +2540,6 @@
    }
   }
  ],
- "ts": 1789588099738,
+ "ts": 1789588185085,
  "build": "20260915132319"
 }

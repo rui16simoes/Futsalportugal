@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -311,9 +311,15 @@
     },
     {
      "id": "c2",
-     "m": 23,
+     "m": 24,
      "lado": "",
      "txt": "Troca de golpes no arranque da segunda parte. Uesler experimentou para o Fundão, sem ângulo para bater Bernardo Paçó, e do outro lado Jaime Arthur teve de se esticar para tirar o quarto a Felipe Valério."
+    },
+    {
+     "id": "c3",
+     "m": 26,
+     "lado": "casa",
+     "txt": "Quase o quarto: Bruno Pinto ainda conseguiu desviar dentro da área, mas Uesler atirou-se e cortou praticamente em cima da linha. O jogo está franco, com as duas equipas a disputar o domínio a sério."
     }
    ],
    "faltas": [
@@ -2642,6 +2648,6 @@
    }
   }
  ],
- "ts": 1789590385946,
+ "ts": 1789590551062,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -211,7 +211,19 @@
      "id": "a5",
      "m": 5,
      "lado": "casa",
-     "txt": "Rocha protegeu a bola de costas, rodou sobre o marcador e atirou — mas em cima do guarda-redes, sem perigo. De resto, o jogo arrefeceu: os leões seguram a posse na própria metade e baixaram o ritmo."
+     "txt": "O jogo arrefeceu. Os leões seguram a posse na própria metade, sem pressa, e o ritmo cai a pique."
+    },
+    {
+     "id": "a6",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Rocha protegeu a bola de costas, rodou sobre o marcador e atirou — mas em cima do guarda-redes, sem perigo."
+    },
+    {
+     "id": "a7",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Alex Merlim armou o pé para o remate à entrada da área, sem conseguir dar-lhe veneno suficiente para incomodar a baliza do Fundão."
     }
    ],
    "faltas": [],
@@ -2504,6 +2516,6 @@
    }
   }
  ],
- "ts": 1789587909940,
+ "ts": 1789587968063,
  "build": "20260915132319"
 }

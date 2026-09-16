@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -308,6 +308,12 @@
      "m": 22,
      "lado": "fora",
      "txt": "O Fundão entrou para a segunda parte com a mesma ideia com que fechou a primeira: Landelino Neto foi logo à procura do golo, mas atirou para as mãos de Bernardo Paçó."
+    },
+    {
+     "id": "c2",
+     "m": 23,
+     "lado": "",
+     "txt": "Troca de golpes no arranque da segunda parte. Uesler experimentou para o Fundão, sem ângulo para bater Bernardo Paçó, e do outro lado Jaime Arthur teve de se esticar para tirar o quarto a Felipe Valério."
     }
    ],
    "faltas": [
@@ -2636,6 +2642,6 @@
    }
   }
  ],
- "ts": 1789590107692,
+ "ts": 1789590385946,
  "build": "20260915132319"
 }

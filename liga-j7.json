@@ -164,6 +164,12 @@
      "m": 0,
      "lado": "",
      "txt": "Convocados definidos. O Sporting, líder à condição, recebe o AD Fundão no Pavilhão João Rocha, em jogo antecipado da 7.ª jornada"
+    },
+    {
+     "id": "s1",
+     "m": 0,
+     "lado": "",
+     "txt": "Equipas já na quadra do João Rocha para o aquecimento final. Sporting e Fundão chegam a este antecipado da 7.ª jornada ambos com três pontos: os leões ganharam 1-0 em Portimão e os beirões arrancaram um triunfo por 3-2 sobre o Braga já em cima do apito."
     }
    ],
    "faltas": [],
@@ -2456,6 +2462,6 @@
    }
   }
  ],
- "ts": 1789583110407,
+ "ts": 1789586954098,
  "build": "20260915132319"
 }

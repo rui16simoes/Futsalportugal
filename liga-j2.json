@@ -981,9 +981,9 @@
    "tv": "Liga Placard no YouTube",
    "tvUrl": "https://www.youtube.com/watch?v=KUC-9qtdtuk",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1080,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -1226,6 +1226,21 @@
      "id": "b38",
      "m": 38,
      "txt": "Eurico Cunha voltou a segurar o Torreense. O guarda-redes respondeu bem a um remate de Peixinho e evitou o quinto num período em que o Braga se sente à vontade."
+    },
+    {
+     "id": "b39",
+     "m": 39,
+     "txt": "Último minuto em Braga, com os minhotos a controlarem a bola e o relógio até ao apito final."
+    },
+    {
+     "id": "b40",
+     "m": 40,
+     "txt": "FINAL NA AMCO ARENA. SC Braga 4-1 Torreense."
+    },
+    {
+     "id": "bfim",
+     "m": 40,
+     "txt": "O SC BRAGA VENCEU. Esteve a perder com o golo de Tintim, empatou ainda antes do intervalo por Luís Fernandes e no segundo tempo resolveu em poucos minutos: Ricardo Lopes, outra vez Luís Fernandes e Tiago Brito fecharam o 4-1 diante de um Torreense que arriscou o 5x4 e acabou castigado."
     }
    ],
    "faltas": [
@@ -1716,9 +1731,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1080,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -1856,6 +1871,16 @@
      "id": "e38",
      "m": 38,
      "txt": "O Rio Ave volta ao guarda-redes avançado. Dois minutos pela frente e três golos de atraso para uma equipa que já só pode jogar no risco."
+    },
+    {
+     "id": "e40",
+     "m": 40,
+     "txt": "FINAL EM PONTE DE SÔR. Eléctrico 4-1 Rio Ave."
+    },
+    {
+     "id": "efim",
+     "m": 40,
+     "txt": "O ELÉCTRICO VENCEU. Quatro golos sem resposta à altura do Rio Ave, que só marcou por infelicidade de Diogo Basílio e nunca conseguiu pôr em causa o domínio da equipa da casa. Vitória por 4-1 dos alentejanos em Ponte de Sôr."
     }
    ],
    "faltas": [
@@ -3425,6 +3450,6 @@
    }
   }
  ],
- "ts": 1789839532643,
+ "ts": 1789839596327,
  "build": "20260919151922"
 }

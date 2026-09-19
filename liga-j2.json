@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960,
+    "acc": 1140,
     "desde": 0
    },
    "lances": [
@@ -296,6 +296,12 @@
      "m": 16,
      "lado": "fora",
      "txt": "E o Kutchy volta a cair. Depois de um remate de pé esquerdo ressentiu-se outra vez da perna e saiu de novo da quadra para ser assistido. Mau sinal para o Benfica."
+    },
+    {
+     "id": "c3",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Passou a raspar. Um corte mal conseguido da defesa algarvia deixou a bola nos pés de Rüben Góis dentro da área, mas o remate ainda foi beijar o poste por fora. O terceiro do Benfica anda no ar."
     }
    ],
    "faltas": [
@@ -303,36 +309,50 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 12,
+     "m": 19,
      "n": 1
     },
     {
      "id": "fc12",
      "lado": "casa",
      "parte": 1,
-     "m": 12,
+     "m": 19,
      "n": 2
+    },
+    {
+     "id": "fc13",
+     "lado": "casa",
+     "parte": 1,
+     "m": 19,
+     "n": 3
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 12,
+     "m": 19,
      "n": 1
     },
     {
      "id": "ff12",
      "lado": "fora",
      "parte": 1,
-     "m": 12,
+     "m": 19,
      "n": 2
     },
     {
      "id": "ff13",
      "lado": "fora",
      "parte": 1,
-     "m": 12,
+     "m": 19,
      "n": 3
+    },
+    {
+     "id": "ff14",
+     "lado": "fora",
+     "parte": 1,
+     "m": 19,
+     "n": 4
     }
    ],
    "gp": {
@@ -2641,6 +2661,6 @@
    }
   }
  ],
- "ts": 1789829012675,
+ "ts": 1789829098861,
  "build": "20260919135920"
 }

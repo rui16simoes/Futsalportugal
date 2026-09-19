@@ -218,7 +218,7 @@
     "golos": "",
     "capitao": "JUAN PINHEIRO",
     "treinador": "PAULINHO ROCHA",
-    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
+    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/007/69007_pri__20240912151957_paulinho_rocha.png",
     "jogadores": [
      {
       "num": "2",
@@ -363,6 +363,16 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
+     },
+     {
+      "num": "88",
+      "nome": "ANDRÉ SILVA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
@@ -466,7 +476,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2446,6 +2456,6 @@
    }
   }
  ],
- "ts": 1789824559057,
- "build": "20260915132319"
+ "ts": 1789825726977,
+ "build": "20260919132809"
 }

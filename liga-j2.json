@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -266,6 +266,12 @@
      "m": 11,
      "lado": "fora",
      "txt": "Juan Pinheiro deu e tirou. A primeira defesa ficou incompleta, a bola sobrou para Afonso Jesus e o capitão das águias arriscou o remate de calcanhar — o guarda-redes algarvio recompôs-se a tempo de lhe fechar o espaço."
+    },
+    {
+     "id": "b7",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Diogo Almeida não quis esperar por melhor e disparou de fora da área. A bola foi ter com os adeptos atrás da baliza."
     }
    ],
    "faltas": [
@@ -2580,6 +2586,6 @@
    }
   }
  ],
- "ts": 1789828167526,
+ "ts": 1789828209708,
  "build": "20260919135920"
 }

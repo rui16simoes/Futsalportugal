@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -392,6 +392,24 @@
      "m": 29,
      "lado": "casa",
      "txt": "E mais uma. Juan Pinheiro tirou um passe de qualidade para o segundo poste, onde Filipinho aparecia à espera, mas Gugiel saiu bem e fechou-lhe o primeiro poste."
+    },
+    {
+     "id": "e6",
+     "m": 33,
+     "lado": "casa",
+     "txt": "Rochato tinha o Montanha sozinho para o passe, mas preferiu o remate e a defesa encarnada prensou-lhe a bola."
+    },
+    {
+     "id": "e7",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Gui insistiu duas vezes: primeiro de fora da área, em cima do guarda-redes, depois outra vez e outra vez Gugiel a levar a melhor."
+    },
+    {
+     "id": "e8",
+     "m": 35,
+     "lado": "casa",
+     "txt": "EMPATE EM PORTIMÃO! Tomás Reis marca e faz o 2-2. O mesmo que tinha falhado a grande penalidade aos 26 minutos redime-se e põe a equipa da casa em pé de igualdade com o campeão nacional."
     }
    ],
    "faltas": [
@@ -542,7 +560,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": "1",
+    "golos": "2",
     "capitao": "JUAN PINHEIRO",
     "treinador": "PAULINHO ROCHA",
     "trFoto": "paulinho-rocha.png",
@@ -623,7 +641,7 @@
       "num": "10",
       "nome": "TOMÁS REIS",
       "e": "P",
-      "min": "",
+      "min": "35",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/54/135954_tomas_reis_20240229053329.jpg"
@@ -2807,6 +2825,6 @@
    }
   }
  ],
- "ts": 1789831767482,
+ "ts": 1789832111091,
  "build": "20260919151922"
 }

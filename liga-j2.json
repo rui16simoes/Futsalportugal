@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -1094,6 +1094,12 @@
      "m": 15,
      "lado": "fora",
      "txt": "Pausa técnica pedida pelo banco do Torreense, a tentar travar a reação bracarense."
+    },
+    {
+     "id": "b7",
+     "m": 16,
+     "lado": "casa",
+     "txt": "O Braga instalou-se no meio-campo do Torreense e agora quer a volta completa antes do intervalo."
     }
    ],
    "faltas": [
@@ -1101,21 +1107,28 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 10,
+     "m": 15,
      "n": 1
+    },
+    {
+     "id": "fc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 15,
+     "n": 2
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 10,
+     "m": 15,
      "n": 1
     },
     {
      "id": "ff12",
      "lado": "fora",
      "parte": 1,
-     "m": 10,
+     "m": 15,
      "n": 2
     }
    ],
@@ -1544,7 +1557,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -1624,7 +1637,13 @@
      "id": "a9",
      "m": 16,
      "lado": "casa",
-     "txt": "GOLO DO ELÉCTRICO! Thales Alves faz o terceiro e o jogo em Ponte de Sôr está a fugir ao Rio Ave. Segundo golo dele na prova. 3-0."
+     "txt": "GOLO DO ELÉCTRICO! Henrique Vicente serviu Thales Alves, que viu o espaço abrir-se e não hesitou: pôs tudo no remate e mandou a bola para o ângulo superior esquerdo. Segundo golo dele na prova. 3-0."
+    },
+    {
+     "id": "b1",
+     "m": 17,
+     "lado": "fora",
+     "txt": "O RIO AVE CHEGOU ÀS CINCO FALTAS e ainda faltam três minutos para o intervalo. A partir de agora, qualquer infração dá livre direto de dez metros ao Eléctrico — o pior cenário possível para quem já vai três abaixo."
     }
    ],
    "faltas": [
@@ -1632,36 +1651,43 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 16,
+     "m": 17,
      "n": 1
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 16,
+     "m": 17,
      "n": 1
     },
     {
      "id": "ff12",
      "lado": "fora",
      "parte": 1,
-     "m": 16,
+     "m": 17,
      "n": 2
     },
     {
      "id": "ff13",
      "lado": "fora",
      "parte": 1,
-     "m": 16,
+     "m": 17,
      "n": 3
     },
     {
      "id": "ff14",
      "lado": "fora",
      "parte": 1,
-     "m": 16,
+     "m": 17,
      "n": 4
+    },
+    {
+     "id": "ff15",
+     "lado": "fora",
+     "parte": 1,
+     "m": 17,
+     "n": 5
     }
    ],
    "gp": {
@@ -1804,7 +1830,7 @@
       "e": "P",
       "min": "13",
       "cart": "",
-      "ass": "",
+      "ass": "16",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
      },
      {
@@ -3138,6 +3164,6 @@
    }
   }
  ],
- "ts": 1789835686041,
+ "ts": 1789835830436,
  "build": "20260919151922"
 }

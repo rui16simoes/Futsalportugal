@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 961,
+    "acc": 1065,
     "desde": 0
    },
    "lances": [
@@ -422,6 +422,18 @@
      "m": 37,
      "lado": "fora",
      "txt": "O BENFICA CHEGOU ÀS CINCO FALTAS. A partir daqui qualquer infração das águias dá livre direto de dez metros ao Portimonense — e faltam menos de quatro minutos."
+    },
+    {
+     "id": "f3",
+     "m": 37,
+     "lado": "fora",
+     "txt": "Juan Pinheiro está num dia inspirado. Rúben Góis trabalhou a bola dentro da área e tentou a finalização — o guardião algarvio voltou a ganhar o duelo ao pivot."
+    },
+    {
+     "id": "f4",
+     "m": 38,
+     "lado": "fora",
+     "txt": "E outra vez os dois. Rúben Góis arriscou da meia distância e Juan Pinheiro mandou-a para fora com uma palmada. Cassiano Klein pede pausa técnica para desenhar o ataque final."
     }
    ],
    "faltas": [
@@ -494,6 +506,13 @@
      "parte": 2,
      "m": 37,
      "n": 3
+    },
+    {
+     "id": "fc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 4
     },
     {
      "id": "ff21",
@@ -2844,6 +2863,6 @@
    }
   }
  ],
- "ts": 1789832311592,
+ "ts": 1789832665750,
  "build": "20260919151922"
 }

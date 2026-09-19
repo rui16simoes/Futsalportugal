@@ -5,17 +5,134 @@
  "jornadas": [
   {
    "lab": "J1",
+   "nome": "Jornada 1",
    "url": "liga.html",
    "on": false
   },
   {
    "lab": "J2",
+   "nome": "Jornada 2",
    "url": "liga-j2.html",
    "on": true
   },
   {
+   "lab": "J3",
+   "nome": "Jornada 3",
+   "url": "liga-j3.html",
+   "on": false
+  },
+  {
+   "lab": "J4",
+   "nome": "Jornada 4",
+   "url": "liga-j4.html",
+   "on": false
+  },
+  {
+   "lab": "J5",
+   "nome": "Jornada 5",
+   "url": "liga-j5.html",
+   "on": false
+  },
+  {
+   "lab": "J6",
+   "nome": "Jornada 6",
+   "url": "liga-j6.html",
+   "on": false
+  },
+  {
    "lab": "J7",
+   "nome": "Jornada 7",
    "url": "liga-j7.html",
+   "on": false
+  },
+  {
+   "lab": "J8",
+   "nome": "Jornada 8",
+   "url": "liga-j8.html",
+   "on": false
+  },
+  {
+   "lab": "J9",
+   "nome": "Jornada 9",
+   "url": "liga-j9.html",
+   "on": false
+  },
+  {
+   "lab": "J10",
+   "nome": "Jornada 10",
+   "url": "liga-j10.html",
+   "on": false
+  },
+  {
+   "lab": "J11",
+   "nome": "Jornada 11",
+   "url": "liga-j11.html",
+   "on": false
+  },
+  {
+   "lab": "J12",
+   "nome": "Jornada 12",
+   "url": "liga-j12.html",
+   "on": false
+  },
+  {
+   "lab": "J13",
+   "nome": "Jornada 13",
+   "url": "liga-j13.html",
+   "on": false
+  },
+  {
+   "lab": "J14",
+   "nome": "Jornada 14",
+   "url": "liga-j14.html",
+   "on": false
+  },
+  {
+   "lab": "J15",
+   "nome": "Jornada 15",
+   "url": "liga-j15.html",
+   "on": false
+  },
+  {
+   "lab": "J16",
+   "nome": "Jornada 16",
+   "url": "liga-j16.html",
+   "on": false
+  },
+  {
+   "lab": "J17",
+   "nome": "Jornada 17",
+   "url": "liga-j17.html",
+   "on": false
+  },
+  {
+   "lab": "J18",
+   "nome": "Jornada 18",
+   "url": "liga-j18.html",
+   "on": false
+  },
+  {
+   "lab": "J19",
+   "nome": "Jornada 19",
+   "url": "liga-j19.html",
+   "on": false
+  },
+  {
+   "lab": "J20",
+   "nome": "Jornada 20",
+   "url": "liga-j20.html",
+   "on": false
+  },
+  {
+   "lab": "J21",
+   "nome": "Jornada 21",
+   "url": "liga-j21.html",
+   "on": false
+  },
+  {
+   "lab": "J22",
+   "nome": "Jornada 22",
+   "url": "liga-j22.html",
    "on": false
   }
  ],
@@ -28,10 +145,10 @@
    "data": "19 de setembro de 2026",
    "hora": "15h00",
    "local": "Pavilhão Gimnodesportivo de Portimão",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "DAVID PEREIRA",
+   "arb2": "JAIME MARTINS",
+   "arb3": "PEDRO COSTA",
+   "cron": "ANDRÉ VISEU",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -41,7 +158,14 @@
     "acc": 0,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "s0",
+     "m": 0,
+     "lado": "",
+     "txt": "Convocados definidos. O Portimonense recebe o SL Benfica no Pavilhão Gimnodesportivo de Portimão, em jogo da 2.ª jornada da Liga Placard. Juan Pinheiro é o capitão dos algarvios; Afonso Jesus usa a braçadeira nas águias."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -92,14 +216,14 @@
    "casa": {
     "eq": "portimonense",
     "golos": "",
-    "capitao": "",
-    "treinador": "JOSÉ SANTOS",
+    "capitao": "JUAN PINHEIRO",
+    "treinador": "PAULINHO ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
     "jogadores": [
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -108,7 +232,7 @@
      {
       "num": "13",
       "nome": "PEDRO AFONSO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -117,7 +241,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -126,7 +250,7 @@
      {
       "num": "18",
       "nome": "RUI MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -135,7 +259,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -144,7 +268,7 @@
      {
       "num": "7",
       "nome": "PEDRO SENRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -153,7 +277,7 @@
      {
       "num": "51",
       "nome": "GUI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -162,7 +286,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -171,7 +295,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -180,7 +304,7 @@
      {
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -189,7 +313,7 @@
      {
       "num": "70",
       "nome": "MONTANHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -198,7 +322,7 @@
      {
       "num": "88",
       "nome": "JOÃO ALVES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -207,7 +331,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -216,7 +340,7 @@
      {
       "num": "11",
       "nome": "AFONSO SERRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -225,7 +349,7 @@
      {
       "num": "17",
       "nome": "ANDRIY DZYALO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -234,7 +358,7 @@
      {
       "num": "29",
       "nome": "LUIGGI BAPTISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -245,14 +369,14 @@
    "fora": {
     "eq": "benfica",
     "golos": "",
-    "capitao": "",
+    "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "ANDRÉ CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -261,7 +385,7 @@
      {
       "num": "16",
       "nome": "VASCO PINTO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -270,7 +394,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -279,7 +403,7 @@
      {
       "num": "4",
       "nome": "AFONSO JESUS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -288,7 +412,7 @@
      {
       "num": "6",
       "nome": "RAÚL MOREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -297,7 +421,7 @@
      {
       "num": "8",
       "nome": "ANDRÉ COELHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -306,7 +430,7 @@
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -315,7 +439,7 @@
      {
       "num": "5",
       "nome": "DIOGO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -324,7 +448,7 @@
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -333,7 +457,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -342,7 +466,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -351,7 +475,7 @@
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -360,7 +484,7 @@
      {
       "num": "18",
       "nome": "PANY VARELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -369,7 +493,7 @@
      {
       "num": "20",
       "nome": "ANDERSON FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -378,7 +502,7 @@
      {
       "num": "77",
       "nome": "CLÉBER SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -387,7 +511,7 @@
      {
       "num": "11",
       "nome": "EDUARDO TCHUDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -396,7 +520,7 @@
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2322,6 +2446,6 @@
    }
   }
  ],
- "build": "20260915130544",
- "ts": 1789477545008
+ "ts": 1789824559057,
+ "build": "20260915132319"
 }

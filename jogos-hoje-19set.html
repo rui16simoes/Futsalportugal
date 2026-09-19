@@ -33,7 +33,10 @@
   .theme-btn:hover { background: rgba(255,255,255,.15); }
 
   /* DATE NAV */
-  .date-nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 8px; display: flex; justify-content: center; overflow-x: auto; scrollbar-width: none; }
+  .nav-wrapper { position: relative; display: flex; align-items: stretch; background: var(--surface); border-bottom: 1px solid var(--border); }
+  .nav-arrow { flex-shrink: 0; background: var(--surface); border: none; border-bottom: none; color: var(--muted); font-size: 22px; font-weight: 300; padding: 0 14px; cursor: pointer; transition: color .15s, background .15s; z-index: 2; line-height: 1; }
+  .nav-arrow:hover { color: var(--text); background: var(--surface2); }
+  .date-nav { flex: 1; background: var(--surface); padding: 0 4px; display: flex; overflow-x: auto; scrollbar-width: none; }
   .date-nav::-webkit-scrollbar { display: none; }
   .date-btn { background: none; border: none; color: var(--muted); padding: 10px 11px; cursor: pointer; white-space: nowrap; border-bottom: 2px solid transparent; transition: all .15s; position: relative; top: 1px; display: flex; flex-direction: column; align-items: center; gap: 1px; }
   .date-btn:hover { color: var(--text); }
@@ -96,10 +99,31 @@
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
   @keyframes spulse { 0%,100%{opacity:1} 50%{opacity:.5} }
 
+  /* MODE TABS */
+  .mode-tabs { display: flex; gap: 0; background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 8px; }
+  .mode-tab { background: none; border: none; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 9px 16px; cursor: pointer; border-bottom: 2px solid transparent; transition: all .15s; position: relative; top: 1px; }
+  .mode-tab:hover { color: var(--text); }
+  .mode-tab.active { color: #a5b4fc; border-bottom-color: #a5b4fc; }
+
+  /* CLASSIFICATION TABLE */
+  .classif-grid { display: grid; grid-template-columns: 26px 1fr repeat(7,32px); align-items: center; }
+  .classif-grid.header { font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 6px 12px; border-bottom: 1px solid var(--border); }
+  .classif-grid.row { padding: 7px 12px; border-bottom: 1px solid var(--border); transition: background .1s; }
+  .classif-grid.row:last-child { border-bottom: none; }
+  .classif-grid.row:hover { background: var(--surface2); }
+  .cl-pos { font-size: 10px; font-weight: 900; color: var(--muted); text-align: center; }
+  .cl-pos.top3 { color: #a5b4fc; }
+  .cl-team { font-size: 12px; font-weight: 600; padding-left: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cl-num { font-size: 11px; font-weight: 600; text-align: center; color: var(--muted); }
+  .cl-pts { font-size: 12px; font-weight: 900; text-align: center; color: var(--text); }
+
   @media (max-width:520px) {
     .game { grid-template-columns: 36px 1fr auto 1fr auto; gap: 3px; padding: 7px 9px 5px; }
     .g-home,.g-away { font-size: 11px; }
     .s-box { font-size: 12px; min-width: 21px; padding: 2px 3px; }
+    .classif-grid { grid-template-columns: 22px 1fr repeat(7,26px); }
+    .cl-team { font-size: 11px; }
+    .classif-grid.header,.classif-grid.row { padding: 6px 9px; }
   }
 </style>
 </head>
@@ -111,7 +135,15 @@
   <h1 class="hero-title" id="page-title">Jogos do Fim de Semana</h1>
 </div>
 
-<nav class="date-nav" id="date-nav"></nav>
+<div class="mode-tabs">
+  <button class="mode-tab active" id="tab-jogos" onclick="showMode('jogos')">⚽ Jogos</button>
+  <button class="mode-tab" id="tab-classif" onclick="showMode('classif')">📊 Classificação</button>
+</div>
+<div class="nav-wrapper" id="nav-wrapper">
+  <button class="nav-arrow" onclick="scrollNav(-220)" title="Anterior">‹</button>
+  <nav class="date-nav" id="date-nav"></nav>
+  <button class="nav-arrow" onclick="scrollNav(220)" title="Próximo">›</button>
+</div>
 <div class="page" id="content"></div>
 <footer>FPF &amp; RFEF · Atualizado às <span id="ts"></span></footer>
 
@@ -133,12 +165,50 @@ function toggleTheme() {
 
 // ── LINKS DOS CAMPEONATOS ─────────────────────────────────────────────────────
 const LINKS = {
-  ligaPrime:    'https://futsal.rfef.es/competicion/primera/2027/resultados',
-  ligaPlacardM: 'https://resultados.fpf.pt/Competition/Details?competitionId=29817&seasonId=106',
-  ligaPlacardF: 'https://resultados.fpf.pt/Competition/Details?competitionId=29897&seasonId=106',
-  sub19:        'https://resultados.fpf.pt/Competition/Details?competitionId=29859&seasonId=106',
-  cn2divM:      'https://resultados.fpf.pt/Competition/Details?competitionId=29934&seasonId=106',
-  cn3divM:      'https://resultados.fpf.pt/Competition/Details?competitionId=29818&seasonId=106',
+  ligaPrime:    'https://rui16simoes.github.io/Futsalportugal/liga-prime-futsal.html',
+  ligaPlacardM: 'https://rui16simoes.github.io/Futsalportugal/liga-placard.html',
+  ligaPlacardF: 'https://rui16simoes.github.io/Futsalportugal/liga-feminina-placard.html',
+  sub19:        'https://rui16simoes.github.io/Futsalportugal/nacional-sub19.html',
+  cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
+  cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
+};
+
+// ── CLASSIFICAÇÃO ─────────────────────────────────────────────────────────────
+const CLASSIFICATION = {
+  ligaPlacardM: {
+    label: 'Liga Placard · Masculino', link: LINKS.ligaPlacardM,
+    color: '#f59e0b', flag: '🇵🇹', updated: 'J2 · 19 set',
+    teams: [
+      { pos:1,  name:'Sporting CP',             p:2, v:2, e:0, d:0, gf:8,  gc:0, pts:6 },
+      { pos:2,  name:'Eléctrico FC',            p:2, v:2, e:0, d:0, gf:7,  gc:2, pts:6 },
+      { pos:3,  name:'SL Benfica',              p:2, v:1, e:1, d:0, gf:6,  gc:3, pts:4 },
+      { pos:4,  name:'AD Fundão',               p:2, v:1, e:0, d:1, gf:3,  gc:9, pts:3 },
+      { pos:5,  name:'SC Braga',                p:2, v:1, e:0, d:1, gf:6,  gc:4, pts:3 },
+      { pos:6,  name:'FC Famalicão',            p:1, v:0, e:1, d:0, gf:4,  gc:4, pts:1 },
+      { pos:7,  name:'CR Leões Porto Salvo',    p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
+      { pos:8,  name:'SCF Zêzere by Zêzerovo',  p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
+      { pos:9,  name:'Rio Ave FC',              p:2, v:0, e:1, d:1, gf:5,  gc:8, pts:1 },
+      { pos:10, name:'Portimonense SC',         p:2, v:0, e:1, d:1, gf:2,  gc:3, pts:1 },
+      { pos:11, name:'UP Venda Nova / JRA',     p:1, v:0, e:0, d:1, gf:1,  gc:4, pts:0 },
+      { pos:12, name:'SCU Torreense SAD',       p:2, v:0, e:0, d:2, gf:2,  gc:7, pts:0 },
+    ]
+  },
+  ligaPlacardF: {
+    label: 'Liga Feminina Placard', link: LINKS.ligaPlacardF,
+    color: '#f43f5e', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
+    teams: [
+      { pos:1,  name:'SL Benfica',            p:2, v:2, e:0, d:0, gf:10, gc:0, pts:6 },
+      { pos:2,  name:'CR Leões Porto Salvo',  p:1, v:1, e:0, d:0, gf:5,  gc:0, pts:3 },
+      { pos:3,  name:"GCR Nun'álvares",       p:1, v:1, e:0, d:0, gf:7,  gc:3, pts:3 },
+      { pos:4,  name:'Atlético CP',           p:1, v:1, e:0, d:0, gf:2,  gc:0, pts:3 },
+      { pos:5,  name:'Novasemente GD',        p:1, v:0, e:1, d:0, gf:1,  gc:1, pts:1 },
+      { pos:6,  name:'GD Árvore',             p:1, v:0, e:1, d:0, gf:1,  gc:1, pts:1 },
+      { pos:7,  name:'Santa Luzia FC',        p:1, v:0, e:0, d:1, gf:0,  gc:2, pts:0 },
+      { pos:8,  name:'Maia FC/Mercainox',     p:1, v:0, e:0, d:1, gf:3,  gc:7, pts:0 },
+      { pos:9,  name:'Feijó/LTintas',         p:1, v:0, e:0, d:1, gf:0,  gc:6, pts:0 },
+      { pos:10, name:'SCU Torreense',         p:2, v:0, e:0, d:2, gf:0,  gc:9, pts:0 },
+    ]
+  },
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -244,9 +314,9 @@ const DAYS = {
       ]},
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 2', games:[
-        { time:'15:00', home:'Portimonense SC', away:'SL Benfica', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
-        { time:'17:00', home:'Eléctrico FC', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
-        { time:'17:00', home:'SC Braga', away:'SCU Torreense SAD', status:'', score:null, venue:'AMCO Arena' },
+        { time:'15:00', home:'Portimonense SC', away:'SL Benfica', status:'done', score:[2,2], venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'Eléctrico FC', away:'Rio Ave FC', status:'done', score:[4,1], venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'SC Braga', away:'SCU Torreense SAD', status:'done', score:[4,1], venue:'AMCO Arena' },
       ]},
       { comp:'CN Futsal 2.ª Divisão', link:LINKS.cn2divM,
         color:'#10b981', flag:'🇵🇹', round:'Jornada 1', series:[
@@ -301,7 +371,7 @@ const DAYS = {
       ]},
       { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
         color:'#f43f5e', flag:'🇵🇹', round:'Jornada 2 · Feminino', games:[
-        { time:'17:00', home:'SL Benfica', away:'SCU Torreense', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'SL Benfica', away:'SCU Torreense', status:'done', score:[4,0], venue:'Pavilhão Fidelidade' },
         { time:'18:00', home:'CR Leões Porto Salvo', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
         { time:'19:00', home:"GCR Nun'álvares", away:'GD Árvore', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
         { time:'20:30', home:'Novasemente GD', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
@@ -492,6 +562,23 @@ const DAYS = {
         { time:'17:00', home:'UP Venda Nova / JRA', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. António Ferreira' },
         { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
       ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
+        { time:'16:00', home:'Sporting CP', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'AMSAC', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'CS São João', status:'', score:null, venue:'Pavilhão do Leões Porto Salvo' },
+        { time:'20:00', home:'CRC Quinta Lombos', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+        { time:'20:00', home:'SC Braga', away:'CCRD Burinhosa', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2026-10-04': {
+    label: ['Dom','4','Out'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
+        { time:'11:00', home:'SL Benfica', away:'FC Barreirense', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+      ]},
     ]
   },
   '2026-10-10': {
@@ -505,6 +592,23 @@ const DAYS = {
         { time:'17:00', home:'Rio Ave FC', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
         { time:'17:00', home:'SCU Torreense SAD', away:'Portimonense SC', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
         { time:'17:00', home:'Sporting CP', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão João Rocha' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 5', games:[
+        { time:'19:30', home:'FC Barreirense', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2026-10-11': {
+    label: ['Dom','11','Out'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 5', games:[
+        { time:'15:00', home:'SL Benfica', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'15:30', home:'CS São João', away:'Sporting CP', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'SC Braga', status:'', score:null, venue:'Pav. Municipal Oliveira de Azeméis' },
+        { time:'17:00', home:'Futsal Oeiras', away:'AMSAC', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
       ]},
     ]
   },
@@ -527,6 +631,23 @@ const DAYS = {
         { time:'16:00', home:'Novasemente GD', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
         { time:'16:00', home:"GCR Nun'álvares", away:'SCU Torreense', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
         { time:'16:00', home:'Maia FC/Mercainox', away:'GD Árvore', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 6', games:[
+        { time:'16:00', home:'Sporting CP', away:'CCRD Burinhosa', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'20:00', home:'SC Braga', away:'Futsal Oeiras', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2026-10-18': {
+    label: ['Dom','18','Out'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 6', games:[
+        { time:'15:00', home:'AMSAC', away:'SL Benfica', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'15:00', home:'CR Leões Porto Salvo', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'15:30', home:'ADCR Caxinas Poça Barca', away:'CS São João', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'FC Barreirense', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
       ]},
     ]
   },
@@ -574,6 +695,19 @@ const DAYS = {
       ]},
     ]
   },
+  '2026-11-07': {
+    label: ['Sáb','7','Nov'],
+    sections: [
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 7 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:'GD Árvore', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'SL Benfica', away:'Atlético CP', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Santa Luzia FC', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Novasemente GD', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+      ]},
+    ]
+  },
   '2026-11-14': {
     label: ['Sáb','14','Nov'],
     sections: [
@@ -585,6 +719,14 @@ const DAYS = {
           { time:'20:00', home:'GD Casa Povo Livramento', away:'CDCC Posto Santo', status:'', score:null, venue:'Recinto a indicar' },
           { time:'20:00', home:'Remédios SC Açores', away:'CD São João', status:'', score:null, venue:'Centro Polidesp. Rec. Remédios' },
         ]},
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 8 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:'Novasemente GD', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'GD Árvore', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:'Santa Luzia FC', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Feijó/LTintas', away:'SCU Torreense', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal da Maia' },
       ]},
     ]
   },
@@ -599,6 +741,540 @@ const DAYS = {
         { time:'17:00', home:'UP Venda Nova / JRA', away:'SC Braga', status:'', score:null, venue:'Pav. António Ferreira' },
         { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'Sporting CP', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
         { time:'17:00', home:'CR Leões Porto Salvo', away:'Rio Ave FC', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 7', games:[
+        { time:'19:30', home:'FC Barreirense', away:'CS São João', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2026-11-22': {
+    label: ['Dom','22','Nov'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 7', games:[
+        { time:'15:00', home:'SL Benfica', away:'SC Braga', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'Sporting CP', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'Futsal Oeiras', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'AMSAC', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2026-11-28': {
+    label: ['Sáb','28','Nov'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 9', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'SL Benfica', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal Lameiras' },
+        { time:'17:00', home:'Rio Ave FC', away:'AD Fundão', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SC Braga', away:'Portimonense SC', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'Sporting CP', away:'SCU Torreense SAD', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 9 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'SL Benfica', away:'GD Árvore', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Novasemente GD', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'Atlético CP', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 8', games:[
+        { time:'16:00', home:'Sporting CP', away:'Futsal Oeiras', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'AMSAC', away:'FC Barreirense', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'SL Benfica', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'CS São João', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'16:00', home:'ADCR Caxinas Poça Barca', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'18:45', home:'SC Braga', away:'CRC Quinta Lombos', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2026-12-01': {
+    label: ['Ter','1','Dez'],
+    sections: [
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 10 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'SL Benfica', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'SCU Torreense', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Novasemente GD', away:'GD Árvore', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'Maia FC/Mercainox', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+      ]},
+    ]
+  },
+  '2026-12-12': {
+    label: ['Sáb','12','Dez'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 10', games:[
+        { time:'17:00', home:'AD Fundão', away:'FC Famalicão', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Portimonense SC', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'SL Benfica', away:'SC Braga', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'Sporting CP', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'Eléctrico FC', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 9', games:[
+        { time:'17:00', home:'Futsal Oeiras', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'19:30', home:'FC Barreirense', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2026-12-13': {
+    label: ['Dom','13','Dez'],
+    sections: [
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 11 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:'SL Benfica', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'GD Árvore', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:'Santa Luzia FC', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Feijó/LTintas', away:'Novasemente GD', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'Atlético CP', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 9', games:[
+        { time:'15:00', home:'SL Benfica', away:'Sporting CP', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'15:00', home:'AMSAC', away:'SC Braga', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'CS São João', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2026-12-19': {
+    label: ['Sáb','19','Dez'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 11', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'AD Fundão', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. Municipal Lameiras' },
+        { time:'17:00', home:'Rio Ave FC', away:'Sporting CP', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SC Braga', away:'CR Leões Porto Salvo', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'Portimonense SC', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 10', games:[
+        { time:'18:00', home:'FC Barreirense', away:'SC Braga', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2026-12-20': {
+    label: ['Dom','20','Dez'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 10', games:[
+        { time:'15:30', home:'CS São João', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'16:00', home:'Sporting CP', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'AMSAC', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'17:30', home:'ADCR Caxinas Poça Barca', away:'SL Benfica', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+      ]},
+    ]
+  },
+  '2026-12-27': {
+    label: ['Sáb','27','Dez'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 11', games:[
+        { time:'15:00', home:'SL Benfica', away:'CS São João', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'15:00', home:'AMSAC', away:'Sporting CP', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'16:00', home:'SC Braga', away:'CR Leões Porto Salvo', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'FC Barreirense', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'Futsal Oeiras', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2027-01-02': {
+    label: ['Sáb','2','Jan'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 12', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Municipal Lameiras' },
+        { time:'17:00', home:'Portimonense SC', away:'Sporting CP', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SC Braga', away:'AD Fundão', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'SL Benfica', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 12 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:'GD Árvore', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'SL Benfica', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'Novasemente GD', away:'SCU Torreense', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'Feijó/LTintas', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 12', games:[
+        { time:'20:00', home:'SC Braga', away:'Sporting CP', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2027-01-03': {
+    label: ['Dom','3','Jan'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 12', games:[
+        { time:'15:00', home:'AMSAC', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'15:00', home:'SL Benfica', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'17:00', home:'Futsal Oeiras', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'CS São João', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2027-01-09': {
+    label: ['Sáb','9','Jan'],
+    sections: [
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 13 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'GD Árvore', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'Novasemente GD', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Santa Luzia FC', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Feijó/LTintas', away:'Atlético CP', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 13', games:[
+        { time:'16:00', home:'Sporting CP', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'18:00', home:'ADCR Caxinas Poça Barca', away:'SC Braga', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'19:30', home:'FC Barreirense', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2027-01-10': {
+    label: ['Dom','10','Jan'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 13', games:[
+        { time:'15:30', home:'CS São João', away:'AMSAC', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+      ]},
+    ]
+  },
+  '2027-01-16': {
+    label: ['Sáb','16','Jan'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 14', games:[
+        { time:'16:00', home:'AMSAC', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'19:00', home:'SL Benfica', away:'Futsal Oeiras', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'19:00', home:'Sporting CP', away:'FC Barreirense', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'20:00', home:'SC Braga', away:'CS São João', status:'', score:null, venue:'AMCO Arena' },
+        { time:'20:00', home:'CRC Quinta Lombos', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+        { time:'20:00', home:'CR Leões Porto Salvo', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+    ]
+  },
+  '2027-01-30': {
+    label: ['Sáb','30','Jan'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 13', games:[
+        { time:'17:00', home:'AD Fundão', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Rio Ave FC', away:'Eléctrico FC', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'SC Braga', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'SL Benfica', away:'Portimonense SC', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'Sporting CP', away:'FC Famalicão', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 14 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:'SCU Torreense', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'GD Árvore', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:'Novasemente GD', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'CR Leões Porto Salvo', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 15', games:[
+        { time:'19:30', home:'FC Barreirense', away:'SL Benfica', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2027-01-31': {
+    label: ['Dom','31','Jan'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 15', games:[
+        { time:'15:30', home:'CS São João', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'AMSAC', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'SC Braga', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'17:00', home:'Futsal Oeiras', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'17:30', home:'ADCR Caxinas Poça Barca', away:'Sporting CP', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+      ]},
+    ]
+  },
+  '2027-02-06': {
+    label: ['Sáb','6','Fev'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 14', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'FC Famalicão', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'Portimonense SC', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SL Benfica', away:'Sporting CP', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'SC Braga', away:'Rio Ave FC', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'AD Fundão', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 15 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'SL Benfica', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'Atlético CP', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Santa Luzia FC', away:'Novasemente GD', status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Feijó/LTintas', away:'GD Árvore', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 16', games:[
+        { time:'16:00', home:'Sporting CP', away:'CS São João', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'20:00', home:'SC Braga', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2027-02-07': {
+    label: ['Dom','7','Fev'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 16', games:[
+        { time:'15:00', home:'AMSAC', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'15:30', home:'ADCR Caxinas Poça Barca', away:'FC Barreirense', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'SL Benfica', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2027-02-09': {
+    label: ['Ter','9','Fev'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 17', games:[
+        { time:'15:00', home:'SL Benfica', away:'AMSAC', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CCRD Burinhosa', away:'Sporting CP', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'16:00', home:'CS São João', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'16:00', home:'FC Barreirense', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+        { time:'16:00', home:'Futsal Oeiras', away:'SC Braga', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal Travessas' },
+      ]},
+    ]
+  },
+  '2027-02-13': {
+    label: ['Sáb','13','Fev'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 18', games:[
+        { time:'16:00', home:'Sporting CP', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'AMSAC', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'CS São João', away:'FC Barreirense', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'18:00', home:'ADCR Caxinas Poça Barca', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'20:00', home:'SC Braga', away:'SL Benfica', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2027-02-20': {
+    label: ['Sáb','20','Fev'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 15', games:[
+        { time:'17:00', home:'AD Fundão', away:'Portimonense SC', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'FC Famalicão', away:'SC Braga', status:'', score:null, venue:'Pav. Municipal Vila Nova de Famalicão' },
+        { time:'17:00', home:'Rio Ave FC', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'Sporting CP', away:'Eléctrico FC', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'SL Benfica', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 16 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:'SL Benfica', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'GD Árvore', away:'SCU Torreense', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'Novasemente GD', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+        { time:'16:00', home:'Feijó/LTintas', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+    ]
+  },
+  '2027-02-27': {
+    label: ['Sáb','27','Fev'],
+    sections: [
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 17 · Feminino', games:[
+        { time:'16:00', home:'SCU Torreense', away:'Feijó/LTintas', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+        { time:'16:00', home:'SL Benfica', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'GD Árvore', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'Novasemente GD', away:'Atlético CP', status:'', score:null, venue:'Pav. Municipal Napoleão Guerra' },
+        { time:'16:00', home:"GCR Nun'álvares", away:'Santa Luzia FC', status:'', score:null, venue:"Pav. do Grupo Nun'álvares" },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 19', games:[
+        { time:'18:00', home:'SL Benfica', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'19:30', home:'FC Barreirense', away:'AMSAC', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+      ]},
+    ]
+  },
+  '2027-02-28': {
+    label: ['Dom','28','Fev'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 19', games:[
+        { time:'17:00', home:'CCRD Burinhosa', away:'CS São João', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'Futsal Oeiras', away:'Sporting CP', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'SC Braga', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2027-03-06': {
+    label: ['Sáb','6','Mar'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 20', games:[
+        { time:'16:00', home:'SC Braga', away:'AMSAC', status:'', score:null, venue:'AMCO Arena' },
+        { time:'16:00', home:'Sporting CP', away:'SL Benfica', status:'', score:null, venue:'Pavilhão João Rocha' },
+      ]},
+    ]
+  },
+  '2027-03-07': {
+    label: ['Dom','7','Mar'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 16', games:[
+        { time:'17:00', home:'Portimonense SC', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SL Benfica', away:'AD Fundão', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'SC Braga', away:'Eléctrico FC', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'Rio Ave FC', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'FC Famalicão', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'Sporting CP', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 20', games:[
+        { time:'15:30', home:'CS São João', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'17:00', home:'CCRD Burinhosa', away:'FC Barreirense', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'17:30', home:'ADCR Caxinas Poça Barca', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+      ]},
+    ]
+  },
+  '2027-03-13': {
+    label: ['Sáb','13','Mar'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 17', games:[
+        { time:'17:00', home:'AD Fundão', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Eléctrico FC', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. Municipal Lameiras' },
+        { time:'17:00', home:'Rio Ave FC', away:'Portimonense SC', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'SL Benfica', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'Sporting CP', away:'SC Braga', status:'', score:null, venue:'Pavilhão João Rocha' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 21', games:[
+        { time:'20:00', home:'SC Braga', away:'FC Barreirense', status:'', score:null, venue:'AMCO Arena' },
+      ]},
+    ]
+  },
+  '2027-03-14': {
+    label: ['Dom','14','Mar'],
+    sections: [
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 21', games:[
+        { time:'15:00', home:'AMSAC', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'15:00', home:'SL Benfica', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
+        { time:'17:00', home:'GRC Dínamo Sanjoanense', away:'CCRD Burinhosa', status:'', score:null, venue:'Pav. Municipal Travessas' },
+        { time:'17:00', home:'Futsal Oeiras', away:'CS São João', status:'', score:null, venue:'Pav. S. Julião da Barra' },
+        { time:'18:00', home:'CRC Quinta Lombos', away:'Sporting CP', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+      ]},
+    ]
+  },
+  '2027-03-20': {
+    label: ['Sáb','20','Mar'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 18', games:[
+        { time:'17:00', home:'AD Fundão', away:'Sporting CP', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Portimonense SC', away:'FC Famalicão', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SL Benfica', away:'Rio Ave FC', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'Eléctrico FC', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'SC Braga', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 22', games:[
+        { time:'16:00', home:'FC Barreirense', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
+        { time:'16:00', home:'Sporting CP', away:'AMSAC', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'CCRD Burinhosa', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Gimnodesportivo Burinhosa' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'SC Braga', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+        { time:'16:00', home:'CS São João', away:'SL Benfica', status:'', score:null, venue:'Pav. Centro Social São João' },
+        { time:'16:00', home:'ADCR Caxinas Poça Barca', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+      ]},
+    ]
+  },
+  '2027-03-27': {
+    label: ['Sáb','27','Mar'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 19', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'Portimonense SC', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'SL Benfica', status:'', score:null, venue:'Pav. Municipal Vila Nova de Famalicão' },
+        { time:'17:00', home:'Rio Ave FC', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'AD Fundão', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'SC Braga', away:'UP Venda Nova / JRA', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'Sporting CP', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pavilhão João Rocha' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 18 · Feminino', games:[
+        { time:'16:00', home:'Atlético CP', away:"GCR Nun'álvares", status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
+        { time:'16:00', home:'GD Árvore', away:'SL Benfica', status:'', score:null, venue:'Pav. do C.C. das Caxinas' },
+        { time:'16:00', home:'Santa Luzia FC', away:'SCU Torreense', status:'', score:null, venue:'Pav. Municipal José Natário' },
+        { time:'16:00', home:'Feijó/LTintas', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Escola Sec. Romeu Correia' },
+        { time:'16:00', home:'Maia FC/Mercainox', away:'Novasemente GD', status:'', score:null, venue:'Pav. Municipal da Maia' },
+      ]},
+    ]
+  },
+  '2027-04-10': {
+    label: ['Sáb','10','Abr'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 20', games:[
+        { time:'17:00', home:'AD Fundão', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Portimonense SC', away:'SC Braga', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'Sporting CP', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'SL Benfica', away:'Eléctrico FC', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'FC Famalicão', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
+      ]},
+    ]
+  },
+  '2027-04-25': {
+    label: ['Dom','25','Abr'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 21 · Dia da Liberdade', games:[
+        { time:'17:00', home:'Eléctrico FC', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'FC Famalicão', away:'AD Fundão', status:'', score:null, venue:'Pav. Municipal Lameiras' },
+        { time:'17:00', home:'Rio Ave FC', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. Desportos Vila do Conde' },
+        { time:'17:00', home:'SC Braga', away:'SL Benfica', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'Sporting CP', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'Portimonense SC', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+    ]
+  },
+  '2027-05-01': {
+    label: ['Sáb','1','Mai'],
+    sections: [
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 22', games:[
+        { time:'17:00', home:'AD Fundão', away:'Eléctrico FC', status:'', score:null, venue:'Pav. Municipal Fundão' },
+        { time:'17:00', home:'Portimonense SC', away:'UP Venda Nova / JRA', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SCU Torreense SAD', away:'FC Famalicão', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'17:00', home:'SL Benfica', away:'SCF Zêzere by Zêzerovo', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'Sporting CP', away:'Rio Ave FC', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'17:00', home:'CR Leões Porto Salvo', away:'SC Braga', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
       ]},
     ]
   },
@@ -688,6 +1364,7 @@ function buildNav(activeKey) {
 
 function selectDate(key) {
   history.replaceState(null,'','#'+key);
+  localStorage.setItem('fsDate', key);
   buildNav(key);
   renderDay(key);
   const lbl = DAYS[key].label[1] + ' ' + DAYS[key].label[2];
@@ -700,14 +1377,83 @@ function selectDate(key) {
   }, 50);
 }
 
+// ── SCROLL NAV ────────────────────────────────────────────────────────────────
+function scrollNav(amount) {
+  const nav = document.getElementById('date-nav');
+  nav.scrollBy({ left: amount, behavior: 'smooth' });
+}
+
+// ── CLASSIFICAÇÃO RENDER ───────────────────────────────────────────────────────
+function renderClassification() {
+  let html = '';
+  for (const comp of Object.values(CLASSIFICATION)) {
+    const titleEl = comp.link
+      ? `<a class="section-title" href="${comp.link}" target="_blank" style="color:${comp.color}">${comp.label} <span class="section-ext">↗</span></a>`
+      : `<span class="section-title" style="color:${comp.color}">${comp.label}</span>`;
+    html += `<div class="section">
+      <div class="section-header">
+        <span class="section-flag">${comp.flag}</span>
+        <span class="section-dot" style="background:${comp.color}"></span>
+        ${titleEl}
+        <span class="section-round">${comp.updated}</span>
+      </div>
+      <div class="card">
+        <div class="classif-grid header">
+          <div class="cl-pos">#</div>
+          <div class="cl-team">Equipa</div>
+          <div class="cl-num">J</div><div class="cl-num">V</div>
+          <div class="cl-num">E</div><div class="cl-num">D</div>
+          <div class="cl-num">GM</div><div class="cl-num">GS</div>
+          <div class="cl-pts">Pts</div>
+        </div>`;
+    for (const t of comp.teams) {
+      html += `<div class="classif-grid row">
+          <div class="cl-pos ${t.pos<=3?'top3':''}">${t.pos}</div>
+          <div class="cl-team">${t.name}</div>
+          <div class="cl-num">${t.p}</div><div class="cl-num">${t.v}</div>
+          <div class="cl-num">${t.e}</div><div class="cl-num">${t.d}</div>
+          <div class="cl-num">${t.gf}</div><div class="cl-num">${t.gc}</div>
+          <div class="cl-pts">${t.pts}</div>
+        </div>`;
+    }
+    html += `</div></div>`;
+  }
+  document.getElementById('content').innerHTML = html;
+}
+
+// ── MODE SWITCHER ──────────────────────────────────────────────────────────────
+function showMode(mode) {
+  localStorage.setItem('fsMode', mode);
+  document.getElementById('tab-jogos').classList.toggle('active', mode === 'jogos');
+  document.getElementById('tab-classif').classList.toggle('active', mode === 'classif');
+  document.getElementById('nav-wrapper').style.display = mode === 'jogos' ? '' : 'none';
+  if (mode === 'jogos') {
+    const saved = localStorage.getItem('fsDate');
+    const hash = location.hash.replace('#','');
+    const todayStr = new Date().toISOString().slice(0,10);
+    const keys = Object.keys(DAYS);
+    let sel = DAYS[hash] ? hash : (DAYS[saved] ? saved : (DAYS[todayStr] ? todayStr : (() => { let b=keys[0]; for(const k of keys){if(k<=todayStr)b=k;} return b; })()));
+    selectDate(sel);
+    document.getElementById('page-title').textContent = 'Jogos · ' + DAYS[sel].label[1] + ' ' + DAYS[sel].label[2];
+  } else {
+    renderClassification();
+    document.getElementById('page-title').textContent = 'Classificação';
+    document.title = 'Futsal · Classificação';
+  }
+}
+
 // ── INIT ──────────────────────────────────────────────────────────────────────
 (function() {
   const hash = location.hash.replace('#','');
+  const savedDate = localStorage.getItem('fsDate');
+  const savedMode = localStorage.getItem('fsMode') || 'jogos';
   const todayStr = new Date().toISOString().slice(0,10);
   const keys = Object.keys(DAYS);
   let selected;
   if (DAYS[hash]) {
     selected = hash;
+  } else if (DAYS[savedDate]) {
+    selected = savedDate;
   } else if (DAYS[todayStr]) {
     selected = todayStr;
   } else {
@@ -715,7 +1461,11 @@ function selectDate(key) {
     for (const k of keys) { if (k <= todayStr) best = k; }
     selected = best;
   }
-  selectDate(selected);
+  if (savedMode === 'classif') {
+    showMode('classif');
+  } else {
+    selectDate(selected);
+  }
   const ts = document.getElementById('ts');
   if (ts) ts.textContent = new Date().toLocaleTimeString('pt-PT',{hour:'2-digit',minute:'2-digit'});
 })();

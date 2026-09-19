@@ -1353,7 +1353,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/88/1404688_mateus_silva_20251215180103.jpg",
       "extra": 1
      }
     ]
@@ -2641,6 +2641,6 @@
    }
   }
  ],
- "ts": 1789828912223,
+ "ts": 1789829012675,
  "build": "20260919135920"
 }

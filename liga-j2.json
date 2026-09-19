@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 360,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -236,6 +236,12 @@
      "m": 6,
      "lado": "fora",
      "txt": "Carlos Monteiro rematou na sequência de um lance estudado, mas atirou ao lado. O Benfica continua a carregar e Paulinho Rocha chama os seus para a primeira pausa técnica: dois golos sofridos em seis minutos pedem conversa."
+    },
+    {
+     "id": "b2",
+     "m": 7,
+     "lado": "fora",
+     "txt": "Esteve mesmo perto o terceiro. Confusão dentro da área algarvia, a bola a saltar de pé em pé, e Anderson Fortes por pouco não bisava — Juan Pinheiro acabou por agarrar a bola e travar o lance."
     }
    ],
    "faltas": [
@@ -2543,6 +2549,6 @@
    }
   }
  ],
- "ts": 1789827483843,
+ "ts": 1789827555684,
  "build": "20260919135920"
 }

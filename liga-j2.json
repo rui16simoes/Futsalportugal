@@ -153,9 +153,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -302,6 +302,12 @@
      "m": 18,
      "lado": "fora",
      "txt": "Passou a raspar. Um corte mal conseguido da defesa algarvia deixou a bola nos pés de Rüben Góis dentro da área, mas o remate ainda foi beijar o poste por fora. O terceiro do Benfica anda no ar."
+    },
+    {
+     "id": "c4",
+     "m": 20,
+     "lado": "",
+     "txt": "INTERVALO EM PORTIMÃO: PORTIMONENSE 0-2 BENFICA. Os encarnados resolveram cedo, com Arthur a aproveitar uma subida do próprio guarda-redes logo aos 2 minutos e Anderson Fortes a cabecear um canto de Pany aos 6. Desde aí foi tudo Benfica em número de remates, mas faltou-lhe o golo que fechava a conversa — o poste do Rúben Góis aos 18 foi o mais perto que esteve. Do lado da casa, Vitinho teve a melhor aos 9 e Juan Pinheiro segurou o resultado mais do que uma vez. Com dois de diferença, o Portimonense volta para a segunda parte ainda com jogo. Atenção ao Kutchy, que saiu duas vezes com queixas na perna."
     }
    ],
    "faltas": [
@@ -2661,6 +2667,6 @@
    }
   }
  ],
- "ts": 1789829098861,
+ "ts": 1789829268456,
  "build": "20260919135920"
 }

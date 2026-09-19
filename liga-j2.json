@@ -153,7 +153,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
     "acc": 1200,
     "desde": 0
@@ -464,6 +464,12 @@
      "m": 40,
      "lado": "fora",
      "txt": "FALHOU ARTHUR! O livre de dez metros não entrou e o Portimonense segura o empate em cima da buzina."
+    },
+    {
+     "id": "g6",
+     "m": 40,
+     "lado": "",
+     "txt": "FINAL EM PORTIMÃO: PORTIMONENSE 2-2 BENFICA. Sem vencedor. Os algarvios estiveram a perder por dois, falharam uma grande penalidade, acertaram no poste e na barra, e ainda assim deram a volta à primeira parte para arrancar um ponto ao campeão nacional. A última palavra coube a Arthur, que atirou para fora um livre de dez metros com o tempo já esgotado."
     }
    ],
    "faltas": [
@@ -2900,6 +2906,6 @@
    }
   }
  ],
- "ts": 1789833099098,
+ "ts": 1789833238803,
  "build": "20260919151922"
 }

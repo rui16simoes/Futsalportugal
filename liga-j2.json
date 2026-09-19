@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -1082,6 +1082,18 @@
      "m": 13,
      "lado": "casa",
      "txt": "E podia ter empatado de imediato: Luís Fernandes ficou frente a frente com Eurico Cunha e atirou ao lado. Tiago Sousa ainda tentou rasteiro logo a seguir, para nova defesa do guardião visitante."
+    },
+    {
+     "id": "b5",
+     "m": 14,
+     "lado": "casa",
+     "txt": "EMPATA O BRAGA! Mamadú Turé desenhou o passe para Luís Fernandes, que apareceu sem ninguém em cima e atirou rasteiro para o fundo das redes. Primeiro golo dele na prova, e a justiça feita ao domínio minhoto. 1-1."
+    },
+    {
+     "id": "b6",
+     "m": 15,
+     "lado": "fora",
+     "txt": "Pausa técnica pedida pelo banco do Torreense, a tentar travar a reação bracarense."
     }
    ],
    "faltas": [
@@ -1155,7 +1167,7 @@
    },
    "casa": {
     "eq": "braga",
-    "golos": "",
+    "golos": "1",
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -1256,7 +1268,7 @@
       "e": "S",
       "min": "",
       "cart": "12",
-      "ass": "",
+      "ass": "14",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/66/392466_mamadu_ture_20250731150424.png"
      },
      {
@@ -1308,7 +1320,7 @@
       "num": "19",
       "nome": "LUÍS FERNANDES",
       "e": "S",
-      "min": "",
+      "min": "14",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/79/45/467945_luis_fernandes_20250806103608.png"
@@ -3126,6 +3138,6 @@
    }
   }
  ],
- "ts": 1789835546809,
+ "ts": 1789835686041,
  "build": "20260919151922"
 }

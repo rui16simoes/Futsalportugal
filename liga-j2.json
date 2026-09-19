@@ -1429,6 +1429,12 @@
      "m": 0,
      "lado": "",
      "txt": "Convocados definidos. O Eléctrico recebe o Rio Ave em Ponte de Sôr, em jogo da 2.ª jornada da Liga Placard. Diogo Basílio, guarda-redes, é o capitão da equipa da casa, com Ferrugem como sub-capitão."
+    },
+    {
+     "id": "s1",
+     "m": 0,
+     "lado": "",
+     "txt": "Duas ausências por castigo: Miguel Malhão, no Eléctrico, e Moreira, no Rio Ave, cumprem suspensão depois das expulsões que sofreram na jornada inaugural. Pedro Rodrigues é o capitão dos vila-condenses."
     }
    ],
    "faltas": [],
@@ -1626,7 +1632,7 @@
    "fora": {
     "eq": "rioave",
     "golos": "",
-    "capitao": "",
+    "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
@@ -2906,6 +2912,6 @@
    }
   }
  ],
- "ts": 1789833238803,
+ "ts": 1789833301217,
  "build": "20260919151922"
 }

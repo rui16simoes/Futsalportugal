@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180,
+    "acc": 240,
     "desde": 0
    },
    "lances": [
@@ -200,6 +200,12 @@
      "m": 3,
      "lado": "fora",
      "txt": "Atenções para Léo Gugiel: o guarda-redes do Benfica ficou com queixas numa das mãos depois de um embate com Rochato e está a ser observado."
+    },
+    {
+     "id": "a5",
+     "m": 4,
+     "lado": "casa",
+     "txt": "Jogada bem desenhada do Portimonense, com Juan Pinheiro a rematar e Luiggi Baptista a tentar o desvio de cabeça na recarga. Saiu ao lado, mas os algarvios já estão a ganhar terreno."
     }
    ],
    "faltas": [
@@ -451,7 +457,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "2",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/99/62/559962_leo_gugiel_20250919142941.jpg"
      },
      {
@@ -2500,6 +2506,6 @@
    }
   }
  ],
- "ts": 1789826842535,
+ "ts": 1789827013562,
  "build": "20260919135920"
 }

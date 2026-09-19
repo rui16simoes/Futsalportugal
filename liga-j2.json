@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -1172,6 +1172,12 @@
      "m": 26,
      "lado": "fora",
      "txt": "O Torreense voltou do balneário com outra vontade de atacar e o Braga está a sofrer com isso. Tiago Brito ficou em baixo e foi assistido."
+    },
+    {
+     "id": "d9",
+     "m": 28,
+     "lado": "casa",
+     "txt": "VIRA O BRAGA! Tabelinha na asa direita entre Tiago Sousa e Ricardo Lopes, com este último a disparar rasteiro para fazer o 2-1. Primeiro golo dele na prova — e cinco minutos depois de ter salvado a equipa em cima da linha, Tiago Sousa assina a assistência."
     }
    ],
    "faltas": [
@@ -1207,8 +1213,15 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 23,
+     "m": 27,
      "n": 1
+    },
+    {
+     "id": "fc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 27,
+     "n": 2
     }
    ],
    "gp": {
@@ -1259,7 +1272,7 @@
    },
    "casa": {
     "eq": "braga",
-    "golos": "1",
+    "golos": "2",
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -1297,14 +1310,14 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "28",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
      },
      {
       "num": "9",
       "nome": "RICARDO LOPES",
       "e": "P",
-      "min": "",
+      "min": "28",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/26/19/662619_ricardo_lopes_20241106162449.jpg"
@@ -3268,6 +3281,6 @@
    }
   }
  ],
- "ts": 1789837774109,
+ "ts": 1789838071274,
  "build": "20260919151922"
 }

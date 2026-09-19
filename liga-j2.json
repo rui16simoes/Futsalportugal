@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -1196,6 +1196,21 @@
      "m": 30,
      "lado": "fora",
      "txt": "Amarelo para Jair Pereira."
+    },
+    {
+     "id": "b31",
+     "m": 31,
+     "txt": "Ronda de remates nos dois sentidos. Tintim atirou de pé esquerdo e Léo Souza agarrou sem sobressaltos; na resposta, Luís Fernandes procurou o terceiro golo pessoal com um tiro colocado e obrigou Eurico Cunha a uma grande intervenção."
+    },
+    {
+     "id": "b32",
+     "m": 32,
+     "txt": "O Torreense passou a jogar com guarda-redes avançado. Cinco contra quatro em Braga, com a equipa de Torres Vedras a arriscar tudo para encurtar a diferença."
+    },
+    {
+     "id": "b34",
+     "m": 34,
+     "txt": "Pausa técnica pedida pelo Torreense. Faltam seis minutos e são dois os golos a separar as equipas."
     }
    ],
    "faltas": [
@@ -1810,7 +1825,7 @@
      "id": "c4",
      "m": 33,
      "lado": "",
-     "txt": "O jogo endureceu e as faltas começam a somar-se junto às duas áreas. O Rio Ave não pode sofrer mais um golo para continuar na luta e o Eléctrico vai gerindo a vantagem diante do seu público."
+     "txt": "Quarta falta do Eléctrico neste segundo tempo. Os alentejanos ficam a um castigo de oferecerem a marca dos dez metros ao adversário e o Rio Ave, com três, segue logo atrás na contagem."
     }
    ],
    "faltas": [
@@ -3380,6 +3395,6 @@
    }
   }
  ],
- "ts": 1789838715516,
+ "ts": 1789839017232,
  "build": "20260919151922"
 }

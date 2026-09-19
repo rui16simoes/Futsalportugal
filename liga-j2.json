@@ -1413,7 +1413,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1499,16 +1499,6 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
-     },
-     {
-      "num": "10",
-      "nome": "CARABETTE",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "",
-      "extra": 1
      }
     ]
    }
@@ -2651,6 +2641,6 @@
    }
   }
  ],
- "ts": 1789828828611,
+ "ts": 1789828912223,
  "build": "20260919135920"
 }

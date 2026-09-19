@@ -230,6 +230,12 @@
      "m": 6,
      "lado": "casa",
      "txt": "Amarelo para Adaílton Souza. O Portimonense está a sentir o golpe e começa a cortar o jogo dos encarnados com falta."
+    },
+    {
+     "id": "b1",
+     "m": 6,
+     "lado": "fora",
+     "txt": "Carlos Monteiro rematou na sequência de um lance estudado, mas atirou ao lado. O Benfica continua a carregar e Paulinho Rocha chama os seus para a primeira pausa técnica: dois golos sofridos em seis minutos pedem conversa."
     }
    ],
    "faltas": [
@@ -2537,6 +2543,6 @@
    }
   }
  ],
- "ts": 1789827362692,
+ "ts": 1789827483843,
  "build": "20260919135920"
 }

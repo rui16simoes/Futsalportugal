@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020,
+    "acc": 1080,
     "desde": 0
    },
    "lances": [
@@ -1112,6 +1112,12 @@
      "m": 17,
      "lado": "casa",
      "txt": "E QUE DEFESA! Ángel Claudino teve o segundo na bota, mas Eurico Cunha atirou-se para o chão e travou-lhe o remate. O guardião do Torreense está a fazer um jogo enorme."
+    },
+    {
+     "id": "c1",
+     "m": 18,
+     "lado": "casa",
+     "txt": "Os minhotos carregam a fundo nesta reta final da primeira parte."
     }
    ],
    "faltas": [
@@ -1567,9 +1573,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1020,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -1656,6 +1662,18 @@
      "m": 17,
      "lado": "fora",
      "txt": "O RIO AVE CHEGOU ÀS CINCO FALTAS e ainda faltam três minutos para o intervalo. A partir de agora, qualquer infração dá livre direto de dez metros ao Eléctrico — o pior cenário possível para quem já vai três abaixo."
+    },
+    {
+     "id": "b2",
+     "m": 20,
+     "lado": "fora",
+     "txt": "REDUZ O RIO AVE! Infelicidade de Diogo Basílio, a quem a bola fugiu das mãos e sobrou para Martín Dorda, que só teve de encostar. Primeiro golo dele na prova, e os vila-condenses vão para o intervalo com esperança. 3-1."
+    },
+    {
+     "id": "b3",
+     "m": 20,
+     "lado": "",
+     "txt": "INTERVALO EM PONTE DE SÔR. Eléctrico 3-1 Rio Ave."
     }
    ],
    "faltas": [
@@ -1895,7 +1913,7 @@
    },
    "fora": {
     "eq": "rioave",
-    "golos": "",
+    "golos": "1",
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -2030,7 +2048,7 @@
       "num": "19",
       "nome": "MARTÍN DORDA",
       "e": "S",
-      "min": "",
+      "min": "20",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
@@ -3176,6 +3194,6 @@
    }
   }
  ],
- "ts": 1789836159260,
+ "ts": 1789836267675,
  "build": "20260919151922"
 }

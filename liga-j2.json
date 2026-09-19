@@ -199,7 +199,7 @@
      "id": "a4",
      "m": 3,
      "lado": "fora",
-     "txt": "Atenções para Léo Gugiel: o guarda-redes do Benfica ficou com queixas numa das mãos depois de um embate com Rochato e está a ser observado."
+     "txt": "Atenções para Léo Gugiel: o guarda-redes do Benfica ficou com queixas numa das mãos depois de um embate com Rochato. Foi observado, mas continuou em jogo."
     },
     {
      "id": "a5",
@@ -2568,6 +2568,6 @@
    }
   }
  ],
- "ts": 1789827834379,
+ "ts": 1789827925744,
  "build": "20260919135920"
 }

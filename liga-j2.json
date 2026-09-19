@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 240,
     "desde": 0
    },
    "lances": [
@@ -1154,6 +1154,18 @@
      "m": 23,
      "lado": "fora",
      "txt": "E logo a seguir o Torreense esteve mesmo perto da reviravolta. Tintim ficou na cara do golo e atirou torto, desperdiçando a melhor ocasião da segunda parte."
+    },
+    {
+     "id": "d6",
+     "m": 23,
+     "lado": "fora",
+     "txt": "E mais uma dos visitantes! Nicolas Tomé já festejava o golo quando apareceu um corte em cima da linha a salvar o Braga."
+    },
+    {
+     "id": "d7",
+     "m": 24,
+     "lado": "fora",
+     "txt": "Nicolas Tomé insistiu e voltou a ficar na cara do golo — desta vez foi Léo Souza a fazer uma grande defesa. O Torreense está a viver o seu melhor momento no jogo."
     }
    ],
    "faltas": [
@@ -1184,6 +1196,13 @@
      "parte": 1,
      "m": 10,
      "n": 2
+    },
+    {
+     "id": "fc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
     }
    ],
    "gp": {
@@ -3243,6 +3262,6 @@
    }
   }
  ],
- "ts": 1789837400401,
+ "ts": 1789837585090,
  "build": "20260919151922"
 }

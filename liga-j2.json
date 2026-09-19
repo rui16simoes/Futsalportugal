@@ -218,7 +218,7 @@
     "golos": "",
     "capitao": "JUAN PINHEIRO",
     "treinador": "PAULINHO ROCHA",
-    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/007/69007_pri__20240912151957_paulinho_rocha.png",
+    "trFoto": "paulinho-rocha.png",
     "jogadores": [
      {
       "num": "2",
@@ -2456,6 +2456,6 @@
    }
   }
  ],
- "ts": 1789825983681,
- "build": "20260919132809"
+ "ts": 1789826486088,
+ "build": "20260919135920"
 }

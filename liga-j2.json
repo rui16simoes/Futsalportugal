@@ -981,9 +981,9 @@
    "tv": "Liga Placard no YouTube",
    "tvUrl": "https://www.youtube.com/watch?v=KUC-9qtdtuk",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 2,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -1124,6 +1124,18 @@
      "m": 20,
      "lado": "",
      "txt": "INTERVALO NA AMCO ARENA. SC Braga 1-1 Torreense."
+    },
+    {
+     "id": "d1",
+     "m": 21,
+     "lado": "",
+     "txt": "RECOMEÇOU O JOGO na AMCO Arena. Contagem de faltas a zero para as duas equipas."
+    },
+    {
+     "id": "d2",
+     "m": 21,
+     "lado": "casa",
+     "txt": "Mamadú Turé arrancou logo pelo corredor esquerdo mas, chegada a hora do remate, mandou ao lado."
     }
    ],
    "faltas": [
@@ -3206,6 +3218,6 @@
    }
   }
  ],
- "ts": 1789836945000,
+ "ts": 1789837077722,
  "build": "20260919151922"
 }

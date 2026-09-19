@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 240,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -1159,13 +1159,19 @@
      "id": "d6",
      "m": 23,
      "lado": "fora",
-     "txt": "E mais uma dos visitantes! Nicolas Tomé já festejava o golo quando apareceu um corte em cima da linha a salvar o Braga."
+     "txt": "E mais uma dos visitantes! Nicolas Tomé já festejava o golo quando Tiago Sousa apareceu a cortar em cima da linha e salvou o Braga."
     },
     {
      "id": "d7",
      "m": 24,
      "lado": "fora",
      "txt": "Nicolas Tomé insistiu e voltou a ficar na cara do golo — desta vez foi Léo Souza a fazer uma grande defesa. O Torreense está a viver o seu melhor momento no jogo."
+    },
+    {
+     "id": "d8",
+     "m": 26,
+     "lado": "fora",
+     "txt": "O Torreense voltou do balneário com outra vontade de atacar e o Braga está a sofrer com isso. Tiago Brito ficou em baixo e foi assistido."
     }
    ],
    "faltas": [
@@ -3262,6 +3268,6 @@
    }
   }
  ],
- "ts": 1789837585090,
+ "ts": 1789837774109,
  "build": "20260919151922"
 }

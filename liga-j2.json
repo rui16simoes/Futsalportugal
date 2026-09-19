@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -1022,14 +1022,33 @@
      "m": 3,
      "lado": "fora",
      "txt": "Tintim ficou em baixo e está a ser assistido pela equipa médica."
+    },
+    {
+     "id": "a4",
+     "m": 4,
+     "lado": "casa",
+     "txt": "Tiago Brito tentou de um ângulo impossível e Eurico Cunha não teve de se esforçar para segurar."
+    },
+    {
+     "id": "a5",
+     "m": 5,
+     "lado": "casa",
+     "txt": "O Braga vai tomando conta do jogo, mas sem conseguir sufocar o adversário. O Torreense está sólido atrás e, até aqui, ainda não assustou a baliza minhota."
     }
    ],
    "faltas": [
     {
+     "id": "fc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 6,
+     "n": 1
+    },
+    {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 3,
+     "m": 6,
      "n": 1
     }
    ],
@@ -1458,7 +1477,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -1491,14 +1510,27 @@
      "m": 5,
      "lado": "",
      "txt": "Arranque de estudo em Ponte de Sôr. Nenhuma das equipas se quer expor e, passados cinco minutos, ainda não houve uma jogada de golo a sério."
+    },
+    {
+     "id": "a2",
+     "m": 9,
+     "lado": "casa",
+     "txt": "Primeira de perigo real em Ponte de Sôr. Lucas Mestre bateu com muita potência à procura do ângulo e obrigou Tiago Sacramento a uma defesa a sério."
     }
    ],
    "faltas": [
     {
+     "id": "fc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 9,
+     "n": 1
+    },
+    {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 4,
+     "m": 9,
      "n": 1
     }
    ],
@@ -2976,6 +3008,6 @@
    }
   }
  ],
- "ts": 1789834240266,
+ "ts": 1789834502705,
  "build": "20260919151922"
 }

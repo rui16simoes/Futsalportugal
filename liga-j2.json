@@ -992,6 +992,12 @@
      "m": 0,
      "lado": "",
      "txt": "Convocados definidos. O SC Braga recebe o Torreense na AMCO Arena, em jogo da 2.ª jornada da Liga Placard. Tiago Brito é o capitão dos minhotos; Paulo Major usa a braçadeira nos torrienses."
+    },
+    {
+     "id": "k0",
+     "m": 0,
+     "lado": "",
+     "txt": "ROLA A BOLA NA AMCO ARENA. Francisco Costa dá início ao SC Braga x SCU Torreense, da 2.ª jornada da Liga Placard. Nenhuma das duas equipas pontuou na estreia."
     }
    ],
    "faltas": [],
@@ -1435,6 +1441,12 @@
      "m": 0,
      "lado": "",
      "txt": "Duas ausências por castigo: Miguel Malhão, no Eléctrico, e Moreira, no Rio Ave, cumprem suspensão depois das expulsões que sofreram na jornada inaugural. Pedro Rodrigues é o capitão dos vila-condenses."
+    },
+    {
+     "id": "k0",
+     "m": 0,
+     "lado": "",
+     "txt": "ROLA A BOLA EM PONTE DE SÔR. André Franco dá início ao Eléctrico x Rio Ave, da 2.ª jornada da Liga Placard."
     }
    ],
    "faltas": [],
@@ -2912,6 +2924,6 @@
    }
   }
  ],
- "ts": 1789833670863,
+ "ts": 1789833745690,
  "build": "20260919151922"
 }

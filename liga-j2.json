@@ -978,8 +978,8 @@
    "arb3": "CRISTIANO SANTOS",
    "cron": "FILIPE ALMEIDA",
    "obs": "",
-   "tv": "Canal 11",
-   "tvUrl": "",
+   "tv": "Liga Placard no YouTube",
+   "tvUrl": "https://www.youtube.com/watch?v=KUC-9qtdtuk",
    "relogio": {
     "estado": "parado",
     "parte": 1,
@@ -2912,6 +2912,6 @@
    }
   }
  ],
- "ts": 1789833301217,
+ "ts": 1789833670863,
  "build": "20260919151922"
 }

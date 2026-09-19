@@ -981,9 +981,9 @@
    "tv": "Liga Placard no YouTube",
    "tvUrl": "https://www.youtube.com/watch?v=KUC-9qtdtuk",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1080,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -1118,6 +1118,12 @@
      "m": 18,
      "lado": "casa",
      "txt": "Os minhotos carregam a fundo nesta reta final da primeira parte."
+    },
+    {
+     "id": "c2",
+     "m": 20,
+     "lado": "",
+     "txt": "INTERVALO NA AMCO ARENA. SC Braga 1-1 Torreense."
     }
    ],
    "faltas": [
@@ -3194,6 +3200,6 @@
    }
   }
  ],
- "ts": 1789836267675,
+ "ts": 1789836397088,
  "build": "20260919151922"
 }

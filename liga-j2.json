@@ -164,6 +164,18 @@
      "m": 0,
      "lado": "",
      "txt": "Convocados definidos. O Portimonense recebe o SL Benfica no Pavilhão Gimnodesportivo de Portimão, em jogo da 2.ª jornada da Liga Placard. Juan Pinheiro é o capitão dos algarvios; Afonso Jesus usa a braçadeira nas águias."
+    },
+    {
+     "id": "k0",
+     "m": 0,
+     "lado": "",
+     "txt": "ROLA A BOLA EM PORTIMÃO. David Pereira dá início ao Portimonense x SL Benfica, da 2.ª jornada da Liga Placard."
+    },
+    {
+     "id": "c5",
+     "m": 0,
+     "lado": "",
+     "txt": "CINCOS INICIAIS. Paulinho Rocha aposta em Juan Pinheiro à frente de Rochato, Tomás Reis, Vitinho e Filipinho. Cassiano Klein responde com Léo Gugiel na baliza e Silvestre, Kutchy, Arthur e Carlinhos no cinco."
     }
    ],
    "faltas": [],
@@ -223,7 +235,7 @@
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -259,7 +271,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -286,7 +298,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -295,7 +307,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -331,7 +343,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -404,7 +416,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -440,7 +452,7 @@
      {
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -467,7 +479,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -476,7 +488,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -485,7 +497,7 @@
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2456,6 +2468,6 @@
    }
   }
  ],
- "ts": 1789826486088,
+ "ts": 1789826631287,
  "build": "20260919135920"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -254,6 +254,18 @@
      "m": 9,
      "lado": "fora",
      "txt": "Más notícias para Cassiano Klein: Edmilson Kutchy queixou-se, foi assistido pelo departamento médico ali mesmo e saiu da quadra logo a seguir. Um dos cinco iniciais das águias fora de combate a meio da primeira parte."
+    },
+    {
+     "id": "b5",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Gui recebeu nas costas da defesa encarnada e foi à procura do golo em velocidade, mas resolveu cedo de mais: o remate saiu descontrolado e morreu na malha lateral. Cassiano Klein aproveitou a pausa seguinte para reunir a equipa."
+    },
+    {
+     "id": "b6",
+     "m": 11,
+     "lado": "fora",
+     "txt": "Juan Pinheiro deu e tirou. A primeira defesa ficou incompleta, a bola sobrou para Afonso Jesus e o capitão das águias arriscou o remate de calcanhar — o guarda-redes algarvio recompôs-se a tempo de lhe fechar o espaço."
     }
    ],
    "faltas": [
@@ -2568,6 +2580,6 @@
    }
   }
  ],
- "ts": 1789827925744,
+ "ts": 1789828167526,
  "build": "20260919135920"
 }

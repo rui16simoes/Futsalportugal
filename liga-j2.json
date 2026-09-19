@@ -206,6 +206,12 @@
      "m": 4,
      "lado": "casa",
      "txt": "Jogada bem desenhada do Portimonense, com Juan Pinheiro a rematar e Luiggi Baptista a tentar o desvio de cabeça na recarga. Saiu ao lado, mas os algarvios já estão a ganhar terreno."
+    },
+    {
+     "id": "a6",
+     "m": 4,
+     "lado": "fora",
+     "txt": "Do outro lado, Anderson Fortes carregou no gatilho da meia-esquerda e obrigou Juan Pinheiro a seguir a bola até ela passar rente ao poste. Jogo aberto nos dois sentidos."
     }
    ],
    "faltas": [
@@ -2506,6 +2512,6 @@
    }
   }
  ],
- "ts": 1789827013562,
+ "ts": 1789827103682,
  "build": "20260919135920"
 }

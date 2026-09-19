@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -314,6 +314,30 @@
      "m": 21,
      "lado": "",
      "txt": "RECOMEÇOU O JOGO. Segunda parte a rolar em Portimão, com o Portimonense obrigado a arriscar."
+    },
+    {
+     "id": "d2",
+     "m": 21,
+     "lado": "casa",
+     "txt": "Começou com o Vitinho no chão: Silvestre chegou tarde ao lance e o algarvio precisou de assistência ali mesmo na quadra."
+    },
+    {
+     "id": "d3",
+     "m": 21,
+     "lado": "fora",
+     "txt": "Cléber procurou espaço para o remate e conseguiu-o, mas a bola bateu num defesa antes de sair pela linha de fundo. Canto para as águias."
+    },
+    {
+     "id": "d4",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Amarelo para Andriy Dzyalo. O Portimonense volta a recorrer à falta para travar o Benfica."
+    },
+    {
+     "id": "d5",
+     "m": 23,
+     "lado": "fora",
+     "txt": "Duas seguidas e nenhuma entrou. Arthur experimentou o remate direto e atirou em cima de Juan Pinheiro; logo a seguir André Coelho surgiu à boca da baliza, no segundo poste, com tudo para encostar — e mandou para fora."
     }
    ],
    "faltas": [
@@ -365,6 +389,27 @@
      "parte": 1,
      "m": 19,
      "n": 4
+    },
+    {
+     "id": "fc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "ff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "ff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 23,
+     "n": 2
     }
    ],
    "gp": {
@@ -551,7 +596,7 @@
       "nome": "ANDRIY DZYALO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "23",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/34/97/16663497_andriy_dzyalo_20260714123728.png"
      },
@@ -2673,6 +2718,6 @@
    }
   }
  ],
- "ts": 1789830050972,
+ "ts": 1789830508134,
  "build": "20260919135920"
 }

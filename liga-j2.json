@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -1211,6 +1211,11 @@
      "id": "b34",
      "m": 34,
      "txt": "Pausa técnica pedida pelo Torreense. Faltam seis minutos e são dois os golos a separar as equipas."
+    },
+    {
+     "id": "b36",
+     "m": 36,
+     "txt": "O 5x4 do Torreense não está a produzir soluções. A equipa de Torres Vedras circula a bola sem encontrar brecha no bloco do Braga e a melhor tentativa foi um remate de pé direito de Tintim, sem perigo para Léo Souza."
     }
    ],
    "faltas": [
@@ -3410,6 +3415,6 @@
    }
   }
  ],
- "ts": 1789839207307,
+ "ts": 1789839292736,
  "build": "20260919151922"
 }

@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -1052,6 +1052,12 @@
      "m": 9,
      "lado": "fora",
      "txt": "Resposta do Torreense pela primeira vez com pontaria: Nicolas Tomé disparou e a bola foi morrer na malha lateral."
+    },
+    {
+     "id": "a9",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Daniel Airoso tentou a sorte da meia distância e a bola ainda foi desviada no caminho, sem perigo para Eurico Cunha."
     }
    ],
    "faltas": [
@@ -1502,7 +1508,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -1558,7 +1564,13 @@
      "id": "a5",
      "m": 12,
      "lado": "casa",
-     "txt": "GOLO DO ELÉCTRICO! Lucas Mestre, que já tinha obrigado Tiago Sacramento a uma grande defesa aos 9, não falhou à segunda. Segundo golo dele na prova e 1-0 em Ponte de Sôr."
+     "txt": "GOLO DO ELÉCTRICO! Ferrugem viu tudo e atirou um passe longo para as costas da defesa; Lucas Mestre, de costas para a baliza, mandou-lhe a cabeça e deixou Tiago Sacramento a ver a bola passar. Segundo golo dele na prova. 1-0."
+    },
+    {
+     "id": "a6",
+     "m": 13,
+     "lado": "casa",
+     "txt": "E OUTRO, NA SEQUÊNCIA! Henrique Vicente marca o segundo do Eléctrico e estreia-se a marcar na prova. Em pouco mais de um minuto a equipa de Jorge Monteiro deu um salto de dois golos. 2-0."
     }
    ],
    "faltas": [
@@ -1632,7 +1644,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": "1",
+    "golos": "2",
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -1670,7 +1682,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "12",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/50/16723250_ferrugem_20260802044620.png"
      },
      {
@@ -1722,7 +1734,7 @@
       "num": "20",
       "nome": "HENRIQUE VICENTE",
       "e": "P",
-      "min": "",
+      "min": "13",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
@@ -3058,6 +3070,6 @@
    }
   }
  ],
- "ts": 1789834972603,
+ "ts": 1789835096679,
  "build": "20260919151922"
 }

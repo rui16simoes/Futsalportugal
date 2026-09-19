@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -1058,6 +1058,12 @@
      "m": 11,
      "lado": "casa",
      "txt": "Daniel Airoso tentou a sorte da meia distância e a bola ainda foi desviada no caminho, sem perigo para Eurico Cunha."
+    },
+    {
+     "id": "b1",
+     "m": 12,
+     "lado": "fora",
+     "txt": "GRANDE PENALIDADE PARA O TORREENSE! Francisco Costa assinala penalti e mostra o amarelo a Mamadú Turé no mesmo lance. Chance de ouro para os visitantes abrirem o marcador na AMCO Arena."
     }
    ],
    "faltas": [
@@ -1231,7 +1237,7 @@
       "nome": "MAMADÚ TURÉ",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "12",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/66/392466_mamadu_ture_20250731150424.png"
      },
@@ -3070,6 +3076,6 @@
    }
   }
  ],
- "ts": 1789835096679,
+ "ts": 1789835175073,
  "build": "20260919151922"
 }

@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480,
+    "acc": 600,
     "desde": 0
    },
    "lances": [
@@ -1178,6 +1178,24 @@
      "m": 28,
      "lado": "casa",
      "txt": "VIRA O BRAGA! Tabelinha na asa direita entre Tiago Sousa e Ricardo Lopes, com este último a disparar rasteiro para fazer o 2-1. Primeiro golo dele na prova — e cinco minutos depois de ter salvado a equipa em cima da linha, Tiago Sousa assina a assistência."
+    },
+    {
+     "id": "e1",
+     "m": 29,
+     "lado": "casa",
+     "txt": "Dupla defesa de Léo Souza a manter o Braga à frente — duas intervencoes seguidas de grande nível."
+    },
+    {
+     "id": "e2",
+     "m": 29,
+     "lado": "casa",
+     "txt": "GOLO DO BRAGA! Outra vez a bola parada a dar frutos e outra vez Luís Fernandes no sítio certo, agora com um remate colocado. Bisa no encontro e faz o 3-1. Terceira assistência da tarde para Tiago Sousa."
+    },
+    {
+     "id": "e3",
+     "m": 30,
+     "lado": "fora",
+     "txt": "Amarelo para Jair Pereira."
     }
    ],
    "faltas": [
@@ -1213,7 +1231,7 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 27,
+     "m": 23,
      "n": 1
     },
     {
@@ -1221,6 +1239,27 @@
      "lado": "casa",
      "parte": 2,
      "m": 27,
+     "n": 2
+    },
+    {
+     "id": "fc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 30,
+     "n": 3
+    },
+    {
+     "id": "ff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 29,
+     "n": 1
+    },
+    {
+     "id": "ff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 30,
      "n": 2
     }
    ],
@@ -1272,7 +1311,7 @@
    },
    "casa": {
     "eq": "braga",
-    "golos": "2",
+    "golos": "3",
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -1310,7 +1349,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "28",
+      "ass": "28, 29",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
      },
      {
@@ -1425,7 +1464,7 @@
       "num": "19",
       "nome": "LUÍS FERNANDES",
       "e": "S",
-      "min": "14",
+      "min": "14, 29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/79/45/467945_luis_fernandes_20250806103608.png"
@@ -1552,7 +1591,7 @@
       "nome": "JAIR PEREIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "30",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/48/1305748_jair_pereira_20250702155048.png"
      },
@@ -3321,6 +3360,6 @@
    }
   }
  ],
- "ts": 1789838256255,
+ "ts": 1789838454433,
  "build": "20260919151922"
 }

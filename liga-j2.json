@@ -187,7 +187,13 @@
      "id": "a2",
      "m": 2,
      "lado": "fora",
-     "txt": "GOLO DO BENFICA! Arthur não perdoou e adiantou as águias com apenas dois minutos jogados. Já vai no segundo golo em dois jogos na prova. 0-1."
+     "txt": "GOLO DO BENFICA! Saiu de uma subida do próprio guarda-redes: Léo Gugiel avançou na quadra e serviu Arthur, que carregou para dentro e fuzilou junto ao primeiro poste. Dois minutos jogados e as águias já mandam. 0-1."
+    },
+    {
+     "id": "a3",
+     "m": 2,
+     "lado": "casa",
+     "txt": "Resposta imediata dos algarvios: André Rochato carregou no gatilho à entrada da área, com muita força, mas mandou por cima da barra."
     }
    ],
    "faltas": [],
@@ -2480,6 +2486,6 @@
    }
   }
  ],
- "ts": 1789826669386,
+ "ts": 1789826756435,
  "build": "20260919135920"
 }

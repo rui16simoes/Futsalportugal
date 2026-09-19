@@ -1688,7 +1688,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -1805,6 +1805,12 @@
      "m": 29,
      "lado": "fora",
      "txt": "Esteve lá o segundo dos vila-condenses! Miguel Ângelo ficou cara a cara com o guardião do Eléctrico e, com a baliza à sua frente, mandou por cima."
+    },
+    {
+     "id": "c4",
+     "m": 33,
+     "lado": "",
+     "txt": "O jogo endureceu e as faltas começam a somar-se junto às duas áreas. O Rio Ave não pode sofrer mais um golo para continuar na luta e o Eléctrico vai gerindo a vantagem diante do seu público."
     }
    ],
    "faltas": [
@@ -1863,6 +1869,20 @@
      "parte": 2,
      "m": 28,
      "n": 2
+    },
+    {
+     "id": "fc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 3
+    },
+    {
+     "id": "fc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 33,
+     "n": 4
     },
     {
      "id": "ff21",
@@ -3360,6 +3380,6 @@
    }
   }
  ],
- "ts": 1789838454433,
+ "ts": 1789838715516,
  "build": "20260919151922"
 }

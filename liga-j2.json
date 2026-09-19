@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900,
+    "acc": 961,
     "desde": 0
    },
    "lances": [
@@ -410,6 +410,18 @@
      "m": 35,
      "lado": "casa",
      "txt": "EMPATE EM PORTIMÃO! Rui Moreira abriu a defesa encarnada com um passe longo para o corredor direito, Tomás Reis ganhou a corrida e bateu de bico, cruzado, sem hipótese para Gugiel. O mesmo que falhara a grande penalidade aos 26 redime-se e faz o 2-2."
+    },
+    {
+     "id": "f1",
+     "m": 36,
+     "lado": "fora",
+     "txt": "Resposta encarnada: Cléber Souza ganhou espaço pela esquerda e procurou o primeiro poste, mas Juan Pinheiro fechou-lhe a porta."
+    },
+    {
+     "id": "f2",
+     "m": 37,
+     "lado": "fora",
+     "txt": "O BENFICA CHEGOU ÀS CINCO FALTAS. A partir daqui qualquer infração das águias dá livre direto de dez metros ao Portimonense — e faltam menos de quatro minutos."
     }
    ],
    "faltas": [
@@ -466,50 +478,57 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 1
     },
     {
      "id": "fc22",
      "lado": "casa",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 2
     },
     {
      "id": "fc23",
      "lado": "casa",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 3
     },
     {
      "id": "ff21",
      "lado": "fora",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 1
     },
     {
      "id": "ff22",
      "lado": "fora",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 2
     },
     {
      "id": "ff23",
      "lado": "fora",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 3
     },
     {
      "id": "ff24",
      "lado": "fora",
      "parte": 2,
-     "m": 31,
+     "m": 37,
      "n": 4
+    },
+    {
+     "id": "ff25",
+     "lado": "fora",
+     "parte": 2,
+     "m": 37,
+     "n": 5
     }
    ],
    "gp": {
@@ -2825,6 +2844,6 @@
    }
   }
  ],
- "ts": 1789832234401,
+ "ts": 1789832311592,
  "build": "20260919151922"
 }

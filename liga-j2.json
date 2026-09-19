@@ -193,7 +193,7 @@
      "id": "a3",
      "m": 2,
      "lado": "casa",
-     "txt": "Resposta imediata dos algarvios: André Rochato carregou no gatilho à entrada da área, com muita força, mas mandou por cima da barra."
+     "txt": "Rochato quis responder de imediato: ganhou espaço à entrada da área e bateu com força, mas levantou de mais e a bola foi para as bancadas."
     },
     {
      "id": "a4",
@@ -205,13 +205,13 @@
      "id": "a5",
      "m": 4,
      "lado": "casa",
-     "txt": "Jogada bem desenhada do Portimonense, com Juan Pinheiro a rematar e Luiggi Baptista a tentar o desvio de cabeça na recarga. Saiu ao lado, mas os algarvios já estão a ganhar terreno."
+     "txt": "Boa combinação algarvia, com Juan Pinheiro a subir ao ataque para o disparo. Luiggi Baptista ainda chegou de cabeça ao ressalto, sem conseguir enquadrar com a baliza."
     },
     {
      "id": "a6",
      "m": 4,
      "lado": "fora",
-     "txt": "Do outro lado, Anderson Fortes carregou no gatilho da meia-esquerda e obrigou Juan Pinheiro a seguir a bola até ela passar rente ao poste. Jogo aberto nos dois sentidos."
+     "txt": "Do lado contrário, Anderson Fortes experimentou de longe pela meia-esquerda. A bola passou a raspar o alvo."
     },
     {
      "id": "a7",
@@ -235,13 +235,13 @@
      "id": "b1",
      "m": 6,
      "lado": "fora",
-     "txt": "Carlos Monteiro rematou na sequência de um lance estudado, mas atirou ao lado. O Benfica continua a carregar e Paulinho Rocha chama os seus para a primeira pausa técnica: dois golos sofridos em seis minutos pedem conversa."
+     "txt": "Os encarnados ensaiaram uma jogada de bola parada que acabou em remate de Carlos Monteiro, sem pontaria. Paulinho Rocha aproveitou para juntar os seus junto ao banco: dois golos sofridos em seis minutos pedem conversa."
     },
     {
      "id": "b2",
      "m": 7,
      "lado": "fora",
-     "txt": "Esteve mesmo perto o terceiro. Confusão dentro da área algarvia, a bola a saltar de pé em pé, e Anderson Fortes por pouco não bisava — Juan Pinheiro acabou por agarrar a bola e travar o lance."
+     "txt": "Quase o terceiro. A bola andou aos saltos em frente à baliza algarvia e Anderson Fortes chegou a ter o bis nos pés, até Juan Pinheiro se atirar para cima dela e fechar o lance."
     }
    ],
    "faltas": [
@@ -2549,6 +2549,6 @@
    }
   }
  ],
- "ts": 1789827555684,
+ "ts": 1789827661080,
  "build": "20260919135920"
 }

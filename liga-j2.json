@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -1136,6 +1136,24 @@
      "m": 21,
      "lado": "casa",
      "txt": "Mamadú Turé arrancou logo pelo corredor esquerdo mas, chegada a hora do remate, mandou ao lado."
+    },
+    {
+     "id": "d3",
+     "m": 22,
+     "lado": "fora",
+     "txt": "O Torreense respondeu por Vitinho, com um remate carregado que obrigou Léo Souza a uma defesa apertada. O ala ficou em baixo no lance e foi assistido."
+    },
+    {
+     "id": "d4",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Ricardo Lopes deixou dois adversários para trás com um pormenor de classe, mas estragou tudo no fim: rematou em cima de Eurico Cunha."
+    },
+    {
+     "id": "d5",
+     "m": 23,
+     "lado": "fora",
+     "txt": "E logo a seguir o Torreense esteve mesmo perto da reviravolta. Tintim ficou na cara do golo e atirou torto, desperdiçando a melhor ocasião da segunda parte."
     }
    ],
    "faltas": [
@@ -1593,7 +1611,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -1742,6 +1760,13 @@
      "parte": 1,
      "m": 17,
      "n": 5
+    },
+    {
+     "id": "fc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 22,
+     "n": 1
     }
    ],
    "gp": {
@@ -3218,6 +3243,6 @@
    }
   }
  ],
- "ts": 1789837077722,
+ "ts": 1789837400401,
  "build": "20260919151922"
 }

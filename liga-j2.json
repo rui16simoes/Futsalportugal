@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1020,
+    "acc": 1080,
     "desde": 0
    },
    "lances": [
@@ -1221,6 +1221,11 @@
      "id": "b37",
      "m": 37,
      "txt": "MAIS UM DO BRAGA! O 5x4 do Torreense virou-se contra a própria equipa. Houve perda de bola com a baliza deserta e Tiago Brito viu logo o espaço: atirou de muito longe e fez o 4-1, o seu segundo golo na prova."
+    },
+    {
+     "id": "b38",
+     "m": 38,
+     "txt": "Eurico Cunha voltou a segurar o Torreense. O guarda-redes respondeu bem a um remate de Peixinho e evitou o quinto num período em que o Braga se sente à vontade."
     }
    ],
    "faltas": [
@@ -3420,6 +3425,6 @@
    }
   }
  ],
- "ts": 1789839371910,
+ "ts": 1789839532643,
  "build": "20260919151922"
 }

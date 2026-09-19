@@ -409,7 +409,7 @@
      "id": "e8",
      "m": 35,
      "lado": "casa",
-     "txt": "EMPATE EM PORTIMÃO! Tomás Reis marca e faz o 2-2. O mesmo que tinha falhado a grande penalidade aos 26 minutos redime-se e põe a equipa da casa em pé de igualdade com o campeão nacional."
+     "txt": "EMPATE EM PORTIMÃO! Rui Moreira abriu a defesa encarnada com um passe longo para o corredor direito, Tomás Reis ganhou a corrida e bateu de bico, cruzado, sem hipótese para Gugiel. O mesmo que falhara a grande penalidade aos 26 redime-se e faz o 2-2."
     }
    ],
    "faltas": [
@@ -598,7 +598,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "35",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/12/66/16661266_rui_moreira_20260713220448.png"
      },
      {
@@ -2825,6 +2825,6 @@
    }
   }
  ],
- "ts": 1789832111091,
+ "ts": 1789832234401,
  "build": "20260919151922"
 }

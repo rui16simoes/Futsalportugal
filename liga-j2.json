@@ -248,6 +248,12 @@
      "m": 9,
      "lado": "casa",
      "txt": "A melhor do Portimonense até aqui. Vitinho apareceu isolado diante de Léo Gugiel e procurou o remate colocado em vez da força, mas o guardião encarnado fez-se grande e tapou-lhe o ângulo."
+    },
+    {
+     "id": "b4",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Más notícias para Cassiano Klein: Edmilson Kutchy queixou-se, foi assistido pelo departamento médico ali mesmo e saiu da quadra logo a seguir. Um dos cinco iniciais das águias fora de combate a meio da primeira parte."
     }
    ],
    "faltas": [
@@ -2562,6 +2568,6 @@
    }
   }
  ],
- "ts": 1789827778379,
+ "ts": 1789827834379,
  "build": "20260919135920"
 }

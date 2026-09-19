@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -176,6 +176,18 @@
      "m": 0,
      "lado": "",
      "txt": "CINCOS INICIAIS. Paulinho Rocha aposta em Juan Pinheiro à frente de Rochato, Tomás Reis, Vitinho e Filipinho. Cassiano Klein responde com Léo Gugiel na baliza e Silvestre, Kutchy, Arthur e Carlinhos no cinco."
+    },
+    {
+     "id": "a1",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Aviso dos encarnados logo no primeiro minuto: Silvestre Ferreira atirou cruzado depois de uma bola parada, mas a bola saiu ao lado do poste de Juan Pinheiro."
+    },
+    {
+     "id": "a2",
+     "m": 2,
+     "lado": "fora",
+     "txt": "GOLO DO BENFICA! Arthur não perdoou e adiantou as águias com apenas dois minutos jogados. Já vai no segundo golo em dois jogos na prova. 0-1."
     }
    ],
    "faltas": [],
@@ -227,7 +239,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": "",
+    "golos": "0",
     "capitao": "JUAN PINHEIRO",
     "treinador": "PAULINHO ROCHA",
     "trFoto": "paulinho-rocha.png",
@@ -390,7 +402,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": "",
+    "golos": "1",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -480,7 +492,7 @@
       "num": "10",
       "nome": "ARTHUR",
       "e": "P",
-      "min": "",
+      "min": "2",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
@@ -2468,6 +2480,6 @@
    }
   }
  ],
- "ts": 1789826631287,
+ "ts": 1789826669386,
  "build": "20260919135920"
 }

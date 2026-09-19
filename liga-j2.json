@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -350,6 +350,18 @@
      "m": 25,
      "lado": "casa",
      "txt": "GOLO DO PORTIMONENSE! André Rochato reduz e devolve a esperança a Portimão. Marca pela primeira vez na prova e faz o 1-2 — o castigo para tanta oportunidade desperdiçada pelos encarnados."
+    },
+    {
+     "id": "d8",
+     "m": 26,
+     "lado": "casa",
+     "txt": "GRANDE PENALIDADE PARA O PORTIMONENSE! David Pereira viu falta de Pany Varela mesmo no limite da área e apontou para a marca."
+    },
+    {
+     "id": "d9",
+     "m": 26,
+     "lado": "fora",
+     "txt": "DEFENDE ANDRÉ CORREIA! Tomás Reis escolheu bater ao meio e foi acertar em cheio no guarda-redes, que não chegou a sair do sítio. O empate ficou por ali."
     }
    ],
    "faltas": [
@@ -580,7 +592,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "25",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/33/1169133_montanha_20240912113852.png"
      },
      {
@@ -2737,6 +2749,6 @@
    }
   }
  ],
- "ts": 1789830749770,
+ "ts": 1789830946206,
  "build": "20260919135920"
 }

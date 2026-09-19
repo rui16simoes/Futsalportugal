@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -1216,6 +1216,11 @@
      "id": "b36",
      "m": 36,
      "txt": "O 5x4 do Torreense não está a produzir soluções. A equipa de Torres Vedras circula a bola sem encontrar brecha no bloco do Braga e a melhor tentativa foi um remate de pé direito de Tintim, sem perigo para Léo Souza."
+    },
+    {
+     "id": "b37",
+     "m": 37,
+     "txt": "MAIS UM DO BRAGA! O 5x4 do Torreense virou-se contra a própria equipa. Houve perda de bola com a baliza deserta e Tiago Brito viu logo o espaço: atirou de muito longe e fez o 4-1, o seu segundo golo na prova."
     }
    ],
    "faltas": [
@@ -1331,7 +1336,7 @@
    },
    "casa": {
     "eq": "braga",
-    "golos": "3",
+    "golos": 4,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -1412,7 +1417,7 @@
       "num": "6",
       "nome": "TIAGO BRITO",
       "e": "P",
-      "min": "",
+      "min": "37",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
@@ -3415,6 +3420,6 @@
    }
   }
  ],
- "ts": 1789839292736,
+ "ts": 1789839371910,
  "build": "20260919151922"
 }

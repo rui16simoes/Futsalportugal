@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -362,6 +362,36 @@
      "m": 26,
      "lado": "fora",
      "txt": "DEFENDE ANDRÉ CORREIA! Tomás Reis escolheu bater ao meio e foi acertar em cheio no guarda-redes, que não chegou a sair do sítio. O empate ficou por ali."
+    },
+    {
+     "id": "e1",
+     "m": 26,
+     "lado": "casa",
+     "txt": "E AO POSTE! Ainda a seguir ao penalti falhado, Rochato desfez-se de dois adversários e procurou o remate colocado. A bola bateu no ferro. O Portimonense esteve a centímetros do empate duas vezes no mesmo minuto."
+    },
+    {
+     "id": "e2",
+     "m": 27,
+     "lado": "fora",
+     "txt": "Cléber Souza arranjou espaço para o disparo mas encontrou pela frente um corte de um defensor algarvio, com Juan Pinheiro a ficar com a bola."
+    },
+    {
+     "id": "e3",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Amarelo para Vitinho."
+    },
+    {
+     "id": "e4",
+     "m": 28,
+     "lado": "casa",
+     "txt": "À BARRA! Gui penteou a bola para o esquerdo, tirou Pany Varela da frente e bateu com tudo — o travessão devolveu. Terceira vez em três minutos que o empate passa ao lado dos algarvios."
+    },
+    {
+     "id": "e5",
+     "m": 29,
+     "lado": "casa",
+     "txt": "E mais uma. Juan Pinheiro tirou um passe de qualidade para o segundo poste, onde Filipinho aparecia à espera, mas Gugiel saiu bem e fechou-lhe o primeiro poste."
     }
    ],
    "faltas": [
@@ -418,35 +448,49 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 26,
+     "m": 31,
      "n": 1
+    },
+    {
+     "id": "fc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 2
+    },
+    {
+     "id": "fc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 3
     },
     {
      "id": "ff21",
      "lado": "fora",
      "parte": 2,
-     "m": 26,
+     "m": 31,
      "n": 1
     },
     {
      "id": "ff22",
      "lado": "fora",
      "parte": 2,
-     "m": 26,
+     "m": 31,
      "n": 2
     },
     {
      "id": "ff23",
      "lado": "fora",
      "parte": 2,
-     "m": 26,
+     "m": 31,
      "n": 3
     },
     {
      "id": "ff24",
      "lado": "fora",
      "parte": 2,
-     "m": 26,
+     "m": 31,
      "n": 4
     }
    ],
@@ -544,7 +588,7 @@
       "nome": "VITINHO",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "27",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/75/49/16637549_vitinho_20260702153117.jpg"
      },
@@ -1092,7 +1136,7 @@
     "golos": "",
     "capitao": "PAULO MAJOR",
     "treinador": "NANÁ",
-    "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
+    "trFoto": "barth-sorrilha.png",
     "jogadores": [
      {
       "num": "1",
@@ -2763,6 +2807,6 @@
    }
   }
  ],
- "ts": 1789831073208,
- "build": "20260919135920"
+ "ts": 1789831767482,
+ "build": "20260919151922"
 }

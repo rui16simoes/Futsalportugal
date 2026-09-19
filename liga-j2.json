@@ -1145,10 +1145,10 @@
    "data": "19 de setembro de 2026",
    "hora": "17h00",
    "local": "Pavilhão Gimnodesportivo de Ponte de Sôr",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "ANDRÉ FRANCO",
+   "arb2": "FILIPE DUARTE",
+   "arb3": "NUNO MATIAS",
+   "cron": "ANDRÉ MATEUS",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -1158,7 +1158,14 @@
     "acc": 0,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "s0",
+     "m": 0,
+     "lado": "",
+     "txt": "Convocados definidos. O Eléctrico recebe o Rio Ave em Ponte de Sôr, em jogo da 2.ª jornada da Liga Placard. Diogo Basílio, guarda-redes, é o capitão da equipa da casa, com Ferrugem como sub-capitão."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -1209,14 +1216,14 @@
    "casa": {
     "eq": "electrico",
     "golos": "",
-    "capitao": "",
+    "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
     "jogadores": [
      {
       "num": "16",
       "nome": "LEONARDO ATANÁSIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1225,7 +1232,7 @@
      {
       "num": "88",
       "nome": "KIKO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1234,7 +1241,7 @@
      {
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1243,7 +1250,7 @@
      {
       "num": "5",
       "nome": "FERRUGEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1252,7 +1259,7 @@
      {
       "num": "33",
       "nome": "TELMO SOUSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1261,7 +1268,7 @@
      {
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1270,7 +1277,7 @@
      {
       "num": "7",
       "nome": "MIGUEL MALHÃO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1279,7 +1286,7 @@
      {
       "num": "10",
       "nome": "THALES ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1288,7 +1295,7 @@
      {
       "num": "15",
       "nome": "LUCAS MESTRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1297,7 +1304,7 @@
      {
       "num": "20",
       "nome": "HENRIQUE VICENTE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1306,7 +1313,7 @@
      {
       "num": "21",
       "nome": "MARTÍN ARRIAGADA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1315,7 +1322,7 @@
      {
       "num": "74",
       "nome": "GABRIEL HOFFELDER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1324,7 +1331,7 @@
      {
       "num": "14",
       "nome": "ARTHUR SARAIVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1333,11 +1340,21 @@
      {
       "num": "18",
       "nome": "MATHEUS MARQUETI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/17/63/16721763_matheus_marqueti_20260908144218.png"
+     },
+     {
+      "num": "8",
+      "nome": "MATEUS SILVA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
@@ -1351,7 +1368,7 @@
      {
       "num": "1",
       "nome": "TOMÁS RAMOS (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1360,7 +1377,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1369,7 +1386,7 @@
      {
       "num": "33",
       "nome": "TIAGO SACRAMENTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1378,7 +1395,7 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1387,7 +1404,7 @@
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1396,7 +1413,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1405,7 +1422,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1414,7 +1431,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1423,7 +1440,7 @@
      {
       "num": "11",
       "nome": "ZÉZINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1432,7 +1449,7 @@
      {
       "num": "13",
       "nome": "BEBÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1441,7 +1458,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1450,7 +1467,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1459,7 +1476,7 @@
      {
       "num": "18",
       "nome": "SERGINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1468,7 +1485,7 @@
      {
       "num": "4",
       "nome": "FRANCISCO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1477,11 +1494,21 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
+     },
+     {
+      "num": "10",
+      "nome": "CARABETTE",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -2624,6 +2651,6 @@
    }
   }
  ],
- "ts": 1789828772161,
+ "ts": 1789828828611,
  "build": "20260919135920"
 }

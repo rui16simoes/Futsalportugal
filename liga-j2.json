@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1065,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -434,6 +434,36 @@
      "m": 38,
      "lado": "fora",
      "txt": "E outra vez os dois. Rúben Góis arriscou da meia distância e Juan Pinheiro mandou-a para fora com uma palmada. Cassiano Klein pede pausa técnica para desenhar o ataque final."
+    },
+    {
+     "id": "g1",
+     "m": 40,
+     "lado": "casa",
+     "txt": "O Portimonense chegou também às cinco faltas, e Gui viu amarelo no lance. A partir daqui é livre direto para qualquer lado que falte."
+    },
+    {
+     "id": "g2",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Arthur ficou em baixo no choque com Gui, foi assistido e deixou a quadra a coxear."
+    },
+    {
+     "id": "g3",
+     "m": 40,
+     "lado": "casa",
+     "txt": "CARICATO. Juan Pinheiro atirou a bola para a frente só para queimar o tempo, Montanha foi disputá-la com Léo Gugiel dentro da área contrária e cometeu falta. Faltava um segundo — a buzina chegou a ouvir-se no pavilhão."
+    },
+    {
+     "id": "g4",
+     "m": 40,
+     "lado": "fora",
+     "txt": "LIVRE DIRETO DE DEZ METROS PARA O BENFICA, com o jogo já terminado no relógio. Arthur, que tinha saído a coxear, volta para bater. Do outro lado, Nuno Costa entra na baliza do Portimonense para tentar a defesa."
+    },
+    {
+     "id": "g5",
+     "m": 40,
+     "lado": "fora",
+     "txt": "FALHOU ARTHUR! O livre de dez metros não entrou e o Portimonense segura o empate em cima da buzina."
     }
    ],
    "faltas": [
@@ -490,63 +520,70 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 1
     },
     {
      "id": "fc22",
      "lado": "casa",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 2
     },
     {
      "id": "fc23",
      "lado": "casa",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 3
     },
     {
      "id": "fc24",
      "lado": "casa",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 4
+    },
+    {
+     "id": "fc25",
+     "lado": "casa",
+     "parte": 2,
+     "m": 40,
+     "n": 5
     },
     {
      "id": "ff21",
      "lado": "fora",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 1
     },
     {
      "id": "ff22",
      "lado": "fora",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 2
     },
     {
      "id": "ff23",
      "lado": "fora",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 3
     },
     {
      "id": "ff24",
      "lado": "fora",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 4
     },
     {
      "id": "ff25",
      "lado": "fora",
      "parte": 2,
-     "m": 37,
+     "m": 40,
      "n": 5
     }
    ],
@@ -662,7 +699,7 @@
       "nome": "GUI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "40",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/36/57/16653657_gui_20260709195957.png"
      },
@@ -2863,6 +2900,6 @@
    }
   }
  ],
- "ts": 1789832665750,
+ "ts": 1789833099098,
  "build": "20260919151922"
 }

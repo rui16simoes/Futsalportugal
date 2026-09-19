@@ -153,9 +153,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 2,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -308,6 +308,12 @@
      "m": 20,
      "lado": "",
      "txt": "INTERVALO EM PORTIMÃO. Portimonense 0-2 Benfica."
+    },
+    {
+     "id": "d1",
+     "m": 21,
+     "lado": "",
+     "txt": "RECOMEÇOU O JOGO. Segunda parte a rolar em Portimão, com o Portimonense obrigado a arriscar."
     }
    ],
    "faltas": [
@@ -2667,6 +2673,6 @@
    }
   }
  ],
- "ts": 1789829515911,
+ "ts": 1789830050972,
  "build": "20260919135920"
 }

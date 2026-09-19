@@ -1649,7 +1649,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -1754,6 +1754,18 @@
      "m": 21,
      "lado": "",
      "txt": "RECOMEÇOU O JOGO em Ponte de Sôr. Contagem de faltas a zero para as duas equipas."
+    },
+    {
+     "id": "c2",
+     "m": 27,
+     "lado": "fora",
+     "txt": "Amarelo para Tiago Sacramento, o guarda-redes do Rio Ave."
+    },
+    {
+     "id": "c3",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Esteve lá o segundo dos vila-condenses! Miguel Ângelo ficou cara a cara com o guardião do Eléctrico e, com a baliza à sua frente, mandou por cima."
     }
    ],
    "faltas": [
@@ -1805,6 +1817,34 @@
      "parte": 2,
      "m": 22,
      "n": 1
+    },
+    {
+     "id": "fc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 28,
+     "n": 2
+    },
+    {
+     "id": "ff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 25,
+     "n": 1
+    },
+    {
+     "id": "ff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 27,
+     "n": 2
+    },
+    {
+     "id": "ff23",
+     "lado": "fora",
+     "parte": 2,
+     "m": 29,
+     "n": 3
     }
    ],
    "gp": {
@@ -2028,7 +2068,7 @@
       "nome": "TIAGO SACRAMENTO (GR)",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "27",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/62/1334762_tiago_sacramento_20250905141719.png"
      },
@@ -3281,6 +3321,6 @@
    }
   }
  ],
- "ts": 1789838071274,
+ "ts": 1789838256255,
  "build": "20260919151922"
 }

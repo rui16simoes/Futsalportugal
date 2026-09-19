@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -1064,6 +1064,24 @@
      "m": 12,
      "lado": "fora",
      "txt": "GRANDE PENALIDADE PARA O TORREENSE! Francisco Costa assinala penalti e mostra o amarelo a Mamadú Turé no mesmo lance. Chance de ouro para os visitantes abrirem o marcador na AMCO Arena."
+    },
+    {
+     "id": "b2",
+     "m": 13,
+     "lado": "fora",
+     "txt": "GOLO DO TORREENSE! Tintim converteu a grande penalidade e adiantou os torrienses na AMCO Arena. Segundo golo dele na prova. 0-1."
+    },
+    {
+     "id": "b3",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Joel Rocha chamou logo os seus para a pausa técnica. O Braga leva o jogo todo a rematar e está a perder."
+    },
+    {
+     "id": "b4",
+     "m": 13,
+     "lado": "casa",
+     "txt": "E podia ter empatado de imediato: Luís Fernandes ficou frente a frente com Eurico Cunha e atirou ao lado. Tiago Sousa ainda tentou rasteiro logo a seguir, para nova defesa do guardião visitante."
     }
    ],
    "faltas": [
@@ -1326,7 +1344,7 @@
    },
    "fora": {
     "eq": "torreense",
-    "golos": "",
+    "golos": "1",
     "capitao": "PAULO MAJOR",
     "treinador": "NANÁ",
     "trFoto": "barth-sorrilha.png",
@@ -1488,7 +1506,7 @@
       "num": "90",
       "nome": "TINTIM",
       "e": "P",
-      "min": "",
+      "min": "13",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
@@ -1514,7 +1532,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -1576,7 +1594,25 @@
      "id": "a6",
      "m": 13,
      "lado": "casa",
-     "txt": "E OUTRO, NA SEQUÊNCIA! Henrique Vicente marca o segundo do Eléctrico e estreia-se a marcar na prova. Em pouco mais de um minuto a equipa de Jorge Monteiro deu um salto de dois golos. 2-0."
+     "txt": "GOLO DO ELÉCTRICO! Henrique Vicente partiu na desmarcação, recebeu em boa altura e bateu rasteiro e com força. Estreia-se a marcar na prova e, em pouco mais de um minuto, o Eléctrico deu um salto de dois golos. 2-0."
+    },
+    {
+     "id": "a7",
+     "m": 15,
+     "lado": "casa",
+     "txt": "Lucas Mestre esteve perto do bis — a bola bateu no poste."
+    },
+    {
+     "id": "a8",
+     "m": 16,
+     "lado": "fora",
+     "txt": "Amarelo para Martim Castela, o segundo dele na prova. O Rio Ave já leva quatro faltas e ainda não chegou ao intervalo."
+    },
+    {
+     "id": "a9",
+     "m": 16,
+     "lado": "casa",
+     "txt": "GOLO DO ELÉCTRICO! Thales Alves faz o terceiro e o jogo em Ponte de Sôr está a fugir ao Rio Ave. Segundo golo dele na prova. 3-0."
     }
    ],
    "faltas": [
@@ -1584,22 +1620,36 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 10,
+     "m": 16,
      "n": 1
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 10,
+     "m": 16,
      "n": 1
     },
     {
      "id": "ff12",
      "lado": "fora",
      "parte": 1,
-     "m": 10,
+     "m": 16,
      "n": 2
+    },
+    {
+     "id": "ff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 16,
+     "n": 3
+    },
+    {
+     "id": "ff14",
+     "lado": "fora",
+     "parte": 1,
+     "m": 16,
+     "n": 4
     }
    ],
    "gp": {
@@ -1650,7 +1700,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": "2",
+    "golos": "3",
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -1722,7 +1772,7 @@
       "num": "10",
       "nome": "THALES ALVES",
       "e": "S",
-      "min": "",
+      "min": "16",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
@@ -1841,7 +1891,7 @@
       "nome": "MARTIM CASTELA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/03/1040303_martim_castela_20250130150954.jpg"
      },
@@ -3076,6 +3126,6 @@
    }
   }
  ],
- "ts": 1789835175073,
+ "ts": 1789835546809,
  "build": "20260919151922"
 }

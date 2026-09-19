@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -338,6 +338,18 @@
      "m": 23,
      "lado": "fora",
      "txt": "Duas seguidas e nenhuma entrou. Arthur experimentou o remate direto e atirou em cima de Juan Pinheiro; logo a seguir André Coelho surgiu à boca da baliza, no segundo poste, com tudo para encostar — e mandou para fora."
+    },
+    {
+     "id": "d6",
+     "m": 23,
+     "lado": "fora",
+     "txt": "E mais uma que o Benfica desperdiçou. Rúben Góis recebeu já virado para a baliza dentro da área e atirou de primeira, ao lado."
+    },
+    {
+     "id": "d7",
+     "m": 25,
+     "lado": "casa",
+     "txt": "GOLO DO PORTIMONENSE! André Rochato reduz e devolve a esperança a Portimão. Marca pela primeira vez na prova e faz o 1-2 — o castigo para tanta oportunidade desperdiçada pelos encarnados."
     }
    ],
    "faltas": [
@@ -394,22 +406,29 @@
      "id": "fc21",
      "lado": "casa",
      "parte": 2,
-     "m": 23,
+     "m": 25,
      "n": 1
     },
     {
      "id": "ff21",
      "lado": "fora",
      "parte": 2,
-     "m": 23,
+     "m": 25,
      "n": 1
     },
     {
      "id": "ff22",
      "lado": "fora",
      "parte": 2,
-     "m": 23,
+     "m": 25,
      "n": 2
+    },
+    {
+     "id": "ff23",
+     "lado": "fora",
+     "parte": 2,
+     "m": 25,
+     "n": 3
     }
    ],
    "gp": {
@@ -460,7 +479,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": "0",
+    "golos": "1",
     "capitao": "JUAN PINHEIRO",
     "treinador": "PAULINHO ROCHA",
     "trFoto": "paulinho-rocha.png",
@@ -577,7 +596,7 @@
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
       "e": "P",
-      "min": "",
+      "min": "25",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/75/16642975_andre_rochato_20260705235623.jpg"
@@ -2718,6 +2737,6 @@
    }
   }
  ],
- "ts": 1789830508134,
+ "ts": 1789830749770,
  "build": "20260919135920"
 }

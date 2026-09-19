@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -272,6 +272,30 @@
      "m": 12,
      "lado": "fora",
      "txt": "Diogo Almeida não quis esperar por melhor e disparou de fora da área. A bola foi ter com os adeptos atrás da baliza."
+    },
+    {
+     "id": "b8",
+     "m": 12,
+     "lado": "fora",
+     "txt": "David Pereira chamou Arthur à parte para uma chamada de atenção: houve contacto com um jogador do Portimonense antes de a bola voltar a entrar em jogo. Ficou pelo aviso."
+    },
+    {
+     "id": "b9",
+     "m": 15,
+     "lado": "fora",
+     "txt": "Duas em cima uma da outra e nenhuma entrou. Juan Pinheiro tinha subido na quadra e Pany Varela ficou com a baliza à mercê, mas rematou contra as pernas do próprio guardião, que entretanto recuperara a posição. A seguir foi Léo Gugiel a aparecer pela direita com um tiro forte — Juan só segurou à segunda tentativa."
+    },
+    {
+     "id": "c1",
+     "m": 16,
+     "lado": "fora",
+     "txt": "O Benfica continua a pedir o terceiro. Carlos Monteiro tentou de primeira e a bola bateu num defesa; logo depois Silvestre Ferreira recolheu um ressalto à entrada da área e disparou com força a mais para acertar na baliza."
+    },
+    {
+     "id": "c2",
+     "m": 16,
+     "lado": "fora",
+     "txt": "E o Kutchy volta a cair. Depois de um remate de pé esquerdo ressentiu-se outra vez da perna e saiu de novo da quadra para ser assistido. Mau sinal para o Benfica."
     }
    ],
    "faltas": [
@@ -279,22 +303,36 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 6,
+     "m": 12,
      "n": 1
+    },
+    {
+     "id": "fc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 12,
+     "n": 2
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 7,
+     "m": 12,
      "n": 1
     },
     {
      "id": "ff12",
      "lado": "fora",
      "parte": 1,
-     "m": 7,
+     "m": 12,
      "n": 2
+    },
+    {
+     "id": "ff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 12,
+     "n": 3
     }
    ],
    "gp": {
@@ -2586,6 +2624,6 @@
    }
   }
  ],
- "ts": 1789828209708,
+ "ts": 1789828772161,
  "build": "20260919135920"
 }

@@ -1703,7 +1703,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1020,
+    "acc": 1080,
     "desde": 0
    },
    "lances": [
@@ -1835,7 +1835,12 @@
     {
      "id": "e37",
      "m": 37,
-     "txt": "QUARTO DO ELÉCTRICO! O risco do Rio Ave saiu caro: Arthur Saraiva serviu Thales Alves, que não perdoou e fez o 4-1. Terceiro golo do brasileiro na prova."
+     "txt": "QUARTO DO ELÉCTRICO! O risco do Rio Ave saiu caro. Em contra-ataque, Arthur Saraiva recebeu e abriu de imediato para a ala, onde Thales Alves apareceu para finalizar e fazer o 4-1. Terceiro golo do brasileiro esta época."
+    },
+    {
+     "id": "e38",
+     "m": 38,
+     "txt": "O Rio Ave volta ao guarda-redes avançado. Dois minutos pela frente e três golos de atraso para uma equipa que já só pode jogar no risco."
     }
    ],
    "faltas": [
@@ -3405,6 +3410,6 @@
    }
   }
  ],
- "ts": 1789839080080,
+ "ts": 1789839207307,
  "build": "20260919151922"
 }

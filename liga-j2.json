@@ -1579,9 +1579,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 2,
+    "acc": 60,
     "desde": 0
    },
    "lances": [
@@ -1680,6 +1680,12 @@
      "m": 20,
      "lado": "",
      "txt": "INTERVALO EM PONTE DE SÔR. Eléctrico 3-1 Rio Ave."
+    },
+    {
+     "id": "c1",
+     "m": 21,
+     "lado": "",
+     "txt": "RECOMEÇOU O JOGO em Ponte de Sôr. Contagem de faltas a zero para as duas equipas."
     }
    ],
    "faltas": [
@@ -3200,6 +3206,6 @@
    }
   }
  ],
- "ts": 1789836397088,
+ "ts": 1789836945000,
  "build": "20260919151922"
 }

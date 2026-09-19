@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -1004,9 +1004,35 @@
      "m": 0,
      "lado": "",
      "txt": "CINCOS INICIAIS. Joel Rocha arranca com Léo Souza na baliza e Ricardo Lopes, Ángel Claudino, Tiago Brito e Willian Carioca. No Torreense entram de início Eurico Cunha, Nicolas Tomé, Paulo Major, Vitinho e Tintim."
+    },
+    {
+     "id": "a1",
+     "m": 2,
+     "lado": "fora",
+     "txt": "Primeiro aviso e foi do Torreense: Vitinho isolou-se na área mas não lhe imprimiu força nenhuma, e a bola morreu nas mãos do guarda-redes."
+    },
+    {
+     "id": "a2",
+     "m": 3,
+     "lado": "casa",
+     "txt": "Ángel Claudino assumiu o comando das operações. Primeiro fez Eurico Cunha esticar-se para uma boa defesa, depois voltou a carregar no gatilho e viu a bola passar a raspar o ferro."
+    },
+    {
+     "id": "a3",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Tintim ficou em baixo e está a ser assistido pela equipa médica."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 3,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -1432,7 +1458,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -1459,9 +1485,23 @@
      "m": 0,
      "lado": "",
      "txt": "CINCOS INICIAIS. Jorge Monteiro começa com Diogo Basílio, o capitão, à frente de Telmo Sousa, Ferrugem, Lucas Mestre e Henrique Vicente. Bruno Guimarães responde com Tiago Sacramento na baliza e Serginho, Rúben Freire, Miguel Ângelo e Cigano — Pedro Rodrigues, o capitão, começa no banco."
+    },
+    {
+     "id": "a1",
+     "m": 5,
+     "lado": "",
+     "txt": "Arranque de estudo em Ponte de Sôr. Nenhuma das equipas se quer expor e, passados cinco minutos, ainda não houve uma jogada de golo a sério."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 4,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2936,6 +2976,6 @@
    }
   }
  ],
- "ts": 1789834028655,
+ "ts": 1789834240266,
  "build": "20260919151922"
 }

@@ -101,17 +101,94 @@
 <footer>FPF &amp; RFEF · Atualizado às <span id="ts"></span></footer>
 
 <script>
+// ── LINKS DOS CAMPEONATOS ─────────────────────────────────────────────────────
+const LINKS = {
+  ligaPrime:    'https://futsal.rfef.es/competicion/primera/2027/resultados',
+  ligaPlacardM: 'https://resultados.fpf.pt/Competition/Details?competitionId=29817&seasonId=106',
+  ligaPlacardF: 'https://resultados.fpf.pt/Competition/Details?competitionId=29897&seasonId=106',
+  sub19:        'https://resultados.fpf.pt/Competition/Details?competitionId=29859&seasonId=106',
+  sub19Fem:     'https://resultados.fpf.pt/Competition/Details?competitionId=30065&seasonId=106',
+  sub19_2div:   'https://resultados.fpf.pt/Competition/Details?competitionId=29933&seasonId=106',
+  sub17:        'https://resultados.fpf.pt/Competition/Details?competitionId=29932&seasonId=106',
+  sub15:        'https://resultados.fpf.pt/Competition/Details?competitionId=29930&seasonId=106',
+  cn2divM:      'https://resultados.fpf.pt/Competition/Details?competitionId=29934&seasonId=106',
+  cn2divF:      'https://resultados.fpf.pt/Competition/Details?competitionId=29443&seasonId=106',
+  cn3divM:      'https://resultados.fpf.pt/Competition/Details?competitionId=29818&seasonId=106',
+};
+
 // ── DATA ──────────────────────────────────────────────────────────────────────
 // status: 'done'|'live'|''   score: [h,a]|null
 // hscorers/ascorers: ['Nome 12\'', ...]  (home/away goalscorers)
 // venue: string   link: string (competition URL)
 const DAYS = {
+  '2026-09-11': {
+    label: ['Sex','11 Set'],
+    sections: [
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
+        color:'#3b82f6', flag:'🇪🇸', round:'Jornada 1 · T. Abertura', games:[
+        { time:'19:30', home:'Magna Xota FS', away:'Jaén Paraíso Interior', status:'done', score:[1,3], hscorers:[], ascorers:[] },
+        { time:'21:30', home:'Catgas Energía', away:'Illes Balears Palma Futsal', status:'done', score:[2,4], hscorers:[], ascorers:[] },
+      ]},
+    ]
+  },
+  '2026-09-12': {
+    label: ['Sáb','12 Set'],
+    sections: [
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
+        color:'#3b82f6', flag:'🇪🇸', round:'Jornada 1 · T. Abertura', games:[
+        { time:'', home:'Viña Albali Valdepeñas', away:'FC Barcelona', status:'done', score:[2,5], hscorers:[], ascorers:[] },
+        { time:'', home:'Noia Portus Apostoli', away:'ElPozo Murcia Costa Cálida', status:'done', score:[4,4], hscorers:[], ascorers:[] },
+        { time:'', home:'Servigroup Peñíscola FS', away:'Wanapix', status:'done', score:[5,3], hscorers:[], ascorers:[] },
+        { time:'', home:'Sur Seeds El Ejido Futsal', away:'Córdoba Patrimonio Humanidad', status:'done', score:[4,1], hscorers:[], ascorers:[] },
+      ]},
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 1', games:[
+        { time:'', home:'CR Leões Porto Salvo', away:'SCF Zêzere by Zêzerovo', status:'done', score:[2,2], hscorers:[], ascorers:[], venue:'Pav. do Leões Porto Salvo' },
+        { time:'', home:'SL Benfica', away:'UP Venda Nova / JRA', status:'done', score:[4,1], hscorers:[], ascorers:[], venue:'Pavilhão Fidelidade' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 1 · Feminino', games:[
+        { time:'', home:'CR Leões Porto Salvo', away:'Santa Luzia FC', status:'done', score:[5,0], hscorers:[], ascorers:[] },
+        { time:'', home:'Atlético CP', away:'SCU Torreense', status:'done', score:[2,0], hscorers:[], ascorers:[] },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 1', games:[
+        { time:'', home:'ADCR Caxinas Poça Barca', away:'AMSAC', status:'done', score:[4,1], hscorers:[], ascorers:[], venue:'Pav. Centro Comunitário das Caxinas' },
+        { time:'', home:'Sporting CP', away:'SC Braga', status:'done', score:[6,3], hscorers:[], ascorers:[], venue:'Pav. João Rocha' },
+        { time:'', home:'CR Leões Porto Salvo', away:'FC Barreirense', status:'done', score:[6,3], hscorers:[], ascorers:[], venue:'Pav. do Leões Porto Salvo' },
+      ]},
+    ]
+  },
+  '2026-09-13': {
+    label: ['Dom','13 Set'],
+    sections: [
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
+        color:'#3b82f6', flag:'🇪🇸', round:'Jornada 1 · T. Abertura', games:[
+        { time:'', home:'Jimbee Cartagena Costa Cálida', away:'Inter JP Financial', status:'done', score:[2,6], hscorers:[], ascorers:[] },
+        { time:'', home:'O Parrulo Ferrol', away:'Quesos Hidalgo Manzanares FS', status:'done', score:[6,4], hscorers:[], ascorers:[], venue:'Pav. A Malata' },
+      ]},
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
+        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 1', games:[
+        { time:'', home:'Rio Ave FC', away:'FC Famalicão', status:'done', score:[4,4], hscorers:[], ascorers:[], venue:'Pav. Desportos Vila do Conde' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 1 · Feminino', games:[
+        { time:'', home:'GCR Nun\'álvares', away:'Maia FC/Mercainox', status:'done', score:[7,3], hscorers:[], ascorers:[] },
+        { time:'', home:'GD Árvore', away:'Novasemente GD', status:'done', score:[1,1], hscorers:[], ascorers:[] },
+        { time:'', home:'SL Benfica', away:'Feijó/LTintas', status:'done', score:[6,0], hscorers:[], ascorers:[] },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 1', games:[
+        { time:'', home:'GRC Dínamo Sanjoanense', away:'Futsal Oeiras', status:'done', score:[3,5], hscorers:[], ascorers:[], venue:'Pav. Municipal Oliveira de Azeméis' },
+      ]},
+    ]
+  },
   '2026-09-18': {
     label: ['Sex','18 Set'],
     sections: [
-      { comp:'Liga Prime Futsal', link:'https://futsal.rfef.es/competicion/primera/2027/resultados',
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 2 · T. Abertura', games:[
-        { time:'19:30', home:'O Parrulo Ferrol', away:'Catgas Energia', status:'done', score:[5,5], hscorers:[], ascorers:[] },
+        { time:'19:30', home:'O Parrulo Ferrol', away:'Catgas Energía', status:'done', score:[5,5], hscorers:[], ascorers:[] },
         { time:'21:00', home:'FC Barcelona', away:'Servigroup Peñíscola FS', status:'done', score:[6,1], hscorers:[], ascorers:[] },
       ]},
     ]
@@ -119,20 +196,20 @@ const DAYS = {
   '2026-09-19': {
     label: ['Sáb','19 Set'],
     sections: [
-      { comp:'Liga Prime Futsal', link:'https://futsal.rfef.es/competicion/primera/2027/resultados',
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 2 · T. Abertura', games:[
         { time:'12:00', home:'Illes Balears Palma Futsal', away:'ElPozo Murcia Costa Cálida', status:'done', score:[8,3], hscorers:[], ascorers:[] },
         { time:'16:30', home:'Córdoba Patrimonio Humanidad', away:'Quesos Hidalgo Manzanares FS', status:'', score:null },
         { time:'18:30', home:'Jimbee Cartagena Costa Cálida', away:'Wanapix', status:'', score:null },
         { time:'20:30', home:'Inter JP Financial', away:'Sur Seeds El Ejido Futsal', status:'', score:null },
       ]},
-      { comp:'Liga Placard', link:'liga-placard.html',
+      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 2', games:[
         { time:'15:00', home:'Portimonense SC', away:'SL Benfica', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
         { time:'17:00', home:'Eléctrico FC', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
         { time:'17:00', home:'SC Braga', away:'SCU Torreense SAD', status:'', score:null, venue:'AMCO Arena' },
       ]},
-      { comp:'CN Futsal 2.ª Divisão', link:'https://resultados.fpf.pt/',
+      { comp:'CN Futsal 2.ª Divisão', link:LINKS.cn2divM,
         color:'#10b981', flag:'🇵🇹', round:'Jornada 1', series:[
         { label:'Série A', games:[
           { time:'15:00', home:'Amigos Cerva ADRC', away:'CS Marítimo da Madeira', status:'', score:null, venue:'Pav. Gimnodesportivo de Cerva' },
@@ -151,7 +228,7 @@ const DAYS = {
           { time:'20:00', home:'CF Sassoeiros', away:'Viseu 2001 ADSC', status:'', score:null, venue:'Pav. do Sassoeiros' },
         ]},
       ]},
-      { comp:'CN Futsal 3.ª Divisão', link:'cn-iii-div.html',
+      { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1', series:[
         { label:'Série A', games:[
           { time:'16:00', home:'FC Estrelas Susanenses', away:'ACR Lordelo', status:'', score:null, venue:'Pav. Municipal Sobrado' },
@@ -178,12 +255,12 @@ const DAYS = {
           { time:'19:00', home:'AD Quinta Conde / Easy Partners', away:'SR Manjoeira', status:'', score:null, venue:'Pav. Municipal Quinta do Conde' },
         ]},
       ]},
-      { comp:'CN Sub-19 I Divisão', link:'https://resultados.fpf.pt/',
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 2', games:[
         { time:'19:00', home:'SL Benfica', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. N.º 2 do Sport Lisboa e Benfica' },
         { time:'20:00', home:'SC Braga', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'AMCO Arena' },
       ]},
-      { comp:'Liga Feminina Placard', link:'https://resultados.fpf.pt/',
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
         color:'#f43f5e', flag:'🇵🇹', round:'Jornada 2 · Feminino', games:[
         { time:'17:00', home:'SL Benfica', away:'SCU Torreense', status:'', score:null, venue:'Pavilhão Fidelidade' },
         { time:'18:00', home:'CR Leões Porto Salvo', away:'Santa Luzia FC', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
@@ -195,10 +272,14 @@ const DAYS = {
   '2026-09-20': {
     label: ['Dom','20 Set'],
     sections: [
-      { comp:'Liga Prime Futsal', link:'https://futsal.rfef.es/competicion/primera/2027/resultados',
+      { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 2 · T. Abertura', games:[
         { time:'13:00', home:'Jaén Paraíso Interior', away:'Noia Portus Apostoli', status:'', score:null },
         { time:'19:00', home:'Viña Albali Valdepeñas', away:'Magna Xota FS', status:'', score:null },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 2 · Feminino', games:[
+        { time:'17:30', home:'Atlético CP', away:'Maia FC/Mercainox', status:'', score:null, venue:'Pav. Engº Santos e Castro (Tapadinha)' },
       ]},
     ]
   },

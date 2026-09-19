@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -242,6 +242,12 @@
      "m": 7,
      "lado": "fora",
      "txt": "Quase o terceiro. A bola andou aos saltos em frente à baliza algarvia e Anderson Fortes chegou a ter o bis nos pés, até Juan Pinheiro se atirar para cima dela e fechar o lance."
+    },
+    {
+     "id": "b3",
+     "m": 9,
+     "lado": "casa",
+     "txt": "A melhor do Portimonense até aqui. Vitinho apareceu isolado diante de Léo Gugiel e procurou o remate colocado em vez da força, mas o guardião encarnado fez-se grande e tapou-lhe o ângulo."
     }
    ],
    "faltas": [
@@ -256,8 +262,15 @@
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 3,
+     "m": 7,
      "n": 1
+    },
+    {
+     "id": "ff12",
+     "lado": "fora",
+     "parte": 1,
+     "m": 7,
+     "n": 2
     }
    ],
    "gp": {
@@ -2549,6 +2562,6 @@
    }
   }
  ],
- "ts": 1789827661080,
+ "ts": 1789827778379,
  "build": "20260919135920"
 }

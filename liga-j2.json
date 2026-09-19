@@ -1703,7 +1703,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -1826,6 +1826,16 @@
      "m": 33,
      "lado": "",
      "txt": "Quarta falta do Eléctrico neste segundo tempo. Os alentejanos ficam a um castigo de oferecerem a marca dos dez metros ao adversário e o Rio Ave, com três, segue logo atrás na contagem."
+    },
+    {
+     "id": "e36",
+     "m": 36,
+     "txt": "O Rio Ave também passou ao guarda-redes avançado. Cinco contra quatro em Ponte de Sôr, com os vila-condenses a tentarem mexer no marcador a quatro minutos do fim."
+    },
+    {
+     "id": "e37",
+     "m": 37,
+     "txt": "QUARTO DO ELÉCTRICO! O risco do Rio Ave saiu caro: Arthur Saraiva serviu Thales Alves, que não perdoou e fez o 4-1. Terceiro golo do brasileiro na prova."
     }
    ],
    "faltas": [
@@ -1969,7 +1979,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": "3",
+    "golos": 4,
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -2041,7 +2051,7 @@
       "num": "10",
       "nome": "THALES ALVES",
       "e": "S",
-      "min": "16",
+      "min": "16, 37",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
@@ -2088,7 +2098,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "37",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/95/95/16729595_arthur_saraiva_20260908144335.png"
      },
      {
@@ -3395,6 +3405,6 @@
    }
   }
  ],
- "ts": 1789839017232,
+ "ts": 1789839080080,
  "build": "20260919151922"
 }

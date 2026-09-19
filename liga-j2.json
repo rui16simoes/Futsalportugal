@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -194,9 +194,23 @@
      "m": 2,
      "lado": "casa",
      "txt": "Resposta imediata dos algarvios: André Rochato carregou no gatilho à entrada da área, com muita força, mas mandou por cima da barra."
+    },
+    {
+     "id": "a4",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Atenções para Léo Gugiel: o guarda-redes do Benfica ficou com queixas numa das mãos depois de um embate com Rochato e está a ser observado."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 3,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2486,6 +2500,6 @@
    }
   }
  ],
- "ts": 1789826756435,
+ "ts": 1789826842535,
  "build": "20260919135920"
 }

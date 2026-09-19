@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 360,
+    "acc": 600,
     "desde": 0
    },
    "lances": [
@@ -1034,6 +1034,24 @@
      "m": 5,
      "lado": "casa",
      "txt": "O Braga vai tomando conta do jogo, mas sem conseguir sufocar o adversário. O Torreense está sólido atrás e, até aqui, ainda não assustou a baliza minhota."
+    },
+    {
+     "id": "a6",
+     "m": 7,
+     "lado": "casa",
+     "txt": "Léo Souza tem subido na quadra para dar superioridade ao ataque minhoto, mas até agora sem render frutos."
+    },
+    {
+     "id": "a7",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Luís Fernandes carregou de fora da área e não incomodou o guarda-redes."
+    },
+    {
+     "id": "a8",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Resposta do Torreense pela primeira vez com pontaria: Nicolas Tomé disparou e a bola foi morrer na malha lateral."
     }
    ],
    "faltas": [
@@ -1041,15 +1059,22 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 6,
+     "m": 10,
      "n": 1
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 6,
+     "m": 10,
      "n": 1
+    },
+    {
+     "id": "ff12",
+     "lado": "fora",
+     "parte": 1,
+     "m": 10,
+     "n": 2
     }
    ],
    "gp": {
@@ -1477,7 +1502,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -1516,6 +1541,24 @@
      "m": 9,
      "lado": "casa",
      "txt": "Primeira de perigo real em Ponte de Sôr. Lucas Mestre bateu com muita potência à procura do ângulo e obrigou Tiago Sacramento a uma defesa a sério."
+    },
+    {
+     "id": "a3",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Diogo Basílio não teve medo de arriscar de muito longe e atirou já do meio-campo — Tiago Sacramento respondeu outra vez."
+    },
+    {
+     "id": "a4",
+     "m": 11,
+     "lado": "",
+     "txt": "Ataques com dificuldade dos dois lados, mérito das duas organizações defensivas. O Eléctrico vai somando mais remates à baliza, mas o jogo continua equilibrado."
+    },
+    {
+     "id": "a5",
+     "m": 12,
+     "lado": "casa",
+     "txt": "GOLO DO ELÉCTRICO! Lucas Mestre, que já tinha obrigado Tiago Sacramento a uma grande defesa aos 9, não falhou à segunda. Segundo golo dele na prova e 1-0 em Ponte de Sôr."
     }
    ],
    "faltas": [
@@ -1523,15 +1566,22 @@
      "id": "fc11",
      "lado": "casa",
      "parte": 1,
-     "m": 9,
+     "m": 10,
      "n": 1
     },
     {
      "id": "ff11",
      "lado": "fora",
      "parte": 1,
-     "m": 9,
+     "m": 10,
      "n": 1
+    },
+    {
+     "id": "ff12",
+     "lado": "fora",
+     "parte": 1,
+     "m": 10,
+     "n": 2
     }
    ],
    "gp": {
@@ -1582,7 +1632,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": "",
+    "golos": "1",
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -1663,7 +1713,7 @@
       "num": "15",
       "nome": "LUCAS MESTRE",
       "e": "P",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/35/16598235_lucas_mestre_20260717140010.png"
@@ -3008,6 +3058,6 @@
    }
   }
  ],
- "ts": 1789834502705,
+ "ts": 1789834972603,
  "build": "20260919151922"
 }

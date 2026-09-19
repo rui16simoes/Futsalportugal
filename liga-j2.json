@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -212,6 +212,18 @@
      "m": 4,
      "lado": "fora",
      "txt": "Do outro lado, Anderson Fortes carregou no gatilho da meia-esquerda e obrigou Juan Pinheiro a seguir a bola até ela passar rente ao poste. Jogo aberto nos dois sentidos."
+    },
+    {
+     "id": "a7",
+     "m": 6,
+     "lado": "fora",
+     "txt": "André Coelho encheu o pé da meia distância e obrigou Juan Pinheiro a uma defesa apertada — primeiro aviso antes do segundo."
+    },
+    {
+     "id": "a8",
+     "m": 6,
+     "lado": "fora",
+     "txt": "GOLO DO BENFICA! Anderson Fortes, que já tinha avisado aos 4 minutos, desta vez não falhou e estreou-se a marcar na prova. As águias mandam por dois em Portimão. 0-2."
     }
    ],
    "faltas": [
@@ -434,7 +446,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": "1",
+    "golos": "2",
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -560,7 +572,7 @@
       "num": "20",
       "nome": "ANDERSON FORTES",
       "e": "S",
-      "min": "",
+      "min": "6",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/76/17/16657617_anderson_fortes_20260716140343.png"
@@ -2512,6 +2524,6 @@
    }
   }
  ],
- "ts": 1789827103682,
+ "ts": 1789827258391,
  "build": "20260919135920"
 }

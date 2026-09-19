@@ -223,10 +223,23 @@
      "id": "a8",
      "m": 6,
      "lado": "fora",
-     "txt": "GOLO DO BENFICA! Anderson Fortes, que já tinha avisado aos 4 minutos, desta vez não falhou e estreou-se a marcar na prova. As águias mandam por dois em Portimão. 0-2."
+     "txt": "GOLO DO BENFICA! Canto batido por Pany Varela para o primeiro poste e Anderson Fortes apareceu a cabecear para o fundo das redes. Tinha avisado aos 4 minutos e agora estreou-se a marcar na prova. 0-2."
+    },
+    {
+     "id": "a9",
+     "m": 6,
+     "lado": "casa",
+     "txt": "Amarelo para Adaílton Souza. O Portimonense está a sentir o golpe e começa a cortar o jogo dos encarnados com falta."
     }
    ],
    "faltas": [
+    {
+     "id": "fc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 6,
+     "n": 1
+    },
     {
      "id": "ff11",
      "lado": "fora",
@@ -374,7 +387,7 @@
       "nome": "ADAÍLTON SOUZA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "6",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
      },
@@ -565,7 +578,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "6",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/06/74706_pany_varela_20250919142750.jpg"
      },
      {
@@ -2524,6 +2537,6 @@
    }
   }
  ],
- "ts": 1789827258391,
+ "ts": 1789827347683,
  "build": "20260919135920"
 }

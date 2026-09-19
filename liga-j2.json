@@ -983,7 +983,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -1100,6 +1100,18 @@
      "m": 16,
      "lado": "casa",
      "txt": "O Braga instalou-se no meio-campo do Torreense e agora quer a volta completa antes do intervalo."
+    },
+    {
+     "id": "b8",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Luís Fernandes voltou a ficar cara a cara com Eurico Cunha e voltou a não marcar — desta vez atirou em cima do guarda-redes."
+    },
+    {
+     "id": "b9",
+     "m": 17,
+     "lado": "casa",
+     "txt": "E QUE DEFESA! Ángel Claudino teve o segundo na bota, mas Eurico Cunha atirou-se para o chão e travou-lhe o remate. O guardião do Torreense está a fazer um jogo enorme."
     }
    ],
    "faltas": [
@@ -3164,6 +3176,6 @@
    }
   }
  ],
- "ts": 1789835995949,
+ "ts": 1789836159260,
  "build": "20260919151922"
 }

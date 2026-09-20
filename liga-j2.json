@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -2403,6 +2403,11 @@
      "id": "f27",
      "m": 27,
      "txt": "Amarelo para João Miguel. É o segundo cartão do Famalicão nesta segunda parte."
+    },
+    {
+     "id": "f28",
+     "m": 28,
+     "txt": "Amarelo também para Bruno Maior. O jogo aqueceu e os cartões começaram a sair dos dois lados."
     }
    ],
    "faltas": [
@@ -2701,7 +2706,7 @@
       "nome": "BRUNO MAIOR",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "28",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
      },
@@ -2844,7 +2849,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -2877,11 +2882,28 @@
      "id": "u4",
      "m": 4,
      "txt": "Primeira resposta dos Leões. Pedro Santos aproveitou uma bola longa para cruzar bem para a área, mas Jackson Ryan saiu da baliza e ganhou o duelo."
+    },
+    {
+     "id": "u5",
+     "m": 5,
+     "txt": "Tomás Silva encheu o pé na meia esquerda e a bola passou rente ao poste. O UPVN continua a ser quem mais carrega."
+    },
+    {
+     "id": "u6",
+     "m": 6,
+     "txt": "Resposta dos Leões por Natan Minatti, com um remate forte de fora da área que Jackson Ryan segurou sem dificuldade."
     }
    ],
    "faltas": [
     {
-     "id": "uf11",
+     "id": "ufc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 5,
+     "n": 1
+    },
+    {
+     "id": "uff11",
      "lado": "fora",
      "parte": 1,
      "m": 1,
@@ -3629,6 +3651,6 @@
    }
   }
  ],
- "ts": 1789924179860,
+ "ts": 1789924444557,
  "build": "20260919151922"
 }

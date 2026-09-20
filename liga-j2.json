@@ -3158,6 +3158,11 @@
      "id": "u37",
      "m": 37,
      "txt": "E ESTEVE MESMO PERTO! Diogo Silva inventou um belo gesto técnico para deixar Dura na cara do golo, mas o capitão carimbou o poste."
+    },
+    {
+     "id": "u37b",
+     "m": 37,
+     "txt": "Pausa técnica pedida pelos Leões, a tentarem cortar o ânimo do UPVN depois do poste de Dura."
     }
    ],
    "faltas": [
@@ -3987,6 +3992,6 @@
    }
   }
  ],
- "ts": 1789929185219,
+ "ts": 1789929259016,
  "build": "20260919151922"
 }

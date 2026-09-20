@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1020,
+    "acc": 1140,
     "desde": 0
    },
    "lances": [
@@ -3163,6 +3163,11 @@
      "id": "u37b",
      "m": 37,
      "txt": "Pausa técnica pedida pelos Leões, a tentarem cortar o ânimo do UPVN depois do poste de Dura."
+    },
+    {
+     "id": "u39",
+     "m": 39,
+     "txt": "Quarta falta do UPVN no último minuto. A equipa da casa continua no 5x4 à procura de reduzir, mas cada falta agora pesa mais."
     }
    ],
    "faltas": [
@@ -3228,6 +3233,13 @@
      "parte": 2,
      "m": 33,
      "n": 3
+    },
+    {
+     "id": "ufc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 39,
+     "n": 4
     },
     {
      "id": "uff21",
@@ -3992,6 +4004,6 @@
    }
   }
  ],
- "ts": 1789929309776,
+ "ts": 1789929427919,
  "build": "20260919151922"
 }

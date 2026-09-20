@@ -2915,7 +2915,7 @@
     {
      "id": "u7b",
      "m": 7,
-     "txt": "GOLO DO UPVN! André Galvão inaugurou o marcador na Venda Nova e fez o seu primeiro golo na prova. 1-0, com justiça para quem mais tem carregado."
+     "txt": "GOLO DO UPVN! Jogada de primeira qualidade: Tomás Silva conduziu e soltou para Dura na direita, o capitão cruzou logo para o segundo poste e André Galvão apareceu para fazer o 1-0. Primeiro golo dele na prova e primeira assistência de Dura."
     }
    ],
    "faltas": [
@@ -3083,7 +3083,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "7",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/47/1305747_dura_20250702155047.png"
      },
      {
@@ -3675,6 +3675,6 @@
    }
   }
  ],
- "ts": 1789924489058,
+ "ts": 1789924543459,
  "build": "20260919151922"
 }

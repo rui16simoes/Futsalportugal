@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60,
+    "acc": 240,
     "desde": 0
    },
    "lances": [
@@ -2338,6 +2338,21 @@
      "id": "f1",
      "m": 1,
      "txt": "COMEÇOU O JOGO nas Lameiras. O Famalicão recebe o Sporting com um ponto somado em duas jornadas, enquanto os leões chegam a Famalicão com pleno de vitórias."
+    },
+    {
+     "id": "f1b",
+     "m": 1,
+     "txt": "Logo no arranque, Bernardo Paçó subiu no terreno e, em jogada individual, atirou à entrada da área. A bola foi para canto."
+    },
+    {
+     "id": "f3",
+     "m": 3,
+     "txt": "O Sporting instalou-se no meio campo do Famalicão. Bernardo Paçó voltou a tentar, desta vez por cima, e Felipe Rufino apanhou um ressalto que o deixou na cara de Guilherme Rego — o guardião famalicense respondeu à altura."
+    },
+    {
+     "id": "f4",
+     "m": 4,
+     "txt": "Mais duas chegadas leoninas: Diogo Santos apareceu ao segundo poste num canto e atirou de primeira por cima, e Wesley fugiu pela esquerda para rematar à figura. Do outro lado, a única resposta veio de longe e esbarrou na defesa do Sporting."
     }
    ],
    "faltas": [],
@@ -2919,7 +2934,7 @@
      {
       "num": "20",
       "nome": "LUCAS VERAS",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2959,7 +2974,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/70/1044670_afonso_silva_20251226181543.png",
       "extra": 1
      }
     ]
@@ -3140,7 +3155,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/14/533614_tomas_guerra_20250719161532.jpg",
       "extra": 1
      }
     ]
@@ -3496,6 +3511,6 @@
    }
   }
  ],
- "ts": 1789920238365,
+ "ts": 1789920743357,
  "build": "20260919151922"
 }

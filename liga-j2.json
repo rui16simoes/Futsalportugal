@@ -3127,7 +3127,7 @@
     {
      "id": "u34",
      "m": 34,
-     "txt": "BISA FRANCISCO OLIVEIRA e os Leões disparam para o 1-4. Três golos em pouco mais de três minutos deixaram o jogo praticamente decidido."
+     "txt": "BISA FRANCISCO OLIVEIRA e os Leões disparam para o 1-4. Nova assistência de Guilherme Cintra, a segunda do guarda-redes no jogo, e três golos em pouco mais de três minutos a deixarem o encontro praticamente decidido."
     },
     {
      "id": "u34b",
@@ -3443,7 +3443,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "31",
+      "ass": "31, 34",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/60/16605460_guilherme_cintra_20260908151413.jpg"
      },
      {
@@ -3962,6 +3962,6 @@
    }
   }
  ],
- "ts": 1789928691319,
+ "ts": 1789928726971,
  "build": "20260919151922"
 }

@@ -3108,6 +3108,11 @@
      "id": "u33",
      "m": 33,
      "txt": "Amarelo para Tomás Silva. As faltas voltam a estar empatadas a três e o UPVN tem sete minutos para responder."
+    },
+    {
+     "id": "u33b",
+     "m": 33,
+     "txt": "Jogo parado outra vez. Na disputa com Tomás Silva que valeu o amarelo, Pedro Marques foi contra a parede e ficou em sofrimento."
     }
    ],
    "faltas": [
@@ -3937,6 +3942,6 @@
    }
   }
  ],
- "ts": 1789928354852,
+ "ts": 1789928390052,
  "build": "20260919151922"
 }

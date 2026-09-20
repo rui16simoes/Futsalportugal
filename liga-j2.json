@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -3013,6 +3013,16 @@
      "id": "u17",
      "m": 17,
      "txt": "E o capitão dos Leões também tentou. Ré disparou da esquerda e obrigou o guarda-redes do UPVN a esticar-se por completo para mais uma defesa."
+    },
+    {
+     "id": "u20",
+     "m": 20,
+     "txt": "Os Leões estiveram perto do empate. Francisco Oliveira combinou com Isaías Furtado e a bola chegou a Natan Minatti na ala contrária, mas a finalização falhou."
+    },
+    {
+     "id": "u20b",
+     "m": 20,
+     "txt": "Pausa técnica pedida pelos Leões de Porto Salvo já em cima do intervalo."
     }
    ],
    "faltas": [
@@ -3029,6 +3039,13 @@
      "parte": 1,
      "m": 10,
      "n": 2
+    },
+    {
+     "id": "ufc13",
+     "lado": "casa",
+     "parte": 1,
+     "m": 19,
+     "n": 3
     },
     {
      "id": "uff11",
@@ -3793,6 +3810,6 @@
    }
   }
  ],
- "ts": 1789925801670,
+ "ts": 1789926100212,
  "build": "20260919151922"
 }

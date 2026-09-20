@@ -2417,7 +2417,7 @@
     {
      "id": "f28h",
      "m": 28,
-     "txt": "E logo a seguir o sétimo. Felipe Valério bisou no encontro e o Sporting passou a vencer por 1-7."
+     "txt": "E logo a seguir o sétimo. Bruno Maior serviu Felipe Valério, que bisou no encontro e levou o Sporting ao 1-7."
     }
    ],
    "faltas": [
@@ -2731,7 +2731,7 @@
       "e": "P",
       "min": "",
       "cart": "28",
-      "ass": "",
+      "ass": "28",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
      },
      {
@@ -2873,7 +2873,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -2926,6 +2926,16 @@
      "id": "u7b",
      "m": 7,
      "txt": "GOLO DO UPVN! Jogada de primeira qualidade: Tomás Silva conduziu e soltou para Dura na direita, o capitão cruzou logo para o segundo poste e André Galvão apareceu para fazer o 1-0. Primeiro golo dele na prova e primeira assistência de Dura."
+    },
+    {
+     "id": "u8",
+     "m": 8,
+     "txt": "Momento especial em Porto Salvo: Ré voltou a pisar a quadra mais de dez meses depois da lesão que o afastou. O capitão dos Leões entra com o jogo a pedir reforços."
+    },
+    {
+     "id": "u8b",
+     "m": 8,
+     "txt": "Antes disso, Isaías Furtado fez um belo trabalho individual para se livrar de um adversário, mas encontrou Jackson Ryan bem apoiado no poste."
     }
    ],
    "faltas": [
@@ -2942,6 +2952,13 @@
      "parte": 1,
      "m": 1,
      "n": 1
+    },
+    {
+     "id": "uff12",
+     "lado": "fora",
+     "parte": 1,
+     "m": 7,
+     "n": 2
     }
    ],
    "gp": {
@@ -3685,6 +3702,6 @@
    }
   }
  ],
- "ts": 1789924629021,
+ "ts": 1789924679559,
  "build": "20260919151922"
 }

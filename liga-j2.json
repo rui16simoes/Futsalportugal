@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -2398,6 +2398,11 @@
      "id": "f22",
      "m": 22,
      "txt": "Amarelo para Guilherme Rego, o guarda-redes do Famalicão."
+    },
+    {
+     "id": "f27",
+     "m": 27,
+     "txt": "Amarelo para João Miguel. É o segundo cartão do Famalicão nesta segunda parte."
     }
    ],
    "faltas": [],
@@ -2585,7 +2590,7 @@
       "nome": "JOÃO MIGUEL",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "27",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/71/05/207105_joao_miguel_20251227213605.png"
      },
@@ -2810,7 +2815,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -2823,6 +2828,11 @@
      "id": "u1b",
      "m": 1,
      "txt": "Logo no primeiro minuto, Guilherme Cintra avançou no terreno e atirou de bico. Jackson Ryan respondeu bem e segurou o empate."
+    },
+    {
+     "id": "u3",
+     "m": 3,
+     "txt": "Primeiro aviso da casa. Dura tentou o primeiro poste com o pé esquerdo e Guilherme Cintra não conseguiu segurar a bola, que saiu para canto."
     }
    ],
    "faltas": [
@@ -3575,6 +3585,6 @@
    }
   }
  ],
- "ts": 1789923969952,
+ "ts": 1789924016058,
  "build": "20260919151922"
 }

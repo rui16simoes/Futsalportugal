@@ -2324,13 +2324,13 @@
    "arb2": "",
    "arb3": "",
    "cron": "",
-   "obs": "",
+   "obs": "A app da FPF está em baixo, pelo que não conseguimos acompanhar o jogo ao minuto com o detalhe habitual. Atualizamos assim que o serviço for reposto.",
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -2358,6 +2358,16 @@
      "id": "f5",
      "m": 5,
      "txt": "Guilherme Rego volta a ser chamado à obra. Rúbem Teixeira cortou da direita para o meio e disparou com muita força; o guarda-redes do Famalicão estava bem colocado e afastou o perigo."
+    },
+    {
+     "id": "f10",
+     "m": 10,
+     "txt": "Dez minutos de domínio leonino. O Sporting encostou o Famalicão à sua área e foi somando remates, sem conseguir furar a defesa da casa."
+    },
+    {
+     "id": "f12",
+     "m": 12,
+     "txt": "GOLO DO FAMALICÃO! Contra a corrente do jogo, Daniel Silva inaugurou o marcador e pôs os da casa à frente. É o primeiro golo dele na prova."
     }
    ],
    "faltas": [],
@@ -2409,7 +2419,7 @@
    },
    "casa": {
     "eq": "famalicao",
-    "golos": "",
+    "golos": 1,
     "capitao": "CLÁUDIO CARVALHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
@@ -2481,7 +2491,7 @@
       "num": "7",
       "nome": "DANIEL SILVA",
       "e": "S",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/67/09/16756709_daniel_silva_20260812171047.png"
@@ -3516,6 +3526,6 @@
    }
   }
  ],
- "ts": 1789921284606,
+ "ts": 1789921882322,
  "build": "20260919151922"
 }

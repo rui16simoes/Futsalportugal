@@ -2908,9 +2908,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 2,
+    "acc": 180,
     "desde": 0
    },
    "lances": [
@@ -3033,6 +3033,21 @@
      "id": "uint",
      "m": 20,
      "txt": "INTERVALO NA VENDA NOVA. UPVN 1-1 Leões de Porto Salvo."
+    },
+    {
+     "id": "u21",
+     "m": 21,
+     "txt": "RECOMEÇOU O JOGO na Venda Nova, com a contagem de faltas a zero e o empate a uma bola por desfazer."
+    },
+    {
+     "id": "u21b",
+     "m": 21,
+     "txt": "Logo a abrir, Ré embalou até à linha de fundo e cruzou, mas Jackson Ryan apareceu a cortar para canto."
+    },
+    {
+     "id": "u23",
+     "m": 23,
+     "txt": "Amarelo para Sissi, na primeira falta do UPVN neste segundo tempo."
     }
    ],
    "faltas": [
@@ -3077,6 +3092,20 @@
      "parte": 1,
      "m": 15,
      "n": 3
+    },
+    {
+     "id": "ufc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "uff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 22,
+     "n": 1
     }
    ],
    "gp": {
@@ -3209,7 +3238,7 @@
       "nome": "SISSI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "23",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/95/170995_sissi_20241019155500.jpg"
      },
@@ -3820,6 +3849,6 @@
    }
   }
  ],
- "ts": 1789926369507,
+ "ts": 1789927098261,
  "build": "20260919151922"
 }

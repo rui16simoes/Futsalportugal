@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900,
+    "acc": 1080,
     "desde": 0
    },
    "lances": [
@@ -2428,6 +2428,11 @@
      "id": "f35",
      "m": 35,
      "txt": "REDUZ O FAMALICÃO! Primeiro Rúben Santos carimbou o poste e, na seguinte, Diogo Mesquita não falhou. 2-7, e é o primeiro golo dele na prova."
+    },
+    {
+     "id": "f38",
+     "m": 38,
+     "txt": "Oleksandr Sukhov subiu no terreno e arriscou o remate, mas a bola saiu ao lado. O Sporting gere o jogo nos últimos minutos."
     }
    ],
    "faltas": [
@@ -2883,7 +2888,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 840,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -2971,6 +2976,11 @@
      "id": "u14",
      "m": 14,
      "txt": "Pausa técnica pedida pelo UPVN, a seis minutos do intervalo e com a vantagem mínima para gerir."
+    },
+    {
+     "id": "u15",
+     "m": 15,
+     "txt": "Amarelo para Francisco Oliveira, na terceira falta dos Leões. Logo a seguir, uma bola perigosa para a área de Porto Salvo obrigou Bruno Sá a cortar, e Guilherme Cintra voltou a subir — desta vez pela esquerda — para um remate forte que Jackson Ryan agarrou."
     }
    ],
    "faltas": [
@@ -3001,6 +3011,13 @@
      "parte": 1,
      "m": 7,
      "n": 2
+    },
+    {
+     "id": "uff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 15,
+     "n": 3
     }
    ],
    "gp": {
@@ -3341,7 +3358,7 @@
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "15",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
      },
@@ -3744,6 +3761,6 @@
    }
   }
  ],
- "ts": 1789925163364,
+ "ts": 1789925438218,
  "build": "20260919151922"
 }

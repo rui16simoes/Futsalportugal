@@ -2328,9 +2328,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1080,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -2433,6 +2433,21 @@
      "id": "f38",
      "m": 38,
      "txt": "Oleksandr Sukhov subiu no terreno e arriscou o remate, mas a bola saiu ao lado. O Sporting gere o jogo nos últimos minutos."
+    },
+    {
+     "id": "f39",
+     "m": 39,
+     "txt": "HAT-TRICK DE FELIPE VALÉRIO! O ala fechou a conta pessoal em três golos e levou o Sporting ao 2-8 mesmo antes do apito."
+    },
+    {
+     "id": "f40",
+     "m": 40,
+     "txt": "FINAL NAS LAMEIRAS. FC Famalicão 2-8 Sporting."
+    },
+    {
+     "id": "ffim",
+     "m": 40,
+     "txt": "O SPORTING VENCEU E GOLEOU. Esteve a perder com o golo de Daniel Silva, mas respondeu com cinco golos em quatro minutos ainda na primeira parte e nunca mais largou o jogo. Felipe Valério assinou um hat-trick, Wesley bisou e o Famalicão só conseguiu reduzir por Diogo Mesquita. 2-8 para os leões em Famalicão."
     }
    ],
    "faltas": [
@@ -2477,6 +2492,13 @@
      "parte": 2,
      "m": 30,
      "n": 2
+    },
+    {
+     "id": "fff23",
+     "lado": "fora",
+     "parte": 2,
+     "m": 39,
+     "n": 3
     }
    ],
    "gp": {
@@ -2699,7 +2721,7 @@
    },
    "fora": {
     "eq": "sporting",
-    "golos": 7,
+    "golos": 8,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2807,7 +2829,7 @@
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "S",
-      "min": "19, 28",
+      "min": "19, 28, 39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
@@ -2888,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -2981,6 +3003,16 @@
      "id": "u15",
      "m": 15,
      "txt": "Amarelo para Francisco Oliveira, na terceira falta dos Leões. Logo a seguir, uma bola perigosa para a área de Porto Salvo obrigou Bruno Sá a cortar, e Guilherme Cintra voltou a subir — desta vez pela esquerda — para um remate forte que Jackson Ryan agarrou."
+    },
+    {
+     "id": "u16",
+     "m": 16,
+     "txt": "Pedro Santos apanhou o meio desimpedido e atirou de bico, mas sem a execução ideal. Jackson Ryan voltou a ganhar o duelo."
+    },
+    {
+     "id": "u17",
+     "m": 17,
+     "txt": "E o capitão dos Leões também tentou. Ré disparou da esquerda e obrigou o guarda-redes do UPVN a esticar-se por completo para mais uma defesa."
     }
    ],
    "faltas": [
@@ -3761,6 +3793,6 @@
    }
   }
  ],
- "ts": 1789925438218,
+ "ts": 1789925801670,
  "build": "20260919151922"
 }

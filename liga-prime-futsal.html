@@ -329,11 +329,7 @@ function fmtDateShort(iso){
   return `${dias[d.getDay()]} ${d.getDate()} ${meses[d.getMonth()]}`;
 }
 function jornadaDateLabel(dj){
-  // Compute date range from games
-  const dates = [...new Set(dj.jogos.map(g => g.data || dj.data).filter(Boolean))].sort();
-  if(dates.length === 0) return fmtDate(dj.data);
-  if(dates.length === 1) return fmtDate(dates[0]);
-  return `${fmtDateShort(dates[0])} – ${fmtDateShort(dates[dates.length-1])}`;
+  return fmtDate(dj.data) || "";
 }
 
 function jogoHtml(j, gi, jogo, dj){
@@ -362,7 +358,7 @@ function jogoHtml(j, gi, jogo, dj){
     ${IS_ADMIN ? `<div class="jogo-meta">
       <span>🕐 <input type="time" value="${esc(jogo.hora||'')}" onchange="setMeta(${j},${gi},'hora',this.value)" style="width:80px"></span>
       <span>📍 <input type="text" value="${esc(jogo.pavilhao||'')}" placeholder="Pavilhão" onchange="setMeta(${j},${gi},'pavilhao',this.value)" style="flex:1;min-width:120px"></span>
-    </div>` : (jogo.data||jogo.hora||jogo.pavilhao ? `<div class="jogo-meta">${(jogo.data && dj && jogo.data!==dj.data)?`<span>📅 ${fmtDateShort(jogo.data)}</span>`:''}${jogo.hora?`<span>🕐 ${esc(jogo.hora)}</span>`:''}${jogo.pavilhao?`<span>📍 ${MAPS[jogo.pavilhao]?`<a href="${esc(MAPS[jogo.pavilhao])}" target="_blank" rel="noopener" style="color:#93c5fd;text-decoration:none">${esc(jogo.pavilhao)} ↗</a>`:esc(jogo.pavilhao)}</span>`:''}</div>` : '')}
+    </div>` : (jogo.data||jogo.hora||jogo.pavilhao ? `<div class="jogo-meta">${(function(){const _dd=[...new Set(dj.jogos.map(g=>g.data||dj.data).filter(Boolean))];const _multi=_dd.length>1;const _eff=jogo.data||dj.data;return((_multi&&_eff)||(!_multi&&jogo.data&&jogo.data!==dj.data))?`<span>📅 ${fmtDateShort(_eff)}</span>`:'';})() }${jogo.hora?`<span>🕐 ${esc(jogo.hora)}</span>`:''}${jogo.pavilhao?`<span>📍 ${MAPS[jogo.pavilhao]?`<a href="${esc(MAPS[jogo.pavilhao])}" target="_blank" rel="noopener" style="color:#93c5fd;text-decoration:none">${esc(jogo.pavilhao)} ↗</a>`:esc(jogo.pavilhao)}</span>`:''}</div>` : '')}
   
   </div>`;
 }

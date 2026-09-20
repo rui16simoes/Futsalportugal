@@ -255,11 +255,7 @@ function fmtDateShort(iso){
   return `${dias[d.getDay()]} ${d.getDate()} ${meses[d.getMonth()]}`;
 }
 function jornadaDateLabel(dj){
-  // Compute date range from games
-  const dates = [...new Set(dj.jogos.map(g => g.data || dj.data).filter(Boolean))].sort();
-  if(dates.length === 0) return fmtDate(dj.data);
-  if(dates.length === 1) return fmtDate(dates[0]);
-  return `${fmtDateShort(dates[0])} – ${fmtDateShort(dates[dates.length-1])}`;
+  return fmtDate(dj.data) || "";
 }
 function teamLogo(t){
   if(t.logo) return `<img class="team-logo" src="${esc(t.logo)}" alt="" onerror="this.outerHTML='<div class=&quot;team-badge&quot; style=&quot;background:${t.color}&quot;>${esc(t.short)}</div>'">`;

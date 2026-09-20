@@ -3093,6 +3093,11 @@
      "id": "u30",
      "m": 30,
      "txt": "Segunda parte bem mais repartida. O UPVN perdeu o medo e chega com frequência à baliza contrária, obrigando Guilherme Cintra a um trabalho que não teve no primeiro tempo."
+    },
+    {
+     "id": "u31",
+     "m": 31,
+     "txt": "ESTEVE LÁ O SEGUNDO DOS LEÕES! Natan Minatti bateu o livre e a bola foi bater no poste da baliza de Jackson Ryan."
     }
    ],
    "faltas": [
@@ -3915,6 +3920,6 @@
    }
   }
  ],
- "ts": 1789928079399,
+ "ts": 1789928113000,
  "build": "20260919151922"
 }

@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -3123,6 +3123,16 @@
      "id": "u33d",
      "m": 33,
      "txt": "Amarelo também para Pedro Marques. Minuto agitado na Venda Nova, com dois cartões e um penálti em poucos segundos."
+    },
+    {
+     "id": "u34",
+     "m": 34,
+     "txt": "BISA FRANCISCO OLIVEIRA e os Leões disparam para o 1-4. Três golos em pouco mais de três minutos deixaram o jogo praticamente decidido."
+    },
+    {
+     "id": "u34b",
+     "m": 34,
+     "txt": "Pausa técnica pedida pelo UPVN, a tentar travar a hemorragia."
     }
    ],
    "faltas": [
@@ -3422,7 +3432,7 @@
    },
    "fora": {
     "eq": "leoes",
-    "golos": 3,
+    "golos": 4,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -3548,7 +3558,7 @@
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
-      "min": "20",
+      "min": "20, 34",
       "cart": "15",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
@@ -3952,6 +3962,6 @@
    }
   }
  ],
- "ts": 1789928654205,
+ "ts": 1789928691319,
  "build": "20260919151922"
 }

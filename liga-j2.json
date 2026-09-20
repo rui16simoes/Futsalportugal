@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -2408,6 +2408,11 @@
      "id": "f28",
      "m": 28,
      "txt": "Amarelo também para Bruno Maior. O jogo aqueceu e os cartões começaram a sair dos dois lados."
+    },
+    {
+     "id": "f28g",
+     "m": 28,
+     "txt": "SEXTO DO SPORTING. Tiaguinho juntou-se à lista de marcadores e levou os leões ao 1-6 nas Lameiras."
     }
    ],
    "faltas": [
@@ -2674,7 +2679,7 @@
    },
    "fora": {
     "eq": "sporting",
-    "golos": 5,
+    "golos": 6,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2773,7 +2778,7 @@
       "num": "13",
       "nome": "TIAGUINHO",
       "e": "S",
-      "min": "",
+      "min": "28",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/59/16619959_tiaguinho_20260830155021.jpg"
@@ -3675,6 +3680,6 @@
    }
   }
  ],
- "ts": 1789924543459,
+ "ts": 1789924562708,
  "build": "20260919151922"
 }

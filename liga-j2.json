@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -3102,7 +3102,12 @@
     {
      "id": "u31b",
      "m": 31,
-     "txt": "VIRARAM OS LEÕES! Logo a seguir ao poste de Natan Minatti, Guilherme Cintra subiu no terreno e serviu Pedro Marques, que fez o 1-2. Assistência do guarda-redes e segundo golo do ala na prova."
+     "txt": "VIRARAM OS LEÕES! Guilherme Cintra subiu pelo corredor central, encontrou espaço e serviu Pedro Marques para o 1-2. Assistência do guarda-redes e segundo golo do ala na prova."
+    },
+    {
+     "id": "u33",
+     "m": 33,
+     "txt": "Amarelo para Tomás Silva. As faltas voltam a estar empatadas a três e o UPVN tem sete minutos para responder."
     }
    ],
    "faltas": [
@@ -3161,6 +3166,13 @@
      "parte": 2,
      "m": 31,
      "n": 2
+    },
+    {
+     "id": "ufc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 33,
+     "n": 3
     },
     {
      "id": "uff21",
@@ -3278,7 +3290,7 @@
       "nome": "TOMÁS SILVA",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "33",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/55/03/665503_tomas_silva_20250919112617.jpg"
      },
@@ -3925,6 +3937,6 @@
    }
   }
  ],
- "ts": 1789928149007,
+ "ts": 1789928354852,
  "build": "20260919151922"
 }

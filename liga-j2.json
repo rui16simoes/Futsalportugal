@@ -2384,14 +2384,14 @@
    "casa": {
     "eq": "famalicao",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUIZINHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO NUNES (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2400,7 +2400,7 @@
      {
       "num": "14",
       "nome": "CLÁUDIO CARVALHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2409,7 +2409,7 @@
      {
       "num": "16",
       "nome": "MIGUEL FERREIRA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2418,7 +2418,7 @@
      {
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2427,7 +2427,7 @@
      {
       "num": "5",
       "nome": "FILIPE COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2436,7 +2436,7 @@
      {
       "num": "22",
       "nome": "BUZUZU",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2445,7 +2445,7 @@
      {
       "num": "6",
       "nome": "AFONSO VIEIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2454,7 +2454,7 @@
      {
       "num": "7",
       "nome": "DANIEL SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2463,7 +2463,7 @@
      {
       "num": "8",
       "nome": "SIMÃO CORDEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2472,7 +2472,7 @@
      {
       "num": "19",
       "nome": "RÚBEN SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2481,7 +2481,7 @@
      {
       "num": "21",
       "nome": "MATHIS PEREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2490,7 +2490,7 @@
      {
       "num": "28",
       "nome": "GUI TORRES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2499,7 +2499,7 @@
      {
       "num": "77",
       "nome": "JEFFERSON",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2508,7 +2508,7 @@
      {
       "num": "10",
       "nome": "RUIZINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2517,7 +2517,7 @@
      {
       "num": "11",
       "nome": "JOÃO MIGUEL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2526,7 +2526,7 @@
      {
       "num": "39",
       "nome": "GUGA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2535,25 +2535,35 @@
      {
       "num": "97",
       "nome": "LEANDRO RIBEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/23/930923_leandro_ribeiro_20260122183348.png"
+     },
+     {
+      "num": "6",
+      "nome": "DIOGO MESQUITA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
    "fora": {
     "eq": "sporting",
     "golos": "",
-    "capitao": "",
+    "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "GONÇALO PORTUGAL (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2562,7 +2572,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2571,7 +2581,7 @@
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2580,7 +2590,7 @@
      {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2589,7 +2599,7 @@
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2598,7 +2608,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2607,7 +2617,7 @@
      {
       "num": "17",
       "nome": "ERICK MENDONÇA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2616,7 +2626,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2625,7 +2635,7 @@
      {
       "num": "10",
       "nome": "RÚBEN TEIXEIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2634,7 +2644,7 @@
      {
       "num": "11",
       "nome": "IVAN CHISHKALA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2643,7 +2653,7 @@
      {
       "num": "13",
       "nome": "TIAGUINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2652,7 +2662,7 @@
      {
       "num": "14",
       "nome": "FELIPE VALÉRIO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2661,7 +2671,7 @@
      {
       "num": "25",
       "nome": "BRUNO PINTO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2670,7 +2680,7 @@
      {
       "num": "29",
       "nome": "ALEX MERLIM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2679,7 +2689,7 @@
      {
       "num": "6",
       "nome": "ZICKY TÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2688,7 +2698,7 @@
      {
       "num": "30",
       "nome": "FELIPE RUFINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2697,11 +2707,21 @@
      {
       "num": "70",
       "nome": "ROCHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
+     },
+     {
+      "num": "2",
+      "nome": "RAFAEL RUELA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -3450,6 +3470,6 @@
    }
   }
  ],
- "ts": 1789917493790,
+ "ts": 1789918580442,
  "build": "20260919151922"
 }

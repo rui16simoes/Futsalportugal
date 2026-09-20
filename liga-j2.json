@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -3068,6 +3068,11 @@
      "id": "u26",
      "m": 26,
      "txt": "Guilherme Cintra subiu outra vez pela esquerda e disparou com força. Jackson Ryan não segurou, mas o perigo acabou por ser afastado."
+    },
+    {
+     "id": "u27",
+     "m": 27,
+     "txt": "Resposta do UPVN. Lucas Veras arranjou espaço para rematar de ângulo muito apertado e a bola acabou por chegar sem problemas a Guilherme Cintra."
     }
    ],
    "faltas": [
@@ -3876,6 +3881,6 @@
    }
   }
  ],
- "ts": 1789927602166,
+ "ts": 1789927638366,
  "build": "20260919151922"
 }

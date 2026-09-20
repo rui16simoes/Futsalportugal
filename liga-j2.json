@@ -3138,6 +3138,16 @@
      "id": "u36",
      "m": 36,
      "txt": "Podia ter sido o hat-trick. Leonildo Injai serviu Francisco Oliveira ao segundo poste, mas o desvio saiu sem força suficiente para bater Jackson Ryan."
+    },
+    {
+     "id": "u36b",
+     "m": 36,
+     "txt": "Jackson Ryan a impedir o quinto. Ré esteve perto de assinalar o regresso com golo, mas o guarda-redes do UPVN travou a jogada e ainda segurou a recarga."
+    },
+    {
+     "id": "u36c",
+     "m": 36,
+     "txt": "REDUZ O UPVN! Rafael Freire marcou o seu primeiro golo na prova e devolveu alguma esperança à equipa da casa. 2-4 a quatro minutos do fim."
     }
    ],
    "faltas": [
@@ -3274,7 +3284,7 @@
    },
    "casa": {
     "eq": "upvn",
-    "golos": 1,
+    "golos": 2,
     "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
@@ -3337,7 +3347,7 @@
       "num": "18",
       "nome": "RAFAEL FREIRE",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/30/1305730_rafael_freire_20250702153014.jpg"
@@ -3967,6 +3977,6 @@
    }
   }
  ],
- "ts": 1789928997612,
+ "ts": 1789929126459,
  "build": "20260919151922"
 }

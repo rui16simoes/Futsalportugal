@@ -2908,7 +2908,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200,
     "desde": 0
@@ -3023,6 +3023,16 @@
      "id": "u20b",
      "m": 20,
      "txt": "Pausa técnica pedida pelos Leões de Porto Salvo já em cima do intervalo."
+    },
+    {
+     "id": "u20c",
+     "m": 20,
+     "txt": "EMPATA PORTO SALVO A DOIS SEGUNDOS DO INTERVALO! Na sequência de um canto, Isaías Furtado recebeu no corredor central, livrou-se do marcador e serviu o segundo poste, onde Francisco Oliveira apareceu para fazer o 1-1. Primeiro golo dele na prova e primeira assistência de Isaías."
+    },
+    {
+     "id": "uint",
+     "m": 20,
+     "txt": "INTERVALO NA VENDA NOVA. UPVN 1-1 Leões de Porto Salvo."
     }
    ],
    "faltas": [
@@ -3280,7 +3290,7 @@
    },
    "fora": {
     "eq": "leoes",
-    "golos": "",
+    "golos": 1,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -3406,7 +3416,7 @@
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
-      "min": "",
+      "min": "20",
       "cart": "15",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
@@ -3444,7 +3454,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "20",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
      },
      {
@@ -3810,6 +3820,6 @@
    }
   }
  ],
- "ts": 1789926100212,
+ "ts": 1789926369507,
  "build": "20260919151922"
 }

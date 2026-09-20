@@ -3168,6 +3168,16 @@
      "id": "u39",
      "m": 39,
      "txt": "Quarta falta do UPVN no último minuto. A equipa da casa continua no 5x4 à procura de reduzir, mas cada falta agora pesa mais."
+    },
+    {
+     "id": "u39b",
+     "m": 39,
+     "txt": "Tomás Silva, no papel de guarda-redes avançado, encontrou espaço pela direita e disparou, mas a bola saiu por cima."
+    },
+    {
+     "id": "u39c",
+     "m": 39,
+     "txt": "Jogo parado no último minuto. Rafael Freire ficou caído na quadra depois de uma falta de Pedro Santos e está a ser assistido."
     }
    ],
    "faltas": [
@@ -3261,6 +3271,13 @@
      "parte": 2,
      "m": 28,
      "n": 3
+    },
+    {
+     "id": "uff24",
+     "lado": "fora",
+     "parte": 2,
+     "m": 39,
+     "n": 4
     }
    ],
    "gp": {
@@ -4004,6 +4021,6 @@
    }
   }
  ],
- "ts": 1789929427919,
+ "ts": 1789929463428,
  "build": "20260919151922"
 }

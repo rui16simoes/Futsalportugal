@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480,
+    "acc": 600,
     "desde": 0
    },
    "lances": [
@@ -2433,11 +2433,25 @@
      "n": 3
     },
     {
+     "id": "ffc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": 30,
+     "n": 4
+    },
+    {
      "id": "fff21",
      "lado": "fora",
      "parte": 2,
      "m": 27,
      "n": 1
+    },
+    {
+     "id": "fff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 30,
+     "n": 2
     }
    ],
    "gp": {
@@ -2849,7 +2863,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 360,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -2892,6 +2906,16 @@
      "id": "u6",
      "m": 6,
      "txt": "Resposta dos Leões por Natan Minatti, com um remate forte de fora da área que Jackson Ryan segurou sem dificuldade."
+    },
+    {
+     "id": "u7a",
+     "m": 7,
+     "txt": "Pedro Santos segurou de costas, rodou sobre o defesa e atirou à figura de Jackson Ryan."
+    },
+    {
+     "id": "u7b",
+     "m": 7,
+     "txt": "GOLO DO UPVN! André Galvão inaugurou o marcador na Venda Nova e fez o seu primeiro golo na prova. 1-0, com justiça para quem mais tem carregado."
     }
    ],
    "faltas": [
@@ -2958,7 +2982,7 @@
    },
    "casa": {
     "eq": "upvn",
-    "golos": "",
+    "golos": 1,
     "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
@@ -3102,7 +3126,7 @@
       "num": "27",
       "nome": "ANDRÉ GALVÃO",
       "e": "S",
-      "min": "",
+      "min": "7",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
@@ -3651,6 +3675,6 @@
    }
   }
  ],
- "ts": 1789924444557,
+ "ts": 1789924489058,
  "build": "20260919151922"
 }

@@ -2419,6 +2419,20 @@
      "parte": 2,
      "m": 25,
      "n": 2
+    },
+    {
+     "id": "ffc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 27,
+     "n": 3
+    },
+    {
+     "id": "fff21",
+     "lado": "fora",
+     "parte": 2,
+     "m": 27,
+     "n": 1
     }
    ],
    "gp": {
@@ -2848,6 +2862,11 @@
      "id": "u3",
      "m": 3,
      "txt": "Primeiro aviso da casa. Dura tentou o primeiro poste com o pé esquerdo e Guilherme Cintra não conseguiu segurar a bola, que saiu para canto."
+    },
+    {
+     "id": "u3b",
+     "m": 3,
+     "txt": "E outra vez o guarda-redes dos Leões a salvar. Lucas Veras deixou um adversário para trás e ficou frente a frente com Guilherme Cintra, que voltou a travar o UPVN."
     }
    ],
    "faltas": [
@@ -3600,6 +3619,6 @@
    }
   }
  ],
- "ts": 1789924053553,
+ "ts": 1789924098754,
  "build": "20260919151922"
 }

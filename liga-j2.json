@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180,
+    "acc": 360,
     "desde": 0
    },
    "lances": [
@@ -3048,6 +3048,26 @@
      "id": "u23",
      "m": 23,
      "txt": "Amarelo para Sissi, na primeira falta do UPVN neste segundo tempo."
+    },
+    {
+     "id": "u23b",
+     "m": 23,
+     "txt": "Sissi viu Guilherme Cintra adiantado e tentou o golo de baliza a baliza, mas a bola passou ligeiramente ao lado."
+    },
+    {
+     "id": "u24",
+     "m": 24,
+     "txt": "Jackson Ryan a segurar o empate. Pedro Marques encheu o pé pela direita e o guarda-redes da casa mandou para canto; a seguir, Natan Minatti rematou de primeira na esquerda e voltou a encontrá-lo pela frente."
+    },
+    {
+     "id": "u25",
+     "m": 25,
+     "txt": "Amarelo para Pedro Santos, na segunda falta dos Leões neste tempo."
+    },
+    {
+     "id": "u26",
+     "m": 26,
+     "txt": "Guilherme Cintra subiu outra vez pela esquerda e disparou com força. Jackson Ryan não segurou, mas o perigo acabou por ser afastado."
     }
    ],
    "faltas": [
@@ -3106,6 +3126,13 @@
      "parte": 2,
      "m": 22,
      "n": 1
+    },
+    {
+     "id": "uff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 25,
+     "n": 2
     }
    ],
    "gp": {
@@ -3464,7 +3491,7 @@
       "nome": "PEDRO SANTOS",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
      },
@@ -3849,6 +3876,6 @@
    }
   }
  ],
- "ts": 1789927098261,
+ "ts": 1789927602166,
  "build": "20260919151922"
 }

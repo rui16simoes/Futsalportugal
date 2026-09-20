@@ -2413,6 +2413,11 @@
      "id": "f28g",
      "m": 28,
      "txt": "SEXTO DO SPORTING. Alex Merlim serviu Tiaguinho, que não perdoou e levou os leões ao 1-6 nas Lameiras. Primeiro golo dele na prova."
+    },
+    {
+     "id": "f28h",
+     "m": 28,
+     "txt": "E logo a seguir o sétimo. Felipe Valério bisou no encontro e o Sporting passou a vencer por 1-7."
     }
    ],
    "faltas": [
@@ -2679,7 +2684,7 @@
    },
    "fora": {
     "eq": "sporting",
-    "golos": 6,
+    "golos": 7,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2787,7 +2792,7 @@
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "S",
-      "min": "19",
+      "min": "19, 28",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
@@ -3680,6 +3685,6 @@
    }
   }
  ],
- "ts": 1789924602009,
+ "ts": 1789924629021,
  "build": "20260919151922"
 }

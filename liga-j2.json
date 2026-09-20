@@ -2548,7 +2548,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/37/66/1233766_diogo_mesquita_20250120094723.jpg",
       "extra": 1
      }
     ]
@@ -2720,7 +2720,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/19/21/921921_rafael_ruela_20250128165119.jpg",
       "extra": 1
      }
     ]
@@ -3470,6 +3470,6 @@
    }
   }
  ],
- "ts": 1789918580442,
+ "ts": 1789919320199,
  "build": "20260919151922"
 }

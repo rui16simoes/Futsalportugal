@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480,
+    "acc": 780,
     "desde": 0
    },
    "lances": [
@@ -2418,6 +2418,11 @@
      "id": "f28h",
      "m": 28,
      "txt": "E logo a seguir o sétimo. Bruno Maior serviu Felipe Valério, que bisou no encontro e levou o Sporting ao 1-7."
+    },
+    {
+     "id": "f33",
+     "m": 33,
+     "txt": "Pausa técnica pedida pelo Famalicão. Cláudio Martins chamou os seus com o jogo já resolvido e sete minutos por cumprir."
     }
    ],
    "faltas": [
@@ -2873,7 +2878,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -2936,6 +2941,11 @@
      "id": "u8b",
      "m": 8,
      "txt": "Antes disso, Isaías Furtado fez um belo trabalho individual para se livrar de um adversário, mas encontrou Jackson Ryan bem apoiado no poste."
+    },
+    {
+     "id": "u9",
+     "m": 9,
+     "txt": "Os Leões começaram a incomodar. Isaías Furtado tentou outra vez a baliza da casa e voltou a esbarrar em Jackson Ryan, desta vez com um remate à figura."
     }
    ],
    "faltas": [
@@ -3702,6 +3712,6 @@
    }
   }
  ],
- "ts": 1789924679559,
+ "ts": 1789924751360,
  "build": "20260919151922"
 }

@@ -2810,11 +2810,30 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "u1",
+     "m": 1,
+     "txt": "COMEÇOU O JOGO na Venda Nova. Primeiro encontro de sempre entre UPVN e Leões de Porto Salvo, com as duas equipas ainda à procura da primeira vitória na prova."
+    },
+    {
+     "id": "u1b",
+     "m": 1,
+     "txt": "Logo no primeiro minuto, Guilherme Cintra avançou no terreno e atirou de bico. Jackson Ryan respondeu bem e segurou o empate."
+    }
+   ],
+   "faltas": [
+    {
+     "id": "uf11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 1,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2880,7 +2899,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2907,7 +2926,7 @@
      {
       "num": "21",
       "nome": "TOMÁS SILVA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2916,7 +2935,7 @@
      {
       "num": "6",
       "nome": "VICENTE MOURATO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2961,7 +2980,7 @@
      {
       "num": "11",
       "nome": "DURA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2979,7 +2998,7 @@
      {
       "num": "20",
       "nome": "LUCAS VERAS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3556,6 +3575,6 @@
    }
   }
  ],
- "ts": 1789923788100,
+ "ts": 1789923969952,
  "build": "20260919151922"
 }

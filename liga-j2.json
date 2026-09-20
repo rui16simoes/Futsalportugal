@@ -2328,9 +2328,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -2372,17 +2372,22 @@
     {
      "id": "f16",
      "m": 16,
-     "txt": "DOIS GOLOS EM CIMA UM DO OUTRO E O SPORTING VIROU. Wesley fez o empate e, ainda no mesmo minuto, Felipe Valério colocou os leões na frente. 1-2."
+     "txt": "RESPONDEU O SPORTING E RESPONDEU DEPRESSA. Felipe Rufino restabeleceu a igualdade e, ainda dentro do mesmo minuto, Wesley virou o resultado. 1-2."
     },
     {
      "id": "f18",
      "m": 18,
-     "txt": "AMPLIA O SPORTING! Felipe Rufino faz o 1-3 e apanha o primeiro golo dele na prova. Em dois minutos o jogo mudou de dono."
+     "txt": "BISA WESLEY. O extremo leonino voltou a marcar e fez o 1-3, já com o Famalicão em queda livre."
     },
     {
      "id": "f19",
      "m": 19,
-     "txt": "O SPORTING JÁ VAI EM CINCO. Mais dois golos dos leões colocam o marcador em 1-5. Com a app da FPF em baixo, ainda não temos confirmação dos autores nem dos minutos exatos — assim que forem conhecidos, atualizamos a ficha."
+     "txt": "MAIS DOIS EM CATADUPA. Felipe Valério e Rocha marcaram no mesmo minuto e levaram o Sporting ao 1-5. Cinco golos leoninos em quatro minutos."
+    },
+    {
+     "id": "fint",
+     "m": 20,
+     "txt": "INTERVALO EM FAMALICÃO. FC Famalicão 1-5 Sporting."
     }
    ],
    "faltas": [],
@@ -2660,7 +2665,7 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "S",
-      "min": "16",
+      "min": "16, 18",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
@@ -2714,7 +2719,7 @@
       "num": "14",
       "nome": "FELIPE VALÉRIO",
       "e": "S",
-      "min": "16",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
@@ -2750,7 +2755,7 @@
       "num": "30",
       "nome": "FELIPE RUFINO",
       "e": "S",
-      "min": "18",
+      "min": "16",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/99/16662999_felipe_rufino_20260830155159.jpg"
@@ -2759,7 +2764,7 @@
       "num": "70",
       "nome": "ROCHA",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
@@ -3541,6 +3546,6 @@
    }
   }
  ],
- "ts": 1789922796641,
+ "ts": 1789922832953,
  "build": "20260919151922"
 }

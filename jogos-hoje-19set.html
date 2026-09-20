@@ -174,42 +174,170 @@ const LINKS = {
 };
 
 // ── CLASSIFICAÇÃO ─────────────────────────────────────────────────────────────
-const CLASSIFICATION = {
-  ligaPlacardM: {
+const CLASSIFICATION = [
+  {
     label: 'Liga Placard · Masculino', link: LINKS.ligaPlacardM,
-    color: '#f59e0b', flag: '🇵🇹', updated: 'J2 · 19 set',
+    color: '#f59e0b', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
     teams: [
-      { pos:1,  name:'Sporting CP',             p:2, v:2, e:0, d:0, gf:8,  gc:0, pts:6 },
-      { pos:2,  name:'Eléctrico FC',            p:2, v:2, e:0, d:0, gf:7,  gc:2, pts:6 },
-      { pos:3,  name:'SL Benfica',              p:2, v:1, e:1, d:0, gf:6,  gc:3, pts:4 },
-      { pos:4,  name:'AD Fundão',               p:2, v:1, e:0, d:1, gf:3,  gc:9, pts:3 },
-      { pos:5,  name:'SC Braga',                p:2, v:1, e:0, d:1, gf:6,  gc:4, pts:3 },
-      { pos:6,  name:'FC Famalicão',            p:1, v:0, e:1, d:0, gf:4,  gc:4, pts:1 },
-      { pos:7,  name:'CR Leões Porto Salvo',    p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
-      { pos:8,  name:'SCF Zêzere by Zêzerovo',  p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
-      { pos:9,  name:'Rio Ave FC',              p:2, v:0, e:1, d:1, gf:5,  gc:8, pts:1 },
-      { pos:10, name:'Portimonense SC',         p:2, v:0, e:1, d:1, gf:2,  gc:3, pts:1 },
-      { pos:11, name:'UP Venda Nova / JRA',     p:1, v:0, e:0, d:1, gf:1,  gc:4, pts:0 },
-      { pos:12, name:'SCU Torreense SAD',       p:2, v:0, e:0, d:2, gf:2,  gc:7, pts:0 },
+      { pos:1,  name:'Eléctrico FC',           p:2, v:2, e:0, d:0, gf:7,  gc:2, pts:6 },
+      { pos:2,  name:'SL Benfica',             p:2, v:1, e:1, d:0, gf:6,  gc:3, pts:4 },
+      { pos:3,  name:'SC Braga',               p:2, v:1, e:0, d:1, gf:6,  gc:4, pts:3 },
+      { pos:4,  name:'AD Fundão',              p:1, v:1, e:0, d:0, gf:3,  gc:2, pts:3 },
+      { pos:5,  name:'Sporting CP',            p:1, v:1, e:0, d:0, gf:1,  gc:0, pts:3 },
+      { pos:6,  name:'FC Famalicão',           p:1, v:0, e:1, d:0, gf:4,  gc:4, pts:1 },
+      { pos:7,  name:'CR Leões Porto Salvo',   p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
+      { pos:8,  name:'SCF Zêzere',             p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
+      { pos:9,  name:'Portimonense SC',        p:2, v:0, e:1, d:1, gf:2,  gc:3, pts:1 },
+      { pos:10, name:'Rio Ave FC',             p:2, v:0, e:1, d:1, gf:5,  gc:8, pts:1 },
+      { pos:11, name:'UP Venda Nova',          p:1, v:0, e:0, d:1, gf:1,  gc:4, pts:0 },
+      { pos:12, name:'SCU Torreense SAD',      p:2, v:0, e:0, d:2, gf:2,  gc:7, pts:0 },
     ]
   },
-  ligaPlacardF: {
+  {
     label: 'Liga Feminina Placard', link: LINKS.ligaPlacardF,
     color: '#f43f5e', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
     teams: [
-      { pos:1,  name:'SL Benfica',            p:2, v:2, e:0, d:0, gf:10, gc:0, pts:6 },
-      { pos:2,  name:'CR Leões Porto Salvo',  p:1, v:1, e:0, d:0, gf:5,  gc:0, pts:3 },
-      { pos:3,  name:"GCR Nun'álvares",       p:1, v:1, e:0, d:0, gf:7,  gc:3, pts:3 },
-      { pos:4,  name:'Atlético CP',           p:1, v:1, e:0, d:0, gf:2,  gc:0, pts:3 },
-      { pos:5,  name:'Novasemente GD',        p:1, v:0, e:1, d:0, gf:1,  gc:1, pts:1 },
-      { pos:6,  name:'GD Árvore',             p:1, v:0, e:1, d:0, gf:1,  gc:1, pts:1 },
-      { pos:7,  name:'Santa Luzia FC',        p:1, v:0, e:0, d:1, gf:0,  gc:2, pts:0 },
-      { pos:8,  name:'Maia FC/Mercainox',     p:1, v:0, e:0, d:1, gf:3,  gc:7, pts:0 },
-      { pos:9,  name:'Feijó/LTintas',         p:1, v:0, e:0, d:1, gf:0,  gc:6, pts:0 },
-      { pos:10, name:'SCU Torreense',         p:2, v:0, e:0, d:2, gf:0,  gc:9, pts:0 },
+      { pos:1,  name:'CR Leões Porto Salvo',  p:2, v:2, e:0, d:0, gf:10, gc:0,  pts:6 },
+      { pos:2,  name:'SL Benfica',            p:2, v:2, e:0, d:0, gf:10, gc:0,  pts:6 },
+      { pos:3,  name:"GCR Nun'Álvares",       p:2, v:2, e:0, d:0, gf:11, gc:3,  pts:6 },
+      { pos:4,  name:'Novasemente GD',        p:2, v:1, e:1, d:0, gf:4,  gc:2,  pts:4 },
+      { pos:5,  name:'Atlético CP',           p:1, v:1, e:0, d:0, gf:2,  gc:0,  pts:3 },
+      { pos:6,  name:'GD Árvore',             p:2, v:0, e:1, d:1, gf:1,  gc:5,  pts:1 },
+      { pos:7,  name:'Maia FC',               p:1, v:0, e:0, d:1, gf:3,  gc:7,  pts:0 },
+      { pos:8,  name:'Santa Luzia FC',        p:2, v:0, e:0, d:2, gf:0,  gc:7,  pts:0 },
+      { pos:9,  name:'Feijó/LTintas',         p:2, v:0, e:0, d:2, gf:1,  gc:9,  pts:0 },
+      { pos:10, name:'SCU Torreense',         p:2, v:0, e:0, d:2, gf:0,  gc:9,  pts:0 },
     ]
   },
-};
+  {
+    label: 'CN Sub-19 I Divisão', link: LINKS.sub19,
+    color: '#ec4899', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
+    teams: [
+      { pos:1,  name:'ADCR Caxinas Poça Barca',    p:2, v:2, e:0, d:0, gf:5,  gc:1,  pts:6 },
+      { pos:2,  name:'SL Benfica',                 p:1, v:1, e:0, d:0, gf:8,  gc:1,  pts:3 },
+      { pos:3,  name:'CR Leões Porto Salvo',       p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
+      { pos:4,  name:'Sporting CP',                p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
+      { pos:5,  name:'Futsal Oeiras',              p:1, v:1, e:0, d:0, gf:5,  gc:3,  pts:3 },
+      { pos:6,  name:'CCRD Burinhosa',             p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+      { pos:7,  name:'CRC Quinta Lombos',          p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+      { pos:8,  name:'CS São João',               p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+      { pos:9,  name:'FC Barreirense',             p:1, v:0, e:0, d:1, gf:3,  gc:6,  pts:0 },
+      { pos:10, name:'AMSAC',                      p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
+      { pos:11, name:'SC Braga',                   p:2, v:0, e:0, d:2, gf:3,  gc:7,  pts:0 },
+      { pos:12, name:'GRC Dínamo Sanjoanense',     p:2, v:0, e:0, d:2, gf:4,  gc:13, pts:0 },
+    ]
+  },
+  {
+    label: 'CN Futsal 2.ª Divisão', link: LINKS.cn2divM,
+    color: '#10b981', flag: '🇵🇹', updated: 'J1 ✅ · 19 set',
+    series: [
+      { label: 'Série A', teams: [
+        { pos:1,  name:'ADCR Caxinas Poça Barca',  p:1, v:1, e:0, d:0, gf:7,  gc:2,  pts:3 },
+        { pos:2,  name:'FC Paços Ferreira',        p:1, v:1, e:0, d:0, gf:7,  gc:4,  pts:3 },
+        { pos:3,  name:'Amigos Cerva ADRC',        p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
+        { pos:4,  name:"GCR Nun'Álvares",          p:1, v:1, e:0, d:0, gf:6,  gc:5,  pts:3 },
+        { pos:5,  name:'Arsenal Clube Maia',       p:1, v:1, e:0, d:0, gf:3,  gc:2,  pts:3 },
+        { pos:6,  name:'Valpaços FC',              p:1, v:1, e:0, d:0, gf:2,  gc:1,  pts:3 },
+        { pos:7,  name:'AD Jorge Antunes',         p:1, v:0, e:0, d:1, gf:5,  gc:6,  pts:0 },
+        { pos:8,  name:'Lusitânia Lourosa',        p:1, v:0, e:0, d:1, gf:2,  gc:3,  pts:0 },
+        { pos:9,  name:'AD Modicus Sandim',        p:1, v:0, e:0, d:1, gf:1,  gc:2,  pts:0 },
+        { pos:10, name:'GRC Dínamo Sanjoanense',   p:1, v:0, e:0, d:1, gf:4,  gc:7,  pts:0 },
+        { pos:11, name:'CS Marítimo Madeira',      p:1, v:0, e:0, d:1, gf:3,  gc:6,  pts:0 },
+        { pos:12, name:'ADC Nogueiró/Tenões',      p:1, v:0, e:0, d:1, gf:2,  gc:7,  pts:0 },
+      ]},
+      { label: 'Série B', teams: [
+        { pos:1,  name:'CF Os Belenenses',         p:1, v:1, e:0, d:0, gf:10, gc:1,  pts:3 },
+        { pos:2,  name:'CS S. João',               p:1, v:1, e:0, d:0, gf:7,  gc:1,  pts:3 },
+        { pos:3,  name:'Viseu 2001 ADSC',          p:1, v:1, e:0, d:0, gf:4,  gc:1,  pts:3 },
+        { pos:4,  name:'SC Barbarense',            p:1, v:1, e:0, d:0, gf:6,  gc:4,  pts:3 },
+        { pos:5,  name:'A.M.S.Ant.Cavaleiros',     p:1, v:0, e:1, d:0, gf:5,  gc:5,  pts:1 },
+        { pos:6,  name:'AR Boa Esperança',         p:1, v:0, e:1, d:0, gf:5,  gc:5,  pts:1 },
+        { pos:7,  name:'CRC Quinta Lombos',        p:1, v:0, e:1, d:0, gf:1,  gc:1,  pts:1 },
+        { pos:8,  name:'Reguilas Tires Futsal',    p:1, v:0, e:1, d:0, gf:1,  gc:1,  pts:1 },
+        { pos:9,  name:'AR Amarense',              p:1, v:0, e:0, d:1, gf:4,  gc:6,  pts:0 },
+        { pos:10, name:'CF Sassoeiros',            p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
+        { pos:11, name:'CCRD Burinhosa',           p:1, v:0, e:0, d:1, gf:1,  gc:7,  pts:0 },
+        { pos:12, name:'ACDL/CBIDN',               p:1, v:0, e:0, d:1, gf:1,  gc:10, pts:0 },
+      ]},
+    ]
+  },
+  {
+    label: 'CN Futsal 3.ª Divisão', link: LINKS.cn3divM,
+    color: '#8b5cf6', flag: '🇵🇹', updated: 'J1 ✅ · 19 set',
+    series: [
+      { label: 'Série A', teams: [
+        { pos:1,  name:'CDRC São Martinho Mouros', p:1, v:1, e:0, d:0, gf:10, gc:2,  pts:3 },
+        { pos:2,  name:'FC Porto',                 p:1, v:1, e:0, d:0, gf:7,  gc:1,  pts:3 },
+        { pos:3,  name:'Leixões SC',               p:1, v:1, e:0, d:0, gf:8,  gc:5,  pts:3 },
+        { pos:4,  name:'ACR Lordelo',              p:1, v:1, e:0, d:0, gf:5,  gc:2,  pts:3 },
+        { pos:5,  name:'GD Macedense',             p:1, v:1, e:0, d:0, gf:5,  gc:2,  pts:3 },
+        { pos:6,  name:'CB Alfândega Fé/MC Rabaçal',p:1,v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
+        { pos:7,  name:'AA Johnson Jan./RL7',      p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
+        { pos:8,  name:'ADC São Mateus',           p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
+        { pos:9,  name:'CA Mogadouro',             p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
+        { pos:10, name:'Boavista FC',              p:1, v:0, e:0, d:1, gf:5,  gc:8,  pts:0 },
+        { pos:11, name:'FC Estrelas Susanenses',   p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
+        { pos:12, name:'Miramar Império',          p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
+        { pos:13, name:"GCR Nun'Álvares B",        p:1, v:0, e:0, d:1, gf:1,  gc:7,  pts:0 },
+        { pos:14, name:'FC Marinhas',              p:1, v:0, e:0, d:1, gf:2,  gc:10, pts:0 },
+      ]},
+      { label: 'Série B', teams: [
+        { pos:1,  name:'Academia Condeixa',        p:1, v:1, e:0, d:0, gf:6,  gc:2,  pts:3 },
+        { pos:2,  name:'ADC Santa Isabel',         p:1, v:1, e:0, d:0, gf:4,  gc:1,  pts:3 },
+        { pos:3,  name:'ADR Retaxo',               p:1, v:1, e:0, d:0, gf:6,  gc:4,  pts:3 },
+        { pos:4,  name:'GD Beira-Ria',             p:1, v:1, e:0, d:0, gf:5,  gc:3,  pts:3 },
+        { pos:5,  name:'ARCD Mendiga',             p:1, v:1, e:0, d:0, gf:2,  gc:0,  pts:3 },
+        { pos:6,  name:'Casa Benfica Golegã',      p:1, v:1, e:0, d:0, gf:3,  gc:2,  pts:3 },
+        { pos:7,  name:'ACR Saavedra Guedes',      p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
+        { pos:8,  name:'Lobitos Futsal',           p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
+        { pos:9,  name:'União 1919',               p:1, v:0, e:0, d:1, gf:2,  gc:3,  pts:0 },
+        { pos:10, name:'AD Pederneirense',         p:1, v:0, e:0, d:1, gf:4,  gc:6,  pts:0 },
+        { pos:11, name:'ACR Arnal',                p:1, v:0, e:0, d:1, gf:3,  gc:5,  pts:0 },
+        { pos:12, name:'ABC de Nelas',             p:1, v:0, e:0, d:1, gf:0,  gc:2,  pts:0 },
+        { pos:13, name:'FC Mozelos',               p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
+        { pos:14, name:'PARC Pindelo',             p:1, v:0, e:0, d:1, gf:2,  gc:6,  pts:0 },
+      ]},
+      { label: 'Série C', teams: [
+        { pos:1,  name:'CDR Os Vinhais',           p:1, v:1, e:0, d:0, gf:10, gc:1,  pts:3 },
+        { pos:2,  name:'SCR Gaeirense',            p:1, v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
+        { pos:3,  name:'AD Quinta Conde',          p:1, v:1, e:0, d:0, gf:6,  gc:5,  pts:3 },
+        { pos:4,  name:'CRC Quinta Lombos B',      p:1, v:1, e:0, d:0, gf:2,  gc:1,  pts:3 },
+        { pos:5,  name:'CA Santa Marta Pinhal',    p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:6,  name:'CDR Águias Unidas',        p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:7,  name:'CR Leões P.Salvo B',       p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:8,  name:'GD EB D. João I',          p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:9,  name:'SC Vila Verde',            p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:10, name:'SL Benfica B',             p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
+        { pos:11, name:'SR Manjoeira',             p:1, v:0, e:0, d:1, gf:5,  gc:6,  pts:0 },
+        { pos:12, name:'GURD MTBA',                p:1, v:0, e:0, d:1, gf:1,  gc:2,  pts:0 },
+        { pos:13, name:'CDC Porto Moniz',          p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
+        { pos:14, name:'Sonâmbulos FLA',           p:1, v:0, e:0, d:1, gf:1,  gc:10, pts:0 },
+      ]},
+    ]
+  },
+  {
+    label: 'Liga Prime Futsal · Espanha', link: LINKS.ligaPrime,
+    color: '#3b82f6', flag: '🇪🇸', updated: 'J2 ✅ · 19 set',
+    teams: [
+      { pos:1,  name:'Barça',                    p:2, v:2, e:0, d:0, gf:11, gc:3,  pts:6 },
+      { pos:2,  name:'Palma Futsal',             p:2, v:2, e:0, d:0, gf:12, gc:5,  pts:6 },
+      { pos:3,  name:'Inter FS',                 p:2, v:1, e:1, d:0, gf:8,  gc:4,  pts:4 },
+      { pos:4,  name:'El Ejido Futsal',          p:2, v:1, e:1, d:0, gf:6,  gc:3,  pts:4 },
+      { pos:5,  name:'O Parrulo Ferrol',         p:2, v:1, e:1, d:0, gf:11, gc:9,  pts:4 },
+      { pos:6,  name:'Jaén Paraíso Interior',    p:1, v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
+      { pos:7,  name:'Jimbee Cartagena',         p:2, v:1, e:0, d:1, gf:5,  gc:6,  pts:3 },
+      { pos:8,  name:'Peñíscola FS',             p:2, v:1, e:0, d:1, gf:6,  gc:9,  pts:3 },
+      { pos:9,  name:'Noia Portus Apostoli',     p:1, v:0, e:1, d:0, gf:4,  gc:4,  pts:1 },
+      { pos:10, name:'Catgas Energía',           p:2, v:0, e:1, d:1, gf:7,  gc:9,  pts:1 },
+      { pos:11, name:'Manzanares FS',            p:2, v:0, e:1, d:1, gf:7,  gc:9,  pts:1 },
+      { pos:12, name:'Córdoba',                  p:2, v:0, e:1, d:1, gf:4,  gc:7,  pts:1 },
+      { pos:13, name:'ElPozo Murcia',            p:2, v:0, e:1, d:1, gf:7,  gc:12, pts:1 },
+      { pos:14, name:'CD Xota',                  p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
+      { pos:15, name:'Valdepeñas',               p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
+      { pos:16, name:'Wanapix',                  p:2, v:0, e:0, d:2, gf:3,  gc:8,  pts:0 },
+    ]
+  },
+];
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
 const DAYS = {
@@ -1384,9 +1512,31 @@ function scrollNav(amount) {
 }
 
 // ── CLASSIFICAÇÃO RENDER ───────────────────────────────────────────────────────
+function renderTeamsTable(teams) {
+  let html = `<div class="classif-grid header">
+    <div class="cl-pos">#</div>
+    <div class="cl-team">Equipa</div>
+    <div class="cl-num">J</div><div class="cl-num">V</div>
+    <div class="cl-num">E</div><div class="cl-num">D</div>
+    <div class="cl-num">GM</div><div class="cl-num">GS</div>
+    <div class="cl-pts">Pts</div>
+  </div>`;
+  for (const t of teams) {
+    html += `<div class="classif-grid row">
+      <div class="cl-pos ${t.pos<=3?'top3':''}">${t.pos}</div>
+      <div class="cl-team">${t.name}</div>
+      <div class="cl-num">${t.p}</div><div class="cl-num">${t.v}</div>
+      <div class="cl-num">${t.e}</div><div class="cl-num">${t.d}</div>
+      <div class="cl-num">${t.gf}</div><div class="cl-num">${t.gc}</div>
+      <div class="cl-pts">${t.pts}</div>
+    </div>`;
+  }
+  return html;
+}
+
 function renderClassification() {
   let html = '';
-  for (const comp of Object.values(CLASSIFICATION)) {
+  for (const comp of CLASSIFICATION) {
     const titleEl = comp.link
       ? `<a class="section-title" href="${comp.link}" target="_blank" style="color:${comp.color}">${comp.label} <span class="section-ext">↗</span></a>`
       : `<span class="section-title" style="color:${comp.color}">${comp.label}</span>`;
@@ -1396,27 +1546,17 @@ function renderClassification() {
         <span class="section-dot" style="background:${comp.color}"></span>
         ${titleEl}
         <span class="section-round">${comp.updated}</span>
-      </div>
-      <div class="card">
-        <div class="classif-grid header">
-          <div class="cl-pos">#</div>
-          <div class="cl-team">Equipa</div>
-          <div class="cl-num">J</div><div class="cl-num">V</div>
-          <div class="cl-num">E</div><div class="cl-num">D</div>
-          <div class="cl-num">GM</div><div class="cl-num">GS</div>
-          <div class="cl-pts">Pts</div>
-        </div>`;
-    for (const t of comp.teams) {
-      html += `<div class="classif-grid row">
-          <div class="cl-pos ${t.pos<=3?'top3':''}">${t.pos}</div>
-          <div class="cl-team">${t.name}</div>
-          <div class="cl-num">${t.p}</div><div class="cl-num">${t.v}</div>
-          <div class="cl-num">${t.e}</div><div class="cl-num">${t.d}</div>
-          <div class="cl-num">${t.gf}</div><div class="cl-num">${t.gc}</div>
-          <div class="cl-pts">${t.pts}</div>
-        </div>`;
+      </div>`;
+    if (comp.series) {
+      // Multi-série: render each as a labeled sub-section
+      for (const serie of comp.series) {
+        html += `<div class="serie-lbl" style="color:${comp.color};background:transparent">${serie.label}</div>
+        <div class="card" style="margin-bottom:10px">${renderTeamsTable(serie.teams)}</div>`;
+      }
+    } else {
+      html += `<div class="card">${renderTeamsTable(comp.teams)}</div>`;
     }
-    html += `</div></div>`;
+    html += `</div>`;
   }
   document.getElementById('content').innerHTML = html;
 }

@@ -2328,9 +2328,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
+    "estado": "parado",
+    "parte": 2,
+    "acc": 120,
     "desde": 0
    },
    "lances": [
@@ -2388,6 +2388,16 @@
      "id": "fint",
      "m": 20,
      "txt": "INTERVALO EM FAMALICÃO. FC Famalicão 1-5 Sporting."
+    },
+    {
+     "id": "f21",
+     "m": 21,
+     "txt": "RECOMEÇOU O JOGO nas Lameiras. Contagem de faltas a zero e quatro golos para o Famalicão recuperar."
+    },
+    {
+     "id": "f22",
+     "m": 22,
+     "txt": "Amarelo para Guilherme Rego, o guarda-redes do Famalicão."
     }
    ],
    "faltas": [],
@@ -2476,7 +2486,7 @@
       "nome": "GUILHERME REGO (GR)",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "22",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/90/51/959051_guilherme_oliveira_20251107083142.png"
      },
@@ -3546,6 +3556,6 @@
    }
   }
  ],
- "ts": 1789922832953,
+ "ts": 1789923709450,
  "build": "20260919151922"
 }

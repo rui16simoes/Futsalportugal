@@ -3098,6 +3098,11 @@
      "id": "u31",
      "m": 31,
      "txt": "ESTEVE LÁ O SEGUNDO DOS LEÕES! Natan Minatti bateu o livre e a bola foi bater no poste da baliza de Jackson Ryan."
+    },
+    {
+     "id": "u31b",
+     "m": 31,
+     "txt": "VIRARAM OS LEÕES! Logo a seguir ao poste de Natan Minatti, Guilherme Cintra subiu no terreno e serviu Pedro Marques, que fez o 1-2. Assistência do guarda-redes e segundo golo do ala na prova."
     }
    ],
    "faltas": [
@@ -3390,7 +3395,7 @@
    },
    "fora": {
     "eq": "leoes",
-    "golos": 1,
+    "golos": 2,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -3401,7 +3406,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "31",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/60/16605460_guilherme_cintra_20260908151413.jpg"
      },
      {
@@ -3489,7 +3494,7 @@
       "num": "10",
       "nome": "PEDRO MARQUES",
       "e": "P",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/07/68/16620768_pedro_marques_20260908151449.jpg"
@@ -3920,6 +3925,6 @@
    }
   }
  ],
- "ts": 1789928113000,
+ "ts": 1789928149007,
  "build": "20260919151922"
 }

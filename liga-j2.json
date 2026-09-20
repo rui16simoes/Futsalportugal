@@ -2405,7 +2405,22 @@
      "txt": "Amarelo para João Miguel. É o segundo cartão do Famalicão nesta segunda parte."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ffc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "ffc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 25,
+     "n": 2
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3585,6 +3600,6 @@
    }
   }
  ],
- "ts": 1789924016058,
+ "ts": 1789924053553,
  "build": "20260919151922"
 }

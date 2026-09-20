@@ -3113,6 +3113,11 @@
      "id": "u33b",
      "m": 33,
      "txt": "Jogo parado outra vez. Na disputa com Tomás Silva que valeu o amarelo, Pedro Marques foi contra a parede e ficou em sofrimento."
+    },
+    {
+     "id": "u33c",
+     "m": 33,
+     "txt": "GRANDE PENALIDADE PARA OS LEÕES e Pedro Santos não desperdiçou. 1-3 na Venda Nova, segundo golo dele na prova, e o UPVN vê o jogo complicar-se de vez."
     }
    ],
    "faltas": [
@@ -3412,7 +3417,7 @@
    },
    "fora": {
     "eq": "leoes",
-    "golos": 2,
+    "golos": 3,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -3556,7 +3561,7 @@
       "num": "9",
       "nome": "PEDRO SANTOS",
       "e": "S",
-      "min": "",
+      "min": "33",
       "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
@@ -3942,6 +3947,6 @@
    }
   }
  ],
- "ts": 1789928390052,
+ "ts": 1789928424402,
  "build": "20260919151922"
 }

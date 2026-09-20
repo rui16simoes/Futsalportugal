@@ -2330,10 +2330,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "f1",
+     "m": 1,
+     "txt": "COMEÇOU O JOGO nas Lameiras. O Famalicão recebe o Sporting com um ponto somado em duas jornadas, enquanto os leões chegam a Famalicão com pleno de vitórias."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2581,7 +2587,7 @@
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV (GR)",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3470,6 +3476,6 @@
    }
   }
  ],
- "ts": 1789920049613,
+ "ts": 1789920124470,
  "build": "20260919151922"
 }

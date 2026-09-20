@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840,
+    "acc": 960,
     "desde": 0
    },
    "lances": [
@@ -3127,12 +3127,17 @@
     {
      "id": "u34",
      "m": 34,
-     "txt": "BISA FRANCISCO OLIVEIRA e os Leões disparam para o 1-4. Nova assistência de Guilherme Cintra, a segunda do guarda-redes no jogo, e três golos em pouco mais de três minutos a deixarem o encontro praticamente decidido."
+     "txt": "BISA FRANCISCO OLIVEIRA e os Leões disparam para o 1-4. Guilherme Cintra lançou-o com um passe longo desde o próprio meio-campo, o jovem português apareceu sem marcação, dominou e resolveu sem pressa. Segunda assistência do guarda-redes no jogo."
     },
     {
      "id": "u34b",
      "m": 34,
      "txt": "Pausa técnica pedida pelo UPVN, a tentar travar a hemorragia."
+    },
+    {
+     "id": "u36",
+     "m": 36,
+     "txt": "Podia ter sido o hat-trick. Leonildo Injai serviu Francisco Oliveira ao segundo poste, mas o desvio saiu sem força suficiente para bater Jackson Ryan."
     }
    ],
    "faltas": [
@@ -3962,6 +3967,6 @@
    }
   }
  ],
- "ts": 1789928726971,
+ "ts": 1789928997612,
  "build": "20260919151922"
 }

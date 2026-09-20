@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -3078,6 +3078,21 @@
      "id": "u28",
      "m": 28,
      "txt": "Jogo parado na Venda Nova. Dura magoou-se sozinho num corte e precisou de assistência no banco. O capitão do UPVN foi o homem da assistência no golo da casa."
+    },
+    {
+     "id": "u28b",
+     "m": 28,
+     "txt": "Sissi ganhou a corrida pela direita e obrigou Guilherme Cintra a uma defesa apertada com a perna."
+    },
+    {
+     "id": "u29",
+     "m": 29,
+     "txt": "E podia ter virado o jogo. Francisco Oliveira ficou isolado diante de Jackson Ryan, mas atirou ao lado do poste esquerdo."
+    },
+    {
+     "id": "u30",
+     "m": 30,
+     "txt": "Segunda parte bem mais repartida. O UPVN perdeu o medo e chega com frequência à baliza contrária, obrigando Guilherme Cintra a um trabalho que não teve no primeiro tempo."
     }
    ],
    "faltas": [
@@ -3129,6 +3144,13 @@
      "parte": 2,
      "m": 23,
      "n": 1
+    },
+    {
+     "id": "ufc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 2
     },
     {
      "id": "uff21",
@@ -3893,6 +3915,6 @@
    }
   }
  ],
- "ts": 1789927742517,
+ "ts": 1789928079399,
  "build": "20260919151922"
 }

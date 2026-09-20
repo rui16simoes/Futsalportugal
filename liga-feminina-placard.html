@@ -379,7 +379,7 @@ function jornadaHtml(j, dj){
     const db=(b.jg.data||dj.data||"")+"T"+(b.jg.hora||"00:00");
     return da.localeCompare(db);
   });
-  const jogosHtml = _sorted.map(({jg,gi})=>jogoHtml(j,gi,jg)).join("");
+  const jogosHtml = _sorted.map(({jg,gi})=>jogoHtml(j,gi,jg,dj)).join("");
   return `<div class="jornada">
     <div class="jornada-head">
       <div class="jornada-title">Jornada <span class="n">${j}</span></div>

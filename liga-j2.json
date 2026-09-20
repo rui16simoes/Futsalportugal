@@ -2908,9 +2908,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1140,
+    "acc": 1200,
     "desde": 0
    },
    "lances": [
@@ -3178,6 +3178,16 @@
      "id": "u39c",
      "m": 39,
      "txt": "Jogo parado no último minuto. Rafael Freire ficou caído na quadra depois de uma falta de Pedro Santos e está a ser assistido."
+    },
+    {
+     "id": "u40",
+     "m": 40,
+     "txt": "FINAL NA VENDA NOVA. UPVN 2-4 Leões de Porto Salvo."
+    },
+    {
+     "id": "ufim",
+     "m": 40,
+     "txt": "OS LEÕES DE PORTO SALVO VENCERAM. O UPVN entrou melhor e adiantou-se por André Galvão, mas Francisco Oliveira empatou a dois segundos do intervalo e no segundo tempo a equipa de Oeiras resolveu em pouco mais de três minutos, com Pedro Marques, Pedro Santos de grande penalidade e novo golo de Francisco Oliveira. Rafael Freire ainda reduziu e Dura carimbou o poste, mas não chegou. 2-4 e primeira vitória dos Leões na prova."
     }
    ],
    "faltas": [
@@ -4021,6 +4031,6 @@
    }
   }
  ],
- "ts": 1789929463428,
+ "ts": 1789929557363,
  "build": "20260919151922"
 }

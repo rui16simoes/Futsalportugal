@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classificações — Futsal Portugal</title>
+<style>
+  :root {
+    --bg:#0f172a; --bg2:#1e293b; --card:#1e293b; --card2:#263347;
+    --line:#334155; --text:#f1f5f9; --muted:#94a3b8; --accent:#ea7c1e;
+    --green:#22c55e; --red:#ef4444; --blue:#38bdf8; --yellow:#fbbf24;
+  }
+  :root[data-theme="dia"] {
+    --bg:#f0f4f8; --bg2:#e2e8f0; --card:#ffffff; --card2:#f8fafc;
+    --line:#cbd5e1; --text:#1e293b; --muted:#64748b; --accent:#ea7c1e;
+    --green:#059669; --red:#dc2626; --blue:#0369a1; --yellow:#d97706;
+  }
+  :root[data-theme="dia"] .hero { background: linear-gradient(135deg,#e0e7ff 0%,#dbeafe 100%) !important; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; min-height: 100vh; }
+
+  .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+    padding: 28px 20px 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--accent);
+  }
+  .hero h1 { font-size: 1.6rem; font-weight: 800; color: #fff; letter-spacing: -.5px; }
+  .hero h1 span { color: var(--accent); }
+  .hero p { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+
+  .tabs-nav {
+    display: flex; flex-wrap: wrap; gap: 4px; padding: 16px 16px 0;
+    background: var(--bg2); border-bottom: 1px solid var(--line);
+    position: sticky; top: 0; z-index: 10;
+  }
+  .tab-btn {
+    padding: 8px 14px; border: none; background: transparent;
+    color: var(--muted); font-size: .8rem; font-weight: 600; cursor: pointer;
+    border-radius: 6px 6px 0 0; transition: all .2s; white-space: nowrap;
+  }
+  .tab-btn:hover { color: var(--text); background: var(--card); }
+  .tab-btn.active { color: var(--accent); background: var(--card); border-bottom: 2px solid var(--accent); }
+
+  .tab-content { display: none; padding: 16px; }
+  .tab-content.active { display: block; }
+
+  .section-title {
+    font-size: .95rem; font-weight: 700; color: var(--accent);
+    text-transform: uppercase; letter-spacing: .5px;
+    margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-title .flag { font-size: 1rem; }
+
+  .table-wrap { overflow-x: auto; margin-bottom: 24px; }
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  thead th {
+    background: var(--bg2); color: var(--muted); font-size: .72rem;
+    font-weight: 700; text-transform: uppercase; letter-spacing: .4px;
+    padding: 8px 10px; text-align: center; border-bottom: 2px solid var(--line);
+  }
+  thead th:first-child { text-align: left; padding-left: 12px; }
+  tbody tr { border-bottom: 1px solid var(--line); transition: background .15s; }
+  tbody tr:hover { background: var(--card2); }
+  tbody td { padding: 9px 10px; text-align: center; color: var(--text); }
+  tbody td:first-child { text-align: left; padding-left: 12px; }
+
+  .pos { color: var(--muted); font-size: .75rem; font-weight: 700; min-width: 24px; }
+  .team-name { font-weight: 600; }
+  .pts { font-weight: 800; color: var(--accent); font-size: .9rem; }
+  .dg.pos-val { color: var(--green); }
+  .dg.neg-val { color: var(--red); }
+  .dg.zero-val { color: var(--muted); }
+
+  /* Promotion/relegation zones */
+  .zone-up td:first-child { border-left: 3px solid var(--green); }
+  .zone-playoff td:first-child { border-left: 3px solid var(--yellow); }
+  .zone-down td:first-child { border-left: 3px solid var(--red); }
+
+  .updated { color: var(--muted); font-size: .72rem; text-align: right; margin-top: -8px; margin-bottom: 16px; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media(max-width:700px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .theme-toggle {
+    position: fixed; bottom: 18px; right: 18px; z-index: 999;
+    background: var(--card); border: 1px solid var(--line); color: var(--text);
+    border-radius: 50%; width: 44px; height: 44px; font-size: 20px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3); transition: all .2s;
+  }
+
+  .back-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--muted); font-size: .8rem; text-decoration: none;
+    margin: 12px 16px 0; transition: color .2s;
+  }
+  .back-link:hover { color: var(--accent); }
+
+  .badge {
+    display: inline-block; padding: 2px 7px; border-radius: 10px;
+    font-size: .68rem; font-weight: 700; text-transform: uppercase;
+  }
+  .badge-pt { background: #16a34a22; color: #4ade80; }
+  .badge-es { background: #dc262622; color: #f87171; }
+  .jornadas-label { color: var(--muted); font-size: .75rem; margin-left: 6px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>⚽ Classificações <span>Futsal</span></h1>
+  <p>Atualizado automaticamente com os resultados mais recentes</p>
+</div>
+
+<a href="jogos-hoje-19set.html" class="back-link">← Jogos de Hoje</a>
+
+<div class="tabs-nav" id="tabsNav">
+  <button class="tab-btn active" onclick="switchTab('liga-placard')">Liga Placard</button>
+  <button class="tab-btn" onclick="switchTab('liga-feminina')">Liga Feminina</button>
+  <button class="tab-btn" onclick="switchTab('sub19')">CN Sub-19</button>
+  <button class="tab-btn" onclick="switchTab('ii-div')">CN 2ª Divisão</button>
+  <button class="tab-btn" onclick="switchTab('iii-div')">CN 3ª Divisão</button>
+  <button class="tab-btn" onclick="switchTab('liga-prime')">🇪🇸 Liga Prime</button>
+</div>
+
+<!-- ===== LIGA PLACARD ===== -->
+<div class="tab-content active" id="tab-liga-placard">
+  <div class="section-title" style="margin-top:8px">
+    <span>🏆</span> Liga Placard — Masculino <span class="badge badge-pt">PT</span>
+    <span class="jornadas-label">J1-J2 (incompleta)</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026</p>
+  <div class="table-wrap">
+    <table id="tbl-placard"></table>
+  </div>
+</div>
+
+<!-- ===== LIGA FEMININA ===== -->
+<div class="tab-content" id="tab-liga-feminina">
+  <div class="section-title" style="margin-top:8px">
+    <span>🏆</span> Liga Placard Feminina <span class="badge badge-pt">PT</span>
+    <span class="jornadas-label">J1-J2 (incompleta)</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026</p>
+  <div class="table-wrap">
+    <table id="tbl-feminina"></table>
+  </div>
+</div>
+
+<!-- ===== SUB-19 ===== -->
+<div class="tab-content" id="tab-sub19">
+  <div class="section-title" style="margin-top:8px">
+    <span>🏆</span> Campeonato Nacional Sub-19 <span class="badge badge-pt">PT</span>
+    <span class="jornadas-label">J1-J2 (incompleta)</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026</p>
+  <div class="table-wrap">
+    <table id="tbl-sub19"></table>
+  </div>
+</div>
+
+<!-- ===== II DIVISÃO ===== -->
+<div class="tab-content" id="tab-ii-div">
+  <div class="section-title" style="margin-top:8px">
+    <span>🏆</span> CN 2ª Divisão Masculino <span class="badge badge-pt">PT</span>
+    <span class="jornadas-label">J1 ✅</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026</p>
+  <div class="grid-2">
+    <div>
+      <p class="section-title" style="font-size:.8rem;border:none;margin-bottom:8px">Série A</p>
+      <div class="table-wrap"><table id="tbl-ii-a"></table></div>
+    </div>
+    <div>
+      <p class="section-title" style="font-size:.8rem;border:none;margin-bottom:8px">Série B</p>
+      <div class="table-wrap"><table id="tbl-ii-b"></table></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== III DIVISÃO ===== -->
+<div class="tab-content" id="tab-iii-div">
+  <div class="section-title" style="margin-top:8px">
+    <span>🏆</span> CN 3ª Divisão Masculino <span class="badge badge-pt">PT</span>
+    <span class="jornadas-label">J1 ✅ (parcial Série C)</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026</p>
+  <div class="grid-2">
+    <div>
+      <p class="section-title" style="font-size:.8rem;border:none;margin-bottom:8px">Série A</p>
+      <div class="table-wrap"><table id="tbl-iii-a"></table></div>
+    </div>
+    <div>
+      <p class="section-title" style="font-size:.8rem;border:none;margin-bottom:8px">Série B</p>
+      <div class="table-wrap"><table id="tbl-iii-b"></table></div>
+    </div>
+  </div>
+  <p class="section-title" style="font-size:.8rem;border:none;margin:16px 0 8px">Série C</p>
+  <div class="table-wrap"><table id="tbl-iii-c"></table></div>
+</div>
+
+<!-- ===== LIGA PRIME ===== -->
+<div class="tab-content" id="tab-liga-prime">
+  <div class="section-title" style="margin-top:8px">
+    <span>🇪🇸</span> Liga Prime Futsal — Temporada 2026/27 <span class="badge badge-es">ES</span>
+    <span class="jornadas-label">J1-J2 ✅</span>
+  </div>
+  <p class="updated">Última atualização: 19 Set 2026 (J2 completa)</p>
+  <div class="table-wrap">
+    <table id="tbl-prime"></table>
+  </div>
+</div>
+
+<button class="theme-toggle" id="themeToggle" title="Alternar tema" aria-label="Alternar tema dia/noite">🌙</button>
+
+<script>
+// ====== TAB SWITCHING ======
+function switchTab(id) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ====== TABLE RENDERER ======
+function renderTable(tableId, rows, zoneUp, zoneDown, zonePlayoff) {
+  const tbl = document.getElementById(tableId);
+  tbl.innerHTML = `
+    <thead><tr>
+      <th style="width:28px">#</th>
+      <th style="text-align:left">Equipa</th>
+      <th>J</th><th>V</th><th>E</th><th>D</th>
+      <th>GP</th><th>GC</th><th>DG</th><th>PTS</th>
+    </tr></thead>
+    <tbody>
+      ${rows.map((t,i) => {
+        const pos = i+1;
+        const dg = t.gp - t.gc;
+        const dgClass = dg>0?'pos-val':dg<0?'neg-val':'zero-val';
+        const dgStr = dg>0?'+'+dg: dg;
+        let zoneClass = '';
+        if (zoneUp && pos <= zoneUp) zoneClass = 'zone-up';
+        else if (zonePlayoff && pos > zoneUp && pos <= zonePlayoff) zoneClass = 'zone-playoff';
+        else if (zoneDown && pos > rows.length - zoneDown) zoneClass = 'zone-down';
+        return `<tr class="${zoneClass}">
+          <td class="pos">${pos}</td>
+          <td class="team-name">${t.name}</td>
+          <td>${t.j}</td><td>${t.v}</td><td>${t.e}</td><td>${t.d}</td>
+          <td>${t.gp}</td><td>${t.gc}</td>
+          <td class="dg ${dgClass}">${dgStr}</td>
+          <td class="pts">${t.pts}</td>
+        </tr>`;
+      }).join('')}
+    </tbody>`;
+}
+
+// ====== STANDINGS DATA ======
+// (pre-calculated from match results)
+
+const STANDINGS = {
+  placard: [
+    {name:'Eléctrico FC',j:2,v:2,e:0,d:0,gp:7,gc:2,pts:6},
+    {name:'SL Benfica',j:2,v:1,e:1,d:0,gp:6,gc:3,pts:4},
+    {name:'SC Braga',j:2,v:1,e:0,d:1,gp:6,gc:4,pts:3},
+    {name:'AD Fundão',j:1,v:1,e:0,d:0,gp:3,gc:2,pts:3},
+    {name:'Sporting CP',j:1,v:1,e:0,d:0,gp:1,gc:0,pts:3},
+    {name:'FC Famalicão',j:1,v:0,e:1,d:0,gp:4,gc:4,pts:1},
+    {name:'CR Leões',j:1,v:0,e:1,d:0,gp:2,gc:2,pts:1},
+    {name:'SCF Zêzere',j:1,v:0,e:1,d:0,gp:2,gc:2,pts:1},
+    {name:'Portimonense SC',j:2,v:0,e:1,d:1,gp:2,gc:3,pts:1},
+    {name:'Rio Ave FC',j:2,v:0,e:1,d:1,gp:5,gc:8,pts:1},
+    {name:'UP Venda Nova',j:1,v:0,e:0,d:1,gp:1,gc:4,pts:0},
+    {name:'SCU Torreense',j:2,v:0,e:0,d:2,gp:2,gc:7,pts:0},
+  ],
+  feminina: [
+    {name:'CR Leões',j:2,v:2,e:0,d:0,gp:10,gc:0,pts:6},
+    {name:'SL Benfica',j:2,v:2,e:0,d:0,gp:10,gc:0,pts:6},
+    {name:"GCR Nun'Álvares",j:2,v:2,e:0,d:0,gp:11,gc:3,pts:6},
+    {name:'Novasemente GD',j:2,v:1,e:1,d:0,gp:4,gc:2,pts:4},
+    {name:'Atlético CP',j:1,v:1,e:0,d:0,gp:2,gc:0,pts:3},
+    {name:'GD Árvore',j:2,v:0,e:1,d:1,gp:1,gc:5,pts:1},
+    {name:'Maia FC',j:1,v:0,e:0,d:1,gp:3,gc:7,pts:0},
+    {name:'Santa Luzia FC',j:2,v:0,e:0,d:2,gp:0,gc:7,pts:0},
+    {name:'Feijó/LTintas',j:2,v:0,e:0,d:2,gp:1,gc:9,pts:0},
+    {name:'SCU Torreense',j:2,v:0,e:0,d:2,gp:0,gc:9,pts:0},
+  ],
+  sub19: [
+    {name:'ADCR Caxinas',j:2,v:2,e:0,d:0,gp:5,gc:1,pts:6},
+    {name:'SL Benfica',j:1,v:1,e:0,d:0,gp:8,gc:1,pts:3},
+    {name:'CR Leões',j:1,v:1,e:0,d:0,gp:6,gc:3,pts:3},
+    {name:'Sporting CP',j:1,v:1,e:0,d:0,gp:6,gc:3,pts:3},
+    {name:'Futsal Oeiras',j:1,v:1,e:0,d:0,gp:5,gc:3,pts:3},
+    {name:'CCRD Burinhosa',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'CRC Quinta Lombos',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'CS São João',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'FC Barreirense',j:1,v:0,e:0,d:1,gp:3,gc:6,pts:0},
+    {name:'AMSAC',j:1,v:0,e:0,d:1,gp:1,gc:4,pts:0},
+    {name:'SC Braga',j:2,v:0,e:0,d:2,gp:3,gc:7,pts:0},
+    {name:'GRC Dínamo Sanjoanense',j:2,v:0,e:0,d:2,gp:4,gc:13,pts:0},
+  ],
+  ii_a: [
+    {name:'ADCR Caxinas Poça Barca',j:1,v:1,e:0,d:0,gp:7,gc:2,pts:3},
+    {name:'FC Paços Ferreira',j:1,v:1,e:0,d:0,gp:7,gc:4,pts:3},
+    {name:'Amigos Cerva ADRC',j:1,v:1,e:0,d:0,gp:6,gc:3,pts:3},
+    {name:"GCR Nun'Álvares",j:1,v:1,e:0,d:0,gp:6,gc:5,pts:3},
+    {name:'Arsenal Clube Maia',j:1,v:1,e:0,d:0,gp:3,gc:2,pts:3},
+    {name:'FC Valpaços',j:1,v:1,e:0,d:0,gp:2,gc:1,pts:3},
+    {name:'AD Jorge Antunes',j:1,v:0,e:0,d:1,gp:5,gc:6,pts:0},
+    {name:'Lusitânia Lourosa',j:1,v:0,e:0,d:1,gp:2,gc:3,pts:0},
+    {name:'AD Modicus Sandim',j:1,v:0,e:0,d:1,gp:1,gc:2,pts:0},
+    {name:'GRC Dínamo Sanjoanense',j:1,v:0,e:0,d:1,gp:4,gc:7,pts:0},
+    {name:'CS Marítimo Madeira',j:1,v:0,e:0,d:1,gp:3,gc:6,pts:0},
+    {name:'ADC Nogueiró/Tenões',j:1,v:0,e:0,d:1,gp:2,gc:7,pts:0},
+  ],
+  ii_b: [
+    {name:'CF Os Belenenses',j:1,v:1,e:0,d:0,gp:10,gc:1,pts:3},
+    {name:'CS S. João',j:1,v:1,e:0,d:0,gp:7,gc:1,pts:3},
+    {name:'Viseu 2001 ADSC',j:1,v:1,e:0,d:0,gp:4,gc:1,pts:3},
+    {name:'SC Barbarense',j:1,v:1,e:0,d:0,gp:6,gc:4,pts:3},
+    {name:'A.M.S.Ant.Cavaleiros',j:1,v:0,e:1,d:0,gp:5,gc:5,pts:1},
+    {name:'AR Boa Esperança',j:1,v:0,e:1,d:0,gp:5,gc:5,pts:1},
+    {name:'CRC Quinta Lombos',j:1,v:0,e:1,d:0,gp:1,gc:1,pts:1},
+    {name:'Reguilas Tires Futsal',j:1,v:0,e:1,d:0,gp:1,gc:1,pts:1},
+    {name:'AR Amarense',j:1,v:0,e:0,d:1,gp:4,gc:6,pts:0},
+    {name:'CF Sassoeiros',j:1,v:0,e:0,d:1,gp:1,gc:4,pts:0},
+    {name:'CCRD Burinhosa',j:1,v:0,e:0,d:1,gp:1,gc:7,pts:0},
+    {name:'ACDL/CBIDN',j:1,v:0,e:0,d:1,gp:1,gc:10,pts:0},
+  ],
+  iii_a: [
+    {name:'CDRC São Martinho Mouros',j:1,v:1,e:0,d:0,gp:10,gc:2,pts:3},
+    {name:'FC Porto',j:1,v:1,e:0,d:0,gp:7,gc:1,pts:3},
+    {name:'Leixões SC',j:1,v:1,e:0,d:0,gp:8,gc:5,pts:3},
+    {name:'ACR Lordelo',j:1,v:1,e:0,d:0,gp:5,gc:2,pts:3},
+    {name:'GD Macedense',j:1,v:1,e:0,d:0,gp:5,gc:2,pts:3},
+    {name:'Casa SLB Alfândega Fé',j:1,v:1,e:0,d:0,gp:3,gc:1,pts:3},
+    {name:'AA Johnson Jan./RL7',j:1,v:0,e:1,d:0,gp:3,gc:3,pts:1},
+    {name:'ADC São Mateus',j:1,v:0,e:1,d:0,gp:3,gc:3,pts:1},
+    {name:'CA Mogadouro',j:1,v:0,e:0,d:1,gp:1,gc:3,pts:0},
+    {name:'Boavista FC',j:1,v:0,e:0,d:1,gp:5,gc:8,pts:0},
+    {name:'FC Estrelas Susanenses',j:1,v:0,e:0,d:1,gp:2,gc:5,pts:0},
+    {name:'Miramar Império',j:1,v:0,e:0,d:1,gp:2,gc:5,pts:0},
+    {name:"GCR Nun'Álvares B",j:1,v:0,e:0,d:1,gp:1,gc:7,pts:0},
+    {name:'FC Marinhas',j:1,v:0,e:0,d:1,gp:2,gc:10,pts:0},
+  ],
+  iii_b: [
+    {name:'Academia Condeixa',j:1,v:1,e:0,d:0,gp:6,gc:2,pts:3},
+    {name:'ADC Santa Isabel',j:1,v:1,e:0,d:0,gp:4,gc:1,pts:3},
+    {name:'ADR Retaxo',j:1,v:1,e:0,d:0,gp:6,gc:4,pts:3},
+    {name:'GD Beira-Ria',j:1,v:1,e:0,d:0,gp:5,gc:3,pts:3},
+    {name:'ARCD Mendiga',j:1,v:1,e:0,d:0,gp:2,gc:0,pts:3},
+    {name:'Casa Benfica Golegã',j:1,v:1,e:0,d:0,gp:3,gc:2,pts:3},
+    {name:'ACR Saavedra Guedes',j:1,v:0,e:1,d:0,gp:3,gc:3,pts:1},
+    {name:'Lobitos Futsal',j:1,v:0,e:1,d:0,gp:3,gc:3,pts:1},
+    {name:'União 1919',j:1,v:0,e:0,d:1,gp:2,gc:3,pts:0},
+    {name:'AD Pederneirense',j:1,v:0,e:0,d:1,gp:4,gc:6,pts:0},
+    {name:'ACR Arnal',j:1,v:0,e:0,d:1,gp:3,gc:5,pts:0},
+    {name:'ABC de Nelas',j:1,v:0,e:0,d:1,gp:0,gc:2,pts:0},
+    {name:'FC Mozelos',j:1,v:0,e:0,d:1,gp:1,gc:4,pts:0},
+    {name:'PARC Pindelo',j:1,v:0,e:0,d:1,gp:2,gc:6,pts:0},
+  ],
+  iii_c: [
+    {name:'CDR Os Vinhais',j:1,v:1,e:0,d:0,gp:10,gc:1,pts:3},
+    {name:'SCR Gaeirense',j:1,v:1,e:0,d:0,gp:3,gc:1,pts:3},
+    {name:'AD Quinta Conde',j:1,v:1,e:0,d:0,gp:6,gc:5,pts:3},
+    {name:'CRC Quinta Lombos B',j:1,v:1,e:0,d:0,gp:2,gc:1,pts:3},
+    {name:'CA Santa Marta Pinhal',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'CDR Águias Unidas',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'CR Leões Porto Salvo B',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'GD EB D. João I',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'SC Vila Verde',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'SL Benfica B',j:0,v:0,e:0,d:0,gp:0,gc:0,pts:0},
+    {name:'SR Manjoeira',j:1,v:0,e:0,d:1,gp:5,gc:6,pts:0},
+    {name:'GURD MTBA',j:1,v:0,e:0,d:1,gp:1,gc:2,pts:0},
+    {name:'CDC Porto Moniz',j:1,v:0,e:0,d:1,gp:1,gc:3,pts:0},
+    {name:'Sonâmbulos FLA',j:1,v:0,e:0,d:1,gp:1,gc:10,pts:0},
+  ],
+  prime: [
+    {name:'Barça',j:2,v:2,e:0,d:0,gp:11,gc:3,pts:6},
+    {name:'Palma Futsal',j:2,v:2,e:0,d:0,gp:12,gc:5,pts:6},
+    {name:'Inter FS',j:2,v:1,e:1,d:0,gp:8,gc:4,pts:4},
+    {name:'El Ejido Futsal',j:2,v:1,e:1,d:0,gp:6,gc:3,pts:4},
+    {name:'O Parrulo Ferrol',j:2,v:1,e:1,d:0,gp:11,gc:9,pts:4},
+    {name:'Jaén Paraíso Interior',j:1,v:1,e:0,d:0,gp:3,gc:1,pts:3},
+    {name:'Jimbee Cartagena',j:2,v:1,e:0,d:1,gp:5,gc:6,pts:3},
+    {name:'Peñíscola FS',j:2,v:1,e:0,d:1,gp:6,gc:9,pts:3},
+    {name:'Noia Portus Apostoli',j:1,v:0,e:1,d:0,gp:4,gc:4,pts:1},
+    {name:'Catgas Energía',j:2,v:0,e:1,d:1,gp:7,gc:9,pts:1},
+    {name:'Manzanares FS',j:2,v:0,e:1,d:1,gp:7,gc:9,pts:1},
+    {name:'Córdoba',j:2,v:0,e:1,d:1,gp:4,gc:7,pts:1},
+    {name:'ElPozo Murcia',j:2,v:0,e:1,d:1,gp:7,gc:12,pts:1},
+    {name:'CD Xota',j:1,v:0,e:0,d:1,gp:1,gc:3,pts:0},
+    {name:'Valdepeñas',j:1,v:0,e:0,d:1,gp:2,gc:5,pts:0},
+    {name:'Wanapix',j:2,v:0,e:0,d:2,gp:3,gc:8,pts:0},
+  ],
+};
+
+// Render all tables on load
+window.addEventListener('DOMContentLoaded', () => {
+  renderTable('tbl-placard',   STANDINGS.placard,  4, 2, 0);
+  renderTable('tbl-feminina',  STANDINGS.feminina, 4, 2, 0);
+  renderTable('tbl-sub19',     STANDINGS.sub19,    4, 2, 0);
+  renderTable('tbl-ii-a',      STANDINGS.ii_a,     2, 2, 0);
+  renderTable('tbl-ii-b',      STANDINGS.ii_b,     2, 2, 0);
+  renderTable('tbl-iii-a',     STANDINGS.iii_a,    2, 2, 0);
+  renderTable('tbl-iii-b',     STANDINGS.iii_b,    2, 2, 0);
+  renderTable('tbl-iii-c',     STANDINGS.iii_c,    2, 2, 0);
+  renderTable('tbl-prime',     STANDINGS.prime,    4, 2, 0);
+
+  // Theme
+  var t = localStorage.getItem('tema') || 'noite';
+  if (t === 'dia') { document.documentElement.setAttribute('data-theme','dia'); document.getElementById('themeToggle').textContent='☀️'; }
+  document.getElementById('themeToggle').addEventListener('click', function() {
+    var cur = document.documentElement.getAttribute('data-theme');
+    if (cur === 'dia') { document.documentElement.removeAttribute('data-theme'); localStorage.setItem('tema','noite'); this.textContent='🌙'; }
+    else { document.documentElement.setAttribute('data-theme','dia'); localStorage.setItem('tema','dia'); this.textContent='☀️'; }
+  });
+});
+</script>
+</body>
+</html>

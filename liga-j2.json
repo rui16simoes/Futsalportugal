@@ -2844,7 +2844,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180,
+    "acc": 240,
     "desde": 0
    },
    "lances": [
@@ -2872,6 +2872,11 @@
      "id": "u3c",
      "m": 3,
      "txt": "Três chegadas do UPVN no mesmo minuto e três vezes Guilherme Cintra pelo meio. Desta vez foi Vicente Mourato a experimentar de meia distância e o guarda-redes dos Leões respondeu com o pé."
+    },
+    {
+     "id": "u4",
+     "m": 4,
+     "txt": "Primeira resposta dos Leões. Pedro Santos aproveitou uma bola longa para cruzar bem para a área, mas Jackson Ryan saiu da baliza e ganhou o duelo."
     }
    ],
    "faltas": [
@@ -3624,6 +3629,6 @@
    }
   }
  ],
- "ts": 1789924140654,
+ "ts": 1789924179860,
  "build": "20260919151922"
 }

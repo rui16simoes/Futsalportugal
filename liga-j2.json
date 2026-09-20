@@ -2412,7 +2412,7 @@
     {
      "id": "f28g",
      "m": 28,
-     "txt": "SEXTO DO SPORTING. Tiaguinho juntou-se à lista de marcadores e levou os leões ao 1-6 nas Lameiras."
+     "txt": "SEXTO DO SPORTING. Alex Merlim serviu Tiaguinho, que não perdoou e levou os leões ao 1-6 nas Lameiras. Primeiro golo dele na prova."
     }
    ],
    "faltas": [
@@ -2807,7 +2807,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "28",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/09/52/16530952_alex_merlim_20260830155138.jpg"
      },
      {
@@ -3680,6 +3680,6 @@
    }
   }
  ],
- "ts": 1789924562708,
+ "ts": 1789924602009,
  "build": "20260919151922"
 }

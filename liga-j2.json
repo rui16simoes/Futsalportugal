@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -3147,7 +3147,17 @@
     {
      "id": "u36c",
      "m": 36,
-     "txt": "REDUZ O UPVN! Rafael Freire marcou o seu primeiro golo na prova e devolveu alguma esperança à equipa da casa. 2-4 a quatro minutos do fim."
+     "txt": "REDUZ O UPVN! Diogo Silva serviu Rafael Freire, que marcou o seu primeiro golo na prova e devolveu esperança à equipa da casa. 2-4 a quatro minutos do fim."
+    },
+    {
+     "id": "u36d",
+     "m": 36,
+     "txt": "O UPVN foi todo para a frente. Tomás Silva passou a guarda-redes avançado e a equipa da casa arrisca o 5x4 para tentar a reviravolta."
+    },
+    {
+     "id": "u37",
+     "m": 37,
+     "txt": "E ESTEVE MESMO PERTO! Diogo Silva inventou um belo gesto técnico para deixar Dura na cara do golo, mas o capitão carimbou o poste."
     }
    ],
    "faltas": [
@@ -3394,7 +3404,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "36",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/04/665604_diogo_silva_20251219114141.png"
      },
      {
@@ -3977,6 +3987,6 @@
    }
   }
  ],
- "ts": 1789929126459,
+ "ts": 1789929185219,
  "build": "20260919151922"
 }

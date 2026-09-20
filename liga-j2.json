@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780,
+    "acc": 900,
     "desde": 0
    },
    "lances": [
@@ -2423,6 +2423,11 @@
      "id": "f33",
      "m": 33,
      "txt": "Pausa técnica pedida pelo Famalicão. Cláudio Martins chamou os seus com o jogo já resolvido e sete minutos por cumprir."
+    },
+    {
+     "id": "f35",
+     "m": 35,
+     "txt": "REDUZ O FAMALICÃO! Primeiro Rúben Santos carimbou o poste e, na seguinte, Diogo Mesquita não falhou. 2-7, e é o primeiro golo dele na prova."
     }
    ],
    "faltas": [
@@ -2517,7 +2522,7 @@
    },
    "casa": {
     "eq": "famalicao",
-    "golos": 1,
+    "golos": 2,
     "capitao": "CLÁUDIO CARVALHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
@@ -2679,7 +2684,7 @@
       "num": "6",
       "nome": "DIOGO MESQUITA",
       "e": "S",
-      "min": "",
+      "min": "35",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/37/66/1233766_diogo_mesquita_20250120094723.jpg",
@@ -2878,7 +2883,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -2951,6 +2956,21 @@
      "id": "u10",
      "m": 10,
      "txt": "Amarelo para Vicente Mourato. As faltas igualaram-se a duas e o jogo ficou mais partido a meio da primeira parte."
+    },
+    {
+     "id": "u12",
+     "m": 12,
+     "txt": "Natan Minatti cortou para o meio e atirou um pouco por cima. Os Leões continuam a bater à porta."
+    },
+    {
+     "id": "u13",
+     "m": 13,
+     "txt": "Duas ocasiões seguidas. André Galvão penteou a bola e tentou o chapéu sobre Guilherme Cintra, mas saiu ao lado; do outro lado, Pedro Marques arrancou pela esquerda e perdeu o equilíbrio no momento de rematar."
+    },
+    {
+     "id": "u14",
+     "m": 14,
+     "txt": "Pausa técnica pedida pelo UPVN, a seis minutos do intervalo e com a vantagem mínima para gerir."
     }
    ],
    "faltas": [
@@ -3724,6 +3744,6 @@
    }
   }
  ],
- "ts": 1789924808366,
+ "ts": 1789925163364,
  "build": "20260919151922"
 }

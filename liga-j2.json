@@ -2330,7 +2330,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -2353,6 +2353,11 @@
      "id": "f4",
      "m": 4,
      "txt": "Mais duas chegadas leoninas: Diogo Santos apareceu ao segundo poste num canto e atirou de primeira por cima, e Wesley fugiu pela esquerda para rematar à figura. Do outro lado, a única resposta veio de longe e esbarrou na defesa do Sporting."
+    },
+    {
+     "id": "f5",
+     "m": 5,
+     "txt": "Guilherme Rego volta a ser chamado à obra. Rúbem Teixeira cortou da direita para o meio e disparou com muita força; o guarda-redes do Famalicão estava bem colocado e afastou o perigo."
     }
    ],
    "faltas": [],
@@ -3511,6 +3516,6 @@
    }
   }
  ],
- "ts": 1789920743357,
+ "ts": 1789920776202,
  "build": "20260919151922"
 }

@@ -2910,7 +2910,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420,
+    "acc": 480,
     "desde": 0
    },
    "lances": [
@@ -3073,6 +3073,11 @@
      "id": "u27",
      "m": 27,
      "txt": "Resposta do UPVN. Lucas Veras arranjou espaço para rematar de ângulo muito apertado e a bola acabou por chegar sem problemas a Guilherme Cintra."
+    },
+    {
+     "id": "u28",
+     "m": 28,
+     "txt": "Jogo parado na Venda Nova. Dura magoou-se sozinho num corte e precisou de assistência no banco. O capitão do UPVN foi o homem da assistência no golo da casa."
     }
    ],
    "faltas": [
@@ -3881,6 +3886,6 @@
    }
   }
  ],
- "ts": 1789927638366,
+ "ts": 1789927710117,
  "build": "20260919151922"
 }

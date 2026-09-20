@@ -99,31 +99,11 @@
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
   @keyframes spulse { 0%,100%{opacity:1} 50%{opacity:.5} }
 
-  /* MODE TABS */
-  .mode-tabs { display: flex; gap: 0; background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 8px; }
-  .mode-tab { background: none; border: none; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 9px 16px; cursor: pointer; border-bottom: 2px solid transparent; transition: all .15s; position: relative; top: 1px; }
-  .mode-tab:hover { color: var(--text); }
-  .mode-tab.active { color: #a5b4fc; border-bottom-color: #a5b4fc; }
-
-  /* CLASSIFICATION TABLE */
-  .classif-grid { display: grid; grid-template-columns: 26px 1fr repeat(7,32px); align-items: center; }
-  .classif-grid.header { font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 6px 12px; border-bottom: 1px solid var(--border); }
-  .classif-grid.row { padding: 7px 12px; border-bottom: 1px solid var(--border); transition: background .1s; }
-  .classif-grid.row:last-child { border-bottom: none; }
-  .classif-grid.row:hover { background: var(--surface2); }
-  .cl-pos { font-size: 10px; font-weight: 900; color: var(--muted); text-align: center; }
-  .cl-pos.top3 { color: #a5b4fc; }
-  .cl-team { font-size: 12px; font-weight: 600; padding-left: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .cl-num { font-size: 11px; font-weight: 600; text-align: center; color: var(--muted); }
-  .cl-pts { font-size: 12px; font-weight: 900; text-align: center; color: var(--text); }
 
   @media (max-width:520px) {
     .game { grid-template-columns: 36px 1fr auto 1fr auto; gap: 3px; padding: 7px 9px 5px; }
     .g-home,.g-away { font-size: 11px; }
     .s-box { font-size: 12px; min-width: 21px; padding: 2px 3px; }
-    .classif-grid { grid-template-columns: 22px 1fr repeat(7,26px); }
-    .cl-team { font-size: 11px; }
-    .classif-grid.header,.classif-grid.row { padding: 6px 9px; }
   }
 </style>
 </head>
@@ -135,10 +115,6 @@
   <h1 class="hero-title" id="page-title">Jogos do Fim de Semana</h1>
 </div>
 
-<div class="mode-tabs">
-  <button class="mode-tab active" id="tab-jogos" onclick="showMode('jogos')">⚽ Jogos</button>
-  <button class="mode-tab" id="tab-classif" onclick="showMode('classif')">📊 Classificação</button>
-</div>
 <div class="nav-wrapper" id="nav-wrapper">
   <button class="nav-arrow" onclick="scrollNav(-220)" title="Anterior">‹</button>
   <nav class="date-nav" id="date-nav"></nav>
@@ -172,172 +148,6 @@ const LINKS = {
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
 };
-
-// ── CLASSIFICAÇÃO ─────────────────────────────────────────────────────────────
-const CLASSIFICATION = [
-  {
-    label: 'Liga Placard · Masculino', link: LINKS.ligaPlacardM,
-    color: '#f59e0b', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
-    teams: [
-      { pos:1,  name:'Eléctrico FC',           p:2, v:2, e:0, d:0, gf:7,  gc:2, pts:6 },
-      { pos:2,  name:'SL Benfica',             p:2, v:1, e:1, d:0, gf:6,  gc:3, pts:4 },
-      { pos:3,  name:'SC Braga',               p:2, v:1, e:0, d:1, gf:6,  gc:4, pts:3 },
-      { pos:4,  name:'AD Fundão',              p:1, v:1, e:0, d:0, gf:3,  gc:2, pts:3 },
-      { pos:5,  name:'Sporting CP',            p:1, v:1, e:0, d:0, gf:1,  gc:0, pts:3 },
-      { pos:6,  name:'FC Famalicão',           p:1, v:0, e:1, d:0, gf:4,  gc:4, pts:1 },
-      { pos:7,  name:'CR Leões Porto Salvo',   p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
-      { pos:8,  name:'SCF Zêzere',             p:1, v:0, e:1, d:0, gf:2,  gc:2, pts:1 },
-      { pos:9,  name:'Portimonense SC',        p:2, v:0, e:1, d:1, gf:2,  gc:3, pts:1 },
-      { pos:10, name:'Rio Ave FC',             p:2, v:0, e:1, d:1, gf:5,  gc:8, pts:1 },
-      { pos:11, name:'UP Venda Nova',          p:1, v:0, e:0, d:1, gf:1,  gc:4, pts:0 },
-      { pos:12, name:'SCU Torreense SAD',      p:2, v:0, e:0, d:2, gf:2,  gc:7, pts:0 },
-    ]
-  },
-  {
-    label: 'Liga Feminina Placard', link: LINKS.ligaPlacardF,
-    color: '#f43f5e', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
-    teams: [
-      { pos:1,  name:'CR Leões Porto Salvo',  p:2, v:2, e:0, d:0, gf:10, gc:0,  pts:6 },
-      { pos:2,  name:'SL Benfica',            p:2, v:2, e:0, d:0, gf:10, gc:0,  pts:6 },
-      { pos:3,  name:"GCR Nun'Álvares",       p:2, v:2, e:0, d:0, gf:11, gc:3,  pts:6 },
-      { pos:4,  name:'Novasemente GD',        p:2, v:1, e:1, d:0, gf:4,  gc:2,  pts:4 },
-      { pos:5,  name:'Atlético CP',           p:1, v:1, e:0, d:0, gf:2,  gc:0,  pts:3 },
-      { pos:6,  name:'GD Árvore',             p:2, v:0, e:1, d:1, gf:1,  gc:5,  pts:1 },
-      { pos:7,  name:'Maia FC',               p:1, v:0, e:0, d:1, gf:3,  gc:7,  pts:0 },
-      { pos:8,  name:'Santa Luzia FC',        p:2, v:0, e:0, d:2, gf:0,  gc:7,  pts:0 },
-      { pos:9,  name:'Feijó/LTintas',         p:2, v:0, e:0, d:2, gf:1,  gc:9,  pts:0 },
-      { pos:10, name:'SCU Torreense',         p:2, v:0, e:0, d:2, gf:0,  gc:9,  pts:0 },
-    ]
-  },
-  {
-    label: 'CN Sub-19 I Divisão', link: LINKS.sub19,
-    color: '#ec4899', flag: '🇵🇹', updated: 'J2 parcial · 19 set',
-    teams: [
-      { pos:1,  name:'ADCR Caxinas Poça Barca',    p:2, v:2, e:0, d:0, gf:5,  gc:1,  pts:6 },
-      { pos:2,  name:'SL Benfica',                 p:1, v:1, e:0, d:0, gf:8,  gc:1,  pts:3 },
-      { pos:3,  name:'CR Leões Porto Salvo',       p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
-      { pos:4,  name:'Sporting CP',                p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
-      { pos:5,  name:'Futsal Oeiras',              p:1, v:1, e:0, d:0, gf:5,  gc:3,  pts:3 },
-      { pos:6,  name:'CCRD Burinhosa',             p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-      { pos:7,  name:'CRC Quinta Lombos',          p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-      { pos:8,  name:'CS São João',               p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-      { pos:9,  name:'FC Barreirense',             p:1, v:0, e:0, d:1, gf:3,  gc:6,  pts:0 },
-      { pos:10, name:'AMSAC',                      p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
-      { pos:11, name:'SC Braga',                   p:2, v:0, e:0, d:2, gf:3,  gc:7,  pts:0 },
-      { pos:12, name:'GRC Dínamo Sanjoanense',     p:2, v:0, e:0, d:2, gf:4,  gc:13, pts:0 },
-    ]
-  },
-  {
-    label: 'CN Futsal 2.ª Divisão', link: LINKS.cn2divM,
-    color: '#10b981', flag: '🇵🇹', updated: 'J1 ✅ · 19 set',
-    series: [
-      { label: 'Série A', teams: [
-        { pos:1,  name:'ADCR Caxinas Poça Barca',  p:1, v:1, e:0, d:0, gf:7,  gc:2,  pts:3 },
-        { pos:2,  name:'FC Paços Ferreira',        p:1, v:1, e:0, d:0, gf:7,  gc:4,  pts:3 },
-        { pos:3,  name:'Amigos Cerva ADRC',        p:1, v:1, e:0, d:0, gf:6,  gc:3,  pts:3 },
-        { pos:4,  name:"GCR Nun'Álvares",          p:1, v:1, e:0, d:0, gf:6,  gc:5,  pts:3 },
-        { pos:5,  name:'Arsenal Clube Maia',       p:1, v:1, e:0, d:0, gf:3,  gc:2,  pts:3 },
-        { pos:6,  name:'Valpaços FC',              p:1, v:1, e:0, d:0, gf:2,  gc:1,  pts:3 },
-        { pos:7,  name:'AD Jorge Antunes',         p:1, v:0, e:0, d:1, gf:5,  gc:6,  pts:0 },
-        { pos:8,  name:'Lusitânia Lourosa',        p:1, v:0, e:0, d:1, gf:2,  gc:3,  pts:0 },
-        { pos:9,  name:'AD Modicus Sandim',        p:1, v:0, e:0, d:1, gf:1,  gc:2,  pts:0 },
-        { pos:10, name:'GRC Dínamo Sanjoanense',   p:1, v:0, e:0, d:1, gf:4,  gc:7,  pts:0 },
-        { pos:11, name:'CS Marítimo Madeira',      p:1, v:0, e:0, d:1, gf:3,  gc:6,  pts:0 },
-        { pos:12, name:'ADC Nogueiró/Tenões',      p:1, v:0, e:0, d:1, gf:2,  gc:7,  pts:0 },
-      ]},
-      { label: 'Série B', teams: [
-        { pos:1,  name:'CF Os Belenenses',         p:1, v:1, e:0, d:0, gf:10, gc:1,  pts:3 },
-        { pos:2,  name:'CS S. João',               p:1, v:1, e:0, d:0, gf:7,  gc:1,  pts:3 },
-        { pos:3,  name:'Viseu 2001 ADSC',          p:1, v:1, e:0, d:0, gf:4,  gc:1,  pts:3 },
-        { pos:4,  name:'SC Barbarense',            p:1, v:1, e:0, d:0, gf:6,  gc:4,  pts:3 },
-        { pos:5,  name:'A.M.S.Ant.Cavaleiros',     p:1, v:0, e:1, d:0, gf:5,  gc:5,  pts:1 },
-        { pos:6,  name:'AR Boa Esperança',         p:1, v:0, e:1, d:0, gf:5,  gc:5,  pts:1 },
-        { pos:7,  name:'CRC Quinta Lombos',        p:1, v:0, e:1, d:0, gf:1,  gc:1,  pts:1 },
-        { pos:8,  name:'Reguilas Tires Futsal',    p:1, v:0, e:1, d:0, gf:1,  gc:1,  pts:1 },
-        { pos:9,  name:'AR Amarense',              p:1, v:0, e:0, d:1, gf:4,  gc:6,  pts:0 },
-        { pos:10, name:'CF Sassoeiros',            p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
-        { pos:11, name:'CCRD Burinhosa',           p:1, v:0, e:0, d:1, gf:1,  gc:7,  pts:0 },
-        { pos:12, name:'ACDL/CBIDN',               p:1, v:0, e:0, d:1, gf:1,  gc:10, pts:0 },
-      ]},
-    ]
-  },
-  {
-    label: 'CN Futsal 3.ª Divisão', link: LINKS.cn3divM,
-    color: '#8b5cf6', flag: '🇵🇹', updated: 'J1 ✅ · 19 set',
-    series: [
-      { label: 'Série A', teams: [
-        { pos:1,  name:'CDRC São Martinho Mouros', p:1, v:1, e:0, d:0, gf:10, gc:2,  pts:3 },
-        { pos:2,  name:'FC Porto',                 p:1, v:1, e:0, d:0, gf:7,  gc:1,  pts:3 },
-        { pos:3,  name:'Leixões SC',               p:1, v:1, e:0, d:0, gf:8,  gc:5,  pts:3 },
-        { pos:4,  name:'ACR Lordelo',              p:1, v:1, e:0, d:0, gf:5,  gc:2,  pts:3 },
-        { pos:5,  name:'GD Macedense',             p:1, v:1, e:0, d:0, gf:5,  gc:2,  pts:3 },
-        { pos:6,  name:'CB Alfândega Fé/MC Rabaçal',p:1,v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
-        { pos:7,  name:'AA Johnson Jan./RL7',      p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:8,  name:'ADC São Mateus',           p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:9,  name:'CA Mogadouro',             p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
-        { pos:10, name:'Boavista FC',              p:1, v:0, e:0, d:1, gf:5,  gc:8,  pts:0 },
-        { pos:11, name:'FC Estrelas Susanenses',   p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
-        { pos:12, name:'Miramar Império',          p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
-        { pos:13, name:"GCR Nun'Álvares B",        p:1, v:0, e:0, d:1, gf:1,  gc:7,  pts:0 },
-        { pos:14, name:'FC Marinhas',              p:1, v:0, e:0, d:1, gf:2,  gc:10, pts:0 },
-      ]},
-      { label: 'Série B', teams: [
-        { pos:1,  name:'Academia Condeixa',        p:1, v:1, e:0, d:0, gf:6,  gc:2,  pts:3 },
-        { pos:2,  name:'ADC Santa Isabel',         p:1, v:1, e:0, d:0, gf:4,  gc:1,  pts:3 },
-        { pos:3,  name:'ADR Retaxo',               p:1, v:1, e:0, d:0, gf:6,  gc:4,  pts:3 },
-        { pos:4,  name:'GD Beira-Ria',             p:1, v:1, e:0, d:0, gf:5,  gc:3,  pts:3 },
-        { pos:5,  name:'ARCD Mendiga',             p:1, v:1, e:0, d:0, gf:2,  gc:0,  pts:3 },
-        { pos:6,  name:'Casa Benfica Golegã',      p:1, v:1, e:0, d:0, gf:3,  gc:2,  pts:3 },
-        { pos:7,  name:'ACR Saavedra Guedes',      p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:8,  name:'Lobitos Futsal',           p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:9,  name:'União 1919',               p:1, v:0, e:0, d:1, gf:2,  gc:3,  pts:0 },
-        { pos:10, name:'AD Pederneirense',         p:1, v:0, e:0, d:1, gf:4,  gc:6,  pts:0 },
-        { pos:11, name:'ACR Arnal',                p:1, v:0, e:0, d:1, gf:3,  gc:5,  pts:0 },
-        { pos:12, name:'ABC de Nelas',             p:1, v:0, e:0, d:1, gf:0,  gc:2,  pts:0 },
-        { pos:13, name:'FC Mozelos',               p:1, v:0, e:0, d:1, gf:1,  gc:4,  pts:0 },
-        { pos:14, name:'PARC Pindelo',             p:1, v:0, e:0, d:1, gf:2,  gc:6,  pts:0 },
-      ]},
-      { label: 'Série C', teams: [
-        { pos:1,  name:'CDR Os Vinhais',           p:1, v:1, e:0, d:0, gf:10, gc:1,  pts:3 },
-        { pos:2,  name:'SCR Gaeirense',            p:1, v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
-        { pos:3,  name:'AD Quinta Conde',          p:1, v:1, e:0, d:0, gf:6,  gc:5,  pts:3 },
-        { pos:4,  name:'CRC Quinta Lombos B',      p:1, v:1, e:0, d:0, gf:2,  gc:1,  pts:3 },
-        { pos:5,  name:'CA Santa Marta Pinhal',    p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:6,  name:'CDR Águias Unidas',        p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-        { pos:7,  name:'CR Leões P.Salvo B',       p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-        { pos:8,  name:'GD EB D. João I',          p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-        { pos:9,  name:'SC Vila Verde',            p:1, v:0, e:1, d:0, gf:3,  gc:3,  pts:1 },
-        { pos:10, name:'SL Benfica B',             p:0, v:0, e:0, d:0, gf:0,  gc:0,  pts:0 },
-        { pos:11, name:'SR Manjoeira',             p:1, v:0, e:0, d:1, gf:5,  gc:6,  pts:0 },
-        { pos:12, name:'GURD MTBA',                p:1, v:0, e:0, d:1, gf:1,  gc:2,  pts:0 },
-        { pos:13, name:'CDC Porto Moniz',          p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
-        { pos:14, name:'Sonâmbulos FLA',           p:1, v:0, e:0, d:1, gf:1,  gc:10, pts:0 },
-      ]},
-    ]
-  },
-  {
-    label: 'Liga Prime Futsal · Espanha', link: LINKS.ligaPrime,
-    color: '#3b82f6', flag: '🇪🇸', updated: 'J2 ✅ · 19 set',
-    teams: [
-      { pos:1,  name:'Barça',                    p:2, v:2, e:0, d:0, gf:11, gc:3,  pts:6 },
-      { pos:2,  name:'Palma Futsal',             p:2, v:2, e:0, d:0, gf:12, gc:5,  pts:6 },
-      { pos:3,  name:'Inter FS',                 p:2, v:1, e:1, d:0, gf:8,  gc:4,  pts:4 },
-      { pos:4,  name:'El Ejido Futsal',          p:2, v:1, e:1, d:0, gf:6,  gc:3,  pts:4 },
-      { pos:5,  name:'O Parrulo Ferrol',         p:2, v:1, e:1, d:0, gf:11, gc:9,  pts:4 },
-      { pos:6,  name:'Jaén Paraíso Interior',    p:1, v:1, e:0, d:0, gf:3,  gc:1,  pts:3 },
-      { pos:7,  name:'Jimbee Cartagena',         p:2, v:1, e:0, d:1, gf:5,  gc:6,  pts:3 },
-      { pos:8,  name:'Peñíscola FS',             p:2, v:1, e:0, d:1, gf:6,  gc:9,  pts:3 },
-      { pos:9,  name:'Noia Portus Apostoli',     p:1, v:0, e:1, d:0, gf:4,  gc:4,  pts:1 },
-      { pos:10, name:'Catgas Energía',           p:2, v:0, e:1, d:1, gf:7,  gc:9,  pts:1 },
-      { pos:11, name:'Manzanares FS',            p:2, v:0, e:1, d:1, gf:7,  gc:9,  pts:1 },
-      { pos:12, name:'Córdoba',                  p:2, v:0, e:1, d:1, gf:4,  gc:7,  pts:1 },
-      { pos:13, name:'ElPozo Murcia',            p:2, v:0, e:1, d:1, gf:7,  gc:12, pts:1 },
-      { pos:14, name:'CD Xota',                  p:1, v:0, e:0, d:1, gf:1,  gc:3,  pts:0 },
-      { pos:15, name:'Valdepeñas',               p:1, v:0, e:0, d:1, gf:2,  gc:5,  pts:0 },
-      { pos:16, name:'Wanapix',                  p:2, v:0, e:0, d:2, gf:3,  gc:8,  pts:0 },
-    ]
-  },
-];
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
 const DAYS = {
@@ -454,15 +264,15 @@ const DAYS = {
           { time:'16:00', home:'ADC Nogueiró Tenões', away:'ADCR Caxinas Poça Barca', status:'done', score:[2,7], hscorers:["Micael Magalhaes 2'", "Tiago Martins 7'"], ascorers:["Diogo Sousa 1'", "José Lima 6'", "Joao Abreu 22'", "Kayque Santos 29'", "Andre Luzia 29'", "Diogo Sousa 33'", "Miguel Ramos 36'"], venue:'Pav. Parque Desp. Nogueiró' },
           { time:'16:45', home:'Arsenal Clube Maia', away:'Lusitânia Lourosa FC', status:'done', score:[3,2], hscorers:[], ascorers:[], venue:'Pav. Mun. Formigueiro – Águas Santas III' },
           { time:'17:00', home:'Valpaços Futsal Clube', away:'AD Modicus Sandim', status:'done', score:[2,1], hscorers:["Paulo Ferreira 1'", "Joao Pinhal (p.b.) 39'"], ascorers:["Tiago Silva 3'"], venue:'Pav. Desportivo de Valpaços' },
-          { time:'18:00', home:'FC Paços Ferreira', away:'GRC Dínamo Sanjoanense', status:'done', score:[7,4], hscorers:[], ascorers:[], venue:'Pav. Municipal de Paços de Ferreira' },
+          { time:'18:00', home:'FC Paços Ferreira', away:'GRC Dínamo Sanjoanense', status:'done', score:[7,4], hscorers:["Fabio Coelho 0'","Vitor Campos 8'","Fabio Coelho 11'","Edgar Vieira 33'","Edgar Vieira 35'","Luis Leal 36'","Pedro Carneiro 38'"], ascorers:["Francisco Leitao 1'","Afonso Pires 12'","Tiago Neto 14'","Joel Ferreira 39'"], venue:'Pav. Municipal de Paços de Ferreira' },
         ]},
         { label:'Série B', games:[
           { time:'15:00', home:'AR Amarense', away:'SC Barbarense', status:'done', score:[4,6], hscorers:["Leandro Miranda 19'", "Leandro Miranda 30'", "Leandro Miranda 35'", "Alexandre Santos 38'"], ascorers:["Miguel Ribeiro 3'", "Paulo Santos 5'", "Paulo Santos 29'", "Paulo Santos 30'", "Miguel Ribeiro 30'", "Joao Correia 39'"], venue:'Pav. Municipal da Batalha' },
-          { time:'16:00', home:'CS S. João', away:'CCRD Burinhosa', status:'done', score:[7,1], hscorers:[], ascorers:[], venue:'Pav. Centro Social São João' },
+          { time:'16:00', home:'CS S. João', away:'CCRD Burinhosa', status:'done', score:[7,1], hscorers:["Ruben Jorge 16'","Duarte Rodrigues 19'","Joao Santos 22'","Paulo Ferreira 25'","Ruben Jorge 28'","Bruno Carvalho 32'","Ruben Jorge 33'"], ascorers:["Alexandre Ferreira 39'"], venue:'Pav. Centro Social São João' },
           { time:'17:00', home:'Reguilas Tires Futsal', away:'CRC Quinta Lombos', status:'done', score:[1,1], hscorers:["Tiago Correia 19'"], ascorers:["Dani 29'"], venue:'Pav. C. Desp. S. Domingos Rana' },
           { time:'17:00', home:'AR B. Boa Esperança', away:'Ass. Moradores S. Ant. Cavaleiros', status:'done', score:[5,5], hscorers:[], ascorers:[], venue:'Pav. C. Desp. Boa Esperança' },
           { time:'18:00', home:'CF Os Belenenses', away:'ACDL/CBIDN', status:'done', score:[10,1], hscorers:["Kaue Facchini 9'", "Tomas Ferreira 10'", "André Cruz 10'", "Kaue Facchini 14'", "Mario Fonseca 18'", "Goncalo Cardoso 22'", "Rui Vaz 24'", "Rui Vaz 25'", "Rui Vaz 31'", "Rosa 36'"], ascorers:["Carlos Junior 1'"], venue:'Pav. Acácio Rosa' },
-          { time:'20:00', home:'CF Sassoeiros', away:'Viseu 2001 ADSC', status:'done', score:[1,4], hscorers:[], ascorers:[], venue:'Pav. do Sassoeiros' },
+          { time:'20:00', home:'CF Sassoeiros', away:'Viseu 2001 ADSC', status:'done', score:[1,4], hscorers:[], ascorers:["Conde","Xano","Peixoto","Russo"], venue:'Pav. do Sassoeiros' },
         ]},
       ]},
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
@@ -1511,82 +1321,10 @@ function scrollNav(amount) {
   nav.scrollBy({ left: amount, behavior: 'smooth' });
 }
 
-// ── CLASSIFICAÇÃO RENDER ───────────────────────────────────────────────────────
-function renderTeamsTable(teams) {
-  let html = `<div class="classif-grid header">
-    <div class="cl-pos">#</div>
-    <div class="cl-team">Equipa</div>
-    <div class="cl-num">J</div><div class="cl-num">V</div>
-    <div class="cl-num">E</div><div class="cl-num">D</div>
-    <div class="cl-num">GM</div><div class="cl-num">GS</div>
-    <div class="cl-pts">Pts</div>
-  </div>`;
-  for (const t of teams) {
-    html += `<div class="classif-grid row">
-      <div class="cl-pos ${t.pos<=3?'top3':''}">${t.pos}</div>
-      <div class="cl-team">${t.name}</div>
-      <div class="cl-num">${t.p}</div><div class="cl-num">${t.v}</div>
-      <div class="cl-num">${t.e}</div><div class="cl-num">${t.d}</div>
-      <div class="cl-num">${t.gf}</div><div class="cl-num">${t.gc}</div>
-      <div class="cl-pts">${t.pts}</div>
-    </div>`;
-  }
-  return html;
-}
-
-function renderClassification() {
-  let html = '';
-  for (const comp of CLASSIFICATION) {
-    const titleEl = comp.link
-      ? `<a class="section-title" href="${comp.link}" target="_blank" style="color:${comp.color}">${comp.label} <span class="section-ext">↗</span></a>`
-      : `<span class="section-title" style="color:${comp.color}">${comp.label}</span>`;
-    html += `<div class="section">
-      <div class="section-header">
-        <span class="section-flag">${comp.flag}</span>
-        <span class="section-dot" style="background:${comp.color}"></span>
-        ${titleEl}
-        <span class="section-round">${comp.updated}</span>
-      </div>`;
-    if (comp.series) {
-      // Multi-série: render each as a labeled sub-section
-      for (const serie of comp.series) {
-        html += `<div class="serie-lbl" style="color:${comp.color};background:transparent">${serie.label}</div>
-        <div class="card" style="margin-bottom:10px">${renderTeamsTable(serie.teams)}</div>`;
-      }
-    } else {
-      html += `<div class="card">${renderTeamsTable(comp.teams)}</div>`;
-    }
-    html += `</div>`;
-  }
-  document.getElementById('content').innerHTML = html;
-}
-
-// ── MODE SWITCHER ──────────────────────────────────────────────────────────────
-function showMode(mode) {
-  localStorage.setItem('fsMode', mode);
-  document.getElementById('tab-jogos').classList.toggle('active', mode === 'jogos');
-  document.getElementById('tab-classif').classList.toggle('active', mode === 'classif');
-  document.getElementById('nav-wrapper').style.display = mode === 'jogos' ? '' : 'none';
-  if (mode === 'jogos') {
-    const saved = localStorage.getItem('fsDate');
-    const hash = location.hash.replace('#','');
-    const todayStr = new Date().toISOString().slice(0,10);
-    const keys = Object.keys(DAYS);
-    let sel = DAYS[hash] ? hash : (DAYS[saved] ? saved : (DAYS[todayStr] ? todayStr : (() => { let b=keys[0]; for(const k of keys){if(k<=todayStr)b=k;} return b; })()));
-    selectDate(sel);
-    document.getElementById('page-title').textContent = 'Jogos · ' + DAYS[sel].label[1] + ' ' + DAYS[sel].label[2];
-  } else {
-    renderClassification();
-    document.getElementById('page-title').textContent = 'Classificação';
-    document.title = 'Futsal · Classificação';
-  }
-}
-
 // ── INIT ──────────────────────────────────────────────────────────────────────
 (function() {
   const hash = location.hash.replace('#','');
   const savedDate = localStorage.getItem('fsDate');
-  const savedMode = localStorage.getItem('fsMode') || 'jogos';
   const todayStr = new Date().toISOString().slice(0,10);
   const keys = Object.keys(DAYS);
   let selected;
@@ -1601,11 +1339,7 @@ function showMode(mode) {
     for (const k of keys) { if (k <= todayStr) best = k; }
     selected = best;
   }
-  if (savedMode === 'classif') {
-    showMode('classif');
-  } else {
-    selectDate(selected);
-  }
+  selectDate(selected);
   const ts = document.getElementById('ts');
   if (ts) ts.textContent = new Date().toLocaleTimeString('pt-PT',{hour:'2-digit',minute:'2-digit'});
 })();

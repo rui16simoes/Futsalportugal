@@ -2878,7 +2878,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 600,
     "desde": 0
    },
    "lances": [
@@ -2946,6 +2946,11 @@
      "id": "u9",
      "m": 9,
      "txt": "Os Leões começaram a incomodar. Isaías Furtado tentou outra vez a baliza da casa e voltou a esbarrar em Jackson Ryan, desta vez com um remate à figura."
+    },
+    {
+     "id": "u10",
+     "m": 10,
+     "txt": "Amarelo para Vicente Mourato. As faltas igualaram-se a duas e o jogo ficou mais partido a meio da primeira parte."
     }
    ],
    "faltas": [
@@ -2955,6 +2960,13 @@
      "parte": 1,
      "m": 5,
      "n": 1
+    },
+    {
+     "id": "ufc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 10,
+     "n": 2
     },
     {
      "id": "uff11",
@@ -3074,7 +3086,7 @@
       "nome": "VICENTE MOURATO",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "10",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/73/38/137338_vicente_mourato_20240610225517.jpg"
      },
@@ -3712,6 +3724,6 @@
    }
   }
  ],
- "ts": 1789924751360,
+ "ts": 1789924808366,
  "build": "20260919151922"
 }

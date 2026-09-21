@@ -3757,6 +3757,11 @@
      "id": "z13",
      "m": 13,
      "txt": "O Fundão começa a subir. Nuno Miranda fletiu da esquerda para o meio e disparou com força ao primeiro poste, mas a defesa do Zêzere desviou."
+    },
+    {
+     "id": "z13b",
+     "m": 13,
+     "txt": "E quase o empate! Jaime Arthur lançou um passe longo perfeito, Renato Almeida cabeceou e o guarda-redes do Zêzere teve de se esticar todo para segurar a vantagem."
     }
    ],
    "faltas": [
@@ -4119,6 +4124,6 @@
    }
   }
  ],
- "ts": 1790016779404,
+ "ts": 1790016856238,
  "build": "20260919151922"
 }

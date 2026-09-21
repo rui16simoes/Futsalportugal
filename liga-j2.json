@@ -3731,7 +3731,12 @@
     {
      "id": "z9",
      "m": 9,
-     "txt": "GOLO DO ZÊZERE! Djaelson inaugurou o marcador e fez o seu primeiro golo na prova. 1-0 para a equipa da casa."
+     "txt": "GOLO DO ZÊZERE! David Costa serviu Djaelson, que inaugurou o marcador e fez o seu primeiro golo na prova. 1-0 para a equipa da casa."
+    },
+    {
+     "id": "z9b",
+     "m": 9,
+     "txt": "Amarelo para Djaelson, pouco depois de ter marcado. É a primeira falta do Zêzere no jogo."
     }
    ],
    "faltas": [
@@ -3740,6 +3745,13 @@
      "lado": "fora",
      "parte": 1,
      "m": 5,
+     "n": 1
+    },
+    {
+     "id": "zfc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 9,
      "n": 1
     }
    ],
@@ -3828,7 +3840,7 @@
       "nome": "DJAELSON",
       "e": "P",
       "min": "9",
-      "cart": "",
+      "cart": "9",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/15/560615_djaelson_20250911080643.png"
      },
@@ -3892,7 +3904,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "9",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/50/64/545064_david_costa_20250919112829.jpg"
      },
      {
@@ -4080,6 +4092,6 @@
    }
   }
  ],
- "ts": 1790016154617,
+ "ts": 1790016205308,
  "build": "20260919151922"
 }

@@ -3870,7 +3870,7 @@
     {
      "id": "z36b",
      "m": "36",
-     "txt": "Quinta falta do Ferreira do Zêzere nesta parte. A partir da próxima, o Fundão tem livre de dez metros."
+     "txt": "Vermelho direto para Daniel Sodré e quinta falta do Ferreira do Zêzere nesta parte. O Zêzere fica com menos um e, a partir da próxima falta, o Fundão tem livre de dez metros."
     }
    ],
    "faltas": [
@@ -4053,7 +4053,7 @@
       "nome": "DANIEL SODRÉ",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "36v",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/38/889338_daniel_sodre_20250911080450.png"
      },
@@ -4296,6 +4296,6 @@
    }
   }
  ],
- "ts": 1790020267764,
+ "ts": 1790020352578,
  "build": "20260919151922"
 }

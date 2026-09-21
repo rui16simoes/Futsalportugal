@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420,
+    "acc": 540,
     "desde": 0
    },
    "lances": [
@@ -3727,6 +3727,11 @@
      "id": "z7",
      "m": 7,
      "txt": "Lance estudado do Zêzere na sequência de um pontapé de linha lateral pela direita. Octávio Alves concluiu, mas o remate saiu rasteiro e sem força, fácil para Jaime Arthur."
+    },
+    {
+     "id": "z9",
+     "m": 9,
+     "txt": "GOLO DO ZÊZERE! Djaelson inaugurou o marcador e fez o seu primeiro golo na prova. 1-0 para a equipa da casa."
     }
    ],
    "faltas": [
@@ -3786,7 +3791,7 @@
    },
    "casa": {
     "eq": "zezere",
-    "golos": "",
+    "golos": 1,
     "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
@@ -3822,7 +3827,7 @@
       "num": "92",
       "nome": "DJAELSON",
       "e": "P",
-      "min": "",
+      "min": "9",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/15/560615_djaelson_20250911080643.png"
@@ -4075,6 +4080,6 @@
    }
   }
  ],
- "ts": 1790016105367,
+ "ts": 1790016154617,
  "build": "20260919151922"
 }

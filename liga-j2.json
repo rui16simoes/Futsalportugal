@@ -3687,7 +3687,7 @@
    "jornada": "Jornada 2 · Liga Placard 2026/27",
    "fundo": "",
    "data": "21 de setembro de 2026",
-   "hora": "19h00",
+   "hora": "19h30",
    "local": "Pavilhão Municipal de Ferreira do Zêzere",
    "arb1": "",
    "arb2": "",
@@ -3753,14 +3753,14 @@
    "casa": {
     "eq": "zezere",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3769,7 +3769,7 @@
      {
       "num": "13",
       "nome": "NILTON (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3778,7 +3778,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3787,7 +3787,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3796,7 +3796,7 @@
      {
       "num": "20",
       "nome": "DANIEL SODRÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3805,7 +3805,7 @@
      {
       "num": "36",
       "nome": "CHAPINHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3814,7 +3814,7 @@
      {
       "num": "2",
       "nome": "AFONSO MOURINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3823,7 +3823,7 @@
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3832,7 +3832,7 @@
      {
       "num": "10",
       "nome": "WENDELL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3841,7 +3841,7 @@
      {
       "num": "19",
       "nome": "LEONARDO TRAVESSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3850,7 +3850,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3859,7 +3859,7 @@
      {
       "num": "31",
       "nome": "OCTÁVIO ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3868,7 +3868,7 @@
      {
       "num": "88",
       "nome": "SANDRO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3877,25 +3877,35 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
+     },
+     {
+      "num": "90",
+      "nome": "CANUTO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
    "fora": {
     "eq": "fundao",
     "golos": "",
-    "capitao": "",
+    "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
     "jogadores": [
      {
       "num": "14",
       "nome": "GAZA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3904,7 +3914,7 @@
      {
       "num": "24",
       "nome": "MARTIM BORREGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3913,7 +3923,7 @@
      {
       "num": "30",
       "nome": "JAIME ARTHUR (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3922,7 +3932,7 @@
      {
       "num": "6",
       "nome": "UESLER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3931,7 +3941,7 @@
      {
       "num": "60",
       "nome": "GUINA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3940,7 +3950,7 @@
      {
       "num": "12",
       "nome": "PELÉH",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3949,7 +3959,7 @@
      {
       "num": "20",
       "nome": "ARTUR VICENTE",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3958,7 +3968,7 @@
      {
       "num": "10",
       "nome": "NUNO MIRANDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3967,7 +3977,7 @@
      {
       "num": "11",
       "nome": "RENATO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3976,7 +3986,7 @@
      {
       "num": "13",
       "nome": "LOURENÇO AGUIAR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3985,7 +3995,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3994,7 +4004,7 @@
      {
       "num": "27",
       "nome": "NEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4003,7 +4013,7 @@
      {
       "num": "9",
       "nome": "EDUARDO JOB",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4012,7 +4022,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4021,7 +4031,7 @@
      {
       "num": "77",
       "nome": "TIAGO TAVARES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4031,6 +4041,6 @@
    }
   }
  ],
- "ts": 1789929557363,
+ "ts": 1790011137055,
  "build": "20260919151922"
 }

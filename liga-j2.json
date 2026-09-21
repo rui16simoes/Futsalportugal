@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60,
+    "acc": 300,
     "desde": 0
    },
    "lances": [
@@ -3707,9 +3707,32 @@
      "id": "z1",
      "m": 1,
      "txt": "COMEÇOU O JOGO em Ferreira do Zêzere. A equipa da casa procura a primeira vitória depois do empate em Porto Salvo; o Fundão chega com uma vitória e uma derrota nas duas primeiras saídas."
+    },
+    {
+     "id": "z2",
+     "m": 2,
+     "txt": "Primeira aproximação do Fundão: Peléh lançou longo para Landelino Neto, que tentou de primeira, mas o guarda-redes do Zêzere estava bem posicionado."
+    },
+    {
+     "id": "z4",
+     "m": 4,
+     "txt": "Resposta da casa por Octávio Alves, numa iniciação individual pelo meio. O remate foi bloqueado e deu canto."
+    },
+    {
+     "id": "z5",
+     "m": 5,
+     "txt": "Ritmo alto em Ferreira do Zêzere mas pouca baliza. Os duelos entre Wendell e Tiago Tavares estão a aquecer e o árbitro já teve de intervir para acalmar os ânimos."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "zff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 5,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -4047,6 +4070,6 @@
    }
   }
  ],
- "ts": 1790015319085,
+ "ts": 1790016044756,
  "build": "20260919151922"
 }

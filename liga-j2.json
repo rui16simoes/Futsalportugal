@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540,
+    "acc": 660,
     "desde": 0
    },
    "lances": [
@@ -3737,6 +3737,11 @@
      "id": "z9b",
      "m": 9,
      "txt": "Amarelo para Djaelson, pouco depois de ter marcado. É a primeira falta do Zêzere no jogo."
+    },
+    {
+     "id": "z11",
+     "m": 11,
+     "txt": "O Zêzere entrou determinado em conseguir a primeira vitória perante o seu público: muita intensidade e mais bola do que o Fundão neste arranque."
     }
    ],
    "faltas": [
@@ -4092,6 +4097,6 @@
    }
   }
  ],
- "ts": 1790016295259,
+ "ts": 1790016424707,
  "build": "20260919151922"
 }

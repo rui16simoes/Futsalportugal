@@ -3689,8 +3689,8 @@
    "data": "21 de setembro de 2026",
    "hora": "19h30",
    "local": "Pavilhão Municipal de Ferreira do Zêzere",
-   "arb1": "",
-   "arb2": "",
+   "arb1": "CRISTIANO SANTOS",
+   "arb2": "RÚBEN SANTOS",
    "arb3": "",
    "cron": "",
    "obs": "",
@@ -4041,6 +4041,6 @@
    }
   }
  ],
- "ts": 1790011341790,
+ "ts": 1790014546871,
  "build": "20260919151922"
 }

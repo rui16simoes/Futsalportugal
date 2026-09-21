@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 960
    },
    "lances": [
     {
@@ -3861,6 +3861,11 @@
      "id": "z35",
      "m": "35",
      "txt": "David Costa fletiu da direita para o meio e rematou de pé esquerdo, mas a bola foi cortada."
+    },
+    {
+     "id": "z36",
+     "m": "36",
+     "txt": "Tiago Tavares voltou a rodar sobre o fixo, mas desta vez rematou para a rede lateral."
     }
    ],
    "faltas": [
@@ -4279,6 +4284,6 @@
    }
   }
  ],
- "ts": 1790020097530,
+ "ts": 1790020209373,
  "build": "20260919151922"
 }

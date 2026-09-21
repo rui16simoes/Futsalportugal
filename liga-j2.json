@@ -3699,8 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020,
-    "desde": 0
+    "acc": 1080
    },
    "lances": [
     {
@@ -3782,6 +3781,11 @@
      "id": "z17",
      "m": 17,
      "txt": "Wendell recebeu na esquerda depois de uma reposição lateral e rematou rasteiro, mas a bola saiu ao lado."
+    },
+    {
+     "id": "z18",
+     "m": "18",
+     "txt": "O Ferreira do Zêzere pressiona alto e não deixa o Fundão sair a jogar, com o apoio forte das bancadas."
     }
    ],
    "faltas": [
@@ -4158,6 +4162,6 @@
    }
   }
  ],
- "ts": 1790017387888,
+ "ts": 1790017460244,
  "build": "20260919151922"
 }

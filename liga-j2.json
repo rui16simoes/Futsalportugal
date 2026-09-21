@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660,
+    "acc": 720,
     "desde": 0
    },
    "lances": [
@@ -3747,6 +3747,11 @@
      "id": "z10",
      "m": 10,
      "txt": "Pausa técnica pedida pelo Fundão, com Nuno Couto a tentar reorganizar a equipa depois do golo sofrido."
+    },
+    {
+     "id": "z12",
+     "m": 12,
+     "txt": "Landelino Neto segurou de costas como pivô e soltou para Uesler, que chegou pela esquerda e rematou já em esforço, sem perigo."
     }
    ],
    "faltas": [
@@ -4102,6 +4107,6 @@
    }
   }
  ],
- "ts": 1790016473857,
+ "ts": 1790016631574,
  "build": "20260919151922"
 }

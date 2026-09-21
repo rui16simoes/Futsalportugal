@@ -3796,6 +3796,11 @@
      "id": "z20",
      "m": "20",
      "txt": "Livre para o Zêzere a partir do seu meio-campo: Rui Fortes cabeceou e a bola passou por cima."
+    },
+    {
+     "id": "z20b",
+     "m": "20",
+     "txt": "Poste do Fundão! Tiago Tavares recebeu na esquerda e rematou ao primeiro poste; a bola ainda desviou e bateu no ferro."
     }
    ],
    "faltas": [
@@ -4179,6 +4184,6 @@
    }
   }
  ],
- "ts": 1790017615991,
+ "ts": 1790017646399,
  "build": "20260919151922"
 }

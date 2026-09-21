@@ -3699,10 +3699,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
+    "acc": 60,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "z1",
+     "m": 1,
+     "txt": "COMEÇOU O JOGO em Ferreira do Zêzere. A equipa da casa procura a primeira vitória depois do empate em Porto Salvo; o Fundão chega com uma vitória e uma derrota nas duas primeiras saídas."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -3778,7 +3784,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3787,7 +3793,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3823,7 +3829,7 @@
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3850,7 +3856,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3877,7 +3883,7 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3995,7 +4001,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4022,7 +4028,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4041,6 +4047,6 @@
    }
   }
  ],
- "ts": 1790014546871,
+ "ts": 1790015297982,
  "build": "20260919151922"
 }

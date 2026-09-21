@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960,
+    "acc": 1020,
     "desde": 0
    },
    "lances": [
@@ -3777,6 +3777,11 @@
      "id": "z16",
      "m": 16,
      "txt": "Amarelo para o capitão Rui Fortes. O Zêzere soma duas faltas no mesmo minuto e chega às quatro — está a uma de dar livres diretos ao Fundão."
+    },
+    {
+     "id": "z17",
+     "m": 17,
+     "txt": "Wendell recebeu na esquerda depois de uma reposição lateral e rematou rasteiro, mas a bola saiu ao lado."
     }
    ],
    "faltas": [
@@ -4153,6 +4158,6 @@
    }
   }
  ],
- "ts": 1790017224547,
+ "ts": 1790017387888,
  "build": "20260919151922"
 }

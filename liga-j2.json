@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780,
+    "acc": 840,
     "desde": 0
    },
    "lances": [
@@ -3762,6 +3762,16 @@
      "id": "z13b",
      "m": 13,
      "txt": "E quase o empate! Jaime Arthur lançou um passe longo perfeito, Renato Almeida cabeceou e o guarda-redes do Zêzere teve de se esticar todo para segurar a vantagem."
+    },
+    {
+     "id": "z14",
+     "m": 14,
+     "txt": "Tiago Tavares recebeu de costas, rodou bem sobre o marcador e atirou, mas a bola passou um pouco por cima."
+    },
+    {
+     "id": "z14b",
+     "m": 14,
+     "txt": "Pausa técnica pedida pelo Zêzere, a tentar travar o melhor período do Fundão."
     }
    ],
    "faltas": [
@@ -4124,6 +4134,6 @@
    }
   }
  ],
- "ts": 1790016856238,
+ "ts": 1790016900445,
  "build": "20260919151922"
 }

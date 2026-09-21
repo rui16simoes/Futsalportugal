@@ -3697,7 +3697,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200
    },
@@ -3801,6 +3801,11 @@
      "id": "z20b",
      "m": "20",
      "txt": "Poste do Fundão! Tiago Tavares recebeu na esquerda e rematou ao primeiro poste; a bola ainda desviou e bateu no ferro."
+    },
+    {
+     "id": "z21",
+     "m": "20",
+     "txt": "INTERVALO EM FERREIRA DO ZÊZERE. Ferreira do Zêzere 1-0 AD Fundão."
     }
    ],
    "faltas": [
@@ -4184,6 +4189,6 @@
    }
   }
  ],
- "ts": 1790017646399,
+ "ts": 1790017714901,
  "build": "20260919151922"
 }

@@ -3711,7 +3711,7 @@
     {
      "id": "z2",
      "m": 2,
-     "txt": "Primeira aproximação do Fundão: Peléh lançou longo para Landelino Neto, que tentou de primeira, mas o guarda-redes do Zêzere estava bem posicionado."
+     "txt": "Primeira aproximação do Fundão: Peléh lançou longo para Landelino Neto, que tentou de primeira, mas Pedro Martinho estava bem posicionado."
     },
     {
      "id": "z4",
@@ -3761,7 +3761,7 @@
     {
      "id": "z13b",
      "m": 13,
-     "txt": "E quase o empate! Jaime Arthur lançou um passe longo perfeito, Renato Almeida cabeceou e o guarda-redes do Zêzere teve de se esticar todo para segurar a vantagem."
+     "txt": "E quase o empate! Jaime Arthur lançou um passe longo perfeito, Renato Almeida cabeceou e Pedro Martinho teve de se esticar todo para segurar a vantagem do Zêzere."
     },
     {
      "id": "z14",
@@ -3853,7 +3853,7 @@
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3871,7 +3871,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "P",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4134,6 +4134,6 @@
    }
   }
  ],
- "ts": 1790016900445,
+ "ts": 1790016944781,
  "build": "20260919151922"
 }

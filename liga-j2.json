@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 900
    },
    "lances": [
     {
@@ -3856,6 +3856,11 @@
      "id": "z31",
      "m": "31",
      "txt": "Tiago Tavares segurou de costas, rodou e rematou de imediato ao primeiro poste, mas Pedro Martinho defendeu."
+    },
+    {
+     "id": "z35",
+     "m": "35",
+     "txt": "David Costa fletiu da direita para o meio e rematou de pé esquerdo, mas a bola foi cortada."
     }
    ],
    "faltas": [
@@ -4274,6 +4279,6 @@
    }
   }
  ],
- "ts": 1790019787305,
+ "ts": 1790020097530,
  "build": "20260919151922"
 }

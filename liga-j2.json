@@ -3866,6 +3866,11 @@
      "id": "z36",
      "m": "36",
      "txt": "Tiago Tavares voltou a rodar sobre o fixo, mas desta vez rematou para a rede lateral."
+    },
+    {
+     "id": "z36b",
+     "m": "36",
+     "txt": "Quinta falta do Ferreira do Zêzere nesta parte. A partir da próxima, o Fundão tem livre de dez metros."
     }
    ],
    "faltas": [
@@ -3945,6 +3950,13 @@
      "parte": 2,
      "m": 33,
      "n": 4
+    },
+    {
+     "id": "zfc25",
+     "lado": "casa",
+     "parte": 2,
+     "m": 36,
+     "n": 5
     }
    ],
    "gp": {
@@ -4284,6 +4296,6 @@
    }
   }
  ],
- "ts": 1790020209373,
+ "ts": 1790020267764,
  "build": "20260919151922"
 }

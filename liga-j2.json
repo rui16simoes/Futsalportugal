@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420
+    "acc": 540
    },
    "lances": [
     {
@@ -3836,6 +3836,11 @@
      "id": "z27",
      "m": "27",
      "txt": "Rui Fortes ficou sozinho à entrada da área, mas demorou a finalizar e Jaime Arthur teve tempo para se posicionar e defender."
+    },
+    {
+     "id": "z29",
+     "m": "29",
+     "txt": "Jogo cada vez mais partido e com poucas paragens. O Fundão entrou melhor na segunda parte, mas o Zêzere voltou a equilibrar."
     }
    ],
    "faltas": [
@@ -4226,6 +4231,6 @@
    }
   }
  ],
- "ts": 1790019100241,
+ "ts": 1790019367510,
  "build": "20260919151922"
 }

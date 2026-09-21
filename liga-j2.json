@@ -3820,7 +3820,7 @@
     {
      "id": "z23b",
      "m": "23",
-     "txt": "GOLO DO FUNDÃO! Peléh empata o jogo. Ferreira do Zêzere 1-1 AD Fundão."
+     "txt": "GOLO DO FUNDÃO! Peléh empata o jogo, servido pelo guarda-redes Jaime Arthur. Ferreira do Zêzere 1-1 AD Fundão."
     }
    ],
    "faltas": [
@@ -4089,7 +4089,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/90/16686490_jaime_arthur_20260807163836.png"
      },
      {
@@ -4204,6 +4204,6 @@
    }
   }
  ],
- "ts": 1790018590347,
+ "ts": 1790018628404,
  "build": "20260919151922"
 }

@@ -3841,6 +3841,16 @@
      "id": "z29",
      "m": "29",
      "txt": "Jogo cada vez mais partido e com poucas paragens. O Fundão entrou melhor na segunda parte, mas o Zêzere voltou a equilibrar."
+    },
+    {
+     "id": "z29b",
+     "m": "29",
+     "txt": "Falta do Zêzere, a segunda desta parte, com amarelo para o guarda-redes Pedro Martinho."
+    },
+    {
+     "id": "z29c",
+     "m": "29",
+     "txt": "GOLO DO FUNDÃO! Uesler faz a reviravolta. Ferreira do Zêzere 1-2 AD Fundão."
     }
    ],
    "faltas": [
@@ -3959,7 +3969,7 @@
       "nome": "PEDRO MARTINHO (GR)",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "29",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/11/290011_pedro_martinho_20250924074443.png"
      },
@@ -4094,7 +4104,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": 1,
+    "golos": 2,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -4130,7 +4140,7 @@
       "num": "6",
       "nome": "UESLER",
       "e": "P",
-      "min": "",
+      "min": "29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/80/424580_uesler_20260720131537.png"
@@ -4238,6 +4248,6 @@
    }
   }
  ],
- "ts": 1790019394854,
+ "ts": 1790019423762,
  "build": "20260919151922"
 }

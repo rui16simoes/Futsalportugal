@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 180
    },
    "lances": [
     {
@@ -3811,6 +3811,16 @@
      "id": "z22",
      "m": "21",
      "txt": "Jaime Arthur subiu e rematou, Pedro Martinho agarrou e tentou aproveitar a baliza deserta do Fundão, mas Mário Freitas recuperou a tempo e evitou o golo do guarda-redes."
+    },
+    {
+     "id": "z23",
+     "m": "23",
+     "txt": "Primeiro aviso de Peléh, com um remate acrobático de calcanhar que Pedro Martinho travou."
+    },
+    {
+     "id": "z23b",
+     "m": "23",
+     "txt": "GOLO DO FUNDÃO! Peléh empata o jogo. Ferreira do Zêzere 1-1 AD Fundão."
     }
    ],
    "faltas": [
@@ -4050,7 +4060,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": "",
+    "golos": 1,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -4104,7 +4114,7 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "P",
-      "min": "",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
@@ -4194,6 +4204,6 @@
    }
   }
  ],
- "ts": 1790018479186,
+ "ts": 1790018590347,
  "build": "20260919151922"
 }

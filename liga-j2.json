@@ -3850,7 +3850,7 @@
     {
      "id": "z29c",
      "m": "29",
-     "txt": "GOLO DO FUNDÃO! Uesler faz a reviravolta. Ferreira do Zêzere 1-2 AD Fundão."
+     "txt": "GOLO DO FUNDÃO! Uesler faz a reviravolta, com assistência de Mário Freitas. Ferreira do Zêzere 1-2 AD Fundão."
     }
    ],
    "faltas": [
@@ -4205,7 +4205,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "29",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/41/143941_mario_freitas_20241019155103.jpg"
      },
      {
@@ -4248,6 +4248,6 @@
    }
   }
  ],
- "ts": 1790019423762,
+ "ts": 1790019451222,
  "build": "20260919151922"
 }

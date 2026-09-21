@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 420
    },
    "lances": [
     {
@@ -3821,6 +3821,21 @@
      "id": "z23b",
      "m": "23",
      "txt": "GOLO DO FUNDÃO! Jaime Arthur lançou com a mão para Peléh, que arrancou pela esquerda até aos dez metros, puxou para dentro e disparou rápido para o ângulo superior direito, sem hipótese para Pedro Martinho. Ferreira do Zêzere 1-1 AD Fundão."
+    },
+    {
+     "id": "z24",
+     "m": "24",
+     "txt": "Lance ensaiado do Fundão num lançamento lateral na direita: bola em arco para Nem, que tentou de primeira, mas o remate bateu no chão e subiu demasiado."
+    },
+    {
+     "id": "z25",
+     "m": "25",
+     "txt": "Canto do Zêzere cortado e contra-ataque do Fundão: Nuno Miranda levou a bola de uma baliza à outra e rematou a centímetros do poste direito."
+    },
+    {
+     "id": "z27",
+     "m": "27",
+     "txt": "Rui Fortes ficou sozinho à entrada da área, mas demorou a finalizar e Jaime Arthur teve tempo para se posicionar e defender."
     }
    ],
    "faltas": [
@@ -3865,6 +3880,13 @@
      "parte": 1,
      "m": 20,
      "n": 2
+    },
+    {
+     "id": "zfc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 27,
+     "n": 1
     }
    ],
    "gp": {
@@ -4204,6 +4226,6 @@
    }
   }
  ],
- "ts": 1790018688018,
+ "ts": 1790019100241,
  "build": "20260919151922"
 }

@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300,
+    "acc": 420,
     "desde": 0
    },
    "lances": [
@@ -3722,6 +3722,11 @@
      "id": "z5",
      "m": 5,
      "txt": "Ritmo alto em Ferreira do Zêzere mas pouca baliza. Os duelos entre Wendell e Tiago Tavares estão a aquecer e o árbitro já teve de intervir para acalmar os ânimos."
+    },
+    {
+     "id": "z7",
+     "m": 7,
+     "txt": "Lance estudado do Zêzere na sequência de um pontapé de linha lateral pela direita. Octávio Alves concluiu, mas o remate saiu rasteiro e sem força, fácil para Jaime Arthur."
     }
    ],
    "faltas": [
@@ -4070,6 +4075,6 @@
    }
   }
  ],
- "ts": 1790016044756,
+ "ts": 1790016105367,
  "build": "20260919151922"
 }

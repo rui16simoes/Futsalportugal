@@ -3699,7 +3699,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -3786,6 +3786,11 @@
      "id": "z18",
      "m": "18",
      "txt": "O Ferreira do Zêzere pressiona alto e não deixa o Fundão sair a jogar, com o apoio forte das bancadas."
+    },
+    {
+     "id": "z19",
+     "m": "19",
+     "txt": "Bola no poste! Octávio Alves recebeu à entrada da área, na esquerda, e rematou de biqueira ao poste mais distante."
     }
    ],
    "faltas": [
@@ -4162,6 +4167,6 @@
    }
   }
  ],
- "ts": 1790017460244,
+ "ts": 1790017524540,
  "build": "20260919151922"
 }

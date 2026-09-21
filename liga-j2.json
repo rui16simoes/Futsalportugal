@@ -3806,6 +3806,11 @@
      "id": "z21",
      "m": "20",
      "txt": "INTERVALO EM FERREIRA DO ZÊZERE. Ferreira do Zêzere 1-0 AD Fundão."
+    },
+    {
+     "id": "z22",
+     "m": "21",
+     "txt": "Jaime Arthur subiu e rematou, Pedro Martinho agarrou e tentou aproveitar a baliza deserta do Fundão, mas Mário Freitas recuperou a tempo e evitou o golo do guarda-redes."
     }
    ],
    "faltas": [
@@ -4189,6 +4194,6 @@
    }
   }
  ],
- "ts": 1790018395387,
+ "ts": 1790018479186,
  "build": "20260919151922"
 }

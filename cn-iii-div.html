@@ -116,6 +116,7 @@ const filterT=document.getElementById("filterT");
 const grid=document.getElementById("grid");
 
 function esc(s){ return (s||"").toString().replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function tname(id){ return (TEAMS[id]?.name || String(id)); }
 function badge(id){
   const t=TEAMS[id]||{name:id,short:id,color:"#374151"};
   if(t.logo) return `<img class="team-logo" src="${esc(t.logo)}" alt="" onerror="this.outerHTML='<div class=&quot;team-badge&quot; style=&quot;background:${t.color}&quot;>${esc(t.short)}</div>'">`;

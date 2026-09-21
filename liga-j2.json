@@ -3851,6 +3851,11 @@
      "id": "z29c",
      "m": "29",
      "txt": "GOLO DO FUNDÃO! Livre ensaiado bem executado: Mário Freitas serviu Uesler, que apareceu solto à entrada da área e rematou de primeira para o segundo poste. Ferreira do Zêzere 1-2 AD Fundão."
+    },
+    {
+     "id": "z31",
+     "m": "31",
+     "txt": "Tiago Tavares segurou de costas, rodou e rematou de imediato ao primeiro poste, mas Pedro Martinho defendeu."
     }
    ],
    "faltas": [
@@ -4262,6 +4267,6 @@
    }
   }
  ],
- "ts": 1790019617314,
+ "ts": 1790019672774,
  "build": "20260919151922"
 }

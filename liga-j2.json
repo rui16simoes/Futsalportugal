@@ -3772,6 +3772,11 @@
      "id": "z14b",
      "m": 14,
      "txt": "Pausa técnica pedida pelo Zêzere, a tentar travar o melhor período do Fundão."
+    },
+    {
+     "id": "z16",
+     "m": 16,
+     "txt": "Amarelo para o capitão Rui Fortes. O Zêzere soma duas faltas no mesmo minuto e chega às quatro — está a uma de dar livres diretos ao Fundão."
     }
    ],
    "faltas": [
@@ -3802,6 +3807,13 @@
      "parte": 1,
      "m": 16,
      "n": 3
+    },
+    {
+     "id": "zfc14",
+     "lado": "casa",
+     "parte": 1,
+     "m": 16,
+     "n": 4
     }
    ],
    "gp": {
@@ -3979,7 +3991,7 @@
       "nome": "RUI FORTES",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
      },
@@ -4141,6 +4153,6 @@
    }
   }
  ],
- "ts": 1790017182234,
+ "ts": 1790017224547,
  "build": "20260919151922"
 }

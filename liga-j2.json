@@ -3742,6 +3742,11 @@
      "id": "z11",
      "m": 11,
      "txt": "O Zêzere entrou determinado em conseguir a primeira vitória perante o seu público: muita intensidade e mais bola do que o Fundão neste arranque."
+    },
+    {
+     "id": "z10",
+     "m": 10,
+     "txt": "Pausa técnica pedida pelo Fundão, com Nuno Couto a tentar reorganizar a equipa depois do golo sofrido."
     }
    ],
    "faltas": [
@@ -4097,6 +4102,6 @@
    }
   }
  ],
- "ts": 1790016424707,
+ "ts": 1790016473857,
  "build": "20260919151922"
 }

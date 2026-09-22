@@ -122,7 +122,7 @@ function tname(id){
 }
 function fmtDate(d){
   if(!d)return "";
-  const[y,,m,dd]=d.split("-");
+  const[y,m,dd]=d.split("-");
   const days=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
   const months=["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
   const dt=new Date(+y,+m-1,+dd);

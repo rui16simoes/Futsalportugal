@@ -142,7 +142,7 @@
   :root[data-theme="dia"] .hero{background:linear-gradient(135deg,#ffe5e5 0%,#e5ffe5 100%)!important}
   :root[data-theme="dia"] .hero .eyebrow,:root[data-theme="dia"] .hero .lede,:root[data-theme="dia"] .hero .stat span{color:#475569}
   :root[data-theme="dia"] .hero .stat b{color:#1e293b}
-  :root[data-theme="dia"] .hero::before,:root[data-theme="dia"] .hero::after{display:none}
+  :root[data-theme="dia"] .hero::before,.hero::after{display:none}
 
   .theme-toggle{position:fixed;bottom:18px;right:18px;z-index:999;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:50%;width:44px;height:44px;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.3);transition:all .2s}
   .theme-toggle:hover{transform:scale(1.1)}
@@ -217,7 +217,7 @@ const TEAMS = {
   34:{name:"CDCC Posto Santo",logo:ZZ+'99/27099_logo_posto_santo_20260427112302.png'},
   35:{name:"Louletano DC",logo:ZZ+'3596_imgbank_1719413637.png'},
   36:{name:"GD Piedade",logo:ZZ+'05/27205_logo_gd_piedade_20260423114521.png'},
-  37:{name:"Balanço Vitorioso"},
+  37:{name:"Balanço Vitorioso",logo:'https://raw.githubusercontent.com/rui16simoes/Futsalportugal/main/logos/balanco-vitorioso.png'},
   38:{name:"CS Évora Alcobaça",logo:ZZ+'41/112941_logo_cs_evora_de_alcobaca_20260422102341.png'},
   39:{name:"CDR Águias Unidas",logo:ZZ+'71/20071_logo_aguias_unidas_20260409113445.png'},
   40:{name:"SR Manjoeira",logo:ZZ+'18/16018_logo_manjoeira_20251120123809.png'},
@@ -333,7 +333,7 @@ function renderJogo(j){
       ${teamLogo(j.fora)}
       <span class="team-name">${tf.name}</span>
     </div>
-    ${metaParts.length?`<div class="jogo-meta">${metaParts.join('<span style="color:#3b4a5c">·</span>')}</div>`:''}
+    ${metaParts.length?`<div class="jogo-meta">${metaParts.join('<span style="color:#3b4a5c">·/span>')}</div>`:''}
     ${hasMc?`<div class="marcadores-wrap">
       <div class="mc casa">${mcCasa}</div>
       <div class="mc sep">⚽</div>

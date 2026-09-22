@@ -46,7 +46,7 @@
   .team-side.fora{justify-content:flex-start}
   .team-name{font-weight:600;font-size:14px}
   .team-badge{width:40px;height:40px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;flex:none;letter-spacing:.05em}
-  .team-logo{width:40px;height:40px;object-fit:contain;border-radius:4px;flex:none}
+  .team-badge-wrap{display:inline-flex;align-items:center;flex:none}.team-logo{width:40px;height:40px;object-fit:contain;border-radius:4px;flex:none}
   .score{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:800;min-width:100px;justify-content:center}
   .score .sep{color:var(--muted)}
   .score .vs{color:var(--muted);font-size:14px;font-weight:600}
@@ -116,7 +116,7 @@ const filterT=document.getElementById("filterT");
 const grid=document.getElementById("grid");
 function badge(id){
   const t=TEAMS[id]||{name:id,short:id,color:"#374151"};
-  if(t.logo)return `<img src="${t.logo}" alt="${t.name}" class="team-logo" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div class=\"team-badge\" style=\"background:${t.color}\">${t.short}</div>')">`;
+  if(t.logo)return `<span class="team-badge-wrap"><img src="${t.logo}" alt="${t.name}" class="team-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="team-badge" style="background:${t.color};display:none">${t.short}</div></span>`;
   return `<div class="team-badge" style="background:${t.color}">${t.short}</div>`;
 }
 function tname(id){

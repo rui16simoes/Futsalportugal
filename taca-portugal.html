@@ -22,7 +22,7 @@
   .hero::after{content:"";position:absolute;bottom:-30%;left:-5%;width:300px;height:300px;background:radial-gradient(circle,rgba(0,152,70,.1),transparent 70%);pointer-events:none}
   .hero .eyebrow{font-size:12px;color:#93a1b1;text-transform:uppercase;letter-spacing:2.5px;margin-bottom:10px}
   .hero h1{font-size:38px;font-weight:900;margin:0;letter-spacing:-1px;line-height:1.05}
-  .hero h1 .lig{color:#e30613}
+  .hero h1 .lin{color:#e30613}
   .hero .lede{font-size:15px;color:#cbd5e1;margin-top:12px;max-width:760px;line-height:1.55}
   .hero .stats{display:flex;gap:24px;margin-top:22px;flex-wrap:wrap}
   .hero .stat b{display:block;font-size:26px;font-weight:800;color:#f3f4f6}
@@ -142,7 +142,7 @@
   :root[data-theme="dia"] .hero{background:linear-gradient(135deg,#ffe5e5 0%,#e5ffe5 100%)!important}
   :root[data-theme="dia"] .hero .eyebrow,:root[data-theme="dia"] .hero .lede,:root[data-theme="dia"] .hero .stat span{color:#475569}
   :root[data-theme="dia"] .hero .stat b{color:#1e293b}
-  :root[data-theme="dia"] .hero::before,.hero::after{display:none}
+  :root[data-theme="dia"] .hero::before,:root[data-theme="dia"] .hero::after{display:none}
 
   .theme-toggle{position:fixed;bottom:18px;right:18px;z-index:999;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:50%;width:44px;height:44px;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.3);transition:all .2s}
   .theme-toggle:hover{transform:scale(1.1)}
@@ -154,7 +154,7 @@
 <div class="wrap">
   <header class="hero">
     <div class="hero-logo-wrap">
-      <img src="https://cdn-img.staticzz.com/img/logos/competicoes/312_imgbank_tp_20250326120407.png" alt="Placard" class="hero-logo" style="max-height:80px;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))">
+      <img src="https://cdn-img.staticzz.com/img/logos/competicoes/312_imgbank_tp_20250326120407.png" alt="Placard" class="hero-logo" style="max-height:200px;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5))">
     </div>
     <div class="eyebrow">FPF · Futsal Seniores Masculino</div>
     <h1>Taça de Portugal <span class="lig">Futsal Placard</span></h1>
@@ -333,7 +333,7 @@ function renderJogo(j){
       ${teamLogo(j.fora)}
       <span class="team-name">${tf.name}</span>
     </div>
-    ${metaParts.length?`<div class="jogo-meta">${metaParts.join('<span style="color:#3b4a5c">·/span>')}</div>`:''}
+    ${metaParts.length?`<div class="jogo-meta">${metaParts.join('<span style="color:#3b4a5c">·</span>')}</div>`:''}
     ${hasMc?`<div class="marcadores-wrap">
       <div class="mc casa">${mcCasa}</div>
       <div class="mc sep">⚽</div>

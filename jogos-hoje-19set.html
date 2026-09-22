@@ -147,6 +147,7 @@ const LINKS = {
   sub19:        'https://rui16simoes.github.io/Futsalportugal/nacional-sub19.html',
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
+  tacaPortugal: 'https://rui16simoes.github.io/Futsalportugal/taca-portugal.html',
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -513,6 +514,11 @@ const DAYS = {
   '2026-10-04': {
     label: ['Dom','4','Out'],
     sections: [
+      { comp:'Taça Portugal Placard', link:LINKS.tacaPortugal,
+        color:'#e30613', flag:'��', round:'1ª Eliminatória', games:[
+        { time:'', home:'1ª Elim. Série Norte (10 jogos)', away:'', status:'', score:null, venue:'v\xE1rios pavilhões' },
+        { time:'', home:'1ª Elim. Série Sul (10 jogos)', away:'', status:'', score:null, venue:'v\xE1rios pavilhões' },
+      ]},
       { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
         { time:'11:00', home:'SL Benfica', away:'FC Barreirense', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },

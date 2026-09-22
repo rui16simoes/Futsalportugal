@@ -149,9 +149,9 @@ function jornadaHtml(j,dj){
     if(g.pavilhao)metaParts.push(`🏟 ${g.pavilhao}`);
     const metaHtml=metaParts.length?`<div class="jogo-meta">${metaParts.map(p=>`<span>${p}</span>`).join('')}</div>`:"";
     h+=`<div class="jogo">
-      <div class="team-side casa">${badge(g.casa)}<div><span class="team-name">${tname(g.casa)}</span>${mcHtml}</div></div>
+      <div class="team-side casa"><div><span class="team-name">${tname(g.casa)}</span>${mcHtml}</div>${badge(g.casa)}</div>
       <div class="score${played?" played":""}">${sc}</div>
-      <div class="team-side fora"><div><span class="team-name">${tname(g.fora)}</span>${mfHtml}</div>${badge(g.fora)}</div>
+      <div class="team-side fora">${badge(g.fora)}<div><span class="team-name">${tname(g.fora)}</span>${mfHtml}</div></div>
       ${metaHtml}
     </div>`;
   }

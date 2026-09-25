@@ -347,6 +347,11 @@
      "id": "r38",
      "m": 26,
      "txt": "Tiago Brito pediu grande penalidade por mão na bola de um jogador do Rio Ave, mas a equipa de arbitragem mandou seguir."
+    },
+    {
+     "id": "r39",
+     "m": 26,
+     "txt": "Grande defesa de Moreira entre os postes. O Rio Ave está com mais dificuldade em sair a jogar nesta segunda parte."
     }
    ],
    "faltas": [
@@ -2728,6 +2733,6 @@
    }
   }
  ],
- "ts": 1790370656675,
+ "ts": 1790370791474,
  "build": "20260915132319"
 }

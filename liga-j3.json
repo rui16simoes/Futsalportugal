@@ -181,7 +181,12 @@
     {
      "id": "r5",
      "m": 4,
-     "txt": "GOLO DO RIO AVE! Miguel Ângelo coloca a equipa da casa na frente. Rio Ave 2-1 SC Braga."
+     "txt": "GOLO DO RIO AVE! Livre de Miguel Ângelo: a bola passou por toda a gente e foi parar ao fundo das redes. Rio Ave 2-1 SC Braga."
+    },
+    {
+     "id": "r6",
+     "m": 4,
+     "txt": "GOLO DO RIO AVE! Serginho amplia no mesmo minuto, com assistência de Miguel Ângelo. Rio Ave 3-1 SC Braga."
     }
    ],
    "faltas": [
@@ -241,7 +246,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 2,
+    "golos": 3,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -342,7 +347,7 @@
       "e": "S",
       "min": "4",
       "cart": "",
-      "ass": "",
+      "ass": "4",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
      },
      {
@@ -358,7 +363,7 @@
       "num": "18",
       "nome": "SERGINHO",
       "e": "S",
-      "min": "",
+      "min": "4",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
@@ -2472,6 +2477,6 @@
    }
   }
  ],
- "ts": 1790366888189,
+ "ts": 1790366986906,
  "build": "20260915132319"
 }

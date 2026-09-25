@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -302,6 +302,11 @@
      "id": "r29",
      "m": 19,
      "txt": "Tiago Brito finalizou um bom desenho ofensivo do Braga, mas rematou ao lado."
+    },
+    {
+     "id": "r30",
+     "m": 20,
+     "txt": "Miguel Ângelo combinou com Rúben Freire junto à linha e rematou de biqueira, obrigando Léo Souza a nova intervenção."
     }
    ],
    "faltas": [
@@ -2662,6 +2667,6 @@
    }
   }
  ],
- "ts": 1790369110263,
+ "ts": 1790369218999,
  "build": "20260915132319"
 }

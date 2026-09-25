@@ -145,8 +145,8 @@
    "data": "25 de setembro de 2026",
    "hora": "21h00",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "",
-   "arb2": "",
+   "arb1": "JOÃO ANDRADE",
+   "arb2": "MAURÍCIO COUTO",
    "arb3": "",
    "cron": "",
    "obs": "",
@@ -209,14 +209,14 @@
    "casa": {
     "eq": "rioave",
     "golos": "",
-    "capitao": "",
+    "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "TOMÁS RAMOS (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -225,7 +225,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -234,7 +234,7 @@
      {
       "num": "33",
       "nome": "TIAGO SACRAMENTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -243,7 +243,7 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -252,7 +252,7 @@
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -261,7 +261,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -270,7 +270,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -279,7 +279,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -288,7 +288,7 @@
      {
       "num": "11",
       "nome": "ZÉZINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -297,7 +297,7 @@
      {
       "num": "13",
       "nome": "BEBÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -306,7 +306,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -315,7 +315,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -324,7 +324,7 @@
      {
       "num": "18",
       "nome": "SERGINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -333,7 +333,7 @@
      {
       "num": "4",
       "nome": "FRANCISCO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -342,7 +342,7 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -353,14 +353,14 @@
    "fora": {
     "eq": "braga",
     "golos": "",
-    "capitao": "",
+    "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "GIOVANNI DANTI (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -369,7 +369,7 @@
      {
       "num": "2",
       "nome": "LÉO SOUZA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -378,7 +378,7 @@
      {
       "num": "22",
       "nome": "GONÇALO PEREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -387,7 +387,7 @@
      {
       "num": "3",
       "nome": "TIAGO SOUSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -396,7 +396,7 @@
      {
       "num": "9",
       "nome": "RICARDO LOPES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -405,7 +405,7 @@
      {
       "num": "20",
       "nome": "PEIXINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -414,7 +414,7 @@
      {
       "num": "8",
       "nome": "RICARDO MARQUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -423,7 +423,7 @@
      {
       "num": "21",
       "nome": "RIKA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -432,7 +432,7 @@
      {
       "num": "6",
       "nome": "TIAGO BRITO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -441,7 +441,7 @@
      {
       "num": "7",
       "nome": "TOMÁS COLAÇO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -450,7 +450,7 @@
      {
       "num": "10",
       "nome": "MAMADÚ TURÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -459,7 +459,7 @@
      {
       "num": "12",
       "nome": "SIMÃO NOGUEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -468,7 +468,7 @@
      {
       "num": "17",
       "nome": "ÁNGEL CLAUDINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -477,7 +477,7 @@
      {
       "num": "90",
       "nome": "DANIEL AIROSO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -486,7 +486,7 @@
      {
       "num": "88",
       "nome": "ANDRÉ GOMES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -495,7 +495,7 @@
      {
       "num": "14",
       "nome": "WILLIAN CARIOCA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -504,7 +504,7 @@
      {
       "num": "19",
       "nome": "LUÍS FERNANDES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -513,7 +513,7 @@
      {
       "num": "87",
       "nome": "BARRETO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -522,7 +522,7 @@
      {
       "num": "11",
       "nome": "BRUNO BARROS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -531,7 +531,7 @@
      {
       "num": "27",
       "nome": "RODRIGO MIRANCOS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2439,6 +2439,6 @@
    }
   }
  ],
- "build": "20260915132319",
- "ts": 1789478599705
+ "ts": 1790366165482,
+ "build": "20260915132319"
 }

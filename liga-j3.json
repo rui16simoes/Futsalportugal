@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 240
    },
    "lances": [
     {
@@ -179,7 +179,15 @@
      "txt": "Podia ter sido nova cambalhota: Luís Fernandes tinha a baliza aberta ao segundo poste, mas a defesa do Rio Ave incomodou-o no momento do remate e a bola não entrou."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "rff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 4,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2459,6 +2467,6 @@
    }
   }
  ],
- "ts": 1790366790743,
+ "ts": 1790366839211,
  "build": "20260915132319"
 }

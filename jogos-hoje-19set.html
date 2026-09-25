@@ -148,6 +148,7 @@ const LINKS = {
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
   tacaPortugalF:'https://rui16simoes.github.io/Futsalportugal/taca-portugal-fem.html',
+  cn2divF:      'https://rui16simoes.github.io/Futsalportugal/cn-feminino-ii-divisao.html',
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -361,7 +362,7 @@ const DAYS = {
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1 · Jogo Antecipado', series:[
         { label:'Série C', games:[
-          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], venue:'Pav. Multiusos Águias Unidas' },
+          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], hscorers:["35' Rafael Silva", "38' João Raposo"], ascorers:["1' Adrian Pereira"], venue:'Pav. Multiusos Águias Unidas' },
         ]},
       ]},
     ]
@@ -434,6 +435,21 @@ const DAYS = {
           { time:'16:00', home:'SC Vila Verde', away:'CDR Os Vinhais', status:'', score:null, venue:'Pav. António Mateus | Vila Verde' },
           { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
           { time:'19:00', home:'SR Manjoeira', away:'CA S. Marta Pinhal', status:'', score:null, venue:'Pav. António Feliciano Bastos' },
+        ]},
+      ]},
+      { comp:'CN Feminino II Divisão', link:LINKS.cn2divF,
+        color:'#db2777', flag:'🇵🇹', round:'Jornada 1 · Feminino', series:[
+        { label:'Série Norte', games:[
+          { time:'17:00', home:'OBSC Gresart - Futsal Fem.', away:'SC Braga', status:'', score:null, venue:'Recinto A Indicar' },
+          { time:'17:00', home:'Casa Povo Freixo', away:'Matosinhos FC', status:'', score:null, venue:'Pav. E. Eb 2,3 S.Julião Do Freixo' },
+          { time:'17:30', home:'Escola DC Gondomar', away:'Futsal Campo/Gil Vicente FC', status:'', score:null, venue:'Pav. Municipal Baguim Do Monte' },
+          { time:'18:30', home:'ACD Santo Estêvão', away:'CD Aves 1930', status:'', score:null, venue:'Pav. Gimnodesportivo Municipal Chaves' },
+        ]},
+        { label:'Série Sul', games:[
+          { time:'11:00', home:'Sporting CP', away:'UA Povoense', status:'', score:null, venue:'Pav. João Rocha' },
+          { time:'17:00', home:'SRB União Parchalense', away:'ACDR Arneiros', status:'', score:null, venue:'Pav. Escola Eb 2/3 Parchal' },
+          { time:'18:00', home:'Juventude S. Campinense', away:'Juventude Ouriense', status:'', score:null, venue:'Pav. Municipal Prof. Joaquim Vairinhos' },
+          { time:'21:30', home:'Norte e Soure CSCD Paleão', away:'CRIA', status:'', score:null, venue:'Pav. Desportivo Encosta Do Sol' },
         ]},
       ]},
     ]

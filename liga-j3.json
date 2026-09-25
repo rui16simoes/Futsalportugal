@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900
+    "acc": 960
    },
    "lances": [
     {
@@ -271,7 +271,12 @@
     {
      "id": "r23",
      "m": 15,
-     "txt": "GOLO DO RIO AVE! Rúben Freire bisa e devolve a diferença de três. Rio Ave 5-2 SC Braga."
+     "txt": "GOLO DO RIO AVE! Lançamento longo de Moreira para Rúben Freire, que dominou e picou a bola por cima de Léo Souza junto à linha de fundo. Bisou e repos os três golos de diferença. Rio Ave 5-2 SC Braga."
+    },
+    {
+     "id": "r24",
+     "m": 16,
+     "txt": "Mamadú Turé respondeu com um remate ao poste, depois de trabalho no corredor esquerdo."
     }
    ],
    "faltas": [
@@ -414,7 +419,7 @@
       "e": "P",
       "min": "",
       "cart": "9",
-      "ass": "",
+      "ass": "15",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
      },
      {
@@ -2625,6 +2630,6 @@
    }
   }
  ],
- "ts": 1790368592648,
+ "ts": 1790368879513,
  "build": "20260915132319"
 }

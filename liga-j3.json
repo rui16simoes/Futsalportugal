@@ -317,6 +317,11 @@
      "id": "r32",
      "m": 22,
      "txt": "Peixinho apareceu dentro da área do Rio Ave e optou pelo remate, mas a bola saiu por cima."
+    },
+    {
+     "id": "r33",
+     "m": 23,
+     "txt": "Livre ensaiado do Braga para Luís Fernandes, mas o ala pegou mal na bola."
     }
    ],
    "faltas": [
@@ -400,6 +405,13 @@
     {
      "id": "rfc21",
      "lado": "casa",
+     "parte": 2,
+     "m": 23,
+     "n": 1
+    },
+    {
+     "id": "rff21",
+     "lado": "fora",
      "parte": 2,
      "m": 23,
      "n": 1
@@ -2684,6 +2696,6 @@
    }
   }
  ],
- "ts": 1790370249598,
+ "ts": 1790370299575,
  "build": "20260915132319"
 }

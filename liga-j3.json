@@ -329,14 +329,14 @@
      "txt": "Bola na barra! Mamadú Turé tirou um adversário da frente e rematou aos ferros. É a segunda vez que acerta na estrutura da baliza."
     },
     {
-     "id": "r35",
-     "m": 25,
-     "txt": "GOLO DO SC BRAGA! Peixinho bisa, com assistência de Daniel Airoso, e coloca o Braga a dois. Rio Ave 5-3 SC Braga."
-    },
-    {
      "id": "r36",
      "m": 25,
      "txt": "Amarelo para Dinis Ramos, na segunda falta do Rio Ave nesta parte."
+    },
+    {
+     "id": "r35",
+     "m": 25,
+     "txt": "GOLO DO SC BRAGA! Transição rápida pelos três corredores: Barreto conduziu pelo meio, Daniel Airoso recebeu na direita e serviu Peixinho, que encostou ao segundo poste para o seu bis. Rio Ave 5-3 SC Braga."
     }
    ],
    "faltas": [
@@ -2718,6 +2718,6 @@
    }
   }
  ],
- "ts": 1790370536473,
+ "ts": 1790370611136,
  "build": "20260915132319"
 }

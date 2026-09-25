@@ -372,6 +372,11 @@
      "id": "r43",
      "m": 29,
      "txt": "Poste do Braga! Daniel Airoso acertou no ferro e, na recarga, Mamadú Turé falhou à boca da baliza."
+    },
+    {
+     "id": "r44",
+     "m": 29,
+     "txt": "Cumpridos os dois minutos, o Rio Ave volta a cinco. O Braga não marcou em superioridade numérica."
     }
    ],
    "faltas": [
@@ -2760,6 +2765,6 @@
    }
   }
  ],
- "ts": 1790371079476,
+ "ts": 1790371100676,
  "build": "20260915132319"
 }

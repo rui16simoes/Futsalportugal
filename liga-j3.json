@@ -257,6 +257,16 @@
      "id": "r20",
      "m": 15,
      "txt": "Pausa técnica pedida pelo Rio Ave."
+    },
+    {
+     "id": "r21",
+     "m": 15,
+     "txt": "Sexta falta do Rio Ave: livre de dez metros para o Braga, com Peixinho a assumir a marcação."
+    },
+    {
+     "id": "r22",
+     "m": 15,
+     "txt": "GOLO DO SC BRAGA! Peixinho converteu o livre de dez metros e reduziu na casa onde jogou. Rio Ave 4-2 SC Braga."
     }
    ],
    "faltas": [
@@ -322,6 +332,13 @@
      "parte": 1,
      "m": 14,
      "n": 4
+    },
+    {
+     "id": "rfc16",
+     "lado": "casa",
+     "parte": 1,
+     "m": 15,
+     "n": 6
     }
    ],
    "gp": {
@@ -516,7 +533,7 @@
    },
    "fora": {
     "eq": "braga",
-    "golos": 1,
+    "golos": 2,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -570,7 +587,7 @@
       "num": "20",
       "nome": "PEIXINHO",
       "e": "S",
-      "min": "",
+      "min": "15",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/91/675791_peixinho_20250924101437.jpg"
@@ -2603,6 +2620,6 @@
    }
   }
  ],
- "ts": 1790368406025,
+ "ts": 1790368539747,
  "build": "20260915132319"
 }

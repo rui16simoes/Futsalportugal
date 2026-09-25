@@ -409,14 +409,14 @@
      "txt": "GOLO DO SC BRAGA! Ángel Claudino bisa, servido por Ricardo Lopes. Rio Ave 6-5 SC Braga."
     },
     {
-     "id": "r51",
-     "m": 36,
-     "txt": "GOLO DO SC BRAGA! Tiago Brito empata o jogo. Rio Ave 6-6 SC Braga."
-    },
-    {
      "id": "r52",
      "m": 36,
      "txt": "Pausa técnica pedida pelo Rio Ave."
+    },
+    {
+     "id": "r51",
+     "m": 36,
+     "txt": "GOLO DO SC BRAGA! Lance caricato na saída de bola do Rio Ave: Dinis Ramos tentou esticar o jogo e a bola bateu na perna de Tiago Brito, que ia no corte, surpreendendo Moreira. Rio Ave 6-6 SC Braga."
     }
    ],
    "faltas": [
@@ -2812,6 +2812,6 @@
    }
   }
  ],
- "ts": 1790371994235,
+ "ts": 1790372227758,
  "build": "20260915132319"
 }

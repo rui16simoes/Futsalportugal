@@ -153,7 +153,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
     "acc": 1200
    },
@@ -447,6 +447,16 @@
      "id": "r58",
      "m": 40,
      "txt": "Ricardo Lopes teve a reviravolta nos pés, mas, em desequilíbrio, atirou por cima."
+    },
+    {
+     "id": "r59",
+     "m": 40,
+     "txt": "FINAL EM VILA DO CONDE: RIO AVE 6-6 SC BRAGA."
+    },
+    {
+     "id": "r60",
+     "m": 40,
+     "txt": "Sem vencedor num jogo de doze golos. O Rio Ave chegou a estar a ganhar por 5-2 e por 6-3, mas o Braga respondeu sempre: Peixinho bisou, Ángel Claudino também, e Tiago Brito empatou aos 36 minutos, num lance em que a bola lhe bateu na perna quando ia no corte. A equipa da casa ainda jogou dois minutos em inferioridade, depois da expulsão de Miguel Ângelo por duplo amarelo, e aguentou. Um ponto para cada lado."
     }
    ],
    "faltas": [
@@ -2856,6 +2866,6 @@
    }
   }
  ],
- "ts": 1790372799901,
+ "ts": 1790372913600,
  "build": "20260915132319"
 }

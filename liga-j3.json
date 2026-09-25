@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 840
+    "acc": 900
    },
    "lances": [
     {
@@ -247,6 +247,16 @@
      "id": "r18",
      "m": 14,
      "txt": "Amarelo para Simão Nogueira, na quarta falta do Braga."
+    },
+    {
+     "id": "r19",
+     "m": 15,
+     "txt": "Martín Dorda aproveitou uma saída infeliz de Léo Souza e rematou do meio-campo, mas o guarda-redes do Braga recuperou a tempo."
+    },
+    {
+     "id": "r20",
+     "m": 15,
+     "txt": "Pausa técnica pedida pelo Rio Ave."
     }
    ],
    "faltas": [
@@ -2593,6 +2603,6 @@
    }
   }
  ],
- "ts": 1790368296419,
+ "ts": 1790368406025,
  "build": "20260915132319"
 }

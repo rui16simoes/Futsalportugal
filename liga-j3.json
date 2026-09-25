@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -214,14 +214,19 @@
      "txt": "Amarelo para Moreira: o guarda-redes do Rio Ave subiu no terreno, falhou o passe e travou de imediato a tentativa de remate do Braga."
     },
     {
-     "id": "r12",
-     "m": 10,
-     "txt": "GOLO DO RIO AVE! Rúben Freire rematou da meia-direita, servido por Gustavo Rodrigues, e a bola ainda desviou em Tiago Sousa antes de trair o guarda-redes do Braga. Rio Ave 4-1 SC Braga."
-    },
-    {
      "id": "r13",
      "m": 11,
      "txt": "Ángel Claudino ganhou o duelo a Dinis Ramos junto à linha, mas o remate saiu sem as medidas certas."
+    },
+    {
+     "id": "r12",
+     "m": 10,
+     "txt": "GOLO DO RIO AVE! Rúben Freire conduziu de uma ala para a outra e rematou da meia-direita, servido por Gustavo Rodrigues; a bola desviou em Tiago Sousa e traiu o guarda-redes do Braga. Rio Ave 4-1 SC Braga."
+    },
+    {
+     "id": "r14",
+     "m": 12,
+     "txt": "Léo Souza voltou a subir pela direita e rematou ao primeiro poste, mas Moreira travou."
     }
    ],
    "faltas": [
@@ -2533,6 +2538,6 @@
    }
   }
  ],
- "ts": 1790367888967,
+ "ts": 1790367971014,
  "build": "20260915132319"
 }

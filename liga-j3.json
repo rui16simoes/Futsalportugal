@@ -442,6 +442,11 @@
      "id": "r57",
      "m": 40,
      "txt": "Serginho cruzou rasteiro com força, mas nenhum colega apareceu a emendar."
+    },
+    {
+     "id": "r58",
+     "m": 40,
+     "txt": "Ricardo Lopes teve a reviravolta nos pés, mas, em desequilíbrio, atirou por cima."
     }
    ],
    "faltas": [
@@ -2851,6 +2856,6 @@
    }
   }
  ],
- "ts": 1790372695213,
+ "ts": 1790372799901,
  "build": "20260915132319"
 }

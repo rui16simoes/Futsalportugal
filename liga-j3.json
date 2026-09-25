@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -212,6 +212,11 @@
      "id": "r11",
      "m": 9,
      "txt": "Amarelo para Moreira: o guarda-redes do Rio Ave subiu no terreno, falhou o passe e travou de imediato a tentativa de remate do Braga."
+    },
+    {
+     "id": "r12",
+     "m": 10,
+     "txt": "GOLO DO RIO AVE! Rúben Freire rematou da meia-direita, servido por Gustavo Rodrigues, e a bola ainda desviou em Tiago Sousa antes de trair o guarda-redes do Braga. Rio Ave 4-1 SC Braga."
     }
    ],
    "faltas": [
@@ -292,7 +297,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 3,
+    "golos": 4,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -355,7 +360,7 @@
       "num": "7",
       "nome": "RÚBEN FREIRE",
       "e": "S",
-      "min": "",
+      "min": "10",
       "cart": "",
       "ass": "2",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
@@ -366,7 +371,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "10",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/90/665490_gustavo_rodrigues_20250924101349.jpg"
      },
      {
@@ -2523,6 +2528,6 @@
    }
   }
  ],
- "ts": 1790367814416,
+ "ts": 1790367837213,
  "build": "20260915132319"
 }

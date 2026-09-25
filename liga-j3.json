@@ -267,6 +267,11 @@
      "id": "r22",
      "m": 15,
      "txt": "GOLO DO SC BRAGA! Peixinho converteu o livre de dez metros e reduziu na casa onde jogou. Rio Ave 4-2 SC Braga."
+    },
+    {
+     "id": "r23",
+     "m": 15,
+     "txt": "GOLO DO RIO AVE! Rúben Freire bisa e devolve a diferença de três. Rio Ave 5-2 SC Braga."
     }
    ],
    "faltas": [
@@ -389,7 +394,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 4,
+    "golos": 5,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -452,7 +457,7 @@
       "num": "7",
       "nome": "RÚBEN FREIRE",
       "e": "S",
-      "min": "10",
+      "min": "10, 15",
       "cart": "",
       "ass": "2",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
@@ -2620,6 +2625,6 @@
    }
   }
  ],
- "ts": 1790368539747,
+ "ts": 1790368592648,
  "build": "20260915132319"
 }

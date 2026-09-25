@@ -162,6 +162,11 @@
      "id": "r1",
      "m": 1,
      "txt": "COMEÇOU O JOGO em Vila do Conde. O Rio Ave soma um ponto em dois jogos; o SC Braga chega com três. Jogo com o regresso de Peixinho à casa onde jogou."
+    },
+    {
+     "id": "r2",
+     "m": 1,
+     "txt": "GOLO DO SC BRAGA! Tiago Sousa inaugurou o marcador logo no primeiro minuto, com assistência de Daniel Airoso. Rio Ave 0-1 SC Braga."
     }
    ],
    "faltas": [],
@@ -357,7 +362,7 @@
    },
    "fora": {
     "eq": "braga",
-    "golos": "",
+    "golos": 1,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -393,7 +398,7 @@
       "num": "3",
       "nome": "TIAGO SOUSA",
       "e": "S",
-      "min": "",
+      "min": "1",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
@@ -485,7 +490,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/46/02/16724602_daniel_airoso_20260803101417.png"
      },
      {
@@ -2444,6 +2449,6 @@
    }
   }
  ],
- "ts": 1790366441485,
+ "ts": 1790366499551,
  "build": "20260915132319"
 }

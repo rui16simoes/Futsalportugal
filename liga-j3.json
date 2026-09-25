@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -282,6 +282,11 @@
      "id": "r25",
      "m": 17,
      "txt": "Ricardo Lopes rematou cruzado da esquerda e ganhou canto para o Braga."
+    },
+    {
+     "id": "r26",
+     "m": 18,
+     "txt": "Mamadú Turé voltou a trabalhar na esquerda, mas sem espaço para rematar: a bola saiu por cima."
     }
    ],
    "faltas": [
@@ -2635,6 +2640,6 @@
    }
   }
  ],
- "ts": 1790368900698,
+ "ts": 1790368922809,
  "build": "20260915132319"
 }

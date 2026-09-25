@@ -177,6 +177,11 @@
      "id": "r4",
      "m": 2,
      "txt": "Podia ter sido nova cambalhota: Luís Fernandes tinha a baliza aberta ao segundo poste, mas a defesa do Rio Ave incomodou-o no momento do remate e a bola não entrou."
+    },
+    {
+     "id": "r5",
+     "m": 4,
+     "txt": "GOLO DO RIO AVE! Miguel Ângelo coloca a equipa da casa na frente. Rio Ave 2-1 SC Braga."
     }
    ],
    "faltas": [
@@ -236,7 +241,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 1,
+    "golos": 2,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -335,7 +340,7 @@
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
       "e": "S",
-      "min": "",
+      "min": "4",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
@@ -2467,6 +2472,6 @@
    }
   }
  ],
- "ts": 1790366839211,
+ "ts": 1790366888189,
  "build": "20260915132319"
 }

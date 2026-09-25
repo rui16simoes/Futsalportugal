@@ -327,7 +327,7 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -363,7 +363,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -390,7 +390,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "S",
+      "e": "P",
       "min": "4",
       "cart": "",
       "ass": "4",
@@ -399,7 +399,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -453,7 +453,7 @@
      {
       "num": "2",
       "nome": "LÉO SOUZA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -471,7 +471,7 @@
      {
       "num": "3",
       "nome": "TIAGO SOUSA",
-      "e": "S",
+      "e": "P",
       "min": "1",
       "cart": "",
       "ass": "",
@@ -534,7 +534,7 @@
      {
       "num": "10",
       "nome": "MAMADÚ TURÉ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -561,7 +561,7 @@
      {
       "num": "90",
       "nome": "DANIEL AIROSO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "1",
@@ -588,7 +588,7 @@
      {
       "num": "19",
       "nome": "LUÍS FERNANDES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2523,6 +2523,6 @@
    }
   }
  ],
- "ts": 1790367638377,
+ "ts": 1790367660673,
  "build": "20260915132319"
 }

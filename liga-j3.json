@@ -153,7 +153,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200
    },
@@ -307,6 +307,11 @@
      "id": "r30",
      "m": 20,
      "txt": "Miguel Ângelo combinou com Rúben Freire junto à linha e rematou de biqueira, obrigando Léo Souza a nova intervenção."
+    },
+    {
+     "id": "r31",
+     "m": 20,
+     "txt": "INTERVALO EM VILA DO CONDE. Rio Ave 5-2 SC Braga."
     }
    ],
    "faltas": [
@@ -2667,6 +2672,6 @@
    }
   }
  ],
- "ts": 1790369218999,
+ "ts": 1790369356163,
  "build": "20260915132319"
 }

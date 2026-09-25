@@ -164,14 +164,14 @@
      "txt": "COMEÇOU O JOGO em Vila do Conde. O Rio Ave soma um ponto em dois jogos; o SC Braga chega com três. Jogo com o regresso de Peixinho à casa onde jogou."
     },
     {
-     "id": "r3",
-     "m": 2,
-     "txt": "GOLO DO RIO AVE! Resposta imediata: Martim Castela empatou no minuto seguinte, servido por Rúben Freire. Rio Ave 1-1 SC Braga."
-    },
-    {
      "id": "r2",
      "m": 1,
      "txt": "GOLO DO SC BRAGA! Mamadú Turé conduziu pelo meio, Daniel Airoso recebeu na direita e serviu Tiago Sousa ao segundo poste, para o 0-1 logo no primeiro minuto."
+    },
+    {
+     "id": "r3",
+     "m": 2,
+     "txt": "GOLO DO RIO AVE! Resposta em menos de um minuto: Rúben Freire trabalhou a bola na esquerda e Martim Castela apareceu ao primeiro poste a desviar para o empate. Rio Ave 1-1 SC Braga."
     }
    ],
    "faltas": [],
@@ -2454,6 +2454,6 @@
    }
   }
  ],
- "ts": 1790366590423,
+ "ts": 1790366671238,
  "build": "20260915132319"
 }

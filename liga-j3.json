@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -327,6 +327,11 @@
      "id": "r34",
      "m": 24,
      "txt": "Bola na barra! Mamadú Turé tirou um adversário da frente e rematou aos ferros. É a segunda vez que acerta na estrutura da baliza."
+    },
+    {
+     "id": "r35",
+     "m": 25,
+     "txt": "GOLO DO SC BRAGA! Peixinho bisa e reduz para 5-3. Rio Ave 5-3 SC Braga."
     }
    ],
    "faltas": [
@@ -614,7 +619,7 @@
    },
    "fora": {
     "eq": "braga",
-    "golos": 2,
+    "golos": 3,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -668,7 +673,7 @@
       "num": "20",
       "nome": "PEIXINHO",
       "e": "S",
-      "min": "15",
+      "min": "15, 25",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/91/675791_peixinho_20250924101437.jpg"
@@ -2701,6 +2706,6 @@
    }
   }
  ],
- "ts": 1790370380180,
+ "ts": 1790370491975,
  "build": "20260915132319"
 }

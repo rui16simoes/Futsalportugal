@@ -362,6 +362,11 @@
      "id": "r41",
      "m": 28,
      "txt": "Daniel Airoso esteve perto de reduzir, mas Cigano apareceu a cortar."
+    },
+    {
+     "id": "r42",
+     "m": 28,
+     "txt": "Daniel Airoso encheu o pé outra vez, mas o remate foi às costas de um adversário."
     }
    ],
    "faltas": [
@@ -462,6 +467,13 @@
      "parte": 2,
      "m": 25,
      "n": 2
+    },
+    {
+     "id": "rfc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 28,
+     "n": 3
     }
    ],
    "gp": {
@@ -2743,6 +2755,6 @@
    }
   }
  ],
- "ts": 1790370979230,
+ "ts": 1790371001334,
  "build": "20260915132319"
 }

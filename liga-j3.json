@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -217,6 +217,11 @@
      "id": "r12",
      "m": 10,
      "txt": "GOLO DO RIO AVE! Rúben Freire rematou da meia-direita, servido por Gustavo Rodrigues, e a bola ainda desviou em Tiago Sousa antes de trair o guarda-redes do Braga. Rio Ave 4-1 SC Braga."
+    },
+    {
+     "id": "r13",
+     "m": 11,
+     "txt": "Ángel Claudino ganhou o duelo a Dinis Ramos junto à linha, mas o remate saiu sem as medidas certas."
     }
    ],
    "faltas": [
@@ -2528,6 +2533,6 @@
    }
   }
  ],
- "ts": 1790367837213,
+ "ts": 1790367888967,
  "build": "20260915132319"
 }

@@ -232,6 +232,11 @@
      "id": "r15",
      "m": 13,
      "txt": "Amarelo para Miguel Ângelo. O Rio Ave chega às quatro faltas nesta primeira parte."
+    },
+    {
+     "id": "r16",
+     "m": 13,
+     "txt": "Amarelo também para Ángel Claudino, na terceira falta do Braga."
     }
    ],
    "faltas": [
@@ -276,6 +281,13 @@
      "parte": 1,
      "m": 13,
      "n": 4
+    },
+    {
+     "id": "rff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 13,
+     "n": 3
     }
    ],
    "gp": {
@@ -588,7 +600,7 @@
       "nome": "ÁNGEL CLAUDINO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "13",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/42/42/16724242_angel_claudino_20260803101539.png"
      },
@@ -2557,6 +2569,6 @@
    }
   }
  ],
- "ts": 1790368083370,
+ "ts": 1790368105566,
  "build": "20260915132319"
 }

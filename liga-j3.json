@@ -337,6 +337,11 @@
      "id": "r35",
      "m": 25,
      "txt": "GOLO DO SC BRAGA! Transição rápida pelos três corredores: Barreto conduziu pelo meio, Daniel Airoso recebeu na direita e serviu Peixinho, que encostou ao segundo poste para o seu bis. Rio Ave 5-3 SC Braga."
+    },
+    {
+     "id": "r37",
+     "m": 25,
+     "txt": "Barreto rematou de primeira e obrigou Moreira a uma defesa apertada para canto."
     }
    ],
    "faltas": [
@@ -2718,6 +2723,6 @@
    }
   }
  ],
- "ts": 1790370611136,
+ "ts": 1790370632876,
  "build": "20260915132319"
 }

@@ -422,6 +422,11 @@
      "id": "r53",
      "m": 38,
      "txt": "O Braga insiste com Léo Souza como quinto jogador: remate pela direita e defesa apertada de Moreira."
+    },
+    {
+     "id": "r54",
+     "m": 39,
+     "txt": "Amarelo para o treinador-adjunto do Rio Ave."
     }
    ],
    "faltas": [
@@ -2824,6 +2829,6 @@
    }
   }
  ],
- "ts": 1790372383753,
+ "ts": 1790372521697,
  "build": "20260915132319"
 }

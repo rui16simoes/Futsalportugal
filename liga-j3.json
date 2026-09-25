@@ -331,7 +331,7 @@
     {
      "id": "r35",
      "m": 25,
-     "txt": "GOLO DO SC BRAGA! Peixinho bisa e reduz para 5-3. Rio Ave 5-3 SC Braga."
+     "txt": "GOLO DO SC BRAGA! Peixinho bisa, com assistência de Daniel Airoso, e coloca o Braga a dois. Rio Ave 5-3 SC Braga."
     }
    ],
    "faltas": [
@@ -425,6 +425,13 @@
      "parte": 2,
      "m": 23,
      "n": 1
+    },
+    {
+     "id": "rfc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": 25,
+     "n": 2
     }
    ],
    "gp": {
@@ -747,7 +754,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "1",
+      "ass": "1, 25",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/46/02/16724602_daniel_airoso_20260803101417.png"
      },
      {
@@ -2706,6 +2713,6 @@
    }
   }
  ],
- "ts": 1790370491975,
+ "ts": 1790370514580,
  "build": "20260915132319"
 }

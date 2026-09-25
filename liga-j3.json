@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -392,6 +392,11 @@
      "id": "r47",
      "m": 32,
      "txt": "Gustavo Rodrigues esteve perto de um grande golo, mas Léo Souza resolveu depois de alguma agitação na área do Braga."
+    },
+    {
+     "id": "r48",
+     "m": 33,
+     "txt": "Barreto disparou de primeira, sem deixar cair a bola, e o remate passou com força pelo segundo poste."
     }
    ],
    "faltas": [
@@ -2787,6 +2792,6 @@
    }
   }
  ],
- "ts": 1790371632580,
+ "ts": 1790371709390,
  "build": "20260915132319"
 }

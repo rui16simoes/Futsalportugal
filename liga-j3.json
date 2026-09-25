@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960
+    "acc": 1020
    },
    "lances": [
     {
@@ -277,6 +277,11 @@
      "id": "r24",
      "m": 16,
      "txt": "Mamadú Turé respondeu com um remate ao poste, depois de trabalho no corredor esquerdo."
+    },
+    {
+     "id": "r25",
+     "m": 17,
+     "txt": "Ricardo Lopes rematou cruzado da esquerda e ganhou canto para o Braga."
     }
    ],
    "faltas": [
@@ -2630,6 +2635,6 @@
    }
   }
  ],
- "ts": 1790368879513,
+ "ts": 1790368900698,
  "build": "20260915132319"
 }

@@ -155,10 +155,15 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 60
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "r1",
+     "m": 1,
+     "txt": "COMEÇOU O JOGO em Vila do Conde. O Rio Ave soma um ponto em dois jogos; o SC Braga chega com três. Jogo com o regresso de Peixinho à casa onde jogou."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2439,6 +2444,6 @@
    }
   }
  ],
- "ts": 1790366165482,
+ "ts": 1790366441485,
  "build": "20260915132319"
 }

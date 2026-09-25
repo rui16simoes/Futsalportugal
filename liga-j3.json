@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 960
+    "acc": 1080
    },
    "lances": [
     {
@@ -417,6 +417,11 @@
      "id": "r51",
      "m": 36,
      "txt": "GOLO DO SC BRAGA! Lance caricato na saída de bola do Rio Ave: Dinis Ramos tentou esticar o jogo e a bola bateu na perna de Tiago Brito, que ia no corte, surpreendendo Moreira. Rio Ave 6-6 SC Braga."
+    },
+    {
+     "id": "r53",
+     "m": 38,
+     "txt": "O Braga insiste com Léo Souza como quinto jogador: remate pela direita e defesa apertada de Moreira."
     }
    ],
    "faltas": [
@@ -2812,6 +2817,6 @@
    }
   }
  ],
- "ts": 1790372227758,
+ "ts": 1790372334746,
  "build": "20260915132319"
 }

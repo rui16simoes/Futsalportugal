@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -227,6 +227,11 @@
      "id": "r14",
      "m": 12,
      "txt": "Léo Souza voltou a subir pela direita e rematou ao primeiro poste, mas Moreira travou."
+    },
+    {
+     "id": "r15",
+     "m": 13,
+     "txt": "Amarelo para Miguel Ângelo. O Rio Ave chega às quatro faltas nesta primeira parte."
     }
    ],
    "faltas": [
@@ -257,6 +262,20 @@
      "parte": 1,
      "m": 9,
      "n": 2
+    },
+    {
+     "id": "rfc13",
+     "lado": "casa",
+     "parte": 1,
+     "m": 13,
+     "n": 3
+    },
+    {
+     "id": "rfc14",
+     "lado": "casa",
+     "parte": 1,
+     "m": 13,
+     "n": 4
     }
    ],
    "gp": {
@@ -407,7 +426,7 @@
       "nome": "MIGUEL ÂNGELO",
       "e": "P",
       "min": "4",
-      "cart": "",
+      "cart": "13",
       "ass": "4",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
      },
@@ -2538,6 +2557,6 @@
    }
   }
  ],
- "ts": 1790367971014,
+ "ts": 1790368083370,
  "build": "20260915132319"
 }

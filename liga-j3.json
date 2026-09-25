@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 840
    },
    "lances": [
     {
@@ -242,6 +242,11 @@
      "id": "r17",
      "m": 13,
      "txt": "Quinta falta do Rio Ave. A partir da próxima, o Braga tem livre de dez metros."
+    },
+    {
+     "id": "r18",
+     "m": 14,
+     "txt": "Amarelo para Simão Nogueira, na quarta falta do Braga."
     }
    ],
    "faltas": [
@@ -300,6 +305,13 @@
      "parte": 1,
      "m": 13,
      "n": 5
+    },
+    {
+     "id": "rff14",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 4
     }
    ],
    "gp": {
@@ -603,7 +615,7 @@
       "nome": "SIMÃO NOGUEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "14",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/66/1079366_simao_nogueira_1676883788.jpg"
      },
@@ -2581,6 +2593,6 @@
    }
   }
  ],
- "ts": 1790368127065,
+ "ts": 1790368296419,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300
+    "acc": 360
    },
    "lances": [
     {
@@ -342,6 +342,11 @@
      "id": "r37",
      "m": 25,
      "txt": "Barreto rematou de primeira e obrigou Moreira a uma defesa apertada para canto."
+    },
+    {
+     "id": "r38",
+     "m": 26,
+     "txt": "Tiago Brito pediu grande penalidade por mão na bola de um jogador do Rio Ave, mas a equipa de arbitragem mandou seguir."
     }
    ],
    "faltas": [
@@ -2723,6 +2728,6 @@
    }
   }
  ],
- "ts": 1790370632876,
+ "ts": 1790370656675,
  "build": "20260915132319"
 }

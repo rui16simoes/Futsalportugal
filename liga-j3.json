@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -357,6 +357,11 @@
      "id": "r40",
      "m": 27,
      "txt": "Duplo amarelo e expulsão de Miguel Ângelo: colocou-se à frente da bola numa reposição lateral e viu o segundo amarelo, depois do que tinha levado na primeira parte. O Rio Ave fica com menos um."
+    },
+    {
+     "id": "r41",
+     "m": 28,
+     "txt": "Daniel Airoso esteve perto de reduzir, mas Cigano apareceu a cortar."
     }
    ],
    "faltas": [
@@ -2738,6 +2743,6 @@
    }
   }
  ],
- "ts": 1790370865734,
+ "ts": 1790370979230,
  "build": "20260915132319"
 }

@@ -287,6 +287,11 @@
      "id": "r26",
      "m": 18,
      "txt": "Mamadú Turé voltou a trabalhar na esquerda, mas sem espaço para rematar: a bola saiu por cima."
+    },
+    {
+     "id": "r27",
+     "m": 18,
+     "txt": "Quinta falta do Braga. A partir da próxima, o Rio Ave tem livre de dez metros."
     }
    ],
    "faltas": [
@@ -359,6 +364,13 @@
      "parte": 1,
      "m": 15,
      "n": 6
+    },
+    {
+     "id": "rff15",
+     "lado": "fora",
+     "parte": 1,
+     "m": 18,
+     "n": 5
     }
    ],
    "gp": {
@@ -2640,6 +2652,6 @@
    }
   }
  ],
- "ts": 1790368922809,
+ "ts": 1790368944453,
  "build": "20260915132319"
 }

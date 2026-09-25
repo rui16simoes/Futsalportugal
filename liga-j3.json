@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 960
    },
    "lances": [
     {
@@ -402,6 +402,21 @@
      "id": "r49",
      "m": 35,
      "txt": "GOLO DO SC BRAGA! Ángel Claudino reduz, servido pelo guarda-redes Léo Souza. Rio Ave 6-4 SC Braga."
+    },
+    {
+     "id": "r50",
+     "m": 35,
+     "txt": "GOLO DO SC BRAGA! Ángel Claudino bisa, servido por Ricardo Lopes. Rio Ave 6-5 SC Braga."
+    },
+    {
+     "id": "r51",
+     "m": 36,
+     "txt": "GOLO DO SC BRAGA! Tiago Brito empata o jogo. Rio Ave 6-6 SC Braga."
+    },
+    {
+     "id": "r52",
+     "m": 36,
+     "txt": "Pausa técnica pedida pelo Rio Ave."
     }
    ],
    "faltas": [
@@ -710,7 +725,7 @@
    },
    "fora": {
     "eq": "braga",
-    "golos": 4,
+    "golos": 6,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -757,7 +772,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "35",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/26/19/662619_ricardo_lopes_20241106162449.jpg"
      },
      {
@@ -791,7 +806,7 @@
       "num": "6",
       "nome": "TIAGO BRITO",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
@@ -2797,6 +2812,6 @@
    }
   }
  ],
- "ts": 1790371837327,
+ "ts": 1790371994235,
  "build": "20260915132319"
 }

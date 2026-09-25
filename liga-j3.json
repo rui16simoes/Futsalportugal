@@ -332,6 +332,11 @@
      "id": "r35",
      "m": 25,
      "txt": "GOLO DO SC BRAGA! Peixinho bisa, com assistência de Daniel Airoso, e coloca o Braga a dois. Rio Ave 5-3 SC Braga."
+    },
+    {
+     "id": "r36",
+     "m": 25,
+     "txt": "Amarelo para Dinis Ramos, na segunda falta do Rio Ave nesta parte."
     }
    ],
    "faltas": [
@@ -519,7 +524,7 @@
       "nome": "DINIS RAMOS",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/48/533948_dinis_ramos_20250924101414.jpg"
      },
@@ -2713,6 +2718,6 @@
    }
   }
  ],
- "ts": 1790370514580,
+ "ts": 1790370536473,
  "build": "20260915132319"
 }

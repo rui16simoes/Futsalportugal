@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -322,6 +322,11 @@
      "id": "r33",
      "m": 23,
      "txt": "Livre ensaiado do Braga para Luís Fernandes, mas o ala pegou mal na bola."
+    },
+    {
+     "id": "r34",
+     "m": 24,
+     "txt": "Bola na barra! Mamadú Turé tirou um adversário da frente e rematou aos ferros. É a segunda vez que acerta na estrutura da baliza."
     }
    ],
    "faltas": [
@@ -2696,6 +2701,6 @@
    }
   }
  ],
- "ts": 1790370299575,
+ "ts": 1790370380180,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -312,6 +312,11 @@
      "id": "r31",
      "m": 20,
      "txt": "INTERVALO EM VILA DO CONDE. Rio Ave 5-2 SC Braga."
+    },
+    {
+     "id": "r32",
+     "m": 22,
+     "txt": "Peixinho apareceu dentro da área do Rio Ave e optou pelo remate, mas a bola saiu por cima."
     }
    ],
    "faltas": [
@@ -2672,6 +2677,6 @@
    }
   }
  ],
- "ts": 1790370038626,
+ "ts": 1790370143534,
  "build": "20260915132319"
 }

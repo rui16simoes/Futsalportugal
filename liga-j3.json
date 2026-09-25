@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -427,6 +427,16 @@
      "id": "r54",
      "m": 39,
      "txt": "Amarelo para o treinador-adjunto do Rio Ave."
+    },
+    {
+     "id": "r55",
+     "m": 39,
+     "txt": "Amarelo para Tiago Sousa, na terceira falta do Braga."
+    },
+    {
+     "id": "r56",
+     "m": 40,
+     "txt": "Pausa técnica pedida pelo Braga, a um minuto do fim."
     }
    ],
    "faltas": [
@@ -786,7 +796,7 @@
       "nome": "TIAGO SOUSA",
       "e": "P",
       "min": "1",
-      "cart": "",
+      "cart": "39",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
      },
@@ -2836,6 +2846,6 @@
    }
   }
  ],
- "ts": 1790372541357,
+ "ts": 1790372561655,
  "build": "20260915132319"
 }

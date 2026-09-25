@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 420
    },
    "lances": [
     {
@@ -352,6 +352,11 @@
      "id": "r39",
      "m": 26,
      "txt": "Grande defesa de Moreira entre os postes. O Rio Ave está com mais dificuldade em sair a jogar nesta segunda parte."
+    },
+    {
+     "id": "r40",
+     "m": 27,
+     "txt": "Duplo amarelo e expulsão de Miguel Ângelo: colocou-se à frente da bola numa reposição lateral e viu o segundo amarelo, depois do que tinha levado na primeira parte. O Rio Ave fica com menos um."
     }
    ],
    "faltas": [
@@ -602,7 +607,7 @@
       "nome": "MIGUEL ÂNGELO",
       "e": "P",
       "min": "4",
-      "cart": "13",
+      "cart": "13, 27d",
       "ass": "4",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
      },
@@ -2733,6 +2738,6 @@
    }
   }
  ],
- "ts": 1790370791474,
+ "ts": 1790370865734,
  "build": "20260915132319"
 }

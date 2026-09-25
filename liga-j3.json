@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 900
    },
    "lances": [
     {
@@ -397,6 +397,11 @@
      "id": "r48",
      "m": 33,
      "txt": "Barreto disparou de primeira, sem deixar cair a bola, e o remate passou com força pelo segundo poste."
+    },
+    {
+     "id": "r49",
+     "m": 35,
+     "txt": "GOLO DO SC BRAGA! Ángel Claudino reduz outra vez. Rio Ave 6-4 SC Braga."
     }
    ],
    "faltas": [
@@ -705,7 +710,7 @@
    },
    "fora": {
     "eq": "braga",
-    "golos": 3,
+    "golos": 4,
     "capitao": "TIAGO BRITO",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
@@ -822,7 +827,7 @@
       "num": "17",
       "nome": "ÁNGEL CLAUDINO",
       "e": "S",
-      "min": "",
+      "min": "35",
       "cart": "13",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/42/42/16724242_angel_claudino_20260803101539.png"
@@ -2792,6 +2797,6 @@
    }
   }
  ],
- "ts": 1790371709390,
+ "ts": 1790371786077,
  "build": "20260915132319"
 }

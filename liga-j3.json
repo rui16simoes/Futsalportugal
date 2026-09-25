@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -367,6 +367,11 @@
      "id": "r42",
      "m": 28,
      "txt": "Daniel Airoso encheu o pé outra vez, mas o remate foi às costas de um adversário."
+    },
+    {
+     "id": "r43",
+     "m": 29,
+     "txt": "Poste do Braga! Daniel Airoso acertou no ferro e, na recarga, Mamadú Turé falhou à boca da baliza."
     }
    ],
    "faltas": [
@@ -2755,6 +2760,6 @@
    }
   }
  ],
- "ts": 1790371001334,
+ "ts": 1790371079476,
  "build": "20260915132319"
 }

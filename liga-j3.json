@@ -401,7 +401,7 @@
     {
      "id": "r49",
      "m": 35,
-     "txt": "GOLO DO SC BRAGA! Ángel Claudino reduz outra vez. Rio Ave 6-4 SC Braga."
+     "txt": "GOLO DO SC BRAGA! Ángel Claudino reduz, servido pelo guarda-redes Léo Souza. Rio Ave 6-4 SC Braga."
     }
    ],
    "faltas": [
@@ -730,7 +730,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "35",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/32/84/16723284_leo_souza_20260803101259.png"
      },
      {
@@ -2797,6 +2797,6 @@
    }
   }
  ],
- "ts": 1790371786077,
+ "ts": 1790371837327,
  "build": "20260915132319"
 }

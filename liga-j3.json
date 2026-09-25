@@ -207,6 +207,11 @@
      "id": "r10",
      "m": 8,
      "txt": "Martín Dorda esteve perto do quarto: apareceu no coração da área do Braga, mas foi apertado e não conseguiu finalizar."
+    },
+    {
+     "id": "r11",
+     "m": 9,
+     "txt": "Amarelo para Moreira, guarda-redes do Rio Ave."
     }
    ],
    "faltas": [
@@ -306,7 +311,7 @@
       "nome": "MOREIRA (GR)",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "9",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
      },
@@ -2518,6 +2523,6 @@
    }
   }
  ],
- "ts": 1790367613762,
+ "ts": 1790367638377,
  "build": "20260915132319"
 }

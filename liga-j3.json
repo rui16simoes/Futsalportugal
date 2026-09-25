@@ -437,6 +437,11 @@
      "id": "r56",
      "m": 40,
      "txt": "Pausa técnica pedida pelo Braga, a um minuto do fim."
+    },
+    {
+     "id": "r57",
+     "m": 40,
+     "txt": "Serginho cruzou rasteiro com força, mas nenhum colega apareceu a emendar."
     }
    ],
    "faltas": [
@@ -2846,6 +2851,6 @@
    }
   }
  ],
- "ts": 1790372561655,
+ "ts": 1790372695213,
  "build": "20260915132319"
 }

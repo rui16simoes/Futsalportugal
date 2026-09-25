@@ -387,6 +387,11 @@
      "id": "r46",
      "m": 32,
      "txt": "Serginho atirou com força pelo corredor central e Léo Souza encaixou."
+    },
+    {
+     "id": "r47",
+     "m": 32,
+     "txt": "Gustavo Rodrigues esteve perto de um grande golo, mas Léo Souza resolveu depois de alguma agitação na área do Braga."
     }
    ],
    "faltas": [
@@ -2782,6 +2787,6 @@
    }
   }
  ],
- "ts": 1790371612943,
+ "ts": 1790371632580,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -297,6 +297,11 @@
      "id": "r28",
      "m": 18,
      "txt": "Dinis Ramos encheu o pé e obrigou Léo Souza a uma defesa complicada."
+    },
+    {
+     "id": "r29",
+     "m": 19,
+     "txt": "Tiago Brito finalizou um bom desenho ofensivo do Braga, mas rematou ao lado."
     }
    ],
    "faltas": [
@@ -2657,6 +2662,6 @@
    }
   }
  ],
- "ts": 1790369024499,
+ "ts": 1790369110263,
  "build": "20260915132319"
 }

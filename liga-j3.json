@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 720
    },
    "lances": [
     {
@@ -377,6 +377,16 @@
      "id": "r44",
      "m": 29,
      "txt": "Cumpridos os dois minutos, o Rio Ave volta a cinco. O Braga não marcou em superioridade numérica."
+    },
+    {
+     "id": "r45",
+     "m": 31,
+     "txt": "GOLO DO RIO AVE! Léo Souza subiu pela direita e rematou, Moreira encaixou e lançou o contra-ataque: Martim Castela conduziu e serviu Martín Dorda, que só teve de encostar. Rio Ave 6-3 SC Braga."
+    },
+    {
+     "id": "r46",
+     "m": 32,
+     "txt": "Serginho atirou com força pelo corredor central e Léo Souza encaixou."
     }
    ],
    "faltas": [
@@ -541,7 +551,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 5,
+    "golos": 6,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -588,7 +598,7 @@
       "e": "S",
       "min": "2",
       "cart": "",
-      "ass": "",
+      "ass": "31",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/03/1040303_martim_castela_20250130150954.jpg"
      },
      {
@@ -676,7 +686,7 @@
       "num": "19",
       "nome": "MARTÍN DORDA",
       "e": "S",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
@@ -2772,6 +2782,6 @@
    }
   }
  ],
- "ts": 1790371121126,
+ "ts": 1790371612943,
  "build": "20260915132319"
 }

@@ -237,6 +237,11 @@
      "id": "r16",
      "m": 13,
      "txt": "Amarelo também para Ángel Claudino, na terceira falta do Braga."
+    },
+    {
+     "id": "r17",
+     "m": 13,
+     "txt": "Quinta falta do Rio Ave. A partir da próxima, o Braga tem livre de dez metros."
     }
    ],
    "faltas": [
@@ -288,6 +293,13 @@
      "parte": 1,
      "m": 13,
      "n": 3
+    },
+    {
+     "id": "rfc15",
+     "lado": "casa",
+     "parte": 1,
+     "m": 13,
+     "n": 5
     }
    ],
    "gp": {
@@ -2569,6 +2581,6 @@
    }
   }
  ],
- "ts": 1790368105566,
+ "ts": 1790368127065,
  "build": "20260915132319"
 }

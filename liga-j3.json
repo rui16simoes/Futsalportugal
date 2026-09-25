@@ -292,6 +292,11 @@
      "id": "r27",
      "m": 18,
      "txt": "Quinta falta do Braga. A partir da próxima, o Rio Ave tem livre de dez metros."
+    },
+    {
+     "id": "r28",
+     "m": 18,
+     "txt": "Dinis Ramos encheu o pé e obrigou Léo Souza a uma defesa complicada."
     }
    ],
    "faltas": [
@@ -2652,6 +2657,6 @@
    }
   }
  ],
- "ts": 1790368944453,
+ "ts": 1790369024499,
  "build": "20260915132319"
 }

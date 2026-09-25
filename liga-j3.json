@@ -172,6 +172,11 @@
      "id": "r3",
      "m": 2,
      "txt": "GOLO DO RIO AVE! Resposta em menos de um minuto: Rúben Freire trabalhou a bola na esquerda e Martim Castela apareceu ao primeiro poste a desviar para o empate. Rio Ave 1-1 SC Braga."
+    },
+    {
+     "id": "r4",
+     "m": 2,
+     "txt": "Podia ter sido nova cambalhota: Luís Fernandes tinha a baliza aberta ao segundo poste, mas foi incomodado no momento do remate e falhou."
     }
    ],
    "faltas": [],
@@ -2454,6 +2459,6 @@
    }
   }
  ],
- "ts": 1790366671238,
+ "ts": 1790366693607,
  "build": "20260915132319"
 }

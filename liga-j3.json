@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 480
    },
    "lances": [
     {
@@ -187,6 +187,26 @@
      "id": "r6",
      "m": 4,
      "txt": "GOLO DO RIO AVE! Serginho amplia no mesmo minuto, com assistência de Miguel Ângelo. Rio Ave 3-1 SC Braga."
+    },
+    {
+     "id": "r7",
+     "m": 6,
+     "txt": "Barreto teve o golo nos pés depois de um grande trabalho de Tiago Brito, mas não acertou bem na bola e atirou ao lado."
+    },
+    {
+     "id": "r8",
+     "m": 7,
+     "txt": "Léo Souza carregou pela direita e obrigou Moreira a uma defesa atenta."
+    },
+    {
+     "id": "r9",
+     "m": 7,
+     "txt": "Simão Nogueira apareceu ao segundo poste, mas o passe veio com demasiada força e o desvio não saiu."
+    },
+    {
+     "id": "r10",
+     "m": 8,
+     "txt": "Martín Dorda esteve perto do quarto: apareceu no coração da área do Braga, mas foi apertado e não conseguiu finalizar."
     }
    ],
    "faltas": [
@@ -196,6 +216,20 @@
      "parte": 1,
      "m": 4,
      "n": 1
+    },
+    {
+     "id": "rfc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 7,
+     "n": 1
+    },
+    {
+     "id": "rfc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 7,
+     "n": 2
     }
    ],
    "gp": {
@@ -263,7 +297,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2477,6 +2511,6 @@
    }
   }
  ],
- "ts": 1790366986906,
+ "ts": 1790367485717,
  "build": "20260915132319"
 }

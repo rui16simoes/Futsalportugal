@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -167,6 +167,11 @@
      "id": "r2",
      "m": 1,
      "txt": "GOLO DO SC BRAGA! Tiago Sousa inaugurou o marcador logo no primeiro minuto, com assistência de Daniel Airoso. Rio Ave 0-1 SC Braga."
+    },
+    {
+     "id": "r3",
+     "m": 2,
+     "txt": "GOLO DO RIO AVE! Resposta imediata: Martim Castela empatou no minuto seguinte, servido por Rúben Freire. Rio Ave 1-1 SC Braga."
     }
    ],
    "faltas": [],
@@ -218,7 +223,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": "",
+    "golos": 1,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -263,7 +268,7 @@
       "num": "27",
       "nome": "MARTIM CASTELA",
       "e": "S",
-      "min": "",
+      "min": "2",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/03/1040303_martim_castela_20250130150954.jpg"
@@ -283,7 +288,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "2",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
      },
      {
@@ -2449,6 +2454,6 @@
    }
   }
  ],
- "ts": 1790366499551,
+ "ts": 1790366570978,
  "build": "20260915132319"
 }

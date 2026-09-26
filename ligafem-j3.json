@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1050
+    "acc": 1080
    },
    "lances": [
     {
@@ -103,6 +103,12 @@
      "m": 16,
      "lado": "fora",
      "txt": "Fifó roubou a bola a Lívia Andrade à entrada da área e serviu Angélica Alves, mas Terekh levou a melhor."
+    },
+    {
+     "id": "f12",
+     "m": 18,
+     "lado": "fora",
+     "txt": "Janice Silva voltou a recuperar a bola, mas Anastasiia Terekh apareceu outra vez a defender."
     }
    ],
    "faltas": [
@@ -460,6 +466,6 @@
    }
   }
  ],
- "ts": 1790433430570,
+ "ts": 1790433549615,
  "build": "20260915132319"
 }

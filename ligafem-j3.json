@@ -27,9 +27,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -121,6 +121,12 @@
      "m": 19,
      "lado": "fora",
      "txt": "GOLO DO BENFICA! Canto batido na esquerda do ataque, Fifó remata de muito longe, a bola desvia em Leninha e faz o 0-1. Golo de Fifó."
+    },
+    {
+     "id": "f15",
+     "m": 20,
+     "lado": "",
+     "txt": "INTERVALO EM PORTO SALVO. Leões Porto Salvo 0-1 Benfica."
     }
    ],
    "faltas": [
@@ -485,6 +491,6 @@
    }
   }
  ],
- "ts": 1790433756875,
+ "ts": 1790433813331,
  "build": "20260915132319"
 }

@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 900
    },
    "lances": [
     {
@@ -187,6 +187,12 @@
      "m": 33,
      "lado": "fora",
      "txt": "Remate em balão de Maria Pereira, mas mais uma vez Terekh muito bem."
+    },
+    {
+     "id": "f26",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Cartão amarelo para Gaby Vanelli."
     }
    ],
    "faltas": [
@@ -531,7 +537,7 @@
       "nome": "GABY VANELLI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "35",
       "ass": "",
       "foto": ""
      },
@@ -593,6 +599,6 @@
    }
   }
  ],
- "ts": 1790436367345,
+ "ts": 1790436425799,
  "build": "20260915132319"
 }

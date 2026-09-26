@@ -29,8 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 580,
-    "desde": 0
+    "acc": 600
    },
    "lances": [
     {
@@ -66,6 +65,16 @@
      "m": 8,
      "lado": "casa",
      "txt": "Grande receção de Lívia com o pé direito e à entrada da área de pé esquerdo atira ligeiramente ao lado"
+    },
+    {
+     "id": "f6",
+     "m": 10,
+     "txt": "Jogada de área a área do Benfica: Ana Catarina lançou com o pé para a cabeça de Fifó, mas Terekh fez uma grande defesa."
+    },
+    {
+     "id": "f7",
+     "m": 10,
+     "txt": "Canto do Benfica na esquerda do ataque: Fifó atrasou para Andreza Queiroz, que rematou, e Janice Silva ainda tentou o golo de calcanhar — a bola saiu ligeiramente ao lado."
     }
    ],
    "faltas": [
@@ -409,6 +418,6 @@
    }
   }
  ],
- "ts": 1790432382940,
+ "ts": 1790432450968,
  "build": "20260915132319"
 }

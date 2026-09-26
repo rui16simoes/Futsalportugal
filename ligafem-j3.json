@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -139,6 +139,12 @@
      "m": 21,
      "lado": "fora",
      "txt": "Gaby Vanelli apareceu na cara de Terekh, mas mais uma vez a guarda-redes do Leões levou a melhor."
+    },
+    {
+     "id": "f18",
+     "m": 22,
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Grande trabalho de Lívia Andrade na esquerda do ataque: roda bem sobre Inês Matos e coloca a bola no segundo poste, onde Leninha faz o 1-1."
     }
    ],
    "faltas": [
@@ -233,7 +239,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": "",
+    "golos": 1,
     "capitao": "ADRIANA MENDES",
     "treinador": "CLÁUDIO CARDOSO",
     "trFoto": "",
@@ -253,7 +259,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "22",
       "foto": ""
      },
      {
@@ -305,7 +311,7 @@
       "num": "14",
       "nome": "HELENA NUNES",
       "e": "P",
-      "min": "",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": ""
@@ -503,6 +509,6 @@
    }
   }
  ],
- "ts": 1790434657838,
+ "ts": 1790434796991,
  "build": "20260915132319"
 }

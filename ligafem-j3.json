@@ -133,6 +133,12 @@
      "m": 21,
      "lado": "fora",
      "txt": "Inicia a 2.ª parte. Bola ao centro para o Benfica."
+    },
+    {
+     "id": "f17",
+     "m": 21,
+     "lado": "fora",
+     "txt": "Gaby Vanelli apareceu na cara de Terekh, mas mais uma vez a guarda-redes do Leões levou a melhor."
     }
    ],
    "faltas": [
@@ -497,6 +503,6 @@
    }
   }
  ],
- "ts": 1790434597837,
+ "ts": 1790434657838,
  "build": "20260915132319"
 }

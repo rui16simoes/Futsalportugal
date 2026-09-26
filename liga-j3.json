@@ -983,15 +983,16 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1080
+    "acc": 1200
    },
    "lances": [
     {
      "id": "e1",
      "m": 1,
-     "txt": "COMEÇOU O JOGO nas Lameiras. O Famalicão soma um ponto em dois jogos; o Eléctrico chega a Famalicão com duas vitórias em dois jogos."
+     "txt": "COMEÇOU O JOGO nas Lameiras. O Famalicão soma um ponto em dois jogos; o Eléctrico chega a Famalicão com duas vitórias em dois jogos.",
+     "lado": ""
     },
     {
      "id": "e2",
@@ -1004,9 +1005,37 @@
      "m": 17,
      "lado": "casa",
      "txt": "GOLO DO FAMALICÃO! Ruizinho, também ele capitão, repõe a igualdade. FC Famalicão 1-1 Eléctrico."
+    },
+    {
+     "id": "e4",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "efc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "efc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": "",
+     "n": 2
+    },
+    {
+     "id": "eff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2883,6 +2912,6 @@
    }
   }
  ],
- "ts": 1790445721309,
+ "ts": 1790445982388,
  "build": "20260915132319"
 }

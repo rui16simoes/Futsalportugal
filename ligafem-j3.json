@@ -27,9 +27,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
-    "acc": 840
+    "acc": 859.3899999999999,
+    "desde": 1790433081636
    },
    "lances": [
     {
@@ -79,12 +80,6 @@
      "m": 10,
      "txt": "Canto batido na esquerda do ataque: Fifó atrasou para Andreza Queiroz, que rematou, e Janice Silva ainda tentou o golo de calcanhar — a bola saiu ligeiramente ao lado.",
      "lado": "fora"
-    },
-    {
-     "id": "f10",
-     "m": 14,
-     "lado": "fora",
-     "txt": "Falta de Ana Oliveira, a terceira do Benfica nesta parte, e cartão amarelo para a jogadora."
     }
    ],
    "faltas": [
@@ -108,13 +103,6 @@
      "parte": 1,
      "m": 7,
      "n": 2
-    },
-    {
-     "id": "fff13",
-     "lado": "fora",
-     "parte": 1,
-     "m": 14,
-     "n": 3
     }
    ],
    "gp": {
@@ -409,7 +397,7 @@
       "nome": "ANA OLIVEIRA",
       "e": "S",
       "min": "",
-      "cart": "14",
+      "cart": "",
       "ass": "",
       "foto": ""
      },
@@ -435,6 +423,6 @@
    }
   }
  ],
- "ts": 1790433016510,
+ "ts": 1790433084137,
  "build": "20260915132319"
 }

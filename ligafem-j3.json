@@ -41,6 +41,11 @@
      "id": "f2",
      "m": 1,
      "txt": "Logo aos 40 segundos: Janice Silva recebeu na zona de pivot, rodou bem e rematou para defesa da guarda-redes do Leões."
+    },
+    {
+     "id": "f3",
+     "m": 4,
+     "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força: a bola saiu ao lado da baliza de Ana Catarina."
     }
    ],
    "faltas": [],
@@ -392,6 +397,6 @@
    }
   }
  ],
- "ts": 1790431674852,
+ "ts": 1790431714852,
  "build": "20260915132319"
 }

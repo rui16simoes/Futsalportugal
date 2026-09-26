@@ -983,9 +983,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 780
+    "acc": 1200
    },
    "lances": [
     {
@@ -1029,6 +1029,12 @@
      "m": "33",
      "lado": "casa",
      "txt": "GOLO DO FAMALICÃO! Ruizinho bisa, um minuto depois do golo de Daniel Silva, e os famalicenses disparam no marcador. FC Famalicão 3-1 Eléctrico."
+    },
+    {
+     "id": "e8",
+     "m": "40",
+     "lado": "",
+     "txt": "FINAL EM FAMALICÃO. O FC Famalicão vence o Eléctrico por 3-1, com bís de Ruizinho e um golo de Daniel Silva, e soma o primeiro triunfo na prova."
     }
    ],
    "faltas": [
@@ -1050,6 +1056,41 @@
      "id": "eff11",
      "lado": "fora",
      "parte": 1,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "efc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "efc22",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 2
+    },
+    {
+     "id": "efc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 3
+    },
+    {
+     "id": "efc24",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 4
+    },
+    {
+     "id": "eff21",
+     "lado": "fora",
+     "parte": 2,
      "m": "",
      "n": 1
     }
@@ -2930,6 +2971,6 @@
    }
   }
  ],
- "ts": 1790448228309,
+ "ts": 1790450158933,
  "build": "20260915132319"
 }

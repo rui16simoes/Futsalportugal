@@ -145,6 +145,12 @@
      "m": 22,
      "lado": "casa",
      "txt": "GOLO DO LEÕES PORTO SALVO! Grande trabalho de Lívia Andrade na esquerda do ataque: roda bem sobre Inês Matos e coloca a bola no segundo poste, onde Leninha faz o 1-1."
+    },
+    {
+     "id": "f19",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Lívia Andrade recebe a bola na zona de pivô, roda bem e remata para grande defesa de Ana Catarina."
     }
    ],
    "faltas": [
@@ -516,6 +522,6 @@
    }
   }
  ],
- "ts": 1790434818943,
+ "ts": 1790434860067,
  "build": "20260915132319"
 }

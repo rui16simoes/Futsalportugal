@@ -35,31 +35,31 @@
     {
      "id": "f1",
      "m": 1,
-     "txt": "COMEÇOU O JOGO em Porto Salvo. Bola ao centro para o Leões Porto Salvo.",
+     "txt": "Início da partida. Bola ao centro para o Leões Porto Salvo.",
      "lado": "casa"
     },
     {
      "id": "f2",
      "m": 1,
-     "txt": "Aos 40 segundos, Janice Silva recebeu na zona de pivot, rodou bem e rematou para defesa de Terekh.",
+     "txt": "Aos 40 segundos de jogo, Janice recebe a bola na zona de pivô, roda bem e remata para defesa de Terekh.",
      "lado": "fora"
     },
     {
      "id": "f3",
      "m": 4,
-     "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força, mas a bola saiu ao lado da baliza de Ana Catarina.",
+     "txt": "Kika conduz a bola pelo centro do terreno e aos 10 metros dispara forte, mas a bola sai ao lado da baliza de Ana Catarina.",
      "lado": "casa"
     },
     {
      "id": "f4",
      "m": 5,
-     "txt": "Maria Pereira rematou cruzado da ala direita e a bola passou perto do poste direito da baliza de Terekh.",
+     "txt": "Remate cruzado de Maria Pereira na ala direita do ataque, com a bola a passar perto do poste direito da baliza de Terekh.",
      "lado": "fora"
     },
     {
      "id": "f5",
      "m": 5,
-     "txt": "Grande trabalho de Ana Oliveira, mas na hora do remate apareceu Inês Padinha com um corte magistral.",
+     "txt": "Grande trabalho de Ana Oliveira, mas na hora do remate Inês Padinha faz um corte magistral.",
      "lado": "fora"
     },
     {
@@ -71,50 +71,50 @@
     {
      "id": "f6",
      "m": 10,
-     "txt": "Ana Catarina lançou com o pé de área a área para a cabeça de Fifó, mas Terekh fez uma grande defesa.",
+     "txt": "Passe com o pé de Ana Catarina de área a área para a cabeça de Fifó, mas Terekh faz uma grande defesa.",
      "lado": "fora"
     },
     {
      "id": "f7",
      "m": 10,
-     "txt": "Canto batido na esquerda do ataque: Fifó atrasou para Andreza Queiroz, que rematou, e Janice Silva ainda tentou o golo de calcanhar — a bola saiu ligeiramente ao lado.",
+     "txt": "Canto batido na esquerda do ataque por Fifó, que coloca a bola mais para trás para Andreza; esta remata e Janice, de calcanhar, tenta um golo fantástico, mas a bola sai ligeiramente ao lado.",
      "lado": "fora"
     },
     {
      "id": "f8",
      "m": 11,
      "lado": "casa",
-     "txt": "Falta de Cátia Morgado, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
+     "txt": "Falta cometida por Cátia Morgado e cartão amarelo."
     },
     {
      "id": "f9",
      "m": 12,
      "lado": "fora",
-     "txt": "Mais um lance perigoso de Janice Silva, mas a bola voltou a sair ao lado."
+     "txt": "Mais um lance perigoso de Janice, mas mais uma vez a bola sai ao lado."
     },
     {
      "id": "f10",
      "m": 14,
      "lado": "fora",
-     "txt": "Falta de Ana Oliveira, a terceira do Benfica nesta parte, e cartão amarelo para a jogadora."
+     "txt": "Falta de Ana Oliveira e cartão amarelo."
     },
     {
      "id": "f11",
      "m": 16,
      "lado": "fora",
-     "txt": "Fifó roubou a bola a Lívia Andrade à entrada da área e serviu Angélica Alves, mas Terekh levou a melhor."
+     "txt": "Fifó recupera a bola a Lívia à entrada da área e coloca em Angélica, mas Terekh leva a melhor."
     },
     {
      "id": "f12",
      "m": 18,
      "lado": "fora",
-     "txt": "Janice Silva voltou a recuperar a bola, mas Anastasiia Terekh apareceu outra vez a defender."
+     "txt": "Janice recupera a bola, mas mais uma vez Terekh defende."
     },
     {
      "id": "f13",
      "m": 18,
      "lado": "casa",
-     "txt": "Falta de Érica Ferreira sobre Ana Catarina: é a terceira do Leões nesta primeira parte."
+     "txt": "Falta de Érica sobre Ana Catarina, falta para o Leões."
     },
     {
      "id": "f14",
@@ -485,6 +485,6 @@
    }
   }
  ],
- "ts": 1790433723674,
+ "ts": 1790433756875,
  "build": "20260915132319"
 }

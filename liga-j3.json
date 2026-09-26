@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960
+    "acc": 1020
    },
    "lances": [
     {
@@ -1531,6 +1531,12 @@
      "m": "14",
      "lado": "casa",
      "txt": "O Leões Porto Salvo pediu pausa técnica."
+    },
+    {
+     "id": "p13",
+     "m": "17",
+     "lado": "casa",
+     "txt": "Rúben Carrilho rematou ao poste na sequência de um lançamento e esteve perto de mais um golo."
     }
    ],
    "faltas": [
@@ -1575,6 +1581,13 @@
      "parte": 1,
      "m": 16,
      "n": 4
+    },
+    {
+     "id": "pff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 17,
+     "n": 3
     }
    ],
    "gp": {
@@ -3106,6 +3119,6 @@
    }
   }
  ],
- "ts": 1790452861639,
+ "ts": 1790453003740,
  "build": "20260915132319"
 }

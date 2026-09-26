@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 840
    },
    "lances": [
     {
@@ -1513,6 +1513,24 @@
      "m": "11",
      "lado": "fora",
      "txt": "O Portimonense pediu pausa técnica."
+    },
+    {
+     "id": "p10",
+     "m": "12",
+     "lado": "fora",
+     "txt": "Montanha apareceu em excelente posição, mas Guilherme Cintra voltou a estar em destaque."
+    },
+    {
+     "id": "p11",
+     "m": "12",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Rúben Carrilho cruzou rasteiro para a área e Ré apareceu com tranquilidade para fazer o terceiro. Leões Porto Salvo 3-0 Portimonense."
+    },
+    {
+     "id": "p12",
+     "m": "14",
+     "lado": "casa",
+     "txt": "O Leões Porto Salvo pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -1600,7 +1618,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 2,
+    "golos": 3,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1638,7 +1656,7 @@
       "e": "P",
       "min": "5",
       "cart": "",
-      "ass": "",
+      "ass": "12",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/84/16615084_ruben_carrilho_20260908151944.jpg"
      },
      {
@@ -1717,7 +1735,7 @@
       "num": "14",
       "nome": "RÉ",
       "e": "P",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "11",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
@@ -3081,6 +3099,6 @@
    }
   }
  ],
- "ts": 1790452285499,
+ "ts": 1790452775788,
  "build": "20260915132319"
 }

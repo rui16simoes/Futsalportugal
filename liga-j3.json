@@ -1456,8 +1456,8 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 1200
+    "parte": 2,
+    "acc": 60
    },
    "lances": [
     {
@@ -1549,6 +1549,18 @@
      "m": "18",
      "lado": "fora",
      "txt": "Cartão amarelo para Gui, por falta."
+    },
+    {
+     "id": "p16",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
+    },
+    {
+     "id": "p17",
+     "m": "21",
+     "lado": "casa",
+     "txt": "Recomeçou a partida em Porto Salvo."
     }
    ],
    "faltas": [
@@ -3152,6 +3164,6 @@
    }
   }
  ],
- "ts": 1790453447481,
+ "ts": 1790454249683,
  "build": "20260915132319"
 }

@@ -193,6 +193,12 @@
      "m": 35,
      "lado": "fora",
      "txt": "Cartão amarelo para Gaby Vanelli."
+    },
+    {
+     "id": "f27",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Leninha recebe o segundo cartão amarelo e é expulsa. O Benfica passa a atacar em superioridade, 4x3."
     }
    ],
    "faltas": [
@@ -402,7 +408,7 @@
       "nome": "HELENA NUNES",
       "e": "P",
       "min": "22",
-      "cart": "28",
+      "cart": "28, 35d",
       "ass": "",
       "foto": ""
      },
@@ -599,6 +605,6 @@
    }
   }
  ],
- "ts": 1790436425799,
+ "ts": 1790436570649,
  "build": "20260915132319"
 }

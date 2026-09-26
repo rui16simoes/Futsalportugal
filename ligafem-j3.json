@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 720
    },
    "lances": [
     {
@@ -82,9 +82,9 @@
     },
     {
      "id": "f8",
-     "m": 9,
+     "m": 12,
      "lado": "casa",
-     "txt": "Falta de Cátia Morgado aos 8:52, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
+     "txt": "Falta de Cátia Morgado, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
     }
    ],
    "faltas": [
@@ -113,7 +113,7 @@
      "id": "ffc12",
      "lado": "casa",
      "parte": 1,
-     "m": 9,
+     "m": 12,
      "n": 2
     }
    ],
@@ -220,7 +220,7 @@
       "nome": "CÁTIA MORGADO",
       "e": "S",
       "min": "",
-      "cart": "9",
+      "cart": "12",
       "ass": "",
       "foto": ""
      },
@@ -435,6 +435,6 @@
    }
   }
  ],
- "ts": 1790432639424,
+ "ts": 1790432724012,
  "build": "20260915132319"
 }

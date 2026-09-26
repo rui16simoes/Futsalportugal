@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 780
    },
    "lances": [
     {
@@ -181,6 +181,12 @@
      "m": 31,
      "lado": "fora",
      "txt": "Falta de Angélica, a segunda do Benfica nesta parte."
+    },
+    {
+     "id": "f25",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Remate em balão de Maria Pereira, mas mais uma vez Terekh muito bem."
     }
    ],
    "faltas": [
@@ -566,6 +572,6 @@
    }
   }
  ],
- "ts": 1790435934793,
+ "ts": 1790436105636,
  "build": "20260915132319"
 }

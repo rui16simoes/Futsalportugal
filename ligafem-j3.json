@@ -204,7 +204,7 @@
      "id": "f28",
      "m": 37,
      "lado": "casa",
-     "txt": "Falta de Padinha: o Leões chega às três faltas nesta parte."
+     "txt": "Falta de Padinha, a terceira do Leões nesta parte, e cartão amarelo para Mariana Teixeira."
     }
    ],
    "faltas": [
@@ -385,7 +385,7 @@
       "nome": "MARIANA TEIXEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "37",
       "ass": "",
       "foto": ""
      },
@@ -618,6 +618,6 @@
    }
   }
  ],
- "ts": 1790436761194,
+ "ts": 1790436777757,
  "build": "20260915132319"
 }

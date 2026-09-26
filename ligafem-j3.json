@@ -27,9 +27,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
-    "acc": 720
+    "acc": 812,
+    "desde": 1790432869308
    },
    "lances": [
     {
@@ -79,18 +80,6 @@
      "m": 10,
      "txt": "Canto batido na esquerda do ataque: Fifó atrasou para Andreza Queiroz, que rematou, e Janice Silva ainda tentou o golo de calcanhar — a bola saiu ligeiramente ao lado.",
      "lado": "fora"
-    },
-    {
-     "id": "f8",
-     "m": 11,
-     "lado": "casa",
-     "txt": "Falta de Cátia Morgado, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
-    },
-    {
-     "id": "f9",
-     "m": 12,
-     "lado": "fora",
-     "txt": "Mais um lance perigoso de Janice Silva, mas a bola voltou a sair ao lado."
     }
    ],
    "faltas": [
@@ -113,13 +102,6 @@
      "lado": "fora",
      "parte": 1,
      "m": 7,
-     "n": 2
-    },
-    {
-     "id": "ffc12",
-     "lado": "casa",
-     "parte": 1,
-     "m": 11,
      "n": 2
     }
    ],
@@ -226,7 +208,7 @@
       "nome": "CÁTIA MORGADO",
       "e": "S",
       "min": "",
-      "cart": "11",
+      "cart": "",
       "ass": "",
       "foto": ""
      },
@@ -441,6 +423,6 @@
    }
   }
  ],
- "ts": 1790432805459,
+ "ts": 1790432871811,
  "build": "20260915132319"
 }

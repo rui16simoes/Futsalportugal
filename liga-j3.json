@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -1537,6 +1537,18 @@
      "m": "17",
      "lado": "casa",
      "txt": "Rúben Carrilho rematou ao poste na sequência de um lançamento e esteve perto de mais um golo."
+    },
+    {
+     "id": "p14",
+     "m": "18",
+     "lado": "casa",
+     "txt": "Pedro Santos correspondeu a um passe de Ré, mas rematou muito por cima."
+    },
+    {
+     "id": "p15",
+     "m": "18",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Gui, por falta."
     }
    ],
    "faltas": [
@@ -1588,6 +1600,20 @@
      "parte": 1,
      "m": 17,
      "n": 3
+    },
+    {
+     "id": "pfc15",
+     "lado": "casa",
+     "parte": 1,
+     "m": 18,
+     "n": 5
+    },
+    {
+     "id": "pff14",
+     "lado": "fora",
+     "parte": 1,
+     "m": 18,
+     "n": 4
     }
    ],
    "gp": {
@@ -1873,7 +1899,7 @@
       "nome": "GUI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "18",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/36/57/16653657_gui_20260709195957.png"
      },
@@ -3119,6 +3145,6 @@
    }
   }
  ],
- "ts": 1790453003740,
+ "ts": 1790453207193,
  "build": "20260915132319"
 }

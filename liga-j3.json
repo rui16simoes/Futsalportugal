@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600
+    "acc": 780
    },
    "lances": [
     {
@@ -1591,6 +1591,12 @@
      "m": "30",
      "lado": "fora",
      "txt": "O Portimonense pediu pausa técnica."
+    },
+    {
+     "id": "p23",
+     "m": "33",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Guilherme Cintra aproveitou o 5x4 do Portimonense e rematou de longe para a baliza deserta. Leões Porto Salvo 5-0 Portimonense."
     }
    ],
    "faltas": [
@@ -1741,7 +1747,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 4,
+    "golos": 5,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1750,7 +1756,7 @@
       "num": "1",
       "nome": "GUILHERME CINTRA (GR)",
       "e": "P",
-      "min": "",
+      "min": "33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/60/16605460_guilherme_cintra_20260908151413.jpg"
@@ -3222,6 +3228,6 @@
    }
   }
  ],
- "ts": 1790455364909,
+ "ts": 1790455597909,
  "build": "20260915132319"
 }

@@ -27,9 +27,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -205,6 +205,18 @@
      "m": 37,
      "lado": "casa",
      "txt": "Falta de Padinha, a terceira do Leões nesta parte, e cartão amarelo para Mariana Teixeira."
+    },
+    {
+     "id": "f29",
+     "m": 40,
+     "lado": "",
+     "txt": "FINAL EM PORTO SALVO: LEÕES PORTO SALVO 1-1 BENFICA."
+    },
+    {
+     "id": "f30",
+     "m": 40,
+     "lado": "",
+     "txt": "Sem vencedor em Porto Salvo. O Benfica adiantou-se aos 19 minutos, com o remate de longe de Fifó desviado em Leninha, e o Leões respondeu aos 22, com Leninha a fechar ao segundo poste o trabalho de Lívia Andrade. Terekh foi decisiva na baliza da casa e a equipa ainda segurou o empate com menos uma, depois da expulsão de Leninha por duplo amarelo. Um ponto para cada lado."
     }
    ],
    "faltas": [
@@ -625,6 +637,6 @@
    }
   }
  ],
- "ts": 1790437151202,
+ "ts": 1790437287702,
  "build": "20260915132319"
 }

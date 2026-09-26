@@ -51,9 +51,22 @@
      "id": "f4",
      "m": 5,
      "txt": "Remate cruzado de Maria Pereira, da ala direita do ataque do Benfica: a bola passou perto do poste direito da baliza de Terekh."
+    },
+    {
+     "id": "f5",
+     "m": 5,
+     "txt": "Grande trabalho de Ana Oliveira pelo lado do Benfica, mas na hora do remate apareceu Inês Padinha com um corte magistral."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ffc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 4,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -232,16 +245,6 @@
       "cart": "",
       "ass": "",
       "foto": ""
-     },
-     {
-      "num": "99",
-      "nome": "ANASTASIIA TEREKH",
-      "e": "P",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "",
-      "extra": 1
      }
     ]
    },
@@ -377,31 +380,11 @@
       "cart": "",
       "ass": "",
       "foto": ""
-     },
-     {
-      "num": "15",
-      "nome": "ALEXANDRA MELO",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "",
-      "extra": 1
-     },
-     {
-      "num": "25",
-      "nome": "SIMONE PEDROSO",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "",
-      "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1790431853003,
+ "ts": 1790431910312,
  "build": "20260915132319"
 }

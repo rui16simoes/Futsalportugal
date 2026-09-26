@@ -1707,7 +1707,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1831,8 +1831,18 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
      },
      {
+      "num": "24",
+      "nome": "TIAGO MARQUES",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/planteis/new/24/83/16672483_nuno_costa_20260716142538.png",
+      "extra": 1
+     },
+     {
       "num": 16,
-      "nome": "SANTIAGO CUSTÓDIO",
+      "nome": "SANTI",
       "e": "S",
       "min": "",
       "cart": "",
@@ -2981,6 +2991,6 @@
    }
   }
  ],
- "ts": 1790450196143,
+ "ts": 1790450665999,
  "build": "20260915132319"
 }

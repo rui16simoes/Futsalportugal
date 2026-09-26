@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 420
    },
    "lances": [
     {
@@ -151,6 +151,12 @@
      "m": 23,
      "lado": "casa",
      "txt": "Lívia Andrade recebe bem na zona de pivô, roda bem, remata e obriga a grande defesa de Ana Catarina."
+    },
+    {
+     "id": "f20",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Dricas aparece na cara de Ana Catarina Pereira mas, de pé esquerdo e já dentro da área, atira ao lado."
     }
    ],
    "faltas": [
@@ -522,6 +528,6 @@
    }
   }
  ],
- "ts": 1790434948714,
+ "ts": 1790435445633,
  "build": "20260915132319"
 }

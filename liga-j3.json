@@ -1608,7 +1608,13 @@
      "id": "p25",
      "m": "35",
      "lado": "casa",
-     "txt": "GOLO DO LEÕES PORTO SALVO! Ré bisa, com assistência de Isaías Furtado. Leões Porto Salvo 6-1 Portimonense."
+     "txt": "GOLO DO LEÕES PORTO SALVO! Resposta imediata dos leões: combinação entre Isaías Furtado e Ré, que bisou. Leões Porto Salvo 6-1 Portimonense."
+    },
+    {
+     "id": "p26",
+     "m": "35",
+     "lado": "fora",
+     "txt": "GOLO DO PORTIMONENSE! Tomás Reis reduz novamente. Leões Porto Salvo 6-2 Portimonense."
     }
    ],
    "faltas": [
@@ -1930,7 +1936,7 @@
    },
    "fora": {
     "eq": "portimonense",
-    "golos": 1,
+    "golos": 2,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -2011,7 +2017,7 @@
       "num": "10",
       "nome": "TOMÁS REIS",
       "e": "P",
-      "min": "",
+      "min": "35",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/54/135954_tomas_reis_20240229053329.jpg"
@@ -3240,6 +3246,6 @@
    }
   }
  ],
- "ts": 1790455688757,
+ "ts": 1790455737109,
  "build": "20260915132319"
 }

@@ -1028,7 +1028,7 @@
      "id": "e7",
      "m": "33",
      "lado": "casa",
-     "txt": "GOLO DO FAMALICÃO! Mais um, um minuto depois, e os famalicenses disparam no marcador. FC Famalicão 3-1 Eléctrico."
+     "txt": "GOLO DO FAMALICÃO! Ruizinho bisa, um minuto depois do golo de Daniel Silva, e os famalicenses disparam no marcador. FC Famalicão 3-1 Eléctrico."
     }
    ],
    "faltas": [
@@ -1228,7 +1228,7 @@
       "num": "10",
       "nome": "RUIZINHO",
       "e": "S",
-      "min": "17",
+      "min": "17, 33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/28/530328_ruizinho_20251107082756.png"
@@ -2930,6 +2930,6 @@
    }
   }
  ],
- "ts": 1790448121708,
+ "ts": 1790448228309,
  "build": "20260915132319"
 }

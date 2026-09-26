@@ -46,7 +46,8 @@
     {
      "id": "f3",
      "m": 4,
-     "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força: a bola saiu ao lado da baliza de Ana Catarina."
+     "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força: a bola saiu ao lado da baliza de Ana Catarina.",
+     "lado": "casa"
     },
     {
      "id": "f4",
@@ -408,6 +409,6 @@
    }
   }
  ],
- "ts": 1790432210642,
+ "ts": 1790432218891,
  "build": "20260915132319"
 }

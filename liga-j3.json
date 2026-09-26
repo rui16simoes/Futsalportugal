@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -1483,6 +1483,12 @@
      "m": "4",
      "lado": "casa",
      "txt": "Cartão amarelo para Pedro Santos, por falta."
+    },
+    {
+     "id": "p5",
+     "m": "5",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Rúben Carrilho, o capitão, inaugura o marcador. Leões Porto Salvo 1-0 Portimonense."
     }
    ],
    "faltas": [
@@ -1549,7 +1555,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": "",
+    "golos": 1,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1585,7 +1591,7 @@
       "num": "6",
       "nome": "RÚBEN CARRILHO",
       "e": "P",
-      "min": "",
+      "min": "5",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/84/16615084_ruben_carrilho_20260908151944.jpg"
@@ -3030,6 +3036,6 @@
    }
   }
  ],
- "ts": 1790451557729,
+ "ts": 1790451639831,
  "build": "20260915132319"
 }

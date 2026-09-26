@@ -56,6 +56,12 @@
      "id": "f5",
      "m": 5,
      "txt": "Grande trabalho de Ana Oliveira pelo lado do Benfica, mas na hora do remate apareceu Inês Padinha com um corte magistral."
+    },
+    {
+     "id": "l1790432109673",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Grande receção de Lívia com o pé direito e à entrada da área de pé esquerdo atira ligeiramente ao lado"
     }
    ],
    "faltas": [
@@ -399,6 +405,6 @@
    }
   }
  ],
- "ts": 1790431944911,
+ "ts": 1790432112175,
  "build": "20260915132319"
 }

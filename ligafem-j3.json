@@ -51,7 +51,8 @@
     {
      "id": "f4",
      "m": 5,
-     "txt": "Remate cruzado de Maria Pereira, da ala direita do ataque do Benfica: a bola passou perto do poste direito da baliza de Terekh."
+     "txt": "Remate cruzado de Maria Pereira, da ala direita do ataque do Benfica: a bola passou perto do poste direito da baliza de Terekh.",
+     "lado": "fora"
     },
     {
      "id": "f5",
@@ -407,6 +408,6 @@
    }
   }
  ],
- "ts": 1790432201593,
+ "ts": 1790432210642,
  "build": "20260915132319"
 }

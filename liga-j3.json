@@ -985,7 +985,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 1080
    },
    "lances": [
     {
@@ -995,9 +995,15 @@
     },
     {
      "id": "e2",
-     "m": 3,
+     "m": 2,
      "lado": "fora",
-     "txt": "GOLO DO ELÉCTRICO! Os pontessorenses adiantam-se no marcador logo aos três minutos. FC Famalicão 0-1 Eléctrico."
+     "txt": "GOLO DO ELÉCTRICO! Diogo Basílio, o capitão, adianta os pontessorenses logo no início. FC Famalicão 0-1 Eléctrico."
+    },
+    {
+     "id": "e3",
+     "m": 17,
+     "lado": "casa",
+     "txt": "GOLO DO FAMALICÃO! Ruizinho, também ele capitão, repõe a igualdade. FC Famalicão 1-1 Eléctrico."
     }
    ],
    "faltas": [],
@@ -1049,7 +1055,7 @@
    },
    "casa": {
     "eq": "famalicao",
-    "golos": "",
+    "golos": 1,
     "capitao": "RUIZINHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
@@ -1175,7 +1181,7 @@
       "num": "10",
       "nome": "RUIZINHO",
       "e": "S",
-      "min": "",
+      "min": "17",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/28/530328_ruizinho_20251107082756.png"
@@ -1238,7 +1244,7 @@
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
       "e": "S",
-      "min": "",
+      "min": "2",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/31/16598231_diogo_basilio_20260713222800.png"
@@ -2877,6 +2883,6 @@
    }
   }
  ],
- "ts": 1790445013201,
+ "ts": 1790445721309,
  "build": "20260915132319"
 }

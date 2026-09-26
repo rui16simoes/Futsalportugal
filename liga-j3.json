@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300
+    "acc": 660
    },
    "lances": [
     {
@@ -1488,7 +1488,31 @@
      "id": "p5",
      "m": "5",
      "lado": "casa",
-     "txt": "GOLO DO LEÕES PORTO SALVO! Rúben Carrilho, o capitão, inaugura o marcador. Leões Porto Salvo 1-0 Portimonense."
+     "txt": "GOLO DO LEÕES PORTO SALVO! Depois de um ressalto, Rúben Carrilho desenhou um remate de calcanhar e bateu o guarda-redes. O capitão inaugura o marcador. Leões Porto Salvo 1-0 Portimonense."
+    },
+    {
+     "id": "p6",
+     "m": "7",
+     "lado": "fora",
+     "txt": "Andriy Dzyalo ficou isolado, mas Guilherme Cintra levou a melhor no frente a frente."
+    },
+    {
+     "id": "p7",
+     "m": "8",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Adaílton Souza, por falta."
+    },
+    {
+     "id": "p8",
+     "m": "11",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! O Portimonense perdeu a bola na própria defesa, Ré cruzou para o segundo poste e Pedro Santos finalizou com critério. Leões Porto Salvo 2-0 Portimonense."
+    },
+    {
+     "id": "p9",
+     "m": "11",
+     "lado": "fora",
+     "txt": "O Portimonense pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -1504,6 +1528,27 @@
      "lado": "casa",
      "parte": 1,
      "m": 4,
+     "n": 2
+    },
+    {
+     "id": "pfc13",
+     "lado": "casa",
+     "parte": 1,
+     "m": 6,
+     "n": 3
+    },
+    {
+     "id": "pff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 7,
+     "n": 1
+    },
+    {
+     "id": "pff12",
+     "lado": "fora",
+     "parte": 1,
+     "m": 10,
      "n": 2
     }
    ],
@@ -1555,7 +1600,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 1,
+    "golos": 2,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1674,7 +1719,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "11",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
      },
      {
@@ -1699,7 +1744,7 @@
       "num": "9",
       "nome": "PEDRO SANTOS",
       "e": "P",
-      "min": "",
+      "min": "11",
       "cart": "4",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
@@ -1726,7 +1771,7 @@
    },
    "fora": {
     "eq": "portimonense",
-    "golos": "",
+    "golos": 0,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1817,7 +1862,7 @@
       "nome": "ADAÍLTON SOUZA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "8",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
      },
@@ -3036,6 +3081,6 @@
    }
   }
  ],
- "ts": 1790451639831,
+ "ts": 1790452285499,
  "build": "20260915132319"
 }

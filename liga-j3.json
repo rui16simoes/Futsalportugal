@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -1465,9 +1465,23 @@
      "m": "1",
      "lado": "fora",
      "txt": "COMEÇOU O JOGO no Pavilhão dos Leões de Porto Salvo. Os leões procuram os primeiros pontos em casa; o Portimonense chega à 3ª jornada em prova."
+    },
+    {
+     "id": "p2",
+     "m": "2",
+     "lado": "fora",
+     "txt": "Remate perigoso de Gui, o Portimonense esteve perto do primeiro golo da partida."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "pfc11",
+     "lado": "casa",
+     "parte": 1,
+     "m": 2,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2997,6 +3011,6 @@
    }
   }
  ],
- "ts": 1790451272070,
+ "ts": 1790451351362,
  "build": "20260915132319"
 }

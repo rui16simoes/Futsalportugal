@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 1080
    },
    "lances": [
     {
@@ -1614,7 +1614,37 @@
      "id": "p26",
      "m": "35",
      "lado": "fora",
-     "txt": "GOLO DO PORTIMONENSE! Tomás Reis reduz novamente. Leões Porto Salvo 6-2 Portimonense."
+     "txt": "GOLO DO PORTIMONENSE! O 5x4 dos algarvios voltou a dar frutos e Tomás Reis, servido por Filipinho, reduziu. Leões Porto Salvo 6-2 Portimonense."
+    },
+    {
+     "id": "p27",
+     "m": "37",
+     "lado": "fora",
+     "txt": "GOLO DO PORTIMONENSE! A defesa do Leões Porto Salvo foi novamente apanhada em contrapé e Adaílton Souza aproveitou. Leões Porto Salvo 6-3 Portimonense."
+    },
+    {
+     "id": "p28",
+     "m": "37",
+     "lado": "casa",
+     "txt": "O Leões Porto Salvo pediu pausa técnica."
+    },
+    {
+     "id": "p29",
+     "m": "37",
+     "lado": "fora",
+     "txt": "Tomás Reis rematou à meia-volta e acertou na barra."
+    },
+    {
+     "id": "p30",
+     "m": "38",
+     "lado": "fora",
+     "txt": "Grande penalidade para o Portimonense: Pedro Santos cortou o cruzamento com o braço."
+    },
+    {
+     "id": "p31",
+     "m": "38",
+     "lado": "casa",
+     "txt": "André Rochato falhou a grande penalidade, com Guilherme Cintra a defender."
     }
    ],
    "faltas": [
@@ -1936,7 +1966,7 @@
    },
    "fora": {
     "eq": "portimonense",
-    "golos": 2,
+    "golos": 3,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -2010,7 +2040,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "35",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/13/16641613_filipinho_20260705020840.jpg"
      },
      {
@@ -2026,7 +2056,7 @@
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
       "e": "S",
-      "min": "",
+      "min": "37",
       "cart": "8",
       "ass": "34",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
@@ -3246,6 +3276,6 @@
    }
   }
  ],
- "ts": 1790455737109,
+ "ts": 1790456237857,
  "build": "20260915132319"
 }

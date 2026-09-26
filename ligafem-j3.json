@@ -222,6 +222,16 @@
       "cart": "",
       "ass": "",
       "foto": ""
+     },
+     {
+      "num": "99",
+      "nome": "ANASTASIIA TEREKH (GR)",
+      "e": "P",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    },
@@ -357,11 +367,31 @@
       "cart": "",
       "ass": "",
       "foto": ""
+     },
+     {
+      "num": "15",
+      "nome": "ALEXANDRA MELO (GR)",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
+     },
+     {
+      "num": "25",
+      "nome": "SIMONE PEDROSO (GR)",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1790431641651,
+ "ts": 1790431674852,
  "build": "20260915132319"
 }

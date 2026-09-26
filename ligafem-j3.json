@@ -35,7 +35,8 @@
     {
      "id": "f1",
      "m": 1,
-     "txt": "COMEÇOU O JOGO em Porto Salvo. Bola ao centro para o Leões Porto Salvo."
+     "txt": "COMEÇOU O JOGO em Porto Salvo. Bola ao centro para o Leões Porto Salvo.",
+     "lado": "casa"
     },
     {
      "id": "f2",
@@ -421,6 +422,6 @@
    }
   }
  ],
- "ts": 1790432508168,
+ "ts": 1790432535371,
  "build": "20260915132319"
 }

@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -169,6 +169,12 @@
      "m": 28,
      "lado": "fora",
      "txt": "Remate forte de Fifó para grande defesa de Terekh."
+    },
+    {
+     "id": "f23",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Ana Oliveira atira ao poste da baliza de Terekh."
     }
    ],
    "faltas": [
@@ -547,6 +553,6 @@
    }
   }
  ],
- "ts": 1790435510778,
+ "ts": 1790435667740,
  "build": "20260915132319"
 }

@@ -1457,10 +1457,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 60
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "p1",
+     "m": "1",
+     "lado": "",
+     "txt": "COMEÇOU O JOGO no Pavilhão dos Leões de Porto Salvo. Os leões procuram os primeiros pontos em casa; o Portimonense chega à 3ª jornada em prova."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -1518,7 +1524,7 @@
      {
       "num": "1",
       "nome": "GUILHERME CINTRA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1545,7 +1551,7 @@
      {
       "num": "6",
       "nome": "RÚBEN CARRILHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1572,7 +1578,7 @@
      {
       "num": "4",
       "nome": "LEONILDO INJAI",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1626,7 +1632,7 @@
      {
       "num": "14",
       "nome": "RÉ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1653,7 +1659,7 @@
      {
       "num": "9",
       "nome": "PEDRO SANTOS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1689,7 +1695,7 @@
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1707,7 +1713,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1725,7 +1731,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1752,7 +1758,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1761,7 +1767,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1797,7 +1803,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2991,6 +2997,6 @@
    }
   }
  ],
- "ts": 1790450940163,
+ "ts": 1790451186406,
  "build": "20260915132319"
 }

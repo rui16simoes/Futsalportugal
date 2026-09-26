@@ -392,14 +392,13 @@ const DAYS = {
       ]},
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 3', games:[
-        { time:'18:30', home:'FC Famalicão', away:'Eléctrico FC', status:'done', score:[3,1], venue:'Pav. Municipal Lameiras' },
+        { time:'18:30', home:'FC Famalicão', away:'Eléctrico FC', status:'done', score:[3,1], hscorers:["Ruizinho 17'","Daniel Silva 32'","Ruizinho 33'"], ascorers:["Diogo Basílio 2'"], venue:'Pav. Municipal Lameiras' },
         { time:'20:30', home:'CR Leões Porto Salvo', away:'Portimonense SC', status:'done', score:[7,3], hscorers:["Rúben Carrilho 5'","Pedro Santos 11'","Ré 12'","Isaías Furtado 22'","Guilherme Cintra 33'","Ré 35'","Francisco Oliveira 40'"], ascorers:["Gui 34'","Tomás Reis 35'","Adaílton Souza 37'"], venue:'Pav. do Leões Porto Salvo' },
       ]},
       { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
         color:'#f43f5e', flag:'🇵🇹', round:'Jornada 3 · Feminino', games:[
         { time:'15:00', home:'CR Leões Porto Salvo', away:'SL Benfica', status:'done', score:[1,1], hscorers:["Leninha 22'"], ascorers:["Fifó 19'"], venue:'Pav. do Leões Porto Salvo' },
         { time:'16:00', home:'GD Árvore', away:'Atlético CP', status:'done', score:[0,2], hscorers:[], ascorers:["Catarina Ribeiro 3'","Beatriz Sanheiro 27'"], venue:'Pav. do C.C. das Caxinas' },
-        { time:'17:00', home:'SCU Torreense', away:'Novasemente GD', status:'', score:null, venue:'Pav. Externato de Penafirme' },
         { time:'18:00', home:'Santa Luzia FC', away:'Maia FC/Mercainox', status:'done', score:[0,0], venue:'Pav. Municipal José Natário' },
         { time:'21:00', home:'Feijó/LTintas', away:"GCR Nun'álvares", status:'done', score:[1,7], venue:'Pav. Escola Sec. Romeu Correia' },
       ]},
@@ -444,8 +443,22 @@ const DAYS = {
         { label:'Série C', games:[
           { time:'16:00', home:'SCR Gaeirense', away:'CDR Águias Unidas/PCF', status:'done', score:[0,3], venue:'Pav. Gimnodesportivo SCR Gaeirense' },
           { time:'16:00', home:'SC Vila Verde', away:'CDR Os Vinhais', status:'done', score:[2,3], venue:'Pav. António Mateus | Vila Verde' },
-          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
           { time:'19:00', home:'SR Manjoeira', away:'CA S. Marta Pinhal', status:'done', score:[6,2], venue:'Pav. António Feliciano Bastos' },
+        ]},
+      ]},
+      { comp:'CN Futsal Feminino II Divisão', link:LINKS.cn2divF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 1 · Feminino', series:[
+        { label:'Série Norte', games:[
+          { time:'', home:'ACD Santo Estêvão', away:'CD Aves 1930', status:'done', score:[1,4], venue:'Pav. Gimnodesportivo Municipal Chaves' },
+          { time:'', home:'Escola DC Gondomar', away:'Futsal Campo / Gil Vicente FC', status:'done', score:[4,1], venue:'Pav. Municipal Baguim Do Monte' },
+          { time:'', home:'OBSC Gresart', away:'SC Braga', status:'done', score:[0,3], venue:'Recinto A Indicar' },
+          { time:'', home:'Casa Povo Freixo', away:'Matosinhos FC', status:'', score:null, venue:'Pav. E. Eb - 2,3 S.Julião Do Freixo' },
+        ]},
+        { label:'Série Sul', games:[
+          { time:'', home:'SRB União Parchalense', away:'ACDR Arneiros', status:'done', score:[3,2], venue:'Pav. Escola Eb 2/3 Parchal' },
+          { time:'', home:'Juventude S. Campinense', away:'Juventude Ouriense', status:'done', score:[4,1], venue:'Pav. Municipal Prof. Joaquim Vairinhos' },
+          { time:'', home:'Sporting CP', away:'UA Povoense', status:'', score:null, venue:'Pav. João Rocha' },
+          { time:'', home:'Norte E Soure CSCD Paleão', away:'CRIA', status:'', score:null, venue:'Pav. Desportivo Encosta Do Sol' },
         ]},
       ]},
     ]
@@ -461,6 +474,10 @@ const DAYS = {
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 3', games:[
         { time:'16:45', home:'Sporting CP', away:'SL Benfica', status:'', score:null, venue:'Pavilhão João Rocha' },
+      ]},
+      { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
+        color:'#f43f5e', flag:'🇵🇹', round:'Jornada 3 · Feminino', games:[
+        { time:'18:00', home:'SCU Torreense', away:'Novasemente GD', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
       ]},
       { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 3', games:[
@@ -488,6 +505,7 @@ const DAYS = {
         ]},
         { label:'Série C', games:[
           { time:'11:00', home:'Sonâmbulos FLA', away:'CDC Porto Moniz', status:'', score:null, venue:'Pav. Desp. Municipal Luz Tavira' },
+          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'', score:null, venue:'Pav. do Leões Porto Salvo' },
           { time:'18:00', home:'CRC Quinta Lombos "B"', away:"GD EB D. João I / Ópticafernandes", status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
           { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'', score:null, venue:'Pav. Nº 2 do SLB' },
         ]},

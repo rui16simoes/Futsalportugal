@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300
+    "acc": 600
    },
    "lances": [
     {
@@ -1579,6 +1579,18 @@
      "m": "25",
      "lado": "fora",
      "txt": "Luiggi Baptista rematou rasteiro e Guilherme Cintra respondeu com nova defesa."
+    },
+    {
+     "id": "p21",
+     "m": "29",
+     "lado": "",
+     "txt": "A partida atravessa uma fase de poucas oportunidades para qualquer uma das equipas."
+    },
+    {
+     "id": "p22",
+     "m": "30",
+     "lado": "fora",
+     "txt": "O Portimonense pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -1672,6 +1684,13 @@
      "parte": 2,
      "m": 23,
      "n": 3
+    },
+    {
+     "id": "pfc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 26,
+     "n": 1
     }
    ],
    "gp": {
@@ -3203,6 +3222,6 @@
    }
   }
  ],
- "ts": 1790454889753,
+ "ts": 1790455364909,
  "build": "20260915132319"
 }

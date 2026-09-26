@@ -120,7 +120,7 @@
      "id": "f14",
      "m": 19,
      "lado": "fora",
-     "txt": "GOLO DO BENFICA! Canto batido na esquerda do ataque e Fifó rematou de muito longe; a bola desviou em Helena Nunes e enganou Terekh. Leões Porto Salvo 0-1 Benfica."
+     "txt": "GOLO DO BENFICA! Canto batido na esquerda do ataque, Fifó remata de muito longe, a bola desvia em Leninha e faz o 0-1. Golo de Fifó."
     }
    ],
    "faltas": [
@@ -485,6 +485,6 @@
    }
   }
  ],
- "ts": 1790433677566,
+ "ts": 1790433723674,
  "build": "20260915132319"
 }

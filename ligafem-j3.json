@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -157,6 +157,12 @@
      "m": 27,
      "lado": "casa",
      "txt": "Dricas aparece na cara de Ana Catarina Pereira mas, de pé esquerdo e já dentro da área, atira ao lado."
+    },
+    {
+     "id": "f21",
+     "m": 28,
+     "lado": "casa",
+     "txt": "Falta para o Leões e cartão amarelo para Leninha."
     }
    ],
    "faltas": [
@@ -207,6 +213,13 @@
      "lado": "fora",
      "parte": 2,
      "m": 23,
+     "n": 1
+    },
+    {
+     "id": "ffc21",
+     "lado": "casa",
+     "parte": 2,
+     "m": 28,
      "n": 1
     }
    ],
@@ -331,7 +344,7 @@
       "nome": "HELENA NUNES",
       "e": "P",
       "min": "22",
-      "cart": "",
+      "cart": "28",
       "ass": "",
       "foto": ""
      },
@@ -528,6 +541,6 @@
    }
   }
  ],
- "ts": 1790435445633,
+ "ts": 1790435485573,
  "build": "20260915132319"
 }

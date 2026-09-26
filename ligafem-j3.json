@@ -40,24 +40,24 @@
     {
      "id": "f2",
      "m": 1,
-     "txt": "Logo aos 40 segundos: Janice Silva recebeu na zona de pivot, rodou bem e rematou para defesa da guarda-redes do Leões."
+     "txt": "Primeiro aviso do Benfica, aos 40 segundos: Janice Silva recebeu na zona de pivot, rodou bem e rematou para defesa da guarda-redes do Leões."
     },
     {
      "id": "f3",
      "m": 4,
-     "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força: a bola saiu ao lado da baliza de Ana Catarina.",
+     "txt": "Resposta do Leões Porto Salvo: Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força, mas a bola saiu ao lado da baliza de Ana Catarina.",
      "lado": "casa"
     },
     {
      "id": "f4",
      "m": 5,
-     "txt": "Remate cruzado de Maria Pereira, da ala direita do ataque do Benfica: a bola passou perto do poste direito da baliza de Terekh.",
+     "txt": "Novo remate do Benfica: Maria Pereira atirou cruzado da ala direita e a bola passou perto do poste direito da baliza de Terekh.",
      "lado": "fora"
     },
     {
      "id": "f5",
      "m": 5,
-     "txt": "Grande trabalho de Ana Oliveira pelo lado do Benfica, mas na hora do remate apareceu Inês Padinha com um corte magistral.",
+     "txt": "Grande trabalho de Ana Oliveira pelo Benfica, mas na hora do remate apareceu Inês Padinha, do Leões, com um corte magistral.",
      "lado": "fora"
     },
     {
@@ -408,6 +408,6 @@
    }
   }
  ],
- "ts": 1790432260321,
+ "ts": 1790432298261,
  "build": "20260915132319"
 }

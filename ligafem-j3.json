@@ -27,10 +27,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 1018.977,
-    "desde": 1790433279683
+    "acc": 960
    },
    "lances": [
     {
@@ -80,6 +79,30 @@
      "m": 10,
      "txt": "Canto batido na esquerda do ataque: Fifó atrasou para Andreza Queiroz, que rematou, e Janice Silva ainda tentou o golo de calcanhar — a bola saiu ligeiramente ao lado.",
      "lado": "fora"
+    },
+    {
+     "id": "f8",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Falta de Cátia Morgado, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
+    },
+    {
+     "id": "f9",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Mais um lance perigoso de Janice Silva, mas a bola voltou a sair ao lado."
+    },
+    {
+     "id": "f10",
+     "m": 14,
+     "lado": "fora",
+     "txt": "Falta de Ana Oliveira, a terceira do Benfica nesta parte, e cartão amarelo para a jogadora."
+    },
+    {
+     "id": "f11",
+     "m": 16,
+     "lado": "fora",
+     "txt": "Fifó roubou a bola a Lívia Andrade à entrada da área e serviu Angélica Alves, mas Terekh levou a melhor."
     }
    ],
    "faltas": [
@@ -103,6 +126,20 @@
      "parte": 1,
      "m": 7,
      "n": 2
+    },
+    {
+     "id": "ffc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 11,
+     "n": 2
+    },
+    {
+     "id": "fff13",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 3
     }
    ],
    "gp": {
@@ -208,7 +245,7 @@
       "nome": "CÁTIA MORGADO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "11",
       "ass": "",
       "foto": ""
      },
@@ -397,7 +434,7 @@
       "nome": "ANA OLIVEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "14",
       "ass": "",
       "foto": ""
      },
@@ -423,6 +460,6 @@
    }
   }
  ],
- "ts": 1790433282185,
+ "ts": 1790433358718,
  "build": "20260915132319"
 }

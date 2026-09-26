@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 660
    },
    "lances": [
     {
@@ -175,6 +175,12 @@
      "m": 29,
      "lado": "fora",
      "txt": "Ana Oliveira atira ao poste da baliza de Terekh."
+    },
+    {
+     "id": "f24",
+     "m": 31,
+     "lado": "fora",
+     "txt": "Falta de Angélica, a segunda do Benfica nesta parte."
     }
    ],
    "faltas": [
@@ -233,6 +239,13 @@
      "parte": 2,
      "m": 28,
      "n": 1
+    },
+    {
+     "id": "fff22",
+     "lado": "fora",
+     "parte": 2,
+     "m": 31,
+     "n": 2
     }
    ],
    "gp": {
@@ -553,6 +566,6 @@
    }
   }
  ],
- "ts": 1790435667740,
+ "ts": 1790435934793,
  "build": "20260915132319"
 }

@@ -27,9 +27,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200
+    "estado": "parado",
+    "parte": 2,
+    "acc": 60
    },
    "lances": [
     {
@@ -127,6 +127,12 @@
      "m": 20,
      "lado": "",
      "txt": "INTERVALO EM PORTO SALVO. Leões Porto Salvo 0-1 Benfica."
+    },
+    {
+     "id": "f16",
+     "m": 21,
+     "lado": "fora",
+     "txt": "Inicia a 2.ª parte. Bola ao centro para o Benfica."
     }
    ],
    "faltas": [
@@ -491,6 +497,6 @@
    }
   }
  ],
- "ts": 1790433813331,
+ "ts": 1790434597837,
  "build": "20260915132319"
 }

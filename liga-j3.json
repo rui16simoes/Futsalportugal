@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 300
    },
    "lances": [
     {
@@ -1573,6 +1573,12 @@
      "m": "22",
      "lado": "casa",
      "txt": "GOLO DO LEÕES PORTO SALVO! Na sequência de um pontapé livre, Isaías Furtado rematou fortíssimo e dilatou a vantagem. Leões Porto Salvo 4-0 Portimonense."
+    },
+    {
+     "id": "p20",
+     "m": "25",
+     "lado": "fora",
+     "txt": "Luiggi Baptista rematou rasteiro e Guilherme Cintra respondeu com nova defesa."
     }
    ],
    "faltas": [
@@ -3197,6 +3203,6 @@
    }
   }
  ],
- "ts": 1790454612443,
+ "ts": 1790454889753,
  "build": "20260915132319"
 }

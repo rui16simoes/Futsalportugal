@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 240
    },
    "lances": [
     {
@@ -1471,6 +1471,18 @@
      "m": "2",
      "lado": "fora",
      "txt": "Remate perigoso de Gui, o Portimonense esteve perto do primeiro golo da partida."
+    },
+    {
+     "id": "p3",
+     "m": "4",
+     "lado": "casa",
+     "txt": "Natan Minatti tirou um adversário da frente com uma boa finta, mas o remate saiu sem força."
+    },
+    {
+     "id": "p4",
+     "m": "4",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Pedro Santos, por falta."
     }
    ],
    "faltas": [
@@ -1480,6 +1492,13 @@
      "parte": 1,
      "m": 2,
      "n": 1
+    },
+    {
+     "id": "pfc12",
+     "lado": "casa",
+     "parte": 1,
+     "m": 4,
+     "n": 2
     }
    ],
    "gp": {
@@ -1675,7 +1694,7 @@
       "nome": "PEDRO SANTOS",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "4",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/72/16605472_pedro_santos_20260908152132.jpg"
      },
@@ -3011,6 +3030,6 @@
    }
   }
  ],
- "ts": 1790451351362,
+ "ts": 1790451557729,
  "build": "20260915132319"
 }

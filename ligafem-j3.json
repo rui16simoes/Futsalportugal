@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 1020
    },
    "lances": [
     {
@@ -199,6 +199,12 @@
      "m": 35,
      "lado": "casa",
      "txt": "Leninha recebe o segundo cartão amarelo e é expulsa. O Benfica fica a jogar com mais uma durante dois minutos, ou até conseguir marcar nesse período."
+    },
+    {
+     "id": "f28",
+     "m": 37,
+     "lado": "casa",
+     "txt": "Falta de Padinha: o Leões chega às três faltas nesta parte."
     }
    ],
    "faltas": [
@@ -285,6 +291,13 @@
      "parte": 2,
      "m": "",
      "n": 2
+    },
+    {
+     "id": "ffc23",
+     "lado": "casa",
+     "parte": 2,
+     "m": 37,
+     "n": 3
     }
    ],
    "gp": {
@@ -605,6 +618,6 @@
    }
   }
  ],
- "ts": 1790436600102,
+ "ts": 1790436761194,
  "build": "20260915132319"
 }

@@ -983,9 +983,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200
+    "estado": "parado",
+    "parte": 2,
+    "acc": 720
    },
    "lances": [
     {
@@ -1011,6 +1011,18 @@
      "m": "20",
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "e5",
+     "m": "21",
+     "lado": "",
+     "txt": "Recomeço da partida."
+    },
+    {
+     "id": "e6",
+     "m": "32",
+     "lado": "casa",
+     "txt": "GOLO DO FAMALICÃO! Daniel Silva coloca os famalicenses na frente. FC Famalicão 2-1 Eléctrico."
     }
    ],
    "faltas": [
@@ -1084,7 +1096,7 @@
    },
    "casa": {
     "eq": "famalicao",
-    "golos": 1,
+    "golos": 2,
     "capitao": "RUIZINHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
@@ -1156,7 +1168,7 @@
       "num": "7",
       "nome": "DANIEL SILVA",
       "e": "S",
-      "min": "",
+      "min": "32",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/67/09/16756709_daniel_silva_20260812171047.png"
@@ -2912,6 +2924,6 @@
    }
   }
  ],
- "ts": 1790445982388,
+ "ts": 1790448060761,
  "build": "20260915132319"
 }

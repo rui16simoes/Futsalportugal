@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -115,6 +115,12 @@
      "m": 18,
      "lado": "casa",
      "txt": "Falta de Érica Ferreira sobre Ana Catarina: é a terceira do Leões nesta primeira parte."
+    },
+    {
+     "id": "f14",
+     "m": 19,
+     "lado": "fora",
+     "txt": "GOLO DO BENFICA! Canto batido na esquerda do ataque e Fifó rematou de muito longe; a bola desviou em Helena Nunes e enganou Terekh. Leões Porto Salvo 0-1 Benfica."
     }
    ],
    "faltas": [
@@ -344,7 +350,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": "",
+    "golos": 1,
     "capitao": "",
     "treinador": "MARIA MARTINS",
     "trFoto": "",
@@ -389,7 +395,7 @@
       "num": "9",
       "nome": "FIFÓ",
       "e": "P",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": ""
@@ -479,6 +485,6 @@
    }
   }
  ],
- "ts": 1790433572615,
+ "ts": 1790433677566,
  "build": "20260915132319"
 }

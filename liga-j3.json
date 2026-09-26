@@ -985,13 +985,19 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 180
    },
    "lances": [
     {
      "id": "e1",
      "m": 1,
      "txt": "COMEÇOU O JOGO nas Lameiras. O Famalicão soma um ponto em dois jogos; o Eléctrico chega a Famalicão com duas vitórias em dois jogos."
+    },
+    {
+     "id": "e2",
+     "m": 3,
+     "lado": "fora",
+     "txt": "GOLO DO ELÉCTRICO! Os pontessorenses adiantam-se no marcador logo aos três minutos. FC Famalicão 0-1 Eléctrico."
     }
    ],
    "faltas": [],
@@ -1205,7 +1211,7 @@
    },
    "fora": {
     "eq": "electrico",
-    "golos": "",
+    "golos": 1,
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -2871,6 +2877,6 @@
    }
   }
  ],
- "ts": 1790444699455,
+ "ts": 1790444957401,
  "build": "20260915132319"
 }

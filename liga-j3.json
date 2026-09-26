@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 900
    },
    "lances": [
     {
@@ -1597,6 +1597,18 @@
      "m": "33",
      "lado": "casa",
      "txt": "GOLO DO LEÕES PORTO SALVO! Guilherme Cintra aproveitou o 5x4 do Portimonense e rematou de longe para a baliza deserta. Leões Porto Salvo 5-0 Portimonense."
+    },
+    {
+     "id": "p24",
+     "m": "34",
+     "lado": "fora",
+     "txt": "GOLO DO PORTIMONENSE! Gui recebeu ao meio, fez uma simulação e rematou de pé esquerdo para o primeiro golo dos algarvios, assistido por Adaílton Souza. Leões Porto Salvo 5-1 Portimonense."
+    },
+    {
+     "id": "p25",
+     "m": "35",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Ré bisa, com assistência de Isaías Furtado. Leões Porto Salvo 6-1 Portimonense."
     }
    ],
    "faltas": [
@@ -1747,7 +1759,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 5,
+    "golos": 6,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1864,7 +1876,7 @@
       "num": "14",
       "nome": "RÉ",
       "e": "P",
-      "min": "12",
+      "min": "12, 35",
       "cart": "",
       "ass": "11",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
@@ -1911,14 +1923,14 @@
       "e": "S",
       "min": "22",
       "cart": "",
-      "ass": "",
+      "ass": "35",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
      }
     ]
    },
    "fora": {
     "eq": "portimonense",
-    "golos": 0,
+    "golos": 1,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1981,7 +1993,7 @@
       "num": "51",
       "nome": "GUI",
       "e": "S",
-      "min": "",
+      "min": "34",
       "cart": "18",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/36/57/16653657_gui_20260709195957.png"
@@ -2010,7 +2022,7 @@
       "e": "S",
       "min": "",
       "cart": "8",
-      "ass": "",
+      "ass": "34",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
      },
      {
@@ -3228,6 +3240,6 @@
    }
   }
  ],
- "ts": 1790455597909,
+ "ts": 1790455688757,
  "build": "20260915132319"
 }

@@ -1457,7 +1457,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -1567,6 +1567,12 @@
      "m": "21",
      "lado": "fora",
      "txt": "Cartão amarelo para Vitinho, por falta."
+    },
+    {
+     "id": "p19",
+     "m": "22",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Na sequência de um pontapé livre, Isaías Furtado rematou fortíssimo e dilatou a vantagem. Leões Porto Salvo 4-0 Portimonense."
     }
    ],
    "faltas": [
@@ -1696,7 +1702,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 3,
+    "golos": 4,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1858,7 +1864,7 @@
       "num": "99",
       "nome": "ISAÍAS FURTADO",
       "e": "S",
-      "min": "",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
@@ -3177,6 +3183,6 @@
    }
   }
  ],
- "ts": 1790454382288,
+ "ts": 1790454481688,
  "build": "20260915132319"
 }

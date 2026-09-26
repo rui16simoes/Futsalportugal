@@ -1447,10 +1447,10 @@
    "data": "26 de setembro de 2026",
    "hora": "20h30",
    "local": "Pavilhão dos Leões de Porto Salvo",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "LUÍS SANTOS",
+   "arb2": "RICARDO FILIPE",
+   "arb3": "EDUARDO COELHO",
+   "cron": "FÁBIO CARAPUÇA",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -1511,14 +1511,14 @@
    "casa": {
     "eq": "leoes",
     "golos": "",
-    "capitao": "",
+    "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "GUILHERME CINTRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1527,7 +1527,7 @@
      {
       "num": "16",
       "nome": "RODRIGO PRAZERES (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1536,7 +1536,7 @@
      {
       "num": "21",
       "nome": "DANIEL OSUJI (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1545,7 +1545,7 @@
      {
       "num": "6",
       "nome": "RÚBEN CARRILHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1554,7 +1554,7 @@
      {
       "num": "29",
       "nome": "HENRIQUE RODRIGUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1563,7 +1563,7 @@
      {
       "num": "70",
       "nome": "MACHADO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1572,7 +1572,7 @@
      {
       "num": "4",
       "nome": "LEONILDO INJAI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1581,7 +1581,7 @@
      {
       "num": "53",
       "nome": "DIEGO GABRIEL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1590,7 +1590,7 @@
      {
       "num": "7",
       "nome": "BRUNO SÁ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1599,7 +1599,7 @@
      {
       "num": "8",
       "nome": "BRUNO MARQUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1608,7 +1608,7 @@
      {
       "num": "10",
       "nome": "PEDRO MARQUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1617,7 +1617,7 @@
      {
       "num": "11",
       "nome": "NATAN MINATTI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1626,7 +1626,7 @@
      {
       "num": "14",
       "nome": "RÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1635,7 +1635,7 @@
      {
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1644,7 +1644,7 @@
      {
       "num": "30",
       "nome": "RICARDINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1653,7 +1653,7 @@
      {
       "num": "9",
       "nome": "PEDRO SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1662,7 +1662,7 @@
      {
       "num": "25",
       "nome": "DAVY MENDES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1671,7 +1671,7 @@
      {
       "num": "99",
       "nome": "ISAÍAS FURTADO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1682,14 +1682,14 @@
    "fora": {
     "eq": "portimonense",
     "golos": "",
-    "capitao": "",
+    "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
     "jogadores": [
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1698,7 +1698,7 @@
      {
       "num": "13",
       "nome": "PEDRO AFONSO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1707,7 +1707,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1716,7 +1716,7 @@
      {
       "num": "18",
       "nome": "RUI MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1725,7 +1725,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1734,7 +1734,7 @@
      {
       "num": "7",
       "nome": "PEDRO SENRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1743,7 +1743,7 @@
      {
       "num": "51",
       "nome": "GUI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1752,7 +1752,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1761,7 +1761,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1770,7 +1770,7 @@
      {
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1779,7 +1779,7 @@
      {
       "num": "70",
       "nome": "MONTANHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1788,7 +1788,7 @@
      {
       "num": "88",
       "nome": "JOÃO ALVES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1797,7 +1797,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1806,7 +1806,7 @@
      {
       "num": "11",
       "nome": "AFONSO SERRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1815,7 +1815,7 @@
      {
       "num": "17",
       "nome": "ANDRIY DZYALO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1824,11 +1824,21 @@
      {
       "num": "29",
       "nome": "LUIGGI BAPTISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
+     },
+     {
+      "num": 16,
+      "nome": "SANTIAGO CUSTÓDIO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -2971,6 +2981,6 @@
    }
   }
  ],
- "ts": 1790450158933,
+ "ts": 1790450196143,
  "build": "20260915132319"
 }

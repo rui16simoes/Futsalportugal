@@ -1463,7 +1463,7 @@
     {
      "id": "p1",
      "m": "1",
-     "lado": "",
+     "lado": "fora",
      "txt": "COMEÇOU O JOGO no Pavilhão dos Leões de Porto Salvo. Os leões procuram os primeiros pontos em casa; o Portimonense chega à 3ª jornada em prova."
     }
    ],
@@ -2997,6 +2997,6 @@
    }
   }
  ],
- "ts": 1790451186406,
+ "ts": 1790451267808,
  "build": "20260915132319"
 }

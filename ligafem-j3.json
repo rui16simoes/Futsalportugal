@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -85,6 +85,12 @@
      "m": 11,
      "lado": "casa",
      "txt": "Falta de Cátia Morgado, a segunda do Leões nesta parte, e cartão amarelo para a jogadora."
+    },
+    {
+     "id": "f9",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Mais um lance perigoso de Janice Silva, mas a bola voltou a sair ao lado."
     }
    ],
    "faltas": [
@@ -435,6 +441,6 @@
    }
   }
  ],
- "ts": 1790432746807,
+ "ts": 1790432805459,
  "build": "20260915132319"
 }

@@ -29,7 +29,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -46,6 +46,11 @@
      "id": "f3",
      "m": 4,
      "txt": "Kika conduziu pelo meio do terreno e, à entrada dos dez metros, disparou com força: a bola saiu ao lado da baliza de Ana Catarina."
+    },
+    {
+     "id": "f4",
+     "m": 5,
+     "txt": "Remate cruzado de Maria Pereira, da ala direita do ataque do Benfica: a bola passou perto do poste direito da baliza de Terekh."
     }
    ],
    "faltas": [],
@@ -221,7 +226,7 @@
      },
      {
       "num": "99",
-      "nome": "ANASTASIIA TEREKH",
+      "nome": "ANASTASIIA TEREKH (GR)",
       "e": "P",
       "min": "",
       "cart": "",
@@ -230,7 +235,7 @@
      },
      {
       "num": "99",
-      "nome": "ANASTASIIA TEREKH (GR)",
+      "nome": "ANASTASIIA TEREKH",
       "e": "P",
       "min": "",
       "cart": "",
@@ -330,7 +335,16 @@
      },
      {
       "num": "15",
-      "nome": "ALEXANDRA MELO",
+      "nome": "ALEXANDRA MELO (GR)",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": ""
+     },
+     {
+      "num": "17",
+      "nome": "ANGÉLICA ALVES",
       "e": "S",
       "min": "",
       "cart": "",
@@ -357,16 +371,7 @@
      },
      {
       "num": "25",
-      "nome": "SIMONE PEDROSO",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "17",
-      "nome": "ANGÉLICA ALVES",
+      "nome": "SIMONE PEDROSO (GR)",
       "e": "S",
       "min": "",
       "cart": "",
@@ -375,7 +380,7 @@
      },
      {
       "num": "15",
-      "nome": "ALEXANDRA MELO (GR)",
+      "nome": "ALEXANDRA MELO",
       "e": "S",
       "min": "",
       "cart": "",
@@ -385,7 +390,7 @@
      },
      {
       "num": "25",
-      "nome": "SIMONE PEDROSO (GR)",
+      "nome": "SIMONE PEDROSO",
       "e": "S",
       "min": "",
       "cart": "",
@@ -397,6 +402,6 @@
    }
   }
  ],
- "ts": 1790431781998,
+ "ts": 1790431853003,
  "build": "20260915132319"
 }

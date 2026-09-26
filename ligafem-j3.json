@@ -109,6 +109,12 @@
      "m": 18,
      "lado": "fora",
      "txt": "Janice Silva voltou a recuperar a bola, mas Anastasiia Terekh apareceu outra vez a defender."
+    },
+    {
+     "id": "f13",
+     "m": 18,
+     "lado": "casa",
+     "txt": "Falta de Érica Ferreira sobre Ana Catarina: é a terceira do Leões nesta primeira parte."
     }
    ],
    "faltas": [
@@ -145,6 +151,13 @@
      "lado": "fora",
      "parte": 1,
      "m": 14,
+     "n": 3
+    },
+    {
+     "id": "ffc13",
+     "lado": "casa",
+     "parte": 1,
+     "m": 18,
      "n": 3
     }
    ],
@@ -466,6 +479,6 @@
    }
   }
  ],
- "ts": 1790433549615,
+ "ts": 1790433572615,
  "build": "20260915132319"
 }

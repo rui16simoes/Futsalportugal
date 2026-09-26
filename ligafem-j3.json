@@ -163,6 +163,12 @@
      "m": 28,
      "lado": "casa",
      "txt": "Falta para o Leões e cartão amarelo para Leninha."
+    },
+    {
+     "id": "f22",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Remate forte de Fifó para grande defesa de Terekh."
     }
    ],
    "faltas": [
@@ -541,6 +547,6 @@
    }
   }
  ],
- "ts": 1790435485573,
+ "ts": 1790435510778,
  "build": "20260915132319"
 }

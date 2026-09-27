@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -2206,6 +2206,12 @@
      "m": "4",
      "lado": "fora",
      "txt": "GOLO DO BENFICA! Resposta imediata e quase decalcada: na sequência de uma reposição lateral, Arthur serviu Silvestre Ferreira, que apareceu com espaço e rematou fortíssimo para o empate. Sporting 1-1 Benfica."
+    },
+    {
+     "id": "s6",
+     "m": "5",
+     "lado": "fora",
+     "txt": "Arthur levantou o pavilhão com uma finta de grande nível, ganhou espaço para entrar na área, mas o passe para o colega não saiu."
     }
    ],
    "faltas": [],
@@ -3333,6 +3339,6 @@
    }
   }
  ],
- "ts": 1790524719850,
+ "ts": 1790524836851,
  "build": "20260915132319"
 }

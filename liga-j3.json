@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 420
    },
    "lances": [
     {
@@ -2325,13 +2325,13 @@
      "id": "s24",
      "m": "26",
      "lado": "fora",
-     "txt": "GOLO DO BENFICA! Edmilson Kutchy, assistido por Arthur, coloca os encarnados na frente. Sporting 1-2 Benfica."
+     "txt": "GOLO DO BENFICA! O Sporting jogava com guarda-redes subido e o Benfica marcou em contra-ataque: Arthur serviu Edmilson Kutchy, que pôs os encarnados na frente. Sporting 1-2 Benfica."
     },
     {
-     "id": "s25",
-     "m": "26",
-     "lado": "fora",
-     "txt": "GOLO DO BENFICA! Kutchy bisa logo a seguir, de novo servido por Arthur. Sporting 1-3 Benfica."
+     "id": "s26",
+     "m": "27",
+     "lado": "casa",
+     "txt": "O Sporting já teve duas ocasiões claras para empatar, mas Léo Gugiel continua em grande."
     }
    ],
    "faltas": [],
@@ -2554,7 +2554,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": 3,
+    "golos": 2,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -2646,14 +2646,14 @@
       "e": "P",
       "min": "",
       "cart": "3",
-      "ass": "4, 26, 26",
+      "ass": "4, 26",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
       "e": "P",
-      "min": "26, 26",
+      "min": "26",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/96/38/269638_edmilson_kutchy_20250919142810.jpg"
@@ -3459,6 +3459,6 @@
    }
   }
  ],
- "ts": 1790528455521,
+ "ts": 1790528626323,
  "build": "20260915132319"
 }

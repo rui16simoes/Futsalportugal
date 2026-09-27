@@ -2200,6 +2200,12 @@
      "m": "4",
      "lado": "casa",
      "txt": "GOLO DO SPORTING! Na sequência de um canto marcado por Alex Merlim, Diogo Santos apareceu com espaço no meio, a uns 10 metros, e rematou forte para abrir o marcador. Sporting 1-0 Benfica."
+    },
+    {
+     "id": "s5",
+     "m": "4",
+     "lado": "fora",
+     "txt": "GOLO DO BENFICA! Resposta imediata e quase decalcada: na sequência de uma reposição lateral, Arthur serviu Silvestre Ferreira, que apareceu com espaço e rematou fortíssimo para o empate. Sporting 1-1 Benfica."
     }
    ],
    "faltas": [],
@@ -2422,7 +2428,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": 0,
+    "golos": 1,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -2485,7 +2491,7 @@
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
       "e": "S",
-      "min": "",
+      "min": "4",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/84/170984_silvestre_ferreira_20250919142920.jpg"
@@ -2514,7 +2520,7 @@
       "e": "P",
       "min": "",
       "cart": "3",
-      "ass": "",
+      "ass": "4",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
      {
@@ -3327,6 +3333,6 @@
    }
   }
  ],
- "ts": 1790524626848,
+ "ts": 1790524719850,
  "build": "20260915132319"
 }

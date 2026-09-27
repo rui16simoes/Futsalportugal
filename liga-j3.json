@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -2266,6 +2266,18 @@
      "m": "18",
      "lado": "casa",
      "txt": "Cartão amarelo para Rúben Teixeira."
+    },
+    {
+     "id": "s16",
+     "m": "19",
+     "lado": "casa",
+     "txt": "Rúben Teixeira apareceu isolado perante Léo Gugiel, mas o guarda-redes levou a melhor."
+    },
+    {
+     "id": "s17",
+     "m": "19",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Rocha."
     }
    ],
    "faltas": [],
@@ -2480,7 +2492,7 @@
       "nome": "ROCHA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "19",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      }
@@ -3393,6 +3405,6 @@
    }
   }
  ],
- "ts": 1790526445560,
+ "ts": 1790526627746,
  "build": "20260915132319"
 }

@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 1080
    },
    "lances": [
     {
@@ -2248,6 +2248,24 @@
      "m": "13",
      "lado": "casa",
      "txt": "Tomás Paçó ficou lesionado, aparentemente com um dedo deslocado."
+    },
+    {
+     "id": "s13",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Bruno Pinto apareceu com espaço na área, descaído para a lateral, mas Léo Gugiel defendeu os dois remates."
+    },
+    {
+     "id": "s14",
+     "m": "16",
+     "lado": "fora",
+     "txt": "O Benfica pediu pausa técnica."
+    },
+    {
+     "id": "s15",
+     "m": "18",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Rúben Teixeira."
     }
    ],
    "faltas": [],
@@ -2390,7 +2408,7 @@
       "nome": "RÚBEN TEIXEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "18",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
      },
@@ -3375,6 +3393,6 @@
    }
   }
  ],
- "ts": 1790525763019,
+ "ts": 1790526445560,
  "build": "20260915132319"
 }

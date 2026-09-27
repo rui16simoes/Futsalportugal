@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 720
    },
    "lances": [
     {
@@ -2218,6 +2218,24 @@
      "m": "9",
      "lado": "fora",
      "txt": "Remate forte e rasteiro de Carlos Monteiro, Bernardo Paçó defendeu com o pé."
+    },
+    {
+     "id": "s8",
+     "m": "9",
+     "lado": "casa",
+     "txt": "Wesley recebeu na zona central, trabalhou bem, mas o remate saiu ao lado."
+    },
+    {
+     "id": "s9",
+     "m": "11",
+     "lado": "casa",
+     "txt": "Falhanço incrível de Rocha: num 2 para 1, foi servido dentro da área sem guarda-redes, mas acertou mal na bola e atirou por cima."
+    },
+    {
+     "id": "s10",
+     "m": "12",
+     "lado": "casa",
+     "txt": "Grande penalidade para o Sporting: Silvestre Ferreira cortou um remate com a mão."
     }
    ],
    "faltas": [],
@@ -3345,6 +3363,6 @@
    }
   }
  ],
- "ts": 1790525557183,
+ "ts": 1790525611414,
  "build": "20260915132319"
 }

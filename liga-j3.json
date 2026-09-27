@@ -2314,6 +2314,12 @@
      "m": "24",
      "lado": "casa",
      "txt": "Lance insólito: um remate forte de um jogador do Sporting seguia para a baliza, mas Bruno Pinto, mal colocado, desviou a bola com o pé e tirou o golo ao colega."
+    },
+    {
+     "id": "s23",
+     "m": "24",
+     "lado": "fora",
+     "txt": "Poste do Benfica! Léo Gugiel rematou e Eduardo Tchuda desviou para o ferro."
     }
    ],
    "faltas": [],
@@ -3441,6 +3447,6 @@
    }
   }
  ],
- "ts": 1790528134952,
+ "ts": 1790528258405,
  "build": "20260915132319"
 }

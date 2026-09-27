@@ -148,6 +148,7 @@ const LINKS = {
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
   tacaPortugalF:'https://rui16simoes.github.io/Futsalportugal/taca-portugal-fem.html',
+  cn2divF:       'https://rui16simoes.github.io/Futsalportugal/cn-feminino-ii-divisao.html',
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -361,7 +362,7 @@ const DAYS = {
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1 · Jogo Antecipado', series:[
         { label:'Série C', games:[
-          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], venue:'Pav. Multiusos Águias Unidas' },
+          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], hscorers:["Rafael Silva 35'","Joao Raposo 38'"], ascorers:["Adrian Pereira 1'"], venue:'Pav. Multiusos Águias Unidas' },
         ]},
       ]},
     ]
@@ -429,7 +430,7 @@ const DAYS = {
           { time:'17:00', home:'AA Johnson Januário / RL7', away:'GD Macedense', status:'done', score:[2,4], hscorers:["Pedro Matias 32'","Pedro Matias 33'"], ascorers:["Babau 19'","Patrik Simao 26'","Gonçalo Banha 36'","Marco Tavares 39'"], venue:'Pav. Rota da Castanha' },
           { time:'17:00', home:'Miramar Império', away:'Leixões SC', status:'done', score:[3,2], hscorers:["Jorge Mendes 4'","Fabio Duarte 14'","Fabio Duarte 37'"], ascorers:["Miguel Gomes 4'","Paulo Silva 23'"], venue:'Pav. Municipal Fernando Gomes (VN Gaia)' },
           { time:'18:00', home:'CA Mogadouro', away:'FC Estrelas Susanenses', status:'done', score:[6,8], hscorers:["Mateus Silva (pen.) 12'","Mateus Silva 19'","Jorge Cardoso 26'","Mateus Silva 30'","Mateus Silva 38'","Rúben Santos 39'"], ascorers:["Jorge Teixeira 29'","Jorge Teixeira 30'","Jorge Teixeira 31'","Jorge Teixeira 32'","Jorge Teixeira 33'","Pedro Reis 36'","Jorge Teixeira 38'","Jorge Teixeira 39'"], venue:'Pav. da Junta de Freg. de Mogadouro' },
-          { time:'18:00', home:'Boavista FC', away:'FC Porto', status:'done', score:[2,14], venue:'Pav. Esc. Sec. Fontes Pereira de Melo' },
+          { time:'18:00', home:'Boavista FC', away:'FC Porto', status:'done', score:[2,14], hscorers:["Tiago Almeida 4'","Joao Fonseca 33'"], ascorers:["Luis Mendes 0'","Ricardo Costa 3'","Tiago Correia 4'","Fernando Nogueira 7'","Fernando Nogueira 10'","Leandro Silva 15'","Luis Mendes 26'","Sevio Marcelo 29'","Luis Mendes 30'","Tiago Correia 31'","Sevio Marcelo 32'","Luis Mendes 34'","Rafael Machado 36'","Leandro Silva 36'"], venue:'Pav. Esc. Sec. Fontes Pereira de Melo' },
         ]},
         { label:'Série B', games:[
           { time:'17:00', home:'Casa Benfica Golegã', away:'ABC Nelas', status:'done', score:[4,0], hscorers:["Diogo Moura 14'","Alexis Silva 31'","Cristiano Bernardino 35'","Victor Santos 38'"], ascorers:[], venue:'Pav. Municipal Golegã' },
@@ -444,6 +445,18 @@ const DAYS = {
           { time:'16:00', home:'SCR Gaeirense', away:'CDR Águias Unidas/PCF', status:'done', score:[0,3], hscorers:[], ascorers:["Pedro Viegas 7'","Joao Raposo 24'","Jose Fernandes 26'"], venue:'Pav. Gimnodesportivo SCR Gaeirense' },
           { time:'16:00', home:'SC Vila Verde', away:'CDR Os Vinhais', status:'done', score:[2,3], hscorers:["Bernardo Guimaraes 34'","Carlos Porfirio 37'"], ascorers:["Rodrigo Fernandes 3'","Gabriel Vidal 29'","Tomas Verissimo 33'"], venue:'Pav. António Mateus | Vila Verde' },
           { time:'19:00', home:'SR Manjoeira', away:'CA S. Marta Pinhal', status:'done', score:[6,2], venue:'Pav. António Feliciano Bastos' },
+        ]},
+      ]},
+      { comp:'CN Feminino 2.ª Divisão', link:LINKS.cn2divF,
+        color:'#db2777', flag:'🇵🇹', round:'Jornada 1 · Feminino', series:[
+        { label:'Série N', games:[
+          { time:'', home:'ACD Santo Estêvão', away:'CD Aves 1930', status:'done', score:[1,4], venue:'Pav. Gimnodesportivo Municipal Chaves' },
+          { time:'', home:'Escola DC Gondomar', away:'Futsal Campo/Gil Vicente FC', status:'done', score:[4,1], hscorers:["Bruna Silva 1'","Marta Oliveira 11'","Patricia Soares 12'","Patricia Soares 32'"], ascorers:["Adriana Barbosa 12'"], venue:'Pav. Municipal Baguim do Monte' },
+          { time:'', home:'OBSC Gresart', away:'SC Braga', status:'done', score:[0,3], venue:'Recinto A Indicar' },
+        ]},
+        { label:'Série S', games:[
+          { time:'', home:'SRB União Parchalense', away:'ACDR Arneiros', status:'done', score:[3,2], venue:'Pav. Escola Eb 2/3 Parchal' },
+          { time:'', home:'Juventude S. Campinense', away:'Juventude Ouriense', status:'done', score:[4,1], venue:'Pav. Municipal Prof. Joaquim Vairinhos' },
         ]},
       ]},
     ]
@@ -494,6 +507,15 @@ const DAYS = {
       { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
         color:'#f43f5e', flag:'🇵🇹', round:'Jornada 3 · Feminino', games:[
         { time:'18:00', home:'SCU Torreense', away:'Novasemente GD', status:'', score:null, venue:'Pav. Externato de Penafirme' },
+      ]},
+      { comp:'CN Feminino 2.ª Divisão', link:LINKS.cn2divF,
+        color:'#db2777', flag:'🇵🇹', round:'Jornada 1 · Feminino', series:[
+        { label:'Série N', games:[
+          { time:'17:00', home:'Casa Povo Freixo', away:'Matosinhos FC', status:'', score:null, venue:'Pav. E. Eb 2,3 S. Julião do Freixo' },
+        ]},
+        { label:'Série S', games:[
+          { time:'11:00', home:'Sporting CP', away:'UA Povoense', status:'', score:null, venue:'Pav. João Rocha' },
+        ]},
       ]},
     ]
   },

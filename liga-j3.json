@@ -2199,7 +2199,7 @@
      "id": "s4",
      "m": "4",
      "lado": "casa",
-     "txt": "GOLO DO SPORTING! Diogo Santos abre o marcador no dérbi. Sporting 1-0 Benfica."
+     "txt": "GOLO DO SPORTING! Diogo Santos abre o marcador no dérbi, com assistência de Alex Merlim. Sporting 1-0 Benfica."
     }
    ],
    "faltas": [],
@@ -2388,7 +2388,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "4",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/09/52/16530952_alex_merlim_20260830155138.jpg"
      },
      {
@@ -3327,6 +3327,6 @@
    }
   }
  ],
- "ts": 1790524520850,
+ "ts": 1790524588848,
  "build": "20260915132319"
 }

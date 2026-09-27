@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600
+    "acc": 780
    },
    "lances": [
     {
@@ -2367,7 +2367,31 @@
      "id": "s32",
      "m": "30",
      "lado": "casa",
-     "txt": "GOLO DO SPORTING! Wesley põe os leões novamente na frente. Sporting 3-2 Benfica."
+     "txt": "GOLO DO SPORTING! Grande golo de Wesley: recuperou a bola na zona central, desequilibrou-se, recompôs-se e rematou forte. Sporting 3-2 Benfica."
+    },
+    {
+     "id": "s33",
+     "m": "31",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Léo Gugiel."
+    },
+    {
+     "id": "s34",
+     "m": "33",
+     "lado": "casa",
+     "txt": "Tomás Paçó e Rocha estiveram muito perto do golo, mas André Correia fez duas grandes defesas."
+    },
+    {
+     "id": "s35",
+     "m": "33",
+     "lado": "fora",
+     "txt": "GOLO DO BENFICA! Jogada genial de Edmilson Kutchy, que fintou dois adversários e serviu Cléber Souza na área para o empate. Sporting 3-3 Benfica."
+    },
+    {
+     "id": "s36",
+     "m": "33",
+     "lado": "casa",
+     "txt": "Cartão vermelho para Rocha, por acumulação de amarelos. O Sporting fica reduzido."
     }
    ],
    "faltas": [],
@@ -2582,7 +2606,7 @@
       "nome": "ROCHA",
       "e": "S",
       "min": "",
-      "cart": "19",
+      "cart": "19, 33d",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      }
@@ -2590,7 +2614,7 @@
    },
    "fora": {
     "eq": "benfica",
-    "golos": 2,
+    "golos": 3,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -2618,7 +2642,7 @@
       "nome": "LÉO GUGIEL (GR)",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "31",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/99/62/559962_leo_gugiel_20250919142941.jpg"
      },
@@ -2691,7 +2715,7 @@
       "e": "P",
       "min": "26",
       "cart": "",
-      "ass": "",
+      "ass": "33",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/96/38/269638_edmilson_kutchy_20250919142810.jpg"
      },
      {
@@ -2725,7 +2749,7 @@
       "num": "77",
       "nome": "CLÉBER SOUZA",
       "e": "S",
-      "min": "",
+      "min": "33",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/10/16635710_cleber_souza_20260813023911.png"
@@ -3495,6 +3519,6 @@
    }
   }
  ],
- "ts": 1790529098170,
+ "ts": 1790529794407,
  "build": "20260915132319"
 }

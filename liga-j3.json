@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 180
    },
    "lances": [
     {
@@ -2182,6 +2182,12 @@
      "m": "1",
      "lado": "",
      "txt": "COMEÇOU O DÉRBI no Pavilhão João Rocha."
+    },
+    {
+     "id": "s2",
+     "m": "3",
+     "lado": "casa",
+     "txt": "Rocha conduziu da esquerda para o meio, mas o remate acabou cortado."
     }
    ],
    "faltas": [],
@@ -3309,6 +3315,6 @@
    }
   }
  ],
- "ts": 1790524335867,
+ "ts": 1790524399868,
  "build": "20260915132319"
 }

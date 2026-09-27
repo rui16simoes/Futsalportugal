@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -2338,6 +2338,18 @@
      "m": "28",
      "lado": "casa",
      "txt": "Bernardo Paçó subiu, combinou com Rocha, mas não conseguiu finalizar perante Léo Gugiel."
+    },
+    {
+     "id": "s28",
+     "m": "28",
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Canto forte de Alex Merlim e a bola desviou em Carlos Monteiro para a própria baliza. Sporting 2-2 Benfica."
+    },
+    {
+     "id": "s29",
+     "m": "29",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Bruno Maior."
     }
    ],
    "faltas": [],
@@ -2389,7 +2401,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": 1,
+    "golos": 2,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2444,7 +2456,7 @@
       "nome": "BRUNO MAIOR",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "29",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/50/16484850_bruno_maior_20260830154650.jpg"
      },
@@ -3465,6 +3477,6 @@
    }
   }
  ],
- "ts": 1790528809362,
+ "ts": 1790528872407,
  "build": "20260915132319"
 }

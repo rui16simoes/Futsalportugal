@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300
+    "acc": 540
    },
    "lances": [
     {
@@ -2212,6 +2212,12 @@
      "m": "5",
      "lado": "fora",
      "txt": "Arthur levantou o pavilhão com uma finta de grande nível, ganhou espaço para entrar na área, mas o passe para o colega não saiu."
+    },
+    {
+     "id": "s7",
+     "m": "9",
+     "lado": "fora",
+     "txt": "Remate forte e rasteiro de Carlos Monteiro, Bernardo Paçó defendeu com o pé."
     }
    ],
    "faltas": [],
@@ -3339,6 +3345,6 @@
    }
   }
  ],
- "ts": 1790524836851,
+ "ts": 1790525557183,
  "build": "20260915132319"
 }

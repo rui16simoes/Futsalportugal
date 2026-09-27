@@ -2392,7 +2392,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/19/21/921921_rafael_ruela_20250128165119.jpg",
       "extra": 1
      }
     ]
@@ -2443,7 +2443,7 @@
      {
       "num": "6",
       "nome": "RAÚL MOREIRA",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2551,7 +2551,7 @@
      {
       "num": "19",
       "nome": "RÚBEN GÓIS",
-      "e": "S",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3304,6 +3304,6 @@
    }
   }
  ],
- "ts": 1790521599069,
+ "ts": 1790523426343,
  "build": "20260915132319"
 }

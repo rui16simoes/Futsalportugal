@@ -2188,6 +2188,12 @@
      "m": "3",
      "lado": "casa",
      "txt": "Rocha conduziu da esquerda para o meio, mas o remate acabou cortado."
+    },
+    {
+     "id": "s3",
+     "m": "3",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Arthur."
     }
    ],
    "faltas": [],
@@ -2501,7 +2507,7 @@
       "nome": "ARTHUR",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "3",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
@@ -3315,6 +3321,6 @@
    }
   }
  ],
- "ts": 1790524399868,
+ "ts": 1790524461869,
  "build": "20260915132319"
 }

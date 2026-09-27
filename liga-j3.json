@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -2194,6 +2194,12 @@
      "m": "3",
      "lado": "fora",
      "txt": "Cartão amarelo para Arthur."
+    },
+    {
+     "id": "s4",
+     "m": "4",
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Diogo Santos abre o marcador no dérbi. Sporting 1-0 Benfica."
     }
    ],
    "faltas": [],
@@ -2245,7 +2251,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": 0,
+    "golos": 1,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2326,7 +2332,7 @@
       "num": "7",
       "nome": "DIOGO SANTOS",
       "e": "S",
-      "min": "",
+      "min": "4",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/46/16484846_diogo_santos_20260830154904.jpg"
@@ -3321,6 +3327,6 @@
    }
   }
  ],
- "ts": 1790524461869,
+ "ts": 1790524520850,
  "build": "20260915132319"
 }

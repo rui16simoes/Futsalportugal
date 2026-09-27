@@ -2172,9 +2172,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -2278,6 +2278,18 @@
      "m": "19",
      "lado": "casa",
      "txt": "Cartão amarelo para Rocha."
+    },
+    {
+     "id": "s18",
+     "m": "20",
+     "lado": "casa",
+     "txt": "O Sporting pediu pausa técnica a 6 segundos do intervalo, para preparar uma reposição lateral."
+    },
+    {
+     "id": "s19",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [],
@@ -3405,6 +3417,6 @@
    }
   }
  ],
- "ts": 1790526627746,
+ "ts": 1790526875838,
  "build": "20260915132319"
 }

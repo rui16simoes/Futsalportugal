@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -2350,6 +2350,24 @@
      "m": "29",
      "lado": "casa",
      "txt": "Cartão amarelo para Bruno Maior."
+    },
+    {
+     "id": "s30",
+     "m": "29",
+     "lado": "casa",
+     "txt": "Bruno Pinto ficou completamente sozinho na área após um canto rasteiro, mas falhou o desvio."
+    },
+    {
+     "id": "s31",
+     "m": "30",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Wesley."
+    },
+    {
+     "id": "s32",
+     "m": "30",
+     "lado": "casa",
+     "txt": "GOLO DO SPORTING! Wesley põe os leões novamente na frente. Sporting 3-2 Benfica."
     }
    ],
    "faltas": [],
@@ -2401,7 +2419,7 @@
    },
    "casa": {
     "eq": "sporting",
-    "golos": 2,
+    "golos": 3,
     "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2464,8 +2482,8 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "P",
-      "min": "",
-      "cart": "",
+      "min": "30",
+      "cart": "30",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
      },
@@ -3477,6 +3495,6 @@
    }
   }
  ],
- "ts": 1790528872407,
+ "ts": 1790529098170,
  "build": "20260915132319"
 }

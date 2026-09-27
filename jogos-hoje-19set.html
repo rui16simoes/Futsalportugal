@@ -413,7 +413,7 @@ const DAYS = {
           { time:'16:00', home:'GRC Dínamo Sanjoanense', away:'ADC Nogueiró Tenões', status:'done', score:[4,1], venue:'Pav. Municipal Travessas' },
           { time:'16:00', home:"GCR Nun'álvares", away:'Arsenal Clube Maia', status:'done', score:[0,3], hscorers:[], ascorers:["Nelson Coelho 29'","Ricardo Oliveira 29'","Joao Sousa 31'"], venue:"Pav. do Grupo Nun'álvares" },
           { time:'18:00', home:'AD Modicus Sandim', away:'FC Paços Ferreira', status:'done', score:[6,3], hscorers:["Tiago Silva 2'","Tiago Silva 2'","Daniel Pereira 12'","Fabio Pereira 16'","Igor Souza 25'","Manuel Nunes 26'"], ascorers:["Fabio Coelho 8'","Bruno Pereira 14'","Vitor Campos 23'"], venue:'Pav. Mov Din Cult Sandim Modicus' },
-          { time:'18:30', home:'ADCR Caxinas Poça Barca', away:'Amigos Cerva ADRC', status:'done', score:[4,4], venue:'Pav. do C.C. das Caxinas' },
+          { time:'18:30', home:'ADCR Caxinas Poça Barca', away:'Amigos Cerva ADRC', status:'done', score:[4,4], hscorers:["Kayque Santos 3'","Tomás Sá 12'","Diogo Sousa 20'","Miguel Ramos 20'"], ascorers:["João Oliveira 2'","João Oliveira 19'","João Oliveira 23'","Francisco Machado 35'"], venue:'Pav. do C.C. das Caxinas' },
         ]},
         { label:'Série B', games:[
           { time:'16:00', home:'Ass. Moradores S. Ant. Cavaleiros', away:'Reguilas Tires Futsal', status:'done', score:[3,4], hscorers:["Freddy Martinez (p.b.) 10'","Miguel Conceicao 12'","Joao Bastos 19'"], ascorers:["Tiago Correia 18'","Alesandro 30'","Emanuel Pereira (p.b.) 39'","Tiago Correia 39'"], venue:'Pav. Esc. EB 2.3 Gen Humberto Delgado' },
@@ -434,12 +434,12 @@ const DAYS = {
         ]},
         { label:'Série B', games:[
           { time:'17:00', home:'Casa Benfica Golegã', away:'ABC Nelas', status:'done', score:[4,0], hscorers:["Diogo Moura 14'","Alexis Silva 31'","Cristiano Bernardino 35'","Victor Santos 38'"], ascorers:[], venue:'Pav. Municipal Golegã' },
-          { time:'18:00', home:'FC Mozelos', away:'PARC Pindelo', status:'done', score:[7,2], venue:'Pav. Municipal de Mozelos' },
+          { time:'18:00', home:'FC Mozelos', away:'PARC Pindelo', status:'done', score:[7,2], hscorers:["Fernando Costa 7'","Bruno Ferreira 9'","Pedro Tomasio 16'","Pedro Sousa 19'","Pedro Sousa 26'","Leonardo Coelho 30'","Pedro Sousa 36'"], ascorers:["Joao Botelho 15'","João Tavares 32'"], venue:'Pav. Municipal de Mozelos' },
           { time:'18:00', home:'CCDR Covão Lobo', away:'ADC Santa Isabel', status:'done', score:[1,1], hscorers:["Ruben Almeida 10'"], ascorers:["Paulo Colaco 14'"], venue:'Pav. Gimnodesportivo Covão Lobo' },
           { time:'18:00', home:'ARCD Mendiga', away:'ADR Retaxo', status:'done', score:[7,7], hscorers:["Bernardo Remedios 0'","Joao Santos 12'","Leandro Dionisio 18'","Diogo Matos 31'","Diogo Matos 31'","Bernardo Remedios 33'","Diogo Matos 36'"], ascorers:["Leandro Fernandes 4'","Guilherme Martins 12'","Gustavo Santiago 25'","Marcelo Coelho 29'","Tomas Monteiro 36'","Tomas Monteiro 37'","Tomas Monteiro 39'"], venue:'Pav. da Ass. Rec. Cult. da Mendiga' },
-          { time:'18:30', home:'GD Beira-Ria', away:'União 1919', status:'done', score:[5,3], venue:'Pav. Desportivo Gafanha do Carmo' },
+          { time:'18:30', home:'GD Beira-Ria', away:'União 1919', status:'done', score:[5,3], hscorers:["Fabio Monteiro 8'","Franklin Diniz 29'","Franklin Diniz 36'","Pedro Henriques 38'","Franklin Diniz 39'"], ascorers:["Fabio Ferreira 13'","Manuel Barata 20'","Vasco Seco 26'"], venue:'Pav. Desportivo Gafanha do Carmo' },
           { time:'19:00', home:'AR Pederneirense', away:'ACR Saavedra Guedes', status:'done', score:[2,5], hscorers:["Joao Ferreira 0'","Pedro Coelho 32'"], ascorers:["Joao Ferreira (p.b.) 9'","Rufo 27'","Rodrigo Almeida 30'","Fabio Santos 31'","Luciano Moreira 31'"], venue:'Pav. Municipal da Nazaré' },
-          { time:'20:00', home:'Academia Condeixa', away:'ACR Arnal', status:'done', score:[4,6], venue:'Pav. Municipal Condeixa a Nova' },
+          { time:'20:00', home:'Academia Condeixa', away:'ACR Arnal', status:'done', score:[4,6], hscorers:["Marcelo Junior 2'","Tiago Cardoso 22'","Tiago Cardoso 26'","Tiago Cardoso 34'"], ascorers:[], venue:'Pav. Municipal Condeixa a Nova' },
         ]},
         { label:'Série C', games:[
           { time:'16:00', home:'SCR Gaeirense', away:'CDR Águias Unidas/PCF', status:'done', score:[0,3], hscorers:[], ascorers:["Pedro Viegas 7'","Joao Raposo 24'","Jose Fernandes 26'"], venue:'Pav. Gimnodesportivo SCR Gaeirense' },
@@ -452,7 +452,7 @@ const DAYS = {
         { label:'Série N', games:[
           { time:'', home:'ACD Santo Estêvão', away:'CD Aves 1930', status:'done', score:[1,4], venue:'Pav. Gimnodesportivo Municipal Chaves' },
           { time:'', home:'Escola DC Gondomar', away:'Futsal Campo/Gil Vicente FC', status:'done', score:[4,1], hscorers:["Bruna Silva 1'","Marta Oliveira 11'","Patricia Soares 12'","Patricia Soares 32'"], ascorers:["Adriana Barbosa 12'"], venue:'Pav. Municipal Baguim do Monte' },
-          { time:'', home:'OBSC Gresart', away:'SC Braga', status:'done', score:[0,3], venue:'Recinto A Indicar' },
+          { time:'', home:'OBSC Gresart', away:'SC Braga', status:'done', score:[0,3], hscorers:[], ascorers:["Márcia Ferreira 1'","Márcia Ferreira 6'","Marta Dias 18'"], venue:'Recinto A Indicar' },
         ]},
         { label:'Série S', games:[
           { time:'', home:'SRB União Parchalense', away:'ACDR Arneiros', status:'done', score:[3,2], venue:'Pav. Escola Eb 2/3 Parchal' },

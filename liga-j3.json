@@ -2244,7 +2244,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2260,9 +2260,18 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/60/16619960_oleksandr_sukhov_20260830154538.jpg"
      },
      {
+      "num": 2,
+      "nome": "RAFAEL RUELA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/19/21/921921_rafael_ruela_20250128165119.jpg"
+     },
+     {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2271,7 +2280,7 @@
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2280,7 +2289,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2298,7 +2307,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2384,16 +2393,6 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
-     },
-     {
-      "num": 2,
-      "nome": "RAFAEL RUELA",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/19/21/921921_rafael_ruela_20250128165119.jpg",
-      "extra": 1
      }
     ]
    },
@@ -2425,7 +2424,7 @@
      {
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2479,7 +2478,7 @@
      {
       "num": "7",
       "nome": "LÚCIO ROCHA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2488,7 +2487,7 @@
      {
       "num": "10",
       "nome": "ARTHUR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2497,7 +2496,7 @@
      {
       "num": "14",
       "nome": "EDMILSON KUTCHY",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2506,7 +2505,7 @@
      {
       "num": "17",
       "nome": "CARLOS MONTEIRO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3304,6 +3303,6 @@
    }
   }
  ],
- "ts": 1790523426343,
+ "ts": 1790524097864,
  "build": "20260915132319"
 }

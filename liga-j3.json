@@ -2172,9 +2172,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200
+    "estado": "parado",
+    "parte": 2,
+    "acc": 240
    },
    "lances": [
     {
@@ -2296,6 +2296,24 @@
      "m": "20",
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "s20",
+     "m": "21",
+     "lado": "",
+     "txt": "Começou a segunda parte."
+    },
+    {
+     "id": "s21",
+     "m": "22",
+     "lado": "fora",
+     "txt": "Cléber Souza apareceu isolado, mas Bernardo Paçó conseguiu defender."
+    },
+    {
+     "id": "s22",
+     "m": "24",
+     "lado": "casa",
+     "txt": "Lance insólito: um remate forte de um jogador do Sporting seguia para a baliza, mas Bruno Pinto, mal colocado, desviou a bola com o pé e tirou o golo ao colega."
     }
    ],
    "faltas": [],
@@ -3423,6 +3441,6 @@
    }
   }
  ],
- "ts": 1790526955829,
+ "ts": 1790528134952,
  "build": "20260915132319"
 }

@@ -2242,6 +2242,12 @@
      "m": "13",
      "lado": "casa",
      "txt": "Bruno Pinto falhou a grande penalidade: a bola bateu na barra."
+    },
+    {
+     "id": "s12",
+     "m": "13",
+     "lado": "casa",
+     "txt": "Tomás Paçó ficou lesionado, aparentemente com um dedo deslocado."
     }
    ],
    "faltas": [],
@@ -3369,6 +3375,6 @@
    }
   }
  ],
- "ts": 1790525649061,
+ "ts": 1790525763019,
  "build": "20260915132319"
 }

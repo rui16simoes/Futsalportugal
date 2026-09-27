@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -2236,6 +2236,12 @@
      "m": "12",
      "lado": "casa",
      "txt": "Grande penalidade para o Sporting: Silvestre Ferreira cortou um remate com a mão."
+    },
+    {
+     "id": "s11",
+     "m": "13",
+     "lado": "casa",
+     "txt": "Bruno Pinto falhou a grande penalidade: a bola bateu na barra."
     }
    ],
    "faltas": [],
@@ -3363,6 +3369,6 @@
    }
   }
  ],
- "ts": 1790525611414,
+ "ts": 1790525649061,
  "build": "20260915132319"
 }

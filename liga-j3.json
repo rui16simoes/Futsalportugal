@@ -2174,7 +2174,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -2332,6 +2332,12 @@
      "m": "27",
      "lado": "casa",
      "txt": "O Sporting já teve duas ocasiões claras para empatar, mas Léo Gugiel continua em grande."
+    },
+    {
+     "id": "s27",
+     "m": "28",
+     "lado": "casa",
+     "txt": "Bernardo Paçó subiu, combinou com Rocha, mas não conseguiu finalizar perante Léo Gugiel."
     }
    ],
    "faltas": [],
@@ -3459,6 +3465,6 @@
    }
   }
  ],
- "ts": 1790528626323,
+ "ts": 1790528809362,
  "build": "20260915132319"
 }

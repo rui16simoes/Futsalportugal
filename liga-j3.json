@@ -1455,9 +1455,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1080
+    "acc": 1200
    },
    "lances": [
     {
@@ -1537,6 +1537,12 @@
      "m": "17",
      "lado": "casa",
      "txt": "Rúben Carrilho rematou ao poste na sequência de um lançamento e esteve perto de mais um golo."
+    },
+    {
+     "id": "p13b",
+     "m": "17",
+     "lado": "casa",
+     "txt": "Cartão amarelo para o treinador Miguel Velez, por protestos."
     },
     {
      "id": "p14",
@@ -1645,6 +1651,18 @@
      "m": "38",
      "lado": "casa",
      "txt": "André Rochato falhou a grande penalidade, com Guilherme Cintra a defender."
+    },
+    {
+     "id": "p32",
+     "m": "40",
+     "lado": "casa",
+     "txt": "GOLO DO LEÕES PORTO SALVO! Francisco Oliveira recuperou a bola em zona alta e rematou de pé esquerdo para a baliza deserta. Leões Porto Salvo 7-3 Portimonense."
+    },
+    {
+     "id": "p33",
+     "m": "40",
+     "lado": "casa",
+     "txt": "FINAL EM PORTO SALVO. O Leões Porto Salvo vence o Portimonense por 7-3, com bis de Ré e golos de Rúben Carrilho, Pedro Santos, Isaías Furtado, Guilherme Cintra e Francisco Oliveira. Gui, Tomás Reis e Adaílton Souza marcaram para os algarvios, que ainda falharam uma grande penalidade."
     }
    ],
    "faltas": [
@@ -1795,7 +1813,7 @@
    },
    "casa": {
     "eq": "leoes",
-    "golos": 6,
+    "golos": 7,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -1921,7 +1939,7 @@
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
-      "min": "",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
@@ -3276,6 +3294,6 @@
    }
   }
  ],
- "ts": 1790456237857,
+ "ts": 1790521555763,
  "build": "20260915132319"
 }

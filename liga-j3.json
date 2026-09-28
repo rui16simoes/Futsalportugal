@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -2891,6 +2891,12 @@
      "m": "10",
      "lado": "casa",
      "txt": "Cartão amarelo para Edson Patrick, por falta."
+    },
+    {
+     "id": "t14",
+     "m": "11",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Leonardo Travessa."
     }
    ],
    "faltas": [
@@ -3219,7 +3225,7 @@
       "nome": "LEONARDO TRAVESSA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "11",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/56/63/16635663_leonardo_travessa_20260702044450.png"
      },
@@ -3639,6 +3645,6 @@
    }
   }
  ],
- "ts": 1790621488900,
+ "ts": 1790621549346,
  "build": "20260915132319"
 }

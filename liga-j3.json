@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 960
    },
    "lances": [
     {
@@ -3885,6 +3885,12 @@
      "m": "35",
      "lado": "fora",
      "txt": "Dura recuperou a bola em zona adiantada e tinha tudo para marcar, mas perdeu o duelo com Martim Borrego."
+    },
+    {
+     "id": "f65",
+     "m": "36",
+     "lado": "casa",
+     "txt": "O Fundão pediu pausa técnica."
     }
    ],
    "faltas": [],
@@ -4253,6 +4259,6 @@
    }
   }
  ],
- "ts": 1790630963159,
+ "ts": 1790631041664,
  "build": "20260915132319"
 }

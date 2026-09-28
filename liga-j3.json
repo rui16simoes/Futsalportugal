@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -2873,6 +2873,18 @@
      "m": "8",
      "lado": "casa",
      "txt": "Remate potente de Tintim em zona frontal, nova grande defesa de Pedro Martinho."
+    },
+    {
+     "id": "t11",
+     "m": "9",
+     "lado": "fora",
+     "txt": "Bom remate de longe de Djaelson, Eurico Cunha estava atento e segurou."
+    },
+    {
+     "id": "t12",
+     "m": "9",
+     "lado": "fora",
+     "txt": "O Ferreira do Zêzere pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -3614,6 +3626,6 @@
    }
   }
  ],
- "ts": 1790621108685,
+ "ts": 1790621220884,
  "build": "20260915132319"
 }

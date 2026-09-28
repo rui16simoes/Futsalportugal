@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -3675,6 +3675,18 @@
      "m": "18",
      "lado": "fora",
      "txt": "Dura pressionou alto e obrigou Nuno Miranda a aliviar; a bola bateu em Nem e passou a rasar o poste da baliza do Fundão."
+    },
+    {
+     "id": "f30",
+     "m": "19",
+     "lado": "fora",
+     "txt": "Luís Nunes trabalhou em zona frontal e rematou ao lado."
+    },
+    {
+     "id": "f31",
+     "m": "19",
+     "lado": "casa",
+     "txt": "GOLO DO FUNDÃO! Tiago Tavares desfaz o nulo perto do intervalo. AD Fundão 1-0 UPVN."
     }
    ],
    "faltas": [],
@@ -3726,7 +3738,7 @@
    },
    "casa": {
     "eq": "fundao",
-    "golos": 0,
+    "golos": 1,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -3861,7 +3873,7 @@
       "num": "77",
       "nome": "TIAGO TAVARES",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/50/844850_tiago_tavares_20250129124552.png"
@@ -4043,6 +4055,6 @@
    }
   }
  ],
- "ts": 1790627901851,
+ "ts": 1790627976254,
  "build": "20260915132319"
 }

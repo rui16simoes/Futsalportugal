@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840
+    "acc": 900
    },
    "lances": [
     {
@@ -3867,6 +3867,18 @@
      "m": "34",
      "lado": "casa",
      "txt": "Tiago Tavares foi muito bem servido na direita em transição, mas demorou a rematar e atirou muito ao lado."
+    },
+    {
+     "id": "f62",
+     "m": "35",
+     "lado": "fora",
+     "txt": "Tomás Silva combinou bem com André Galvão na direita e rematou para boa defesa de Martim Borrego."
+    },
+    {
+     "id": "f63",
+     "m": "35",
+     "lado": "fora",
+     "txt": "Na sequência do canto, Dura rematou de primeira, ao lado."
     }
    ],
    "faltas": [],
@@ -4235,6 +4247,6 @@
    }
   }
  ],
- "ts": 1790630754422,
+ "ts": 1790630889414,
  "build": "20260915132319"
 }

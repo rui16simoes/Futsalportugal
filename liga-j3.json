@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 960
+    "acc": 1020
    },
    "lances": [
     {
@@ -3909,6 +3909,12 @@
      "m": "36",
      "lado": "fora",
      "txt": "O UPVN arrisca tudo e passa a jogar em 5x4 com guarda-redes avançado."
+    },
+    {
+     "id": "f69",
+     "m": "37",
+     "lado": "casa",
+     "txt": "O Fundão fecha bem os espaços e vai aguentando a pressão do 5x4 do UPVN."
     }
    ],
    "faltas": [],
@@ -4277,6 +4283,6 @@
    }
   }
  ],
- "ts": 1790631238111,
+ "ts": 1790631299061,
  "build": "20260915132319"
 }

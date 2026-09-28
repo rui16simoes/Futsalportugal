@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -3513,6 +3513,18 @@
      "m": "1",
      "lado": "fora",
      "txt": "Dura subiu pela esquerda e rematou ao lado."
+    },
+    {
+     "id": "f3",
+     "m": "2",
+     "lado": "fora",
+     "txt": "Livre na esquerda batido por Dura, a bola bateu na barreira."
+    },
+    {
+     "id": "f4",
+     "m": "2",
+     "lado": "casa",
+     "txt": "Nuno Miranda fintou um defesa na esquerda e rematou ao lado."
     }
    ],
    "faltas": [],
@@ -3881,6 +3893,6 @@
    }
   }
  ],
- "ts": 1790625849931,
+ "ts": 1790625924938,
  "build": "20260915132319"
 }

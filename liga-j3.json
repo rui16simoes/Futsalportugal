@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -2869,7 +2869,15 @@
      "txt": "Vitinho volta a ameaçar, agora com um grande remate de pé esquerdo."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "tff11",
+     "lado": "fora",
+     "parte": 1,
+     "m": 8,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3600,6 +3608,6 @@
    }
   }
  ],
- "ts": 1790620984825,
+ "ts": 1790621055740,
  "build": "20260915132319"
 }

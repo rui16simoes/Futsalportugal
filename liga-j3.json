@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -3047,6 +3047,12 @@
      "m": "38",
      "lado": "casa",
      "txt": "O Torreense pediu pausa técnica."
+    },
+    {
+     "id": "t40",
+     "m": "39",
+     "lado": "casa",
+     "txt": "Tintim apareceu pela ala direita, mas o remate saiu ao lado."
     }
    ],
    "faltas": [
@@ -3857,6 +3863,6 @@
    }
   }
  ],
- "ts": 1790625528723,
+ "ts": 1790625618228,
  "build": "20260915132319"
 }

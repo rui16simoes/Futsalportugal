@@ -3497,7 +3497,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200
    },
@@ -3699,6 +3699,18 @@
      "m": "20",
      "lado": "casa",
      "txt": "Renato Almeida foi servido na esquerda e rematou na passada, mais uma boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f34",
+     "m": "20",
+     "lado": "casa",
+     "txt": "Nem acelerou pela esquerda e rematou para grande defesa de Jackson Ryan."
+    },
+    {
+     "id": "f35",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [],
@@ -4067,6 +4079,6 @@
    }
   }
  ],
- "ts": 1790628125881,
+ "ts": 1790628198932,
  "build": "20260915132319"
 }

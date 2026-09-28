@@ -3040,7 +3040,13 @@
      "id": "t38",
      "m": "38",
      "lado": "casa",
-     "txt": "GOLO DO TORREENSE! Tintim reduz em pleno 5x4. Torreense 1-3 Ferreira do Zêzere."
+     "txt": "GOLO DO TORREENSE! Em pleno 5x4, a bola sobrou para Tintim, sozinho ao segundo poste, depois de uma defesa incompleta, e ele reduziu. Torreense 1-3 Ferreira do Zêzere."
+    },
+    {
+     "id": "t39",
+     "m": "38",
+     "lado": "casa",
+     "txt": "O Torreense pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -3851,6 +3857,6 @@
    }
   }
  ],
- "ts": 1790625452904,
+ "ts": 1790625528723,
  "build": "20260915132319"
 }

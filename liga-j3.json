@@ -3573,6 +3573,12 @@
      "m": "10",
      "lado": "casa",
      "txt": "Reposição lateral na esquerda, Uesler rematou em zona frontal mas à figura."
+    },
+    {
+     "id": "f13",
+     "m": "10",
+     "lado": "casa",
+     "txt": "Uesler voltou a tentar numa reposição lateral, mas o remate saiu muito ao lado."
     }
    ],
    "faltas": [],
@@ -3941,6 +3947,6 @@
    }
   }
  ],
- "ts": 1790626677047,
+ "ts": 1790626794088,
  "build": "20260915132319"
 }

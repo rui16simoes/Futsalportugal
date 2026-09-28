@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -2903,6 +2903,12 @@
      "m": "11",
      "lado": "casa",
      "txt": "Remate potente de Tintim, mas sem direção."
+    },
+    {
+     "id": "t16",
+     "m": "12",
+     "lado": "casa",
+     "txt": "Tintim desviou um cruzamento para a baliza, mas Pedro Martinho voltou a brilhar."
     }
    ],
    "faltas": [
@@ -3651,6 +3657,6 @@
    }
   }
  ],
- "ts": 1790621603242,
+ "ts": 1790621694131,
  "build": "20260915132319"
 }

@@ -3663,6 +3663,18 @@
      "m": "18",
      "lado": "casa",
      "txt": "Mário Freitas trabalhou na direita, fintou e rematou para boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f28",
+     "m": "18",
+     "lado": "casa",
+     "txt": "Canto na esquerda, Uesler rematou para mais uma boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f29",
+     "m": "18",
+     "lado": "fora",
+     "txt": "Dura pressionou alto e obrigou Nuno Miranda a aliviar; a bola bateu em Nem e passou a rasar o poste da baliza do Fundão."
     }
    ],
    "faltas": [],
@@ -4031,6 +4043,6 @@
    }
   }
  ],
- "ts": 1790627836972,
+ "ts": 1790627901851,
  "build": "20260915132319"
 }

@@ -3493,10 +3493,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 60
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "f1",
+     "m": "1",
+     "lado": "",
+     "txt": "COMEÇOU O JOGO no Pavilhão Municipal do Fundão. O Fundão chega com 6 pontos; o UPVN procura os primeiros."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -3546,7 +3552,7 @@
    },
    "casa": {
     "eq": "fundao",
-    "golos": "",
+    "golos": 0,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -3690,7 +3696,7 @@
    },
    "fora": {
     "eq": "upvn",
-    "golos": "",
+    "golos": 0,
     "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
@@ -3863,6 +3869,6 @@
    }
   }
  ],
- "ts": 1790625618228,
+ "ts": 1790625788829,
  "build": "20260915132319"
 }

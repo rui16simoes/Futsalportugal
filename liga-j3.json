@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 180
    },
    "lances": [
     {
@@ -3525,6 +3525,12 @@
      "m": "2",
      "lado": "casa",
      "txt": "Nuno Miranda fintou um defesa na esquerda e rematou ao lado."
+    },
+    {
+     "id": "f5",
+     "m": "3",
+     "lado": "fora",
+     "txt": "Lucas Veras trabalhou na esquerda, mas o remate bateu num defesa."
     }
    ],
    "faltas": [],
@@ -3893,6 +3899,6 @@
    }
   }
  ],
- "ts": 1790625924938,
+ "ts": 1790625979831,
  "build": "20260915132319"
 }

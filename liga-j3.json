@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -3567,6 +3567,12 @@
      "m": "9",
      "lado": "casa",
      "txt": "Nuno Miranda tentou arrancar em drible pelo meio, mas perdeu a bola perto da área."
+    },
+    {
+     "id": "f12",
+     "m": "10",
+     "lado": "casa",
+     "txt": "Reposição lateral na esquerda, Uesler rematou em zona frontal mas à figura."
     }
    ],
    "faltas": [],
@@ -3935,6 +3941,6 @@
    }
   }
  ],
- "ts": 1790626610098,
+ "ts": 1790626677047,
  "build": "20260915132319"
 }

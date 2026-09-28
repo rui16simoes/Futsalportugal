@@ -3903,6 +3903,12 @@
      "m": "36",
      "lado": "fora",
      "txt": "O UPVN pediu pausa técnica."
+    },
+    {
+     "id": "f68",
+     "m": "36",
+     "lado": "fora",
+     "txt": "O UPVN arrisca tudo e passa a jogar em 5x4 com guarda-redes avançado."
     }
    ],
    "faltas": [],
@@ -4271,6 +4277,6 @@
    }
   }
  ],
- "ts": 1790631207610,
+ "ts": 1790631238111,
  "build": "20260915132319"
 }

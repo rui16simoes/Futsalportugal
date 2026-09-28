@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 720
+    "acc": 840
    },
    "lances": [
     {
@@ -3861,6 +3861,12 @@
      "m": "32",
      "lado": "fora",
      "txt": "Jackson Ryan subiu pela direita e rematou para boa defesa de Martim Borrego."
+    },
+    {
+     "id": "f61",
+     "m": "34",
+     "lado": "casa",
+     "txt": "Tiago Tavares foi muito bem servido na direita em transição, mas demorou a rematar e atirou muito ao lado."
     }
    ],
    "faltas": [],
@@ -4229,6 +4235,6 @@
    }
   }
  ],
- "ts": 1790630627718,
+ "ts": 1790630754422,
  "build": "20260915132319"
 }

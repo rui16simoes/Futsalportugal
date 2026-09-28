@@ -3795,6 +3795,12 @@
      "m": "26",
      "lado": "casa",
      "txt": "Nuno Miranda desmarcou-se na direita e rematou ao lado."
+    },
+    {
+     "id": "f50",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Lucas Veras foi muito bem lançado na direita da área e tentou de calcanhar, grande defesa de Martim Borrego."
     }
    ],
    "faltas": [],
@@ -4163,6 +4169,6 @@
    }
   }
  ],
- "ts": 1790629891056,
+ "ts": 1790629958670,
  "build": "20260915132319"
 }

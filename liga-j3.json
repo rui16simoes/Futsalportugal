@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -3543,6 +3543,18 @@
      "m": "4",
      "lado": "casa",
      "txt": "Nuno Miranda fletiu da esquerda para o meio e rematou para grande defesa de Jackson Ryan."
+    },
+    {
+     "id": "f8",
+     "m": "5",
+     "lado": "casa",
+     "txt": "O guarda-redes Jaime Arthur subiu pela direita e rematou para boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f9",
+     "m": "5",
+     "lado": "casa",
+     "txt": "Canto na direita, Tiago Tavares rematou mas a bola bateu num defesa."
     }
    ],
    "faltas": [],
@@ -3911,6 +3923,6 @@
    }
   }
  ],
- "ts": 1790626087384,
+ "ts": 1790626282994,
  "build": "20260915132319"
 }

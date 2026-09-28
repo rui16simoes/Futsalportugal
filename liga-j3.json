@@ -3788,7 +3788,7 @@
      "id": "f48",
      "m": "26",
      "lado": "fora",
-     "txt": "GOLO DO UPVN! Grande penalidade convertida com um remate colocíssimo e está feito o empate. AD Fundão 1-1 UPVN."
+     "txt": "GOLO DO UPVN! Lucas Veras converte a grande penalidade com um remate colocíssimo e faz o empate. AD Fundão 1-1 UPVN."
     },
     {
      "id": "f49",
@@ -4113,7 +4113,7 @@
       "num": "20",
       "nome": "LUCAS VERAS",
       "e": "P",
-      "min": "",
+      "min": "26",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/76/1550676_lucas_veras_20260909160534.png"
@@ -4169,6 +4169,6 @@
    }
   }
  ],
- "ts": 1790629958670,
+ "ts": 1790630058258,
  "build": "20260915132319"
 }

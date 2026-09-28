@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 960
    },
    "lances": [
     {
@@ -3017,6 +3017,12 @@
      "m": "32",
      "lado": "fora",
      "txt": "GOLO DO FERREIRA DO ZÊZERE! Grande passe de Afonso Mourinha para o segundo poste e o capitão Rui Fortes, isolado, atirou com estrondo. Torreense 0-3 Ferreira do Zêzere."
+    },
+    {
+     "id": "t35",
+     "m": "36",
+     "lado": "fora",
+     "txt": "Poste! Afonso Mourinha acertou no ferro."
     }
    ],
    "faltas": [
@@ -3827,6 +3833,6 @@
    }
   }
  ],
- "ts": 1790624882344,
+ "ts": 1790625121108,
  "build": "20260915132319"
 }

@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900
+    "acc": 960
    },
    "lances": [
     {
@@ -2915,6 +2915,18 @@
      "m": "14",
      "lado": "casa",
      "txt": "O Torreense pediu pausa técnica."
+    },
+    {
+     "id": "t18",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Grande remate de Paulo Major, mais uma bela defesa de Pedro Martinho."
+    },
+    {
+     "id": "t19",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Tiago Reis arriscou de longe, mas sem direção."
     }
    ],
    "faltas": [
@@ -3670,6 +3682,6 @@
    }
   }
  ],
- "ts": 1790622073991,
+ "ts": 1790622175937,
  "build": "20260915132319"
 }

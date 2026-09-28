@@ -2987,6 +2987,12 @@
      "m": "29",
      "lado": "casa",
      "txt": "Remate muito potente de Tintim, mas ao lado."
+    },
+    {
+     "id": "t30",
+     "m": "29",
+     "lado": "fora",
+     "txt": "GOLO DO FERREIRA DO ZÊZERE! Djaelson, o subcapitão, amplia a vantagem dos visitantes. Torreense 0-2 Ferreira do Zêzere."
     }
    ],
    "faltas": [
@@ -3238,7 +3244,7 @@
    },
    "fora": {
     "eq": "zezere",
-    "golos": 1,
+    "golos": 2,
     "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
@@ -3274,7 +3280,7 @@
       "num": "92",
       "nome": "DJAELSON",
       "e": "P",
-      "min": "",
+      "min": "29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/15/560615_djaelson_20250911080643.png"
@@ -3749,6 +3755,6 @@
    }
   }
  ],
- "ts": 1790624379544,
+ "ts": 1790624448787,
  "build": "20260915132319"
 }

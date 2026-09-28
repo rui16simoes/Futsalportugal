@@ -2801,10 +2801,10 @@
    "data": "28 de setembro de 2026",
    "hora": "19h30",
    "local": "Pavilhão Fisica de Torres Vedras",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "FILIPE DUARTE",
+   "arb2": "NUNO MATIAS",
+   "arb3": "ANDRÉ FRANCO",
+   "cron": "TIAGO PINHO",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -2865,14 +2865,14 @@
    "casa": {
     "eq": "torreense",
     "golos": "",
-    "capitao": "",
-    "treinador": "NANÁ",
+    "capitao": "PAULO MAJOR",
+    "treinador": "BARTH SORRILHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "TIAGO CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2881,7 +2881,7 @@
      {
       "num": "13",
       "nome": "EURICO CUNHA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2890,7 +2890,7 @@
      {
       "num": "22",
       "nome": "ANDRÉ SANTOS (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2899,7 +2899,7 @@
      {
       "num": "2",
       "nome": "TIAGO REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2908,7 +2908,7 @@
      {
       "num": "4",
       "nome": "LÉO EVANGELISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2917,7 +2917,7 @@
      {
       "num": "28",
       "nome": "LEONARDO HASHIMOTO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2926,7 +2926,7 @@
      {
       "num": "88",
       "nome": "NICOLAS TOMÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2935,7 +2935,7 @@
      {
       "num": "6",
       "nome": "TOMÁS SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2944,7 +2944,7 @@
      {
       "num": "11",
       "nome": "VICENTE GUIA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2953,7 +2953,7 @@
      {
       "num": "7",
       "nome": "JAIR PEREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2962,7 +2962,7 @@
      {
       "num": "10",
       "nome": "PAULO MAJOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2971,7 +2971,7 @@
      {
       "num": "14",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2980,7 +2980,7 @@
      {
       "num": "18",
       "nome": "FELIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2989,7 +2989,7 @@
      {
       "num": "20",
       "nome": "DAVID GITA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2998,7 +2998,7 @@
      {
       "num": "9",
       "nome": "GONÇALO LIMA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3007,7 +3007,7 @@
      {
       "num": "5",
       "nome": "EDSON PATRICK",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3016,7 +3016,7 @@
      {
       "num": "17",
       "nome": "MANUEL MONTEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3025,7 +3025,7 @@
      {
       "num": "90",
       "nome": "TINTIM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3036,14 +3036,14 @@
    "fora": {
     "eq": "zezere",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3052,7 +3052,7 @@
      {
       "num": "13",
       "nome": "NILTON (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3061,7 +3061,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3070,7 +3070,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3079,7 +3079,7 @@
      {
       "num": "20",
       "nome": "DANIEL SODRÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3088,7 +3088,7 @@
      {
       "num": "36",
       "nome": "CHAPINHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3097,7 +3097,7 @@
      {
       "num": "2",
       "nome": "AFONSO MOURINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3106,7 +3106,7 @@
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3115,7 +3115,7 @@
      {
       "num": "10",
       "nome": "WENDELL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3124,7 +3124,7 @@
      {
       "num": "19",
       "nome": "LEONARDO TRAVESSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3133,7 +3133,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3142,7 +3142,7 @@
      {
       "num": "31",
       "nome": "OCTÁVIO ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3151,7 +3151,7 @@
      {
       "num": "88",
       "nome": "SANDRO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3160,11 +3160,21 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
+     },
+     {
+      "num": 90,
+      "nome": "GUILHERME FERREIRA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -3537,6 +3547,6 @@
    }
   }
  ],
- "ts": 1790616065617,
+ "ts": 1790616095544,
  "build": "20260915132319"
 }

@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 660
    },
    "lances": [
     {
@@ -2993,6 +2993,12 @@
      "m": "29",
      "lado": "fora",
      "txt": "GOLO DO FERREIRA DO ZÊZERE! Erro de Nicolas Tomé na saída de bola, Djaelson recuperou em zona alta e rematou; a bola ainda desviou e Eurico Cunha nada pôde fazer. Torreense 0-2 Ferreira do Zêzere."
+    },
+    {
+     "id": "t31",
+     "m": "31",
+     "lado": "casa",
+     "txt": "Tiago Reis rematou muito por cima, sem perigo."
     }
    ],
    "faltas": [
@@ -3775,6 +3781,6 @@
    }
   }
  ],
- "ts": 1790624590288,
+ "ts": 1790624628333,
  "build": "20260915132319"
 }

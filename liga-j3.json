@@ -3915,6 +3915,12 @@
      "m": "37",
      "lado": "casa",
      "txt": "O Fundão fecha bem os espaços e vai aguentando a pressão do 5x4 do UPVN."
+    },
+    {
+     "id": "f70",
+     "m": "37",
+     "lado": "casa",
+     "txt": "Peléh tenta de frente para a baliza e Jackson responde com uma grande defesa."
     }
    ],
    "faltas": [],
@@ -4283,6 +4289,6 @@
    }
   }
  ],
- "ts": 1790631299061,
+ "ts": 1790631343819,
  "build": "20260915132319"
 }

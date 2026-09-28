@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -3843,6 +3843,12 @@
      "m": "30",
      "lado": "casa",
      "txt": "Renato Almeida tentou fintar na esquerda e rematou, mas a bola bateu num defesa."
+    },
+    {
+     "id": "f58",
+     "m": "31",
+     "lado": "fora",
+     "txt": "Luís Nunes foi servido na esquerda da área e tinha tudo para marcar, mas Renato Almeida fez um corte enorme."
     }
    ],
    "faltas": [],
@@ -4211,6 +4217,6 @@
    }
   }
  ],
- "ts": 1790630391160,
+ "ts": 1790630483461,
  "build": "20260915132319"
 }

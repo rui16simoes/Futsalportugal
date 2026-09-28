@@ -2927,6 +2927,12 @@
      "m": "16",
      "lado": "casa",
      "txt": "Tiago Reis arriscou de longe, mas sem direção."
+    },
+    {
+     "id": "t20",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Manuel Monteiro."
     }
    ],
    "faltas": [
@@ -3154,7 +3160,7 @@
       "nome": "MANUEL MONTEIRO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/82/1157682_manuel_monteiro_20250130150805.jpg"
      },
@@ -3682,6 +3688,6 @@
    }
   }
  ],
- "ts": 1790622175937,
+ "ts": 1790622331891,
  "build": "20260915132319"
 }

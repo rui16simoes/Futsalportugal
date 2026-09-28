@@ -3771,6 +3771,18 @@
      "m": "26",
      "lado": "casa",
      "txt": "Cartão vermelho direto para o guarda-redes Jaime Arthur, por uma entrada dura e fora de tempo no meio-campo adversário. O UPVN joga dois minutos com mais um, ou até marcar."
+    },
+    {
+     "id": "f46",
+     "m": "26",
+     "lado": "casa",
+     "txt": "Martim Borrego entra para a baliza do Fundão."
+    },
+    {
+     "id": "f47",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Grande penalidade para o UPVN, por mão na bola de Peléh!"
     }
    ],
    "faltas": [],
@@ -4139,6 +4151,6 @@
    }
   }
  ],
- "ts": 1790629716957,
+ "ts": 1790629820804,
  "build": "20260915132319"
 }

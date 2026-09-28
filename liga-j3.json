@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -2999,6 +2999,24 @@
      "m": "31",
      "lado": "casa",
      "txt": "Tiago Reis rematou muito por cima, sem perigo."
+    },
+    {
+     "id": "t32",
+     "m": "31",
+     "lado": "fora",
+     "txt": "Kaká podia ter feito o terceiro, mas Eurico Cunha saiu bem da baliza."
+    },
+    {
+     "id": "t33",
+     "m": "31",
+     "lado": "fora",
+     "txt": "Pedro Martinho continua em grande e volta a travar o Torreense."
+    },
+    {
+     "id": "t34",
+     "m": "32",
+     "lado": "fora",
+     "txt": "GOLO DO FERREIRA DO ZÊZERE! O capitão Rui Fortes, assistido por Afonso Mourinha, faz o terceiro. Torreense 0-3 Ferreira do Zêzere."
     }
    ],
    "faltas": [
@@ -3250,7 +3268,7 @@
    },
    "fora": {
     "eq": "zezere",
-    "golos": 2,
+    "golos": 3,
     "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
@@ -3315,7 +3333,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "32",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/09/764909_afonso_mourinha_20250130150230.jpg"
      },
      {
@@ -3376,7 +3394,7 @@
       "num": "7",
       "nome": "RUI FORTES",
       "e": "P",
-      "min": "",
+      "min": "32",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
@@ -3781,6 +3799,6 @@
    }
   }
  ],
- "ts": 1790624628333,
+ "ts": 1790624703883,
  "build": "20260915132319"
 }

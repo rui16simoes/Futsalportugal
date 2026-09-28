@@ -3939,6 +3939,12 @@
      "m": "39",
      "lado": "casa",
      "txt": "GOLO DO FUNDÃO! Uesler recupera a bola ainda no seu meio-campo e, aproveitando a baliza vazia do 5x4, atira de longe para o 3-1. AD Fundão 3-1 UPVN."
+    },
+    {
+     "id": "f74",
+     "m": "39",
+     "lado": "casa",
+     "txt": "GOLO DO FUNDÃO! Renato Almeida assiste e Peléh marca o quarto dos serranos. AD Fundão 4-1 UPVN."
     }
    ],
    "faltas": [],
@@ -3990,7 +3996,7 @@
    },
    "casa": {
     "eq": "fundao",
-    "golos": 3,
+    "golos": 4,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -4044,7 +4050,7 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "P",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
@@ -4073,7 +4079,7 @@
       "e": "S",
       "min": "",
       "cart": "14",
-      "ass": "",
+      "ass": "39",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/80/16732880_renato_almeida_20260807160756.png"
      },
      {
@@ -4307,6 +4313,6 @@
    }
   }
  ],
- "ts": 1790631497214,
+ "ts": 1790631575115,
  "build": "20260915132319"
 }

@@ -2809,7 +2809,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200
    },
@@ -2945,6 +2945,12 @@
      "m": "20",
      "lado": "casa",
      "txt": "Cabeceamento de Edson Patrick para defesa tranquila de Pedro Martinho."
+    },
+    {
+     "id": "t23",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [
@@ -3700,6 +3706,6 @@
    }
   }
  ],
- "ts": 1790622872248,
+ "ts": 1790622931871,
  "build": "20260915132319"
 }

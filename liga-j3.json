@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -3693,6 +3693,12 @@
      "m": "19",
      "lado": "casa",
      "txt": "Nem apareceu à boca da baliza e tentou de calcanhar, mas Jackson Ryan fez uma grande defesa."
+    },
+    {
+     "id": "f33",
+     "m": "20",
+     "lado": "casa",
+     "txt": "Renato Almeida foi servido na esquerda e rematou na passada, mais uma boa defesa de Jackson Ryan."
     }
    ],
    "faltas": [],
@@ -4061,6 +4067,6 @@
    }
   }
  ],
- "ts": 1790628051207,
+ "ts": 1790628125881,
  "build": "20260915132319"
 }

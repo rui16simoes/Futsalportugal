@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120
+    "acc": 180
    },
    "lances": [
     {
@@ -3747,6 +3747,12 @@
      "m": "22",
      "lado": "casa",
      "txt": "Canto de Uesler na direita, Renato Almeida tinha tudo para marcar ao segundo poste, mas falhou a baliza."
+    },
+    {
+     "id": "f42",
+     "m": "23",
+     "lado": "fora",
+     "txt": "Lucas Veras recebeu bem dentro da área e tinha tudo para empatar, mas o remate cruzado saiu ao lado."
     }
    ],
    "faltas": [],
@@ -4115,6 +4121,6 @@
    }
   }
  ],
- "ts": 1790629325892,
+ "ts": 1790629396057,
  "build": "20260915132319"
 }

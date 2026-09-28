@@ -3717,6 +3717,12 @@
      "m": "21",
      "lado": "",
      "txt": "Começou a segunda parte."
+    },
+    {
+     "id": "f37",
+     "m": "21",
+     "lado": "",
+     "txt": "Jogo interrompido por um problema com o cronómetro."
     }
    ],
    "faltas": [],
@@ -4085,6 +4091,6 @@
    }
   }
  ],
- "ts": 1790628936503,
+ "ts": 1790629005414,
  "build": "20260915132319"
 }

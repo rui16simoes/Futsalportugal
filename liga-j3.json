@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 540
    },
    "lances": [
     {
@@ -2981,6 +2981,12 @@
      "m": "26",
      "lado": "fora",
      "txt": "Wendell rematou à baliza, grande defesa de Eurico Cunha."
+    },
+    {
+     "id": "t29",
+     "m": "29",
+     "lado": "casa",
+     "txt": "Remate muito potente de Tintim, mas ao lado."
     }
    ],
    "faltas": [
@@ -3743,6 +3749,6 @@
    }
   }
  ],
- "ts": 1790624118424,
+ "ts": 1790624379544,
  "build": "20260915132319"
 }

@@ -2172,9 +2172,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 780
+    "acc": 1200
    },
    "lances": [
     {
@@ -2389,9 +2389,27 @@
     },
     {
      "id": "s36",
-     "m": "33",
+     "m": "36",
      "lado": "casa",
-     "txt": "Cartão vermelho para Rocha, por acumulação de amarelos. O Sporting fica reduzido."
+     "txt": "Cartão vermelho para Rocha, por acumulação de amarelos. O Sporting fica dois minutos reduzido a quatro."
+    },
+    {
+     "id": "s37",
+     "m": "37",
+     "lado": "fora",
+     "txt": "O Benfica pediu pausa técnica."
+    },
+    {
+     "id": "s38",
+     "m": "39",
+     "lado": "fora",
+     "txt": "O Benfica não conseguiu aproveitar a superioridade numérica."
+    },
+    {
+     "id": "s39",
+     "m": "40",
+     "lado": "",
+     "txt": "FINAL NO JOÃO ROCHA. Sporting e Benfica empatam 3-3 num dérbi intenso: Diogo Santos, um autogolo de Carlos Monteiro e Wesley marcaram para os leões; Silvestre Ferreira, Edmilson Kutchy e Cléber Souza para os encarnados. Rocha foi expulso por duplo amarelo."
     }
    ],
    "faltas": [],
@@ -2606,7 +2624,7 @@
       "nome": "ROCHA",
       "e": "S",
       "min": "",
-      "cart": "19, 33d",
+      "cart": "19, 36d",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      }
@@ -3519,6 +3537,6 @@
    }
   }
  ],
- "ts": 1790529794407,
+ "ts": 1790616065617,
  "build": "20260915132319"
 }

@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 480
    },
    "lances": [
     {
@@ -3801,6 +3801,18 @@
      "m": "26",
      "lado": "fora",
      "txt": "Lucas Veras foi muito bem lançado na direita da área e tentou de calcanhar, grande defesa de Martim Borrego."
+    },
+    {
+     "id": "f51",
+     "m": "28",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Lucas Veras."
+    },
+    {
+     "id": "f52",
+     "m": "28",
+     "lado": "casa",
+     "txt": "Livre para o Fundão em zona frontal, perto da área."
     }
    ],
    "faltas": [],
@@ -4114,7 +4126,7 @@
       "nome": "LUCAS VERAS",
       "e": "P",
       "min": "26",
-      "cart": "",
+      "cart": "28",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/76/1550676_lucas_veras_20260909160534.png"
      },
@@ -4169,6 +4181,6 @@
    }
   }
  ],
- "ts": 1790630058258,
+ "ts": 1790630105868,
  "build": "20260915132319"
 }

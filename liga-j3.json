@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 240
    },
    "lances": [
     {
@@ -2837,6 +2837,18 @@
      "m": "2",
      "lado": "casa",
      "txt": "Remate rasteiro de Vitinho, boa intervenção de Pedro Martinho."
+    },
+    {
+     "id": "t5",
+     "m": "3",
+     "lado": "casa",
+     "txt": "Felipinho teve tudo para inaugurar o marcador, mas na cara do guarda-redes atirou à figura."
+    },
+    {
+     "id": "t6",
+     "m": "4",
+     "lado": "fora",
+     "txt": "Já com amarelo, Pedro Martinho continua a arriscar muito nas saídas."
     }
    ],
    "faltas": [],
@@ -3570,6 +3582,6 @@
    }
   }
  ],
- "ts": 1790620497517,
+ "ts": 1790620641060,
  "build": "20260915132319"
 }

@@ -3944,7 +3944,13 @@
      "id": "f74",
      "m": "39",
      "lado": "casa",
-     "txt": "GOLO DO FUNDÃO! Renato Almeida assiste e Peléh marca o quarto dos serranos. AD Fundão 4-1 UPVN."
+     "txt": "GOLO DO FUNDÃO! Renato Almeida lança o contra-ataque e serve Peléh na esquerda, que fletiu para o meio e rematou para o quarto dos serranos. AD Fundão 4-1 UPVN."
+    },
+    {
+     "id": "f75",
+     "m": "39",
+     "lado": "",
+     "txt": "Entra-se no último minuto de jogo."
     }
    ],
    "faltas": [],
@@ -4313,6 +4319,6 @@
    }
   }
  ],
- "ts": 1790631575115,
+ "ts": 1790631620568,
  "build": "20260915132319"
 }

@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300
+    "acc": 420
    },
    "lances": [
     {
@@ -3555,6 +3555,12 @@
      "m": "5",
      "lado": "casa",
      "txt": "Canto na direita, Tiago Tavares rematou mas a bola bateu num defesa."
+    },
+    {
+     "id": "f10",
+     "m": "7",
+     "lado": "casa",
+     "txt": "Tiago Tavares recebeu uma bola aérea na frente e cabeceou à figura do guarda-redes."
     }
    ],
    "faltas": [],
@@ -3923,6 +3929,6 @@
    }
   }
  ],
- "ts": 1790626282994,
+ "ts": 1790626440394,
  "build": "20260915132319"
 }

@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -3813,6 +3813,18 @@
      "m": "28",
      "lado": "casa",
      "txt": "Livre para o Fundão em zona frontal, perto da área."
+    },
+    {
+     "id": "f53",
+     "m": "28",
+     "lado": "casa",
+     "txt": "O livre estudado do Fundão saiu mal executado."
+    },
+    {
+     "id": "f54",
+     "m": "29",
+     "lado": "fora",
+     "txt": "Livre na esquerda para o UPVN."
     }
    ],
    "faltas": [],
@@ -4181,6 +4193,6 @@
    }
   }
  ],
- "ts": 1790630105868,
+ "ts": 1790630171809,
  "build": "20260915132319"
 }

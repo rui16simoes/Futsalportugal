@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -3855,6 +3855,12 @@
      "m": "31",
      "lado": "casa",
      "txt": "Uesler rematou rasteiro da meia-esquerda, a bola desviou e parecia golo certo, mas Jackson Ryan fez uma defesa incrível."
+    },
+    {
+     "id": "f60",
+     "m": "32",
+     "lado": "fora",
+     "txt": "Jackson Ryan subiu pela direita e rematou para boa defesa de Martim Borrego."
     }
    ],
    "faltas": [],
@@ -4223,6 +4229,6 @@
    }
   }
  ],
- "ts": 1790630558562,
+ "ts": 1790630627718,
  "build": "20260915132319"
 }

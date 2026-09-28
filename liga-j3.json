@@ -2809,9 +2809,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -3053,6 +3053,12 @@
      "m": "39",
      "lado": "casa",
      "txt": "Tintim apareceu pela ala direita, mas o remate saiu ao lado."
+    },
+    {
+     "id": "t41",
+     "m": "40",
+     "lado": "fora",
+     "txt": "FINAL EM TORRES VEDRAS. O Ferreira do Zêzere vence o Torreense por 1-3 e soma o primeiro triunfo na prova: Octávio Alves, Djaelson e Rui Fortes marcaram para os visitantes, Tintim reduziu. Pedro Martinho foi decisivo na baliza."
     }
    ],
    "faltas": [
@@ -3501,6 +3507,12 @@
      "m": "1",
      "lado": "",
      "txt": "COMEÇOU O JOGO no Pavilhão Municipal do Fundão. O Fundão chega com 6 pontos; o UPVN procura os primeiros."
+    },
+    {
+     "id": "f2",
+     "m": "1",
+     "lado": "fora",
+     "txt": "Dura subiu pela esquerda e rematou ao lado."
     }
    ],
    "faltas": [],
@@ -3869,6 +3881,6 @@
    }
   }
  ],
- "ts": 1790625788829,
+ "ts": 1790625849931,
  "build": "20260915132319"
 }

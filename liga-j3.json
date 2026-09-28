@@ -3879,6 +3879,12 @@
      "m": "35",
      "lado": "fora",
      "txt": "Na sequência do canto, Dura rematou de primeira, ao lado."
+    },
+    {
+     "id": "f64",
+     "m": "35",
+     "lado": "fora",
+     "txt": "Dura recuperou a bola em zona adiantada e tinha tudo para marcar, mas perdeu o duelo com Martim Borrego."
     }
    ],
    "faltas": [],
@@ -4247,6 +4253,6 @@
    }
   }
  ],
- "ts": 1790630889414,
+ "ts": 1790630963159,
  "build": "20260915132319"
 }

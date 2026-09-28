@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -3759,6 +3759,12 @@
      "m": "24",
      "lado": "casa",
      "txt": "Tiago Tavares rodou para a direita e rematou, mas a bola bateu num defesa."
+    },
+    {
+     "id": "f44",
+     "m": "25",
+     "lado": "fora",
+     "txt": "André Galvão foi bem lançado na esquerda e rematou forte para grande defesa de Jaime Arthur."
     }
    ],
    "faltas": [],
@@ -4127,6 +4133,6 @@
    }
   }
  ],
- "ts": 1790629522703,
+ "ts": 1790629643057,
  "build": "20260915132319"
 }

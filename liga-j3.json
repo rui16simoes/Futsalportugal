@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -3837,6 +3837,12 @@
      "m": "29",
      "lado": "fora",
      "txt": "Dura rematou de longe, a bola desviou em Lucas Bonifácio e saiu por cima."
+    },
+    {
+     "id": "f57",
+     "m": "30",
+     "lado": "casa",
+     "txt": "Renato Almeida tentou fintar na esquerda e rematou, mas a bola bateu num defesa."
     }
    ],
    "faltas": [],
@@ -4205,6 +4211,6 @@
    }
   }
  ],
- "ts": 1790630258962,
+ "ts": 1790630391160,
  "build": "20260915132319"
 }

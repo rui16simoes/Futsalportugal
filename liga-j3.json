@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 840
    },
    "lances": [
     {
@@ -2909,6 +2909,12 @@
      "m": "12",
      "lado": "casa",
      "txt": "Tintim desviou um cruzamento para a baliza, mas Pedro Martinho voltou a brilhar."
+    },
+    {
+     "id": "t17",
+     "m": "14",
+     "lado": "casa",
+     "txt": "O Torreense pediu pausa técnica."
     }
    ],
    "faltas": [
@@ -3657,6 +3663,6 @@
    }
   }
  ],
- "ts": 1790621694131,
+ "ts": 1790621991779,
  "build": "20260915132319"
 }

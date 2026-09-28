@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120
+    "acc": 240
    },
    "lances": [
     {
@@ -2969,6 +2969,12 @@
      "m": "22",
      "lado": "casa",
      "txt": "Remate rasteiro de Vitinho, defesa difícil de Pedro Martinho."
+    },
+    {
+     "id": "t27",
+     "m": "24",
+     "lado": "casa",
+     "txt": "Léo Evangelista atirou à malha lateral."
     }
    ],
    "faltas": [
@@ -3724,6 +3730,6 @@
    }
   }
  ],
- "ts": 1790623664124,
+ "ts": 1790623878262,
  "build": "20260915132319"
 }

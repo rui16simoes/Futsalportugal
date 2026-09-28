@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 1080
    },
    "lances": [
     {
@@ -3609,6 +3609,60 @@
      "m": "13",
      "lado": "casa",
      "txt": "Landelino Neto foi servido em zona frontal e tinha tudo para marcar, mas Jackson Ryan fez uma grande mancha."
+    },
+    {
+     "id": "f19",
+     "m": "14",
+     "lado": "casa",
+     "txt": "Livre estudado na esquerda para o Fundão, Nem rematou muito por cima."
+    },
+    {
+     "id": "f20",
+     "m": "14",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Renato Almeida."
+    },
+    {
+     "id": "f21",
+     "m": "15",
+     "lado": "casa",
+     "txt": "Renato Almeida foi muito bem desmarcado no canto esquerdo, entrou na área e tentou de calcanhar, mas Jackson Ryan fez uma grande defesa."
+    },
+    {
+     "id": "f22",
+     "m": "15",
+     "lado": "casa",
+     "txt": "Renato Almeida voltou a aparecer na esquerda e rematou por cima."
+    },
+    {
+     "id": "f23",
+     "m": "15",
+     "lado": "casa",
+     "txt": "Cartão amarelo para o treinador Nuno Couto."
+    },
+    {
+     "id": "f24",
+     "m": "16",
+     "lado": "fora",
+     "txt": "Rafael Freire subiu pela esquerda em transição e rematou de longe, ao lado."
+    },
+    {
+     "id": "f25",
+     "m": "17",
+     "lado": "casa",
+     "txt": "O Fundão pediu pausa técnica."
+    },
+    {
+     "id": "f26",
+     "m": "17",
+     "lado": "casa",
+     "txt": "Jaime Arthur voltou a subir pela direita e rematou rasteiro, defesa atenta de Jackson Ryan."
+    },
+    {
+     "id": "f27",
+     "m": "18",
+     "lado": "casa",
+     "txt": "Mário Freitas trabalhou na direita, fintou e rematou para boa defesa de Jackson Ryan."
     }
    ],
    "faltas": [],
@@ -3742,7 +3796,7 @@
       "nome": "RENATO ALMEIDA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "14",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/80/16732880_renato_almeida_20260807160756.png"
      },
@@ -3977,6 +4031,6 @@
    }
   }
  ],
- "ts": 1790627190837,
+ "ts": 1790627836972,
  "build": "20260915132319"
 }

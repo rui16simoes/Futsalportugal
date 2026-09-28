@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -3579,6 +3579,12 @@
      "m": "10",
      "lado": "casa",
      "txt": "Uesler voltou a tentar numa reposição lateral, mas o remate saiu muito ao lado."
+    },
+    {
+     "id": "f14",
+     "m": "11",
+     "lado": "casa",
+     "txt": "Renato Almeida viu Jackson Ryan adiantado e tentou o chapéu de longe, mas o guarda-redes recuperou e agarrou."
     }
    ],
    "faltas": [],
@@ -3947,6 +3953,6 @@
    }
   }
  ],
- "ts": 1790626794088,
+ "ts": 1790626918082,
  "build": "20260915132319"
 }

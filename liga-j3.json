@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -3537,6 +3537,12 @@
      "m": "3",
      "lado": "fora",
      "txt": "Canto na esquerda, Dura rematou à primeira mas a bola bateu num defesa."
+    },
+    {
+     "id": "f7",
+     "m": "4",
+     "lado": "casa",
+     "txt": "Nuno Miranda fletiu da esquerda para o meio e rematou para grande defesa de Jackson Ryan."
     }
    ],
    "faltas": [],
@@ -3905,6 +3911,6 @@
    }
   }
  ],
- "ts": 1790626032184,
+ "ts": 1790626087384,
  "build": "20260915132319"
 }

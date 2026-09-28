@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -3585,6 +3585,12 @@
      "m": "11",
      "lado": "casa",
      "txt": "Renato Almeida viu Jackson Ryan adiantado e tentou o chapéu de longe, mas o guarda-redes recuperou e agarrou."
+    },
+    {
+     "id": "f15",
+     "m": "12",
+     "lado": "casa",
+     "txt": "Tiago Tavares foi bem lançado na direita e rematou cruzado, mas ao lado."
     }
    ],
    "faltas": [],
@@ -3953,6 +3959,6 @@
    }
   }
  ],
- "ts": 1790626918082,
+ "ts": 1790626992477,
  "build": "20260915132319"
 }

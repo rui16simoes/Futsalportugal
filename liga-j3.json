@@ -3490,9 +3490,9 @@
    "hora": "21h00",
    "local": "Pavilhão Municipal do Fundão",
    "arb1": "JAIME MARTINS",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb2": "PEDRO COSTA",
+   "arb3": "DAVID PEREIRA",
+   "cron": "MANUEL PINTO",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -4052,7 +4052,7 @@
      {
       "num": "60",
       "nome": "GUINA",
-      "e": "N",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -4167,7 +4167,7 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/20/85/16672085_luis_correia_20260716142611.png"
      },
      {
-      "num": "30",
+      "num": "22",
       "nome": "JACKSON RYAN (GR)",
       "e": "P",
       "min": "",
@@ -4176,7 +4176,7 @@
       "foto": "jackson-ryan.png"
      },
      {
-      "num": "99",
+      "num": "90",
       "nome": "RODRIGO COSTA (GR)",
       "e": "S",
       "min": "",
@@ -4194,7 +4194,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/01/71/1310171_abel_vaz_20250714142533.png"
      },
      {
-      "num": "21",
+      "num": "20",
       "nome": "TOMÁS SILVA",
       "e": "P",
       "min": "",
@@ -4203,7 +4203,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/55/03/665503_tomas_silva_20250919112617.jpg"
      },
      {
-      "num": "6",
+      "num": "3",
       "nome": "VICENTE MOURATO",
       "e": "S",
       "min": "",
@@ -4212,7 +4212,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/73/38/137338_vicente_mourato_20240610225517.jpg"
      },
      {
-      "num": "18",
+      "num": "17",
       "nome": "RAFAEL FREIRE",
       "e": "S",
       "min": "",
@@ -4230,7 +4230,7 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/25/69/16842569_lucas_bonifacio_20260903115117.png"
      },
      {
-      "num": "8",
+      "num": "9",
       "nome": "SISSI",
       "e": "P",
       "min": "",
@@ -4248,7 +4248,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/25/1139325_luis_nunes_20240614105709.png"
      },
      {
-      "num": "11",
+      "num": "12",
       "nome": "DURA",
       "e": "P",
       "min": "",
@@ -4259,14 +4259,14 @@
      {
       "num": "17",
       "nome": "DIOGO SILVA",
-      "e": "S",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/04/665604_diogo_silva_20251219114141.png"
      },
      {
-      "num": "20",
+      "num": "19",
       "nome": "LUCAS VERAS",
       "e": "P",
       "min": "26",
@@ -4293,7 +4293,7 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/10/30/931030_vanilson_nazare_20250711160116.jpg"
      },
      {
-      "num": "28",
+      "num": "21",
       "nome": "ANDRÉ GALVÃO",
       "e": "S",
       "min": "",
@@ -4302,8 +4302,8 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
      },
      {
-      "num": 14,
-      "nome": "AFONSO SILVA",
+      "num": "14",
+      "nome": "AFONSO SILVA (GR)",
       "e": "S",
       "min": "",
       "cart": "",
@@ -4314,6 +4314,26 @@
      {
       "num": 7,
       "nome": "LUCAS BONIFÁCIO",
+      "e": "N",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
+     },
+     {
+      "num": "6",
+      "nome": "COQUINHO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
+     },
+     {
+      "num": "87",
+      "nome": "CIGANO",
       "e": "S",
       "min": "",
       "cart": "",
@@ -4325,6 +4345,6 @@
    }
   }
  ],
- "ts": 1790631714129,
+ "ts": 1790631847994,
  "build": "20260915132319"
 }

@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -2939,6 +2939,12 @@
      "m": "19",
      "lado": "fora",
      "txt": "GOLO DO FERREIRA DO ZÊZERE! Contra a corrente do jogo: Kaká viu o movimento de Octávio Alves nas costas da defesa e este, sem oposição, finalizou com classe. Torreense 0-1 Ferreira do Zêzere."
+    },
+    {
+     "id": "t22",
+     "m": "20",
+     "lado": "casa",
+     "txt": "Cabeceamento de Edson Patrick para defesa tranquila de Pedro Martinho."
     }
    ],
    "faltas": [
@@ -3694,6 +3700,6 @@
    }
   }
  ],
- "ts": 1790622707231,
+ "ts": 1790622872248,
  "build": "20260915132319"
 }

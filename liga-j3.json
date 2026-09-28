@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300
+    "acc": 360
    },
    "lances": [
     {
@@ -2975,6 +2975,12 @@
      "m": "24",
      "lado": "casa",
      "txt": "Léo Evangelista atirou à malha lateral."
+    },
+    {
+     "id": "t28",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Wendell rematou à baliza, grande defesa de Eurico Cunha."
     }
    ],
    "faltas": [
@@ -3737,6 +3743,6 @@
    }
   }
  ],
- "ts": 1790623998328,
+ "ts": 1790624118424,
  "build": "20260915132319"
 }

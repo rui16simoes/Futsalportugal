@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1020
+    "acc": 1140
    },
    "lances": [
     {
@@ -3921,6 +3921,24 @@
      "m": "37",
      "lado": "casa",
      "txt": "Peléh tenta de frente para a baliza e Jackson responde com uma grande defesa."
+    },
+    {
+     "id": "f71",
+     "m": "38",
+     "lado": "fora",
+     "txt": "O UPVN volta ao 5x4."
+    },
+    {
+     "id": "f72",
+     "m": "38",
+     "lado": "fora",
+     "txt": "Tomás Silva, que faz de guarda-redes avançado, remata pela direita mas a bola bate num defesa."
+    },
+    {
+     "id": "f73",
+     "m": "39",
+     "lado": "casa",
+     "txt": "GOLO DO FUNDÃO! Uesler faz o 3-1 e dá folga aos serranos. AD Fundão 3-1 UPVN."
     }
    ],
    "faltas": [],
@@ -3972,7 +3990,7 @@
    },
    "casa": {
     "eq": "fundao",
-    "golos": 2,
+    "golos": 3,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -4008,7 +4026,7 @@
       "num": "6",
       "nome": "UESLER",
       "e": "P",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/80/424580_uesler_20260720131537.png"
@@ -4289,6 +4307,6 @@
    }
   }
  ],
- "ts": 1790631343819,
+ "ts": 1790631463612,
  "build": "20260915132319"
 }

@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -2933,6 +2933,12 @@
      "m": "16",
      "lado": "casa",
      "txt": "Cartão amarelo para Manuel Monteiro."
+    },
+    {
+     "id": "t21",
+     "m": "19",
+     "lado": "fora",
+     "txt": "GOLO DO FERREIRA DO ZÊZERE! Contra a corrente do jogo, Octávio Alves, assistido por Kaká, adianta os zezerenses. Torreense 0-1 Ferreira do Zêzere."
     }
    ],
    "faltas": [
@@ -3177,7 +3183,7 @@
    },
    "fora": {
     "eq": "zezere",
-    "golos": 0,
+    "golos": 1,
     "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
@@ -3251,7 +3257,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "19",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/27/95/552795_rafael_silva_kaka__20250911080609.png"
      },
      {
@@ -3285,7 +3291,7 @@
       "num": "31",
       "nome": "OCTÁVIO ALVES",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
@@ -3688,6 +3694,6 @@
    }
   }
  ],
- "ts": 1790622557129,
+ "ts": 1790622632189,
  "build": "20260915132319"
 }

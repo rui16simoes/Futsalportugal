@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420
+    "acc": 540
    },
    "lances": [
     {
@@ -3561,6 +3561,12 @@
      "m": "7",
      "lado": "casa",
      "txt": "Tiago Tavares recebeu uma bola aérea na frente e cabeceou à figura do guarda-redes."
+    },
+    {
+     "id": "f11",
+     "m": "9",
+     "lado": "casa",
+     "txt": "Nuno Miranda tentou arrancar em drible pelo meio, mas perdeu a bola perto da área."
     }
    ],
    "faltas": [],
@@ -3929,6 +3935,6 @@
    }
   }
  ],
- "ts": 1790626440394,
+ "ts": 1790626610098,
  "build": "20260915132319"
 }

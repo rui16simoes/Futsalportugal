@@ -3891,6 +3891,12 @@
      "m": "36",
      "lado": "casa",
      "txt": "O Fundão pediu pausa técnica."
+    },
+    {
+     "id": "f66",
+     "m": "36",
+     "lado": "casa",
+     "txt": "GOLO DO FUNDÃO! Logo a seguir à pausa técnica, Landelino Neto serve Nem, que volta a pôr os serranos na frente. AD Fundão 2-1 UPVN."
     }
    ],
    "faltas": [],
@@ -3942,7 +3948,7 @@
    },
    "casa": {
     "eq": "fundao",
-    "golos": 1,
+    "golos": 2,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -4050,7 +4056,7 @@
       "num": "27",
       "nome": "NEM",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "19",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/43/16731643_nem_20260807163507.png"
@@ -4070,7 +4076,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "36",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/28/82/16732882_landelino_neto_20260807164244.png"
      },
      {
@@ -4259,6 +4265,6 @@
    }
   }
  ],
- "ts": 1790631041664,
+ "ts": 1790631084711,
  "build": "20260915132319"
 }

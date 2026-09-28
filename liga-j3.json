@@ -3849,6 +3849,12 @@
      "m": "31",
      "lado": "fora",
      "txt": "Luís Nunes foi servido na esquerda da área e tinha tudo para marcar, mas Renato Almeida fez um corte enorme."
+    },
+    {
+     "id": "f59",
+     "m": "31",
+     "lado": "casa",
+     "txt": "Uesler rematou rasteiro da meia-esquerda, a bola desviou e parecia golo certo, mas Jackson Ryan fez uma defesa incrível."
     }
    ],
    "faltas": [],
@@ -4217,6 +4223,6 @@
    }
   }
  ],
- "ts": 1790630483461,
+ "ts": 1790630558562,
  "build": "20260915132319"
 }

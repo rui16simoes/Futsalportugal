@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -3753,6 +3753,12 @@
      "m": "23",
      "lado": "fora",
      "txt": "Lucas Veras recebeu bem dentro da área e tinha tudo para empatar, mas o remate cruzado saiu ao lado."
+    },
+    {
+     "id": "f43",
+     "m": "24",
+     "lado": "casa",
+     "txt": "Tiago Tavares rodou para a direita e rematou, mas a bola bateu num defesa."
     }
    ],
    "faltas": [],
@@ -4121,6 +4127,6 @@
    }
   }
  ],
- "ts": 1790629396057,
+ "ts": 1790629522703,
  "build": "20260915132319"
 }

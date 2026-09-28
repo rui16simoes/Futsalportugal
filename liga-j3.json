@@ -2867,6 +2867,12 @@
      "m": "7",
      "lado": "casa",
      "txt": "Vitinho volta a ameaçar, agora com um grande remate de pé esquerdo."
+    },
+    {
+     "id": "t10",
+     "m": "8",
+     "lado": "casa",
+     "txt": "Remate potente de Tintim em zona frontal, nova grande defesa de Pedro Martinho."
     }
    ],
    "faltas": [
@@ -3608,6 +3614,6 @@
    }
   }
  ],
- "ts": 1790621055740,
+ "ts": 1790621108685,
  "build": "20260915132319"
 }

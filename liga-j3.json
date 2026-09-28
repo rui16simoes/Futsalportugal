@@ -2811,10 +2811,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 60
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "t1",
+     "m": "1",
+     "lado": "",
+     "txt": "COMEÇOU O JOGO no Pavilhão da Física, em Torres Vedras. Torreense e Ferreira do Zêzere ainda procuram a primeira vitória na prova."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2864,7 +2870,7 @@
    },
    "casa": {
     "eq": "torreense",
-    "golos": "",
+    "golos": 0,
     "capitao": "PAULO MAJOR",
     "treinador": "BARTH SORRILHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
@@ -2881,7 +2887,7 @@
      {
       "num": "13",
       "nome": "EURICO CUNHA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2926,7 +2932,7 @@
      {
       "num": "88",
       "nome": "NICOLAS TOMÉ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2980,7 +2986,7 @@
      {
       "num": "18",
       "nome": "FELIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3025,7 +3031,7 @@
      {
       "num": "90",
       "nome": "TINTIM",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3035,7 +3041,7 @@
    },
    "fora": {
     "eq": "zezere",
-    "golos": "",
+    "golos": 0,
     "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
@@ -3043,7 +3049,7 @@
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3070,7 +3076,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3133,7 +3139,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3160,7 +3166,7 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3173,8 +3179,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
-      "extra": 1
+      "foto": ""
      }
     ]
    }
@@ -3547,6 +3552,6 @@
    }
   }
  ],
- "ts": 1790616095544,
+ "ts": 1790620350266,
  "build": "20260915132319"
 }

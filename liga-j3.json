@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 960
+    "acc": 1020
    },
    "lances": [
     {
@@ -3029,6 +3029,12 @@
      "m": "36",
      "lado": "fora",
      "txt": "Afonso Mourinha voltou a ameaçar, desta vez travado por uma grande defesa de Eurico Cunha."
+    },
+    {
+     "id": "t37",
+     "m": "37",
+     "lado": "casa",
+     "txt": "O Torreense arrisca o 5x4 com guarda-redes avançado."
     }
    ],
    "faltas": [
@@ -3839,6 +3845,6 @@
    }
   }
  ],
- "ts": 1790625199457,
+ "ts": 1790625309300,
  "build": "20260915132319"
 }

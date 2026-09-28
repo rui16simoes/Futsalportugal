@@ -3499,7 +3499,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -3591,6 +3591,18 @@
      "m": "12",
      "lado": "casa",
      "txt": "Tiago Tavares foi bem lançado na direita e rematou cruzado, mas ao lado."
+    },
+    {
+     "id": "f16",
+     "m": "13",
+     "lado": "casa",
+     "txt": "Tiago Tavares recebeu de costas em zona frontal, rodou bem e rematou para boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f17",
+     "m": "13",
+     "lado": "fora",
+     "txt": "O UPVN pediu pausa técnica."
     }
    ],
    "faltas": [],
@@ -3959,6 +3971,6 @@
    }
   }
  ],
- "ts": 1790626992477,
+ "ts": 1790627068630,
  "build": "20260915132319"
 }

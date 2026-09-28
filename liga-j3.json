@@ -3896,7 +3896,13 @@
      "id": "f66",
      "m": "36",
      "lado": "casa",
-     "txt": "GOLO DO FUNDÃO! Logo a seguir à pausa técnica, Landelino Neto serve Nem, que volta a pôr os serranos na frente. AD Fundão 2-1 UPVN."
+     "txt": "GOLO DO FUNDÃO! Logo a seguir à pausa técnica, o Fundão monta uma jogada coletiva na reposição e Landelino Neto encontra Nem sozinho nas costas da defesa, que finaliza e volta a pôr os serranos na frente. AD Fundão 2-1 UPVN."
+    },
+    {
+     "id": "f67",
+     "m": "36",
+     "lado": "fora",
+     "txt": "O UPVN pediu pausa técnica."
     }
    ],
    "faltas": [],
@@ -4265,6 +4271,6 @@
    }
   }
  ],
- "ts": 1790631084711,
+ "ts": 1790631207610,
  "build": "20260915132319"
 }

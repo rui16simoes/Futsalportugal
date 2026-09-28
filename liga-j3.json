@@ -3023,6 +3023,12 @@
      "m": "36",
      "lado": "fora",
      "txt": "Poste! Afonso Mourinha acertou no ferro."
+    },
+    {
+     "id": "t36",
+     "m": "36",
+     "lado": "fora",
+     "txt": "Afonso Mourinha voltou a ameaçar, desta vez travado por uma grande defesa de Eurico Cunha."
     }
    ],
    "faltas": [
@@ -3833,6 +3839,6 @@
    }
   }
  ],
- "ts": 1790625121108,
+ "ts": 1790625199457,
  "build": "20260915132319"
 }

@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 420
    },
    "lances": [
     {
@@ -2849,6 +2849,24 @@
      "m": "4",
      "lado": "fora",
      "txt": "Já com amarelo, Pedro Martinho continua a arriscar muito nas saídas."
+    },
+    {
+     "id": "t7",
+     "m": "5",
+     "lado": "fora",
+     "txt": "David Costa rodou sobre o adversário e rematou para defesa tranquila de Eurico Cunha."
+    },
+    {
+     "id": "t8",
+     "m": "6",
+     "lado": "casa",
+     "txt": "Vitinho muito perto do golo: grande arrancada pelo corredor esquerdo, mas Pedro Martinho fez bem a mancha."
+    },
+    {
+     "id": "t9",
+     "m": "7",
+     "lado": "casa",
+     "txt": "Vitinho volta a ameaçar, agora com um grande remate de pé esquerdo."
     }
    ],
    "faltas": [],
@@ -3582,6 +3600,6 @@
    }
   }
  ],
- "ts": 1790620641060,
+ "ts": 1790620984825,
  "build": "20260915132319"
 }

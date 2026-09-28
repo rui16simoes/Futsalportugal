@@ -3734,7 +3734,19 @@
      "id": "f39",
      "m": "22",
      "lado": "casa",
-     "txt": "Landelino Neto rodou bem na esquerda e rematou para boa defesa do guarda-redes do UPVN."
+     "txt": "Landelino Neto rodou bem na esquerda e rematou para boa defesa de Jackson Ryan."
+    },
+    {
+     "id": "f40",
+     "m": "22",
+     "lado": "casa",
+     "txt": "Renato Almeida foi muito bem lançado na esquerda, em transição, e rematou para grande defesa de Jackson Ryan."
+    },
+    {
+     "id": "f41",
+     "m": "22",
+     "lado": "casa",
+     "txt": "Canto de Uesler na direita, Renato Almeida tinha tudo para marcar ao segundo poste, mas falhou a baliza."
     }
    ],
    "faltas": [],
@@ -4103,6 +4115,6 @@
    }
   }
  ],
- "ts": 1790629252393,
+ "ts": 1790629325892,
  "build": "20260915132319"
 }

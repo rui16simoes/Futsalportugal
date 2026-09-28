@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -2819,6 +2819,24 @@
      "m": "1",
      "lado": "",
      "txt": "COMEÇOU O JOGO no Pavilhão da Física, em Torres Vedras. Torreense e Ferreira do Zêzere ainda procuram a primeira vitória na prova."
+    },
+    {
+     "id": "t2",
+     "m": "1",
+     "lado": "fora",
+     "txt": "Cartão amarelo para o guarda-redes Pedro Martinho."
+    },
+    {
+     "id": "t3",
+     "m": "2",
+     "lado": "fora",
+     "txt": "David Costa ameaçou com duas tentativas seguidas, mas ambas esbarraram na defesa."
+    },
+    {
+     "id": "t4",
+     "m": "2",
+     "lado": "casa",
+     "txt": "Remate rasteiro de Vitinho, boa intervenção de Pedro Martinho."
     }
    ],
    "faltas": [],
@@ -2968,7 +2986,7 @@
      {
       "num": "10",
       "nome": "PAULO MAJOR",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3051,7 +3069,7 @@
       "nome": "PEDRO MARTINHO (GR)",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "1",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/00/11/290011_pedro_martinho_20250924074443.png"
      },
@@ -3552,6 +3570,6 @@
    }
   }
  ],
- "ts": 1790620350266,
+ "ts": 1790620497517,
  "build": "20260915132319"
 }

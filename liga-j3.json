@@ -2811,7 +2811,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -2957,6 +2957,18 @@
      "m": "21",
      "lado": "",
      "txt": "Começou a segunda parte."
+    },
+    {
+     "id": "t25",
+     "m": "22",
+     "lado": "fora",
+     "txt": "Entrada forte do Ferreira do Zêzere na segunda parte."
+    },
+    {
+     "id": "t26",
+     "m": "22",
+     "lado": "casa",
+     "txt": "Remate rasteiro de Vitinho, defesa difícil de Pedro Martinho."
     }
    ],
    "faltas": [
@@ -3712,6 +3724,6 @@
    }
   }
  ],
- "ts": 1790623553159,
+ "ts": 1790623664124,
  "build": "20260915132319"
 }

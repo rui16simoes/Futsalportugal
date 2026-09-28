@@ -2809,9 +2809,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200
+    "estado": "parado",
+    "parte": 2,
+    "acc": 60
    },
    "lances": [
     {
@@ -2951,6 +2951,12 @@
      "m": "20",
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "t24",
+     "m": "21",
+     "lado": "",
+     "txt": "Começou a segunda parte."
     }
    ],
    "faltas": [
@@ -3706,6 +3712,6 @@
    }
   }
  ],
- "ts": 1790622931871,
+ "ts": 1790623553159,
  "build": "20260915132319"
 }

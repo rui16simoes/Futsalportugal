@@ -2897,6 +2897,12 @@
      "m": "11",
      "lado": "fora",
      "txt": "Cartão amarelo para Leonardo Travessa."
+    },
+    {
+     "id": "t15",
+     "m": "11",
+     "lado": "casa",
+     "txt": "Remate potente de Tintim, mas sem direção."
     }
    ],
    "faltas": [
@@ -3645,6 +3651,6 @@
    }
   }
  ],
- "ts": 1790621549346,
+ "ts": 1790621603242,
  "build": "20260915132319"
 }

@@ -3603,6 +3603,12 @@
      "m": "13",
      "lado": "fora",
      "txt": "O UPVN pediu pausa técnica."
+    },
+    {
+     "id": "f18",
+     "m": "13",
+     "lado": "casa",
+     "txt": "Landelino Neto foi servido em zona frontal e tinha tudo para marcar, mas Jackson Ryan fez uma grande mancha."
     }
    ],
    "faltas": [],
@@ -3971,6 +3977,6 @@
    }
   }
  ],
- "ts": 1790627068630,
+ "ts": 1790627190837,
  "build": "20260915132319"
 }

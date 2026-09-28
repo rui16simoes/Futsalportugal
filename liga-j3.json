@@ -3395,7 +3395,7 @@
    "data": "28 de setembro de 2026",
    "hora": "21h00",
    "local": "Pavilhão Municipal do Fundão",
-   "arb1": "",
+   "arb1": "JAIME MARTINS",
    "arb2": "",
    "arb3": "",
    "cron": "",
@@ -3459,14 +3459,14 @@
    "casa": {
     "eq": "fundao",
     "golos": "",
-    "capitao": "",
+    "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
     "jogadores": [
      {
       "num": "14",
       "nome": "GAZA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3475,7 +3475,7 @@
      {
       "num": "24",
       "nome": "MARTIM BORREGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3484,7 +3484,7 @@
      {
       "num": "30",
       "nome": "JAIME ARTHUR (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3493,7 +3493,7 @@
      {
       "num": "6",
       "nome": "UESLER",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3502,7 +3502,7 @@
      {
       "num": "60",
       "nome": "GUINA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3511,7 +3511,7 @@
      {
       "num": "12",
       "nome": "PELÉH",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3520,7 +3520,7 @@
      {
       "num": "20",
       "nome": "ARTUR VICENTE",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3529,7 +3529,7 @@
      {
       "num": "10",
       "nome": "NUNO MIRANDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3538,7 +3538,7 @@
      {
       "num": "11",
       "nome": "RENATO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3547,7 +3547,7 @@
      {
       "num": "13",
       "nome": "LOURENÇO AGUIAR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3556,7 +3556,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3565,7 +3565,7 @@
      {
       "num": "27",
       "nome": "NEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3574,7 +3574,7 @@
      {
       "num": "9",
       "nome": "EDUARDO JOB",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3583,7 +3583,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3592,7 +3592,7 @@
      {
       "num": "77",
       "nome": "TIAGO TAVARES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3603,14 +3603,14 @@
    "fora": {
     "eq": "upvn",
     "golos": "",
-    "capitao": "",
+    "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
     "jogadores": [
      {
       "num": "16",
       "nome": "LUÍS CORREIA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3619,7 +3619,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3628,7 +3628,7 @@
      {
       "num": "99",
       "nome": "RODRIGO COSTA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3637,7 +3637,7 @@
      {
       "num": "2",
       "nome": "ABEL VAZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3646,7 +3646,7 @@
      {
       "num": "21",
       "nome": "TOMÁS SILVA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3655,7 +3655,7 @@
      {
       "num": "6",
       "nome": "VICENTE MOURATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3664,7 +3664,7 @@
      {
       "num": "18",
       "nome": "RAFAEL FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3673,7 +3673,7 @@
      {
       "num": "7",
       "nome": "LUCAS SANTOS",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3682,7 +3682,7 @@
      {
       "num": "8",
       "nome": "SISSI",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3691,7 +3691,7 @@
      {
       "num": "10",
       "nome": "LUÍS NUNES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3700,7 +3700,7 @@
      {
       "num": "11",
       "nome": "DURA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3709,7 +3709,7 @@
      {
       "num": "17",
       "nome": "DIOGO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3718,7 +3718,7 @@
      {
       "num": "20",
       "nome": "LUCAS VERAS",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3727,7 +3727,7 @@
      {
       "num": "80",
       "nome": "LUÍS MONTES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3736,7 +3736,7 @@
      {
       "num": "26",
       "nome": "VANILSON NAZARÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3745,16 +3745,36 @@
      {
       "num": "28",
       "nome": "ANDRÉ GALVÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
+     },
+     {
+      "num": 14,
+      "nome": "AFONSO SILVA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
+     },
+     {
+      "num": 7,
+      "nome": "LUCAS BONIFÁCIO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1790624523838,
+ "ts": 1790624590288,
  "build": "20260915132319"
 }

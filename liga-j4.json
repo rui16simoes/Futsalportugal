@@ -544,7 +544,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/40/983640_tiago_pereira_20241023232857.jpg",
       "extra": 1
      }
     ]
@@ -2467,6 +2467,6 @@
    }
   }
  ],
- "ts": 1791056732399,
+ "ts": 1791057003956,
  "build": "20260915132319"
 }

@@ -198,7 +198,7 @@
      "id": "f7",
      "m": "9",
      "lado": "casa",
-     "txt": "GOLO DO BENFICA! Cléber Souza reduz para os encarnados. SL Benfica 1-2 Leões Porto Salvo."
+     "txt": "GOLO DO BENFICA! Kutchy assiste e Cléber Souza reduz para os encarnados. SL Benfica 1-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -366,7 +366,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "9",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/96/38/269638_edmilson_kutchy_20250919142810.jpg"
      },
      {
@@ -2524,6 +2524,6 @@
    }
   }
  ],
- "ts": 1791059517646,
+ "ts": 1791059551283,
  "build": "20260915132319"
 }

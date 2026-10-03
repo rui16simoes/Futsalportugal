@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 1020
    },
    "lances": [
     {
@@ -217,6 +217,12 @@
      "m": "13",
      "lado": "casa",
      "txt": "GOLO DO BENFICA! Arthur serve Pany Varela, que fleta para o meio e atira com muita força para o empate. SL Benfica 2-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f11",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Grande passe de Lúcio Rocha para Carlos Monteiro, que surge ao segundo poste mas não consegue aproveitar."
     }
    ],
    "faltas": [
@@ -240,6 +246,13 @@
      "parte": 1,
      "m": "10",
      "n": 3
+    },
+    {
+     "id": "fc1",
+     "lado": "casa",
+     "parte": 1,
+     "m": "17",
+     "n": 1
     }
    ],
    "gp": {
@@ -2549,6 +2562,6 @@
    }
   }
  ],
- "ts": 1791060109789,
+ "ts": 1791060557599,
  "build": "20260915132319"
 }

@@ -294,7 +294,7 @@
      "id": "f23",
      "m": "29",
      "lado": "casa",
-     "txt": "GOLO DO BENFICA! Raúl Moreira faz o quinto dos encarnados. SL Benfica 5-2 Leões Porto Salvo."
+     "txt": "GOLO DO BENFICA! Cléber Souza assiste e Raúl Moreira faz o quinto dos encarnados. SL Benfica 5-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -540,7 +540,7 @@
       "e": "S",
       "min": "9",
       "cart": "",
-      "ass": "",
+      "ass": "29",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/10/16635710_cleber_souza_20260813023911.png"
      },
      {
@@ -2662,6 +2662,6 @@
    }
   }
  ],
- "ts": 1791062706318,
+ "ts": 1791062740317,
  "build": "20260915132319"
 }

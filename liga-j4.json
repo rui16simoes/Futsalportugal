@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420
+    "acc": 540
    },
    "lances": [
     {
@@ -193,6 +193,12 @@
      "m": "5",
      "lado": "fora",
      "txt": "GOLO DOS LEÕES DE PORTO SALVO! Rúben Carrilho ganha o duelo a Rúben Góis, cruza para o meio da área e Chico (Francisco Oliveira) só tem de encostar. SL Benfica 0-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f7",
+     "m": "9",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Cléber Souza reduz para os encarnados. SL Benfica 1-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -259,7 +265,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 0,
+    "golos": 1,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -394,7 +400,7 @@
       "num": "77",
       "nome": "CLÉBER SOUZA",
       "e": "S",
-      "min": "",
+      "min": "9",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/10/16635710_cleber_souza_20260813023911.png"
@@ -2518,6 +2524,6 @@
    }
   }
  ],
- "ts": 1791059404160,
+ "ts": 1791059517646,
  "build": "20260915132319"
 }

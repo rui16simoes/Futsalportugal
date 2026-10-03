@@ -361,7 +361,7 @@ const DAYS = {
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1 · Jogo Antecipado', series:[
         { label:'Série C', games:[
-          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], venue:'Pav. Multiusos Águias Unidas' },
+          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], hscorers:["35' Rafael Silva","38' Joao Raposo"], ascorers:["1' Adrian Pereira"], venue:'Pav. Multiusos Águias Unidas' },
         ]},
       ]},
     ]
@@ -393,7 +393,7 @@ const DAYS = {
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 3', games:[
         { time:'18:30', home:'FC Famalicão', away:'Eléctrico FC', status:'done', score:[3,1], hscorers:["17' Rui Rego", "31' Daniel Silva", "32' Rui Rego"], ascorers:["2' Diogo Metelo"], venue:'Pav. Municipal Lameiras' },
-        { time:'20:30', home:'CR Leões Porto Salvo', away:'Portimonense SC', status:'done', score:[7,3], venue:'Pav. do Leões Porto Salvo' },
+        { time:'20:30', home:'CR Leões Porto Salvo', away:'Portimonense SC', status:'done', score:[7,3], hscorers:["4' Rúben Carrilho","10' Pedro Santos","11' Ré","21' Isaias Furtado","32' Guilherme Cintra","34' Ré","39' Francisco"], ascorers:["33' Guilherme Herculano","34' Tomás Reis","36' Adailton Borges"], venue:'Pav. do Leões Porto Salvo' },
       ]},
       { comp:'Liga Feminina Placard', link:LINKS.ligaPlacardF,
         color:'#f43f5e', flag:'🇵🇹', round:'Jornada 3 · Feminino', games:[
@@ -492,7 +492,7 @@ const DAYS = {
           { time:'11:00', home:'Sonâmbulos FLA', away:'CDC Porto Moniz', status:'done', score:[3,8], hscorers:["4' Joao Soares","17' Hugo Reves","39' Joao Soares"], ascorers:["2' Leonardo Severim","4' Eduardo Mendes","25' Bernardo Silva","29' Leonardo Severim","31' Fabio Xavier","32' Fabio Xavier","35' Eduardo Mendes","35' Eduardo Mendes"], venue:'Pav. Desp. Municipal Luz Tavira' },
           { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'done', score:[4,3], venue:'Pav. do Leões Porto Salvo' },
           { time:'18:00', home:'CRC Quinta Lombos "B"', away:"GD EB D. João I / Ópticafernandes", status:'done', score:[5,3], hscorers:["11' Ruben Pereira","11' Diogo Martins","34' Miguel Roque","38' Afonso Andrade","39' Diogo Martins"], ascorers:["2' Sergio Silva","16' Ruben Domingues","32' Ruben Domingues"], venue:'Pav. Desportivo dos Lombos' },
-          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], venue:'Pav. Nº 2 do SLB' },
+          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], hscorers:["10' Tomás Zurzica","27' Duarte Silva"], ascorers:["39' Ruben Catalão"], venue:'Pav. Nº 2 do SLB' },
         ]},
       ]},
     ]
@@ -502,8 +502,8 @@ const DAYS = {
     sections: [
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 3', games:[
-        { time:'19:30', home:'SCU Torreense SAD', away:'SCF Zêzere by Zêzerovo', status:'done', score:[1,3], venue:'Pav. Dr. José Maria Antunes Júnior' },
-        { time:'21:00', home:'AD Fundão', away:'UP Venda Nova / JRA', status:'done', score:[4,1], venue:'Pav. Municipal Fundão' },
+        { time:'19:30', home:'SCU Torreense SAD', away:'SCF Zêzere by Zêzerovo', status:'done', score:[1,3], hscorers:["37' Luis Oliveira"], ascorers:["18' Octavio Alves","28' Djaelson Filho","31' Rui Fortes"], venue:'Pav. Dr. José Maria Antunes Júnior' },
+        { time:'21:00', home:'AD Fundão', away:'UP Venda Nova / JRA', status:'done', score:[4,1], hscorers:["18' Tiago Tavares","35' Jamison Moura","38' Emerson Santos","38' Uesler Schaefer"], ascorers:["25' Lucas Veras (p)"], venue:'Pav. Municipal Fundão' },
       ]},
     ]
   },
@@ -512,7 +512,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4] },
+        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4], hscorers:["Adri Ortego 25'","Kike Liao 32'","Célio Coque 37'"], ascorers:["Pachu 7'","Dener 21'","Drahovsky 31'","Santa Cruz 39'"] },
       ]},
     ]
   },
@@ -521,7 +521,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1] },
+        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1], hscorers:["Adolfo 16'","Roger 17'","Roger 18'","Catela 21'","Catela 22'","Higor 39'"], ascorers:["Novoa 23'"] },
       ]},
     ]
   },

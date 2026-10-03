@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -178,7 +178,7 @@
     },
     {
      "id": "f4",
-     "m": "1",
+     "m": "2",
      "lado": "casa",
      "txt": "Arthur atira forte de livre e Guilherme Cintra, bem colocado, defende."
     }
@@ -2499,6 +2499,6 @@
    }
   }
  ],
- "ts": 1791058783083,
+ "ts": 1791058950032,
  "build": "20260915132319"
 }

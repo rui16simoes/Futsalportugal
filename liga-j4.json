@@ -223,6 +223,12 @@
      "m": "16",
      "lado": "casa",
      "txt": "Grande passe de Lúcio Rocha para Carlos Monteiro, que surge ao segundo poste mas não consegue aproveitar."
+    },
+    {
+     "id": "f12",
+     "m": "17",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! É o guarda redes Léo Gugiel quem põe os encarnados na frente pela primeira vez. SL Benfica 3-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -303,7 +309,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 2,
+    "golos": 3,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -330,7 +336,7 @@
       "num": "22",
       "nome": "LÉO GUGIEL (GR)",
       "e": "P",
-      "min": "",
+      "min": "17",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/99/62/559962_leo_gugiel_20250919142941.jpg"
@@ -2562,6 +2568,6 @@
    }
   }
  ],
- "ts": 1791060557599,
+ "ts": 1791060618166,
  "build": "20260915132319"
 }

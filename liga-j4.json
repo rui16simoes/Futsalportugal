@@ -153,9 +153,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1020
+    "acc": 1200
    },
    "lances": [
     {
@@ -343,6 +343,18 @@
      "m": "37",
      "lado": "",
      "txt": "Troca na baliza do Benfica: entra Vasco Pinto."
+    },
+    {
+     "id": "f32",
+     "m": "39",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Rúben Carrilho, dos Leões de Porto Salvo, por falta. Os Leões chegam às cinco faltas e a próxima dá livre direto ao Benfica."
+    },
+    {
+     "id": "f33",
+     "m": "40",
+     "lado": "casa",
+     "txt": "FIM DO JOGO! O SL Benfica vence os Leões de Porto Salvo por 6-2. Depois de estar a perder por 0-2, os encarnados deram a volta ainda na primeira parte e dominaram a segunda."
     }
    ],
    "faltas": [
@@ -429,6 +441,13 @@
      "parte": 2,
      "m": "35",
      "n": 4
+    },
+    {
+     "id": "ff8",
+     "lado": "fora",
+     "parte": 2,
+     "m": "39",
+     "n": 5
     }
    ],
    "gp": {
@@ -678,7 +697,7 @@
       "nome": "RÚBEN CARRILHO",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "39",
       "ass": "5",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/84/16615084_ruben_carrilho_20260908151944.jpg"
      },
@@ -2738,6 +2757,6 @@
    }
   }
  ],
- "ts": 1791063724240,
+ "ts": 1791064380794,
  "build": "20260915132319"
 }

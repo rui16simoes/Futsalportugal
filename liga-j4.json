@@ -235,6 +235,12 @@
      "m": "19",
      "lado": "fora",
      "txt": "Os Leões de Porto Salvo voltam a pedir pausa técnica no último minuto da primeira parte."
+    },
+    {
+     "id": "f14",
+     "m": "19",
+     "lado": "casa",
+     "txt": "Rúben Góis remata no fim de uma jogada ensaiada e Guilherme Cintra volta a defender."
     }
    ],
    "faltas": [
@@ -2574,6 +2580,6 @@
    }
   }
  ],
- "ts": 1791060729227,
+ "ts": 1791060861972,
  "build": "20260915132319"
 }

@@ -148,6 +148,7 @@ const LINKS = {
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
   tacaPortugalF:'https://rui16simoes.github.io/Futsalportugal/taca-portugal-fem.html',
+  cn2divF:      'https://rui16simoes.github.io/Futsalportugal/cn-feminino-ii-divisao.html',
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -444,6 +445,8 @@ const DAYS = {
           { time:'16:00', home:'SCR Gaeirense', away:'CDR Águias Unidas/PCF', status:'done', score:[0,3], hscorers:[], ascorers:["7' Pedro Viegas","24' Joao Raposo","26' Jose Fernandes"], venue:'Pav. Gimnodesportivo SCR Gaeirense' },
           { time:'16:00', home:'SC Vila Verde', away:'CDR Os Vinhais', status:'done', score:[2,3], hscorers:["34' Bernardo Guimaraes","37' Carlos Porfirio"], ascorers:["3' Rodrigo Fernandes","29' Gabriel Vidal","33' Tomas Verissimo"], venue:'Pav. António Mateus | Vila Verde' },
           { time:'19:00', home:'SR Manjoeira', away:'CA S. Marta Pinhal', status:'done', score:[6,2], hscorers:["19' Santiago Liscano","23' Bruno Mendes","26' Guilherme Fernandes","29' Diogo Medroa","39' Bruno Mendes"], ascorers:["9' Diogo Ramos (AG)","13' Tiago Rocha","30' Diogo Ramos"], venue:'Pav. António Feliciano Bastos' },
+          { time:'16:00', home:'CR Leões Porto Salvo B', away:'AD Quinta Conde/Easy Partners', status:'done', score:[4,3], venue:'Pav. do Leões Porto Salvo' },
+          { time:'19:00', home:'SL Benfica B', away:'GURD MTBA', status:'done', score:[2,1], hscorers:["10' Tomás Zurzica","27' Duarte Silva"], ascorers:["39' Rubén Catalão"], venue:"Pav. Nº 2 do SLB" },
         ]},
       ]},
     ]
@@ -512,7 +515,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4] },
+        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4], hscorers:["Adri Ortego 23'","Kike Liao 37'","Célio Coque 38'"], ascorers:["Pachu 7'","Dener 21'","Drahovsky 31'","Santa Cruz 39'"] },
       ]},
     ]
   },
@@ -521,7 +524,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1] },
+        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1], hscorers:["Catela 1'","Adolfo 7'","Adolfo 16'","Roger 18'","Catela 22'","Higor 40'"], ascorers:["Novoa 23'"] },
       ]},
     ]
   },
@@ -687,6 +690,17 @@ const DAYS = {
         { time:'', home:'CB Charneca Caparica', away:'Aliados Vendas Novas', status:'', score:null, venue:'' },
         { time:'', home:'Parchalense', away:'CRD Miratejo', status:'', score:null, venue:'' },
         { time:'', home:'SC Ferreirense', away:'Farense', status:'', score:null, venue:'' },
+      ]},
+    ]
+  },
+  '2026-10-21': {
+    label: ['Qua','21','Out'],
+    sections: [
+      { comp:'CN Futsal Feminino 2.ª Divisão', link:LINKS.cn2divF,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 1', series:[
+        { label:"Série Sul", games:[
+          { time:"", home:"Norte E Soure Cscd Paleão", away:"Cria", venue:"Pavilhão Desportivo Encosta Do Sol" },
+        ]},
       ]},
     ]
   },

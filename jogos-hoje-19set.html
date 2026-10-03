@@ -362,7 +362,7 @@ const DAYS = {
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1 · Jogo Antecipado', series:[
         { label:'Série C', games:[
-          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], venue:'Pav. Multiusos Águias Unidas' },
+          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], hscorers:["Rafael Silva 35'","João Raposo 38'"], ascorers:["Adrian Pereira 1'"], venue:'Pav. Multiusos Águias Unidas' },
         ]},
       ]},
     ]
@@ -445,8 +445,6 @@ const DAYS = {
           { time:'16:00', home:'SCR Gaeirense', away:'CDR Águias Unidas/PCF', status:'done', score:[0,3], hscorers:[], ascorers:["7' Pedro Viegas","24' Joao Raposo","26' Jose Fernandes"], venue:'Pav. Gimnodesportivo SCR Gaeirense' },
           { time:'16:00', home:'SC Vila Verde', away:'CDR Os Vinhais', status:'done', score:[2,3], hscorers:["34' Bernardo Guimaraes","37' Carlos Porfirio"], ascorers:["3' Rodrigo Fernandes","29' Gabriel Vidal","33' Tomas Verissimo"], venue:'Pav. António Mateus | Vila Verde' },
           { time:'19:00', home:'SR Manjoeira', away:'CA S. Marta Pinhal', status:'done', score:[6,2], hscorers:["19' Santiago Liscano","23' Bruno Mendes","26' Guilherme Fernandes","29' Diogo Medroa","39' Bruno Mendes"], ascorers:["9' Diogo Ramos (AG)","13' Tiago Rocha","30' Diogo Ramos"], venue:'Pav. António Feliciano Bastos' },
-          { time:'16:00', home:'CR Leões Porto Salvo B', away:'AD Quinta Conde/Easy Partners', status:'done', score:[4,3], venue:'Pav. do Leões Porto Salvo' },
-          { time:'19:00', home:'SL Benfica B', away:'GURD MTBA', status:'done', score:[2,1], hscorers:["10' Tomás Zurzica","27' Duarte Silva"], ascorers:["39' Rubén Catalão"], venue:"Pav. Nº 2 do SLB" },
         ]},
       ]},
     ]
@@ -493,9 +491,9 @@ const DAYS = {
         ]},
         { label:'Série C', games:[
           { time:'11:00', home:'Sonâmbulos FLA', away:'CDC Porto Moniz', status:'done', score:[3,8], hscorers:["4' Joao Soares","17' Hugo Reves","39' Joao Soares"], ascorers:["2' Leonardo Severim","4' Eduardo Mendes","25' Bernardo Silva","29' Leonardo Severim","31' Fabio Xavier","32' Fabio Xavier","35' Eduardo Mendes","35' Eduardo Mendes"], venue:'Pav. Desp. Municipal Luz Tavira' },
-          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'done', score:[4,3], venue:'Pav. do Leões Porto Salvo' },
+          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'done', score:[4,3], hscorers:["Bruno Marques 11' (p)","Daniel Tavares 21'","Bruno Marques 34'","João Moura 39'"], ascorers:["Henrique Alves 14'","Ricardo Baptista 23'","André Sousa 24'"], venue:'Pav. do Leões Porto Salvo' },
           { time:'18:00', home:'CRC Quinta Lombos "B"', away:"GD EB D. João I / Ópticafernandes", status:'done', score:[5,3], hscorers:["11' Ruben Pereira","11' Diogo Martins","34' Miguel Roque","38' Afonso Andrade","39' Diogo Martins"], ascorers:["2' Sergio Silva","16' Ruben Domingues","32' Ruben Domingues"], venue:'Pav. Desportivo dos Lombos' },
-          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], venue:'Pav. Nº 2 do SLB' },
+          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], hscorers:["Tomás Zurzica 10'","Duarte Silva 27'"], ascorers:["Rubén Catalão 39'"], venue:'Pav. Nº 2 do SLB' },
         ]},
       ]},
     ]
@@ -551,6 +549,12 @@ const DAYS = {
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 4', games:[
         { time:'21:15', home:'SL Benfica', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão Fidelidade' },
+      ]},
+      { comp:'CN Futsal 2.ª Divisão', link:LINKS.cn2divM,
+        color:'#10b981', flag:'🇵🇹', round:'Jornada 3', series:[
+        { label:'Série B', games:[
+          { time:'13:00', home:'SC Barbarense', away:'CCRD Burinhosa', status:'done', score:[3,5], hscorers:[], ascorers:[], venue:'Pav. Desportivo de Santa Bárbara' },
+        ]},
       ]},
       { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[

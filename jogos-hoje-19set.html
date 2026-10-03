@@ -148,8 +148,6 @@ const LINKS = {
   cn2divM:      'https://rui16simoes.github.io/Futsalportugal/cn-masculino-ii-divisao.html',
   cn3divM:      'https://rui16simoes.github.io/Futsalportugal/cn-iii-div.html',
   tacaPortugalF:'https://rui16simoes.github.io/Futsalportugal/taca-portugal-fem.html',
-  cn2divF:      'https://rui16simoes.github.io/Futsalportugal/cn-feminino-ii-divisao.html',
-  sub15:        'https://rui16simoes.github.io/Futsalportugal/nacional-sub15.html',
 };
 
 // ── DATA ──────────────────────────────────────────────────────────────────────
@@ -363,7 +361,7 @@ const DAYS = {
       { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
         color:'#8b5cf6', flag:'🇵🇹', round:'Jornada 1 · Jogo Antecipado', series:[
         { label:'Série C', games:[
-          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], hscorers:["Rafael Silva 35'","João Raposo 38'"], ascorers:["Adrian Pereira 1'"], venue:'Pav. Multiusos Águias Unidas' },
+          { time:'21:30', home:'CDR Águias Unidas/PCF', away:'SL Benfica "B"', status:'done', score:[2,1], venue:'Pav. Multiusos Águias Unidas' },
         ]},
       ]},
     ]
@@ -492,9 +490,9 @@ const DAYS = {
         ]},
         { label:'Série C', games:[
           { time:'11:00', home:'Sonâmbulos FLA', away:'CDC Porto Moniz', status:'done', score:[3,8], hscorers:["4' Joao Soares","17' Hugo Reves","39' Joao Soares"], ascorers:["2' Leonardo Severim","4' Eduardo Mendes","25' Bernardo Silva","29' Leonardo Severim","31' Fabio Xavier","32' Fabio Xavier","35' Eduardo Mendes","35' Eduardo Mendes"], venue:'Pav. Desp. Municipal Luz Tavira' },
-          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'done', score:[4,3], hscorers:["Bruno Marques 11' (p)","Daniel Tavares 21'","Bruno Marques 34'","João Moura 39'"], ascorers:["Henrique Alves 14'","Ricardo Baptista 23'","André Sousa 24'"], venue:'Pav. do Leões Porto Salvo' },
+          { time:'16:00', home:'CR Leões Porto Salvo "B"', away:'AD Quinta Conde / Easy Partners', status:'done', score:[4,3], venue:'Pav. do Leões Porto Salvo' },
           { time:'18:00', home:'CRC Quinta Lombos "B"', away:"GD EB D. João I / Ópticafernandes", status:'done', score:[5,3], hscorers:["11' Ruben Pereira","11' Diogo Martins","34' Miguel Roque","38' Afonso Andrade","39' Diogo Martins"], ascorers:["2' Sergio Silva","16' Ruben Domingues","32' Ruben Domingues"], venue:'Pav. Desportivo dos Lombos' },
-          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], hscorers:["Tomás Zurzica 10'","Duarte Silva 27'"], ascorers:["Rubén Catalão 39'"], venue:'Pav. Nº 2 do SLB' },
+          { time:'19:00', home:'SL Benfica "B"', away:'GURD MTBA', status:'done', score:[2,1], venue:'Pav. Nº 2 do SLB' },
         ]},
       ]},
     ]
@@ -514,7 +512,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4], hscorers:["Adri Ortego 23'","Kike Liao 37'","Célio Coque 38'"], ascorers:["Pachu 7'","Dener 21'","Drahovsky 31'","Santa Cruz 39'"] },
+        { time:'20:30', home:'Wanapix', away:'ElPozo Murcia Costa Cálida', status:'done', score:[3,4] },
       ]},
     ]
   },
@@ -523,7 +521,7 @@ const DAYS = {
     sections: [
       { comp:'Liga Prime Futsal', link:LINKS.ligaPrime,
         color:'#3b82f6', flag:'🇪🇸', round:'Jornada 7 · T. Abertura', games:[
-        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1], hscorers:["Catela 1'","Adolfo 7'","Adolfo 16'","Roger 18'","Catela 22'","Higor 40'"], ascorers:["Novoa 23'"] },
+        { time:'20:45', home:'Barça', away:'O Parrulo Ferrol', status:'done', score:[6,1] },
       ]},
     ]
   },
@@ -549,86 +547,39 @@ const DAYS = {
       ]},
       { comp:'Liga Placard', link:LINKS.ligaPlacardM,
         color:'#f59e0b', flag:'🇵🇹', round:'Jornada 4', games:[
-        { time:'21:15', home:'SL Benfica', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'Eléctrico FC', away:'Sporting CP', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
+        { time:'17:00', home:'Portimonense SC', away:'AD Fundão', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
+        { time:'17:00', home:'SL Benfica', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão Fidelidade' },
+        { time:'17:00', home:'SC Braga', away:'FC Famalicão', status:'', score:null, venue:'AMCO Arena' },
+        { time:'17:00', home:'UP Venda Nova / JRA', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. António Ferreira' },
+        { time:'17:00', home:'SCF Zêzere by Zêzerovo', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
+      ]},
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+        color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
+        { time:'16:00', home:'Sporting CP', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão João Rocha' },
+        { time:'16:00', home:'AMSAC', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
+        { time:'16:00', home:'CR Leões Porto Salvo', away:'CS São João', status:'', score:null, venue:'Pavilhão do Leões Porto Salvo' },
+        { time:'20:00', home:'CRC Quinta Lombos', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
+        { time:'20:00', home:'SC Braga', away:'CCRD Burinhosa', status:'', score:null, venue:'AMCO Arena' },
       ]},
       { comp:'CN Futsal 2.ª Divisão', link:LINKS.cn2divM,
         color:'#10b981', flag:'🇵🇹', round:'Jornada 3', series:[
         { label:'Série A', games:[
-          { time:'16:00', home:'Valpaços FC', away:'GCR Nun\'Álvares', status:'', score:null, venue:'Pavilhão Desportivo De Valpaços' },
-          { time:'16:00', home:'AD Jorge Antunes', away:'Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão Municipal Vizela' },
-          { time:'16:00', home:'Amigos Cerva - ADRC', away:'GCR Dínamo Sanjoanense', status:'', score:null, venue:'Pavilhão Gimnodesportivo De Cerva' },
-          { time:'16:45', home:'Arsenal C. Maia', away:'Marítimo Madeira', status:'', score:null, venue:'Pav Mun Do Formigueiro-Águas Santas Iii' },
-          { time:'19:30', home:'AD Modicus Sandim', away:'Lusitânia Lourosa FC', status:'', score:null, venue:'Pavilhão Mov Din Cult Sandim Modicus' },
-          { time:'18:00', home:'FC Paços Ferreira Dreamcouch', away:'ADC Nogueiró Tenões', status:'', score:null, venue:'Pavilhão Municipal De Paços De Ferreira' },
+          { time:'16:00', home:'Valpaços', away:"GCR Nun'Álvares", status:'', score:null, venue:'Pavilhão Desportivo De Valpaços' },
+          { time:'16:00', home:'AD Jorge Antunes', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão Municipal Vizela' },
+          { time:'16:00', home:'Amigos Cerva ADRC', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pavilhão Gimnodesportivo De Cerva' },
+          { time:'16:45', home:'Arsenal Clube Maia', away:'CS Marítimo Madeira', status:'', score:null, venue:'Pav Mun Do Formigueiro-Águas Santas Iii' },
+          { time:'18:00', home:'AD Modicus Sandim', away:'Lusitânia Lourosa', status:'', score:null, venue:'Pavilhão Mov Din Cult Sandim Modicus' },
+          { time:'18:00', home:'FC Paços Ferreira', away:'ADC Nogueiró Tenões', status:'', score:null, venue:'Pavilhão Municipal De Paços De Ferreira' },
         ]},
         { label:'Série B', games:[
-          { time:'13:00', home:'SC Barbarense', away:'CCRD Burinhosa', status:'done', score:[3,5], hscorers:[], ascorers:[], venue:'Pavilhão Desportivo De Santa Bárbara' },
-          { time:'17:00', home:'AR Bairro Boa Esperança', away:'AD Reguilas Tires Futsal', status:'', score:null, venue:'Pavilhão Complexo Desp Boa Esperança' },
-          { time:'17:45', home:'CF Sassoeiros', away:'AMSAC', status:'', score:null, venue:'Pavilhão Do Sassoeiros' },
-          { time:'18:00', home:'CF Os Belenenses', away:'CRC Quinta dos Lombos', status:'', score:null, venue:'Pavilhão Acácio Rosa' },
+          { time:'13:00', home:'SC Barbarense', away:'CCRD Burinhosa', status:'done', score:[3,5], venue:'Pavilhão Desportivo De Santa Bárbara' },
+          { time:'17:00', home:'AR B. Boa Esperança', away:'Reguilas Tires Futsal', status:'', score:null, venue:'Pavilhão Complexo Desp Boa Esperança' },
+          { time:'17:45', home:'CF Sassoeiros', away:'Ass. Moradores S. Ant. Cavaleiros', status:'', score:null, venue:'Pavilhão Do Sassoeiros' },
+          { time:'18:00', home:'CF Os Belenenses', away:'CRC Quinta Lombos', status:'', score:null, venue:'Pavilhão Acácio Rosa' },
           { time:'18:00', home:'AR Amarense', away:'ACDL/CBIDN', status:'', score:null, venue:'Pavilhão Municipal Da Batalha' },
-          { time:'18:30', home:'CS São João', away:'Viseu 2001', status:'', score:null, venue:'Pavilhão Centro Social São João' },
+          { time:'18:30', home:'CS S. João', away:'Viseu 2001 ADSC', status:'', score:null, venue:'Pavilhão Centro Social São João' },
         ]},
-      ]},
-      { comp:'CN Futsal 3.ª Divisão', link:LINKS.cn3divM,
-        color:'#6366f1', flag:'🇵🇹', round:'Jornada 3', series:[
-        { label:'Série A', games:[
-          { time:'15:00', home:'FC Porto', away:'Miramar Império', status:'done', score:[5,2], hscorers:[], ascorers:[], venue:'Pavilhão Dragão Arena' },
-          { time:'16:00', home:'FC Estrelas Susanenses', away:'FC Marinhas', status:'', score:null, venue:'Pavilhão Municipal Sobrado' },
-          { time:'17:00', home:'CDRC S. Martinho Mouros', away:'Boavista FC', status:'', score:null, venue:'Pavilhão S. Martinho De Mouros' },
-          { time:'18:00', home:'GD Macedense', away:'Leixões SC', status:'', score:null, venue:'Pavilhão Municipal Macedo Cavaleiros' },
-          { time:'18:00', home:'CB Alfândega Fé / MC Rabaçal', away:'GCR Nun\'Álvares B', status:'', score:null, venue:'Pavilhão Municipal Da Alfandega Da Fé' },
-          { time:'19:00', home:'ADC São Mateus', away:'CA Mogadouro', status:'', score:null, venue:'Pavilhão Municipal Delães' },
-          { time:'16:00', home:'AA Johnson Jan. / RL7', away:'ACR Lordelo', status:'', score:null, venue:'Pavilhão Rota Da Castanha' },
-        ]},
-        { label:'Série B', games:[
-          { time:'16:00', home:'ACR Saavedra Guedes', away:'ADC Santa Isabel', status:'', score:null, venue:'Pavilhão Irmãos Farinhas' },
-          { time:'16:30', home:'PARC Pindelo', away:'CCDR Covão Lobo', status:'', score:null, venue:'Pavilhão Do Parc-Pindelo' },
-          { time:'17:00', home:'ADR Retaxo', away:'Casa Benfica Golegã', status:'', score:null, venue:'Pavilhão Gimnodesportivo Do Retaxo' },
-          { time:'17:00', home:'ACR Arnal', away:'FC Mozelos', status:'', score:null, venue:'Pavilhão Gimnod. Maceira Lis' },
-          { time:'17:00', home:'ABC Nelas', away:'GD Beira-Ria', status:'', score:null, venue:'Pavilhão Municipal Nelas' },
-          { time:'18:30', home:'União 1919', away:'Academia Condeixa', status:'', score:null, venue:'Pavilhão Cf União Coimbra' },
-          { time:'19:00', home:'AR Pederneirense', away:'ARCD Mendiga', status:'', score:null, venue:'Pavilhão Municipal Da Nazaré' },
-        ]},
-        { label:'Série C', games:[
-          { time:'16:00', home:'CDC Porto Moniz', away:'SC Vila Verde', status:'', score:null, venue:'Pavilhao Do Porto Moniz' },
-          { time:'17:30', home:'GD EB D. João I / Ópticafernandes', away:'AD Quinta Conde/Easy Partners', status:'', score:null, venue:'Pavilhão Escola Básica José Afonso' },
-          { time:'18:00', home:'CDR Águias Unidas/PCF', away:'Sonâmbulos FLA', status:'', score:null, venue:'Pavilhão Multiusos Aguias Unidas' },
-          { time:'18:00', home:'GURD MTBA', away:'SCR Gaeirense', status:'', score:null, venue:'Pavilhão Do Mtba' },
-          { time:'18:30', home:'CDR Os Vinhais', away:'SR Manjoeira', status:'', score:null, venue:'Pavilhão Do Vinhais' },
-          { time:'18:30', home:'CA S. Marta Pinhal', away:'CR Leões Porto Salvo B', status:'', score:null, venue:'Complexo Desportivo Clube Associativo Santa Marta Do Pinhal' },
-          { time:'18:00', home:'CRC Quinta Lombos B', away:'SL Benfica B', status:'', score:null, venue:'Pavilhão Desportivo Dos Lombos' },
-        ]},
-      ]},
-            { comp:'CN Futsal Feminino 2.ª Divisão', link:LINKS.cn2divF,
-        color:'#ec4899', flag:'🇵🇹', round:'Jornada 2', series:[
-        { label:'Série Norte', games:[
-          { time:'17:15', home:'CD Aves 1930', away:'Escola DC Gondomar', status:'', score:null, venue:'Pavilhão C.D. Aves' },
-          { time:'18:30', home:'Futsal Campo/Gil Vicente FC', away:'OBSC Gresart - Futsal Feminino', status:'', score:null, venue:'Pavilhão Municipal De Campo' },
-          { time:'20:00', home:'Matosinhos FC', away:'ACD Santo Estêvão', status:'', score:null, venue:'Pavilhão Municipal De Guifões' },
-        ]},
-        { label:'Série Sul', games:[
-          { time:'17:00', home:'UA Povoense', away:'Norte E Soure CSCD Paleão', status:'', score:null, venue:'Pavilhão Escola EB 2/3 Aristides Sousa Mendes' },
-          { time:'18:30', home:'ACDR Arneiros', away:'Sporting CP', status:'', score:null, venue:'Recinto A Indicar' },
-          { time:'18:30', home:'Juventude Ouriense', away:'SRB União Parchalense', status:'', score:null, venue:'Pavilhão Municipal Do Caneiro' },
-          { time:'20:00', home:'CRIA', away:'Juventude S. Campinense', status:'', score:null, venue:'Pavilhão Esc. Sec. Dr. Joaquim Carvalho' },
-        ]},
-      ]},
-{ comp:'CN Futsal Sub-15', link:LINKS.sub15,
-        color:'#f97316', flag:'🇵🇹', round:'Jornada 1', series:[
-        { label:'Série Norte', games:[
-          { time:'16:00', home:'ADC Nogueiró Tenões/A. Pedro Braga', away:'ACR Vale Cambra', status:'', score:null, venue:'Pavilhão Parque Desportivo Nogueiró' },
-        ]},
-        { label:'Série Sul', games:[
-          { time:'17:00', home:'FC Barreirense', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão Esc. Sec. Stº. António Charneca' },
-        ]},
-      ]},
-      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
-        color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
-        { time:'16:00', home:'AMSAC', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pav. Esc EB 2.3 Gen Humberto Delgado' },
-        { time:'16:00', home:'CR Leões Porto Salvo', away:'CS São João', status:'', score:null, venue:'Pavilhão do Leões Porto Salvo' },
-        { time:'18:00', home:'CRC Quinta Lombos', away:'Futsal Oeiras', status:'', score:null, venue:'Pav. Desportivo dos Lombos' },
-        { time:'20:00', home:'SC Braga', away:'CCRD Burinhosa', status:'', score:null, venue:'AMCO Arena' },
       ]},
     ]
   },
@@ -640,45 +591,9 @@ const DAYS = {
         { time:'12:30', home:'Noia Portus Apostoli', away:'Barça', status:'', score:null },
         { time:'16:30', home:'Sur Seeds El Ejido Futsal', away:'CD Xota', status:'', score:null },
       ]},
-      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
-        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 4', games:[
-        { time:'13:00', home:'Portimonense SC', away:'AD Fundão', status:'', score:null, venue:'Pav. Gimnodesportivo de Portimão' },
-        { time:'14:30', home:'Eléctrico FC', away:'Sporting CP', status:'', score:null, venue:'Pav. Gimnodesportivo de Ponte de Sôr' },
-      ]},
-            { comp:'CN Futsal Feminino 2.ª Divisão', link:LINKS.cn2divF,
-        color:'#ec4899', flag:'🇵🇹', round:'Jornada 2', series:[
-        { label:'Série Norte', games:[
-          { time:'15:00', home:'SC Braga', away:'Casa do Povo de Freixo', status:'', score:null, venue:'Amco Arena' },
-        ]},
-      ]},
-{ comp:'CN Futsal Sub-15', link:LINKS.sub15,
-        color:'#f97316', flag:'🇵🇹', round:'Jornada 1', series:[
-        { label:'Série Norte', games:[
-          { time:'15:00', home:'Ass. Santo Tirso Futsal/Cruise Car', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão E.B.I. S. Tomé De Negrelos' },
-          { time:'16:00', home:'Ass. Moradores Granja', away:'GRC Dínamo Sanjoanense', status:'', score:null, venue:'Pavilhão Munic. Águas Santas II - Corim' },
-          { time:'18:00', home:'SC Braga', away:'GCR Nun\'Álvares', status:'', score:null, venue:'AMCO Arena' },
-        ]},
-        { label:'Série Sul', games:[
-          { time:'15:00', home:'SL Benfica', away:'GMDUP Vendas Azeitão', status:'', score:null, venue:'Pavilhão Nº 2 Do Sport Lisboa E Benfica' },
-          { time:'15:00', home:'Sporting CP', away:'GR Olival Basto', status:'', score:null, venue:'Pavilhão Multidesportivo Sporting' },
-          { time:'15:00', home:'Futsal Oeiras', away:'CS S. João', status:'', score:null, venue:'Pav S Juliao Da Barra' },
-        ]},
-      ]},
       { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 4', games:[
         { time:'11:00', home:'SL Benfica', away:'FC Barreirense', status:'', score:null, venue:'Pav. Nº 2 do Sport Lisboa e Benfica' },
-        { time:'14:30', home:'Sporting CP', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pavilhão João Rocha' },
-      ]},
-    ]
-  },
-  '2026-10-05': {
-    label: ['Seg','5','Out'],
-    sections: [
-      { comp:'Liga Placard', link:LINKS.ligaPlacardM,
-        color:'#f59e0b', flag:'🇵🇹', round:'Jornada 4', games:[
-        { time:'11:00', home:'UP Venda Nova / JRA', away:'SCU Torreense SAD', status:'', score:null, venue:'Pav. António Ferreira' },
-        { time:'19:00', home:'SCF Zêzere by Zêzerovo', away:'Rio Ave FC', status:'', score:null, venue:'Pav. Municipal Ferreira do Zêzere' },
-        { time:'20:45', home:'SC Braga', away:'FC Famalicão', status:'', score:null, venue:'AMCO Arena' },
       ]},
     ]
   },
@@ -694,22 +609,7 @@ const DAYS = {
         { time:'17:00', home:'SCU Torreense SAD', away:'Portimonense SC', status:'', score:null, venue:'Pav. Dr. José Maria Antunes Júnior' },
         { time:'17:00', home:'Sporting CP', away:'CR Leões Porto Salvo', status:'', score:null, venue:'Pavilhão João Rocha' },
       ]},
-            { comp:'CN Futsal Feminino 2.ª Divisão', link:LINKS.cn2divF,
-        color:'#ec4899', flag:'🇵🇹', round:'Jornada 3', series:[
-        { label:'Série Norte', games:[
-          { time:'', home:'Matosinhos FC', away:'SC Braga', status:'', score:null, venue:'Pavilhão Municipal Senhora Da Hora' },
-          { time:'', home:'ACD Santo Estêvão', away:'Escola DC Gondomar', status:'', score:null, venue:'Pavilhão Gimnodesportivo Municipal Chaves' },
-          { time:'', home:'Casa do Povo de Freixo', away:'Futsal Campo/Gil Vicente FC', status:'', score:null, venue:'Pavilhão EB 2,3 S.Julião do Freixo' },
-          { time:'', home:'OBSC Gresart - Futsal Feminino', away:'CD Aves 1930', status:'', score:null, venue:'Recinto A Indicar' },
-        ]},
-        { label:'Série Sul', games:[
-          { time:'', home:'Norte E Soure CSCD Paleão', away:'ACDR Arneiros', status:'', score:null, venue:'Pavilhão Desportivo Encosta Do Sol' },
-          { time:'', home:'SRB União Parchalense', away:'Sporting CP', status:'', score:null, venue:'Pavilhão Escola EB 2/3 Parchal' },
-          { time:'', home:'Juventude S. Campinense', away:'UA Povoense', status:'', score:null, venue:'Pavilhão Municipal Prof. Joaquim Vairinhos' },
-          { time:'', home:'Juventude Ouriense', away:'CRIA', status:'', score:null, venue:'Pavilhão Municipal Do Caneiro' },
-        ]},
-      ]},
-{ comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
+      { comp:'CN Sub-19 I Divisão', link:LINKS.sub19,
         color:'#ec4899', flag:'🇵🇹', round:'Jornada 5', games:[
         { time:'19:30', home:'FC Barreirense', away:'ADCR Caxinas Poça Barca', status:'', score:null, venue:'Pav. Esc. Sec. Stº. António Charneca' },
       ]},
@@ -806,17 +706,6 @@ const DAYS = {
         { time:'', home:'CB Charneca Caparica', away:'Aliados Vendas Novas', status:'', score:null, venue:'' },
         { time:'', home:'Parchalense', away:'CRD Miratejo', status:'', score:null, venue:'' },
         { time:'', home:'SC Ferreirense', away:'Farense', status:'', score:null, venue:'' },
-      ]},
-    ]
-  },
-  '2026-10-21': {
-    label: ['Qua','21','Out'],
-    sections: [
-      { comp:'CN Futsal Feminino 2.ª Divisão', link:LINKS.cn2divF,
-        color:'#ec4899', flag:'🇵🇹', round:'Jornada 1', series:[
-        { label:"Série Sul", games:[
-          { time:"", home:"Norte E Soure Cscd Paleão", away:"Cria", venue:"Pavilhão Desportivo Encosta Do Sol" },
-        ]},
       ]},
     ]
   },

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -187,6 +187,12 @@
      "m": "4",
      "lado": "fora",
      "txt": "Cartão amarelo para Francisco Oliveira (Chico), dos Leões de Porto Salvo, por uma substituição mal feita."
+    },
+    {
+     "id": "f6",
+     "m": "5",
+     "lado": "fora",
+     "txt": "GOLO DOS LEÕES DE PORTO SALVO! Rúben Carrilho assiste e Chico (Francisco Oliveira) faz o segundo. SL Benfica 0-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -408,7 +414,7 @@
    },
    "fora": {
     "eq": "leoes",
-    "golos": 1,
+    "golos": 2,
     "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
@@ -446,7 +452,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "5",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/84/16615084_ruben_carrilho_20260908151944.jpg"
      },
      {
@@ -534,7 +540,7 @@
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
-      "min": "",
+      "min": "5",
       "cart": "4",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
@@ -2505,6 +2511,6 @@
    }
   }
  ],
- "ts": 1791059024729,
+ "ts": 1791059218199,
  "build": "20260915132319"
 }

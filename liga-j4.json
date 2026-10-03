@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -307,6 +307,12 @@
      "m": "31",
      "lado": "casa",
      "txt": "GOLO DO BENFICA! Num livre com jogada ensaiada, Arthur serve André Coelho, que faz o sexto. SL Benfica 6-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f26",
+     "m": "32",
+     "lado": "casa",
+     "txt": "Kutchy surge ao segundo poste e cabeceia para a malha lateral."
     }
    ],
    "faltas": [
@@ -2688,6 +2694,6 @@
    }
   }
  ],
- "ts": 1791062951398,
+ "ts": 1791063105638,
  "build": "20260915132319"
 }

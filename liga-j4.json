@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 900
    },
    "lances": [
     {
@@ -319,6 +319,24 @@
      "m": "33",
      "lado": "fora",
      "txt": "Cartão amarelo para Cléber Souza, do Benfica, por falta."
+    },
+    {
+     "id": "f28",
+     "m": "33",
+     "lado": "",
+     "txt": "Cartão vermelho para Raúl Moreira, do Benfica, expulso por palavras dirigidas à equipa de arbitragem."
+    },
+    {
+     "id": "f29",
+     "m": "35",
+     "lado": "casa",
+     "txt": "O Benfica controla o jogo e vai criando algumas oportunidades junto da baliza de Guilherme Cintra."
+    },
+    {
+     "id": "f30",
+     "m": "35",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Leonildo Injai, dos Leões de Porto Salvo, por falta. É a 4.ª falta dos Leões nesta parte."
     }
    ],
    "faltas": [
@@ -397,6 +415,13 @@
      "lado": "casa",
      "parte": 2,
      "m": "33",
+     "n": 4
+    },
+    {
+     "id": "ff7",
+     "lado": "fora",
+     "parte": 2,
+     "m": "35",
      "n": 4
     }
    ],
@@ -494,7 +519,7 @@
       "nome": "RAÚL MOREIRA",
       "e": "S",
       "min": "29",
-      "cart": "",
+      "cart": "33v",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/08/680708_raul_moreira_20250919143023.jpg"
      },
@@ -674,7 +699,7 @@
       "nome": "LEONILDO INJAI",
       "e": "P",
       "min": "1",
-      "cart": "",
+      "cart": "35",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/86/16615086_leonildo_injai_20260908151929.jpg"
      },
@@ -2707,6 +2732,6 @@
    }
   }
  ],
- "ts": 1791063178719,
+ "ts": 1791063537024,
  "build": "20260915132319"
 }

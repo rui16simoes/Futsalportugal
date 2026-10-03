@@ -169,9 +169,23 @@
      "m": "1",
      "lado": "fora",
      "txt": "GOLO DOS LEÕES DE PORTO SALVO! Com apenas 30 segundos jogados, Ré serve Leonildo Injai, que remata de biqueira e inaugura o marcador. SL Benfica 0-1 Leões Porto Salvo."
+    },
+    {
+     "id": "f3",
+     "m": "1",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Ré, capitão dos Leões de Porto Salvo, por falta."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "ff1",
+     "lado": "fora",
+     "parte": 1,
+     "m": "1",
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -500,7 +514,7 @@
       "nome": "RÉ",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "1",
       "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
      },
@@ -2479,6 +2493,6 @@
    }
   }
  ],
- "ts": 1791058723062,
+ "ts": 1791058754455,
  "build": "20260915132319"
 }

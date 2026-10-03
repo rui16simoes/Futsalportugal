@@ -301,6 +301,12 @@
      "m": "31",
      "lado": "casa",
      "txt": "Cartão amarelo para Machado, dos Leões de Porto Salvo, por falta."
+    },
+    {
+     "id": "f25",
+     "m": "31",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Arthur assiste e André Coelho faz o sexto. SL Benfica 6-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -423,7 +429,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 5,
+    "golos": 6,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -477,7 +483,7 @@
       "num": "8",
       "nome": "ANDRÉ COELHO",
       "e": "S",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/44/304044_andre_coelho_20250919143120.jpg"
@@ -515,7 +521,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "13",
+      "ass": "13, 31",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
      {
@@ -2682,6 +2688,6 @@
    }
   }
  ],
- "ts": 1791062882089,
+ "ts": 1791062917069,
  "build": "20260915132319"
 }

@@ -199,6 +199,12 @@
      "m": "9",
      "lado": "casa",
      "txt": "GOLO DO BENFICA! Kutchy entrega em Cléber Souza, que fleta para o meio e dispara forte para reduzir. SL Benfica 1-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f8",
+     "m": "10",
+     "lado": "fora",
+     "txt": "Os Leões de Porto Salvo pedem pausa técnica."
     }
    ],
    "faltas": [
@@ -2531,6 +2537,6 @@
    }
   }
  ],
- "ts": 1791059618268,
+ "ts": 1791059730923,
  "build": "20260915132319"
 }

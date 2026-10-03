@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -295,6 +295,12 @@
      "m": "29",
      "lado": "casa",
      "txt": "GOLO DO BENFICA! Cléber Souza toca para Raúl Moreira, que remata de primeira e faz o quinto dos encarnados. SL Benfica 5-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f24",
+     "m": "31",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Machado, dos Leões de Porto Salvo, por falta."
     }
    ],
    "faltas": [
@@ -360,6 +366,13 @@
      "parte": 2,
      "m": "30",
      "n": 2
+    },
+    {
+     "id": "ff6",
+     "lado": "fora",
+     "parte": 2,
+     "m": "31",
+     "n": 3
     }
    ],
    "gp": {
@@ -627,7 +640,7 @@
       "nome": "MACHADO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "31",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/55/16605455_machado_20260908152025.jpg"
      },
@@ -2669,6 +2682,6 @@
    }
   }
  ],
- "ts": 1791062848149,
+ "ts": 1791062882089,
  "build": "20260915132319"
 }

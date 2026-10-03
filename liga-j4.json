@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -283,6 +283,18 @@
      "m": "25",
      "lado": "casa",
      "txt": "Cartão amarelo para Natan Minatti, dos Leões de Porto Salvo, por falta."
+    },
+    {
+     "id": "f22",
+     "m": "29",
+     "lado": "fora",
+     "txt": "Ré tenta na recarga com força, mas Léo Gugiel está bem colocado e volta a travar os Leões."
+    },
+    {
+     "id": "f23",
+     "m": "29",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Raúl Moreira faz o quinto dos encarnados. SL Benfica 5-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -391,7 +403,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 4,
+    "golos": 5,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -436,7 +448,7 @@
       "num": "6",
       "nome": "RAÚL MOREIRA",
       "e": "S",
-      "min": "",
+      "min": "29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/07/08/680708_raul_moreira_20250919143023.jpg"
@@ -2650,6 +2662,6 @@
    }
   }
  ],
- "ts": 1791062592660,
+ "ts": 1791062706318,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -277,6 +277,12 @@
      "m": "24",
      "lado": "casa",
      "txt": "GOLO DO BENFICA! Natan Minatti perde a bola numa zona perigosa e Rúben Góis não perdoa, fazendo o quarto dos encarnados. SL Benfica 4-2 Leões Porto Salvo."
+    },
+    {
+     "id": "f21",
+     "m": "25",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Natan Minatti, dos Leões de Porto Salvo, por falta."
     }
    ],
    "faltas": [
@@ -306,6 +312,13 @@
      "lado": "casa",
      "parte": 1,
      "m": "17",
+     "n": 1
+    },
+    {
+     "id": "ff4",
+     "lado": "fora",
+     "parte": 2,
+     "m": "25",
      "n": 1
     }
    ],
@@ -628,7 +641,7 @@
       "nome": "NATAN MINATTI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/91/07/16619107_natan_minatti_20260908151531.jpg"
      },
@@ -2616,6 +2629,6 @@
    }
   }
  ],
- "ts": 1791062182300,
+ "ts": 1791062295404,
  "build": "20260915132319"
 }

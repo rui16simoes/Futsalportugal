@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 780
    },
    "lances": [
     {
@@ -211,6 +211,12 @@
      "m": "11",
      "lado": "casa",
      "txt": "Raúl Moreira ganha o duelo e atira de pé esquerdo, mas Guilherme Cintra responde com uma grande defesa."
+    },
+    {
+     "id": "f10",
+     "m": "13",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Arthur assiste e Pany Varela empata a partida. SL Benfica 2-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -284,7 +290,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 1,
+    "golos": 2,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -376,7 +382,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "13",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/04/201304_arthur_20250919142628.jpg"
      },
      {
@@ -401,7 +407,7 @@
       "num": "18",
       "nome": "PANY VARELA",
       "e": "S",
-      "min": "",
+      "min": "13",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/06/74706_pany_varela_20250919142750.jpg"
@@ -2543,6 +2549,6 @@
    }
   }
  ],
- "ts": 1791059923442,
+ "ts": 1791060076208,
  "build": "20260915132319"
 }

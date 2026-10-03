@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 240
    },
    "lances": [
     {
@@ -181,6 +181,12 @@
      "m": "2",
      "lado": "casa",
      "txt": "Arthur atira forte de livre e Guilherme Cintra, bem colocado, defende."
+    },
+    {
+     "id": "f5",
+     "m": "4",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Francisco Oliveira (Chico), dos Leões de Porto Salvo, por uma substituição mal feita."
     }
    ],
    "faltas": [
@@ -529,7 +535,7 @@
       "nome": "FRANCISCO OLIVEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "4",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/94/91/16629491_francisco_oliveira_20260908151657.jpg"
      },
@@ -2499,6 +2505,6 @@
    }
   }
  ],
- "ts": 1791058950032,
+ "ts": 1791059024729,
  "build": "20260915132319"
 }

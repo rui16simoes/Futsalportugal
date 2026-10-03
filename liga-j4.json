@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -271,6 +271,12 @@
      "m": "23",
      "lado": "casa",
      "txt": "Silvestre Ferreira aparece sozinho em boa posição, mas atira ao lado. Grande oportunidade desperdiçada pelo Benfica."
+    },
+    {
+     "id": "f20",
+     "m": "24",
+     "lado": "casa",
+     "txt": "GOLO DO BENFICA! Rúben Góis aumenta a vantagem dos encarnados. SL Benfica 4-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -351,7 +357,7 @@
    },
    "casa": {
     "eq": "benfica",
-    "golos": 3,
+    "golos": 4,
     "capitao": "AFONSO JESUS",
     "treinador": "CASSIANO KLEIN",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/188/31188_cassiano_klein_1758288785.jpg",
@@ -504,7 +510,7 @@
       "num": "19",
       "nome": "RÚBEN GÓIS",
       "e": "P",
-      "min": "",
+      "min": "24",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/11/16635711_ruben_gois_20260716140659.png"
@@ -2610,6 +2616,6 @@
    }
   }
  ],
- "ts": 1791061994158,
+ "ts": 1791062108948,
  "build": "20260915132319"
 }

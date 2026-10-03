@@ -324,7 +324,7 @@
      "id": "f28",
      "m": "33",
      "lado": "",
-     "txt": "Cartão vermelho para Raúl Moreira, do Benfica, expulso por palavras dirigidas à equipa de arbitragem."
+     "txt": "Cartão vermelho para Raúl Moreira, do Benfica, expulso por palavras que proferiu."
     },
     {
      "id": "f29",
@@ -2732,6 +2732,6 @@
    }
   }
  ],
- "ts": 1791063537024,
+ "ts": 1791063571559,
  "build": "20260915132319"
 }

@@ -175,6 +175,12 @@
      "m": "1",
      "lado": "casa",
      "txt": "Cartão amarelo para Ré, capitão dos Leões de Porto Salvo, por falta."
+    },
+    {
+     "id": "f4",
+     "m": "1",
+     "lado": "casa",
+     "txt": "Arthur atira forte de livre e Guilherme Cintra, bem colocado, defende."
     }
    ],
    "faltas": [
@@ -2493,6 +2499,6 @@
    }
   }
  ],
- "ts": 1791058754455,
+ "ts": 1791058783083,
  "build": "20260915132319"
 }

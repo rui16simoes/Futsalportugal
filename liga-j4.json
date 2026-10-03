@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -313,6 +313,12 @@
      "m": "32",
      "lado": "casa",
      "txt": "Kutchy surge ao segundo poste e cabeceia para a malha lateral."
+    },
+    {
+     "id": "f27",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Cléber Souza, do Benfica, por falta."
     }
    ],
    "faltas": [
@@ -385,6 +391,13 @@
      "parte": 2,
      "m": "31",
      "n": 3
+    },
+    {
+     "id": "fc5",
+     "lado": "casa",
+     "parte": 2,
+     "m": "33",
+     "n": 4
     }
    ],
    "gp": {
@@ -571,7 +584,7 @@
       "nome": "CLÉBER SOUZA",
       "e": "S",
       "min": "9",
-      "cart": "",
+      "cart": "33",
       "ass": "29",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/57/10/16635710_cleber_souza_20260813023911.png"
      },
@@ -2694,6 +2707,6 @@
    }
   }
  ],
- "ts": 1791063105638,
+ "ts": 1791063178719,
  "build": "20260915132319"
 }

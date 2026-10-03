@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -228,7 +228,7 @@
      "id": "f12",
      "m": "17",
      "lado": "casa",
-     "txt": "GOLO DO BENFICA! É o guarda redes Léo Gugiel quem põe os encarnados na frente pela primeira vez. SL Benfica 3-2 Leões Porto Salvo."
+     "txt": "GOLO DO BENFICA! O guarda redes Léo Gugiel sobe no terreno e solta um remate fortíssimo que completa a reviravolta dos encarnados. SL Benfica 3-2 Leões Porto Salvo."
     }
    ],
    "faltas": [
@@ -2568,6 +2568,6 @@
    }
   }
  ],
- "ts": 1791060618166,
+ "ts": 1791060651243,
  "build": "20260915132319"
 }

@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 0
+    "acc": 180
    },
    "lances": [
     {
@@ -253,6 +253,12 @@
      "m": "20",
      "lado": "",
      "txt": "Começou a segunda parte."
+    },
+    {
+     "id": "f17",
+     "m": "23",
+     "lado": "",
+     "txt": "Kutchy fica queixoso depois de um lance com Bruno Sá e a equipa médica do Benfica entra para o assistir."
     }
    ],
    "faltas": [
@@ -2592,6 +2598,6 @@
    }
   }
  ],
- "ts": 1791061582153,
+ "ts": 1791061920328,
  "build": "20260915132319"
 }

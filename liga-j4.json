@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 1020
    },
    "lances": [
     {
@@ -337,6 +337,12 @@
      "m": "35",
      "lado": "casa",
      "txt": "Cartão amarelo para Leonildo Injai, dos Leões de Porto Salvo, por falta. É a 4.ª falta dos Leões nesta parte."
+    },
+    {
+     "id": "f31",
+     "m": "37",
+     "lado": "",
+     "txt": "Troca na baliza do Benfica: entra Vasco Pinto."
     }
    ],
    "faltas": [
@@ -2732,6 +2738,6 @@
    }
   }
  ],
- "ts": 1791063571559,
+ "ts": 1791063724240,
  "build": "20260915132319"
 }

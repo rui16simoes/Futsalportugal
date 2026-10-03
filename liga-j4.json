@@ -155,7 +155,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -205,6 +205,12 @@
      "m": "10",
      "lado": "fora",
      "txt": "Os Leões de Porto Salvo pedem pausa técnica."
+    },
+    {
+     "id": "f9",
+     "m": "11",
+     "lado": "casa",
+     "txt": "Raúl Moreira ganha o duelo e atira de pé esquerdo, mas Guilherme Cintra responde com uma grande defesa."
     }
    ],
    "faltas": [
@@ -2537,6 +2543,6 @@
    }
   }
  ],
- "ts": 1791059730923,
+ "ts": 1791059923442,
  "build": "20260915132319"
 }

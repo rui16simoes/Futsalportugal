@@ -168,7 +168,7 @@
      "id": "f2",
      "m": "1",
      "lado": "fora",
-     "txt": "GOLO DOS LEÕES DE PORTO SALVO! Leonildo Injai marca logo no primeiro minuto. SL Benfica 0-1 Leões Porto Salvo."
+     "txt": "GOLO DOS LEÕES DE PORTO SALVO! Ré assiste e Leonildo Injai marca logo no primeiro minuto. SL Benfica 0-1 Leões Porto Salvo."
     }
    ],
    "faltas": [],
@@ -501,7 +501,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "1",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/90/16615090_re_20260908151614.jpg"
      },
      {
@@ -2479,6 +2479,6 @@
    }
   }
  ],
- "ts": 1791058683191,
+ "ts": 1791058698574,
  "build": "20260915132319"
 }

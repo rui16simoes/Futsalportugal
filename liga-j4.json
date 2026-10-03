@@ -259,6 +259,18 @@
      "m": "23",
      "lado": "",
      "txt": "Kutchy fica queixoso depois de um lance com Bruno Sá e a equipa médica do Benfica entra para o assistir."
+    },
+    {
+     "id": "f18",
+     "m": "23",
+     "lado": "",
+     "txt": "Kutchy recupera e está em condições de continuar."
+    },
+    {
+     "id": "f19",
+     "m": "23",
+     "lado": "casa",
+     "txt": "Silvestre Ferreira aparece sozinho em boa posição, mas atira ao lado. Grande oportunidade desperdiçada pelo Benfica."
     }
    ],
    "faltas": [
@@ -2598,6 +2610,6 @@
    }
   }
  ],
- "ts": 1791061920328,
+ "ts": 1791061994158,
  "build": "20260915132319"
 }

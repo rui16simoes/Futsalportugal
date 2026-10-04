@@ -1046,6 +1046,12 @@
      "m": "25",
      "lado": "fora",
      "txt": "O Fundão carrega à procura do empate."
+    },
+    {
+     "id": "p32",
+     "m": "25",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Guina, do Fundão."
     }
    ],
    "faltas": [
@@ -1090,6 +1096,13 @@
      "parte": 2,
      "m": "21",
      "n": 1
+    },
+    {
+     "id": "pf7",
+     "lado": "fora",
+     "parte": 2,
+     "m": "25",
+     "n": 2
     }
    ],
    "gp": {
@@ -1357,7 +1370,7 @@
       "nome": "GUINA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/05/672805_guina_20250128165836.jpg"
      },
@@ -3004,6 +3017,6 @@
    }
   }
  ],
- "ts": 1791118899145,
+ "ts": 1791118933567,
  "build": "20260915132319"
 }

@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -962,6 +962,12 @@
      "m": "12",
      "lado": "casa",
      "txt": "GOLO DO PORTIMONENSE! Depois de várias tentativas, Tomás Reis remata cruzado de pé direito e coloca a bola junto ao poste, rente ao chão. Portimonense SC 1-0 AD Fundão."
+    },
+    {
+     "id": "p18",
+     "m": "13",
+     "lado": "fora",
+     "txt": "Peléh faz uma boa combinação e remata, mas ao lado."
     }
    ],
    "faltas": [
@@ -2892,6 +2898,6 @@
    }
   }
  ],
- "ts": 1791116416377,
+ "ts": 1791116492432,
  "build": "20260915132319"
 }

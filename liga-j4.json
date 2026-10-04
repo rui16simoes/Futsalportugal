@@ -1751,6 +1751,12 @@
      "m": "23",
      "lado": "fora",
      "txt": "Cartão amarelo para Felipe Rufino."
+    },
+    {
+     "id": "e18",
+     "m": "23",
+     "lado": "fora",
+     "txt": "GOLO DO SPORTING! Felipe Rufino faz o segundo. Eléctrico FC 0-2 Sporting CP."
     }
    ],
    "faltas": [
@@ -2003,7 +2009,7 @@
    },
    "fora": {
     "eq": "sporting",
-    "golos": 1,
+    "golos": 2,
     "capitao": "TOMÁS PAÇÓ",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -2156,7 +2162,7 @@
       "num": "30",
       "nome": "FELIPE RUFINO",
       "e": "S",
-      "min": "",
+      "min": "23",
       "cart": "23",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/99/16662999_felipe_rufino_20260830155159.jpg"
@@ -3347,6 +3353,6 @@
    }
   }
  ],
- "ts": 1791124473716,
+ "ts": 1791124535513,
  "build": "20260915132319"
 }

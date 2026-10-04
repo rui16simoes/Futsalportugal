@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -1070,6 +1070,12 @@
      "m": "27",
      "lado": "fora",
      "txt": "Cartão amarelo para André Rochato, do Portimonense."
+    },
+    {
+     "id": "p36",
+     "m": "28",
+     "lado": "fora",
+     "txt": "Renato Almeida tenta de longe e Juan Pinheiro defende sem dificuldade."
     }
    ],
    "faltas": [
@@ -3035,6 +3041,6 @@
    }
   }
  ],
- "ts": 1791119184635,
+ "ts": 1791119392665,
  "build": "20260915132319"
 }

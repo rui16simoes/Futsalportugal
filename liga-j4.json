@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1140
    },
    "lances": [
     {
@@ -1721,6 +1721,12 @@
      "m": "17",
      "lado": "fora",
      "txt": "Cartão amarelo para Tomás Paçó."
+    },
+    {
+     "id": "e13",
+     "m": "19",
+     "lado": "",
+     "txt": "Pausa técnica."
     }
    ],
    "faltas": [
@@ -3289,6 +3295,6 @@
    }
   }
  ],
- "ts": 1791122686618,
+ "ts": 1791122906632,
  "build": "20260915132319"
 }

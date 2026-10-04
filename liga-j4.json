@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 600
+    "acc": 720
    },
    "lances": [
     {
@@ -1787,6 +1787,12 @@
      "m": "30",
      "lado": "fora",
      "txt": "Felipe Valério flete da esquerda para dentro e remata forte; Diogo Basílio defende."
+    },
+    {
+     "id": "e24",
+     "m": "32",
+     "lado": "fora",
+     "txt": "Bruno Pinto desmarca-se e aparece sozinho na área, mas falha a receção e perde a oportunidade."
     }
    ],
    "faltas": [
@@ -3397,6 +3403,6 @@
    }
   }
  ],
- "ts": 1791125559750,
+ "ts": 1791125743336,
  "build": "20260915132319"
 }

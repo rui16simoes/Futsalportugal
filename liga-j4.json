@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180
+    "acc": 240
    },
    "lances": [
     {
@@ -878,6 +878,12 @@
      "m": "3",
      "lado": "",
      "txt": "Arranque muito vivo, com as duas equipas a imprimir um ritmo elevado."
+    },
+    {
+     "id": "p4",
+     "m": "4",
+     "lado": "fora",
+     "txt": "Grande ocasião para o Fundão: Nuno Miranda surge isolado frente ao guarda redes, hesita e acaba por rematar contra Juan Pinheiro."
     }
    ],
    "faltas": [],
@@ -2793,6 +2799,6 @@
    }
   }
  ],
- "ts": 1791115553288,
+ "ts": 1791115670748,
  "build": "20260915132319"
 }

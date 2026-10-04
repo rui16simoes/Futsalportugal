@@ -938,6 +938,12 @@
      "m": "10",
      "lado": "fora",
      "txt": "Jogo a um ritmo muito elevado e o Fundão tenta acalmar a partida."
+    },
+    {
+     "id": "p14",
+     "m": "10",
+     "lado": "casa",
+     "txt": "O guarda redes Juan Pinheiro também arrisca, mas a bola não leva direção à baliza."
     }
    ],
    "faltas": [
@@ -2868,6 +2874,6 @@
    }
   }
  ],
- "ts": 1791116195407,
+ "ts": 1791116232602,
  "build": "20260915132319"
 }

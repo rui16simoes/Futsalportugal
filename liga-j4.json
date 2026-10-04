@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 420
    },
    "lances": [
     {
@@ -1064,6 +1064,12 @@
      "m": "26",
      "lado": "fora",
      "txt": "Juan Pinheiro defende o penálti! Landelino Neto bate e o guarda redes do Portimonense trava o empate com uma grande defesa."
+    },
+    {
+     "id": "p35",
+     "m": "27",
+     "lado": "fora",
+     "txt": "Cartão amarelo para André Rochato, do Portimonense."
     }
    ],
    "faltas": [
@@ -1292,7 +1298,7 @@
       "nome": "ANDRÉ ROCHATO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "27",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/75/16642975_andre_rochato_20260705235623.jpg"
      },
@@ -3029,6 +3035,6 @@
    }
   }
  ],
- "ts": 1791119105325,
+ "ts": 1791119184635,
  "build": "20260915132319"
 }

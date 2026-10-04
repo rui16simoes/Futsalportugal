@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -932,6 +932,12 @@
      "m": "9",
      "lado": "fora",
      "txt": "Nuno Miranda remata de frente para a baliza e Juan Pinheiro, atento, segura."
+    },
+    {
+     "id": "p13",
+     "m": "10",
+     "lado": "fora",
+     "txt": "Jogo a um ritmo muito elevado e o Fundão tenta acalmar a partida."
     }
    ],
    "faltas": [
@@ -2862,6 +2868,6 @@
    }
   }
  ],
- "ts": 1791116119567,
+ "ts": 1791116195407,
  "build": "20260915132319"
 }

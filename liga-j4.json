@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 720
    },
    "lances": [
     {
@@ -1685,6 +1685,12 @@
      "m": "10",
      "lado": "fora",
      "txt": "Num canto, Bruno Pinto responde a um balão com um remate potente e a bola passa muito perto do poste."
+    },
+    {
+     "id": "e7",
+     "m": "12",
+     "lado": "fora",
+     "txt": "Felipe Valério ganha o 1x1 na direita e remata ao ângulo mais distante, mas Diogo Basílio está atento."
     }
    ],
    "faltas": [
@@ -3232,6 +3238,6 @@
    }
   }
  ],
- "ts": 1791122014259,
+ "ts": 1791122131866,
  "build": "20260915132319"
 }

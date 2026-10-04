@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300
+    "acc": 360
    },
    "lances": [
     {
@@ -1052,6 +1052,12 @@
      "m": "25",
      "lado": "casa",
      "txt": "Cartão amarelo para Guina, do Fundão."
+    },
+    {
+     "id": "p33",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Grande penalidade assinalada a favor do Fundão."
     }
    ],
    "faltas": [
@@ -3017,6 +3023,6 @@
    }
   }
  ],
- "ts": 1791118933567,
+ "ts": 1791119018950,
  "build": "20260915132319"
 }

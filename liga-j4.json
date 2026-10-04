@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -1817,6 +1817,12 @@
      "m": "38",
      "lado": "casa",
      "txt": "O Eléctrico arrisca o 5x4: Henrique Vicente veste a camisola de guarda redes avançado à procura do empate."
+    },
+    {
+     "id": "e29",
+     "m": "39",
+     "lado": "fora",
+     "txt": "O Sporting defende em bloco compacto e não deixa o Eléctrico criar perigo."
     }
    ],
    "faltas": [
@@ -3434,6 +3440,6 @@
    }
   }
  ],
- "ts": 1791126519730,
+ "ts": 1791126624733,
  "build": "20260915132319"
 }

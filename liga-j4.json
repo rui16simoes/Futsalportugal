@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 180
    },
    "lances": [
     {
@@ -1034,6 +1034,12 @@
      "m": "21",
      "lado": "casa",
      "txt": "GOLO DO PORTIMONENSE! Gui recupera a bola no meio-campo adversário, fica isolado frente ao guarda redes e não falha. Portimonense SC 2-1 AD Fundão."
+    },
+    {
+     "id": "p30",
+     "m": "23",
+     "lado": "fora",
+     "txt": "Nuno Miranda constrói bem o lance, mas o remate rasteiro sai para as mãos do guarda redes."
     }
    ],
    "faltas": [
@@ -2992,6 +2998,6 @@
    }
   }
  ],
- "ts": 1791118581178,
+ "ts": 1791118699395,
  "build": "20260915132319"
 }

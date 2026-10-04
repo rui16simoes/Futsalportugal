@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 300
+    "acc": 360
    },
    "lances": [
     {
@@ -893,9 +893,15 @@
     },
     {
      "id": "p6",
-     "m": "5",
+     "m": "6",
      "lado": "casa",
      "txt": "Tomás Reis remata sem força e a bola sai ao lado."
+    },
+    {
+     "id": "p7",
+     "m": "6",
+     "lado": "fora",
+     "txt": "Bola no poste! Tiago Tavares esteve perto de inaugurar o marcador para o Fundão."
     }
    ],
    "faltas": [],
@@ -2811,6 +2817,6 @@
    }
   }
  ],
- "ts": 1791115777325,
+ "ts": 1791115812948,
  "build": "20260915132319"
 }

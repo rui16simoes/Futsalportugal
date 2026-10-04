@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -1088,6 +1088,12 @@
      "m": "29",
      "lado": "fora",
      "txt": "GOLO DO FUNDÃO! Uesler serve Peléh, que ganha espaço na direita e dispara forte para o bis. Jogo relançado. Portimonense SC 3-2 AD Fundão."
+    },
+    {
+     "id": "p39",
+     "m": "30",
+     "lado": "fora",
+     "txt": "GOLO DO FUNDÃO! Hat-trick de Peléh, que empata a partida. Portimonense SC 3-3 AD Fundão."
     }
    ],
    "faltas": [
@@ -1360,7 +1366,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": 2,
+    "golos": 3,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -1414,7 +1420,7 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "P",
-      "min": "15, 29",
+      "min": "15, 29, 30",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
@@ -3053,6 +3059,6 @@
    }
   }
  ],
- "ts": 1791119695943,
+ "ts": 1791119801809,
  "build": "20260915132319"
 }

@@ -1697,6 +1697,18 @@
      "m": "13",
      "lado": "fora",
      "txt": "Pausa técnica pedida pelo Sporting."
+    },
+    {
+     "id": "e9",
+     "m": "13",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Felipe Valério."
+    },
+    {
+     "id": "e10",
+     "m": "13",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Thales Alves."
     }
    ],
    "faltas": [
@@ -1845,7 +1857,7 @@
       "nome": "THALES ALVES",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "13",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/11/16719311_thales_alves_20260731150523.png"
      },
@@ -2025,7 +2037,7 @@
       "nome": "FELIPE VALÉRIO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "13",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/61/16484861_felipe_valerio_20260830155041.jpg"
      },
@@ -3251,6 +3263,6 @@
    }
   }
  ],
- "ts": 1791122182778,
+ "ts": 1791122292974,
  "build": "20260915132319"
 }

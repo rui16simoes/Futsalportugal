@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120
+    "acc": 180
    },
    "lances": [
     {
@@ -1739,6 +1739,12 @@
      "m": "21",
      "lado": "",
      "txt": "Começou a 2.ª parte."
+    },
+    {
+     "id": "e16",
+     "m": "22",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Telmo Sousa."
     }
    ],
    "faltas": [
@@ -1790,6 +1796,13 @@
      "parte": 2,
      "m": "22",
      "n": 2
+    },
+    {
+     "id": "ef8",
+     "lado": "fora",
+     "parte": 2,
+     "m": "23",
+     "n": 1
     }
    ],
    "gp": {
@@ -1886,7 +1899,7 @@
       "nome": "TELMO SOUSA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "22",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/32/16598232_telmo_sousa_20260715165647.png"
      },
@@ -3328,6 +3341,6 @@
    }
   }
  ],
- "ts": 1791124352662,
+ "ts": 1791124412666,
  "build": "20260915132319"
 }

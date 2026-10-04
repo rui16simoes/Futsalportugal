@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -908,9 +908,36 @@
      "m": "7",
      "lado": "casa",
      "txt": "Luiggi Baptista dribla o adversário e tenta em jeito, mas a bola passa ao lado do poste."
+    },
+    {
+     "id": "p9",
+     "m": "7",
+     "lado": "casa",
+     "txt": "Adaílton Souza também arrisca de longe, sem criar perigo."
+    },
+    {
+     "id": "p10",
+     "m": "8",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Adaílton Souza, do Portimonense."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "pf1",
+     "lado": "casa",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "pf2",
+     "lado": "casa",
+     "parte": 1,
+     "m": "8",
+     "n": 2
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -1059,7 +1086,7 @@
       "nome": "ADAÍLTON SOUZA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "8",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
      },
@@ -2823,6 +2850,6 @@
    }
   }
  ],
- "ts": 1791115847861,
+ "ts": 1791115927175,
  "build": "20260915132319"
 }

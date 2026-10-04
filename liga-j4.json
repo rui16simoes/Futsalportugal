@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 240
+    "acc": 300
    },
    "lances": [
     {
@@ -884,6 +884,12 @@
      "m": "4",
      "lado": "fora",
      "txt": "Grande ocasião para o Fundão: Nuno Miranda surge isolado frente ao guarda redes, hesita e acaba por rematar contra Juan Pinheiro."
+    },
+    {
+     "id": "p5",
+     "m": "5",
+     "lado": "casa",
+     "txt": "O Portimonense tem mais bola, mas custa-lhe chegar com perigo à baliza."
     }
    ],
    "faltas": [],
@@ -2799,6 +2805,6 @@
    }
   }
  ],
- "ts": 1791115706533,
+ "ts": 1791115741864,
  "build": "20260915132319"
 }

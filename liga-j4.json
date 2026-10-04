@@ -890,6 +890,12 @@
      "m": "5",
      "lado": "casa",
      "txt": "O Portimonense tem mais bola, mas custa-lhe chegar com perigo à baliza."
+    },
+    {
+     "id": "p6",
+     "m": "5",
+     "lado": "casa",
+     "txt": "Tomás Reis remata sem força e a bola sai ao lado."
     }
    ],
    "faltas": [],
@@ -2805,6 +2811,6 @@
    }
   }
  ],
- "ts": 1791115741864,
+ "ts": 1791115777325,
  "build": "20260915132319"
 }

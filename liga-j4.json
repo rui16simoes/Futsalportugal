@@ -1587,14 +1587,14 @@
    "casa": {
     "eq": "electrico",
     "golos": "",
-    "capitao": "",
+    "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
     "jogadores": [
      {
       "num": "16",
       "nome": "LEONARDO ATANÁSIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1603,7 +1603,7 @@
      {
       "num": "88",
       "nome": "KIKO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1612,7 +1612,7 @@
      {
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1621,7 +1621,7 @@
      {
       "num": "5",
       "nome": "FERRUGEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1630,7 +1630,7 @@
      {
       "num": "33",
       "nome": "TELMO SOUSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1639,7 +1639,7 @@
      {
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1648,7 +1648,7 @@
      {
       "num": "7",
       "nome": "MIGUEL MALHÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1657,7 +1657,7 @@
      {
       "num": "10",
       "nome": "THALES ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1666,7 +1666,7 @@
      {
       "num": "15",
       "nome": "LUCAS MESTRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1675,7 +1675,7 @@
      {
       "num": "20",
       "nome": "HENRIQUE VICENTE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1684,7 +1684,7 @@
      {
       "num": "21",
       "nome": "MARTÍN ARRIAGADA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1693,7 +1693,7 @@
      {
       "num": "74",
       "nome": "GABRIEL HOFFELDER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1702,7 +1702,7 @@
      {
       "num": "14",
       "nome": "ARTHUR SARAIVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1711,7 +1711,7 @@
      {
       "num": "18",
       "nome": "MATHEUS MARQUETI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1722,14 +1722,14 @@
    "fora": {
     "eq": "sporting",
     "golos": "",
-    "capitao": "",
+    "capitao": "TOMÁS PAÇÓ",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "GONÇALO PORTUGAL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1738,7 +1738,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1747,7 +1747,7 @@
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1756,7 +1756,7 @@
      {
       "num": "2",
       "nome": "RAFAEL RUELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1765,7 +1765,7 @@
      {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1774,7 +1774,7 @@
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1783,7 +1783,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1792,7 +1792,7 @@
      {
       "num": "17",
       "nome": "ERICK MENDONÇA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1801,7 +1801,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1810,7 +1810,7 @@
      {
       "num": "10",
       "nome": "RÚBEN TEIXEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1819,7 +1819,7 @@
      {
       "num": "11",
       "nome": "IVAN CHISHKALA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1828,7 +1828,7 @@
      {
       "num": "13",
       "nome": "TIAGUINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1837,7 +1837,7 @@
      {
       "num": "14",
       "nome": "FELIPE VALÉRIO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1846,7 +1846,7 @@
      {
       "num": "25",
       "nome": "BRUNO PINTO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1855,7 +1855,7 @@
      {
       "num": "29",
       "nome": "ALEX MERLIM",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1864,7 +1864,7 @@
      {
       "num": "6",
       "nome": "ZICKY TÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1873,7 +1873,7 @@
      {
       "num": "30",
       "nome": "FELIPE RUFINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1882,7 +1882,7 @@
      {
       "num": "70",
       "nome": "ROCHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3065,6 +3065,6 @@
    }
   }
  ],
- "ts": 1791119932227,
+ "ts": 1791119954869,
  "build": "20260915132319"
 }

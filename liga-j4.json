@@ -1756,7 +1756,13 @@
      "id": "e18",
      "m": "23",
      "lado": "fora",
-     "txt": "GOLO DO SPORTING! Felipe Rufino faz o segundo. Eléctrico FC 0-2 Sporting CP."
+     "txt": "GOLO DO SPORTING! Contra-ataque rápido dos leões: Tomás Paçó lança Diogo Santos na direita, que serve Felipe Rufino para um remate de grande execução técnica. Eléctrico FC 0-2 Sporting CP."
+    },
+    {
+     "id": "e19",
+     "m": "23",
+     "lado": "casa",
+     "txt": "GOLO DO ELÉCTRICO! Lucas Mestre responde de imediato e reduz. Eléctrico FC 1-2 Sporting CP."
     }
    ],
    "faltas": [
@@ -1865,7 +1871,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": 0,
+    "golos": 1,
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -1955,7 +1961,7 @@
       "num": "15",
       "nome": "LUCAS MESTRE",
       "e": "S",
-      "min": "",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/35/16598235_lucas_mestre_20260717140010.png"
@@ -2092,7 +2098,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/46/16484846_diogo_santos_20260830154904.jpg"
      },
      {
@@ -3353,6 +3359,6 @@
    }
   }
  ],
- "ts": 1791124535513,
+ "ts": 1791124600751,
  "build": "20260915132319"
 }

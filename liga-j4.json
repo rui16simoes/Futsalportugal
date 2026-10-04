@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -950,6 +950,12 @@
      "m": "11",
      "lado": "casa",
      "txt": "Tomás Reis volta a tentar e Martim Borrego responde com uma boa defesa."
+    },
+    {
+     "id": "p16",
+     "m": "12",
+     "lado": "casa",
+     "txt": "Gui aparece isolado frente à baliza, mas Martim Borrego sai rápido e faz uma grande defesa."
     }
    ],
    "faltas": [
@@ -2880,6 +2886,6 @@
    }
   }
  ],
- "ts": 1791116309762,
+ "ts": 1791116344368,
  "build": "20260915132319"
 }

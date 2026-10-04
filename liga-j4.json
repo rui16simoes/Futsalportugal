@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 60
+    "acc": 180
    },
    "lances": [
     {
@@ -872,6 +872,12 @@
      "m": "1",
      "lado": "casa",
      "txt": "Filipinho arrisca de meia distância, mas sem perigo."
+    },
+    {
+     "id": "p3",
+     "m": "3",
+     "lado": "",
+     "txt": "Arranque muito vivo, com as duas equipas a imprimir um ritmo elevado."
     }
    ],
    "faltas": [],
@@ -2787,6 +2793,6 @@
    }
   }
  ],
- "ts": 1791115517282,
+ "ts": 1791115553288,
  "build": "20260915132319"
 }

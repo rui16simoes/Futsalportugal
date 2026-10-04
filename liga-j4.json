@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -998,6 +998,12 @@
      "m": "16",
      "lado": "casa",
      "txt": "Grande remate de Filipinho e Martim Borrego tem de se esticar para evitar o golo."
+    },
+    {
+     "id": "p24",
+     "m": "18",
+     "lado": "casa",
+     "txt": "Tomás Reis remata para a malha lateral."
     }
    ],
    "faltas": [
@@ -2942,6 +2948,6 @@
    }
   }
  ],
- "ts": 1791117022271,
+ "ts": 1791117184462,
  "build": "20260915132319"
 }

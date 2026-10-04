@@ -1793,6 +1793,12 @@
      "m": "32",
      "lado": "fora",
      "txt": "Bruno Pinto desmarca-se e aparece sozinho na área, mas falha a receção e perde a oportunidade."
+    },
+    {
+     "id": "e25",
+     "m": "32",
+     "lado": "casa",
+     "txt": "Gonçalo Paixão e Lucas Mestre saem em 2x0 frente a Bernardo Paçó, mas decidem mal e o remate sai ao lado."
     }
    ],
    "faltas": [
@@ -1865,6 +1871,13 @@
      "parte": 2,
      "m": "26",
      "n": 2
+    },
+    {
+     "id": "ef11",
+     "lado": "casa",
+     "parte": 2,
+     "m": "32",
+     "n": 4
     }
    ],
    "gp": {
@@ -3403,6 +3416,6 @@
    }
   }
  ],
- "ts": 1791125743336,
+ "ts": 1791125805914,
  "build": "20260915132319"
 }

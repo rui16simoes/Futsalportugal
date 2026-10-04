@@ -856,9 +856,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 720
+    "acc": 1200
    },
    "lances": [
     {
@@ -1112,6 +1112,66 @@
      "m": "32",
      "lado": "fora",
      "txt": "GOLO DO FUNDÃO! Jogada coletiva bem trabalhada, Mário Freitas assiste e Nem remata forte para voltar a empatar. Portimonense SC 4-4 AD Fundão."
+    },
+    {
+     "id": "p43",
+     "m": "33",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Gui."
+    },
+    {
+     "id": "p44",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Peléh remata ao poste!"
+    },
+    {
+     "id": "p45",
+     "m": "34",
+     "lado": "casa",
+     "txt": "Adaílton Souza dispara com muita força, mas a bola sai ao lado."
+    },
+    {
+     "id": "p46",
+     "m": "36",
+     "lado": "fora",
+     "txt": "GOLO DO FUNDÃO! Contra-ataque rápido conduzido por Tiago Tavares, que serve Guina para o golo. O Fundão passa para a frente. Portimonense SC 4-5 AD Fundão."
+    },
+    {
+     "id": "p47",
+     "m": "37",
+     "lado": "fora",
+     "txt": "O Fundão chega às 5 faltas: a próxima dá livre direto ao Portimonense."
+    },
+    {
+     "id": "p48",
+     "m": "38",
+     "lado": "fora",
+     "txt": "O Fundão tem mais bola nesta fase final."
+    },
+    {
+     "id": "p49",
+     "m": "39",
+     "lado": "casa",
+     "txt": "O Portimonense arrisca o 5x4."
+    },
+    {
+     "id": "p50",
+     "m": "39",
+     "lado": "fora",
+     "txt": "GOLO DO FUNDÃO! Nuno Miranda faz o sexto. Portimonense SC 4-6 AD Fundão."
+    },
+    {
+     "id": "p51",
+     "m": "39",
+     "lado": "casa",
+     "txt": "GOLO DO PORTIMONENSE! Tomás Reis bisa e reduz. Portimonense SC 5-6 AD Fundão."
+    },
+    {
+     "id": "p52",
+     "m": "40",
+     "lado": "",
+     "txt": "Fim do jogo! O AD Fundão vence em Portimão por 6-5."
     }
    ],
    "faltas": [
@@ -1163,6 +1223,48 @@
      "parte": 2,
      "m": "25",
      "n": 2
+    },
+    {
+     "id": "pf8",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "pf9",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 2
+    },
+    {
+     "id": "pf10",
+     "lado": "casa",
+     "parte": 2,
+     "m": "",
+     "n": 3
+    },
+    {
+     "id": "pf11",
+     "lado": "fora",
+     "parte": 2,
+     "m": "",
+     "n": 3
+    },
+    {
+     "id": "pf12",
+     "lado": "fora",
+     "parte": 2,
+     "m": "",
+     "n": 4
+    },
+    {
+     "id": "pf13",
+     "lado": "fora",
+     "parte": 2,
+     "m": "37",
+     "n": 5
     }
    ],
    "gp": {
@@ -1213,7 +1315,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": 4,
+    "golos": 5,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1286,7 +1388,7 @@
       "nome": "GUI",
       "e": "S",
       "min": "21",
-      "cart": "",
+      "cart": "33",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/36/57/16653657_gui_20260709195957.png"
      },
@@ -1303,7 +1405,7 @@
       "num": "10",
       "nome": "TOMÁS REIS",
       "e": "P",
-      "min": "12",
+      "min": "12, 39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/54/135954_tomas_reis_20240229053329.jpg"
@@ -1384,7 +1486,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": 4,
+    "golos": 6,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -1429,7 +1531,7 @@
       "num": "60",
       "nome": "GUINA",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/05/672805_guina_20250128165836.jpg"
@@ -1456,7 +1558,7 @@
       "num": "10",
       "nome": "NUNO MIRANDA",
       "e": "S",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/60/46/16766046_nuno_miranda_20260814134818.png"
@@ -1521,7 +1623,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "36",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/48/50/844850_tiago_tavares_20250129124552.png"
      }
     ]
@@ -3086,6 +3188,6 @@
    }
   }
  ],
- "ts": 1791121051070,
+ "ts": 1791121911650,
  "build": "20260915132319"
 }

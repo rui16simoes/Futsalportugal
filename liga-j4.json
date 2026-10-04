@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -926,6 +926,12 @@
      "m": "8",
      "lado": "fora",
      "txt": "Mário Freitas bate o livre para a baliza à procura de um desvio e a bola passa muito perto."
+    },
+    {
+     "id": "p12",
+     "m": "9",
+     "lado": "fora",
+     "txt": "Nuno Miranda remata de frente para a baliza e Juan Pinheiro, atento, segura."
     }
    ],
    "faltas": [
@@ -2856,6 +2862,6 @@
    }
   }
  ],
- "ts": 1791116043461,
+ "ts": 1791116119567,
  "build": "20260915132319"
 }

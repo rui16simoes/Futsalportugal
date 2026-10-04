@@ -1763,6 +1763,12 @@
      "m": "23",
      "lado": "casa",
      "txt": "GOLO DO ELÉCTRICO! Lucas Mestre aproveita um erro de Bruno Maior, fica cara a cara com Bernardo Paçó, contorna o guarda redes e encosta para a baliza vazia. Eléctrico FC 1-2 Sporting CP."
+    },
+    {
+     "id": "e20",
+     "m": "25",
+     "lado": "casa",
+     "txt": "Cartão amarelo para Matheus Marqueti."
     }
    ],
    "faltas": [
@@ -2014,7 +2020,7 @@
       "nome": "MATHEUS MARQUETI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "25",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/17/63/16721763_matheus_marqueti_20260908144218.png"
      }
@@ -3366,6 +3372,6 @@
    }
   }
  ],
- "ts": 1791124852725,
+ "ts": 1791124912726,
  "build": "20260915132319"
 }

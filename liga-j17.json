@@ -662,6 +662,15 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/36/16738036_miguel_malhao_20260908144557.png"
      },
      {
+      "num": "8",
+      "nome": "MATEUS SILVA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/88/1404688_mateus_silva_20251215180103.jpg"
+     },
+     {
       "num": "10",
       "nome": "THALES ALVES",
       "e": "",
@@ -2485,5 +2494,5 @@
   }
  ],
  "build": "20260915132319",
- "ts": 1791114309559
+ "ts": 1791120230758
 }

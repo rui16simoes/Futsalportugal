@@ -992,6 +992,12 @@
      "m": "16",
      "lado": "fora",
      "txt": "Peléh volta a aparecer isolado e tenta o chapéu, mas a bola sai demasiado alta."
+    },
+    {
+     "id": "p23",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Grande remate de Filipinho e Martim Borrego tem de se esticar para evitar o golo."
     }
    ],
    "faltas": [
@@ -2929,6 +2935,6 @@
    }
   }
  ],
- "ts": 1791116952404,
+ "ts": 1791116987283,
  "build": "20260915132319"
 }

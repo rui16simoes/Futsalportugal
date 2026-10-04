@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 300
    },
    "lances": [
     {
@@ -1040,6 +1040,12 @@
      "m": "23",
      "lado": "fora",
      "txt": "Nuno Miranda constrói bem o lance, mas o remate rasteiro sai para as mãos do guarda redes."
+    },
+    {
+     "id": "p31",
+     "m": "25",
+     "lado": "fora",
+     "txt": "O Fundão carrega à procura do empate."
     }
    ],
    "faltas": [
@@ -2998,6 +3004,6 @@
    }
   }
  ],
- "ts": 1791118699395,
+ "ts": 1791118899145,
  "build": "20260915132319"
 }

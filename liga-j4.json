@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -1076,6 +1076,12 @@
      "m": "28",
      "lado": "fora",
      "txt": "Renato Almeida tenta de longe e Juan Pinheiro defende sem dificuldade."
+    },
+    {
+     "id": "p37",
+     "m": "29",
+     "lado": "casa",
+     "txt": "GOLO DO PORTIMONENSE! Montanha aumenta a vantagem dos alvinegros. Portimonense SC 3-1 AD Fundão."
     }
    ],
    "faltas": [
@@ -1177,7 +1183,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": 2,
+    "golos": 3,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1285,7 +1291,7 @@
       "num": "70",
       "nome": "MONTANHA",
       "e": "S",
-      "min": "",
+      "min": "29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/33/1169133_montanha_20240912113852.png"
@@ -3041,6 +3047,6 @@
    }
   }
  ],
- "ts": 1791119392665,
+ "ts": 1791119511949,
  "build": "20260915132319"
 }

@@ -1010,6 +1010,12 @@
      "m": "19",
      "lado": "fora",
      "txt": "Renato Almeida remata com muito perigo e a bola passa por pouco por cima da baliza."
+    },
+    {
+     "id": "p26",
+     "m": "19",
+     "lado": "casa",
+     "txt": "Tomás Reis remata forte de primeira, mas sem perigo."
     }
    ],
    "faltas": [
@@ -2961,6 +2967,6 @@
    }
   }
  ],
- "ts": 1791117418580,
+ "ts": 1791117495674,
  "build": "20260915132319"
 }

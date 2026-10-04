@@ -912,14 +912,14 @@
    "casa": {
     "eq": "portimonense",
     "golos": "",
-    "capitao": "",
+    "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
     "jogadores": [
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -928,7 +928,7 @@
      {
       "num": "13",
       "nome": "PEDRO AFONSO (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -937,7 +937,7 @@
      {
       "num": "24",
       "nome": "NUNO COSTA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -946,7 +946,7 @@
      {
       "num": "18",
       "nome": "RUI MOREIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -955,7 +955,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -964,7 +964,7 @@
      {
       "num": "7",
       "nome": "PEDRO SENRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -973,7 +973,7 @@
      {
       "num": "51",
       "nome": "GUI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -982,7 +982,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -991,7 +991,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1000,7 +1000,7 @@
      {
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1009,7 +1009,7 @@
      {
       "num": "70",
       "nome": "MONTANHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1018,7 +1018,7 @@
      {
       "num": "88",
       "nome": "JOÃO ALVES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1027,7 +1027,7 @@
      {
       "num": "9",
       "nome": "ANDRÉ ROCHATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1036,7 +1036,7 @@
      {
       "num": "11",
       "nome": "AFONSO SERRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1045,7 +1045,7 @@
      {
       "num": "17",
       "nome": "ANDRIY DZYALO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1054,7 +1054,7 @@
      {
       "num": "29",
       "nome": "LUIGGI BAPTISTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1065,14 +1065,14 @@
    "fora": {
     "eq": "fundao",
     "golos": "",
-    "capitao": "",
+    "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
     "jogadores": [
      {
       "num": "14",
       "nome": "GAZA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1081,7 +1081,7 @@
      {
       "num": "24",
       "nome": "MARTIM BORREGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1090,7 +1090,7 @@
      {
       "num": "30",
       "nome": "JAIME ARTHUR (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1099,7 +1099,7 @@
      {
       "num": "6",
       "nome": "UESLER",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1108,7 +1108,7 @@
      {
       "num": "60",
       "nome": "GUINA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1117,7 +1117,7 @@
      {
       "num": "12",
       "nome": "PELÉH",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1126,7 +1126,7 @@
      {
       "num": "20",
       "nome": "ARTUR VICENTE",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1135,7 +1135,7 @@
      {
       "num": "10",
       "nome": "NUNO MIRANDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1144,7 +1144,7 @@
      {
       "num": "11",
       "nome": "RENATO ALMEIDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1153,7 +1153,7 @@
      {
       "num": "13",
       "nome": "LOURENÇO AGUIAR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1162,7 +1162,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1171,7 +1171,7 @@
      {
       "num": "27",
       "nome": "NEM",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1180,7 +1180,7 @@
      {
       "num": "9",
       "nome": "EDUARDO JOB",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1189,7 +1189,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1198,7 +1198,7 @@
      {
       "num": "77",
       "nome": "TIAGO TAVARES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2757,6 +2757,6 @@
    }
   }
  ],
- "ts": 1791065113648,
+ "ts": 1791114090510,
  "build": "20260915132319"
 }

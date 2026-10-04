@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 780
+    "acc": 840
    },
    "lances": [
     {
@@ -968,6 +968,12 @@
      "m": "13",
      "lado": "fora",
      "txt": "Peléh faz uma boa combinação e remata, mas ao lado."
+    },
+    {
+     "id": "p19",
+     "m": "14",
+     "lado": "fora",
+     "txt": "O Fundão pede pausa técnica."
     }
    ],
    "faltas": [
@@ -2898,6 +2904,6 @@
    }
   }
  ],
- "ts": 1791116492432,
+ "ts": 1791116527601,
  "build": "20260915132319"
 }

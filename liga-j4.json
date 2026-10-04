@@ -1087,7 +1087,7 @@
      "id": "p38",
      "m": "29",
      "lado": "fora",
-     "txt": "GOLO DO FUNDÃO! Peléh bisa e reduz logo a seguir. Portimonense SC 3-2 AD Fundão."
+     "txt": "GOLO DO FUNDÃO! Uesler assiste e Peléh bisa, reduzindo logo a seguir. Portimonense SC 3-2 AD Fundão."
     }
    ],
    "faltas": [
@@ -1398,7 +1398,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "29",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/80/424580_uesler_20260720131537.png"
      },
      {
@@ -3053,6 +3053,6 @@
    }
   }
  ],
- "ts": 1791119626857,
+ "ts": 1791119661052,
  "build": "20260915132319"
 }

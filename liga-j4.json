@@ -919,7 +919,7 @@
      {
       "num": "2",
       "nome": "JUAN PINHEIRO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -944,6 +944,15 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/24/83/16672483_nuno_costa_20260716142538.png"
      },
      {
+      "num": "24",
+      "nome": "ANDRÉ VIEIRA (GR)",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/12/1025412_andre_vieira_20240205111308.jpg"
+     },
+     {
       "num": "18",
       "nome": "RUI MOREIRA",
       "e": "S",
@@ -955,7 +964,7 @@
      {
       "num": "94",
       "nome": "VITINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -982,7 +991,7 @@
      {
       "num": "8",
       "nome": "FILIPINHO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -991,7 +1000,7 @@
      {
       "num": "10",
       "nome": "TOMÁS REIS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1045,7 +1054,7 @@
      {
       "num": "17",
       "nome": "ANDRIY DZYALO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1061,24 +1070,13 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
      },
      {
-      "num": "24",
-      "nome": "ANDRÉ VIEIRA (GR)",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/12/1025412_andre_vieira_20240205111308.jpg",
-      "extra": 1
-     },
-     {
       "num": "16",
       "nome": "SANTI",
       "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/63/1169163_santi_20240912114208.png",
-      "extra": 1
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/63/1169163_santi_20240912114208.png"
      }
     ]
    },
@@ -1182,7 +1180,7 @@
      {
       "num": "17",
       "nome": "MÁRIO FREITAS",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2777,6 +2775,6 @@
    }
   }
  ],
- "ts": 1791114368332,
+ "ts": 1791115376557,
  "build": "20260915132319"
 }

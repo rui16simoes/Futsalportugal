@@ -1745,6 +1745,12 @@
      "m": "22",
      "lado": "casa",
      "txt": "Cartão amarelo para Telmo Sousa."
+    },
+    {
+     "id": "e17",
+     "m": "23",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Felipe Rufino."
     }
    ],
    "faltas": [
@@ -2151,7 +2157,7 @@
       "nome": "FELIPE RUFINO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "23",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/29/99/16662999_felipe_rufino_20260830155159.jpg"
      },
@@ -3341,6 +3347,6 @@
    }
   }
  ],
- "ts": 1791124412666,
+ "ts": 1791124473716,
  "build": "20260915132319"
 }

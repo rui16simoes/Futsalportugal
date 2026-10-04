@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 840
    },
    "lances": [
     {
@@ -1805,6 +1805,12 @@
      "m": "33",
      "lado": "fora",
      "txt": "Cartão amarelo para Rúben Teixeira."
+    },
+    {
+     "id": "e27",
+     "m": "34",
+     "lado": "casa",
+     "txt": "Thales Alves flete para dentro e remata forte; Bernardo Paçó baixa-se e defende com dificuldade."
     }
    ],
    "faltas": [
@@ -3422,6 +3428,6 @@
    }
   }
  ],
- "ts": 1791125981868,
+ "ts": 1791126048864,
  "build": "20260915132319"
 }

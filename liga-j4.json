@@ -1093,7 +1093,13 @@
      "id": "p39",
      "m": "30",
      "lado": "fora",
-     "txt": "GOLO DO FUNDÃO! Hat-trick de Peléh, que empata a partida. Portimonense SC 3-3 AD Fundão."
+     "txt": "GOLO DO FUNDÃO! Peléh recebe em posição frontal e remata forte para o hat-trick e o empate. Portimonense SC 3-3 AD Fundão."
+    },
+    {
+     "id": "p40",
+     "m": "30",
+     "lado": "casa",
+     "txt": "GOLO DO PORTIMONENSE! O Fundão erra na saída de bola e Montanha, com um toque subtil, bisa e volta a pôr os alvinegros na frente. Portimonense SC 4-3 AD Fundão."
     }
    ],
    "faltas": [
@@ -1195,7 +1201,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": 3,
+    "golos": 4,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1303,7 +1309,7 @@
       "num": "70",
       "nome": "MONTANHA",
       "e": "S",
-      "min": "29",
+      "min": "29, 30",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/33/1169133_montanha_20240912113852.png"
@@ -3059,6 +3065,6 @@
    }
   }
  ],
- "ts": 1791119801809,
+ "ts": 1791119932227,
  "build": "20260915132319"
 }

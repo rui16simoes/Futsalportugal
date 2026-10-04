@@ -1058,6 +1058,12 @@
      "m": "26",
      "lado": "fora",
      "txt": "Grande penalidade assinalada a favor do Fundão."
+    },
+    {
+     "id": "p34",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Juan Pinheiro defende o penálti! Landelino Neto bate e o guarda redes do Portimonense trava o empate com uma grande defesa."
     }
    ],
    "faltas": [
@@ -3023,6 +3029,6 @@
    }
   }
  ],
- "ts": 1791119018950,
+ "ts": 1791119105325,
  "build": "20260915132319"
 }

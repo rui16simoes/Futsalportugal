@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -1799,6 +1799,12 @@
      "m": "32",
      "lado": "casa",
      "txt": "Gonçalo Paixão e Lucas Mestre saem em 2x0 frente a Bernardo Paçó, mas decidem mal e o remate sai ao lado."
+    },
+    {
+     "id": "e26",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Rúben Teixeira."
     }
    ],
    "faltas": [
@@ -2163,7 +2169,7 @@
       "nome": "RÚBEN TEIXEIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "33",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
      },
@@ -3416,6 +3422,6 @@
    }
   }
  ],
- "ts": 1791125805914,
+ "ts": 1791125917806,
  "build": "20260915132319"
 }

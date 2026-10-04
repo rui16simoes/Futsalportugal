@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0
+    "acc": 60
    },
    "lances": [
     {
@@ -866,6 +866,12 @@
      "m": "0",
      "lado": "",
      "txt": "Começou o jogo no Pavilhão Gimnodesportivo de Portimão."
+    },
+    {
+     "id": "p2",
+     "m": "1",
+     "lado": "casa",
+     "txt": "Filipinho arrisca de meia distância, mas sem perigo."
     }
    ],
    "faltas": [],
@@ -2781,6 +2787,6 @@
    }
   }
  ],
- "ts": 1791115412316,
+ "ts": 1791115449496,
  "build": "20260915132319"
 }

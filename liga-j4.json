@@ -1660,7 +1660,7 @@
      "id": "e2",
      "m": "1",
      "lado": "fora",
-     "txt": "GOLO DO SPORTING! Logo a abrir, Wesley aproveita uma reposição na ala esquerda e remata; a bola desvia em Gonçalo Paixão e trai Diogo Basílio. Autogolo. Eléctrico FC 0-1 Sporting CP."
+     "txt": "GOLO DO SPORTING! Logo a abrir, Wesley aproveita uma reposição na ala esquerda e remata; a bola desvia num defensor do Eléctrico e trai Diogo Basílio. Autogolo de Lucas Mestre. Eléctrico FC 0-1 Sporting CP."
     },
     {
      "id": "e3",
@@ -2018,7 +2018,7 @@
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
       "e": "P",
-      "min": "1ag",
+      "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/04/751204_goncalo_paixao_20260128142651.png"
@@ -2054,7 +2054,7 @@
       "num": "15",
       "nome": "LUCAS MESTRE",
       "e": "S",
-      "min": "23",
+      "min": "1ag, 23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/35/16598235_lucas_mestre_20260717140010.png"
@@ -3452,6 +3452,6 @@
    }
   }
  ],
- "ts": 1791127673913,
+ "ts": 1791130375444,
  "build": "20260915132319"
 }

@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -1004,6 +1004,12 @@
      "m": "18",
      "lado": "casa",
      "txt": "Tomás Reis remata para a malha lateral."
+    },
+    {
+     "id": "p25",
+     "m": "19",
+     "lado": "fora",
+     "txt": "Renato Almeida remata com muito perigo e a bola passa por pouco por cima da baliza."
     }
    ],
    "faltas": [
@@ -2948,6 +2954,6 @@
    }
   }
  ],
- "ts": 1791117184462,
+ "ts": 1791117384269,
  "build": "20260915132319"
 }

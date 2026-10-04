@@ -858,10 +858,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "p1",
+     "m": "0",
+     "lado": "",
+     "txt": "Começou o jogo no Pavilhão Gimnodesportivo de Portimão."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -1207,7 +1213,7 @@
      {
       "num": "47",
       "nome": "LANDELINO NETO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2775,6 +2781,6 @@
    }
   }
  ],
- "ts": 1791115376557,
+ "ts": 1791115412316,
  "build": "20260915132319"
 }

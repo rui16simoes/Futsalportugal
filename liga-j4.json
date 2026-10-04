@@ -856,9 +856,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -1016,6 +1016,12 @@
      "m": "19",
      "lado": "casa",
      "txt": "Tomás Reis remata forte de primeira, mas sem perigo."
+    },
+    {
+     "id": "p27",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [
@@ -2967,6 +2973,6 @@
    }
   }
  ],
- "ts": 1791117495674,
+ "ts": 1791117654267,
  "build": "20260915132319"
 }

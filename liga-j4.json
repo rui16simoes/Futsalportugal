@@ -1645,9 +1645,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1170
+    "acc": 1200
    },
    "lances": [
     {
@@ -1829,6 +1829,12 @@
      "m": "39",
      "lado": "casa",
      "txt": "GOLO DO ELÉCTRICO! Emoção até ao fim: Henrique Vicente remata da zona dos 10 metros, Bernardo Paçó defende com dificuldade, mas na recarga Henrique Vicente não falha e empata no último minuto. Eléctrico FC 3-3 Sporting CP."
+    },
+    {
+     "id": "e31",
+     "m": "40",
+     "lado": "",
+     "txt": "Fim do jogo! Eléctrico e Sporting empatam 3-3 em Ponte de Sor, com o empate dos azuis a chegar no último minuto."
     }
    ],
    "faltas": [
@@ -3446,6 +3452,6 @@
    }
   }
  ],
- "ts": 1791126747735,
+ "ts": 1791126807744,
  "build": "20260915132319"
 }

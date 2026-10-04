@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 780
    },
    "lances": [
     {
@@ -1691,6 +1691,12 @@
      "m": "12",
      "lado": "fora",
      "txt": "Felipe Valério ganha o 1x1 na direita e remata ao ângulo mais distante, mas Diogo Basílio está atento."
+    },
+    {
+     "id": "e8",
+     "m": "13",
+     "lado": "fora",
+     "txt": "Pausa técnica pedida pelo Sporting."
     }
    ],
    "faltas": [
@@ -1700,6 +1706,13 @@
      "parte": 1,
      "m": "",
      "n": 1
+    },
+    {
+     "id": "ef2",
+     "lado": "fora",
+     "parte": 1,
+     "m": "13",
+     "n": 2
     }
    ],
    "gp": {
@@ -3238,6 +3251,6 @@
    }
   }
  ],
- "ts": 1791122131866,
+ "ts": 1791122182778,
  "build": "20260915132319"
 }

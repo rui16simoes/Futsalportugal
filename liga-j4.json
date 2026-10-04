@@ -920,6 +920,12 @@
      "m": "8",
      "lado": "fora",
      "txt": "Cartão amarelo para Adaílton Souza, do Portimonense."
+    },
+    {
+     "id": "p11",
+     "m": "8",
+     "lado": "fora",
+     "txt": "Mário Freitas bate o livre para a baliza à procura de um desvio e a bola passa muito perto."
     }
    ],
    "faltas": [
@@ -2850,6 +2856,6 @@
    }
   }
  ],
- "ts": 1791115927175,
+ "ts": 1791116043461,
  "build": "20260915132319"
 }

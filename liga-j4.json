@@ -1647,11 +1647,55 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 600
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "e1",
+     "m": "1",
+     "lado": "",
+     "txt": "Começou o jogo em Ponte de Sor."
+    },
+    {
+     "id": "e2",
+     "m": "1",
+     "lado": "fora",
+     "txt": "GOLO DO SPORTING! Logo a abrir, Wesley aproveita uma reposição na ala esquerda e remata; a bola desvia em Gonçalo Paixão e trai Diogo Basílio. Autogolo. Eléctrico FC 0-1 Sporting CP."
+    },
+    {
+     "id": "e3",
+     "m": "3",
+     "lado": "fora",
+     "txt": "Tomás Paçó tem espaço na direita e remata forte ao ângulo, a obrigar o guarda redes do Eléctrico a mostrar reflexos."
+    },
+    {
+     "id": "e4",
+     "m": "8",
+     "lado": "fora",
+     "txt": "Bruno Maior quase fica isolado, mas Gabriel Hoffelder corta de carrinho."
+    },
+    {
+     "id": "e5",
+     "m": "9",
+     "lado": "casa",
+     "txt": "Lucas Mestre puxa para o pé esquerdo e remata forte; Bernardo Paçó defende em dois tempos."
+    },
+    {
+     "id": "e6",
+     "m": "10",
+     "lado": "fora",
+     "txt": "Num canto, Bruno Pinto responde a um balão com um remate potente e a bola passa muito perto do poste."
+    }
+   ],
+   "faltas": [
+    {
+     "id": "ef1",
+     "lado": "fora",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -1700,7 +1744,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": "",
+    "golos": 0,
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -1726,7 +1770,7 @@
      {
       "num": "99",
       "nome": "DIOGO BASÍLIO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1844,7 +1888,7 @@
    },
    "fora": {
     "eq": "sporting",
-    "golos": "",
+    "golos": 1,
     "capitao": "TOMÁS PAÇÓ",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
@@ -1861,7 +1905,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3188,6 +3232,6 @@
    }
   }
  ],
- "ts": 1791121911650,
+ "ts": 1791122014259,
  "build": "20260915132319"
 }

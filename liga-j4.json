@@ -1111,7 +1111,7 @@
      "id": "p42",
      "m": "32",
      "lado": "fora",
-     "txt": "GOLO DO FUNDÃO! Nem volta a empatar a partida. Portimonense SC 4-4 AD Fundão."
+     "txt": "GOLO DO FUNDÃO! Jogada coletiva bem trabalhada, Mário Freitas assiste e Nem remata forte para voltar a empatar. Portimonense SC 4-4 AD Fundão."
     }
    ],
    "faltas": [
@@ -1485,7 +1485,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "32",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/41/143941_mario_freitas_20241019155103.jpg"
      },
      {
@@ -1665,6 +1665,15 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/36/16738036_miguel_malhao_20260908144557.png"
+     },
+     {
+      "num": "8",
+      "nome": "MATEUS SILVA",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/46/88/1404688_mateus_silva_20251215180103.jpg"
      },
      {
       "num": "10",
@@ -3077,6 +3086,6 @@
    }
   }
  ],
- "ts": 1791120120307,
+ "ts": 1791121051070,
  "build": "20260915132319"
 }

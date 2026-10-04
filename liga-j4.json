@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 360
+    "acc": 420
    },
    "lances": [
     {
@@ -902,6 +902,12 @@
      "m": "6",
      "lado": "fora",
      "txt": "Bola no poste! Tiago Tavares esteve perto de inaugurar o marcador para o Fundão."
+    },
+    {
+     "id": "p8",
+     "m": "7",
+     "lado": "casa",
+     "txt": "Luiggi Baptista dribla o adversário e tenta em jeito, mas a bola passa ao lado do poste."
     }
    ],
    "faltas": [],
@@ -2817,6 +2823,6 @@
    }
   }
  ],
- "ts": 1791115812948,
+ "ts": 1791115847861,
  "build": "20260915132319"
 }

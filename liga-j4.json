@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -1106,6 +1106,12 @@
      "m": "31",
      "lado": "casa",
      "txt": "Filipinho remata com muito perigo e quase faz o quinto."
+    },
+    {
+     "id": "p42",
+     "m": "32",
+     "lado": "fora",
+     "txt": "GOLO DO FUNDÃO! Nem volta a empatar a partida. Portimonense SC 4-4 AD Fundão."
     }
    ],
    "faltas": [
@@ -1378,7 +1384,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": 3,
+    "golos": 4,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -1486,7 +1492,7 @@
       "num": "27",
       "nome": "NEM",
       "e": "S",
-      "min": "",
+      "min": "32",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/16/43/16731643_nem_20260807163507.png"
@@ -3071,6 +3077,6 @@
    }
   }
  ],
- "ts": 1791120008594,
+ "ts": 1791120120307,
  "build": "20260915132319"
 }

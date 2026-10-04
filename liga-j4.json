@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 900
+    "acc": 1020
    },
    "lances": [
     {
@@ -1715,6 +1715,12 @@
      "m": "15",
      "lado": "fora",
      "txt": "Bernardo Paçó avança pela direita, Diogo Santos cruza e Felipe Rufino, ao segundo poste, fica perto de desviar para golo."
+    },
+    {
+     "id": "e12",
+     "m": "17",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Tomás Paçó."
     }
    ],
    "faltas": [
@@ -1738,6 +1744,13 @@
      "parte": 1,
      "m": "14",
      "n": 1
+    },
+    {
+     "id": "ef4",
+     "lado": "fora",
+     "parte": 1,
+     "m": "17",
+     "n": 3
     }
    ],
    "gp": {
@@ -1978,7 +1991,7 @@
       "nome": "TOMÁS PAÇÓ",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "17",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
      },
@@ -3276,6 +3289,6 @@
    }
   }
  ],
- "ts": 1791122537613,
+ "ts": 1791122686618,
  "build": "20260915132319"
 }

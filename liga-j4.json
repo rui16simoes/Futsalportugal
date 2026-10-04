@@ -1647,7 +1647,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1140
+    "acc": 1170
    },
    "lances": [
     {
@@ -1823,6 +1823,12 @@
      "m": "39",
      "lado": "fora",
      "txt": "O Sporting defende em bloco compacto e não deixa o Eléctrico criar perigo."
+    },
+    {
+     "id": "e30",
+     "m": "39",
+     "lado": "casa",
+     "txt": "GOLO DO ELÉCTRICO! Em 5x4, Henrique Vicente empata no último minuto. Eléctrico FC 3-3 Sporting CP."
     }
    ],
    "faltas": [
@@ -1952,7 +1958,7 @@
    },
    "casa": {
     "eq": "electrico",
-    "golos": 2,
+    "golos": 3,
     "capitao": "DIOGO BASÍLIO",
     "treinador": "JORGE MONTEIRO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/185/1185_jorge_monteiro_1783610861.png",
@@ -2051,7 +2057,7 @@
       "num": "20",
       "nome": "HENRIQUE VICENTE",
       "e": "S",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
@@ -3440,6 +3446,6 @@
    }
   }
  ],
- "ts": 1791126624733,
+ "ts": 1791126682736,
  "build": "20260915132319"
 }

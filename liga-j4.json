@@ -956,6 +956,12 @@
      "m": "12",
      "lado": "casa",
      "txt": "Gui aparece isolado frente à baliza, mas Martim Borrego sai rápido e faz uma grande defesa."
+    },
+    {
+     "id": "p17",
+     "m": "12",
+     "lado": "casa",
+     "txt": "GOLO DO PORTIMONENSE! Tomás Reis inaugura o marcador. Portimonense SC 1-0 AD Fundão."
     }
    ],
    "faltas": [
@@ -1022,7 +1028,7 @@
    },
    "casa": {
     "eq": "portimonense",
-    "golos": "",
+    "golos": 1,
     "capitao": "JUAN PINHEIRO",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -1112,7 +1118,7 @@
       "num": "10",
       "nome": "TOMÁS REIS",
       "e": "P",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/54/135954_tomas_reis_20240229053329.jpg"
@@ -1193,7 +1199,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": "",
+    "golos": 0,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -2886,6 +2892,6 @@
    }
   }
  ],
- "ts": 1791116344368,
+ "ts": 1791116379669,
  "build": "20260915132319"
 }

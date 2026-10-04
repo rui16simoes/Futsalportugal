@@ -980,6 +980,12 @@
      "m": "15",
      "lado": "fora",
      "txt": "O Fundão está com dificuldades em ter bola e em prolongar os ataques."
+    },
+    {
+     "id": "p21",
+     "m": "15",
+     "lado": "fora",
+     "txt": "GOLO DO FUNDÃO! Peléh empata a partida. Portimonense SC 1-1 AD Fundão."
     }
    ],
    "faltas": [
@@ -1224,7 +1230,7 @@
    },
    "fora": {
     "eq": "fundao",
-    "golos": 0,
+    "golos": 1,
     "capitao": "MÁRIO FREITAS",
     "treinador": "NUNO COUTO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/901/29901_nuno_couto_1784283109.png",
@@ -1278,7 +1284,7 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "P",
-      "min": "",
+      "min": "15",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
@@ -2917,6 +2923,6 @@
    }
   }
  ],
- "ts": 1791116802798,
+ "ts": 1791116839161,
  "build": "20260915132319"
 }

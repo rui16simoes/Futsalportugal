@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -944,6 +944,12 @@
      "m": "10",
      "lado": "casa",
      "txt": "O guarda redes Juan Pinheiro também arrisca, mas a bola não leva direção à baliza."
+    },
+    {
+     "id": "p15",
+     "m": "11",
+     "lado": "casa",
+     "txt": "Tomás Reis volta a tentar e Martim Borrego responde com uma boa defesa."
     }
    ],
    "faltas": [
@@ -2874,6 +2880,6 @@
    }
   }
  ],
- "ts": 1791116232602,
+ "ts": 1791116309762,
  "build": "20260915132319"
 }

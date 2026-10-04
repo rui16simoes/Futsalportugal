@@ -2018,7 +2018,7 @@
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
       "e": "S",
-      "min": "",
+      "min": "1ag",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/04/751204_goncalo_paixao_20260128142651.png"
@@ -3452,6 +3452,6 @@
    }
   }
  ],
- "ts": 1791127576504,
+ "ts": 1791127627766,
  "build": "20260915132319"
 }

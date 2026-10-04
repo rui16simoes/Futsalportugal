@@ -385,6 +385,15 @@
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/24/83/16672483_nuno_costa_20260716142538.png"
      },
      {
+      "num": "24",
+      "nome": "ANDRÉ VIEIRA (GR)",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/54/12/1025412_andre_vieira_20240205111308.jpg"
+     },
+     {
       "num": "18",
       "nome": "RUI MOREIRA",
       "e": "",
@@ -500,6 +509,15 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/97/481297_luiggi_baptista_20241020155752.png"
+     },
+     {
+      "num": "16",
+      "nome": "SANTI",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/91/63/1169163_santi_20240912114208.png"
      }
     ]
    }
@@ -2467,5 +2485,5 @@
   }
  ],
  "build": "20260915132319",
- "ts": 1791057079534
+ "ts": 1791114295559
 }

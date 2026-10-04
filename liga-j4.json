@@ -858,7 +858,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 840
+    "acc": 900
    },
    "lances": [
     {
@@ -974,6 +974,12 @@
      "m": "14",
      "lado": "fora",
      "txt": "O Fundão pede pausa técnica."
+    },
+    {
+     "id": "p20",
+     "m": "15",
+     "lado": "fora",
+     "txt": "O Fundão está com dificuldades em ter bola e em prolongar os ataques."
     }
    ],
    "faltas": [
@@ -2911,6 +2917,6 @@
    }
   }
  ],
- "ts": 1791116685321,
+ "ts": 1791116802798,
  "build": "20260915132319"
 }

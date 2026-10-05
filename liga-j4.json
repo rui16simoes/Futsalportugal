@@ -3894,7 +3894,7 @@
       "nome": "DANIEL SILVA",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "17",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/67/09/16756709_daniel_silva_20260812171047.png"
      },
@@ -3983,6 +3983,6 @@
    }
   }
  ],
- "ts": 1791231746974,
+ "ts": 1791231757558,
  "build": "20260915132319"
 }

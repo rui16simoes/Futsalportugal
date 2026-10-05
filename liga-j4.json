@@ -3259,6 +3259,12 @@
      "m": 40,
      "lado": "fora",
      "txt": "o Rio Ave continua de 5x4"
+    },
+    {
+     "id": "l1791229426749",
+     "m": 40,
+     "lado": "fora",
+     "txt": "Novamente em cima da buzina o Rio Ave coloca a bola na baliza, mas o resultado está fechado 2-2"
     }
    ],
    "faltas": [
@@ -4079,6 +4085,6 @@
    }
   }
  ],
- "ts": 1791229388760,
+ "ts": 1791229429252,
  "build": "20260915132319"
 }

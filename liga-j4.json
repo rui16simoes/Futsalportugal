@@ -2294,9 +2294,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1170
+    "acc": 1200
    },
    "lances": [
     {
@@ -2610,6 +2610,12 @@
      "m": "39",
      "lado": "fora",
      "txt": "Jair Pereira trabalha bem na esquerda, mas o remate sai pouco ao lado."
+    },
+    {
+     "id": "u53",
+     "m": "40",
+     "lado": "",
+     "txt": "Fim do jogo! O UP Venda Nova vence o SCU Torreense por 5-1 e soma os primeiros pontos na Liga Placard."
     }
    ],
    "faltas": [
@@ -3832,6 +3838,6 @@
    }
   }
  ],
- "ts": 1791199920587,
+ "ts": 1791199980847,
  "build": "20260915132319"
 }

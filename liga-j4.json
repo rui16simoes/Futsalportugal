@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 120
+    "acc": 180
    },
    "lances": [
     {
@@ -2478,6 +2478,12 @@
      "m": "22",
      "lado": "fora",
      "txt": "Tintim tenta reduzir com um remate cruzado na direita, mas Jackson Ryan volta a defender."
+    },
+    {
+     "id": "u31",
+     "m": "23",
+     "lado": "fora",
+     "txt": "GOLO DO TORREENSE! Tiago Reis reduz. UP Venda Nova 4-1 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2493,6 +2499,13 @@
      "lado": "fora",
      "parte": 1,
      "m": "",
+     "n": 1
+    },
+    {
+     "id": "uf3",
+     "lado": "casa",
+     "parte": 2,
+     "m": "23",
      "n": 1
     }
    ],
@@ -2751,7 +2764,7 @@
       "num": "2",
       "nome": "TIAGO REIS",
       "e": "S",
-      "min": "",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/31/760331_tiago_reis_20251202210925.png"
@@ -3665,6 +3678,6 @@
    }
   }
  ],
- "ts": 1791197806590,
+ "ts": 1791197863593,
  "build": "20260915132319"
 }

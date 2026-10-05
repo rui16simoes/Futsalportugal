@@ -3074,10 +3074,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
     "acc": 1118.227,
-    "desde": 0
+    "desde": 1791225740555
    },
    "lances": [
     {
@@ -3151,6 +3151,12 @@
      "m": 17,
      "lado": "fora",
      "txt": "Time-Out Solicitado por Bruno Guimarães"
+    },
+    {
+     "id": "l1791225738191",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Rúben Freire deu em Martim Castela que recebeu a bola já dentro da área do Ferreira, conseguiu virar-se tentou o chapéu mas a bola saiu muito por cima"
     }
    ],
    "faltas": [
@@ -3936,6 +3942,6 @@
    }
   }
  ],
- "ts": 1791225694153,
+ "ts": 1791225743056,
  "build": "20260915132319"
 }

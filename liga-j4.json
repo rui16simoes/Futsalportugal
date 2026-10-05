@@ -2496,6 +2496,12 @@
      "m": "26",
      "lado": "casa",
      "txt": "Luís Nunes fica isolado na direita, mas Tiago Correia fecha bem a baliza e evita o quinto."
+    },
+    {
+     "id": "u34",
+     "m": "26",
+     "lado": "fora",
+     "txt": "Paulo Major tenta finalizar na direita, mas falha o alvo."
     }
    ],
    "faltas": [
@@ -3697,6 +3703,6 @@
    }
   }
  ],
- "ts": 1791198184596,
+ "ts": 1791198285592,
  "build": "20260915132319"
 }

@@ -3513,7 +3513,7 @@
       "num": "18",
       "nome": "SERGINHO",
       "e": "P",
-      "min": "",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
@@ -3961,6 +3961,6 @@
    }
   }
  ],
- "ts": 1791226889763,
+ "ts": 1791226907259,
  "build": "20260915132319"
 }

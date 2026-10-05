@@ -2448,6 +2448,12 @@
      "m": "21",
      "lado": "",
      "txt": "Começou a 2.ª parte."
+    },
+    {
+     "id": "u26",
+     "m": "21",
+     "lado": "casa",
+     "txt": "Primeira ameaça da 2.ª parte: Luís Nunes remata e Tiago Correia defende."
     }
    ],
    "faltas": [
@@ -2693,7 +2699,7 @@
      {
       "num": "1",
       "nome": "TIAGO CORREIA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3635,6 +3641,6 @@
    }
   }
  ],
- "ts": 1791197585593,
+ "ts": 1791197685602,
  "build": "20260915132319"
 }

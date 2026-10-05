@@ -3074,10 +3074,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
     "acc": 622.0020000000002,
-    "desde": 0
+    "desde": 1791224531296
    },
    "lances": [
     {
@@ -3109,6 +3109,12 @@
      "m": 9,
      "lado": "fora",
      "txt": "Rúben Freire remata mas a bola bate no poste da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791224529877",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Quase sem ângulo na direita do ataque do Ferreira, Sandro remata mas a bola sai ao lado"
     }
    ],
    "faltas": [
@@ -3887,6 +3893,6 @@
    }
   }
  ],
- "ts": 1791224505161,
+ "ts": 1791224533797,
  "build": "20260915132319"
 }

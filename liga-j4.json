@@ -2531,13 +2531,19 @@
      "id": "u39",
      "m": "33",
      "lado": "fora",
-     "txt": "Dura escorrega e o Torreense remata, mas Jackson Ryan trava com o peito."
+     "txt": "Dura escorrega e Tiago Reis remata, mas Jackson Ryan trava com o peito."
     },
     {
      "id": "u40",
      "m": "33",
      "lado": "fora",
      "txt": "Com Nicolas Tomé de novo como guarda redes avançado, Paulo Major remata com demasiada força e atira por cima."
+    },
+    {
+     "id": "u41",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Tiago Reis tenta surpreender dentro da área, mas Jackson Ryan, de regresso à quadra, defende com o pé."
     }
    ],
    "faltas": [
@@ -3739,6 +3745,6 @@
    }
   }
  ],
- "ts": 1791199111594,
+ "ts": 1791199173588,
  "build": "20260915132319"
 }

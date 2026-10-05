@@ -3247,6 +3247,12 @@
      "m": 36,
      "lado": "casa",
      "txt": "Time-Out solicitiado por Cristiano Coelho"
+    },
+    {
+     "id": "l1791229282047",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Bruno Guimarães lança o 5x4 e no primeiro lance empata a partida, Serginho vestiu a camisola de guarda-redes a bola foi ao fundo do lado esquerdo do ataque, Dorda viu Bebé no poste contrário coloca lá a bola e Bebé faz o 2-2"
     }
    ],
    "faltas": [
@@ -4067,6 +4073,6 @@
    }
   }
  ],
- "ts": 1791229193050,
+ "ts": 1791229284549,
  "build": "20260915132319"
 }

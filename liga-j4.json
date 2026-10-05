@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 780
+    "acc": 840
    },
    "lances": [
     {
@@ -2544,6 +2544,12 @@
      "m": "33",
      "lado": "fora",
      "txt": "Tiago Reis tenta surpreender dentro da área, mas Jackson Ryan, de regresso à quadra, defende com o pé."
+    },
+    {
+     "id": "u42",
+     "m": "34",
+     "lado": "casa",
+     "txt": "Dura, sem marcação e com a baliza do Torreense guardada por um jogador de campo, arrisca do meio-campo, mas a bola sai por cima."
     }
    ],
    "faltas": [
@@ -3745,6 +3751,6 @@
    }
   }
  ],
- "ts": 1791199173588,
+ "ts": 1791199227588,
  "build": "20260915132319"
 }

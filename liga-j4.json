@@ -2294,9 +2294,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1140
+    "acc": 1200
    },
    "lances": [
     {
@@ -2436,6 +2436,12 @@
      "m": "19",
      "lado": "fora",
      "txt": "Tiago Reis remata forte da meia direita, a bola desvia e Jackson Ryan volta a defender."
+    },
+    {
+     "id": "u24",
+     "m": "20",
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [
@@ -3623,6 +3629,6 @@
    }
   }
  ],
- "ts": 1791196764995,
+ "ts": 1791196820695,
  "build": "20260915132319"
 }

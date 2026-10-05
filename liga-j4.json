@@ -3488,7 +3488,7 @@
    "casa": {
     "eq": "braga",
     "golos": "",
-    "capitao": "",
+    "capitao": "Tiago Brito",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
     "jogadores": [
@@ -3838,6 +3838,6 @@
    }
   }
  ],
- "ts": 1791228992719,
+ "ts": 1791228997883,
  "build": "20260915132319"
 }

@@ -3175,6 +3175,12 @@
      "m": 22,
      "lado": "casa",
      "txt": "Reposição lateral na direita do ataque de Rúben Freire que coloca a bola na ala contrária em balão onde aparece Serginho para finalizar e fazer o 1-1"
+    },
+    {
+     "id": "l1791227105101",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Francisco Silva dentro da área do Ferreira remata, mas mais uma vez Pedro Martinho a defender com o pé esquerdo"
     }
    ],
    "faltas": [
@@ -3967,6 +3973,6 @@
    }
   }
  ],
- "ts": 1791227032727,
+ "ts": 1791227107603,
  "build": "20260915132319"
 }

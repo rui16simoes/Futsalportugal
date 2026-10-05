@@ -2592,6 +2592,18 @@
      "m": "39",
      "lado": "fora",
      "txt": "Cartão amarelo para Jair Pereira."
+    },
+    {
+     "id": "u50",
+     "m": "39",
+     "lado": "casa",
+     "txt": "Rafael Freire remata bem pelo meio, mas Tiago Correia defende."
+    },
+    {
+     "id": "u51",
+     "m": "39",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Vitinho."
     }
    ],
    "faltas": [
@@ -2636,6 +2648,13 @@
      "parte": 2,
      "m": "39",
      "n": 1
+    },
+    {
+     "id": "uf7",
+     "lado": "fora",
+     "parte": 2,
+     "m": "39",
+     "n": 2
     }
    ],
    "gp": {
@@ -2966,7 +2985,7 @@
       "nome": "VITINHO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "39",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/80/45/16738045_vitinho_20260805173653.png"
      },
@@ -3807,6 +3826,6 @@
    }
   }
  ],
- "ts": 1791199808646,
+ "ts": 1791199866585,
  "build": "20260915132319"
 }

@@ -3121,6 +3121,12 @@
      "m": 11,
      "lado": "fora",
      "txt": "Remate forte de Rúben Freire, com a bola a sair cruzada e a passar perto do poste esquerdo de Pedro Martinho"
+    },
+    {
+     "id": "l1791224672378",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Erro de Pedro Martinho ia ditando o primeiro golo da partida"
     }
    ],
    "faltas": [
@@ -3899,6 +3905,6 @@
    }
   }
  ],
- "ts": 1791224632857,
+ "ts": 1791224674879,
  "build": "20260915132319"
 }

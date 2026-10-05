@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CN Sub-15 Futsal · 2026/27</title>
+<meta name="theme-color" content="#0b0f1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CN Sub-15">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="CN Sub-15 26/27">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='36' fill='%230b0f1a'/%3E%3Ctext x='90' y='96' font-family='Arial' font-size='32' font-weight='900' fill='%23f97316' text-anchor='middle'%3ECN%3C/text%3E%3Ctext x='90' y='138' font-family='Arial' font-size='22' font-weight='700' fill='%23eef2f7' text-anchor='middle'%3ESUB-15%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0f1a'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='20' font-weight='900' fill='%23f97316' text-anchor='middle'%3ES15%3C/text%3E%3C/svg%3E">
+<style>
+  :root{--bg:#0b0f1a;--bg2:#111827;--card:#161e2e;--card2:#1f2937;--line:#2b3648;--text:#eef2f7;--muted:#93a1b1;--accent:#f97316;--green:#10b981;--red:#ef4444}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1280px;margin:0 auto;padding:24px}
+  .hero{background:linear-gradient(135deg,#0b1220 0%,#1e293b 100%);padding:36px 28px;border-radius:16px;margin-bottom:20px;position:relative;overflow:hidden;text-align:center}
+  .hero::before{content:"";position:absolute;top:-50%;right:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(249,115,22,.15),transparent 70%);pointer-events:none}
+  .hero .eyebrow{font-size:12px;color:#93a1b1;text-transform:uppercase;letter-spacing:2.5px;margin-bottom:10px}
+  .hero h1{font-size:36px;font-weight:900;margin:0;letter-spacing:-1px;line-height:1.05}
+  .hero h1 .lin{color:#f97316}
+  .hero .lede{font-size:15px;color:#cbd5e1;margin:12px auto 0;max-width:760px;line-height:1.55}
+  .hero .stats{display:flex;gap:24px;margin-top:22px;flex-wrap:wrap;justify-content:center}
+  .hero .stat b{display:block;font-size:26px;font-weight:800;color:#f3f4f6}
+  .hero .stat span{font-size:11px;color:#93a1b1;text-transform:uppercase;letter-spacing:1.5px;margin-top:4px;display:block}
+
+  .serie-tabs{display:flex;gap:8px;margin-bottom:16px;background:var(--card);padding:6px;border-radius:12px;border:1px solid var(--line);position:sticky;top:0;z-index:60;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+  .serie-tab{flex:1;padding:12px 16px;background:transparent;border:0;color:var(--muted);font-size:15px;font-weight:700;cursor:pointer;border-radius:8px;font-family:inherit;transition:all .15s;letter-spacing:.05em}
+  .serie-tab:hover{color:var(--text)}
+  .serie-tab.active{background:linear-gradient(135deg,#f97316,#ea580c);color:#fff;box-shadow:0 4px 12px rgba(249,115,22,.35)}
+
+  .toolbar{background:var(--card);padding:14px 18px;border-radius:12px;margin-bottom:20px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;border:1px solid var(--line)}
+  .toolbar label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+  .toolbar select{background:var(--bg2);border:1px solid var(--line);color:var(--text);padding:8px 12px;border-radius:8px;font-size:14px;font-family:inherit;min-width:150px}
+  .btn{background:var(--bg2);border:1px solid var(--line);color:var(--text);padding:8px 14px;border-radius:8px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600}
+  .btn.primary{background:linear-gradient(135deg,#f97316,#ea580c);border-color:transparent;color:#fff}
+  .admin-only{display:none}
+  body.admin .admin-only{display:inline-flex}
+  .admin-banner{display:none;position:fixed;top:12px;right:12px;z-index:500;background:linear-gradient(135deg,#dc2626,#ea580c);color:#fff;padding:8px 14px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 4px 20px rgba(220,38,38,.4)}
+  body.admin .admin-banner{display:inline-flex;align-items:center;gap:6px}
+
+  .jornada{background:var(--card);border-radius:12px;padding:18px 20px;margin-bottom:16px;border:1px solid var(--line)}
+  .jornada-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:12px;flex-wrap:wrap}
+  .jornada-title{font-size:20px;font-weight:800}
+  .jornada-title .n{color:var(--accent)}
+  .jornada-date{font-size:13px;color:var(--muted);font-weight:600}
+  .jornada-date input{background:var(--bg2);border:1px solid var(--line);color:var(--text);padding:4px 8px;border-radius:6px;font-family:inherit;font-size:12px;margin-left:6px}
+  .jogos{display:grid;gap:8px}
+  .jogo{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;background:var(--bg2);padding:12px 16px;border-radius:10px;border:1px solid transparent}
+  .team-side{display:flex;align-items:center;gap:10px;flex-wrap:wrap;row-gap:4px}
+  .mc-inline{width:100%;font-size:11px;color:#cbd5e1;line-height:1.4}
+  .team-side.casa .mc-inline{text-align:right}
+  .team-side.fora .mc-inline{text-align:left}
+  .team-side.casa{justify-content:flex-end;text-align:right}
+  .team-side.fora{justify-content:flex-start}
+  .team-name{font-weight:600;font-size:14px}
+  .team-logo{width:40px;height:40px;object-fit:contain;background:transparent;padding:0;border-radius:6px}
+  .team-badge{width:40px;height:40px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;flex:none;letter-spacing:.05em}
+  .score{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:800;min-width:100px;justify-content:center}
+  .score input{width:44px;background:var(--bg);border:1px solid var(--line);color:var(--text);padding:6px 4px;border-radius:6px;font-family:inherit;font-size:20px;font-weight:800;text-align:center}
+  .score input:read-only{background:transparent;border:none;pointer-events:none}
+  .score .sep{color:var(--muted)}
+  .score .vs{color:var(--muted);font-size:14px;font-weight:600}
+  .score.played{color:var(--accent)}
+  .jogo-meta{grid-column:1/4;font-size:11px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;padding-top:4px;border-top:1px dashed var(--line);margin-top:4px}
+  .jogo-meta input{background:transparent;border:none;color:var(--muted);font-family:inherit;font-size:11px;padding:0}
+  .footer{text-align:center;padding:24px;color:var(--muted);font-size:12px;font-style:italic}
+  body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom);padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+
+  @media (max-width:900px){
+    .wrap{padding:14px}
+    .hero{padding:22px 18px}
+    .hero h1{font-size:26px}
+    .hero .lede{font-size:13px}
+    .toolbar{padding:10px;gap:8px}
+    .jornada{padding:14px}
+    .jornada-title{font-size:17px}
+  }
+  @media (max-width:640px){
+    html,body{max-width:100vw;overflow-x:hidden}
+    .wrap{padding:10px 12px 24px;max-width:100%}
+    .hero{padding:22px 14px;border-radius:14px;margin-bottom:12px}
+    .hero .eyebrow{font-size:10px;letter-spacing:1.5px}
+    .hero h1{font-size:clamp(20px,6.5vw,26px)}
+    .hero .lede{font-size:12.5px;margin:10px auto 0}
+    .hero .stats{gap:8px;margin-top:16px;display:grid;grid-template-columns:repeat(4,1fr)}
+    .hero .stat b{font-size:clamp(16px,5vw,20px)}
+    .hero .stat span{font-size:9px}
+    .serie-tab{font-size:14px;padding:10px 12px}
+    .toolbar{padding:8px;gap:6px}
+    .toolbar select{padding:10px 8px;font-size:14px;flex:1;min-width:0}
+    .jornada{padding:14px 10px;margin-bottom:12px}
+    .jornada-head{margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:4px}
+    .jornada-title{font-size:16px}
+    .jornada-date{font-size:11.5px}
+    .jogos{gap:6px}
+    .jogo{grid-template-columns:minmax(0,1fr) 72px minmax(0,1fr);gap:6px;padding:10px 8px;min-height:58px}
+    .team-side{gap:6px;min-width:0;overflow:hidden}
+    .team-name{font-size:12.5px;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;flex:1;min-width:0}
+    .team-logo,.team-badge{width:32px;height:32px;padding:0;flex:none;font-size:10.5px}
+    .score{font-size:16px;min-width:72px;width:72px;gap:4px;padding:0}
+    .score input{width:28px;height:34px;font-size:16px;padding:0}
+    .score .sep{font-size:14px}
+    .score .vs{font-size:11px}
+    .jogo-meta{grid-column:1/4;font-size:10.5px;gap:8px;padding-top:6px;margin-top:4px;justify-content:center;flex-wrap:wrap}
+  }
+  .score input[type="number"]{-moz-appearance:textfield;appearance:textfield}
+  .score input[type="number"]::-webkit-outer-spin-button,.score input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+  .score .v{font-size:1.4em;font-weight:700;min-width:24px;text-align:center;display:inline-block;padding:2px 6px;line-height:1;color:#fff}
+  .marcadores-wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:0;font-size:11px;color:#cbd5e1;margin-top:6px;padding:8px;background:rgba(255,255,255,.02);border-radius:6px;align-items:start}
+  .marcadores-wrap .mc{white-space:normal;line-height:1.5}
+  .marcadores-wrap .mc.casa{padding-left:20%;padding-right:10px;text-align:right}
+  .marcadores-wrap .mc.fora{padding-right:20%;padding-left:10px;text-align:left}
+  @media (max-width:768px){.marcadores-wrap{padding:6px 4px;gap:4px;font-size:10.5px}.marcadores-wrap .mc.casa{padding-left:2%;padding-right:4px}.marcadores-wrap .mc.fora{padding-right:2%;padding-left:4px}}
+  .marcadores-wrap .mc.sep{color:#6b7280;font-size:12px;align-self:center}
+  .marcadores-wrap .mc b{color:#f3f4f6;font-weight:500}
+.hero-logo-wrap{text-align:center;margin-bottom:14px;position:relative}.hero-logo{max-height:120px;width:auto;max-width:90%;height:auto;border-radius:8px}@media (max-width:640px){.hero-logo{max-height:90px}}</style>
+<script>
+(function(){
+  const CURRENT = "1790000001";
+  const KEY = "app_ver";
+  async function check(){
+    try{
+      const r = await fetch("./version.txt?_="+Date.now(),{cache:"no-store"});
+      const remote = (await r.text()).trim();
+      const local = localStorage.getItem(KEY);
+      if(local && remote !== local){ localStorage.setItem(KEY,remote); location.reload(); return; }
+      if(!local) localStorage.setItem(KEY,remote);
+    }catch(e){}
+  }
+  check();
+  document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") check(); });
+})();
+</script>
+</head>
+<body>
+<div class="admin-banner"><span>●</span> Modo Administrador</div>
+<div class="wrap">
+  <header class="hero"><div class="hero-logo-wrap"><img class="hero-logo" alt="Campeonato Nacional Sub-15 Futsal" src="https://cdn-img.staticzz.com/img/logos/competicoes/5517_imgbank_junc(fs)_20191214210528.png"></div>
+    <div class="eyebrow">Zona Técnica Futsal · FPF · Sub-15</div>
+    <h1><span class="lig">Nacional Sub-15</span> de Futsal · 2026/27</h1>
+    <div class="lede">Calendário e resultados das 14 jornadas da 1.ª Fase do CN Sub-15 de Futsal. Duas séries · 16 equipas · 112 jogos.</div>
+    <div class="stats">
+      <div class="stat"><b>16</b><span>Clubes</span></div>
+      <div class="stat"><b>2</b><span>Séries</span></div>
+      <div class="stat"><b>14</b><span>Jornadas/Série</span></div>
+      <div class="stat"><b id="stat-played">0</b><span>Realizados</span></div>
+    </div>
+  </header>
+
+  <div class="serie-tabs">
+    <button class="serie-tab active" data-serie="N">Série Norte</button>
+    <button class="serie-tab" data-serie="S">Série Sul</button>
+  </div>
+
+  <div class="toolbar">
+    <label>Ver:</label>
+    <select id="filter-jornada"><option value="">Todas as jornadas</option><option value="1">Jornada 1</option><option value="2">Jornada 2</option><option value="3">Jornada 3</option><option value="4">Jornada 4</option><option value="5">Jornada 5</option><option value="6">Jornada 6</option><option value="7">Jornada 7</option><option value="8">Jornada 8</option><option value="9">Jornada 9</option><option value="10">Jornada 10</option><option value="11">Jornada 11</option><option value="12">Jornada 12</option><option value="13">Jornada 13</option><option value="14">Jornada 14</option></select>
+    <select id="filter-team"><option value="">Todas as equipas</option></select>
+    <div style="flex:1"></div>
+    <button class="btn admin-only" onclick="exportarJSON()">📤 Backup JSON</button>
+    <button class="btn admin-only" onclick="importarJSON()">📥 Importar JSON</button>
+    <button class="btn primary admin-only" onclick="gravarHTML()">💾 Gravar Alterações</button>
+  </div>
+
+  <div id="grid"></div>
+
+  <footer class="footer">Dados FPF · Atualizado manualmente · <a href="jogos-hoje-19set.html">← Todos os jogos</a></footer>
+</div>
+<script>
+const TEAMS = {"1":{"name":"ADC Nogueiró Tenões/A. Pedro Braga","short":"NOT","color":"#7c3aed","logo":"https://cdn-img.staticzz.com/img/logos/equipas/115683_imgbank_1700051010.png"},"2":{"name":"ACR Vale Cambra","short":"VCB","color":"#0891b2","logo":"https://cdn-img.staticzz.com/img/logos/equipas/06/21606_logo_acr_vale_de_cambra_20260409113219.png"},"3":{"name":"Ass. Santo Tirso Futsal/Cruise Car","short":"STF","color":"#16a34a","logo":"https://cdn-img.staticzz.com/img/logos/equipas/59/23759_logo_ast_futsal_20260413113117.png"},"4":{"name":"ADCR Caxinas Poça Barca","short":"CAX","color":"#2563eb","logo":"https://cdn-img.staticzz.com/img/logos/equipas/32291_imgbank_1700050220.png"},"5":{"name":"Ass. Moradores Granja","short":"GRN","color":"#d97706","logo":"https://cdn-img.staticzz.com/img/logos/equipas/39274_imgbank.png"},"6":{"name":"GRC Dínamo Sanjoanense","short":"DIN","color":"#b91c1c","logo":"https://cdn-img.staticzz.com/img/logos/equipas/25471_imgbank_1700050678.png"},"7":{"name":"SC Braga","short":"SCB","color":"#dc2626","logo":"https://cdn-img.staticzz.com/img/logos/equipas/15_imgbank_1779291357.png"},"8":{"name":"GCR Nun'Álvares","short":"NUN","color":"#059669","logo":"https://cdn-img.staticzz.com/img/logos/equipas/25137_imgbank_1700050851.png"},"9":{"name":"FC Barreirense","short":"FCB","color":"#1e40af","logo":"https://cdn-img.staticzz.com/img/logos/equipas/2171_imgbank_1712323701.png"},"10":{"name":"CR Leões Porto Salvo","short":"LPS","color":"#fbbf24","logo":"https://cdn-img.staticzz.com/img/logos/equipas/14914_imgbank_1700050459.png"},"11":{"name":"SL Benfica","short":"SLB","color":"#e11d48","logo":"https://cdn-img.staticzz.com/img/logos/equipas/4_imgbank_1683238034.png"},"12":{"name":"GMDUP Vendas Azeitão","short":"GVA","color":"#78350f","logo":"https://cdn-img.staticzz.com/img/logos/equipas/75722_imgbank.png"},"13":{"name":"Futsal Oeiras","short":"OEI","color":"#0284c7","logo":"https://cdn-img.staticzz.com/img/logos/equipas/22609_imgbank_1721829191.png"},"14":{"name":"CS S. João","short":"CSJ","color":"#6d28d9","logo":"https://cdn-img.staticzz.com/img/logos/equipas/8170_imgbank_1712159966.png"},"15":{"name":"Sporting CP","short":"SCP","color":"#10b981","logo":"https://cdn-img.staticzz.com/img/logos/equipas/16_imgbank_1783931463.png"},"16":{"name":"GR Olival Basto","short":"OLB","color":"#ea580c","logo":"https://cdn-img.staticzz.com/img/logos/equipas/79/22679_logo_grob_20251117151400.png"}};
+const INITIAL_DATA ={"series":{"N":{"nome":"Série Norte","jornadas":{"1":{"data":"2026-10-03","jogos":[{"casa":1,"fora":2,"hora":"16:00","data":"2026-10-03","golosCasa":3,"golosFora":2,"pavilhao":"Pavilhão Parque Desportivo Nogueiró","marcadoresCasa":"Diogo Antunes 25', Francisco Bezerra 35', Diogo Antunes 38'","marcadoresFora":"Luis Dias 14', João Brandão 36'"},{"casa":3,"fora":4,"hora":"15:00","data":"2026-10-04","golosCasa":4,"golosFora":4,"pavilhao":"Pavilhão E.B.I. S. Tomé De Negrelos"},{"casa":5,"fora":6,"hora":"16:00","data":"2026-10-04","golosCasa":6,"golosFora":5,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":7,"fora":8,"hora":"18:00","data":"2026-10-04","golosCasa":8,"golosFora":2,"pavilhao":"AMCO Arena","marcadoresCasa":"Miguel Conceição 0', Gabriel Pinto 8', 23', 39', Santiago Palas 14', Simão Antunes 19', 32', Goncalo Vieira 29'","marcadoresFora":"Rodrigo Ribeiro 13', Afonso Freitas 33'"}]},"2":{"data":"2026-10-10","jogos":[{"casa":2,"fora":7,"hora":"17:30","data":"2026-10-10","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"},{"casa":8,"fora":5,"hora":"18:45","data":"2026-10-10","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"},{"casa":6,"fora":3,"hora":"15:00","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Oliveira De Azeméis"},{"casa":4,"fora":1,"hora":"15:00","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"}]},"3":{"data":"2026-10-17","jogos":[{"casa":7,"fora":4,"hora":"15:00","data":"2026-10-17","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"},{"casa":8,"fora":2,"hora":"16:00","data":"2026-10-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"},{"casa":1,"fora":6,"hora":"16:00","data":"2026-10-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"},{"casa":3,"fora":5,"hora":"15:00","data":"2026-10-18","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Santo Tirso"}]},"4":{"data":"2026-10-24","jogos":[{"casa":4,"fora":2,"hora":"16:00","data":"2026-10-24","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":3,"fora":8,"hora":"15:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Santo Tirso"},{"casa":5,"fora":1,"hora":"16:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":6,"fora":7,"hora":"17:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Oliveira De Azeméis"}]},"5":{"data":"2026-11-01","jogos":[{"casa":7,"fora":5,"hora":"15:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"},{"casa":2,"fora":6,"hora":"15:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"},{"casa":8,"fora":4,"hora":"17:30","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"},{"casa":1,"fora":3,"hora":"18:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"}]},"6":{"data":"2026-11-08","jogos":[{"casa":3,"fora":7,"hora":"15:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão E.B.I. S. Tomé De Negrelos"},{"casa":5,"fora":2,"hora":"16:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":1,"fora":8,"hora":"16:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"},{"casa":6,"fora":4,"hora":"17:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Travessas"}]},"7":{"data":"2026-11-14","jogos":[{"casa":8,"fora":6,"hora":"16:00","data":"2026-11-14","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"},{"casa":7,"fora":1,"hora":"16:00","data":"2026-11-14","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"},{"casa":4,"fora":5,"hora":"20:00","data":"2026-11-14","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":2,"fora":3,"hora":"15:30","data":"2026-11-15","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"}]},"8":{"data":"2026-11-21","jogos":[{"casa":6,"fora":5,"hora":"17:00","data":"2026-11-21","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Travessas"},{"casa":2,"fora":1,"hora":"15:00","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"},{"casa":4,"fora":3,"hora":"17:00","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":8,"fora":7,"hora":"17:30","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"}]},"9":{"data":"2026-11-29","jogos":[{"casa":3,"fora":6,"hora":"15:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão E.B.I. S. Tomé De Negrelos"},{"casa":5,"fora":8,"hora":"16:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":1,"fora":4,"hora":"16:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"},{"casa":7,"fora":2,"hora":"18:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"}]},"10":{"data":"2026-12-06","jogos":[{"casa":2,"fora":8,"hora":"15:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"},{"casa":5,"fora":3,"hora":"16:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":4,"fora":7,"hora":"17:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":6,"fora":1,"hora":"17:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Oliveira De Azeméis"}]},"11":{"data":"2026-12-12","jogos":[{"casa":2,"fora":4,"hora":"16:00","data":"2026-12-12","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"},{"casa":7,"fora":6,"hora":"16:00","data":"2026-12-12","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"},{"casa":1,"fora":5,"hora":"19:00","data":"2026-12-12","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"},{"casa":8,"fora":3,"hora":"15:00","data":"2026-12-13","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"}]},"12":{"data":"2026-12-20","jogos":[{"casa":3,"fora":1,"hora":"15:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão E.B.I. S. Tomé De Negrelos"},{"casa":4,"fora":8,"hora":"15:30","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":5,"fora":7,"hora":"16:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":6,"fora":2,"hora":"17:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Oliveira De Azeméis"}]},"13":{"data":"2027-01-09","jogos":[{"casa":7,"fora":3,"hora":"15:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"AMCO Arena"},{"casa":4,"fora":6,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Centro Comunitário Das Caxinas"},{"casa":8,"fora":1,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Do Grupo Nun'álvares"},{"casa":2,"fora":5,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Vale De Cambra"}]},"14":{"data":"2027-01-17","jogos":[{"casa":6,"fora":8,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Oliveira De Azeméis"},{"casa":5,"fora":4,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Munic. Águas Santas II - Corim"},{"casa":3,"fora":2,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão E.B.I. S. Tomé De Negrelos"},{"casa":1,"fora":7,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Parque Desportivo Nogueiró"}]}}},"S":{"nome":"Série Sul","jornadas":{"1":{"data":"2026-10-03","jogos":[{"casa":9,"fora":10,"hora":"17:00","data":"2026-10-03","golosCasa":4,"golosFora":1,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca","marcadoresCasa":"Enzo Neves 10', Douglas Rocha 23', Gonçalo Candeias 25', Douglas Rocha 39'","marcadoresFora":"Tomás Ribeiro 34'"},{"casa":11,"fora":12,"hora":"15:00","data":"2026-10-04","golosCasa":6,"golosFora":0,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"},{"casa":15,"fora":16,"hora":"15:00","data":"2026-10-04","golosCasa":5,"golosFora":3,"pavilhao":"Pavilhão Multidesportivo Sporting","marcadoresCasa":"Henrique Pimenta 16' (p.b.), Guilherme Castro 18', 22', Diogo Pereira 24', Santiago Marçal 39'","marcadoresFora":"Gonçalo Santos 32', Gabriel Santos 37', Augusto Freire 39'"},{"casa":13,"fora":14,"hora":"15:00","data":"2026-10-04","golosCasa":8,"golosFora":2,"pavilhao":"Pav S Juliao Da Barra"}]},"2":{"data":"2026-10-11","jogos":[{"casa":10,"fora":11,"hora":"15:00","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":16,"fora":13,"hora":"15:00","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Escola Sec. Pedro Alexandrino"},{"casa":12,"fora":15,"hora":"17:30","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pav.Desp.União Prog."},{"casa":14,"fora":9,"hora":"18:00","data":"2026-10-11","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Centro Social São João"}]},"3":{"data":"2026-10-18","jogos":[{"casa":16,"fora":12,"hora":"15:00","data":"2026-10-18","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Escola Sec. Pedro Alexandrino"},{"casa":9,"fora":13,"hora":"15:00","data":"2026-10-18","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"},{"casa":15,"fora":10,"hora":"18:00","data":"2026-10-18","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão João Rocha"},{"casa":11,"fora":14,"hora":"19:00","data":"2026-10-18","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Fidelidade"}]},"4":{"data":"2026-10-25","jogos":[{"casa":13,"fora":11,"hora":"15:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":9,"fora":16,"hora":"15:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"},{"casa":10,"fora":12,"hora":"17:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":14,"fora":15,"hora":"18:00","data":"2026-10-25","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Centro Social São João"}]},"5":{"data":"2026-11-01","jogos":[{"casa":16,"fora":10,"hora":"15:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Escola Sec. Pedro Alexandrino"},{"casa":15,"fora":13,"hora":"15:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão João Rocha"},{"casa":12,"fora":14,"hora":"15:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pav.Desp.União Prog."},{"casa":11,"fora":9,"hora":"18:00","data":"2026-11-01","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"}]},"6":{"data":"2026-11-08","jogos":[{"casa":13,"fora":12,"hora":"15:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":11,"fora":16,"hora":"15:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"},{"casa":9,"fora":15,"hora":"15:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"},{"casa":14,"fora":10,"hora":"18:00","data":"2026-11-08","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Centro Social São João"}]},"7":{"data":"2026-11-15","jogos":[{"casa":15,"fora":11,"hora":"11:00","data":"2026-11-15","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão João Rocha"},{"casa":16,"fora":14,"hora":"15:00","data":"2026-11-15","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Escola Sec. Pedro Alexandrino"},{"casa":10,"fora":13,"hora":"16:00","data":"2026-11-15","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":12,"fora":9,"hora":"17:30","data":"2026-11-15","golosCasa":null,"golosFora":null,"pavilhao":"Pav.Desp.União Prog."}]},"8":{"data":"2026-11-22","jogos":[{"casa":16,"fora":15,"hora":"15:00","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Escola Sec. Pedro Alexandrino"},{"casa":10,"fora":9,"hora":"17:00","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":12,"fora":11,"hora":"17:30","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pav.Desp.União Prog."},{"casa":14,"fora":13,"hora":"18:00","data":"2026-11-22","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Centro Social São João"}]},"9":{"data":"2026-11-29","jogos":[{"casa":11,"fora":10,"hora":"15:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"},{"casa":15,"fora":12,"hora":"15:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Multidesportivo Sporting"},{"casa":13,"fora":16,"hora":"15:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":9,"fora":14,"hora":"15:00","data":"2026-11-29","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"}]},"10":{"data":"2026-12-06","jogos":[{"casa":13,"fora":9,"hora":"15:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":10,"fora":15,"hora":"15:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":14,"fora":11,"hora":"16:00","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":12,"fora":16,"hora":"17:30","data":"2026-12-06","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Azeitão"}]},"11":{"data":"2026-12-12","jogos":[{"casa":11,"fora":13,"hora":"16:00","data":"2026-12-12","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"},{"casa":15,"fora":14,"hora":"15:00","data":"2026-12-13","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Multidesportivo Sporting"},{"casa":16,"fora":9,"hora":"15:00","data":"2026-12-13","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Multidesportivo Sporting"},{"casa":12,"fora":10,"hora":"17:30","data":"2026-12-13","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Azeitão"}]},"12":{"data":"2026-12-20","jogos":[{"casa":9,"fora":11,"hora":"15:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"},{"casa":10,"fora":16,"hora":"15:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"},{"casa":13,"fora":15,"hora":"15:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":14,"fora":12,"hora":"18:00","data":"2026-12-20","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"}]},"13":{"data":"2027-01-09","jogos":[{"casa":15,"fora":9,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Multidesportivo Sporting"},{"casa":16,"fora":11,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Multidesportivo Sporting"},{"casa":12,"fora":13,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Municipal Azeitão"},{"casa":10,"fora":14,"hora":"16:00","data":"2027-01-09","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão do Leões Porto Salvo"}]},"14":{"data":"2027-01-17","jogos":[{"casa":13,"fora":10,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":9,"fora":12,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Esc. Sec. Stº. António Charneca"},{"casa":14,"fora":16,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pav S Juliao Da Barra"},{"casa":11,"fora":15,"hora":"15:00","data":"2027-01-17","golosCasa":null,"golosFora":null,"pavilhao":"Pavilhão Nº 2 Do Sport Lisboa E Benfica"}]}}}}};
+const IS_ADMIN = new URLSearchParams(location.search).has("admin");
+if(IS_ADMIN) document.body.classList.add("admin");
+
+function load(){
+  if(IS_ADMIN){
+    try{ const raw = localStorage.getItem(STORAGE_KEY); if(raw) return JSON.parse(raw); }catch(e){}
+  }
+  return JSON.parse(JSON.stringify(INITIAL_DATA));
+}
+function save(){
+  if(IS_ADMIN){ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(DATA)); }catch(e){} }
+}
+let DATA = load();
+let SERIE = "N";
+
+const grid = document.getElementById("grid");
+const filterJ = document.getElementById("filter-jornada");
+const filterT = document.getElementById("filter-team");
+
+function populateFilters(){
+  const s = DATA.series[SERIE];
+  filterJ.innerHTML = '<option value="">Todas as jornadas</option>';
+  Object.keys(s.jornadas).sort((a,b)=>+a-+b).forEach(j=>{
+    const o = document.createElement("option"); o.value=j; o.textContent="Jornada "+j;
+    filterJ.appendChild(o);
+  });
+  const teamIds = new Set();
+  Object.values(s.jornadas).forEach(dj=>dj.jogos.forEach(g=>{teamIds.add(g.casa); teamIds.add(g.fora);}));
+  filterT.innerHTML = '<option value="">Todas as equipas</option>';
+  [...teamIds].sort((a,b)=>TEAMS[a].name.localeCompare(TEAMS[b].name)).forEach(id=>{
+    const o = document.createElement("option"); o.value=id; o.textContent=TEAMS[id].name;
+    filterT.appendChild(o);
+  });
+}
+
+function esc(s){ return (s||"").toString().replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function fmtDate(iso){
+  if(!iso) return "";
+  const d = new Date(iso+"T00:00:00");
+  const dias = ["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"];
+  const meses = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+  return `${dias[d.getDay()]}, ${d.getDate()} ${meses[d.getMonth()]} ${d.getFullYear()}`;
+}
+function fmtDateShort(iso){
+  if(!iso) return "";
+  const d = new Date(iso+"T00:00:00");
+  const dias = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
+  const meses = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+  return `${dias[d.getDay()]} ${d.getDate()} ${meses[d.getMonth()]}`;
+}
+function jornadaDateLabel(dj){
+  return fmtDate(dj.data) || "";
+}
+function teamLogo(t){
+  if(t.logo) return `<img class="team-logo" src="${esc(t.logo)}" alt="" onerror="this.outerHTML='<div class=&quot;team-badge&quot; style=&quot;background:${t.color}&quot;>${esc(t.short)}</div>'">`;
+  return `<div class="team-badge" style="background:${t.color}">${esc(t.short)}</div>`;
+}
+function jogoHtml(j, gi, jogo, dj){
+  const casa = TEAMS[jogo.casa]; const fora = TEAMS[jogo.fora];
+  const played = jogo.golosCasa != null && jogo.golosFora != null;
+  const gc = jogo.golosCasa === null ? "" : jogo.golosCasa;
+  const gf = jogo.golosFora === null ? "" : jogo.golosFora;
+  const ro = IS_ADMIN ? "" : "readonly";
+  return `<div class="jogo">
+    <div class="team-side casa">
+      <span class="team-name">${esc(casa.name)}</span>
+      ${teamLogo(casa)}
+      ${jogo.marcadoresCasa ? `<div class="mc-inline">${esc(jogo.marcadoresCasa)}</div>` : ''}
+    </div>
+    <div class="score ${played?'played':''}">
+      <input type="number" min="0" max="99" value="${gc}" ${ro} onchange="setGolo(${j},${gi},'casa',this.value)" style="border-color:${casa.color}">
+      <span class="sep">${played?'–':'vs'}</span>
+      <input type="number" min="0" max="99" value="${gf}" ${ro} onchange="setGolo(${j},${gi},'fora',this.value)" style="border-color:${fora.color}">
+    </div>
+    <div class="team-side fora">
+      ${teamLogo(fora)}
+      <span class="team-name">${esc(fora.name)}</span>
+      ${jogo.marcadoresFora ? `<div class="mc-inline">${esc(jogo.marcadoresFora)}</div>` : ''}
+    </div>
+    ${IS_ADMIN ? `<div class="jogo-meta">
+      <span>🕐 <input type="time" value="${esc(jogo.hora||'')}" onchange="setMeta(${j},${gi},'hora',this.value)" style="width:80px"></span>
+      <span>📍 <input type="text" value="${esc(jogo.pavilhao||'')}" placeholder="Pavilhão" onchange="setMeta(${j},${gi},'pavilhao',this.value)" style="flex:1;min-width:120px"></span>
+    </div>` : `<div class="jogo-meta"><span>📅 ${fmtDateShort(jogo.data||dj.data)}</span>${jogo.hora?`<span>🕐 ${esc(jogo.hora)}</span>`:''}${jogo.pavilhao?`<span>📍 ${esc(jogo.pavilhao)}</span>`:''}</div>`}
+  </div>`;
+}
+function jornadaHtml(j, dj){
+  const dateInp = IS_ADMIN
+    ? `<input type="date" value="${esc(dj.data||'')}" onchange="setData(${j},this.value)">`
+    : `<span>${jornadaDateLabel(dj)}</span>`;
+  return `<div class="jornada">
+    <div class="jornada-head">
+      <div class="jornada-title">Jornada <span class="n">${j}</span></div>
+      <div class="jornada-date" style="${IS_ADMIN?'':`display:none`}">${dateInp}</div>
+    </div>
+    <div class="jogos">${dj.jogos.map((jg,gi)=>jogoHtml(j,gi,jg,dj)).join("")}</div>
+  </div>`;
+}
+function render(){
+  const s = DATA.series[SERIE];
+  const fj = filterJ.value, ft = filterT.value;
+  let html="", played=0, total=0;
+  const jorNums = Object.keys(s.jornadas).map(x=>+x).sort((a,b)=>a-b);
+  for(const j of jorNums){
+    const dj = s.jornadas[j]; if(!dj) continue;
+    total += dj.jogos.length;
+    played += dj.jogos.filter(x=>x.golosCasa!=null&&x.golosFora!=null).length;
+    if(fj && String(j)!==fj) continue;
+    if(ft){
+      const jogosF = dj.jogos.filter(g=>String(g.casa)===ft||String(g.fora)===ft);
+      if(jogosF.length===0) continue;
+      html += jornadaHtml(j, {...dj, jogos:jogosF});
+    } else html += jornadaHtml(j, dj);
+  }
+  grid.innerHTML = html || `<div style="text-align:center;padding:40px;color:var(--muted)">Sem jogos que correspondam ao filtro.</div>`;
+  let allPlayed = 0;
+  Object.values(DATA.series).forEach(ss => Object.values(ss.jornadas).forEach(jj => allPlayed += jj.jogos.filter(x=>x.golosCasa!=null&&x.golosFora!=null).length));
+  document.getElementById("stat-played").textContent = allPlayed;
+}
+
+document.querySelectorAll(".serie-tab").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".serie-tab").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    SERIE = btn.dataset.serie;
+    populateFilters();
+    render();
+  });
+});
+filterJ.addEventListener("change", render);
+filterT.addEventListener("change", render);
+
+window.setGolo = function(j,gi,side,val){
+  const v = val === "" ? null : Math.max(0, Math.min(99, parseInt(val)));
+  DATA.series[SERIE].jornadas[j].jogos[gi][side==='casa'?'golosCasa':'golosFora'] = v;
+  save(); render();
+};
+window.setMeta = function(j,gi,key,val){ DATA.series[SERIE].jornadas[j].jogos[gi][key] = val; save(); };
+window.setData = function(j,val){ DATA.series[SERIE].jornadas[j].data = val; save(); render(); };
+window.exportarJSON = function(){
+  const blob = new Blob([JSON.stringify(DATA,null,2)],{type:"application/json;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a"); a.href=url; a.download="cn-sub15-2026-27-"+new Date().toISOString().slice(0,10)+".json";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+window.importarJSON = function(){
+  const inp = document.createElement("input"); inp.type="file"; inp.accept=".json";
+  inp.onchange = ()=>{
+    const f = inp.files&&inp.files[0]; if(!f) return;
+    const rd = new FileReader();
+    rd.onload = ()=>{
+      try{ const p = JSON.parse(rd.result); if(!confirm("Substituir dados actuais?")) return; DATA=p; save(); render(); alert("Importado."); }catch(e){ alert("JSON inválido: "+e.message); }
+    };
+    rd.readAsText(f);
+  }; inp.click();
+};
+window.gravarHTML = function(){
+  const btn = document.querySelector('button[onclick="gravarHTML()"]');
+  const orig = btn.textContent;
+  btn.textContent = "⏳ A preparar…"; btn.disabled = true;
+  const reset = ()=>{ btn.textContent = orig; btn.disabled = false; };
+  setTimeout(()=>{
+    try{
+      const dataStr = JSON.stringify(DATA);
+      let html = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+      const escaped = dataStr.replace(/<\/script>/gi, "<\\/script>");
+      html = html.replace(/const INITIAL_DATA = \{[\s\S]*?\};/, `const INITIAL_DATA = ${escaped};`);
+      html = html.replace(/<body\s+class="admin"\s*>/i, "<body>");
+      const blob = new Blob([html],{type:"text/html"});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a"); a.href=url; a.download="nacional-sub15.html";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+      btn.textContent = "✅ Descarregado"; setTimeout(reset, 2500);
+    }catch(e){ alert("Erro: "+e.message); reset(); }
+  }, 50);
+};
+
+populateFilters();
+render();
+</script>
+</body>
+</html>

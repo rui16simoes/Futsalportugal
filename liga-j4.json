@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 543.518,
-    "desde": 1791230808073
+    "acc": 609.6370000000001,
+    "desde": 0
    },
    "lances": [
     {
@@ -3491,6 +3491,12 @@
      "m": 10,
      "lado": "casa",
      "txt": "Daniel Airoso coloca a bola em Willian Carioca o pivo recebe, roda e remata para grande defesa de Gui"
+    },
+    {
+     "id": "l1791230872659",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Contra ataque do Braga por Mamadu, serve Airoso mas este deixa escapar a bola já dentro da área de Gui"
     }
    ],
    "faltas": [
@@ -3908,6 +3914,6 @@
    }
   }
  ],
- "ts": 1791230810576,
+ "ts": 1791230876695,
  "build": "20260915132319"
 }

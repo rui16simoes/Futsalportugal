@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -2562,6 +2562,12 @@
      "m": "37",
      "lado": "casa",
      "txt": "O UPVN remata de área a área, mas Nicolas Tomé recua rapidamente e trava a bola."
+    },
+    {
+     "id": "u45",
+     "m": "38",
+     "lado": "fora",
+     "txt": "Bom passe de Nicolas Tomé para Felipinho na área, que não consegue aproveitar."
     }
    ],
    "faltas": [
@@ -3770,6 +3776,6 @@
    }
   }
  ],
- "ts": 1791199484588,
+ "ts": 1791199541838,
  "build": "20260915132319"
 }

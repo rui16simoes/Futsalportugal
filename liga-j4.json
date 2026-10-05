@@ -3074,10 +3074,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
     "acc": 600,
-    "desde": 0
+    "desde": 1791228082013
    },
    "lances": [
     {
@@ -3205,6 +3205,12 @@
      "m": 29,
      "lado": "fora",
      "txt": "Canto de Rúben Freire, curto para Serginho o canhoto remata mas Pedro Martinho estava atento"
+    },
+    {
+     "id": "l1791228080751",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Octávio vai no contra ataque pela ala direita, remata mas Moreia defende para canto"
     }
    ],
    "faltas": [
@@ -4011,6 +4017,6 @@
    }
   }
  ],
- "ts": 1791228049918,
+ "ts": 1791228084516,
  "build": "20260915132319"
 }

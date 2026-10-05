@@ -3169,6 +3169,12 @@
      "m": 21,
      "lado": "fora",
      "txt": "Martín Dorda remata à barra"
+    },
+    {
+     "id": "l1791227029590",
+     "m": 22,
+     "lado": "casa",
+     "txt": "Reposição lateral na direita do ataque de Rúben Freire que coloca a bola na ala contrária em balão onde aparece Serginho para finalizar e fazer o 1-1"
     }
    ],
    "faltas": [
@@ -3961,6 +3967,6 @@
    }
   }
  ],
- "ts": 1791226907259,
+ "ts": 1791227032727,
  "build": "20260915132319"
 }

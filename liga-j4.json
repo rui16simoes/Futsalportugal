@@ -3483,7 +3483,7 @@
       "nome": "DINIS RAMOS",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "a",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/48/533948_dinis_ramos_20250924101414.jpg"
      },
@@ -4011,6 +4011,6 @@
    }
   }
  ],
- "ts": 1791227939784,
+ "ts": 1791227959953,
  "build": "20260915132319"
 }

@@ -3193,6 +3193,12 @@
      "m": 27,
      "lado": "casa",
      "txt": "Canto na direita do ataque do Ferreira, Kaká remata e Sandro Silva dentro da área desvia para o fundo da baliza vilacondense."
+    },
+    {
+     "id": "l1791227861633",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Na sequência do Livre, Rúben Freire remata direto à baliza de Pedro Martinho, mas o guarda-redes levou a melhor"
     }
    ],
    "faltas": [
@@ -3999,6 +4005,6 @@
    }
   }
  ],
- "ts": 1791227771751,
+ "ts": 1791227864136,
  "build": "20260915132319"
 }

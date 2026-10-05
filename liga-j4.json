@@ -3074,7 +3074,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200,
     "desde": 0
@@ -3157,6 +3157,12 @@
      "m": 19,
      "lado": "casa",
      "txt": "Rúben Freire deu em Martim Castela que recebeu a bola já dentro da área do Ferreira, conseguiu virar-se tentou o chapéu mas a bola saiu muito por cima"
+    },
+    {
+     "id": "l1791226104731",
+     "m": 20,
+     "lado": "fora",
+     "txt": "Reposição lateral do Rio Ave por parte de Pedro Rodrigues, a bola sofre um desvio entra na balia do Ferreira, mas já havia soado a bozina para o intervalo"
     }
    ],
    "faltas": [
@@ -3949,6 +3955,6 @@
    }
   }
  ],
- "ts": 1791225930654,
+ "ts": 1791226108905,
  "build": "20260915132319"
 }

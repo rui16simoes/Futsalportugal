@@ -3286,7 +3286,7 @@
       "num": "10",
       "nome": "WENDELL",
       "e": "S",
-      "min": "",
+      "min": "16",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/69/73/586973_wendell_20260625221235.png"
@@ -3924,6 +3924,6 @@
    }
   }
  ],
- "ts": 1791225202087,
+ "ts": 1791225225091,
  "build": "20260915132319"
 }

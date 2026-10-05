@@ -2363,7 +2363,7 @@
      "id": "u11",
      "m": "9",
      "lado": "casa",
-     "txt": "GOLO DO UPVN! Dura abre o marcador. UP Venda Nova 1-0 SCU Torreense."
+     "txt": "GOLO DO UPVN! Assistência de Luís Nunes e Dura abre o marcador. UP Venda Nova 1-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2531,7 +2531,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "9",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/25/1139325_luis_nunes_20240614105709.png"
      },
      {
@@ -3551,6 +3551,6 @@
    }
   }
  ],
- "ts": 1791195479597,
+ "ts": 1791195543579,
  "build": "20260915132319"
 }

@@ -3647,6 +3647,12 @@
      "m": 32,
      "lado": "fora",
      "txt": "Canto na esquerda do ataque do Famalicão cobrado por Ruizinho, coloca a bola em Guga que sozinho e com tudo para fazer golo atira por cima"
+    },
+    {
+     "id": "l1791234401368",
+     "m": 33,
+     "lado": "fora",
+     "txt": "Cartão amarelo a Claudio Martins"
     }
    ],
    "faltas": [
@@ -4127,6 +4133,6 @@
    }
   }
  ],
- "ts": 1791234389182,
+ "ts": 1791234403870,
  "build": "20260915132319"
 }

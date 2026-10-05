@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 180
+    "acc": 360
    },
    "lances": [
     {
@@ -2316,6 +2316,18 @@
      "m": "2",
      "lado": "fora",
      "txt": "Tintim remata à entrada da área e fica perto do golo, mas Jackson Ryan volta a defender, desta vez com o pé."
+    },
+    {
+     "id": "u4",
+     "m": "5",
+     "lado": "",
+     "txt": "Jogo muito dividido e sem grandes riscos nos primeiros minutos."
+    },
+    {
+     "id": "u5",
+     "m": "6",
+     "lado": "fora",
+     "txt": "Bola na barra! Tintim recebe na direita, roda para dentro e remata à barra."
     }
    ],
    "faltas": [
@@ -3503,6 +3515,6 @@
    }
   }
  ],
- "ts": 1791194804598,
+ "ts": 1791195047598,
  "build": "20260915132319"
 }

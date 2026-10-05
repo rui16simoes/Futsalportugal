@@ -3163,6 +3163,12 @@
      "m": 20,
      "lado": "fora",
      "txt": "Reposição lateral do Rio Ave por parte de Pedro Rodrigues, a bola sofre um desvio entra na balia do Ferreira, mas já havia soado a bozina para o intervalo"
+    },
+    {
+     "id": "l1791226887261",
+     "m": 21,
+     "lado": "fora",
+     "txt": "Martín Dorda remata à barra"
     }
    ],
    "faltas": [
@@ -3955,6 +3961,6 @@
    }
   }
  ],
- "ts": 1791226875137,
+ "ts": 1791226889763,
  "build": "20260915132319"
 }

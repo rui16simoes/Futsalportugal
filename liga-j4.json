@@ -2483,7 +2483,7 @@
      "id": "u31",
      "m": "23",
      "lado": "fora",
-     "txt": "GOLO DO TORREENSE! Tiago Reis reduz. UP Venda Nova 4-1 SCU Torreense."
+     "txt": "GOLO DO TORREENSE! Assistência de Tintim e Tiago Reis reduz. UP Venda Nova 4-1 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2892,7 +2892,7 @@
       "e": "S",
       "min": "",
       "cart": "7",
-      "ass": "",
+      "ass": "23",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
      }
     ]
@@ -3678,6 +3678,6 @@
    }
   }
  ],
- "ts": 1791197863593,
+ "ts": 1791197927589,
  "build": "20260915132319"
 }

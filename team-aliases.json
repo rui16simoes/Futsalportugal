@@ -1,0 +1,107 @@
+{
+ "_comentario": "Regras de nomes: 'canonico' = nome usado nos ficheiros dos campeonatos; 'variantes' = como aparece na FPF e no jogos-hoje. Matching: normalizar (minusculas, sem acentos, sem aspas/apostrofos/barras invertidas, 'S.'->'sao', 'Ass.'->'associacao', 'Electrico'->'eletrico'), remover prefixos (SC FC CR AD SL UP GD GCR SCU CS CD CRC CF AR AA ACR ADCR CCRD GRC CRD SAD JRA Futsal de do da dos das e), comparar conjuntos de palavras (Jaccard>=0.5), e antes disso aplicar estas variantes explicitas.",
+ "regras": {
+  "normalizar": [
+   "minusculas",
+   "remover acentos",
+   "remover aspas, apostrofos e barras invertidas",
+   "'s.' -> 'sao'",
+   "'ass.' -> 'associacao'",
+   "'electrico' -> 'eletrico'"
+  ],
+  "prefixos_ignorados": [
+   "sc",
+   "fc",
+   "cr",
+   "ad",
+   "sl",
+   "up",
+   "gd",
+   "gcr",
+   "scu",
+   "cs",
+   "cd",
+   "crc",
+   "cf",
+   "ar",
+   "aa",
+   "acr",
+   "adcr",
+   "ccrd",
+   "grc",
+   "crd",
+   "sad",
+   "jra",
+   "futsal",
+   "de",
+   "do",
+   "da",
+   "dos",
+   "das",
+   "e"
+  ],
+  "limiar_jaccard": 0.5,
+  "usar_sempre_variantes_primeiro": true
+ },
+ "aliases": {
+  "SC Ferreira do Zêzere": [
+   "SCF Zêzere by Zêzerovo",
+   "Scf Zêzere By Zêzerovo"
+  ],
+  "AMSAC": [
+   "Ass. Moradores S. Ant. Cavaleiros"
+  ],
+  "CB Alfândega Fé / MC Rabaçal": [
+   "CB Alfândega Fé / Casa Aragão",
+   "Cb Alfandega Fé / Casa Aragão"
+  ],
+  "AA Johnson Jan. / RL7": [
+   "AA Johnson Januário / RL7",
+   "Aa Johnson Januário / Rl7 Grupo",
+   "AA Johnson Januário / RL7 Grupo"
+  ],
+  "CRP Ribrafria": [
+   "Crp Ribafria",
+   "CRP Ribafria"
+  ],
+  "AD Fundão": [
+   "AD Fundão / Alambique",
+   "Ad Fundão / Alambique"
+  ],
+  "Arsenal C. Maia": [
+   "Arsenal Clube Maia"
+  ],
+  "Valpaços FC": [
+   "Valpaços Futsal Clube"
+  ],
+  "Viseu 2001": [
+   "Viseu 2001 ADSC",
+   "Viseu 2001 Adsc"
+  ],
+  "AR Bairro Boa Esperança": [
+   "AR B. Boa Esperança",
+   "Ar B. Boa Esperança"
+  ],
+  "FC Paços Ferreira Dreamcouch": [
+   "F.C. Paços Ferreira, Dreamcouch"
+  ],
+  "Ass. Santo Tirso Futsal/Cruise Car": [
+   "Associação Santo Tirso Futsal/Cruise Car",
+   "Associação Santo Tirso Futsal/Cruise Car"
+  ],
+  "CRC Quinta dos Lombos": [
+   "CRC Quinta Lombos",
+   "Crc Quinta Lombos"
+  ],
+  "CR Leões de Porto Salvo": [
+   "CR Leões Porto Salvo",
+   "Cr Leões Porto Salvo"
+  ],
+  "GCR Nun'Álvares": [
+   "GCR Nun\\'Álvares",
+   "Gcr Nun'álvares",
+   "Gcr Nun'Álvares"
+  ]
+ },
+ "nota": "CB Alfândega Fé: nos ficheiros ainda aparece 'MC Rabaçal'; a FPF usa 'Casa Aragão' (rever nome de apresentação)."
+}

@@ -3075,12 +3075,231 @@
    "tvUrl": "",
    "relogio": {
     "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "parte": 2,
+    "acc": 1080,
     "desde": 0
    },
-   "lances": [],
-   "faltas": [],
+   "lances": [
+    {
+     "id": "l1791223310476",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Inicio da partida"
+    },
+    {
+     "id": "l1791223412447",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Lance individual de Octávio Alves, sai bem no duelo 1x1 dinate Rúben Freire, remata, Moreira defende e na recarga Rui Fortes nao consegue a emanda"
+    },
+    {
+     "id": "l1791223616651",
+     "m": 3,
+     "lado": "fora",
+     "txt": "Dorda remata mas sai muito ao lado da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791224316410",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Moreira recebe a bola no seu meio terreno, colaca a bola na cabeça de Dorda, mas este remata ao lado, Pedro Martinho chegou atrasado ao lance"
+    },
+    {
+     "id": "l1791224367178",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Rúben Freire remata mas a bola bate no poste da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791224529877",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Quase sem ângulo na direita do ataque do Ferreira, Sandro remata mas a bola sai ao lado"
+    },
+    {
+     "id": "l1791224630355",
+     "m": 11,
+     "lado": "fora",
+     "txt": "Remate forte de Rúben Freire, com a bola a sair cruzada e a passar perto do poste esquerdo de Pedro Martinho"
+    },
+    {
+     "id": "l1791224672378",
+     "m": 12,
+     "lado": "fora",
+     "txt": "Erro de Pedro Martinho ia ditando o primeiro golo da partida"
+    },
+    {
+     "id": "l1791224732762",
+     "m": 13,
+     "lado": "fora",
+     "txt": "Carabette remata rasteiro mas Pedro Martinho defende com o pé esquerdo"
+    },
+    {
+     "id": "l1791224815147",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Time-Out Solicitado por Cristiano Coelho"
+    },
+    {
+     "id": "l1791225288613",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Jogada individual de Wendell na esquerda do ataque, remata a bola é desviada por Moreira, o guarda-redes do Rio Ave e segue para o fundo das redes, está feito o 1-0"
+    },
+    {
+     "id": "l1791225388892",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Time-Out Solicitado por Bruno Guimarães"
+    },
+    {
+     "id": "l1791225738191",
+     "m": 19,
+     "lado": "casa",
+     "txt": "Rúben Freire deu em Martim Castela que recebeu a bola já dentro da área do Ferreira, conseguiu virar-se tentou o chapéu mas a bola saiu muito por cima"
+    },
+    {
+     "id": "l1791226104731",
+     "m": 20,
+     "lado": "fora",
+     "txt": "Reposição lateral do Rio Ave por parte de Pedro Rodrigues, a bola sofre um desvio entra na balia do Ferreira, mas já havia soado a bozina para o intervalo"
+    },
+    {
+     "id": "l1791226887261",
+     "m": 21,
+     "lado": "fora",
+     "txt": "Martín Dorda remata à barra"
+    },
+    {
+     "id": "l1791227029590",
+     "m": 22,
+     "lado": "casa",
+     "txt": "Reposição lateral na direita do ataque de Rúben Freire que coloca a bola na ala contrária em balão onde aparece Serginho para finalizar e fazer o 1-1"
+    },
+    {
+     "id": "l1791227105101",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Francisco Silva dentro da área do Ferreira remata, mas mais uma vez Pedro Martinho a defender com o pé esquerdo"
+    },
+    {
+     "id": "l1791227166990",
+     "m": 24,
+     "lado": "fora",
+     "txt": "Dorda recupera a bola no canto do Ferreira, segue para a baliza de Pedro Martinho mas remata ao lado"
+    },
+    {
+     "id": "l1791227634964",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Canto na direita do ataque do Ferreira, Kaká remata e Sandro Silva dentro da área desvia para o fundo da baliza vilacondense."
+    },
+    {
+     "id": "l1791227861633",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Na sequência do Livre, Rúben Freire remata direto à baliza de Pedro Martinho, mas o guarda-redes levou a melhor"
+    },
+    {
+     "id": "l1791227935328",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Canto de Rúben Freire, curto para Serginho o canhoto remata mas Pedro Martinho estava atento"
+    },
+    {
+     "id": "l1791228080751",
+     "m": 30,
+     "lado": "casa",
+     "txt": "Octávio vai no contra ataque pela ala direita, remata mas Moreia defende para canto"
+    },
+    {
+     "id": "l1791228544745",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Rúben Freire recebe a bola dentro da área mas remata por cima da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791228634336",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Octávio remata já dentro da área mas Moreira defende na recarga Wendell atira ao lado"
+    },
+    {
+     "id": "l1791228668399",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Mais uma vez Octávio frente a Moreira, leva a melhor novamente o guarda-redes"
+    },
+    {
+     "id": "l1791228775877",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Time-Out Solicitado por Bruno Guimarães"
+    },
+    {
+     "id": "l1791228908986",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Inacreditável o que acabou de acontecer, Mourinha leva a bola para o ataque, o Rio Ave não tinha ninguém na baliza, Moreira tinha subido no terreno, o jovem Mourinha assistiu Octávio e com tudo para fazer golo atirou ao lado, incrível"
+    },
+    {
+     "id": "l1791228932091",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Time-Out solicitiado por Cristiano Coelho"
+    }
+   ],
+   "faltas": [
+    {
+     "id": "f1791223958291",
+     "lado": "fora",
+     "parte": 1,
+     "m": 6,
+     "n": 1
+    },
+    {
+     "id": "f1791224911890",
+     "lado": "casa",
+     "parte": 1,
+     "m": 14,
+     "n": 1
+    },
+    {
+     "id": "f1791225883528",
+     "lado": "casa",
+     "parte": 1,
+     "m": 20,
+     "n": 2
+    },
+    {
+     "id": "f1791227733549",
+     "lado": "casa",
+     "parte": 2,
+     "m": 29,
+     "n": 1
+    },
+    {
+     "id": "f1791227769249",
+     "lado": "casa",
+     "parte": 2,
+     "m": 29,
+     "n": 2
+    },
+    {
+     "id": "f1791228095367",
+     "lado": "casa",
+     "parte": 2,
+     "m": 31,
+     "n": 3
+    },
+    {
+     "id": "f1791228670667",
+     "lado": "casa",
+     "parte": 2,
+     "m": 34,
+     "n": 4
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3130,14 +3349,14 @@
    "casa": {
     "eq": "zezere",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUI FORTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3146,7 +3365,7 @@
      {
       "num": "13",
       "nome": "NILTON (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3164,7 +3383,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3182,7 +3401,7 @@
      {
       "num": "36",
       "nome": "CHAPINHA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3191,7 +3410,7 @@
      {
       "num": "2",
       "nome": "AFONSO MOURINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3200,7 +3419,7 @@
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3209,7 +3428,7 @@
      {
       "num": "10",
       "nome": "WENDELL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3218,7 +3437,7 @@
      {
       "num": "19",
       "nome": "LEONARDO TRAVESSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3227,7 +3446,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3236,17 +3455,17 @@
      {
       "num": "31",
       "nome": "OCTÁVIO ALVES",
-      "e": "",
+      "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "35",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
      },
      {
       "num": "88",
       "nome": "SANDRO SILVA",
-      "e": "",
-      "min": "",
+      "e": "S",
+      "min": "27",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/44/70/16634470_sandro_silva_20260702044030.png"
@@ -3254,11 +3473,20 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
+     },
+     {
+      "num": "90",
+      "nome": "GUILHERME CANUTO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/86/53/1158653_guilherme_ferreira_20251120190532.png"
      },
      {
       "num": "90",
@@ -3267,21 +3495,22 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": ""
+      "foto": "",
+      "extra": 1
      }
     ]
    },
    "fora": {
     "eq": "rioave",
     "golos": "",
-    "capitao": "",
+    "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "TOMÁS RAMOS (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3290,8 +3519,8 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "",
-      "min": "",
+      "e": "P",
+      "min": "16a",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/94/57/369457_moreira_20250924101324.jpg"
@@ -3299,7 +3528,7 @@
      {
       "num": "33",
       "nome": "TIAGO SACRAMENTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3308,16 +3537,16 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "",
+      "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "29",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/39/48/533948_dinis_ramos_20250924101414.jpg"
      },
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3326,7 +3555,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3335,7 +3564,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3344,7 +3573,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3353,7 +3582,7 @@
      {
       "num": "11",
       "nome": "ZÉZINHO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3362,7 +3591,7 @@
      {
       "num": "13",
       "nome": "BEBÉ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3371,7 +3600,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3380,7 +3609,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3389,8 +3618,8 @@
      {
       "num": "18",
       "nome": "SERGINHO",
-      "e": "",
-      "min": "",
+      "e": "P",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/76/58/417658_sergio_costa_20250924101458.jpg"
@@ -3398,7 +3627,7 @@
      {
       "num": "4",
       "nome": "FRANCISCO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3407,7 +3636,7 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3488,14 +3717,14 @@
    "casa": {
     "eq": "braga",
     "golos": "",
-    "capitao": "Tiago Brito",
+    "capitao": "",
     "treinador": "JOEL ROCHA",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/908/3908_joel_rocha_1750331608.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "GIOVANNI DANTI (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3513,7 +3742,7 @@
      {
       "num": "22",
       "nome": "GONÇALO PEREIRA (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3522,7 +3751,7 @@
      {
       "num": "3",
       "nome": "TIAGO SOUSA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3531,7 +3760,7 @@
      {
       "num": "9",
       "nome": "RICARDO LOPES",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3540,7 +3769,7 @@
      {
       "num": "20",
       "nome": "PEIXINHO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3558,7 +3787,7 @@
      {
       "num": "21",
       "nome": "RIKA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3567,7 +3796,7 @@
      {
       "num": "6",
       "nome": "TIAGO BRITO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3576,7 +3805,7 @@
      {
       "num": "7",
       "nome": "TOMÁS COLAÇO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3585,7 +3814,7 @@
      {
       "num": "10",
       "nome": "MAMADÚ TURÉ",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3603,7 +3832,7 @@
      {
       "num": "17",
       "nome": "ÁNGEL CLAUDINO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3612,7 +3841,7 @@
      {
       "num": "90",
       "nome": "DANIEL AIROSO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3630,7 +3859,7 @@
      {
       "num": "14",
       "nome": "WILLIAN CARIOCA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3639,7 +3868,7 @@
      {
       "num": "19",
       "nome": "LUÍS FERNANDES",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3648,7 +3877,7 @@
      {
       "num": "87",
       "nome": "BARRETO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3684,7 +3913,7 @@
      {
       "num": "1",
       "nome": "PEDRO NUNES (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3693,7 +3922,7 @@
      {
       "num": "14",
       "nome": "CLÁUDIO CARVALHO (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3711,7 +3940,7 @@
      {
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3720,7 +3949,7 @@
      {
       "num": "5",
       "nome": "FILIPE COSTA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3729,7 +3958,7 @@
      {
       "num": "22",
       "nome": "BUZUZU",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3738,7 +3967,7 @@
      {
       "num": "6",
       "nome": "AFONSO VIEIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3747,7 +3976,7 @@
      {
       "num": "7",
       "nome": "DANIEL SILVA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3756,7 +3985,7 @@
      {
       "num": "8",
       "nome": "SIMÃO CORDEIRO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3765,7 +3994,7 @@
      {
       "num": "19",
       "nome": "RÚBEN SANTOS",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3792,7 +4021,7 @@
      {
       "num": "77",
       "nome": "JEFFERSON",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3801,7 +4030,7 @@
      {
       "num": "10",
       "nome": "RUIZINHO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3810,7 +4039,7 @@
      {
       "num": "11",
       "nome": "JOÃO MIGUEL",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3819,7 +4048,7 @@
      {
       "num": "39",
       "nome": "GUGA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3828,7 +4057,7 @@
      {
       "num": "97",
       "nome": "LEANDRO RIBEIRO",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3838,6 +4067,6 @@
    }
   }
  ],
- "ts": 1791229098217,
+ "ts": 1791229148616,
  "build": "20260915132319"
 }

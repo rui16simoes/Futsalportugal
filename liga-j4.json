@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 540
+    "acc": 600
    },
    "lances": [
     {
@@ -2370,6 +2370,12 @@
      "m": "9",
      "lado": "fora",
      "txt": "Pausa técnica pedida pelo Torreense."
+    },
+    {
+     "id": "u13",
+     "m": "10",
+     "lado": "casa",
+     "txt": "Lucas Veras tenta um chapéu na esquerda, mas é carregado por um adversário e cai."
     }
    ],
    "faltas": [
@@ -3557,6 +3563,6 @@
    }
   }
  ],
- "ts": 1791195603596,
+ "ts": 1791195662597,
  "build": "20260915132319"
 }

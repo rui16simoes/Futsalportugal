@@ -3671,6 +3671,12 @@
      "m": 35,
      "lado": "casa",
      "txt": "mais uma rande lance individual de Mamadu"
+    },
+    {
+     "id": "l1791234787377",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Airoso remata para boa defesa de Xot"
     }
    ],
    "faltas": [
@@ -4179,6 +4185,6 @@
    }
   }
  ],
- "ts": 1791234769470,
+ "ts": 1791234789880,
  "build": "20260915132319"
 }

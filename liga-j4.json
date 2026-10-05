@@ -2296,10 +2296,16 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 60
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "u1",
+     "m": "1",
+     "lado": "",
+     "txt": "Começou o jogo na Venda Nova."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2380,6 +2386,15 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/41/98/16694198_rodrigo_costa_20260722231312.png"
+     },
+     {
+      "num": "99",
+      "nome": "AFONSO SILVA (GR)",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/09/1045909_afonso_silva_20251021074233.jpg"
      },
      {
       "num": "2",
@@ -2481,6 +2496,15 @@
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/36/29/983629_luis_montes_20260410173428.jpg"
      },
      {
+      "num": "80",
+      "nome": "DAVID TAVARES",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/96/1271796_david_tavares_1697650445.jpg"
+     },
+     {
       "num": "26",
       "nome": "VANILSON NAZARÉ",
       "e": "S",
@@ -2497,26 +2521,6 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
-     },
-     {
-      "num": "80",
-      "nome": "DAVID TAVARES",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/96/1271796_david_tavares_1697650445.jpg",
-      "extra": 1
-     },
-     {
-      "num": "99",
-      "nome": "AFONSO SILVA (GR)",
-      "e": "S",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/09/1045909_afonso_silva_20251021074233.jpg",
-      "extra": 1
      }
     ]
    },
@@ -3472,6 +3476,6 @@
    }
   }
  ],
- "ts": 1791194126600,
+ "ts": 1791194466598,
  "build": "20260915132319"
 }

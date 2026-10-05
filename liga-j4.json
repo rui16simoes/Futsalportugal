@@ -3692,7 +3692,7 @@
       "num": "20",
       "nome": "PEIXINHO",
       "e": "S",
-      "min": "",
+      "min": "17",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/91/675791_peixinho_20250924101437.jpg"
@@ -3989,6 +3989,6 @@
    }
   }
  ],
- "ts": 1791231885217,
+ "ts": 1791231904087,
  "build": "20260915132319"
 }

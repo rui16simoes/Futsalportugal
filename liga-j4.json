@@ -3545,6 +3545,12 @@
      "m": 17,
      "lado": "casa",
      "txt": "Grande lance de Mamadu mas na hora de rematar atirou por cima"
+    },
+    {
+     "id": "l1791231790060",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Time-Out solicitado por Joel Rocha"
     }
    ],
    "faltas": [
@@ -3983,6 +3989,6 @@
    }
   }
  ],
- "ts": 1791231775042,
+ "ts": 1791231792561,
  "build": "20260915132319"
 }

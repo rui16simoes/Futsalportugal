@@ -3533,6 +3533,12 @@
      "m": 14,
      "lado": "casa",
      "txt": "Mais uma vez Airoso a dançar em cima do adversário, mas gui defendeu o seu remate"
+    },
+    {
+     "id": "l1791231704639",
+     "m": 17,
+     "lado": "",
+     "txt": "Mais um remate de Gui mas Danti defendeu para canto"
     }
    ],
    "faltas": [
@@ -3964,6 +3970,6 @@
    }
   }
  ],
- "ts": 1791231684179,
+ "ts": 1791231707141,
  "build": "20260915132319"
 }

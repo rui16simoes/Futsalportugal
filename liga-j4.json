@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 480
+    "acc": 540
    },
    "lances": [
     {
@@ -2358,6 +2358,12 @@
      "m": "8",
      "lado": "casa",
      "txt": "André Galvão fica com queixas após um choque com Tintim e entra a equipa médica."
+    },
+    {
+     "id": "u11",
+     "m": "9",
+     "lado": "casa",
+     "txt": "GOLO DO UPVN! Dura abre o marcador. UP Venda Nova 1-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2532,7 +2538,7 @@
       "num": "11",
       "nome": "DURA",
       "e": "S",
-      "min": "",
+      "min": "9",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/47/1305747_dura_20250702155047.png"
@@ -3545,6 +3551,6 @@
    }
   }
  ],
- "ts": 1791195419596,
+ "ts": 1791195479597,
  "build": "20260915132319"
 }

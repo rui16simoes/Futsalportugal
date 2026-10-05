@@ -3557,6 +3557,12 @@
      "m": 17,
      "lado": "casa",
      "txt": "Golo do Braga, Livre cobrado por Tiago Brito, bola em Peixinho que de primeira rematou para o 1-0"
+    },
+    {
+     "id": "l1791231997257",
+     "m": 19,
+     "lado": "fora",
+     "txt": "Gui Rego remata mais uma vez para defesa de Danti"
     }
    ],
    "faltas": [
@@ -4002,6 +4008,6 @@
    }
   }
  ],
- "ts": 1791231983678,
+ "ts": 1791231999760,
  "build": "20260915132319"
 }

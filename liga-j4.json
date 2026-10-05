@@ -2580,6 +2580,12 @@
      "m": "38",
      "lado": "casa",
      "txt": "GOLO DO UPVN! Assistência de Dura e Luís Nunes faz o quinto. UP Venda Nova 5-1 SCU Torreense."
+    },
+    {
+     "id": "u48",
+     "m": "38",
+     "lado": "casa",
+     "txt": "Pausa técnica pedida pelo UPVN."
     }
    ],
    "faltas": [
@@ -3788,6 +3794,6 @@
    }
   }
  ],
- "ts": 1791199598586,
+ "ts": 1791199654587,
  "build": "20260915132319"
 }

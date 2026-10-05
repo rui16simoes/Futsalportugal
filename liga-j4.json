@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1080
+    "acc": 1140
    },
    "lances": [
     {
@@ -2430,6 +2430,12 @@
      "m": "18",
      "lado": "fora",
      "txt": "Tintim aparece pelo meio e remata forte; Jackson Ryan defende para canto."
+    },
+    {
+     "id": "u23",
+     "m": "19",
+     "lado": "fora",
+     "txt": "Tiago Reis remata forte da meia direita, a bola desvia e Jackson Ryan volta a defender."
     }
    ],
    "faltas": [
@@ -3617,6 +3623,6 @@
    }
   }
  ],
- "ts": 1791196581593,
+ "ts": 1791196764995,
  "build": "20260915132319"
 }

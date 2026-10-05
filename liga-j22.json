@@ -158,7 +158,14 @@
     "acc": 0,
     "desde": 1791241063072
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "l1791241112250",
+     "m": 1,
+     "lado": "",
+     "txt": "DEMONSTRAÇÃO: GOLO! Tiago Reis remata cruzado e abre o marcador."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2511,6 +2518,6 @@
    }
   }
  ],
- "ts": 1791241065814,
+ "ts": 1791241115667,
  "build": "20260915132319"
 }

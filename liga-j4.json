@@ -2514,6 +2514,12 @@
      "m": "31",
      "lado": "casa",
      "txt": "Grande passe de Dura deixa Sissi isolado, mas Tiago Correia leva a melhor."
+    },
+    {
+     "id": "u37",
+     "m": "31",
+     "lado": "fora",
+     "txt": "Pausa técnica pedida pelo Torreense."
     }
    ],
    "faltas": [
@@ -3715,6 +3721,6 @@
    }
   }
  ],
- "ts": 1791198749588,
+ "ts": 1791198806589,
  "build": "20260915132319"
 }

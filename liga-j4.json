@@ -3862,7 +3862,7 @@
       "num": "14",
       "nome": "WILLIAN CARIOCA",
       "e": "P",
-      "min": "",
+      "min": "24",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/81/424581_willian_carioca_20250731153926.png"
@@ -4069,6 +4069,6 @@
    }
   }
  ],
- "ts": 1791233444470,
+ "ts": 1791233462848,
  "build": "20260915132319"
 }

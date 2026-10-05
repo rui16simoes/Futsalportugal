@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
     "acc": 507.488,
-    "desde": 0
+    "desde": 1791230736544
    },
    "lances": [
     {
@@ -3479,6 +3479,12 @@
      "m": 8,
      "lado": "fora",
      "txt": "Guilherme Rego, o guarda-redes do Famalicão remata muito forte à barra de Danti"
+    },
+    {
+     "id": "l1791230735095",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Canto na direita do ataque do Famalicão bola no balão e de primeira Rúben Santos remata de primeira com muito perigo"
     }
    ],
    "faltas": [
@@ -3896,6 +3902,6 @@
    }
   }
  ],
- "ts": 1791230688692,
+ "ts": 1791230739046,
  "build": "20260915132319"
 }

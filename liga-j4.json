@@ -3575,6 +3575,12 @@
      "m": 20,
      "lado": "casa",
      "txt": "Grande trabalho de Tiago Brito que serviu Claudino mas o argentino chegou atrasado ao passe e perdeu-se uma boa oportunidade"
+    },
+    {
+     "id": "l1791233077458",
+     "m": 21,
+     "lado": "casa",
+     "txt": "Mais um! Erro enorme de Rego na construção, em zona adiantada, e Tiago Brito, com a baliza deserta, rematou antes de meio campo para o 2-0"
     }
    ],
    "faltas": [
@@ -4020,6 +4026,6 @@
    }
   }
  ],
- "ts": 1791233052392,
+ "ts": 1791233079960,
  "build": "20260915132319"
 }

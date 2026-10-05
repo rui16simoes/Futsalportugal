@@ -3434,7 +3434,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 875.71,
+    "acc": 878.0060000000001,
     "desde": 0
    },
    "lances": [
@@ -3665,6 +3665,12 @@
      "m": 35,
      "lado": "fora",
      "txt": "Mais uma grande defesa de Danti, a remate de Daniel Silva"
+    },
+    {
+     "id": "l1791234709359",
+     "m": 35,
+     "lado": "casa",
+     "txt": "mais uma rande lance individual de Mamadu"
     }
    ],
    "faltas": [
@@ -4173,6 +4179,6 @@
    }
   }
  ],
- "ts": 1791234687355,
+ "ts": 1791234716607,
  "build": "20260915132319"
 }

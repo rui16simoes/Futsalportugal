@@ -3217,6 +3217,12 @@
      "m": 32,
      "lado": "fora",
      "txt": "Rúben Freire recebe a bola dentro da área mas remata por cima da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791228634336",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Octávio remata já dentro da área mas Moreira defende na recarga Wendell atira ao lado"
     }
    ],
    "faltas": [
@@ -4030,6 +4036,6 @@
    }
   }
  ],
- "ts": 1791228547255,
+ "ts": 1791228636839,
  "build": "20260915132319"
 }

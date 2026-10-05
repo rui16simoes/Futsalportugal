@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 420
+    "acc": 480
    },
    "lances": [
     {
@@ -2352,6 +2352,12 @@
      "m": "7",
      "lado": "fora",
      "txt": "Cartão amarelo para Tintim."
+    },
+    {
+     "id": "u10",
+     "m": "8",
+     "lado": "casa",
+     "txt": "André Galvão fica com queixas após um choque com Tintim e entra a equipa médica."
     }
    ],
    "faltas": [
@@ -3539,6 +3545,6 @@
    }
   }
  ],
- "ts": 1791195272597,
+ "ts": 1791195419596,
  "build": "20260915132319"
 }

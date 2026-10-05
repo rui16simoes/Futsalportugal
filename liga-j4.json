@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 360
+    "acc": 420
    },
    "lances": [
     {
@@ -2337,9 +2337,21 @@
     },
     {
      "id": "u7",
-     "m": "6",
+     "m": "7",
      "lado": "fora",
-     "txt": "Vitinho tira dois adversários do caminho na direita; na sobra, Nicolas Tomé remata e a bola sai desviada."
+     "txt": "Felipinho tira dois adversários do caminho na direita; na sobra, Nicolas Tomé remata e a bola sai desviada."
+    },
+    {
+     "id": "u8",
+     "m": "7",
+     "lado": "casa",
+     "txt": "Jackson Ryan sobe pela direita e remata, mas a bola bate em Tintim."
+    },
+    {
+     "id": "u9",
+     "m": "7",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Tintim."
     }
    ],
    "faltas": [
@@ -2740,7 +2752,7 @@
       "nome": "TINTIM",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "7",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
      }
@@ -3527,6 +3539,6 @@
    }
   }
  ],
- "ts": 1791195165597,
+ "ts": 1791195272597,
  "build": "20260915132319"
 }

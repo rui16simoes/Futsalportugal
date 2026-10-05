@@ -3443,6 +3443,12 @@
      "m": 1,
      "lado": "casa",
      "txt": "Inicio da partida"
+    },
+    {
+     "id": "l1791230021951",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Peixinho rematou para boa defesa de Gui Rego"
     }
    ],
    "faltas": [],
@@ -3845,6 +3851,6 @@
    }
   }
  ],
- "ts": 1791229849510,
+ "ts": 1791230024454,
  "build": "20260915132319"
 }

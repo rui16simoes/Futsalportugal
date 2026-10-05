@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 540
+    "acc": 660
    },
    "lances": [
     {
@@ -2508,6 +2508,12 @@
      "m": "29",
      "lado": "casa",
      "txt": "Lucas Veras remata de primeira ao primeiro poste e fica perto do hat-trick, mas Tiago Correia trava."
+    },
+    {
+     "id": "u36",
+     "m": "31",
+     "lado": "casa",
+     "txt": "Grande passe de Dura deixa Sissi isolado, mas Tiago Correia leva a melhor."
     }
    ],
    "faltas": [
@@ -3709,6 +3715,6 @@
    }
   }
  ],
- "ts": 1791198552589,
+ "ts": 1791198749588,
  "build": "20260915132319"
 }

@@ -3103,6 +3103,12 @@
      "m": 8,
      "lado": "fora",
      "txt": "Moreira recebe a bola no seu meio terreno, colaca a bola na cabeça de Dorda, mas este remata ao lado, Pedro Martinho chegou atrasado ao lance"
+    },
+    {
+     "id": "l1791224367178",
+     "m": 9,
+     "lado": "fora",
+     "txt": "Rúben Freire remata mas a bola bate no poste da baliza de Pedro Martinho"
     }
    ],
    "faltas": [
@@ -3881,6 +3887,6 @@
    }
   }
  ],
- "ts": 1791224325596,
+ "ts": 1791224369679,
  "build": "20260915132319"
 }

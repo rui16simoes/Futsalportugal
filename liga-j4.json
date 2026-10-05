@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 840
+    "acc": 900
    },
    "lances": [
     {
@@ -2550,6 +2550,12 @@
      "m": "34",
      "lado": "casa",
      "txt": "Dura, sem marcação e com a baliza do Torreense guardada por um jogador de campo, arrisca do meio-campo, mas a bola sai por cima."
+    },
+    {
+     "id": "u43",
+     "m": "35",
+     "lado": "fora",
+     "txt": "Jair Pereira tem tudo para encostar ao segundo poste, mas falha o alvo."
     }
    ],
    "faltas": [
@@ -3751,6 +3757,6 @@
    }
   }
  ],
- "ts": 1791199227588,
+ "ts": 1791199327587,
  "build": "20260915132319"
 }

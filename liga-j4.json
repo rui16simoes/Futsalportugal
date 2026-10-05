@@ -3599,6 +3599,12 @@
      "m": 24,
      "lado": "casa",
      "txt": "Livre para o Braga, Airoso remata e coloca a bola na gaveta, grande golo 4-0"
+    },
+    {
+     "id": "l1791233389913",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Combinação entre Mamadu e Carioca, Mamadu remata mas Gui defende para canto"
     }
    ],
    "faltas": [
@@ -4051,6 +4057,6 @@
    }
   }
  ],
- "ts": 1791233350768,
+ "ts": 1791233392416,
  "build": "20260915132319"
 }

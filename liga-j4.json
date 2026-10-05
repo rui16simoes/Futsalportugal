@@ -3659,6 +3659,12 @@
      "m": 34,
      "lado": "fora",
      "txt": "Jefferson remata mas Danti defende"
+    },
+    {
+     "id": "l1791234622109",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Mais uma grande defesa de Danti, a remate de Daniel Silva"
     }
    ],
    "faltas": [
@@ -4160,6 +4166,6 @@
    }
   }
  ],
- "ts": 1791234574792,
+ "ts": 1791234624612,
  "build": "20260915132319"
 }

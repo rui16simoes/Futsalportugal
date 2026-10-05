@@ -2472,6 +2472,12 @@
      "m": "22",
      "lado": "casa",
      "txt": "GOLO DO UPVN! Tomás Silva faz o quarto. UP Venda Nova 4-0 SCU Torreense."
+    },
+    {
+     "id": "u30",
+     "m": "22",
+     "lado": "fora",
+     "txt": "Tintim tenta reduzir com um remate cruzado na direita, mas Jackson Ryan volta a defender."
     }
    ],
    "faltas": [
@@ -3659,6 +3665,6 @@
    }
   }
  ],
- "ts": 1791197743591,
+ "ts": 1791197806590,
  "build": "20260915132319"
 }

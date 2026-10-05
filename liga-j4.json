@@ -3085,6 +3085,12 @@
      "m": 1,
      "lado": "fora",
      "txt": "Inicio da partida"
+    },
+    {
+     "id": "l1791223412447",
+     "m": 1,
+     "lado": "casa",
+     "txt": "Lance individual de Octávio Alves, sai bem no duelo 1x1, remara, Moreira defende e na recarga Rui Fortes nao consegue a emanda"
     }
    ],
    "faltas": [],
@@ -3855,6 +3861,6 @@
    }
   }
  ],
- "ts": 1791223355114,
+ "ts": 1791223414950,
  "build": "20260915132319"
 }

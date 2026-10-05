@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
     "acc": 1009,
-    "desde": 0
+    "desde": 1791231948953
    },
    "lances": [
     {
@@ -3551,6 +3551,12 @@
      "m": 17,
      "lado": "casa",
      "txt": "Time-Out solicitado por Joel Rocha"
+    },
+    {
+     "id": "l1791231947143",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Golo do Braga, Livre cobrado por Tiago Brito, bola em Peixinho que de primeira rematou para o 1-0"
     }
    ],
    "faltas": [
@@ -3989,6 +3995,6 @@
    }
   }
  ],
- "ts": 1791231904087,
+ "ts": 1791231951455,
  "build": "20260915132319"
 }

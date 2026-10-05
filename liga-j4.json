@@ -3253,6 +3253,12 @@
      "m": 40,
      "lado": "fora",
      "txt": "Bruno Guimarães lança o 5x4 e no primeiro lance empata a partida, Serginho vestiu a camisola de guarda-redes a bola foi ao fundo do lado esquerdo do ataque, Dorda viu Bebé no poste contrário coloca lá a bola e Bebé faz o 2-2"
+    },
+    {
+     "id": "l1791229361234",
+     "m": 40,
+     "lado": "fora",
+     "txt": "o Rio Ave continua de 5x4"
     }
    ],
    "faltas": [
@@ -4073,6 +4079,6 @@
    }
   }
  ],
- "ts": 1791229345809,
+ "ts": 1791229363736,
  "build": "20260915132319"
 }

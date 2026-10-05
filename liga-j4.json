@@ -3497,6 +3497,12 @@
      "m": 11,
      "lado": "casa",
      "txt": "Contra ataque do Braga por Mamadu, serve Airoso mas este deixa escapar a bola já dentro da área de Gui"
+    },
+    {
+     "id": "l1791230903636",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Trabalho individual fantástico de Airoso, mas na hora do remate atira ao lado"
     }
    ],
    "faltas": [
@@ -3914,6 +3920,6 @@
    }
   }
  ],
- "ts": 1791230876695,
+ "ts": 1791230906139,
  "build": "20260915132319"
 }

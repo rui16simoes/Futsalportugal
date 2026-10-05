@@ -3461,6 +3461,12 @@
      "m": 3,
      "lado": "fora",
      "txt": "João Miguel foi bem desmarcado na direita e rematou para grande defesa de Danti"
+    },
+    {
+     "id": "l1791230397000",
+     "m": 6,
+     "lado": "fora",
+     "txt": "Erro de Daniel Airoso perto da sua área a coloca a bola nos pés de Simão Cordeiro, este remata à barra da baliza de Danti"
     }
    ],
    "faltas": [
@@ -3878,6 +3884,6 @@
    }
   }
  ],
- "ts": 1791230339862,
+ "ts": 1791230399502,
  "build": "20260915132319"
 }

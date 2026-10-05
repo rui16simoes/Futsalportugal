@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
     "acc": 182.158,
-    "desde": 0
+    "desde": 1791233339249
    },
    "lances": [
     {
@@ -3593,6 +3593,12 @@
      "m": 23,
      "lado": "casa",
      "txt": "Ricardo marca o canto na ala esquerda do ataque para o balão e Claudino de primeira atira a contar 3-0"
+    },
+    {
+     "id": "l1791233336898",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Livre para o Braga, Airoso remata e coloca a bola na gaveta, grande golo 4-0"
     }
    ],
    "faltas": [
@@ -4045,6 +4051,6 @@
    }
   }
  ],
- "ts": 1791233304893,
+ "ts": 1791233341751,
  "build": "20260915132319"
 }

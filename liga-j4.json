@@ -3455,6 +3455,12 @@
      "m": 2,
      "lado": "fora",
      "txt": "Simão Cordeiro foi desmarcado em velocidade na direita e rematou para grande defesa de Danti"
+    },
+    {
+     "id": "l1791230101328",
+     "m": 3,
+     "lado": "fora",
+     "txt": "João Miguel foi bem desmarcado na direita e rematou para grande defesa de Danti"
     }
    ],
    "faltas": [],
@@ -3857,6 +3863,6 @@
    }
   }
  ],
- "ts": 1791230061339,
+ "ts": 1791230103829,
  "build": "20260915132319"
 }

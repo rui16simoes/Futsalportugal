@@ -3074,10 +3074,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 311.779,
-    "desde": 1791223946645
+    "acc": 321.183,
+    "desde": 0
    },
    "lances": [
     {
@@ -3099,7 +3099,15 @@
      "txt": "Dorda remata mas sai muito ao lado da baliza de Pedro Martinho"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "f1791223958291",
+     "lado": "fora",
+     "parte": 1,
+     "m": 6,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3867,6 +3875,6 @@
    }
   }
  ],
- "ts": 1791223949147,
+ "ts": 1791223960793,
  "build": "20260915132319"
 }

@@ -3683,6 +3683,12 @@
      "m": 36,
      "lado": "casa",
      "txt": "Entra Gonçalo na baliza do Braga"
+    },
+    {
+     "id": "l1791235076297",
+     "m": 38,
+     "lado": "fora",
+     "txt": "Gonçalo por duas vezes a negar o golo a João Miguel e a Jefferson"
     }
    ],
    "faltas": [
@@ -4191,6 +4197,6 @@
    }
   }
  ],
- "ts": 1791235032390,
+ "ts": 1791235078798,
  "build": "20260915132319"
 }

@@ -2328,6 +2328,12 @@
      "m": "6",
      "lado": "fora",
      "txt": "Bola na barra! Tintim recebe na direita, roda para dentro e remata à barra."
+    },
+    {
+     "id": "u6",
+     "m": "6",
+     "lado": "fora",
+     "txt": "Tintim volta a tentar, com um remate cruzado que sai pouco ao lado."
     }
    ],
    "faltas": [
@@ -3515,6 +3521,6 @@
    }
   }
  ],
- "ts": 1791195047598,
+ "ts": 1791195106597,
  "build": "20260915132319"
 }

@@ -3115,6 +3115,12 @@
      "m": 11,
      "lado": "casa",
      "txt": "Quase sem ângulo na direita do ataque do Ferreira, Sandro remata mas a bola sai ao lado"
+    },
+    {
+     "id": "l1791224630355",
+     "m": 11,
+     "lado": "fora",
+     "txt": "Remate forte de Rúben Freire, com a bola a sair cruzada e a passar perto do poste esquerdo de Pedro Martinho"
     }
    ],
    "faltas": [
@@ -3893,6 +3899,6 @@
    }
   }
  ],
- "ts": 1791224564995,
+ "ts": 1791224632857,
  "build": "20260915132319"
 }

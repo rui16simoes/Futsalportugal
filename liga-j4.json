@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 720
+    "acc": 960
    },
    "lances": [
     {
@@ -2400,6 +2400,12 @@
      "m": "12",
      "lado": "fora",
      "txt": "Paulo Major tenta reduzir pela direita, mas Luís Nunes interceta o remate."
+    },
+    {
+     "id": "u18",
+     "m": "16",
+     "lado": "fora",
+     "txt": "Paulo Major remata de pé esquerdo na direita e Jackson Ryan volta a defender."
     }
    ],
    "faltas": [
@@ -3587,6 +3593,6 @@
    }
   }
  ],
- "ts": 1791196124597,
+ "ts": 1791196311594,
  "build": "20260915132319"
 }

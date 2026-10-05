@@ -3449,6 +3449,12 @@
      "m": 1,
      "lado": "casa",
      "txt": "Peixinho rematou para boa defesa de Gui Rego"
+    },
+    {
+     "id": "l1791230058372",
+     "m": 2,
+     "lado": "fora",
+     "txt": "Simão Cordeiro foi desmarcado em velocidade na direita e rematou para grande defesa de Danti"
     }
    ],
    "faltas": [],
@@ -3851,6 +3857,6 @@
    }
   }
  ],
- "ts": 1791230024454,
+ "ts": 1791230061339,
  "build": "20260915132319"
 }

@@ -3377,7 +3377,7 @@
       "num": "88",
       "nome": "SANDRO SILVA",
       "e": "S",
-      "min": "",
+      "min": "27",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/44/70/16634470_sandro_silva_20260702044030.png"
@@ -3979,6 +3979,6 @@
    }
   }
  ],
- "ts": 1791227338118,
+ "ts": 1791227390560,
  "build": "20260915132319"
 }

@@ -3091,6 +3091,12 @@
      "m": 1,
      "lado": "casa",
      "txt": "Lance individual de Octávio Alves, sai bem no duelo 1x1 dinate Rúben Freire, remata, Moreira defende e na recarga Rui Fortes nao consegue a emanda"
+    },
+    {
+     "id": "l1791223616651",
+     "m": 1,
+     "lado": "fora",
+     "txt": "Dorda remata mas sai muito ao lado da baliza de Pedro Martinho"
     }
    ],
    "faltas": [],
@@ -3861,6 +3867,6 @@
    }
   }
  ],
- "ts": 1791223573614,
+ "ts": 1791223619152,
  "build": "20260915132319"
 }

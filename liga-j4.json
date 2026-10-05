@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 635.3720000000001,
-    "desde": 1791230973258
+    "acc": 675.58,
+    "desde": 0
    },
    "lances": [
     {
@@ -3503,6 +3503,12 @@
      "m": 11,
      "lado": "casa",
      "txt": "Trabalho individual fantástico de Airoso, mas na hora do remate atira ao lado"
+    },
+    {
+     "id": "l1791231011585",
+     "m": 12,
+     "lado": "casa",
+     "txt": "Bom trabalho entre Peixinho e Willian com o fixo a rematar para defesa de Xot que havia entrado na baliza do Famalicão"
     }
    ],
    "faltas": [
@@ -3920,6 +3926,6 @@
    }
   }
  ],
- "ts": 1791230975761,
+ "ts": 1791231015969,
  "build": "20260915132319"
 }

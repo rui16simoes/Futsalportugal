@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 900
+    "acc": 1020
    },
    "lances": [
     {
@@ -2556,6 +2556,12 @@
      "m": "35",
      "lado": "fora",
      "txt": "Jair Pereira tem tudo para encostar ao segundo poste, mas falha o alvo."
+    },
+    {
+     "id": "u44",
+     "m": "37",
+     "lado": "casa",
+     "txt": "O UPVN remata de área a área, mas Nicolas Tomé recua rapidamente e trava a bola."
     }
    ],
    "faltas": [
@@ -3764,6 +3770,6 @@
    }
   }
  ],
- "ts": 1791199425585,
+ "ts": 1791199484588,
  "build": "20260915132319"
 }

@@ -3611,6 +3611,12 @@
      "m": 24,
      "lado": "casa",
      "txt": "Na sequência do canto, Mamadu encontra Willian dentro da área e o pivo faz o 5-0"
+    },
+    {
+     "id": "l1791233441968",
+     "m": 24,
+     "lado": "fora",
+     "txt": "Time-Ou solicitado por Cláudio Martins"
     }
    ],
    "faltas": [
@@ -4063,6 +4069,6 @@
    }
   }
  ],
- "ts": 1791233427086,
+ "ts": 1791233444470,
  "build": "20260915132319"
 }

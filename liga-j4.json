@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 180
+    "acc": 300
    },
    "lances": [
     {
@@ -2483,7 +2483,7 @@
      "id": "u31",
      "m": "23",
      "lado": "fora",
-     "txt": "GOLO DO TORREENSE! Assistência de Tintim e Tiago Reis reduz. UP Venda Nova 4-1 SCU Torreense."
+     "txt": "GOLO DO TORREENSE! Grande passe de Tintim a descobrir Tiago Reis sozinho ao segundo poste, que só tem de encostar. UP Venda Nova 4-1 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2507,6 +2507,13 @@
      "parte": 2,
      "m": "23",
      "n": 1
+    },
+    {
+     "id": "uf4",
+     "lado": "casa",
+     "parte": 2,
+     "m": "25",
+     "n": 2
     }
    ],
    "gp": {
@@ -3678,6 +3685,6 @@
    }
   }
  ],
- "ts": 1791197927589,
+ "ts": 1791198071998,
  "build": "20260915132319"
 }

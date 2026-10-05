@@ -3473,6 +3473,12 @@
      "m": 8,
      "lado": "fora",
      "txt": "Dani remata para mais uma defesa de Danti"
+    },
+    {
+     "id": "l1791230629562",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Guilherme Rego, o guarda-redes do Famalicão remata muito forte à barra de Danti"
     }
    ],
    "faltas": [
@@ -3890,6 +3896,6 @@
    }
   }
  ],
- "ts": 1791230583996,
+ "ts": 1791230632065,
  "build": "20260915132319"
 }

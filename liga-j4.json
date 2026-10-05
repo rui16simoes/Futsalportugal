@@ -3605,6 +3605,12 @@
      "m": 24,
      "lado": "casa",
      "txt": "Combinação entre Mamadu e Carioca, Mamadu remata mas Gui defende para canto"
+    },
+    {
+     "id": "l1791233424583",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Na sequência do canto, Mamadu encontra Willian dentro da área e o pivo faz o 5-0"
     }
    ],
    "faltas": [
@@ -4057,6 +4063,6 @@
    }
   }
  ],
- "ts": 1791233392416,
+ "ts": 1791233427086,
  "build": "20260915132319"
 }

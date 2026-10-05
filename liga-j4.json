@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 1020
+    "acc": 1080
    },
    "lances": [
     {
@@ -2424,6 +2424,12 @@
      "m": "17",
      "lado": "fora",
      "txt": "Paulo Major volta a tentar, com um remate colocado que sai pouco ao lado."
+    },
+    {
+     "id": "u22",
+     "m": "18",
+     "lado": "fora",
+     "txt": "Tintim aparece pelo meio e remata forte; Jackson Ryan defende para canto."
     }
    ],
    "faltas": [
@@ -3611,6 +3617,6 @@
    }
   }
  ],
- "ts": 1791196481594,
+ "ts": 1791196581593,
  "build": "20260915132319"
 }

@@ -3145,6 +3145,12 @@
      "m": 16,
      "lado": "casa",
      "txt": "Jogada individual de Wendell na esquerda do ataque, remata a bola é desviada por Moreira, o guarda-redes do Rio Ave e segue para o fundo das redes, está feito o 1-0"
+    },
+    {
+     "id": "l1791225388892",
+     "m": 17,
+     "lado": "fora",
+     "txt": "Time-Out Solicitado por Bruno Guimarães"
     }
    ],
    "faltas": [
@@ -3930,6 +3936,6 @@
    }
   }
  ],
- "ts": 1791225363645,
+ "ts": 1791225391393,
  "build": "20260915132319"
 }

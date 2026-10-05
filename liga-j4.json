@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
     "acc": 543.518,
-    "desde": 0
+    "desde": 1791230808073
    },
    "lances": [
     {
@@ -3485,6 +3485,12 @@
      "m": 9,
      "lado": "fora",
      "txt": "Canto na direita do ataque do Famalicão bola no balão e de primeira Rúben Santos remata de primeira com muito perigo"
+    },
+    {
+     "id": "l1791230806653",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Daniel Airoso coloca a bola em Willian Carioca o pivo recebe, roda e remata para grande defesa de Gui"
     }
    ],
    "faltas": [
@@ -3902,6 +3908,6 @@
    }
   }
  ],
- "ts": 1791230777090,
+ "ts": 1791230810576,
  "build": "20260915132319"
 }

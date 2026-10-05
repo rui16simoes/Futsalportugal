@@ -2520,6 +2520,12 @@
      "m": "31",
      "lado": "fora",
      "txt": "Pausa técnica pedida pelo Torreense."
+    },
+    {
+     "id": "u38",
+     "m": "31",
+     "lado": "fora",
+     "txt": "O Torreense arrisca o 5x4, com Nicolas Tomé como guarda redes avançado."
     }
    ],
    "faltas": [
@@ -3721,6 +3727,6 @@
    }
   }
  ],
- "ts": 1791198806589,
+ "ts": 1791198863588,
  "build": "20260915132319"
 }

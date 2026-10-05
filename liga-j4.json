@@ -2484,6 +2484,12 @@
      "m": "23",
      "lado": "fora",
      "txt": "GOLO DO TORREENSE! Grande passe de Tintim a descobrir Tiago Reis sozinho ao segundo poste, que só tem de encostar. UP Venda Nova 4-1 SCU Torreense."
+    },
+    {
+     "id": "u32",
+     "m": "25",
+     "lado": "fora",
+     "txt": "Jair Pereira pede grande penalidade, mas o árbitro, perto do lance, manda seguir."
     }
    ],
    "faltas": [
@@ -3685,6 +3691,6 @@
    }
   }
  ],
- "ts": 1791198071998,
+ "ts": 1791198127590,
  "build": "20260915132319"
 }

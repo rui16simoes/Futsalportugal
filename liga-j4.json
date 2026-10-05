@@ -2304,6 +2304,12 @@
      "m": "1",
      "lado": "",
      "txt": "Começou o jogo na Venda Nova."
+    },
+    {
+     "id": "u2",
+     "m": "1",
+     "lado": "fora",
+     "txt": "Felipinho tenta de longe surpreender Jackson Ryan, mas a bola passa um pouco por cima."
     }
    ],
    "faltas": [],
@@ -2372,7 +2378,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3476,6 +3482,6 @@
    }
   }
  ],
- "ts": 1791194466598,
+ "ts": 1791194592601,
  "build": "20260915132319"
 }

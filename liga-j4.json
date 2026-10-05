@@ -3133,6 +3133,12 @@
      "m": 13,
      "lado": "fora",
      "txt": "Carabette remata rasteiro mas Pedro Martinho defende com o pé esquerdo"
+    },
+    {
+     "id": "l1791224815147",
+     "m": 13,
+     "lado": "casa",
+     "txt": "Time-Out Solicitado por Cristiano Coelho"
     }
    ],
    "faltas": [
@@ -3911,6 +3917,6 @@
    }
   }
  ],
- "ts": 1791224735264,
+ "ts": 1791224817650,
  "build": "20260915132319"
 }

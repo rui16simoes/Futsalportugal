@@ -3509,6 +3509,12 @@
      "m": 12,
      "lado": "casa",
      "txt": "Bom trabalho entre Peixinho e Willian com o fixo a rematar para defesa de Xot que havia entrado na baliza do Famalicão"
+    },
+    {
+     "id": "l1791231067454",
+     "m": 12,
+     "lado": "casa",
+     "txt": "Carioca com tudo para fazer golo, mas valeu Xot ao Famalicão, reentra Gui na baliza do Famalicão"
     }
    ],
    "faltas": [
@@ -3926,6 +3932,6 @@
    }
   }
  ],
- "ts": 1791231023401,
+ "ts": 1791231069956,
  "build": "20260915132319"
 }

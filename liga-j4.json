@@ -3467,6 +3467,12 @@
      "m": 6,
      "lado": "fora",
      "txt": "Erro de Daniel Airoso perto da sua área a coloca a bola nos pés de Simão Cordeiro, este remata à barra da baliza de Danti"
+    },
+    {
+     "id": "l1791230581493",
+     "m": 8,
+     "lado": "fora",
+     "txt": "Dani remata para mais uma defesa de Danti"
     }
    ],
    "faltas": [
@@ -3884,6 +3890,6 @@
    }
   }
  ],
- "ts": 1791230565243,
+ "ts": 1791230583996,
  "build": "20260915132319"
 }

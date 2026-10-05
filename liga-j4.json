@@ -2532,6 +2532,12 @@
      "m": "33",
      "lado": "fora",
      "txt": "Dura escorrega e o Torreense remata, mas Jackson Ryan trava com o peito."
+    },
+    {
+     "id": "u40",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Com Nicolas Tomé de novo como guarda redes avançado, Paulo Major remata com demasiada força e atira por cima."
     }
    ],
    "faltas": [
@@ -3733,6 +3739,6 @@
    }
   }
  ],
- "ts": 1791199015589,
+ "ts": 1791199111594,
  "build": "20260915132319"
 }

@@ -3653,6 +3653,12 @@
      "m": 33,
      "lado": "fora",
      "txt": "Cartão amarelo a Claudio Martins"
+    },
+    {
+     "id": "l1791234565983",
+     "m": 34,
+     "lado": "fora",
+     "txt": "Jefferson remata mas Danti defende"
     }
    ],
    "faltas": [
@@ -4154,6 +4160,6 @@
    }
   }
  ],
- "ts": 1791234501547,
+ "ts": 1791234568487,
  "build": "20260915132319"
 }

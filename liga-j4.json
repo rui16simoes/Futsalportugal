@@ -2393,7 +2393,13 @@
      "id": "u16",
      "m": "12",
      "lado": "casa",
-     "txt": "GOLO DO UPVN! Assistência de Sissi e Lucas Veras bisa logo a seguir. UP Venda Nova 3-0 SCU Torreense."
+     "txt": "GOLO DO UPVN! Erro de Nicolas Tomé: pressionado por Sissi junto à linha de fundo, deixa a bola desviar em Sissi e ela fica à mercê de Lucas Veras, que bisa. Tiago Correia ainda tenta emendar, sem sucesso. UP Venda Nova 3-0 SCU Torreense."
+    },
+    {
+     "id": "u17",
+     "m": "12",
+     "lado": "fora",
+     "txt": "Paulo Major tenta reduzir pela direita, mas Luís Nunes interceta o remate."
     }
    ],
    "faltas": [
@@ -3581,6 +3587,6 @@
    }
   }
  ],
- "ts": 1791196065898,
+ "ts": 1791196124597,
  "build": "20260915132319"
 }

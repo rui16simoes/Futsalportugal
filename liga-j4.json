@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 300
+    "acc": 360
    },
    "lances": [
     {
@@ -2490,6 +2490,12 @@
      "m": "25",
      "lado": "fora",
      "txt": "Jair Pereira pede grande penalidade, mas o árbitro, perto do lance, manda seguir."
+    },
+    {
+     "id": "u33",
+     "m": "26",
+     "lado": "casa",
+     "txt": "Luís Nunes fica isolado na direita, mas Tiago Correia fecha bem a baliza e evita o quinto."
     }
    ],
    "faltas": [
@@ -3691,6 +3697,6 @@
    }
   }
  ],
- "ts": 1791198127590,
+ "ts": 1791198184596,
  "build": "20260915132319"
 }

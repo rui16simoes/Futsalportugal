@@ -2376,6 +2376,12 @@
      "m": "10",
      "lado": "casa",
      "txt": "Lucas Veras tenta um chapéu na esquerda, mas é carregado por um adversário e cai."
+    },
+    {
+     "id": "u14",
+     "m": "10",
+     "lado": "fora",
+     "txt": "Paulo Major remata de pé direito e obriga Jackson Ryan a estar atento."
     }
    ],
    "faltas": [
@@ -3563,6 +3569,6 @@
    }
   }
  ],
- "ts": 1791195662597,
+ "ts": 1791195766597,
  "build": "20260915132319"
 }

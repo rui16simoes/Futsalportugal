@@ -2505,7 +2505,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/96/1271796_david_tavares_1697650445.jpg",
       "extra": 1
      },
      {
@@ -2515,7 +2515,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/09/1045909_afonso_silva_20251021074233.jpg",
       "extra": 1
      }
     ]
@@ -3472,6 +3472,6 @@
    }
   }
  ],
- "ts": 1791193994604,
+ "ts": 1791194126600,
  "build": "20260915132319"
 }

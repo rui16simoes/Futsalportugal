@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 1140
+    "acc": 1170
    },
    "lances": [
     {
@@ -2604,6 +2604,12 @@
      "m": "39",
      "lado": "fora",
      "txt": "Cartão amarelo para Vitinho."
+    },
+    {
+     "id": "u52",
+     "m": "39",
+     "lado": "fora",
+     "txt": "Jair Pereira trabalha bem na esquerda, mas o remate sai pouco ao lado."
     }
    ],
    "faltas": [
@@ -3826,6 +3832,6 @@
    }
   }
  ],
- "ts": 1791199866585,
+ "ts": 1791199920587,
  "build": "20260915132319"
 }

@@ -3097,6 +3097,12 @@
      "m": 3,
      "lado": "fora",
      "txt": "Dorda remata mas sai muito ao lado da baliza de Pedro Martinho"
+    },
+    {
+     "id": "l1791224316410",
+     "m": 8,
+     "lado": "casa",
+     "txt": "Moreira recebe a bola no seu meio terreno, colaca a bola na cabeça de Dorda, mas este remata ao lado, Pedro Martinho chegou atrasado ao lance"
     }
    ],
    "faltas": [
@@ -3875,6 +3881,6 @@
    }
   }
  ],
- "ts": 1791224234059,
+ "ts": 1791224318912,
  "build": "20260915132319"
 }

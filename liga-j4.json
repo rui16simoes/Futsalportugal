@@ -3223,6 +3223,12 @@
      "m": 34,
      "lado": "casa",
      "txt": "Octávio remata já dentro da área mas Moreira defende na recarga Wendell atira ao lado"
+    },
+    {
+     "id": "l1791228668399",
+     "m": 35,
+     "lado": "casa",
+     "txt": "Mais uma vez Octávio frente a Moreira, leva a melhor novamente o guarda-redes"
     }
    ],
    "faltas": [
@@ -3267,6 +3273,13 @@
      "parte": 2,
      "m": 31,
      "n": 3
+    },
+    {
+     "id": "f1791228670667",
+     "lado": "casa",
+     "parte": 2,
+     "m": 34,
+     "n": 4
     }
    ],
    "gp": {
@@ -4036,6 +4049,6 @@
    }
   }
  ],
- "ts": 1791228636839,
+ "ts": 1791228673170,
  "build": "20260915132319"
 }

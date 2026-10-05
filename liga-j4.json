@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 660
+    "acc": 720
    },
    "lances": [
     {
@@ -2387,7 +2387,13 @@
      "id": "u15",
      "m": "11",
      "lado": "casa",
-     "txt": "GOLO DO UPVN! Lucas Veras faz o segundo. UP Venda Nova 2-0 SCU Torreense."
+     "txt": "GOLO DO UPVN! Tomás Silva serve Lucas Veras na esquerda; Tiago Correia ainda trava a primeira tentativa, mas na recarga Lucas Veras não falha. UP Venda Nova 2-0 SCU Torreense."
+    },
+    {
+     "id": "u16",
+     "m": "12",
+     "lado": "casa",
+     "txt": "GOLO DO UPVN! Lucas Veras bisa logo a seguir. UP Venda Nova 3-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2580,7 +2586,7 @@
       "num": "20",
       "nome": "LUCAS VERAS",
       "e": "S",
-      "min": "11",
+      "min": "11, 12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/76/1550676_lucas_veras_20260909160534.png"
@@ -3575,6 +3581,6 @@
    }
   }
  ],
- "ts": 1791195830595,
+ "ts": 1791195944595,
  "build": "20260915132319"
 }

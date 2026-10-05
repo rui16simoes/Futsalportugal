@@ -3756,7 +3756,7 @@
       "num": "6",
       "nome": "TIAGO BRITO",
       "e": "P",
-      "min": "",
+      "min": "21",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
@@ -4026,6 +4026,6 @@
    }
   }
  ],
- "ts": 1791233079960,
+ "ts": 1791233088771,
  "build": "20260915132319"
 }

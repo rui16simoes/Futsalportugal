@@ -3229,6 +3229,12 @@
      "m": 35,
      "lado": "casa",
      "txt": "Mais uma vez Octávio frente a Moreira, leva a melhor novamente o guarda-redes"
+    },
+    {
+     "id": "l1791228775877",
+     "m": 35,
+     "lado": "fora",
+     "txt": "Time-Out Solicitado por Bruno Guimarães"
     }
    ],
    "faltas": [
@@ -4049,6 +4055,6 @@
    }
   }
  ],
- "ts": 1791228760638,
+ "ts": 1791228778380,
  "build": "20260915132319"
 }

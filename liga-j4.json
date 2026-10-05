@@ -2406,6 +2406,12 @@
      "m": "16",
      "lado": "fora",
      "txt": "Paulo Major remata de pé esquerdo na direita e Jackson Ryan volta a defender."
+    },
+    {
+     "id": "u19",
+     "m": "16",
+     "lado": "casa",
+     "txt": "Pausa técnica pedida pelo UPVN."
     }
    ],
    "faltas": [
@@ -3593,6 +3599,6 @@
    }
   }
  ],
- "ts": 1791196311594,
+ "ts": 1791196368702,
  "build": "20260915132319"
 }

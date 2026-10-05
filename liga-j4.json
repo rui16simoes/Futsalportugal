@@ -2363,7 +2363,13 @@
      "id": "u11",
      "m": "9",
      "lado": "casa",
-     "txt": "GOLO DO UPVN! Assistência de Luís Nunes e Dura abre o marcador. UP Venda Nova 1-0 SCU Torreense."
+     "txt": "GOLO DO UPVN! Boa combinação da equipa da casa: Luís Nunes atrai o guarda redes do Torreense e serve Dura na ala contrária, que remata de primeira para o fundo da baliza. UP Venda Nova 1-0 SCU Torreense."
+    },
+    {
+     "id": "u12",
+     "m": "9",
+     "lado": "fora",
+     "txt": "Pausa técnica pedida pelo Torreense."
     }
    ],
    "faltas": [
@@ -3551,6 +3557,6 @@
    }
   }
  ],
- "ts": 1791195543579,
+ "ts": 1791195603596,
  "build": "20260915132319"
 }

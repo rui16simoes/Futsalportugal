@@ -3187,6 +3187,12 @@
      "m": 24,
      "lado": "fora",
      "txt": "Dorda recupera a bola no canto do Ferreira, segue para a baliza de Pedro Martinho mas remata ao lado"
+    },
+    {
+     "id": "l1791227634964",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Canto na direita do ataque do Ferreira, Kaká remata e Sandro Silva dentro da área desvia para o fundo da baliza vilacondense."
     }
    ],
    "faltas": [
@@ -3979,6 +3985,6 @@
    }
   }
  ],
- "ts": 1791227499016,
+ "ts": 1791227637466,
  "build": "20260915132319"
 }

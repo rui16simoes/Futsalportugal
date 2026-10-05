@@ -3263,11 +3263,21 @@
      {
       "num": "90",
       "nome": "GUILHERME FERREIRA",
-      "e": "S",
+      "e": "",
       "min": "",
       "cart": "",
       "ass": "",
       "foto": ""
+     },
+     {
+      "num": "90",
+      "nome": "GUILHERME CANUTO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/86/53/1158653_guilherme_ferreira_20251120190532.png",
+      "extra": 1
      }
     ]
    },
@@ -3838,6 +3848,6 @@
    }
   }
  ],
- "ts": 1791222856855,
+ "ts": 1791223006607,
  "build": "20260915132319"
 }

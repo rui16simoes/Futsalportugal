@@ -3641,6 +3641,12 @@
      "m": 30,
      "lado": "casa",
      "txt": "Tomás Colaço remata para defesa de Xot"
+    },
+    {
+     "id": "l1791234249381",
+     "m": 32,
+     "lado": "fora",
+     "txt": "Canto na esquerda do ataque do Famalicão cobrado por Ruizinho, coloca a bola em Guga que sozinho e com tudo para fazer golo atira por cima"
     }
    ],
    "faltas": [
@@ -4114,6 +4120,6 @@
    }
   }
  ],
- "ts": 1791234204475,
+ "ts": 1791234251884,
  "build": "20260915132319"
 }

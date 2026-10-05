@@ -3139,6 +3139,12 @@
      "m": 13,
      "lado": "casa",
      "txt": "Time-Out Solicitado por Cristiano Coelho"
+    },
+    {
+     "id": "l1791225288613",
+     "m": 16,
+     "lado": "casa",
+     "txt": "Jogada individual de Wendell na esquerda do ataque, remata a bola é desviada por Moreira, o guarda-redes do Rio Ave e segue para o fundo das redes, está feito o 1-0"
     }
    ],
    "faltas": [
@@ -3924,6 +3930,6 @@
    }
   }
  ],
- "ts": 1791225225091,
+ "ts": 1791225291116,
  "build": "20260915132319"
 }

@@ -3463,7 +3463,15 @@
      "txt": "João Miguel foi bem desmarcado na direita e rematou para grande defesa de Danti"
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "f1791230228060",
+     "lado": "fora",
+     "parte": 1,
+     "m": 4,
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -3863,6 +3871,6 @@
    }
   }
  ],
- "ts": 1791230226749,
+ "ts": 1791230230563,
  "build": "20260915132319"
 }

@@ -2393,7 +2393,7 @@
      "id": "u16",
      "m": "12",
      "lado": "casa",
-     "txt": "GOLO DO UPVN! Lucas Veras bisa logo a seguir. UP Venda Nova 3-0 SCU Torreense."
+     "txt": "GOLO DO UPVN! Assistência de Sissi e Lucas Veras bisa logo a seguir. UP Venda Nova 3-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2552,7 +2552,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "12",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/95/170995_sissi_20241019155500.jpg"
      },
      {
@@ -3581,6 +3581,6 @@
    }
   }
  ],
- "ts": 1791195944595,
+ "ts": 1791196065898,
  "build": "20260915132319"
 }

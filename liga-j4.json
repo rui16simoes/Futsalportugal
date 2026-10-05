@@ -3581,6 +3581,12 @@
      "m": 21,
      "lado": "casa",
      "txt": "Mais um! Erro enorme de Rego na construção, em zona adiantada, e Tiago Brito, com a baliza deserta, rematou antes de meio campo para o 2-0"
+    },
+    {
+     "id": "l1791233147619",
+     "m": 22,
+     "lado": "fora",
+     "txt": "Guga recebe em zona de pivo mas Danti defende, grande defesa do 1 do Braga"
     }
    ],
    "faltas": [
@@ -4026,6 +4032,6 @@
    }
   }
  ],
- "ts": 1791233088771,
+ "ts": 1791233150121,
  "build": "20260915132319"
 }

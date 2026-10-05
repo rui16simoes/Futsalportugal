@@ -3521,6 +3521,12 @@
      "m": 12,
      "lado": "fora",
      "txt": "Time-Out solicitado por Cláudio Martins"
+    },
+    {
+     "id": "l1791231484813",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Boa combinação entre Luís Fernandes e Airoso, o brasileiro rematou, mas ninguém surgiu para desviar"
     }
    ],
    "faltas": [
@@ -3938,6 +3944,6 @@
    }
   }
  ],
- "ts": 1791231445176,
+ "ts": 1791231487314,
  "build": "20260915132319"
 }

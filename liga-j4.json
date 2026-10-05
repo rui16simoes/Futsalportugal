@@ -2334,6 +2334,12 @@
      "m": "6",
      "lado": "fora",
      "txt": "Tintim volta a tentar, com um remate cruzado que sai pouco ao lado."
+    },
+    {
+     "id": "u7",
+     "m": "6",
+     "lado": "fora",
+     "txt": "Vitinho tira dois adversários do caminho na direita; na sobra, Nicolas Tomé remata e a bola sai desviada."
     }
    ],
    "faltas": [
@@ -3521,6 +3527,6 @@
    }
   }
  ],
- "ts": 1791195106597,
+ "ts": 1791195165597,
  "build": "20260915132319"
 }

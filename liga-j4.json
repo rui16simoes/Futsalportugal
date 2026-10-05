@@ -3569,6 +3569,12 @@
      "m": 19,
      "lado": "casa",
      "txt": "Mamadu remata rasteiro para defesa de Gui"
+    },
+    {
+     "id": "l1791232134989",
+     "m": 20,
+     "lado": "casa",
+     "txt": "Grande trabakho de Tiago Brito, serviu Claudino mas o argentino chegou atrasado"
     }
    ],
    "faltas": [
@@ -4014,6 +4020,6 @@
    }
   }
  ],
- "ts": 1791232101563,
+ "ts": 1791232137492,
  "build": "20260915132319"
 }

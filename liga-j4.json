@@ -3844,7 +3844,7 @@
       "num": "90",
       "nome": "DANIEL AIROSO",
       "e": "S",
-      "min": "24",
+      "min": "23",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/46/02/16724602_daniel_airoso_20260803101417.png"
@@ -4069,6 +4069,6 @@
    }
   }
  ],
- "ts": 1791233496882,
+ "ts": 1791233503552,
  "build": "20260915132319"
 }

@@ -3241,6 +3241,12 @@
      "m": 36,
      "lado": "casa",
      "txt": "Inacreditável o que acabou de acontecer, Mourinha leva a bola para o ataque, o Rio Ave não tinha ninguém na baliza, Moreira tinha subido no terreno, o jovem Mourinha assistiu Octávio e com tudo para fazer golo atirou ao lado, incrível"
+    },
+    {
+     "id": "l1791228932091",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Time-Out solicitiado por Cristiano Coelho"
     }
    ],
    "faltas": [
@@ -4061,6 +4067,6 @@
    }
   }
  ],
- "ts": 1791228911489,
+ "ts": 1791228934594,
  "build": "20260915132319"
 }

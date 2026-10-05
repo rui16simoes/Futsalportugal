@@ -2586,6 +2586,12 @@
      "m": "38",
      "lado": "casa",
      "txt": "Pausa técnica pedida pelo UPVN."
+    },
+    {
+     "id": "u49",
+     "m": "39",
+     "lado": "fora",
+     "txt": "Cartão amarelo para Jair Pereira."
     }
    ],
    "faltas": [
@@ -2942,7 +2948,7 @@
       "nome": "JAIR PEREIRA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "39",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/48/1305748_jair_pereira_20250702155048.png"
      },
@@ -3801,6 +3807,6 @@
    }
   }
  ],
- "ts": 1791199752584,
+ "ts": 1791199808646,
  "build": "20260915132319"
 }

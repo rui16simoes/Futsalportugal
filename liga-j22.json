@@ -251,7 +251,7 @@
       "num": "2",
       "nome": "TIAGO REIS",
       "e": "",
-      "min": "",
+      "min": "1",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/31/760331_tiago_reis_20251202210925.png"
@@ -2518,6 +2518,6 @@
    }
   }
  ],
- "ts": 1791241115667,
+ "ts": 1791241150668,
  "build": "20260915132319"
 }

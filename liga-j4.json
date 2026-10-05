@@ -3262,21 +3262,21 @@
      },
      {
       "num": "90",
-      "nome": "GUILHERME FERREIRA",
-      "e": "",
-      "min": "",
-      "cart": "",
-      "ass": "",
-      "foto": ""
-     },
-     {
-      "num": "90",
       "nome": "GUILHERME CANUTO",
       "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/86/53/1158653_guilherme_ferreira_20251120190532.png",
+      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/86/53/1158653_guilherme_ferreira_20251120190532.png"
+     },
+     {
+      "num": "90",
+      "nome": "GUILHERME FERREIRA",
+      "e": "",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
       "extra": 1
      }
     ]
@@ -3300,7 +3300,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -3848,6 +3848,6 @@
    }
   }
  ],
- "ts": 1791223006607,
+ "ts": 1791223206297,
  "build": "20260915132319"
 }

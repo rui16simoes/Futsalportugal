@@ -3677,6 +3677,12 @@
      "m": 35,
      "lado": "casa",
      "txt": "Airoso remata para boa defesa de Xot"
+    },
+    {
+     "id": "l1791234867626",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Entra Gonçalo na baliza do Braga"
     }
    ],
    "faltas": [
@@ -4185,6 +4191,6 @@
    }
   }
  ],
- "ts": 1791234846497,
+ "ts": 1791234870129,
  "build": "20260915132319"
 }

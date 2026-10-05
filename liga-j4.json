@@ -4110,7 +4110,7 @@
       "nome": "GUGA",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "33",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/51/84/16715184_guga_20260730225300.png"
      },
@@ -4127,6 +4127,6 @@
    }
   }
  ],
- "ts": 1791234292577,
+ "ts": 1791234301895,
  "build": "20260915132319"
 }

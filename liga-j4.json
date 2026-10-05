@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 960
+    "acc": 1020
    },
    "lances": [
     {
@@ -2418,6 +2418,12 @@
      "m": "16",
      "lado": "fora",
      "txt": "Paulo Major tem caminho aberto para a baliza; o remate não sai o melhor, mas obriga Jackson Ryan a defender."
+    },
+    {
+     "id": "u21",
+     "m": "17",
+     "lado": "fora",
+     "txt": "Paulo Major volta a tentar, com um remate colocado que sai pouco ao lado."
     }
    ],
    "faltas": [
@@ -3605,6 +3611,6 @@
    }
   }
  ],
- "ts": 1791196425594,
+ "ts": 1791196481594,
  "build": "20260915132319"
 }

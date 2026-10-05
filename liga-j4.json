@@ -2568,6 +2568,18 @@
      "m": "38",
      "lado": "fora",
      "txt": "Bom passe de Nicolas Tomé para Felipinho na área, que não consegue aproveitar."
+    },
+    {
+     "id": "u46",
+     "m": "38",
+     "lado": "casa",
+     "txt": "Luís Nunes fica perto do quinto, com um jogador de campo do Torreense na baliza, mas falha a pontaria."
+    },
+    {
+     "id": "u47",
+     "m": "38",
+     "lado": "casa",
+     "txt": "GOLO DO UPVN! Assistência de Dura e Luís Nunes faz o quinto. UP Venda Nova 5-1 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2754,7 +2766,7 @@
       "num": "10",
       "nome": "LUÍS NUNES",
       "e": "S",
-      "min": "",
+      "min": "38",
       "cart": "",
       "ass": "9",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/93/25/1139325_luis_nunes_20240614105709.png"
@@ -2765,7 +2777,7 @@
       "e": "S",
       "min": "9",
       "cart": "",
-      "ass": "",
+      "ass": "38",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/57/47/1305747_dura_20250702155047.png"
      },
      {
@@ -3776,6 +3788,6 @@
    }
   }
  ],
- "ts": 1791199541838,
+ "ts": 1791199598586,
  "build": "20260915132319"
 }

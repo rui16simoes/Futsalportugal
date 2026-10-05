@@ -3527,6 +3527,12 @@
      "m": 14,
      "lado": "casa",
      "txt": "Boa combinação entre Luís Fernandes e Airoso, o brasileiro rematou, mas ninguém surgiu para desviar"
+    },
+    {
+     "id": "l1791231516197",
+     "m": 14,
+     "lado": "casa",
+     "txt": "Mais uma vez Airoso a dançar em cima do adversário, mas gui defendeu o seu remate"
     }
    ],
    "faltas": [
@@ -3944,6 +3950,6 @@
    }
   }
  ],
- "ts": 1791231487314,
+ "ts": 1791231518700,
  "build": "20260915132319"
 }

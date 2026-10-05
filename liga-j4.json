@@ -3432,10 +3432,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
     "acc": 1098.965,
-    "desde": 0
+    "desde": 1791235202791
    },
    "lances": [
     {
@@ -3689,6 +3689,12 @@
      "m": 38,
      "lado": "fora",
      "txt": "Gonçalo por duas vezes a negar o golo a João Miguel e a Jefferson"
+    },
+    {
+     "id": "l1791235201638",
+     "m": 39,
+     "lado": "fora",
+     "txt": "Mais uma boa defesa de Gonçalo desta feita a remate de Rúben"
     }
    ],
    "faltas": [
@@ -4197,6 +4203,6 @@
    }
   }
  ],
- "ts": 1791235175045,
+ "ts": 1791235205293,
  "build": "20260915132319"
 }

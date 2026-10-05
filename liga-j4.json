@@ -3592,7 +3592,7 @@
       "num": "13",
       "nome": "BEBÉ",
       "e": "P",
-      "min": "",
+      "min": "38",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/28/86/512886_bebe_20241106162930.jpg"
@@ -4067,6 +4067,6 @@
    }
   }
  ],
- "ts": 1791229181002,
+ "ts": 1791229193050,
  "build": "20260915132319"
 }

@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 60
+    "acc": 120
    },
    "lances": [
     {
@@ -2454,6 +2454,24 @@
      "m": "21",
      "lado": "casa",
      "txt": "Primeira ameaça da 2.ª parte: Luís Nunes remata e Tiago Correia defende."
+    },
+    {
+     "id": "u27",
+     "m": "22",
+     "lado": "casa",
+     "txt": "Dura insiste no último terço e o UPVN fica perto do quarto golo."
+    },
+    {
+     "id": "u28",
+     "m": "22",
+     "lado": "casa",
+     "txt": "André Galvão fica cara a cara com Tiago Correia, que faz uma grande defesa."
+    },
+    {
+     "id": "u29",
+     "m": "22",
+     "lado": "casa",
+     "txt": "GOLO DO UPVN! Tomás Silva faz o quarto. UP Venda Nova 4-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2574,7 +2592,7 @@
       "num": "21",
       "nome": "TOMÁS SILVA",
       "e": "S",
-      "min": "",
+      "min": "22",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/55/03/665503_tomas_silva_20250919112617.jpg"
@@ -3641,6 +3659,6 @@
    }
   }
  ],
- "ts": 1791197685602,
+ "ts": 1791197743591,
  "build": "20260915132319"
 }

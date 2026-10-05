@@ -2412,6 +2412,12 @@
      "m": "16",
      "lado": "casa",
      "txt": "Pausa técnica pedida pelo UPVN."
+    },
+    {
+     "id": "u20",
+     "m": "16",
+     "lado": "fora",
+     "txt": "Paulo Major tem caminho aberto para a baliza; o remate não sai o melhor, mas obriga Jackson Ryan a defender."
     }
    ],
    "faltas": [
@@ -3599,6 +3605,6 @@
    }
   }
  ],
- "ts": 1791196368702,
+ "ts": 1791196425594,
  "build": "20260915132319"
 }

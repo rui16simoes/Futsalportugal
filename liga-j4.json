@@ -3629,6 +3629,12 @@
      "m": 27,
      "lado": "casa",
      "txt": "Danti sobe no terreno, dá a bola em Airoso este coloca a bola dentro da área onde Barreto faz o 6-0"
+    },
+    {
+     "id": "l1791233836888",
+     "m": 28,
+     "lado": "fora",
+     "txt": "Entra Xot na baliza do Famalicão"
     }
    ],
    "faltas": [
@@ -4088,6 +4094,6 @@
    }
   }
  ],
- "ts": 1791233810854,
+ "ts": 1791233839391,
  "build": "20260915132319"
 }

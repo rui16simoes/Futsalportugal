@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 660
+    "acc": 780
    },
    "lances": [
     {
@@ -2526,6 +2526,12 @@
      "m": "31",
      "lado": "fora",
      "txt": "O Torreense arrisca o 5x4, com Nicolas Tomé como guarda redes avançado."
+    },
+    {
+     "id": "u39",
+     "m": "33",
+     "lado": "fora",
+     "txt": "Dura escorrega e o Torreense remata, mas Jackson Ryan trava com o peito."
     }
    ],
    "faltas": [
@@ -3727,6 +3733,6 @@
    }
   }
  ],
- "ts": 1791198863588,
+ "ts": 1791199015589,
  "build": "20260915132319"
 }

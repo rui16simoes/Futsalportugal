@@ -3539,6 +3539,12 @@
      "m": 17,
      "lado": "casa",
      "txt": "Mais um remate de Gui mas Danti defendeu para canto"
+    },
+    {
+     "id": "l1791231738221",
+     "m": 17,
+     "lado": "casa",
+     "txt": "Grande lance de Mamadu mas na hora de rematar atirou por cima"
     }
    ],
    "faltas": [
@@ -3970,6 +3976,6 @@
    }
   }
  ],
- "ts": 1791231717622,
+ "ts": 1791231740724,
  "build": "20260915132319"
 }

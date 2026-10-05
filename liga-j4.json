@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 600
+    "acc": 660
    },
    "lances": [
     {
@@ -2382,6 +2382,12 @@
      "m": "10",
      "lado": "fora",
      "txt": "Paulo Major remata de pé direito e obriga Jackson Ryan a estar atento."
+    },
+    {
+     "id": "u15",
+     "m": "11",
+     "lado": "casa",
+     "txt": "GOLO DO UPVN! Lucas Veras faz o segundo. UP Venda Nova 2-0 SCU Torreense."
     }
    ],
    "faltas": [
@@ -2574,7 +2580,7 @@
       "num": "20",
       "nome": "LUCAS VERAS",
       "e": "S",
-      "min": "",
+      "min": "11",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/06/76/1550676_lucas_veras_20260909160534.png"
@@ -3569,6 +3575,6 @@
    }
   }
  ],
- "ts": 1791195766597,
+ "ts": 1791195830595,
  "build": "20260915132319"
 }

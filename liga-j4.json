@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 1,
-    "acc": 120
+    "acc": 180
    },
    "lances": [
     {
@@ -2318,7 +2318,22 @@
      "txt": "Tintim remata à entrada da área e fica perto do golo, mas Jackson Ryan volta a defender, desta vez com o pé."
     }
    ],
-   "faltas": [],
+   "faltas": [
+    {
+     "id": "uf1",
+     "lado": "casa",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    },
+    {
+     "id": "uf2",
+     "lado": "fora",
+     "parte": 1,
+     "m": "",
+     "n": 1
+    }
+   ],
    "gp": {
     "casa": [
      {
@@ -2406,7 +2421,7 @@
       "min": "",
       "cart": "",
       "ass": "",
-      "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/09/1045909_afonso_silva_20251021074233.jpg"
+      "foto": "https://imagehandler.fpf.pt/ScoreImageHandler.ashx?type=Person&id=4501553&op=t&w=202&h=249"
      },
      {
       "num": "2",
@@ -3488,6 +3503,6 @@
    }
   }
  ],
- "ts": 1791194651599,
+ "ts": 1791194804598,
  "build": "20260915132319"
 }

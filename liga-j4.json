@@ -2296,7 +2296,7 @@
    "relogio": {
     "estado": "parado",
     "parte": 2,
-    "acc": 360
+    "acc": 540
    },
    "lances": [
     {
@@ -2499,9 +2499,15 @@
     },
     {
      "id": "u34",
-     "m": "26",
+     "m": "27",
      "lado": "fora",
      "txt": "Paulo Major tenta finalizar na direita, mas falha o alvo."
+    },
+    {
+     "id": "u35",
+     "m": "29",
+     "lado": "casa",
+     "txt": "Lucas Veras remata de primeira ao primeiro poste e fica perto do hat-trick, mas Tiago Correia trava."
     }
    ],
    "faltas": [
@@ -3703,6 +3709,6 @@
    }
   }
  ],
- "ts": 1791198285592,
+ "ts": 1791198552589,
  "build": "20260915132319"
 }

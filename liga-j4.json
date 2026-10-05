@@ -3892,7 +3892,7 @@
       "num": "87",
       "nome": "BARRETO",
       "e": "S",
-      "min": "",
+      "min": "27",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/45/1808945_barreto_20260126082415.jpg"
@@ -4081,6 +4081,6 @@
    }
   }
  ],
- "ts": 1791233760798,
+ "ts": 1791233768770,
  "build": "20260915132319"
 }

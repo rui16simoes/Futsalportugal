@@ -3181,6 +3181,12 @@
      "m": 24,
      "lado": "casa",
      "txt": "Francisco Silva dentro da área do Ferreira remata, mas mais uma vez Pedro Martinho a defender com o pé esquerdo"
+    },
+    {
+     "id": "l1791227166990",
+     "m": 24,
+     "lado": "fora",
+     "txt": "Dorda recupera a bola no canto do Ferreira, segue para a baliza de Pedro Martinho mas remata ao lado"
     }
    ],
    "faltas": [
@@ -3973,6 +3979,6 @@
    }
   }
  ],
- "ts": 1791227107603,
+ "ts": 1791227169843,
  "build": "20260915132319"
 }

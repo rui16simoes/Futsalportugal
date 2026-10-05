@@ -3587,6 +3587,12 @@
      "m": 22,
      "lado": "fora",
      "txt": "Guga recebe em zona de pivo mas Danti defende, grande defesa do 1 do Braga"
+    },
+    {
+     "id": "l1791233195818",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Ricardo marca o canto na ala esquerda do ataque para o balão e Claudino de primeira atira a contar 3-0"
     }
    ],
    "faltas": [
@@ -4032,6 +4038,6 @@
    }
   }
  ],
- "ts": 1791233157176,
+ "ts": 1791233198324,
  "build": "20260915132319"
 }

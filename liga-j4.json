@@ -3074,10 +3074,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
     "acc": 538.33,
-    "desde": 0
+    "desde": 1791227937282
    },
    "lances": [
     {
@@ -3199,6 +3199,12 @@
      "m": 29,
      "lado": "fora",
      "txt": "Na sequência do Livre, Rúben Freire remata direto à baliza de Pedro Martinho, mas o guarda-redes levou a melhor"
+    },
+    {
+     "id": "l1791227935328",
+     "m": 29,
+     "lado": "fora",
+     "txt": "Canto de Rúben Freire, curto para Serginho o canhoto remata mas Pedro Martinho estava atento"
     }
    ],
    "faltas": [
@@ -4005,6 +4011,6 @@
    }
   }
  ],
- "ts": 1791227907231,
+ "ts": 1791227939784,
  "build": "20260915132319"
 }

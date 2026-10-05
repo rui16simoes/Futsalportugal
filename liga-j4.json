@@ -3439,7 +3439,7 @@
       "nome": "OCTÁVIO ALVES",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "35",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
      },
@@ -4049,6 +4049,6 @@
    }
   }
  ],
- "ts": 1791228683148,
+ "ts": 1791228692672,
  "build": "20260915132319"
 }

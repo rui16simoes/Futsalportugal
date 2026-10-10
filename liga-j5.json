@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
-    "acc": 1200,
-    "desde": 0
+    "acc": 1140,
+    "desde": 1791652120234
    },
    "lances": [
     {
@@ -487,7 +487,7 @@
       "num": "6",
       "nome": "TIAGO BRITO",
       "e": "P",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/38/71/133871_tiago_brito_20241106162841.jpg"
@@ -2573,6 +2573,6 @@
    }
   }
  ],
- "ts": 1791652052903,
+ "ts": 1791652127097,
  "build": "20260915132319"
 }

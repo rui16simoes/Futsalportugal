@@ -1010,8 +1010,8 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 2,
-    "acc": 780,
-    "desde": 1791654381479
+    "acc": 840,
+    "desde": 1791654837277
    },
    "lances": [
     {
@@ -1366,7 +1366,7 @@
       "num": "7",
       "nome": "RUI FORTES",
       "e": "S",
-      "min": "16",
+      "min": "16,34",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
@@ -2593,6 +2593,6 @@
    }
   }
  ],
- "ts": 1791654436187,
+ "ts": 1791654846615,
  "build": "20260915132319"
 }

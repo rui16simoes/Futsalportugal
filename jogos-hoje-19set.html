@@ -4429,14 +4429,11 @@ function scrollNav(amount) {
 // ── INIT ──────────────────────────────────────────────────────────────────────
 (function() {
   const hash = location.hash.replace('#','');
-  const savedDate = localStorage.getItem('fsDate');
-  const todayStr = new Date().toISOString().slice(0,10);
+  const todayStr = (function(){const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0');})();
   const keys = Object.keys(DAYS);
   let selected;
   if (DAYS[hash]) {
     selected = hash;
-  } else if (DAYS[savedDate]) {
-    selected = savedDate;
   } else if (DAYS[todayStr]) {
     selected = todayStr;
   } else {

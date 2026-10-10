@@ -355,7 +355,7 @@
       "num": "20",
       "nome": "HENRIQUE VICENTE",
       "e": "P",
-      "min": "",
+      "min": "12",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
@@ -2559,6 +2559,6 @@
    }
   }
  ],
- "ts": 1791647751069,
+ "ts": 1791648031224,
  "build": "20260915132319"
 }

@@ -1740,7 +1740,7 @@
       "num": "33",
       "nome": "ADAÍLTON SOUZA",
       "e": "",
-      "min": "",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/93/55/16659355_adailton_souza_20260712235656.png"
@@ -2609,6 +2609,6 @@
    }
   }
  ],
- "ts": 1791657347249,
+ "ts": 1791657389940,
  "build": "20260915132319"
 }

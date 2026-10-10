@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
-    "acc": 720,
-    "desde": 0
+    "acc": 840,
+    "desde": 1791648262432
    },
    "lances": [
     {
@@ -355,7 +355,7 @@
       "num": "20",
       "nome": "HENRIQUE VICENTE",
       "e": "P",
-      "min": "12",
+      "min": "12, 14",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/36/16598236_henrique_vicente_20260713222721.png"
@@ -2559,6 +2559,6 @@
    }
   }
  ],
- "ts": 1791648031224,
+ "ts": 1791648268765,
  "build": "20260915132319"
 }

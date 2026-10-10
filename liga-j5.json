@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "intervalo",
-    "parte": 1,
-    "acc": 1200,
-    "desde": 0
+    "estado": "a_correr",
+    "parte": 2,
+    "acc": 60,
+    "desde": 1791649571054
    },
    "lances": [
     {
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791649545620,
+ "ts": 1791649577970,
  "build": "20260915132319"
 }

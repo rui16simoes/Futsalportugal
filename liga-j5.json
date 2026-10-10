@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 660,
-    "desde": 1791647451818
+    "acc": 720,
+    "desde": 0
    },
    "lances": [
     {
@@ -170,6 +170,12 @@
      "m": 9,
      "lado": "fora",
      "txt": "Jogador do SC Braga toca a bola com a mão no carrinho, no lance que dá a grande penalidade."
+    },
+    {
+     "id": "lt1791647742705",
+     "m": 12,
+     "lado": "",
+     "txt": "Primeiro desconto de tempo da partida."
     }
    ],
    "faltas": [
@@ -2553,6 +2559,6 @@
    }
   }
  ],
- "ts": 1791647457973,
+ "ts": 1791647751069,
  "build": "20260915132319"
 }

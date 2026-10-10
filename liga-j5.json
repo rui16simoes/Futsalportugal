@@ -1001,12 +1001,19 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "intervalo",
     "parte": 1,
-    "acc": 1080,
-    "desde": 1791651909897
+    "acc": 1200,
+    "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "li1791652525149",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo."
+    }
+   ],
    "faltas": [
     {
      "id": "fc3_1791651784778",
@@ -2579,6 +2586,6 @@
    }
   }
  ],
- "ts": 1791652244153,
+ "ts": 1791652528955,
  "build": "20260915132319"
 }

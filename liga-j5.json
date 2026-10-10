@@ -2223,12 +2223,30 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
     "acc": 1200,
     "desde": 0
    },
    "lances": [
+    {
+     "id": "z17916690802970",
+     "m": 9,
+     "lado": "casa",
+     "txt": "Cartão amarelo para Natan Minatti (Leões Porto Salvo)."
+    },
+    {
+     "id": "z17916690802971",
+     "m": 10,
+     "lado": "casa",
+     "txt": "Cartão amarelo para Isaías Furtado (Leões Porto Salvo)."
+    },
+    {
+     "id": "z17916690802972",
+     "m": 11,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Tomás Paçó."
+    },
     {
      "id": "lt1791665822483",
      "m": 19,
@@ -2246,6 +2264,54 @@
      "m": 23,
      "lado": "casa",
      "txt": "Cartão amarelo para o treinador do Sporting, Nuno Dias."
+    },
+    {
+     "id": "z17916690802973",
+     "m": 24,
+     "lado": "casa",
+     "txt": "Cartão amarelo para Machado (Leões Porto Salvo)."
+    },
+    {
+     "id": "z17916690802974",
+     "m": 25,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Tomás Paçó."
+    },
+    {
+     "id": "z17916690802975",
+     "m": 27,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Rocha."
+    },
+    {
+     "id": "z17916690802976",
+     "m": 28,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Wesley."
+    },
+    {
+     "id": "z17916690802977",
+     "m": 34,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Rocha."
+    },
+    {
+     "id": "z17916690802978",
+     "m": 36,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Diogo Santos."
+    },
+    {
+     "id": "z17916690802979",
+     "m": 37,
+     "lado": "casa",
+     "txt": "Golo do Sporting: Rocha."
+    },
+    {
+     "id": "z179166908029710",
+     "m": 40,
+     "lado": "",
+     "txt": "Final do jogo: Sporting 7-0 Leões Porto Salvo. Vitória do Sporting."
     }
    ],
    "faltas": [],
@@ -2342,7 +2408,7 @@
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "P",
-      "min": "11",
+      "min": "11,25",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
@@ -2360,7 +2426,7 @@
       "num": "8",
       "nome": "WESLEY",
       "e": "P",
-      "min": "",
+      "min": "28",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/51/16484851_wesley_20260830154733.jpg"
@@ -2378,9 +2444,9 @@
       "num": "7",
       "nome": "DIOGO SANTOS",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
-      "ass": "",
+      "ass": "25",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/46/16484846_diogo_santos_20260830154904.jpg"
      },
      {
@@ -2389,7 +2455,7 @@
       "e": "S",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "36,37",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/99/73/16619973_ruben_teixeira_20260830154931.jpg"
      },
      {
@@ -2459,7 +2525,7 @@
       "num": "70",
       "nome": "ROCHA",
       "e": "P",
-      "min": "",
+      "min": "27,34,37",
       "cart": "",
       "ass": "11",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
@@ -2523,7 +2589,7 @@
       "nome": "MACHADO",
       "e": "P",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/54/55/16605455_machado_20260908152025.jpg"
      },
@@ -2586,7 +2652,7 @@
       "nome": "NATAN MINATTI",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/91/07/16619107_natan_minatti_20260908151531.jpg"
      },
@@ -2640,7 +2706,7 @@
       "nome": "ISAÍAS FURTADO",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "16",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
      },
@@ -2668,6 +2734,6 @@
    }
   }
  ],
- "ts": 1791668167293,
+ "ts": 1791669111623,
  "build": "20260915132319"
 }

@@ -995,10 +995,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 1791650064530
+    "acc": 1200,
+    "desde": 0
    },
    "lances": [],
    "faltas": [],
@@ -1105,7 +1105,7 @@
       "nome": "BUZUZU",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "14",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/38/421338_buzuzu_20251107083104.png"
      },
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791651260840,
+ "ts": 1791651413730,
  "build": "20260915132319"
 }

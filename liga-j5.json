@@ -988,6 +988,16 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/56/74/1305674_andre_galvao_20250702124450.png"
+     },
+     {
+      "num": "77",
+      "nome": "GERSON SANCHES",
+      "e": "S",
+      "min": "40",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
@@ -2599,6 +2609,6 @@
    }
   }
  ],
- "ts": 1791657058182,
+ "ts": 1791657103982,
  "build": "20260915132319"
 }

@@ -2223,10 +2223,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
-    "desde": 0
+    "estado": "a_correr",
+    "parte": 2,
+    "acc": 180,
+    "desde": 1791667063370
    },
    "lances": [
     {
@@ -2234,6 +2234,18 @@
      "m": 19,
      "lado": "casa",
      "txt": "Pausa técnica pedida pelo Sporting."
+    },
+    {
+     "id": "li1791667063370",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo."
+    },
+    {
+     "id": "lc1791667063370",
+     "m": 23,
+     "lado": "casa",
+     "txt": "Cartão amarelo para o treinador do Sporting, Nuno Dias."
     }
    ],
    "faltas": [],
@@ -2656,6 +2668,6 @@
    }
   }
  ],
- "ts": 1791665947184,
+ "ts": 1791667068167,
  "build": "20260915132319"
 }

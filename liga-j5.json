@@ -1454,7 +1454,7 @@
    },
    "casa": {
     "eq": "torreense",
-    "golos": "",
+    "golos": 1,
     "capitao": "",
     "treinador": "NANÁ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
@@ -1625,7 +1625,7 @@
    },
    "fora": {
     "eq": "portimonense",
-    "golos": "",
+    "golos": 0,
     "capitao": "",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -2593,6 +2593,6 @@
    }
   }
  ],
- "ts": 1791654846615,
+ "ts": 1791654940482,
  "build": "20260915132319"
 }

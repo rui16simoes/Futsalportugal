@@ -164,6 +164,12 @@
      "m": 14,
      "lado": "casa",
      "txt": "Grande penalidade a favor do Eléctrico, após um lance confuso. Assinalada pelo árbitro Filipe Duarte."
+    },
+    {
+     "id": "lb1791647354950",
+     "m": 14,
+     "lado": "fora",
+     "txt": "Jogador do SC Braga toca a bola com a mão no carrinho, no lance que dá a grande penalidade."
     }
    ],
    "faltas": [
@@ -187,6 +193,13 @@
      "parte": 1,
      "m": 7,
      "n": 3
+    },
+    {
+     "id": "fb1_1",
+     "lado": "fora",
+     "parte": 1,
+     "m": 14,
+     "n": 1
     }
    ],
    "gp": {
@@ -2540,6 +2553,6 @@
    }
   }
  ],
- "ts": 1791647332738,
+ "ts": 1791647360973,
  "build": "20260915132319"
 }

@@ -1405,10 +1405,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
-    "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "estado": "a_correr",
+    "parte": 2,
+    "acc": 900,
+    "desde": 1791656685785
    },
    "lances": [],
    "faltas": [],
@@ -1622,7 +1622,7 @@
       "num": "90",
       "nome": "TINTIM",
       "e": "",
-      "min": "11",
+      "min": "11,27",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/51/53/1065153_tintim_20250818194800.png"
@@ -2599,6 +2599,6 @@
    }
   }
  ],
- "ts": 1791656641974,
+ "ts": 1791656689975,
  "build": "20260915132319"
 }

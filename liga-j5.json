@@ -1834,10 +1834,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 1,
-    "acc": 0,
-    "desde": 1791657222575
+    "acc": 1200,
+    "desde": 0
    },
    "lances": [],
    "faltas": [],
@@ -1943,7 +1943,7 @@
       "num": "12",
       "nome": "PELÉH",
       "e": "S",
-      "min": "",
+      "min": "7",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/05/25/16730525_peleh_20260807164057.png"
@@ -2616,6 +2616,6 @@
    }
   }
  ],
- "ts": 1791657402038,
+ "ts": 1791658629494,
  "build": "20260915132319"
 }

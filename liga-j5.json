@@ -671,7 +671,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": "",
+    "golos": 3,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -815,7 +815,7 @@
    },
    "fora": {
     "eq": "upvn",
-    "golos": "",
+    "golos": 1,
     "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
@@ -2586,6 +2586,6 @@
    }
   }
  ],
- "ts": 1791652528955,
+ "ts": 1791653405159,
  "build": "20260915132319"
 }

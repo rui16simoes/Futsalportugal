@@ -2225,8 +2225,8 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 1,
-    "acc": 240,
-    "desde": 1791663922759
+    "acc": 660,
+    "desde": 1791664957534
    },
    "lances": [],
    "faltas": [],
@@ -2323,7 +2323,7 @@
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
       "e": "P",
-      "min": "",
+      "min": "11",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/48/48/16484848_tomas_paco_20260830154626.jpg"
@@ -2442,7 +2442,7 @@
       "e": "P",
       "min": "",
       "cart": "",
-      "ass": "",
+      "ass": "11",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/64/36/16476436_rocha_20260830155249.jpg"
      }
     ]
@@ -2649,6 +2649,6 @@
    }
   }
  ],
- "ts": 1791663927278,
+ "ts": 1791664961119,
  "build": "20260915132319"
 }

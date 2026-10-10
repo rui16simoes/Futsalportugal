@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 2,
-    "acc": 300,
-    "desde": 1791650227548
+    "acc": 1200,
+    "desde": 0
    },
    "lances": [
     {
@@ -682,7 +682,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -727,7 +727,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -736,7 +736,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -763,7 +763,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -799,7 +799,7 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -826,7 +826,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -853,7 +853,7 @@
      {
       "num": "2",
       "nome": "ABEL VAZ",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -862,7 +862,7 @@
      {
       "num": "21",
       "nome": "TOMÁS SILVA",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -871,7 +871,7 @@
      {
       "num": "6",
       "nome": "VICENTE MOURATO",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -880,7 +880,7 @@
      {
       "num": "18",
       "nome": "RAFAEL FREIRE",
-      "e": "S",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791650233890,
+ "ts": 1791651217838,
  "build": "20260915132319"
 }

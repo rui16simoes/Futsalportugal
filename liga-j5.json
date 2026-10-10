@@ -671,7 +671,7 @@
    },
    "casa": {
     "eq": "rioave",
-    "golos": 3,
+    "golos": 4,
     "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
@@ -2586,6 +2586,6 @@
    }
   }
  ],
- "ts": 1791653405159,
+ "ts": 1791653418180,
  "build": "20260915132319"
 }

@@ -1460,7 +1460,7 @@
    },
    "casa": {
     "eq": "torreense",
-    "golos": 2,
+    "golos": 3,
     "capitao": "",
     "treinador": "NANÁ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/553/2553_pri__20260606025330_nana.png",
@@ -2599,6 +2599,6 @@
    }
   }
  ],
- "ts": 1791657042080,
+ "ts": 1791657058182,
  "build": "20260915132319"
 }

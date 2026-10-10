@@ -153,9 +153,9 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
-    "acc": 1200,
+    "acc": 1140,
     "desde": 0
    },
    "lances": [
@@ -182,6 +182,12 @@
      "m": 19,
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "lf1791652240022",
+     "m": 39,
+     "lado": "",
+     "txt": "Final do jogo: Eléctrico 3-5 SC Braga. Vitória do SC Braga."
     }
    ],
    "faltas": [
@@ -2573,6 +2579,6 @@
    }
   }
  ],
- "ts": 1791652184144,
+ "ts": 1791652244153,
  "build": "20260915132319"
 }

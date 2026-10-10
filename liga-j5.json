@@ -1087,7 +1087,7 @@
       "nome": "GUILHERME REGO (GR)",
       "e": "S",
       "min": "",
-      "cart": "",
+      "cart": "14",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/90/51/959051_guilherme_oliveira_20251107083142.png"
      },
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791651217838,
+ "ts": 1791651242839,
  "build": "20260915132319"
 }

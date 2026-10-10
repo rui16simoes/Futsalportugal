@@ -155,8 +155,8 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 2,
-    "acc": 60,
-    "desde": 1791649571054
+    "acc": 300,
+    "desde": 1791650227548
    },
    "lances": [
     {
@@ -505,7 +505,7 @@
       "num": "10",
       "nome": "MAMADÚ TURÉ",
       "e": "P",
-      "min": "",
+      "min": "25",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/24/66/392466_mamadu_ture_20250731150424.png"
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791650072839,
+ "ts": 1791650233890,
  "build": "20260915132319"
 }

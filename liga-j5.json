@@ -548,10 +548,10 @@
    "data": "10 de outubro de 2026",
    "hora": "17h00",
    "local": "Pavilhão de Desportos de Vila do Conde",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "JOÃO CUNHA",
+   "arb2": "RENATO PEREIRA",
+   "arb3": "GUSTAVO PEREIRA",
+   "cron": "OCTÁVIO SILVA",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -612,14 +612,14 @@
    "casa": {
     "eq": "rioave",
     "golos": "",
-    "capitao": "",
+    "capitao": "PEDRO RODRIGUES",
     "treinador": "BRUNO GUIMARÃES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/030/38030_bruno_guimaraes_1752579168.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "TOMÁS RAMOS (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -628,7 +628,7 @@
      {
       "num": "12",
       "nome": "MOREIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -637,7 +637,7 @@
      {
       "num": "33",
       "nome": "TIAGO SACRAMENTO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -646,7 +646,7 @@
      {
       "num": "3",
       "nome": "DINIS RAMOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -655,7 +655,7 @@
      {
       "num": "27",
       "nome": "MARTIM CASTELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -664,7 +664,7 @@
      {
       "num": "10",
       "nome": "PEDRO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -673,7 +673,7 @@
      {
       "num": "7",
       "nome": "RÚBEN FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -682,7 +682,7 @@
      {
       "num": "8",
       "nome": "GUSTAVO RODRIGUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -691,7 +691,7 @@
      {
       "num": "11",
       "nome": "ZÉZINHO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -700,7 +700,7 @@
      {
       "num": "13",
       "nome": "BEBÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -709,7 +709,7 @@
      {
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -718,7 +718,7 @@
      {
       "num": "15",
       "nome": "CIGANO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -727,7 +727,7 @@
      {
       "num": "18",
       "nome": "SERGINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -736,7 +736,7 @@
      {
       "num": "4",
       "nome": "FRANCISCO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -745,7 +745,7 @@
      {
       "num": "19",
       "nome": "MARTÍN DORDA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -756,14 +756,14 @@
    "fora": {
     "eq": "upvn",
     "golos": "",
-    "capitao": "",
+    "capitao": "DURA",
     "treinador": "ALCIDES LOPES",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/568/5568_pri__20260722023714_alcides_lopes.png",
     "jogadores": [
      {
       "num": "16",
       "nome": "LUÍS CORREIA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -772,7 +772,7 @@
      {
       "num": "30",
       "nome": "JACKSON RYAN (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -781,7 +781,7 @@
      {
       "num": "99",
       "nome": "RODRIGO COSTA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -790,7 +790,7 @@
      {
       "num": "99",
       "nome": "AFONSO SILVA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -799,7 +799,7 @@
      {
       "num": "2",
       "nome": "ABEL VAZ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -808,7 +808,7 @@
      {
       "num": "21",
       "nome": "TOMÁS SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -817,7 +817,7 @@
      {
       "num": "6",
       "nome": "VICENTE MOURATO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -826,7 +826,7 @@
      {
       "num": "18",
       "nome": "RAFAEL FREIRE",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -835,7 +835,7 @@
      {
       "num": "7",
       "nome": "LUCAS SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -844,7 +844,7 @@
      {
       "num": "8",
       "nome": "SISSI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -853,7 +853,7 @@
      {
       "num": "10",
       "nome": "LUÍS NUNES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -862,7 +862,7 @@
      {
       "num": "11",
       "nome": "DURA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -871,7 +871,7 @@
      {
       "num": "17",
       "nome": "DIOGO SILVA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -880,7 +880,7 @@
      {
       "num": "20",
       "nome": "LUCAS VERAS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -889,7 +889,7 @@
      {
       "num": "80",
       "nome": "LUÍS MONTES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -898,7 +898,7 @@
      {
       "num": "80",
       "nome": "DAVID TAVARES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -907,7 +907,7 @@
      {
       "num": "26",
       "nome": "VANILSON NAZARÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -916,7 +916,7 @@
      {
       "num": "27",
       "nome": "ANDRÉ GALVÃO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2511,6 +2511,6 @@
    }
   }
  ],
- "build": "20260915132319",
- "ts": 1791120153657
+ "ts": 1791641457853,
+ "build": "20260915132319"
 }

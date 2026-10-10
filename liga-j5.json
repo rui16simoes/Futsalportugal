@@ -1569,7 +1569,7 @@
       "num": "10",
       "nome": "PAULO MAJOR",
       "e": "",
-      "min": "",
+      "min": "38",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/18/37/91837_paulo_major_20250815171244.png"
@@ -2609,6 +2609,6 @@
    }
   }
  ],
- "ts": 1791657226337,
+ "ts": 1791657347249,
  "build": "20260915132319"
 }

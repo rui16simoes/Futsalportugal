@@ -1834,7 +1834,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
     "acc": 1200,
     "desde": 0
@@ -1845,6 +1845,12 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "lf1791663130475",
+     "m": 40,
+     "lado": "",
+     "txt": "Final do jogo: AD Fundão 1-2 SL Benfica. Vitória do SL Benfica."
     }
    ],
    "faltas": [],
@@ -2623,6 +2629,6 @@
    }
   }
  ],
- "ts": 1791662647080,
+ "ts": 1791663135065,
  "build": "20260915132319"
 }

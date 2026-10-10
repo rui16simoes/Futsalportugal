@@ -1834,12 +1834,19 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
-    "parte": 1,
-    "acc": 1200,
-    "desde": 0
+    "estado": "a_correr",
+    "parte": 2,
+    "acc": 660,
+    "desde": 1791662037683
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "li1791662037683",
+     "m": 20,
+     "lado": "",
+     "txt": "Intervalo."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2096,7 +2103,7 @@
       "num": "2",
       "nome": "SILVESTRE FERREIRA",
       "e": "S",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/09/84/170984_silvestre_ferreira_20250919142920.jpg"
@@ -2150,7 +2157,7 @@
       "num": "18",
       "nome": "PANY VARELA",
       "e": "S",
-      "min": "",
+      "min": "29",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/47/06/74706_pany_varela_20250919142750.jpg"
@@ -2616,6 +2623,6 @@
    }
   }
  ],
- "ts": 1791659579248,
+ "ts": 1791662042377,
  "build": "20260915132319"
 }

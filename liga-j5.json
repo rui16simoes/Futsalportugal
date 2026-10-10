@@ -1008,10 +1008,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "final",
     "parte": 2,
-    "acc": 840,
-    "desde": 1791654837277
+    "acc": 1140,
+    "desde": 0
    },
    "lances": [
     {
@@ -1019,6 +1019,12 @@
      "m": 20,
      "lado": "",
      "txt": "Intervalo."
+    },
+    {
+     "id": "lf1791655542624",
+     "m": 39,
+     "lado": "",
+     "txt": "Final do jogo: FC Famalicão 1-3 Ferreira do Zêzere. Vitória do Ferreira do Zêzere."
     }
    ],
    "faltas": [
@@ -1159,7 +1165,7 @@
       "num": "8",
       "nome": "SIMÃO CORDEIRO",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/89/30/768930_simao_cordeiro_20251009112745.png"
@@ -2593,6 +2599,6 @@
    }
   }
  ],
- "ts": 1791655455927,
+ "ts": 1791655546967,
  "build": "20260915132319"
 }

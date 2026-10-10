@@ -155,8 +155,8 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 2,
-    "acc": 840,
-    "desde": 1791651254386
+    "acc": 960,
+    "desde": 1791651659161
    },
    "lances": [
     {
@@ -316,7 +316,7 @@
       "num": "76",
       "nome": "GONÇALO PAIXÃO",
       "e": "S",
-      "min": "",
+      "min": "36",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/12/04/751204_goncalo_paixao_20260128142651.png"
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791651579595,
+ "ts": 1791651666892,
  "build": "20260915132319"
 }

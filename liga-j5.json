@@ -1641,7 +1641,7 @@
    },
    "fora": {
     "eq": "portimonense",
-    "golos": 0,
+    "golos": 1,
     "capitao": "",
     "treinador": "JOSÉ SANTOS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/426/30426_pri__20240912151734_jose_santos.png",
@@ -2609,6 +2609,6 @@
    }
   }
  ],
- "ts": 1791657103982,
+ "ts": 1791657173687,
  "build": "20260915132319"
 }

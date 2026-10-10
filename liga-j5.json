@@ -153,7 +153,7 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "intervalo",
     "parte": 1,
     "acc": 1200,
     "desde": 0
@@ -176,6 +176,12 @@
      "m": 12,
      "lado": "",
      "txt": "Primeiro desconto de tempo da partida."
+    },
+    {
+     "id": "li1791649056610",
+     "m": 19,
+     "lado": "",
+     "txt": "Intervalo."
     }
    ],
    "faltas": [
@@ -517,7 +523,7 @@
       "num": "17",
       "nome": "ÁNGEL CLAUDINO",
       "e": "S",
-      "min": "",
+      "min": "19",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/42/42/16724242_angel_claudino_20260803101539.png"
@@ -2559,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791648726813,
+ "ts": 1791649062825,
  "build": "20260915132319"
 }

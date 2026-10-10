@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
-    "acc": 1200,
-    "desde": 0
+    "acc": 1080,
+    "desde": 1791651930010
    },
    "lances": [
     {
@@ -550,7 +550,7 @@
       "num": "14",
       "nome": "WILLIAN CARIOCA",
       "e": "S",
-      "min": "",
+      "min": "38",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/45/81/424581_willian_carioca_20250731153926.png"
@@ -2573,6 +2573,6 @@
    }
   }
  ],
- "ts": 1791651929039,
+ "ts": 1791651940513,
  "build": "20260915132319"
 }

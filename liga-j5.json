@@ -1415,12 +1415,19 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "final",
     "parte": 2,
     "acc": 1200,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "lf1791657398560",
+     "m": 40,
+     "lado": "",
+     "txt": "Final do jogo: Torreense 3-1 Portimonense. Vitória do Torreense."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2609,6 +2616,6 @@
    }
   }
  ],
- "ts": 1791657389940,
+ "ts": 1791657402038,
  "build": "20260915132319"
 }

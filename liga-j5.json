@@ -153,10 +153,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 2,
-    "acc": 1200,
-    "desde": 0
+    "acc": 840,
+    "desde": 1791651254386
    },
    "lances": [
     {
@@ -442,7 +442,7 @@
       "num": "3",
       "nome": "TIAGO SOUSA",
       "e": "P",
-      "min": "",
+      "min": "34",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/40/21/434021_tiago_sousa_20241106162555.jpg"
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791651242839,
+ "ts": 1791651260840,
  "build": "20260915132319"
 }

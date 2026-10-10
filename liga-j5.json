@@ -2223,10 +2223,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
-    "acc": 0,
-    "desde": 0
+    "acc": 240,
+    "desde": 1791663922759
    },
    "lances": [],
    "faltas": [],
@@ -2624,11 +2624,31 @@
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/50/92/16615092_isaias_furtado_20260908152149.jpg"
+     },
+     {
+      "num": "52",
+      "nome": "SIMÃO FERNANDES",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
+     },
+     {
+      "num": "53",
+      "nome": "FÁBIO PAULO",
+      "e": "S",
+      "min": "",
+      "cart": "",
+      "ass": "",
+      "foto": "",
+      "extra": 1
      }
     ]
    }
   }
  ],
- "ts": 1791663695639,
+ "ts": 1791663927278,
  "build": "20260915132319"
 }

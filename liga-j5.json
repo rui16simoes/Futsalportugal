@@ -987,10 +987,10 @@
    "data": "10 de outubro de 2026",
    "hora": "17h30",
    "local": "Pavilhão Municipal das Lameiras, Famalicão",
-   "arb1": "",
-   "arb2": "",
-   "arb3": "",
-   "cron": "",
+   "arb1": "EDUARDO COELHO",
+   "arb2": "LUIS SANTOS",
+   "arb3": "RICARDO FILIPE",
+   "cron": "FÁBIO SILVA",
    "obs": "",
    "tv": "Canal 11",
    "tvUrl": "",
@@ -1051,14 +1051,14 @@
    "casa": {
     "eq": "famalicao",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUIZINHO",
     "treinador": "CLÁUDIO MARTINS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/683/45683_pri__20260731153538_claudio_martins.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO NUNES (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1067,7 +1067,7 @@
      {
       "num": "14",
       "nome": "CLÁUDIO CARVALHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1076,7 +1076,7 @@
      {
       "num": "16",
       "nome": "MIGUEL FERREIRA (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1085,7 +1085,7 @@
      {
       "num": "31",
       "nome": "GUILHERME REGO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1094,7 +1094,7 @@
      {
       "num": "5",
       "nome": "FILIPE COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1103,7 +1103,7 @@
      {
       "num": "22",
       "nome": "BUZUZU",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1112,7 +1112,7 @@
      {
       "num": "6",
       "nome": "AFONSO VIEIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1121,7 +1121,7 @@
      {
       "num": "7",
       "nome": "DANIEL SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1130,7 +1130,7 @@
      {
       "num": "8",
       "nome": "SIMÃO CORDEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1139,7 +1139,7 @@
      {
       "num": "19",
       "nome": "RÚBEN SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1148,7 +1148,7 @@
      {
       "num": "21",
       "nome": "MATHIS PEREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1157,7 +1157,7 @@
      {
       "num": "28",
       "nome": "GUI TORRES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1166,7 +1166,7 @@
      {
       "num": "77",
       "nome": "JEFFERSON",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1175,7 +1175,7 @@
      {
       "num": "10",
       "nome": "RUIZINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1184,7 +1184,7 @@
      {
       "num": "11",
       "nome": "JOÃO MIGUEL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1193,7 +1193,7 @@
      {
       "num": "39",
       "nome": "GUGA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1202,7 +1202,7 @@
      {
       "num": "97",
       "nome": "LEANDRO RIBEIRO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1213,14 +1213,14 @@
    "fora": {
     "eq": "zezere",
     "golos": "",
-    "capitao": "",
+    "capitao": "RUI FONTES",
     "treinador": "CRISTIANO COELHO",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/993/18993_cristiano_coelho_1750148007.png",
     "jogadores": [
      {
       "num": "1",
       "nome": "PEDRO MARTINHO (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1229,7 +1229,7 @@
      {
       "num": "13",
       "nome": "NILTON (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1238,7 +1238,7 @@
      {
       "num": "14",
       "nome": "FÁBIO MADEIRA (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1247,7 +1247,7 @@
      {
       "num": "92",
       "nome": "DJAELSON",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1256,7 +1256,7 @@
      {
       "num": "20",
       "nome": "DANIEL SODRÉ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1265,7 +1265,7 @@
      {
       "num": "36",
       "nome": "CHAPINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1274,7 +1274,7 @@
      {
       "num": "2",
       "nome": "AFONSO MOURINHA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1283,7 +1283,7 @@
      {
       "num": "8",
       "nome": "KAKÁ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1292,7 +1292,7 @@
      {
       "num": "10",
       "nome": "WENDELL",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1301,7 +1301,7 @@
      {
       "num": "19",
       "nome": "LEONARDO TRAVESSA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1310,7 +1310,7 @@
      {
       "num": "23",
       "nome": "DAVID COSTA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1319,7 +1319,7 @@
      {
       "num": "31",
       "nome": "OCTÁVIO ALVES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1328,7 +1328,7 @@
      {
       "num": "88",
       "nome": "SANDRO SILVA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1337,7 +1337,7 @@
      {
       "num": "7",
       "nome": "RUI FORTES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -1346,7 +1346,7 @@
      {
       "num": "90",
       "nome": "GUILHERME CANUTO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791649440021,
+ "ts": 1791649471929,
  "build": "20260915132319"
 }

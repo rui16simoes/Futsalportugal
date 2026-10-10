@@ -997,8 +997,8 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 1,
-    "acc": 1020,
-    "desde": 1791651784778
+    "acc": 1080,
+    "desde": 1791651909897
    },
    "lances": [],
    "faltas": [
@@ -1328,7 +1328,7 @@
       "num": "31",
       "nome": "OCTÁVIO ALVES",
       "e": "S",
-      "min": "",
+      "min": "18",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/65/44/636544_octavio_alves_20250911080505.png"
@@ -2573,6 +2573,6 @@
    }
   }
  ],
- "ts": 1791651791931,
+ "ts": 1791651917287,
  "build": "20260915132319"
 }

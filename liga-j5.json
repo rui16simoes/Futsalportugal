@@ -155,19 +155,19 @@
    "relogio": {
     "estado": "a_correr",
     "parte": 1,
-    "acc": 420,
-    "desde": 1791646955495
+    "acc": 600,
+    "desde": 1791647390580
    },
    "lances": [
     {
      "id": "lp1791647326017",
-     "m": 14,
+     "m": 9,
      "lado": "casa",
      "txt": "Grande penalidade a favor do Eléctrico, após um lance confuso. Assinalada pelo árbitro Filipe Duarte."
     },
     {
      "id": "lb1791647354950",
-     "m": 14,
+     "m": 9,
      "lado": "fora",
      "txt": "Jogador do SC Braga toca a bola com a mão no carrinho, no lance que dá a grande penalidade."
     }
@@ -198,7 +198,7 @@
      "id": "fb1_1",
      "lado": "fora",
      "parte": 1,
-     "m": 14,
+     "m": 9,
      "n": 1
     }
    ],
@@ -295,7 +295,7 @@
       "num": "33",
       "nome": "TELMO SOUSA",
       "e": "S",
-      "min": "",
+      "min": "10",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/82/32/16598232_telmo_sousa_20260715165647.png"
@@ -2553,6 +2553,6 @@
    }
   }
  ],
- "ts": 1791647360973,
+ "ts": 1791647397134,
  "build": "20260915132319"
 }

@@ -2215,8 +2215,8 @@
    "data": "10 de outubro de 2026",
    "hora": "21h15",
    "local": "Pavilhão João Rocha, Lisboa",
-   "arb1": "",
-   "arb2": "",
+   "arb1": "RÚBEN SANTOS",
+   "arb2": "CRISTIANO SANTOS",
    "arb3": "",
    "cron": "",
    "obs": "",
@@ -2279,14 +2279,14 @@
    "casa": {
     "eq": "sporting",
     "golos": "",
-    "capitao": "",
+    "capitao": "ALEX MERLIM",
     "treinador": "NUNO DIAS",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/906/3906_nuno_dias_1789131732.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "GONÇALO PORTUGAL (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2295,7 +2295,7 @@
      {
       "num": "16",
       "nome": "BERNARDO PAÇÓ (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2304,7 +2304,7 @@
      {
       "num": "77",
       "nome": "OLEKSANDR SUKHOV (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2313,7 +2313,7 @@
      {
       "num": "2",
       "nome": "RAFAEL RUELA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2322,7 +2322,7 @@
      {
       "num": "4",
       "nome": "TOMÁS PAÇÓ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2331,7 +2331,7 @@
      {
       "num": "44",
       "nome": "BRUNO MAIOR",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2340,7 +2340,7 @@
      {
       "num": "8",
       "nome": "WESLEY",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2349,7 +2349,7 @@
      {
       "num": "17",
       "nome": "ERICK MENDONÇA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2358,7 +2358,7 @@
      {
       "num": "7",
       "nome": "DIOGO SANTOS",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2367,7 +2367,7 @@
      {
       "num": "10",
       "nome": "RÚBEN TEIXEIRA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2376,7 +2376,7 @@
      {
       "num": "11",
       "nome": "IVAN CHISHKALA",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2385,7 +2385,7 @@
      {
       "num": "13",
       "nome": "TIAGUINHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2394,7 +2394,7 @@
      {
       "num": "14",
       "nome": "FELIPE VALÉRIO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2403,7 +2403,7 @@
      {
       "num": "25",
       "nome": "BRUNO PINTO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2412,7 +2412,7 @@
      {
       "num": "29",
       "nome": "ALEX MERLIM",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2421,7 +2421,7 @@
      {
       "num": "6",
       "nome": "ZICKY TÉ",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2430,7 +2430,7 @@
      {
       "num": "30",
       "nome": "FELIPE RUFINO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2439,7 +2439,7 @@
      {
       "num": "70",
       "nome": "ROCHA",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2450,14 +2450,14 @@
    "fora": {
     "eq": "leoes",
     "golos": "",
-    "capitao": "",
+    "capitao": "RÉ",
     "treinador": "MIGUEL VELEZ",
     "trFoto": "https://cdn-img.staticzz.com/img/treinadores/628/51628_miguel_velez_1788877461.jpg",
     "jogadores": [
      {
       "num": "1",
       "nome": "GUILHERME CINTRA (GR)",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2466,7 +2466,7 @@
      {
       "num": "16",
       "nome": "RODRIGO PRAZERES (GR)",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2475,7 +2475,7 @@
      {
       "num": "21",
       "nome": "DANIEL OSUJI (GR)",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2484,7 +2484,7 @@
      {
       "num": "6",
       "nome": "RÚBEN CARRILHO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2493,7 +2493,7 @@
      {
       "num": "29",
       "nome": "HENRIQUE RODRIGUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2502,7 +2502,7 @@
      {
       "num": "70",
       "nome": "MACHADO",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2511,7 +2511,7 @@
      {
       "num": "4",
       "nome": "LEONILDO INJAI",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2520,7 +2520,7 @@
      {
       "num": "53",
       "nome": "DIEGO GABRIEL",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2529,7 +2529,7 @@
      {
       "num": "53",
       "nome": "TIAGO PEREIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2538,7 +2538,7 @@
      {
       "num": "7",
       "nome": "BRUNO SÁ",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2547,7 +2547,7 @@
      {
       "num": "8",
       "nome": "BRUNO MARQUES",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2556,7 +2556,7 @@
      {
       "num": "10",
       "nome": "PEDRO MARQUES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2565,7 +2565,7 @@
      {
       "num": "11",
       "nome": "NATAN MINATTI",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2574,7 +2574,7 @@
      {
       "num": "14",
       "nome": "RÉ",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2583,7 +2583,7 @@
      {
       "num": "18",
       "nome": "FRANCISCO OLIVEIRA",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2592,7 +2592,7 @@
      {
       "num": "30",
       "nome": "RICARDINHO",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2601,7 +2601,7 @@
      {
       "num": "9",
       "nome": "PEDRO SANTOS",
-      "e": "",
+      "e": "P",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2610,7 +2610,7 @@
      {
       "num": "25",
       "nome": "DAVY MENDES",
-      "e": "",
+      "e": "N",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2619,7 +2619,7 @@
      {
       "num": "99",
       "nome": "ISAÍAS FURTADO",
-      "e": "",
+      "e": "S",
       "min": "",
       "cart": "",
       "ass": "",
@@ -2629,6 +2629,6 @@
    }
   }
  ],
- "ts": 1791663135065,
+ "ts": 1791663695639,
  "build": "20260915132319"
 }

@@ -995,10 +995,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
+    "estado": "a_correr",
     "parte": 1,
-    "acc": 1200,
-    "desde": 0
+    "acc": 960,
+    "desde": 1791651572413
    },
    "lances": [],
    "faltas": [],
@@ -1105,7 +1105,7 @@
       "nome": "BUZUZU",
       "e": "S",
       "min": "",
-      "cart": "14",
+      "cart": "14, 16d",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/13/38/421338_buzuzu_20251107083104.png"
      },
@@ -1338,7 +1338,7 @@
       "num": "7",
       "nome": "RUI FORTES",
       "e": "S",
-      "min": "",
+      "min": "16",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/49/64/584964_rui_fortes_20250911080555.png"
@@ -2565,6 +2565,6 @@
    }
   }
  ],
- "ts": 1791651419580,
+ "ts": 1791651579595,
  "build": "20260915132319"
 }

@@ -616,12 +616,19 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "parado",
-    "parte": 1,
-    "acc": 0,
+    "estado": "final",
+    "parte": 2,
+    "acc": 1200,
     "desde": 0
    },
-   "lances": [],
+   "lances": [
+    {
+     "id": "lf1791654432736",
+     "m": 40,
+     "lado": "",
+     "txt": "Final do jogo: Rio Ave 4-1 UPVN. Vitória do Rio Ave."
+    }
+   ],
    "faltas": [],
    "gp": {
     "casa": [
@@ -2586,6 +2593,6 @@
    }
   }
  ],
- "ts": 1791654385983,
+ "ts": 1791654436187,
  "build": "20260915132319"
 }

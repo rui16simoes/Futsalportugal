@@ -723,7 +723,7 @@
       "num": "27",
       "nome": "MARTIM CASTELA",
       "e": "S",
-      "min": "",
+      "min": "39",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/03/03/1040303_martim_castela_20250130150954.jpg"
@@ -741,7 +741,7 @@
       "num": "7",
       "nome": "RÚBEN FREIRE",
       "e": "P",
-      "min": "",
+      "min": "31",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/29/00/512900_ruben_freire_20260112150515.png"
@@ -777,7 +777,7 @@
       "num": "14",
       "nome": "MIGUEL ÂNGELO",
       "e": "P",
-      "min": "",
+      "min": "40",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/planteis/new/85/87/16668587_miguel_angelo_20260724154443.png"
@@ -813,7 +813,7 @@
       "num": "19",
       "nome": "MARTÍN DORDA",
       "e": "P",
-      "min": "",
+      "min": "24",
       "cart": "",
       "ass": "",
       "foto": "https://cdn-img.staticzz.com/img/jogadores/new/59/28/1335928_martin_dorda_20250908115042.png"
@@ -1405,10 +1405,10 @@
    "tv": "Canal 11",
    "tvUrl": "",
    "relogio": {
-    "estado": "a_correr",
+    "estado": "parado",
     "parte": 2,
-    "acc": 900,
-    "desde": 1791656685785
+    "acc": 1200,
+    "desde": 0
    },
    "lances": [],
    "faltas": [],
@@ -2599,6 +2599,6 @@
    }
   }
  ],
- "ts": 1791656689975,
+ "ts": 1791657042080,
  "build": "20260915132319"
 }
